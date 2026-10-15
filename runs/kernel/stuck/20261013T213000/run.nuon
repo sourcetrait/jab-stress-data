@@ -1,0 +1,21 @@
+{
+  set: stuck,
+  stamp: "20261013T213000",
+  task: LauncherCounts,
+  scope: {
+    kind: targeted,
+    ran: 1,
+    of: 11,
+    names: [
+      source_bound_removed
+    ]
+  },
+  builds: [
+    [part, build,                                      checkout, record];
+    [run,  "3fc2ca04915241597575d49990f196bd6226af4f", jab,      "baseline.nuon"]
+  ],
+  kept: {
+    as: checkpoint,
+    why: "cited as evidence by FrameCeiling's LauncherCounts; also the latest run of source_bound_removed, a slice no whole run of the set covers"
+  }
+}

@@ -1,0 +1,20 @@
+workergauge holds: ok
+nu /home/box/tmp/ai/two/ksQVLWyOdCh/reader_mutants_gaincurves/curves_problems_ignored/fps/readers/workergauge.nu holds /home/box/tmp/ai/two/ksQVLWyOdCh/reader_mutants_gaincurves/curves_problems_ignored/workergauge_holds
+packetgauge holds: ok
+nu /home/box/tmp/ai/two/ksQVLWyOdCh/reader_mutants_gaincurves/curves_problems_ignored/fps/readers/packetgauge.nu holds /home/box/tmp/ai/two/ksQVLWyOdCh/reader_mutants_gaincurves/curves_problems_ignored/packetgauge_holds
+lane holds: ok
+nu /home/box/tmp/ai/two/ksQVLWyOdCh/reader_mutants_gaincurves/curves_problems_ignored/fps/readers/lane.nu holds /home/box/tmp/ai/two/ksQVLWyOdCh/reader_mutants_gaincurves/curves_problems_ignored/lane_holds
+gaincurves play: 1 builds, 0 problems, identities alike true; /home/box/tmp/ai/two/ksQVLWyOdCh/reader_mutants_gaincurves/curves_problems_ignored/gaincurves_holds/clean.nuon
+nu /home/box/tmp/ai/two/ksQVLWyOdCh/reader_mutants_gaincurves/curves_problems_ignored/fps/readers/gaincurves.nu holds /home/box/tmp/ai/two/ksQVLWyOdCh/reader_mutants_gaincurves/curves_problems_ignored/gaincurves_holds
+Error: nu::shell::error
+
+  x gaincurves holds: a battery with an invalid run is refused by curves:
+  | accepted
+     ,-[/home/box/tmp/ai/two/ksQVLWyOdCh/reader_mutants_gaincurves/curves_problems_ignored/fps/readers/gaincurves.nu:127:56]
+ 126 |     mkdir $scratch
+ 127 |     let fail = {|name: string, why: string| error make { msg: $"gaincurves holds: ($name): ($why)" } }
+     :                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 128 |     let named = {|name: string, work: closure| try { do $work } catch {|e| do $fail $name $"raised: ($e.msg | str substring 0..300)" } }
+     `----
+
+error: recipe `reader-holds` failed on line 91 with exit code 1

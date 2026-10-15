@@ -1,0 +1,18 @@
+{
+  set: cases,
+  stamp: "20261012T163337",
+  task: DemandRerun,
+  scope: {
+    kind: whole,
+    ran: 22,
+    of: 22
+  },
+  builds: [
+    [part, build, checkout,  record];
+    [run,  null,  synthetic, "results.nuon"]
+  ],
+  kept: {
+    as: current,
+    why: "the latest whole run of the cases, cited as evidence by ResourceScaling's DemandRerun"
+  }
+}

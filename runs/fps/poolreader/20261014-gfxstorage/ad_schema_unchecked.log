@@ -1,0 +1,12 @@
+nu /home/box/tmp/ai/two/7OBPNPn8Uww/prm_1/ad_schema_unchecked/fps/readers/admission.nu holds /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/gauge/game/fps/admission /home/box/tmp/ai/two/7OBPNPn8Uww/prm_1/ad_schema_unchecked/fps/readers/ad_holds
+Error: nu::shell::error
+
+  x admission holds: a run at schema 4: accepted
+    ,-[/home/box/tmp/ai/two/7OBPNPn8Uww/prm_1/ad_schema_unchecked/fps/readers/admission.nu:96:56]
+ 95 |     mkdir $scratch
+ 96 |     let fail = {|name: string, why: string| error make { msg: $"admission holds: ($name): ($why)" } }
+    :                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 97 |     let labels = [admission_factory_w2 admission_factory_w0 admission_settled_w2 admission_settled_w0]
+    `----
+
+error: recipe `admission-holds` failed on line 35 with exit code 1

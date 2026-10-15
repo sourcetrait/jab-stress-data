@@ -1,0 +1,20 @@
+--- test/workers
+Error: nu::shell::error
+
+  x CoordinatorWait: the note lasts the join's second and its release:
+  | 0.21389583333333334
+    ,-[/home/box/proj/sourcetrait/jab/test/workers/test/test.nu:97:12]
+ 96 |     let seconds = (($last - $first) / $RATE)
+ 97 |     assert ($seconds > 0.95 and $seconds < 1.2) $"CoordinatorWait: the note lasts the join's second and its release: ($seconds)"
+    :            ^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^
+    :                              `-- It is not true.
+ 98 |     let tone = ($left | slice $first..$last)
+    `----
+
+╭───┬──────────────┬────────╮
+│ # │   program    │ passed │
+├───┼──────────────┼────────┤
+│ 0 │ test/workers │ false  │
+╰───┴──────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

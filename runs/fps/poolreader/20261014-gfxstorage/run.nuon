@@ -1,0 +1,18 @@
+{
+  set: poolreader,
+  stamp: "20261014-gfxstorage",
+  task: GfxStorage,
+  scope: {
+    kind: whole,
+    ran: 20,
+    of: 20
+  },
+  builds: [
+    [part, build, checkout,  record];
+    [run,  null,  synthetic, unrecorded]
+  ],
+  kept: {
+    as: current,
+    why: "the latest whole run of the set"
+  }
+}

@@ -1,0 +1,23 @@
+--- test/demand
+Error: nu::shell::error
+
+  x a base demand equal to the spec's harts holds, and a feature's demand past
+  | every spec refuses nothing: {specs: ["1KA1"], reserved: {gfx_harts: 2},
+  | features: [], base: 3}
+  | These are not equal.
+     ,-[/home/box/proj/sourcetrait/jab/test/demand/test/test.nu:126:18]
+ 125 |     let fitted = (read-demand (do $manifest "fitted" $"specs = ['($smallest.name)']\n($reserving)[feature.probe]\nio_harts = ($largest)\n"))
+ 126 |     assert equal $fitted { specs: [$smallest.name], reserved: { gfx_harts: $fits }, features: [{ name: "probe", io_harts: $largest }], base: $smallest.cores } $"a base demand equal to the spec's harts holds, and a feature's demand past every spec refuses nothing: ($fitted | to nuon)"
+     :                  ^^^|^^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     :                     |                                                                      `-- right: {specs: ["1KA1"], reserved: {gfx_harts: 2}, features: [[name, io_harts]; [probe, 31]], base: 3}
+     :                     `-- left: {specs: ["1KA1"], reserved: {gfx_harts: 2}, features: [], base: 3}
+ 127 | 
+     `----
+
+╭───┬─────────────┬────────╮
+│ # │   program   │ passed │
+├───┼─────────────┼────────┤
+│ 0 │ test/demand │ false  │
+╰───┴─────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

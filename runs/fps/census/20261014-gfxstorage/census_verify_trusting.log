@@ -1,0 +1,29 @@
+nu /home/box/proj/sourcetrait/jab-stress/fps/just/../../../jab/game/fps/test/test.nu --kernel /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel/jab.elf --image /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/census_set_gfxstorage/packets_census_verify_trusting/debug/fps.jab --out /home/box/ai/two/data/jab/mutants/census-gfxstorage-20261014/census_verify_trusting --set CENSUS,DEBUG --assets /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/game/fps/fps.romfs
+Error: nu::shell::error
+
+  x the tile past the last node shaded at lumel_sample's texel centres:
+  | {skipped: false, nodes: 0, sampler: 1}
+  | These are not equal.
+    ,-[/home/box/proj/sourcetrait/jab/game/fps/test/census_holds.nu:32:18]
+ 31 |     assert equal $edge.nodes 0 $"the tile past the last node shaded by its nodes, the penultimate column's in reach as lumel_sample clamps: ($edge)"
+ 32 |     assert equal $edge.sampler 0 $"the tile past the last node shaded at lumel_sample's texel centres: ($edge)"
+    :                  ^^^^^^|^^^^^^ |
+    :                        |       `-- right: 0
+    :                        `-- left: 1
+ 33 | 
+    `----
+
+Error: nu::shell::error
+
+  x the census fixture's reading held in a nu of its own
+  | These are not equal.
+      ,-[/home/box/proj/sourcetrait/jab-stress/fps/just/../../../jab/game/fps/test/test.nu:5368:18]
+ 5367 |     if $read.exit_code != 0 { print -e -n $read.stderr }
+ 5368 |     assert equal $read.exit_code 0 "the census fixture's reading held in a nu of its own"
+      :                  ^^^^^^^|^^^^^^^ |
+      :                         |        `-- right: 0
+      :                         `-- left: 1
+ 5369 | }
+      `----
+
+error: recipe `image-test` failed on line 18 with exit code 1

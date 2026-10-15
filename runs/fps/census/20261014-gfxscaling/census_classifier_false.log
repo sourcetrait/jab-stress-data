@@ -1,0 +1,26 @@
+nu /home/box/proj/sourcetrait/jab-stress/fps/just/../../../jab/game/fps/test/test.nu --kernel /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel/jab.elf --image /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/packets_census_classifier_false/debug/fps.jab --out /home/box/ai/two/data/jab/mutants/tilecensus-gfxscaling-20261014/census_classifier_false --set CENSUS,DEBUG --assets /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/game/fps/fps.romfs
+Error: nu::shell::error
+
+  x the ordinary light's uniform tiles checked by lumel_sample: 0
+    ,-[/home/box/proj/sourcetrait/jab/game/fps/test/census_holds.nu:76:12]
+ 75 |     let ordinary_checked = ($ordinary | get checked | math sum)
+ 76 |     assert ($ordinary_checked > 0) $"the ordinary light's uniform tiles checked by lumel_sample: ($ordinary_checked)"
+    :            ^^^^^^^^^^^|^^^^^^^^^^^
+    :                       `-- It is not true.
+ 77 |     for revision in [1 3] {
+    `----
+
+Error: nu::shell::error
+
+  x the census fixture's reading held in a nu of its own
+  | These are not equal.
+      ,-[/home/box/proj/sourcetrait/jab-stress/fps/just/../../../jab/game/fps/test/test.nu:5676:18]
+ 5675 |     if $read.exit_code != 0 { print -e -n $read.stderr }
+ 5676 |     assert equal $read.exit_code 0 "the census fixture's reading held in a nu of its own"
+      :                  ^^^^^^^|^^^^^^^ |
+      :                         |        `-- right: 0
+      :                         `-- left: 1
+ 5677 | }
+      `----
+
+error: recipe `image-test` failed on line 18 with exit code 1

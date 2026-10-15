@@ -1,0 +1,23 @@
+--- test/reservations
+Error: nu::shell::error
+
+  x three: each change of ownership on the debug channel: [jab: harts claimed
+  | 2 0x0000000000000004, jab: harts released 2 0x0000000000000004, jab: harts
+  | claimed 3 0x0000000000000004, jab: harts released 3 0x0000000000000004]
+  | These are not equal.
+    ,-[/home/box/proj/sourcetrait/jab/test/reservations/test/test.nu:72:26]
+ 71 |             let changes = ($run.debug | lines | where {|l| ["jab: harts reserved " "jab: harts claimed " "jab: harts released "] | any {|p| $l | str starts-with $p } })
+ 72 |             assert equal $changes (changes $m.online $m.spent) $"($m.name): each change of ownership on the debug channel: ($changes)"
+    :                          ^^^^|^^^ ^^^^^^^^^^^^^^|^^^^^^^^^^^^^
+    :                              |                  `-- right: ["jab: harts reserved 1 grant 0x0000000000000006", "jab: harts claimed 2 0x0000000000000004", "jab: harts released 2 0x0000000000000004", "jab: harts claimed 3 0x0000000000000004", "jab: harts released 3 0x0000000000000004"]
+    :                              `-- left: ["jab: harts claimed 2 0x0000000000000004", "jab: harts released 2 0x0000000000000004", "jab: harts claimed 3 0x0000000000000004", "jab: harts released 3 0x0000000000000004"]
+ 73 |         }
+    `----
+
+╭───┬───────────────────┬────────╮
+│ # │      program      │ passed │
+├───┼───────────────────┼────────┤
+│ 0 │ test/reservations │ false  │
+╰───┴───────────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

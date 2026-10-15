@@ -1,0 +1,20 @@
+{
+  set: sdl,
+  stamp: "20261015-planning",
+  task: ProbeBySymbol,
+  scope: {
+    kind: whole,
+    ran: 3,
+    of: 3
+  },
+  builds: [
+    [part,                 build, checkout, record];
+    [walk-mono-debug,      null,  jab,      unrecorded],
+    [walk-mono-release,    null,  jab,      unrecorded],
+    [bounce-modular-debug, null,  jab,      unrecorded]
+  ],
+  kept: {
+    as: current,
+    why: "the probe's latest runs, cited as evidence by HostWatch's ProbeBySymbol"
+  }
+}

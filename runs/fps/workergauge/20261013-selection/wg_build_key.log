@@ -1,0 +1,17 @@
+nu /home/box/tmp/ai/two/7OBPNPn8Uww/reader_mutants_1/wg_build_key/fps/readers/workergauge.nu holds /home/box/tmp/ai/two/7OBPNPn8Uww/reader_mutants_1/wg_build_key/workergauge_holds
+Error: nu::shell::error
+
+  x workergauge holds: the pair kept as two builds with separate results:
+  | [[pair, forced, ["pair_1", "pair_2"]]]
+     ,-[/home/box/tmp/ai/two/7OBPNPn8Uww/reader_mutants_1/wg_build_key/fps/readers/workergauge.nu:289:56]
+ 288 |     mkdir $scratch
+ 289 |     let fail = {|name: string, why: string| error make { msg: $"workergauge holds: ($name): ($why)" } }
+     :                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 290 |     let named = {|name: string, work: closure| try { do $work } catch {|e| do $fail $name $"raised: ($e.msg | str substring 0..300)" } }
+     `----
+
+error: recipe `reader-holds` failed on line 91 with exit code 1
+packetgauge holds: ok
+nu /home/box/tmp/ai/two/7OBPNPn8Uww/reader_mutants_1/wg_build_key/fps/readers/packetgauge.nu holds /home/box/tmp/ai/two/7OBPNPn8Uww/reader_mutants_1/wg_build_key/packetgauge_holds
+lane holds: ok
+nu /home/box/tmp/ai/two/7OBPNPn8Uww/reader_mutants_1/wg_build_key/fps/readers/lane.nu holds /home/box/tmp/ai/two/7OBPNPn8Uww/reader_mutants_1/wg_build_key/lane_holds

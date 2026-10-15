@@ -1,0 +1,31 @@
+{
+ call: hsstgpMRNuo,
+ mark: JAB_RUNNER_MARK,
+ stage: ".jabstage.",
+ root: /home/box/tmp/ai/two/iPntyQzLDsd/f_orphan,
+ commit: "fe79b90a42b518550ff110763c5dd440d128466f",
+ set: "/home/box/tmp/ai/two/iPntyQzLDsd/f_orphan/set_orphan.nuon",
+ "set_sha256": "0a3f526ef1d7a725777d7d0fb91e236f947664b7f732493f585619ecca215fd3",
+ only: [
+  orphan
+ ],
+ control: {
+  program: cases,
+  ok: "eviction reuse: ok"
+ },
+ deadline: 120,
+ margin: 15,
+ kill_after: 5,
+ hold: {
+  at: "",
+  seconds: 0
+ },
+ started: "2026-10-12T19:20:40.556+0000",
+ paths: [
+  [file, committed,                                                          mutated];
+  [case, "0fcd568a5cb9bdb4677b69354b11ee415af8f784519cff3da49a26f84eaee7f2", [
+    [mutant, hash];
+    [orphan, "88f6811ab5d8fc6d3177f9b7609ae0fcebfda187e5046b62d38bb539e88b74d7"]
+   ]]
+ ]
+}

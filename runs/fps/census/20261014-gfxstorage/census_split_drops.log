@@ -1,0 +1,145 @@
+nu /home/box/proj/sourcetrait/jab-stress/fps/just/../../../jab/game/fps/test/test.nu --kernel /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel/jab.elf --image /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/census_set_gfxstorage/packets_census_split_drops/debug/fps.jab --out /home/box/ai/two/data/jab/mutants/census-gfxstorage-20261014/census_split_drops --set CENSUS,DEBUG --assets /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/game/fps/fps.romfs
+Error: nu::shell::error
+
+  x every census frame whole and accounting: [{frame: 19, reasons: [the list
+  | of side 32 context 1 does not reassemble: 13 surfaces against 15 listed,
+  | counts summing to 329 against 378 distinct, the list of side 32 context 2
+  | does not reassemble: 22 surfaces against 26 listed, counts summing to 267
+  | against 423 distinct, the list of side 32 context 3 does not reassemble:
+  | 18 surfaces against 21 listed, counts summing to 273 against 332 distinct,
+  | the list of side 32 context 4 does not reassemble: 16 surfaces against 19
+  | listed, counts summing to 344 against 409 distinct, the list of side 32
+  | context 5 does not reassemble: 27 surfaces against 31 listed, counts
+  | summing to 294 against 361 distinct, the list of side 32 context 6 does
+  | not reassemble: 20 surfaces against 23 listed, counts summing to 333
+  | against 379 distinct, the list of side 32 context 7 does not reassemble:
+  | 18 surfaces against 21 listed, counts summing to 261 against 334 distinct,
+  | the list of side 64 context 1 does not reassemble: 13 surfaces against 15
+  | listed, counts summing to 165 against 200 distinct, the list of side 64
+  | context 2 does not reassemble: 22 surfaces against 26 listed, counts
+  | summing to 185 against 214 distinct, the list of side 64 context 3 does
+  | not reassemble: 18 surfaces against 21 listed, counts summing to 126
+  | against 183 distinct, the list of side 64 context 4 does not reassemble:
+  | 16 surfaces against 19 listed, counts summing to 173 against 205 distinct,
+  | the list of side 64 context 5 does not reassemble: 27 surfaces against 31
+  | listed, counts summing to 115 against 195 distinct, the list of side 64
+  | context 6 does not reassemble: 20 surfaces against 23 listed, counts
+  | summing to 169 against 194 distinct, the list of side 64 context 7 does
+  | not reassemble: 18 surfaces against 21 listed, counts summing to 155
+  | against 181 distinct, the list of side 128 context 1 does not reassemble:
+  | 13 surfaces against 15 listed, counts summing to 82 against 97 distinct,
+  | the list of side 128 context 2 does not reassemble: 22 surfaces against 26
+  | listed, counts summing to 76 against 115 distinct, the list of side 128
+  | context 3 does not reassemble: 18 surfaces against 21 listed, counts
+  | summing to 83 against 107 distinct, the list of side 128 context 4 does
+  | not reassemble: 16 surfaces against 19 listed, counts summing to 86
+  | against 106 distinct, the list of side 128 context 5 does not reassemble:
+  | 27 surfaces against 31 listed, counts summing to 85 against 112 distinct,
+  | the list of side 128 context 6 does not reassemble: 20 surfaces against 23
+  | listed, counts summing to 94 against 111 distinct, the list of side 128
+  | context 7 does not reassemble: 18 surfaces against 21 listed, counts
+  | summing to 68 against 87 distinct, side 32's 42 requesting surfaces not
+  | the 40 its contexts list, side 64's 42 requesting surfaces not the 41 its
+  | contexts list, side 128's 42 requesting surfaces not the 40 its contexts
+  | list]}, {frame: 20, reasons: [the list of side 32 context 1 does not
+  | reassemble: 13 surfaces against 15 listed, counts summing to 329 against
+  | 378 distinct, the list of side 32 context 2 does not reassemble: 27
+  | surfaces against 31 listed, counts summing to 288 against 357 distinct,
+  | the list of side 32 context 3 does not reassemble: 22 surfaces against 26
+  | listed, counts summing to 247 against 354 distinct, the list of side 32
+  | context 4 does not reassemble: 18 surfaces against 21 listed, counts
+  | summing to 339 against 393 distinct, the list of side 32 context 5 does
+  | not reassemble: 18 surfaces against 21 listed, counts summing to 319
+  | against 397 distinct, the list of side 32 context 6 does not reassemble:
+  | 20 surfaces against 23 listed, counts summing to 284 against 328 distinct,
+  | the list of side 32 context 7 does not reassemble: 16 surfaces against 19
+  | listed, counts summing to 344 against 409 distinct, the list of side 64
+  | context 1 does not reassemble: 13 surfaces against 15 listed, counts
+  | summing to 165 against 200 distinct, the list of side 64 context 2 does
+  | not reassemble: 27 surfaces against 31 listed, counts summing to 112
+  | against 192 distinct, the list of side 64 context 3 does not reassemble:
+  | 22 surfaces against 26 listed, counts summing to 156 against 188 distinct,
+  | the list of side 64 context 4 does not reassemble: 18 surfaces against 21
+  | listed, counts summing to 161 against 217 distinct, the list of side 64
+  | context 5 does not reassemble: 18 surfaces against 21 listed, counts
+  | summing to 178 against 206 distinct, the list of side 64 context 6 does
+  | not reassemble: 20 surfaces against 23 listed, counts summing to 143
+  | against 170 distinct, the list of side 64 context 7 does not reassemble:
+  | 16 surfaces against 19 listed, counts summing to 173 against 205 distinct,
+  | the list of side 128 context 1 does not reassemble: 13 surfaces against 15
+  | listed, counts summing to 82 against 97 distinct, the list of side 128
+  | context 2 does not reassemble: 27 surfaces against 31 listed, counts
+  | summing to 85 against 113 distinct, the list of side 128 context 3 does
+  | not reassemble: 22 surfaces against 26 listed, counts summing to 74
+  | against 102 distinct, the list of side 128 context 4 does not reassemble:
+  | 18 surfaces against 21 listed, counts summing to 96 against 120 distinct,
+  | the list of side 128 context 5 does not reassemble: 18 surfaces against 21
+  | listed, counts summing to 79 against 98 distinct, the list of side 128
+  | context 6 does not reassemble: 20 surfaces against 23 listed, counts
+  | summing to 83 against 100 distinct, the list of side 128 context 7 does
+  | not reassemble: 16 surfaces against 19 listed, counts summing to 86
+  | against 106 distinct, side 32's 42 requesting surfaces not the 40 its
+  | contexts list, side 64's 42 requesting surfaces not the 41 its contexts
+  | list, side 128's 42 requesting surfaces not the 40 its contexts list]},
+  | {frame: 21, reasons: [the list of side 32 context 1 does not reassemble:
+  | 13 surfaces against 15 listed, counts summing to 329 against 378 distinct,
+  | the list of side 32 context 2 does not reassemble: 16 surfaces against 19
+  | listed, counts summing to 344 against 409 distinct, the list of side 32
+  | context 3 does not reassemble: 27 surfaces against 31 listed, counts
+  | summing to 305 against 373 distinct, the list of side 32 context 4 does
+  | not reassemble: 18 surfaces against 21 listed, counts summing to 352
+  | against 428 distinct, the list of side 32 context 5 does not reassemble:
+  | 22 surfaces against 26 listed, counts summing to 238 against 344 distinct,
+  | the list of side 32 context 6 does not reassemble: 20 surfaces against 23
+  | listed, counts summing to 306 against 354 distinct, the list of side 32
+  | context 7 does not reassemble: 18 surfaces against 21 listed, counts
+  | summing to 276 against 330 distinct, the list of side 64 context 1 does
+  | not reassemble: 13 surfaces against 15 listed, counts summing to 165
+  | against 200 distinct, the list of side 64 context 2 does not reassemble:
+  | 16 surfaces against 19 listed, counts summing to 173 against 205 distinct,
+  | the list of side 64 context 3 does not reassemble: 27 surfaces against 31
+  | listed, counts summing to 124 against 197 distinct, the list of side 64
+  | context 4 does not reassemble: 18 surfaces against 21 listed, counts
+  | summing to 199 against 227 distinct, the list of side 64 context 5 does
+  | not reassemble: 22 surfaces against 26 listed, counts summing to 154
+  | against 185 distinct, the list of side 64 context 6 does not reassemble:
+  | 20 surfaces against 23 listed, counts summing to 148 against 178 distinct,
+  | the list of side 64 context 7 does not reassemble: 18 surfaces against 21
+  | listed, counts summing to 128 against 182 distinct, the list of side 128
+  | context 1 does not reassemble: 13 surfaces against 15 listed, counts
+  | summing to 82 against 97 distinct, the list of side 128 context 2 does not
+  | reassemble: 16 surfaces against 19 listed, counts summing to 86 against
+  | 106 distinct, the list of side 128 context 3 does not reassemble: 27
+  | surfaces against 31 listed, counts summing to 88 against 114 distinct, the
+  | list of side 128 context 4 does not reassemble: 18 surfaces against 21
+  | listed, counts summing to 89 against 108 distinct, the list of side 128
+  | context 5 does not reassemble: 22 surfaces against 26 listed, counts
+  | summing to 73 against 101 distinct, the list of side 128 context 6 does
+  | not reassemble: 20 surfaces against 23 listed, counts summing to 85
+  | against 103 distinct, the list of side 128 context 7 does not reassemble:
+  | 18 surfaces against 21 listed, counts summing to 82 against 106 distinct,
+  | side 32's 42 requesting surfaces not the 40 its contexts list, side 64's
+  | 42 requesting surfaces not the 41 its contexts list, side 128's 42
+  | requesting surfaces not the 40 its contexts list]}]
+    ,-[/home/box/proj/sourcetrait/jab/game/fps/test/census_holds.nu:43:12]
+ 42 |     let invalid = ($frames | where {|f| not $f.valid })
+ 43 |     assert ($invalid | is-empty) $"every census frame whole and accounting: ($invalid | first 3 | select frame reasons)"
+    :            ^^^^^^^^^^|^^^^^^^^^^
+    :                      `-- It is not true.
+ 44 |     let lists = {|fs: list| $fs | each {|f| $f.sides | each {|s| $s.contexts } | flatten } | flatten }
+    `----
+
+Error: nu::shell::error
+
+  x the census fixture's reading held in a nu of its own
+  | These are not equal.
+      ,-[/home/box/proj/sourcetrait/jab-stress/fps/just/../../../jab/game/fps/test/test.nu:5368:18]
+ 5367 |     if $read.exit_code != 0 { print -e -n $read.stderr }
+ 5368 |     assert equal $read.exit_code 0 "the census fixture's reading held in a nu of its own"
+      :                  ^^^^^^^|^^^^^^^ |
+      :                         |        `-- right: 0
+      :                         `-- left: 1
+ 5369 | }
+      `----
+
+error: recipe `image-test` failed on line 18 with exit code 1

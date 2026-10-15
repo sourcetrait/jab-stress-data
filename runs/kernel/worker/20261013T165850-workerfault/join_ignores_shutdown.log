@@ -1,0 +1,26 @@
+--- test/workerfault
+Error: nu::shell::error
+
+  x join: the scenario's line and the fault's, the join ended by the shutdown:
+  | workerfault: scenario join
+  | jab: worker fault: hart=1 argument=0x00000000000000c1
+  | cause=0x000000000000000f epc=0x0000000080a00232 tval=0x0000000080000000
+  | jab: shutdown unanswered: hart 0
+  | 
+  | These are not equal.
+    ,-[/home/box/proj/sourcetrait/jab/test/workerfault/test/test.nu:56:18]
+ 55 |     let lines = ($join.serial | lines)
+ 56 |     assert equal ($lines | length) 2 $"join: the scenario's line and the fault's, the join ended by the shutdown: ($join.serial)"
+    :                  ^^^^^^^^|^^^^^^^^ |
+    :                          |         `-- right: 2
+    :                          `-- left: 3
+ 57 |     assert equal $lines.0 "workerfault: scenario join" $"join: ($join.serial)"
+    `----
+
+╭───┬──────────────────┬────────╮
+│ # │     program      │ passed │
+├───┼──────────────────┼────────┤
+│ 0 │ test/workerfault │ false  │
+╰───┴──────────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

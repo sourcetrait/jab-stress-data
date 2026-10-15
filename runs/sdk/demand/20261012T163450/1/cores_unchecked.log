@@ -1,0 +1,20 @@
+--- test/demand
+Error: nu::shell::error
+
+  x coreless: refused, naming the spec whose data gives no harts: "refused:
+  | Cannot find column 'cores'"
+     ,-[/home/box/proj/sourcetrait/jab/test/demand/test/test.nu:120:12]
+ 119 |     let unsized = (read-demand ($coreless | path join "program"))
+ 120 |     assert ((($unsized | describe) == "string") and ($unsized | str starts-with "refused: fixture: CORELESS gives no `cores: int`")) $"coreless: refused, naming the spec whose data gives no harts: ($unsized | to nuon)"
+     :            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     :                                                                        `-- It is not true.
+ 121 |     let cased = (read-demand (do $manifest "cased" $listed))
+     `----
+
+╭───┬─────────────┬────────╮
+│ # │   program   │ passed │
+├───┼─────────────┼────────┤
+│ 0 │ test/demand │ false  │
+╰───┴─────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

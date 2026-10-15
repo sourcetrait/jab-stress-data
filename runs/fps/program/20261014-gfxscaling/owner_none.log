@@ -1,0 +1,34 @@
+gauge: absent: run 1: complete, valid, median 1.8 ms under the 15 ms ceiling, a tail of 0 of 3 frames at or over it; 3 frames to frame 2 at schema 4, critical 1.8 / 1.8 / - / - / 1.8 ms; seeded; cadence 0; workers 2 at grain 0
+gauge:   run 1 played: rounds none; androids none; struck 0; pickups 0; window unknown, audio unknown
+gauge:   run 1 play: median 1.8 ms under the ceiling, a tail of 0 of 3; 3 fast and 0 of them waited; critical 1.8 / 1.8 / - / - / 1.8; draw 1.0, preparation 1.0, raster 0.0, slowest worker 0.0, dispatch 0.0, barrier 0.0, game 0.1, flip 0.5, report 0.1, await 18.2, wait 0.0, pacing 0.0, tiles 0.1 median; 6 cells built over 3 frames, 30 tiled and 30 fallback lit pixels; flips early 0, refusals 0; unattributed 0.1 at most
+gauge: /home/box/ai/two/data/jab/mutants/program-gfxscaling-20261014/owner_none/gauge_rules/identities/read/absent_seeded/run_1/gauge.nuon
+gauge: the identity reconciled from /home/box/ai/two/data/jab/mutants/program-gfxscaling-20261014/owner_none/gauge_rules/identities/read/absent_seeded/run_1/gauge.nuon and /home/box/ai/two/data/jab/mutants/program-gfxscaling-20261014/owner_none/gauge_rules/identities/read/absent_seeded/gauge.nuon
+gauge: absent: run 1: complete, valid, median 1.8 ms under the 15 ms ceiling, a tail of 0 of 3 frames at or over it; 3 frames to frame 2 at schema 4, critical 1.8 / 1.8 / - / - / 1.8 ms; seeded; cadence 0; workers 2 at grain 0
+gauge:   run 1 played: rounds none; androids none; struck 0; pickups 0; window unknown, audio unknown
+gauge:   run 1 play: median 1.8 ms under the ceiling, a tail of 0 of 3; 3 fast and 0 of them waited; critical 1.8 / 1.8 / - / - / 1.8; draw 1.0, preparation 1.0, raster 0.0, slowest worker 0.0, dispatch 0.0, barrier 0.0, game 0.1, flip 0.5, report 0.1, await 18.2, wait 0.0, pacing 0.0, tiles 0.1 median; 6 cells built over 3 frames, 30 tiled and 30 fallback lit pixels; flips early 0, refusals 0; unattributed 0.1 at most
+gauge: /home/box/ai/two/data/jab/mutants/program-gfxscaling-20261014/owner_none/gauge_rules/identities/read/absent_seeded/again/gauge.nuon
+gauge: absent: run 1: complete, valid, median 1.8 ms under the 15 ms ceiling, a tail of 0 of 3 frames at or over it; 3 frames to frame 2 at schema 4, critical 1.8 / 1.8 / - / - / 1.8 ms; seeded; cadence 0; workers 2 at grain 0
+gauge:   run 1 played: rounds none; androids none; struck 0; pickups 0; window unknown, audio unknown
+gauge:   run 1 play: median 1.8 ms under the ceiling, a tail of 0 of 3; 3 fast and 0 of them waited; critical 1.8 / 1.8 / - / - / 1.8; draw 1.0, preparation 1.0, raster 0.0, slowest worker 0.0, dispatch 0.0, barrier 0.0, game 0.1, flip 0.5, report 0.1, await 18.2, wait 0.0, pacing 0.0, tiles 0.1 median; 6 cells built over 3 frames, 30 tiled and 30 fallback lit pixels; flips early 0, refusals 0; unattributed 0.1 at most
+gauge: /home/box/ai/two/data/jab/mutants/program-gfxscaling-20261014/owner_none/gauge_rules/identities/read/absent_unseeded/run_1/gauge.nuon
+gauge: the identity reconciled from /home/box/ai/two/data/jab/mutants/program-gfxscaling-20261014/owner_none/gauge_rules/identities/read/absent_unseeded/run_1/gauge.nuon and /home/box/ai/two/data/jab/mutants/program-gfxscaling-20261014/owner_none/gauge_rules/identities/read/absent_unseeded/gauge.nuon
+gauge: absent: run 1: complete, valid, median 1.8 ms under the 15 ms ceiling, a tail of 0 of 3 frames at or over it; 3 frames to frame 2 at schema 4, critical 1.8 / 1.8 / - / - / 1.8 ms; seeded; cadence 0; workers 2 at grain 0
+gauge:   run 1 played: rounds none; androids none; struck 0; pickups 0; window unknown, audio unknown
+gauge:   run 1 play: median 1.8 ms under the ceiling, a tail of 0 of 3; 3 fast and 0 of them waited; critical 1.8 / 1.8 / - / - / 1.8; draw 1.0, preparation 1.0, raster 0.0, slowest worker 0.0, dispatch 0.0, barrier 0.0, game 0.1, flip 0.5, report 0.1, await 18.2, wait 0.0, pacing 0.0, tiles 0.1 median; 6 cells built over 3 frames, 30 tiled and 30 fallback lit pixels; flips early 0, refusals 0; unattributed 0.1 at most
+gauge: /home/box/ai/two/data/jab/mutants/program-gfxscaling-20261014/owner_none/gauge_rules/identities/read/absent_unseeded/again/gauge.nuon
+fps: the gauge's rules hold on synthetic captures
+nu /home/box/proj/sourcetrait/jab-stress/fps/just/../../../jab/game/fps/test/test.nu --kernel /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel/jab.elf --image /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/program_gfxscaling/packets_owner_none/debug/fps.jab --out /home/box/ai/two/data/jab/mutants/program-gfxscaling-20261014/owner_none --set DEBUG --assets /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/game/fps/fps.romfs
+Error: nu::shell::error
+
+  x the plain run names its workers, a raster worker on each hart of its
+  | grant: [fps: worker refused on hart 1 code 7, fps: worker refused on hart
+  | 2 code 7, fps: workers 0 on harts]
+     ,-[/home/box/proj/sourcetrait/jab-stress/fps/just/../../../jab/game/fps/test/test.nu:782:12]
+ 781 |     assert ("fps: harts reserved 2, grant 1 2" in $plain_lines) $"the plain run names its grant, harts 1 and 2: ($plain_lines | where {|l| $l starts-with 'fps: harts' })"
+ 782 |     assert ("fps: workers 2 on harts 1 2" in $plain_lines) $"the plain run names its workers, a raster worker on each hart of its grant: ($plain_lines | where {|l| $l starts-with 'fps: worker' })"
+     :            ^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^
+     :                                   `-- It is not true.
+ 783 |     let sprite_run = (jab launch --kernel $kernel --image $image --out ($out | path join "sprite") --set $set --sound --api --disk $sprite_disk --serial "fps" --send $sprite_sends --capture 2500ms --seconds 5)
+     `----
+
+error: recipe `image-test` failed on line 20 with exit code 1

@@ -1,0 +1,15 @@
+use /home/box/tmp/jab-stress/gauge-gfxscaling/shard_1/mirror/game/fps/test/test.nu [gauge-rules]; gauge-rules /home/box/tmp/jab-stress/gauge-gfxscaling/shard_1/rules/packet_split_exact; print "rules: ok"
+Error: nu::shell::error
+
+  x a drawing a microsecond past its preparation and raster, the conversions'
+  | drop, is valid: [1 frames whose drawing is not their preparation and their
+  | raster]
+      ,-[/home/box/tmp/jab-stress/gauge-gfxscaling/shard_1/mirror/game/fps/test/test.nu:4012:12]
+ 4011 |     let rounded = (do $measure (fx-set $good3 "packet" 1 { preparation: 959 }))
+ 4012 |     assert ($rounded.complete and $rounded.valid) $"a drawing a microsecond past its preparation and raster, the conversions' drop, is valid: ($rounded.invalid)"
+      :            ^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^
+      :                               `-- It is not true.
+ 4013 |     let unsplit = "1 frames whose drawing is not their preparation and their raster"
+      `----
+
+error: recipe `rules-mirror` failed on line 39 with exit code 1

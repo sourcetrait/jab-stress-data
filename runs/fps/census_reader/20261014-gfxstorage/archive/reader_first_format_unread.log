@@ -1,0 +1,16 @@
+use /home/box/tmp/ai/two/7OBPNPn8Uww/crm_archive_2/reader_first_format_unread/game/fps/test/census_holds.nu [census-reader-holds]; census-reader-holds (open --raw /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/gauge/game/fps/census/fixture_serial.log | decode); print "reader-holds: ok"
+Error: nu::shell::error
+
+  x every census frame whole and accounting: [{frame: 0, reasons: [no census
+  | directory to read the frame against]}, {frame: 1, reasons: [no census
+  | directory to read the frame against]}, {frame: 2, reasons: [no census
+  | directory to read the frame against]}]
+     ,-[/home/box/tmp/ai/two/7OBPNPn8Uww/crm_archive_2/reader_first_format_unread/game/fps/test/census_holds.nu:120:12]
+ 119 |     let invalid = ($frames | where {|f| not $f.valid })
+ 120 |     assert ($invalid | is-empty) $"every census frame whole and accounting: ($invalid | first 3 | select frame reasons)"
+     :            ^^^^^^^^^^|^^^^^^^^^^
+     :                      `-- It is not true.
+ 121 |     let directory = (census directory $serial)
+     `----
+
+error: recipe `reader-holds` failed on line 27 with exit code 1

@@ -1,0 +1,32 @@
+{
+ recovery: "3Gyf9ThXaNX",
+ call: "1ZYcaonpcQ9",
+ root: /home/box/tmp/ai/two/iLLUiMCTFIT/amend/p_survivor,
+ commit: "d207b43b5f1ab32660fe2ea18bfb724d06549a2e",
+ head: "d207b43b5f1ab32660fe2ea18bfb724d06549a2e",
+ results_present: true,
+ started: "2026-10-13T00:42:57.696+0000",
+ sweep: {
+  records: [
+   [pid,      pgid,     leads, cmd,         mark,                   found_at, signals,                                                               gone_at];
+   [99999999, 99999999, true,  "sleep 300", "1ZYcaonpcQ9:survivor", 0.004,    [
+     [signal, at];
+     [TERM,   0.004],
+     [KILL,   2.026]
+    ], null]
+  ],
+  left: [
+   99999999
+  ],
+  scans: 74,
+  ended: window
+ },
+ strays: [
+
+ ],
+ paths: [
+
+ ],
+ complete: false,
+ finished: 4.01
+}

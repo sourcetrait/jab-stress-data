@@ -1,0 +1,13 @@
+use /home/box/tmp/jab-stress/gauge-gfxscaling/shard_4/mirror/game/fps/test/test.nu [gauge-rules]; gauge-rules /home/box/tmp/jab-stress/gauge-gfxscaling/shard_4/rules/parts_diagnostic_admits; print "rules: ok"
+Error: nu::shell::error
+
+  x --diagnostic admits no comparison of phases measuring different things:
+      ,-[/home/box/tmp/jab-stress/gauge-gfxscaling/shard_4/mirror/game/fps/test/test.nu:4399:12]
+ 4398 |     let across_admitted = (do $compared [$one_a $three_a] "planes_us" true)
+ 4399 |     assert ($across_admitted | str contains "planes_us refuses") $"--diagnostic admits no comparison of phases measuring different things: ($across_admitted)"
+      :            ^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^
+      :                                      `-- It is not true.
+ 4400 |     for field in [draw_us critical_us parts_unattributed_us] {
+      `----
+
+error: recipe `rules-mirror` failed on line 39 with exit code 1

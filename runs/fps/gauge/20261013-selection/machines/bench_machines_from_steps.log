@@ -1,0 +1,16 @@
+use /home/box/tmp/ai/two/7OBPNPn8Uww/gauge_mirror_select_e/game/fps/test/test.nu [gauge-rules]; gauge-rules /home/box/tmp/ai/two/7OBPNPn8Uww/rules_select_e/bench_machines_from_steps; print "rules: ok"
+Error: nu::shell::error
+
+  x the bench names each run once under its own machine and QEMU, the
+  | summary's nowhere
+  | These are not equal.
+      ,-[/home/box/tmp/ai/two/7OBPNPn8Uww/gauge_mirror_select_e/game/fps/test/test.nu:4192:18]
+ 4191 |     let runs_lines = (gauge bench-text $runs_doc | lines | where {|l| $l starts-with "machine: " })
+ 4192 |     assert equal $runs_lines [$"($three_line): one run 1, one run 3" $"($two_line): one run 2"] "the bench names each run once under its own machine and QEMU, the summary's nowhere"
+      :                  ^^^^^|^^^^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      :                       |                                       `-- right: ["machine: 3 harts, -machine virt,aia=aplic-imsic,aclint=on, -cpu rva23s64,pmp=true, -accel tcg,thread=multi; QEMU emulator version 10.1.2: one run 1, one run 3", "machine: 2 harts, diagnostic, -machine virt,aia=aplic-imsic,aclint=on, -cpu rva23s64,pmp=true, -accel tcg,thread=multi; QEMU emulator version 10.1.2: one run 2"]
+      :                       `-- left: ["machine: 3 harts, -machine virt,aia=aplic-imsic,aclint=on, -cpu rva23s64,pmp=true, -accel tcg,thread=multi; QEMU emulator version 10.1.2: one run 1"]
+ 4193 |     # the same report with a play beside its route runs
+      `----
+
+error: recipe `rules-mirror` failed on line 39 with exit code 1

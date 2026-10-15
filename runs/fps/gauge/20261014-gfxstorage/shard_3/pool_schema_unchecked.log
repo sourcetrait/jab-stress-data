@@ -1,0 +1,13 @@
+use /home/box/tmp/ai/two/7OBPNPn8Uww/gm/mirror_f3/game/fps/test/test.nu [gauge-rules]; gauge-rules /home/box/tmp/ai/two/7OBPNPn8Uww/gm/rules_f3/pool_schema_unchecked; print "rules: ok"
+Error: nu::shell::error
+
+  x a tile record at schema 4 leaves the window incomplete: []
+      ,-[/home/box/tmp/ai/two/7OBPNPn8Uww/gm/mirror_f3/game/fps/test/test.nu:3890:16]
+ 3889 |         let mc = (do $measure $c.items)
+ 3890 |         assert ((not $mc.complete) and ($c.says | all {|x| $x in $mc.problems })) $"($c.name) leaves the window incomplete: ($mc.problems)"
+      :                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      :                                                 `-- It is not true.
+ 3891 |     }
+      `----
+
+error: recipe `rules-mirror` failed on line 39 with exit code 1

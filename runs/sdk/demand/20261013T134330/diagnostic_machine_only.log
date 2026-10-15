@@ -1,0 +1,21 @@
+--- test/demand
+Error: nu::shell::error
+
+  x a legacy program's run is undeclared and diagnostic: false, false
+  | These are not equal.
+    ,-[/home/box/proj/sourcetrait/jab/test/demand/test/test.nu:63:18]
+ 62 |     assert equal $undeclared.status 0 $"the legacy program runs: ($undeclared.status), ($undeclared.serial)"
+ 63 |     assert equal [$undeclared.declared $undeclared.diagnostic] [false true] $"a legacy program's run is undeclared and diagnostic: ($undeclared.declared), ($undeclared.diagnostic)"
+    :                  ^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^ ^^^^^^|^^^^^
+    :                                        |                             `-- right: [false, true]
+    :                                        `-- left: [false, false]
+ 64 |     let unplanned = (jab plan --kernel $kernel --image $image --out ($out | path join "legacy_plan"))
+    `----
+
+╭───┬─────────────┬────────╮
+│ # │   program   │ passed │
+├───┼─────────────┼────────┤
+│ 0 │ test/demand │ false  │
+╰───┴─────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

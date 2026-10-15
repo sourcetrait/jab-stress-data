@@ -1,0 +1,43 @@
+gauge: absent: run 1: complete, valid, median 1.8 ms under the 15 ms ceiling, a tail of 0 of 3 frames at or over it; 3 frames to frame 2 at schema 4, critical 1.8 / 1.8 / - / - / 1.8 ms; seeded; cadence 0; workers 2 at grain 0
+gauge:   run 1 played: rounds none; androids none; struck 0; pickups 0; window unknown, audio unknown
+gauge:   run 1 play: median 1.8 ms under the ceiling, a tail of 0 of 3; 3 fast and 0 of them waited; critical 1.8 / 1.8 / - / - / 1.8; draw 1.0, preparation 1.0, raster 0.0, slowest worker 0.0, dispatch 0.0, barrier 0.0, game 0.1, flip 0.5, report 0.1, await 18.2, wait 0.0, pacing 0.0, tiles 0.1 median; 6 cells built over 3 frames, 30 tiled and 30 fallback lit pixels; flips early 0, refusals 0; unattributed 0.1 at most
+gauge: /home/box/ai/two/data/jab/mutants/program-gfxselection-20261014/floor_check_skipped/gauge_rules/identities/read/absent_seeded/run_1/gauge.nuon
+gauge: the identity reconciled from /home/box/ai/two/data/jab/mutants/program-gfxselection-20261014/floor_check_skipped/gauge_rules/identities/read/absent_seeded/run_1/gauge.nuon and /home/box/ai/two/data/jab/mutants/program-gfxselection-20261014/floor_check_skipped/gauge_rules/identities/read/absent_seeded/gauge.nuon
+gauge: absent: run 1: complete, valid, median 1.8 ms under the 15 ms ceiling, a tail of 0 of 3 frames at or over it; 3 frames to frame 2 at schema 4, critical 1.8 / 1.8 / - / - / 1.8 ms; seeded; cadence 0; workers 2 at grain 0
+gauge:   run 1 played: rounds none; androids none; struck 0; pickups 0; window unknown, audio unknown
+gauge:   run 1 play: median 1.8 ms under the ceiling, a tail of 0 of 3; 3 fast and 0 of them waited; critical 1.8 / 1.8 / - / - / 1.8; draw 1.0, preparation 1.0, raster 0.0, slowest worker 0.0, dispatch 0.0, barrier 0.0, game 0.1, flip 0.5, report 0.1, await 18.2, wait 0.0, pacing 0.0, tiles 0.1 median; 6 cells built over 3 frames, 30 tiled and 30 fallback lit pixels; flips early 0, refusals 0; unattributed 0.1 at most
+gauge: /home/box/ai/two/data/jab/mutants/program-gfxselection-20261014/floor_check_skipped/gauge_rules/identities/read/absent_seeded/again/gauge.nuon
+gauge: absent: run 1: complete, valid, median 1.8 ms under the 15 ms ceiling, a tail of 0 of 3 frames at or over it; 3 frames to frame 2 at schema 4, critical 1.8 / 1.8 / - / - / 1.8 ms; seeded; cadence 0; workers 2 at grain 0
+gauge:   run 1 played: rounds none; androids none; struck 0; pickups 0; window unknown, audio unknown
+gauge:   run 1 play: median 1.8 ms under the ceiling, a tail of 0 of 3; 3 fast and 0 of them waited; critical 1.8 / 1.8 / - / - / 1.8; draw 1.0, preparation 1.0, raster 0.0, slowest worker 0.0, dispatch 0.0, barrier 0.0, game 0.1, flip 0.5, report 0.1, await 18.2, wait 0.0, pacing 0.0, tiles 0.1 median; 6 cells built over 3 frames, 30 tiled and 30 fallback lit pixels; flips early 0, refusals 0; unattributed 0.1 at most
+gauge: /home/box/ai/two/data/jab/mutants/program-gfxselection-20261014/floor_check_skipped/gauge_rules/identities/read/absent_unseeded/run_1/gauge.nuon
+gauge: the identity reconciled from /home/box/ai/two/data/jab/mutants/program-gfxselection-20261014/floor_check_skipped/gauge_rules/identities/read/absent_unseeded/run_1/gauge.nuon and /home/box/ai/two/data/jab/mutants/program-gfxselection-20261014/floor_check_skipped/gauge_rules/identities/read/absent_unseeded/gauge.nuon
+gauge: absent: run 1: complete, valid, median 1.8 ms under the 15 ms ceiling, a tail of 0 of 3 frames at or over it; 3 frames to frame 2 at schema 4, critical 1.8 / 1.8 / - / - / 1.8 ms; seeded; cadence 0; workers 2 at grain 0
+gauge:   run 1 played: rounds none; androids none; struck 0; pickups 0; window unknown, audio unknown
+gauge:   run 1 play: median 1.8 ms under the ceiling, a tail of 0 of 3; 3 fast and 0 of them waited; critical 1.8 / 1.8 / - / - / 1.8; draw 1.0, preparation 1.0, raster 0.0, slowest worker 0.0, dispatch 0.0, barrier 0.0, game 0.1, flip 0.5, report 0.1, await 18.2, wait 0.0, pacing 0.0, tiles 0.1 median; 6 cells built over 3 frames, 30 tiled and 30 fallback lit pixels; flips early 0, refusals 0; unattributed 0.1 at most
+gauge: /home/box/ai/two/data/jab/mutants/program-gfxselection-20261014/floor_check_skipped/gauge_rules/identities/read/absent_unseeded/again/gauge.nuon
+fps: the gauge's rules hold on synthetic captures
+fps: the clock over the walk: 628 frames to frame 627 at schema 6, the critical path's median 12177 us, unattributed at most 39 us of a frame and 1153 us of a drawing, residual at most 2 us, 0 flips early; the preparation's median 1203 us and the raster's 10265 us, 4 to 51 commands a frame, 0 flushes, 251488 packet bytes at most; 2382 tiles built, 33554432 bytes of tiles at most; 2 workers, the slowest's median 10154 us, dispatch 66 and barrier 50
+fps: the schedule at cadence 0: 426 frames; the fast stage's interval 16659.5 us and age 5906.5 us; the stall's intervals [50850, 21331, 16740] us; the slow stage's 42315.0 us
+fps: the schedule at cadence 1: 466 frames; the fast stage's interval 16664.0 us and age 16427.0 us; the stall's intervals [39587, 17201, 16540] us; the slow stage's 25411 us
+fps: the schedule at cadence 2: 446 frames; the fast stage's interval 16666.0 us and age 16484.5 us; the stall's intervals [49989, 16615, 16702] us; the slow stage's 33335.0 us
+fps: the walk at cadence 0: 4.000001871100369 m/s over 2.943614 s, 70 frames, the interval's median 42545 us
+fps: the walk at cadence 1: 4.00000056651238 m/s over 2.966066 s, 117 frames, the interval's median 25420 us
+fps: the walk at cadence 2: 4.00000060055986 m/s over 2.96583 s, 90 frames, the interval's median 33210.0 us
+fps: the tile pool: under a tier of one and a ring of four, 29 surfaces requesting each built within 28 frames of its first request; first sight settled under the ordinary budget in 7 frames on 272 slots; the warming frame merged 272 keys past tiers of one; 11456 tiles evicted on 64 slots with their entries left, the picture the lit loop's
+nu /home/box/proj/sourcetrait/jab-stress/fps/just/../../../jab/game/fps/test/test.nu --kernel /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel/jab.elf --image /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/program_gfxselection/packets_floor_check_skipped/debug/fps.jab --out /home/box/ai/two/data/jab/mutants/program-gfxselection-20261014/floor_check_skipped --set DEBUG --assets /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/game/fps/fps.romfs
+Error: nu::shell::error
+
+  x the take on three harts refused under the floor, nothing stopped or
+  | claimed
+  | These are not equal.
+      ,-[/home/box/proj/sourcetrait/jab-stress/fps/just/../../../jab/game/fps/test/test.nu:2192:18]
+ 2191 |     let floor = (do $launch "floor" 3 [{ at: $TAKE_AT, bytes: (harts-frame 1) }, { at: $TAKEN_AT, bytes: (pose pose-frame $SPAWN_POSE) }, { at: $GIVE_AT, bytes: (pose command-frame "E") }] $GIVEN_AT)
+ 2192 |     assert equal (do $moves $floor) [$FLOOR_LINE] "the take on three harts refused under the floor, nothing stopped or claimed"
+      :                  ^^^^^^^^^|^^^^^^^^ ^^^^^^|^^^^^^
+      :                           |               `-- right: ["fps: harts take refused under the floor: 1 of grant 1 2, floor 2"]
+      :                           `-- left: ["fps: workers stopped on harts 2", "fps: harts claim refused 4", "fps: workers started on harts 2"]
+ 2193 |     let fm = (gauge measure $floor.api [{ name: "start", places: [], pad: [] }, { name: "placed", places: [$SPAWN_POSE $SPAWN_POSE $SPAWN_POSE], pad: [] }])
+      `----
+
+error: recipe `image-test` failed on line 20 with exit code 1

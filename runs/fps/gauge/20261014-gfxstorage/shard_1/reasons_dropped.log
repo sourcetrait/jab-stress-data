@@ -1,0 +1,19 @@
+use /home/box/tmp/ai/two/7OBPNPn8Uww/gm/mirror_f1/game/fps/test/test.nu [gauge-rules]; gauge-rules /home/box/tmp/ai/two/7OBPNPn8Uww/gm/rules_f1/reasons_dropped; print "rules: ok"
+Error: nu::shell::error
+
+  x a run beside the report of another image passed over, its image named:
+  | {identity: {build: {image_sha256: fx_ident, flags: -I src --defsym DEBUG=1
+  | -march=rva23u64 fx-, elf_sha256: }, mode: {cadence: 0, workers: 2, grain:
+  | 0, seed: 1}}, from: legacy, file: , corrections: , identity_sha256: ,
+  | binding: , passed: [{dir: /home/box/tmp/ai/two/7OBPNPn8Uww/gm/rules_f1/
+  | reasons_dropped/identities/stranger/run_1, strength: legacy, reasons:
+  | []}], seed: 1}
+      ,-[/home/box/tmp/ai/two/7OBPNPn8Uww/gm/mirror_f1/game/fps/test/test.nu:4383:12]
+ 4382 |     let stranger_named = ($from_stranger | get -o passed.0.reasons | default [] | any {|r| $r | str contains "build.image_sha256" })
+ 4383 |     assert (($from_stranger | get -o from) == "legacy" and $stranger_named) $"a run beside the report of another image passed over, its image named: ($from_stranger)"
+      :            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      :                                            `-- It is not true.
+ 4384 |     let flagged_one = (fx-ident-report $ids "flags_1" "flagged_1" ($fx_id | update build.flags $release_flags))
+      `----
+
+error: recipe `rules-mirror` failed on line 39 with exit code 1

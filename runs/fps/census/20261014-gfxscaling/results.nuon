@@ -1,0 +1,24 @@
+{
+  control_ok: true,
+  every: true,
+  results: [
+    [name,                     applied, built, exit, failed_where, credited, reason];
+    [control,                  true,    true,  0,    true,         true,     ""],
+    [census_node_clamp,        true,    true,  1,    true,         true,     ""],
+    [census_verify_trusting,   true,    true,  1,    true,         true,     ""],
+    [census_verify_refusing,   true,    true,  1,    true,         true,     ""],
+    [census_classifier_false,  true,    true,  1,    true,         true,     ""],
+    [census_relit_ignored,     true,    true,  1,    true,         true,     ""],
+    [census_uniform_ored,      true,    true,  1,    true,         true,     ""],
+    [census_split_never,       true,    true,  1,    true,         true,     ""],
+    [census_split_drops,       true,    true,  1,    true,         true,     "does not reassemble"],
+    [census_window_swapped,    true,    true,  1,    true,         true,     "planes' working set this frame"],
+    [census_chunk_ignored,     true,    true,  1,    true,         true,     ""],
+    [census_ids_dropped,       true,    true,  1,    true,         true,     "an item that is no surface:count pair"],
+    [census_directory_three,   true,    true,  1,    true,         true,     "unexpected: side"],
+    [census_class_shift_three, true,    true,  1,    true,         true,     ""]
+  ],
+  misses: [
+
+  ]
+}

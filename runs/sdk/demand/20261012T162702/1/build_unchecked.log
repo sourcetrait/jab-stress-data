@@ -1,0 +1,19 @@
+--- test/demand
+Error: nu::shell::error
+
+  x the tool's build refuses a base demand past a listed spec: 0,
+     ,-[/home/box/proj/sourcetrait/jab/test/demand/test/test.nu:136:12]
+ 135 |     let past_says = ($refusals | where name == "base_past" | first | get says)
+ 136 |     assert ($refused.exit_code != 0 and ((bare $refused.stderr) | str contains (bare $past_says))) $"the tool's build refuses a base demand past a listed spec: ($refused.exit_code), ($refused.stderr)"
+     :            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     :                                                       `-- It is not true.
+ 137 |     let declared_body = $"specs = ['($one)', '($larger.name)']\n\n[reserved]\ngfx_harts = 1\n\n[feature.probe]\nio_harts = 1\n"
+     `----
+
+╭───┬─────────────┬────────╮
+│ # │   program   │ passed │
+├───┼─────────────┼────────┤
+│ 0 │ test/demand │ false  │
+╰───┴─────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

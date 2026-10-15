@@ -1,0 +1,35 @@
+{
+ call: "bzI0kdZuLb9",
+ mark: JAB_RUNNER_MARK,
+ stage: ".jabstage.",
+ root: /home/box/proj/sourcetrait/jab,
+ commit: "2b6558a499f05b2a908187c40dd080a56d638bbb",
+ set: "/home/box/proj/sourcetrait/jab-stress/runners/program_mutants_cases/guest_spins.nuon",
+ "set_sha256": "3820b49127bc9eb657a2b7312ddeffe59faf4e8e39f32b0dba7ae8efb13e97ed",
+ only: [
+  guest_spins
+ ],
+ control: {
+  program: test/reservations,
+  ok: "reservations: ok"
+ },
+ deadline: 40,
+ margin: 15,
+ kill_after: 5,
+ hold: {
+  at: "",
+  seconds: 0
+ },
+ started: "2026-10-13T00:46:45.231+0000",
+ paths: [
+  [file,                             committed,                                                          mutated];
+  ["test/reservations/src/main.S",   "791c7fc999a544de9262732ed9da11474d44352e0d4ef129391a7f50fb75752c", [
+    [mutant,      hash];
+    [guest_spins, "4921f1275db54d0e57985ec385fe54a07937053e1d9bd5c8fb7914d6c3aa8c3e"]
+   ]],
+  ["test/reservations/test/test.nu", "ac86231946deecd1e518c8da2017fe98e74f358c0db98e922276f716edbc93fe", [
+    [mutant,      hash];
+    [guest_spins, "e0d4b7f2651b50d38a988836d76d01e6e598df0968e265ec85a63283423970dd"]
+   ]]
+ ]
+}

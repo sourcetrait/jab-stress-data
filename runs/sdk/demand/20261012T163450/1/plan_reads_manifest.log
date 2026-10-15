@@ -1,0 +1,23 @@
+--- test/demand
+Error: nu::shell::error
+
+  x a reservation edited without a rebuild leaves the plan the built demand:
+  | {specs: ["1KA1", "1KB1"], reserved: {gfx_harts: 2}, features: [[name,
+  | io_harts]; [probe, 1]], base: 3}
+  | These are not equal.
+     ,-[/home/box/proj/sourcetrait/jab/test/demand/test/test.nu:168:18]
+ 167 |     let edited = (jab plan --kernel $kernel --image $declared_image --out ($out | path join "edited"))
+ 168 |     assert equal $edited.demand $demand $"a reservation edited without a rebuild leaves the plan the built demand: ($edited.demand | to nuon)"
+     :                  ^^^^^^^|^^^^^^ ^^^|^^^
+     :                         |          `-- right: {specs: ["1KA1", "1KB1"], reserved: {gfx_harts: 1}, features: [[name, io_harts]; [probe, 1]], base: 2}
+     :                         `-- left: {specs: ["1KA1", "1KB1"], reserved: {gfx_harts: 2}, features: [[name, io_harts]; [probe, 1]], base: 3}
+ 169 |     do $manifest "declared" "" | ignore
+     `----
+
+╭───┬─────────────┬────────╮
+│ # │   program   │ passed │
+├───┼─────────────┼────────┤
+│ 0 │ test/demand │ false  │
+╰───┴─────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

@@ -1,0 +1,19 @@
+--- test/demand
+Error: nu::shell::error
+
+  x a record beside no image is refused: "refused: File not found"
+     ,-[/home/box/proj/sourcetrait/jab/test/demand/test/test.nu:242:12]
+ 241 |     let lone = (read-recorded ($declared_out | path join "absent.jab"))
+ 242 |     assert ((($lone | describe) == "string") and ($lone | str contains "is the record of an image, and there is none at")) $"a record beside no image is refused: ($lone | to nuon)"
+     :            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     :                                                                   `-- It is not true.
+ 243 | 
+     `----
+
+╭───┬─────────────┬────────╮
+│ # │   program   │ passed │
+├───┼─────────────┼────────┤
+│ 0 │ test/demand │ false  │
+╰───┴─────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

@@ -1,0 +1,36 @@
+gauge: absent: run 1: complete, valid, median 1.8 ms under the 15 ms ceiling, a tail of 0 of 3 frames at or over it; 3 frames to frame 2 at schema 4, critical 1.8 / 1.8 / - / - / 1.8 ms; seeded; cadence 0; workers 2 at grain 0
+gauge:   run 1 played: rounds none; androids none; struck 0; pickups 0; window unknown, audio unknown
+gauge:   run 1 play: median 1.8 ms under the ceiling, a tail of 0 of 3; 3 fast and 0 of them waited; critical 1.8 / 1.8 / - / - / 1.8; draw 1.0, preparation 1.0, raster 0.0, slowest worker 0.0, dispatch 0.0, barrier 0.0, game 0.1, flip 0.5, report 0.1, await 18.2, wait 0.0, pacing 0.0, tiles 0.1 median; 6 cells built over 3 frames, 30 tiled and 30 fallback lit pixels; flips early 0, refusals 0; unattributed 0.1 at most
+gauge: /home/box/ai/two/data/jab/mutants/program-gfxselection-20261014/record_snapshot_stale/gauge_rules/identities/read/absent_seeded/run_1/gauge.nuon
+gauge: the identity reconciled from /home/box/ai/two/data/jab/mutants/program-gfxselection-20261014/record_snapshot_stale/gauge_rules/identities/read/absent_seeded/run_1/gauge.nuon and /home/box/ai/two/data/jab/mutants/program-gfxselection-20261014/record_snapshot_stale/gauge_rules/identities/read/absent_seeded/gauge.nuon
+gauge: absent: run 1: complete, valid, median 1.8 ms under the 15 ms ceiling, a tail of 0 of 3 frames at or over it; 3 frames to frame 2 at schema 4, critical 1.8 / 1.8 / - / - / 1.8 ms; seeded; cadence 0; workers 2 at grain 0
+gauge:   run 1 played: rounds none; androids none; struck 0; pickups 0; window unknown, audio unknown
+gauge:   run 1 play: median 1.8 ms under the ceiling, a tail of 0 of 3; 3 fast and 0 of them waited; critical 1.8 / 1.8 / - / - / 1.8; draw 1.0, preparation 1.0, raster 0.0, slowest worker 0.0, dispatch 0.0, barrier 0.0, game 0.1, flip 0.5, report 0.1, await 18.2, wait 0.0, pacing 0.0, tiles 0.1 median; 6 cells built over 3 frames, 30 tiled and 30 fallback lit pixels; flips early 0, refusals 0; unattributed 0.1 at most
+gauge: /home/box/ai/two/data/jab/mutants/program-gfxselection-20261014/record_snapshot_stale/gauge_rules/identities/read/absent_seeded/again/gauge.nuon
+gauge: absent: run 1: complete, valid, median 1.8 ms under the 15 ms ceiling, a tail of 0 of 3 frames at or over it; 3 frames to frame 2 at schema 4, critical 1.8 / 1.8 / - / - / 1.8 ms; seeded; cadence 0; workers 2 at grain 0
+gauge:   run 1 played: rounds none; androids none; struck 0; pickups 0; window unknown, audio unknown
+gauge:   run 1 play: median 1.8 ms under the ceiling, a tail of 0 of 3; 3 fast and 0 of them waited; critical 1.8 / 1.8 / - / - / 1.8; draw 1.0, preparation 1.0, raster 0.0, slowest worker 0.0, dispatch 0.0, barrier 0.0, game 0.1, flip 0.5, report 0.1, await 18.2, wait 0.0, pacing 0.0, tiles 0.1 median; 6 cells built over 3 frames, 30 tiled and 30 fallback lit pixels; flips early 0, refusals 0; unattributed 0.1 at most
+gauge: /home/box/ai/two/data/jab/mutants/program-gfxselection-20261014/record_snapshot_stale/gauge_rules/identities/read/absent_unseeded/run_1/gauge.nuon
+gauge: the identity reconciled from /home/box/ai/two/data/jab/mutants/program-gfxselection-20261014/record_snapshot_stale/gauge_rules/identities/read/absent_unseeded/run_1/gauge.nuon and /home/box/ai/two/data/jab/mutants/program-gfxselection-20261014/record_snapshot_stale/gauge_rules/identities/read/absent_unseeded/gauge.nuon
+gauge: absent: run 1: complete, valid, median 1.8 ms under the 15 ms ceiling, a tail of 0 of 3 frames at or over it; 3 frames to frame 2 at schema 4, critical 1.8 / 1.8 / - / - / 1.8 ms; seeded; cadence 0; workers 2 at grain 0
+gauge:   run 1 played: rounds none; androids none; struck 0; pickups 0; window unknown, audio unknown
+gauge:   run 1 play: median 1.8 ms under the ceiling, a tail of 0 of 3; 3 fast and 0 of them waited; critical 1.8 / 1.8 / - / - / 1.8; draw 1.0, preparation 1.0, raster 0.0, slowest worker 0.0, dispatch 0.0, barrier 0.0, game 0.1, flip 0.5, report 0.1, await 18.2, wait 0.0, pacing 0.0, tiles 0.1 median; 6 cells built over 3 frames, 30 tiled and 30 fallback lit pixels; flips early 0, refusals 0; unattributed 0.1 at most
+gauge: /home/box/ai/two/data/jab/mutants/program-gfxselection-20261014/record_snapshot_stale/gauge_rules/identities/read/absent_unseeded/again/gauge.nuon
+fps: the gauge's rules hold on synthetic captures
+nu /home/box/proj/sourcetrait/jab-stress/fps/just/../../../jab/game/fps/test/test.nu --kernel /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel/jab.elf --image /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/program_gfxselection/packets_record_snapshot_stale/debug/fps.jab --out /home/box/ai/two/data/jab/mutants/program-gfxselection-20261014/record_snapshot_stale --set DEBUG --assets /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/game/fps/fps.romfs
+Error: nu::shell::error
+
+  x the walk's measurement valid: [627 frames whose packets were prepared from
+  | another frame's simulation, 2 frames that merged and left unprocessed past
+  | their batch's admitted requests, 626 frames whose batch is not the frame
+  | before's, 626 frames whose batch's admitted requests are not its source
+  | frame's admissions]
+      ,-[/home/box/proj/sourcetrait/jab-stress/fps/just/../../../jab/game/fps/test/test.nu:1148:12]
+ 1147 |     assert ($waited | is-empty) $"each frame awaits after one flip attempt, no wait or pacing before it: ($waited | first 3)"
+ 1148 |     assert $walk_clock.valid $"the walk's measurement valid: ($walk_clock.invalid)"
+      :            ^^^^^^^^|^^^^^^^^
+      :                    `-- It is not true.
+ 1149 |     assert ($walk_clock.past_window > 0) $"the game went on past the measurement: ($walk_clock.past_window) frames"
+      `----
+
+error: recipe `image-test` failed on line 20 with exit code 1

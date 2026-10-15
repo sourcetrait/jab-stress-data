@@ -1,0 +1,20 @@
+--- test/demand
+Error: nu::shell::error
+
+  x empty: refused, saying fixture: `specs` names no spec: {specs: [],
+  | reserved: {gfx_harts: 0}, features: [], base: 1}
+     ,-[/home/box/proj/sourcetrait/jab/test/demand/test/test.nu:107:16]
+ 106 |         let said = (read-demand (do $manifest $c.name $c.body))
+ 107 |         assert ((($said | describe) == "string") and ($said | str starts-with $"refused: ($c.says)")) $"($c.name): refused, saying ($c.says): ($said | to nuon)"
+     :                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     :                                                           `-- It is not true.
+ 108 |         let unsaid = ($c | get -o unsaid | default "")
+     `----
+
+╭───┬─────────────┬────────╮
+│ # │   program   │ passed │
+├───┼─────────────┼────────┤
+│ 0 │ test/demand │ false  │
+╰───┴─────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

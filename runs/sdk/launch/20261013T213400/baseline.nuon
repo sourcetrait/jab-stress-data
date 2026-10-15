@@ -1,0 +1,33 @@
+{
+ call: "2Aym2Pvei3G",
+ mark: JAB_RUNNER_MARK,
+ stage: ".jabstage.",
+ root: /home/box/proj/sourcetrait/jab,
+ commit: "3fc2ca04915241597575d49990f196bd6226af4f",
+ set: "/home/box/ai/two/iter/jab/subiter/sdk/operational/launch_mutants.nuon",
+ "set_sha256": "bdae9a46ab1a3a047336ac4111218207aef77a5e0d6fa65827a35816f162c246",
+ only: [
+  bound_at_four,
+  bound_dropped
+ ],
+ control: {
+  program: test/harts,
+  ok: "harts: ok"
+ },
+ deadline: 300,
+ margin: 15,
+ kill_after: 5,
+ hold: {
+  at: "",
+  seconds: 0
+ },
+ started: "2026-10-13T21:19:40.808+0000",
+ paths: [
+  [file,            committed,                                                          mutated];
+  ["sdk/nu/jab.nu", "28a3f9e84c20a6ef62aa8febd8a8e05addaf3ed39235ce4f52197e1003502f73", [
+    [mutant,        hash];
+    [bound_at_four, "e550872d8dd57ed58308301488154981027eb454511dc8f67c2aeb96039f9e48"],
+    [bound_dropped, "f6549dcd33999970e603aab1f266e29187298afc72e96def4f83c093a27afdee"]
+   ]]
+ ]
+}

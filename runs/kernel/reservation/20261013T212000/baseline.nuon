@@ -1,0 +1,97 @@
+{
+ call: "f3Ud1jdISKe",
+ mark: JAB_RUNNER_MARK,
+ stage: ".jabstage.",
+ root: /home/box/proj/sourcetrait/jab,
+ commit: "f484e08f280ea92ee0514ea2feefe46507c1a52f",
+ set: "/home/box/ai/two/iter/jab/subiter/kernel/operational/reservation_mutants.nuon",
+ "set_sha256": "0b2df6aa0b52a6d418bd3cee87ed29b95fa985d9966a5ca9dae36f1658e6c9ed",
+ only: [
+  reserve_again_allowed,
+  reserve_short_allowed,
+  reserve_busy_allowed,
+  floor_unrecorded,
+  knob_ignored,
+  debug_reserved_dropped,
+  claim_unreserved_allowed,
+  claim_empty_allowed,
+  claim_outside_allowed,
+  claim_busy_allowed,
+  claim_floor_ignored,
+  claim_spent_ignored,
+  claim_spent_boundary,
+  claim_ids_reused,
+  claim_sets_no_owner,
+  claim_ids_short,
+  release_unknown_low,
+  release_unknown_empty,
+  release_busy_allowed,
+  release_moves_nothing,
+  owned_counts_all,
+  working_ignores,
+  start_owner_unchecked,
+  start_owner_always,
+  start_owner_after_busy,
+  "macro_clears_a5",
+  macro_owner_last,
+  worker_may_reserve
+ ],
+ control: {
+  program: test/reservations,
+  ok: "reservations: ok"
+ },
+ deadline: 540,
+ margin: 15,
+ kill_after: 5,
+ hold: {
+  at: "",
+  seconds: 0
+ },
+ started: "2026-10-13T21:12:43.824+0000",
+ paths: [
+  [file,                          committed,                                                          mutated];
+  ["kernel/src/owners.S",         "dbd93ad8e152cdacd7d66e37725b0629377cbd921f9d266aaed1dfaab24742f9", [
+    [mutant,                   hash];
+    [reserve_again_allowed,    "479cf61bbdffc8513d0535a4681f1c440bc38bbf265fe1f6fab9139b2ca661e4"],
+    [reserve_short_allowed,    "d2b6c52e19f13d232575d5fe006702a36f3a429505dcf7797df94879b4bb7b4e"],
+    [reserve_busy_allowed,     "ee58512662687b21e5271c40f37f29eddd7b459e23db78107635174fee2d5b59"],
+    [floor_unrecorded,         "c381e4bb31b21a89cb052a2155565c2ceabf4b50e248f18682fb19382f2bc962"],
+    [knob_ignored,             "75dd8ec7517c7a5126fd9485b76a5df113a67bf77b374055f10d4a117ea41d5c"],
+    [debug_reserved_dropped,   "6c8031812920b135b82275304c1be52f61dfae9e34807b0c2ed82dabf93494ef"],
+    [claim_unreserved_allowed, "0887102e5fe598aef8739c6f386b0a2b83de5043caf7243ff0227b9534be69f9"],
+    [claim_empty_allowed,      "40caefe158c46b310741a91ec7122539009fe10b2fbfda423e2ccbbad129baae"],
+    [claim_outside_allowed,    "cbbcb9ac848b3f41e1489b8efe3265464f0b7a306cc0596954d007480f946abd"],
+    [claim_busy_allowed,       "db5c1621db12f8abd05e6b375b909947849e4b1484ea2b5189997681003e6ad9"],
+    [claim_floor_ignored,      "012dbae1bb2f6937f978a0fce34e4af31f15fafa919bcfa7aefe616f396bdca5"],
+    [claim_spent_ignored,      "00a429d90177356d197d70be5ca5784e54a13ed7b9363aba69a4a3b1e66484ab"],
+    [claim_spent_boundary,     "87cd6052bff850f45eded7d8be719c40f80a649782b6ccb1696c6b203de8b7eb"],
+    [claim_ids_reused,         "234d9fbfd7926e3d56d46fa58f41f77537880b8936f56fb77dca3bce0c2f465f"],
+    [claim_sets_no_owner,      "a24487c6dedb45f3deca9e10916f74cbb123b5bfebf2d0d14177ec79427965cd"],
+    [release_unknown_low,      "c4b7f8ff0181cb536ae3162f2050d46af022ffc59f3489c6f745b3a80a6dd639"],
+    [release_unknown_empty,    "1291b218a2caa29be5c0adb4386e7778a0fc234294ad903a5323e8dac54c1972"],
+    [release_busy_allowed,     "057311391e624f512afbd1f34297ec7a674e9538b59e1bc9a4d3e911fab7da89"],
+    [release_moves_nothing,    "1cb9b853ea3d053ee0c77611ceec4245ed5e9a444e0daf3fac36eabc2151bda4"],
+    [owned_counts_all,         "87bd2a6379fc987543a893d1ce106fcc12e1aed7866a8153a44f3349e2d0c036"],
+    [working_ignores,          "0a9992de6ab7636d88c9edb872ddff53a1549f5e615ca2927b6c9b4e7a209b61"]
+   ]],
+  ["kernel/src/include/hart.inc", "43529b7647c6ac84602169325e4415b7b1fbcb51acffd4e029e2cba198c52b8d", [
+    [mutant,          hash];
+    [claim_ids_short, "b73f33272ce34aa12f5e7b160fcea0dcc9f83a809a0afdf2df16f1bb00659326"]
+   ]],
+  ["kernel/src/workers.S",        "ab712c48fbc1870e906f76354ecfd2c2462eb974253425858449eccf79f1f77d", [
+    [mutant,                 hash];
+    [start_owner_unchecked,  "e18f426d6995cc67dd85ff090bf5a8d4eadc3e5974e841df599240e17b53e33d"],
+    [start_owner_always,     "42858a302a899f018363fd5d9f4eb806ebe0b35942ced261d58ddeb7cb22cf49"],
+    [start_owner_after_busy, "ccd0a02ad75ebdbbfe20d8c396faaa9f0ae47715579b80c6057fae8f3b04704e"]
+   ]],
+  ["sdk/src/jab.inc",             "c388b3b086152f710da1947c1aedc4ce702fbf78b7761cd0a9eafb8874489184", [
+    [mutant,            hash];
+    ["macro_clears_a5", "12627cc858b4a0e34f27757dd023887b2fd7e826ac453d37372fe398edae934c"],
+    [macro_owner_last,  "804380c056e8c80cacfa4c2cbe1a3c6e2513313c9ff8c8dc05cd54717b931746"]
+   ]],
+  ["kernel/src/trap.S",           "5df8b67edc452d9778ca7dbbc2629867ff6a23ecc6941ce0470050a6da6a31ae", [
+    [mutant,             hash];
+    [worker_may_reserve, "4e223152527a77269c6a06005460a2ceb912b662e313ceae491ee3ed038d5a18"]
+   ]]
+ ]
+}

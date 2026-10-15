@@ -1,0 +1,14 @@
+{
+ call: hOEpvUPrlZj,
+ at: "2026-10-13T00:49:04.828+0000",
+ host_pid: 2606299,
+ logs: [
+  "baseline.nuon",
+  "control.log"
+ ],
+ case: orphan,
+ alive: [
+  [pid,     pgid,    leads, cmd,         mark,                 state, ppid,    sid];
+  [2619344, 2619344, true,  "sleep 300", "hOEpvUPrlZj:orphan", S,     2606299, 2619344]
+ ]
+}

@@ -1,0 +1,18 @@
+{
+  set: reservation,
+  stamp: "20261013T212000",
+  task: LauncherCounts,
+  scope: {
+    kind: whole,
+    ran: 28,
+    of: 28
+  },
+  builds: [
+    [part, build,                                      checkout, record];
+    [run,  "f484e08f280ea92ee0514ea2feefe46507c1a52f", jab,      "baseline.nuon"]
+  ],
+  kept: {
+    as: current,
+    why: "the latest whole run of the set, cited as evidence by FrameCeiling's LauncherCounts"
+  }
+}

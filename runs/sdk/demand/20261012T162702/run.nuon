@@ -1,0 +1,18 @@
+{
+  set: demand,
+  stamp: "20261012T162702",
+  task: DemandRerun,
+  scope: {
+    kind: whole,
+    ran: 76,
+    of: 76
+  },
+  builds: [
+    [part, build,                                      checkout, record];
+    [run,  "2b6558a499f05b2a908187c40dd080a56d638bbb", jab,      "1/results.nuon"]
+  ],
+  kept: {
+    as: checkpoint,
+    why: "cited as evidence by ResourceScaling's DemandRerun: the first run, whose null_refused miss found the provenance rule's defect"
+  }
+}

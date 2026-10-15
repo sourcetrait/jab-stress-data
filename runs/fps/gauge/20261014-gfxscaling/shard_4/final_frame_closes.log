@@ -1,0 +1,13 @@
+use /home/box/tmp/jab-stress/gauge-gfxscaling/shard_4/mirror/game/fps/test/test.nu [gauge-rules]; gauge-rules /home/box/tmp/jab-stress/gauge-gfxscaling/shard_4/rules/final_frame_closes; print "rules: ok"
+Error: nu::shell::error
+
+  x a one-frame capture whose next start does not close is invalid: []
+      ,-[/home/box/tmp/jab-stress/gauge-gfxscaling/shard_4/mirror/game/fps/test/test.nu:3818:12]
+ 3817 |     let unclosed_says = $"a one-frame capture whose next start does not close is invalid: ($unclosed.invalid)"
+ 3818 |     assert ((not $unclosed.valid) and ($unclosed.invalid | any {|r| $r =~ "critical path, wait, and await" })) $unclosed_says
+      :            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      :                                                             `-- It is not true.
+ 3819 | 
+      `----
+
+error: recipe `rules-mirror` failed on line 39 with exit code 1

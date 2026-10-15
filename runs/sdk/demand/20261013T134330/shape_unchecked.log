@@ -1,0 +1,20 @@
+--- test/demand
+Error: nu::shell::error
+
+  x demand_text: refused, saying demand: a record or null expected, string
+  | found: "declared"
+     ,-[/home/box/proj/sourcetrait/jab/test/demand/test/test.nu:239:16]
+ 238 |         let said = (read-recorded $declared_image)
+ 239 |         assert ((($said | describe) == "string") and ($said | str starts-with "refused: ") and ($said | str contains $f.says)) $"($f.name): refused, saying ($f.says): ($said | to nuon)"
+     :                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     :                                                                       `-- It is not true.
+ 240 |     }
+     `----
+
+╭───┬─────────────┬────────╮
+│ # │   program   │ passed │
+├───┼─────────────┼────────┤
+│ 0 │ test/demand │ false  │
+╰───┴─────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

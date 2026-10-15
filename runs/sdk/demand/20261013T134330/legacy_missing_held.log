@@ -1,0 +1,19 @@
+--- test/demand
+Error: nu::shell::error
+
+  x a legacy build with its record retired builds again
+     ,-[/home/box/proj/sourcetrait/jab/test/demand/test/test.nu:355:12]
+ 354 |     assert equal $made.exit_code 0 $"($case): the build runs: ($made.stderr)"
+ 355 |     assert ((written $image) > $before) $"($case) builds again"
+     :            ^^^^^^^^^^^^^^|^^^^^^^^^^^^^
+     :                          `-- It is not true.
+ 356 |     let after = (recorded $image)
+     `----
+
+╭───┬─────────────┬────────╮
+│ # │   program   │ passed │
+├───┼─────────────┼────────┤
+│ 0 │ test/demand │ false  │
+╰───┴─────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

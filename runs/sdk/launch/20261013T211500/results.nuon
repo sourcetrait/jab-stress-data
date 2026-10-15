@@ -1,0 +1,52 @@
+{
+ control_ok: true,
+ every: true,
+ restored: true,
+ cleaned: true,
+ caught: 2,
+ unrun: [
+
+ ],
+ head: "f484e08f280ea92ee0514ea2feefe46507c1a52f",
+ logs: "/home/box/ai/two/data/jab/mutants/launch-20261013T211500",
+ deadline: 300,
+ swept: 0,
+ results: [
+  [name,          applied, exit, class,  expected, title,                                                                                                                                                          seconds, swept];
+  [control,       true,    0,    passed, passed,   "",                                                                                                                                                             44.9,    0],
+  [bound_at_four, true,    1,    caught, caught,   "LauncherBound: a machine of JAB_HARTS_MAX's 8 harts taken: --harts takes 1 to 4, the specification's three or a diagnostic count, not 8 These are not equal.", 0.3,     0],
+  [bound_dropped, true,    1,    caught, caught,   "LauncherBound: 9 harts refused before QEMU starts:",                                                                                                           2.5,     0]
+ ],
+ misses: [
+
+ ],
+ call: kCuGJhpimzz,
+ started: "2026-10-13T21:11:05.257+0000",
+ sweeps: [
+  [name,          records, left,    scans, ended];
+  [control,       [
+
+   ], [
+
+   ], 2,     clean],
+  [bound_at_four, [
+
+   ], [
+
+   ], 2,     clean],
+  [bound_dropped, [
+
+   ], [
+
+   ], 2,     clean]
+ ],
+ status: [
+
+ ],
+ status_after: [
+
+ ],
+ staged_after: [
+
+ ]
+}

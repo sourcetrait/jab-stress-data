@@ -1,0 +1,1 @@
+use /home/box/tmp/ai/two/7OBPNPn8Uww/gauge_mirror_select_b/game/fps/test/test.nu [gauge-rules]; gauge-rules /home/box/tmp/ai/two/7OBPNPn8Uww/rules_select_b/route_comparison_left_out; print "rules: ok"

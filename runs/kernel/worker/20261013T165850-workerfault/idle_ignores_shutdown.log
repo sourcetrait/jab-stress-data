@@ -1,0 +1,26 @@
+--- test/workerfault
+Error: nu::shell::error
+
+  x store: the scenario's line and the fault's, nothing more: workerfault:
+  | scenario store
+  | jab: worker fault: hart=1 argument=0x00000000000000a1
+  | cause=0x000000000000000f epc=0x0000000080a001ec tval=0x0000000080000000
+  | jab: shutdown unanswered: hart 2
+  | 
+  | These are not equal.
+    ,-[/home/box/proj/sourcetrait/jab/test/workerfault/test/test.nu:39:18]
+ 38 |     let lines = ($store.serial | lines)
+ 39 |     assert equal ($lines | length) 2 $"store: the scenario's line and the fault's, nothing more: ($store.serial)"
+    :                  ^^^^^^^^|^^^^^^^^ |
+    :                          |         `-- right: 2
+    :                          `-- left: 3
+ 40 |     assert equal $lines.0 "workerfault: scenario store" $"store: ($store.serial)"
+    `----
+
+╭───┬──────────────────┬────────╮
+│ # │     program      │ passed │
+├───┼──────────────────┼────────┤
+│ 0 │ test/workerfault │ false  │
+╰───┴──────────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

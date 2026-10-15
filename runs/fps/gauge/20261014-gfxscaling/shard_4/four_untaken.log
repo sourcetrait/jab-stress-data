@@ -1,0 +1,14 @@
+use /home/box/tmp/jab-stress/gauge-gfxscaling/shard_4/mirror/game/fps/test/test.nu [gauge-rules]; gauge-rules /home/box/tmp/jab-stress/gauge-gfxscaling/shard_4/rules/four_untaken; print "rules: ok"
+Error: nu::shell::error
+
+  x a well-formed capture at schema 4: [the clock records at schema 4, this
+  | reader's being 1, 2, 3, 5, 6] []
+      ,-[/home/box/tmp/jab-stress/gauge-gfxscaling/shard_4/mirror/game/fps/test/test.nu:4047:12]
+ 4046 |     let m4 = (do $measure $good4)
+ 4047 |     assert ($m4.complete and $m4.valid and $m4.under) $"a well-formed capture at schema 4: ($m4.problems) ($m4.invalid)"
+      :            ^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^
+      :                                 `-- It is not true.
+ 4048 |     assert equal [$m4.schema $m4.workers $m4.grains] [4 [2] [0]] $"schema 4, two workers, grain 0: ($m4.schema) ($m4.workers) ($m4.grains)"
+      `----
+
+error: recipe `rules-mirror` failed on line 39 with exit code 1

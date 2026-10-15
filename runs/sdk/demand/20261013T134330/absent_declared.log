@@ -1,0 +1,22 @@
+--- test/demand
+Error: nu::shell::error
+
+  x with its record retired, a run of the declared image is undeclared and
+  | diagnostic: true, false
+  | These are not equal.
+     ,-[/home/box/proj/sourcetrait/jab/test/demand/test/test.nu:268:18]
+ 267 |     assert equal $unrecorded.status $status $"with its record retired the declared image runs as built: ($unrecorded.status), ($unrecorded.serial)"
+ 268 |     assert equal [$unrecorded.declared $unrecorded.diagnostic] [false true] $"with its record retired, a run of the declared image is undeclared and diagnostic: ($unrecorded.declared), ($unrecorded.diagnostic)"
+     :                  ^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^ ^^^^^^|^^^^^
+     :                                        |                             `-- right: [false, true]
+     :                                        `-- left: [true, false]
+ 269 |     rebuilt $tool $declared $declared_image $whole "a build with its record retired"
+     `----
+
+╭───┬─────────────┬────────╮
+│ # │   program   │ passed │
+├───┼─────────────┼────────┤
+│ 0 │ test/demand │ false  │
+╰───┴─────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

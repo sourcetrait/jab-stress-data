@@ -1,0 +1,22 @@
+use /home/box/tmp/ai/two/7OBPNPn8Uww/gm/mirror_f1/game/fps/test/test.nu [gauge-rules]; gauge-rules /home/box/tmp/ai/two/7OBPNPn8Uww/gm/rules_f1/placeholder_embedded_kept; print "rules: ok"
+Error: nu::shell::error
+
+  x a 7c37b3b capture-only report, its placeholder embedded, yields to a real
+  | parent's identity and seed: {identity: {launched: false, note: read from
+  | the capture alone; no identity was written at its launch}, from: embedded,
+  | file: , corrections: , identity_sha256: , binding: , passed: [], seed: ,
+  | reports: [/home/box/tmp/ai/two/7OBPNPn8Uww/gm/rules_f1/
+  | placeholder_embedded_kept/identities/read/old_alone/run_1/gauge.nuon, /
+  | home/box/tmp/ai/two/7OBPNPn8Uww/gm/rules_f1/placeholder_embedded_kept/
+  | identities/read/old_alone/gauge.nuon]}
+  | These are not equal.
+      ,-[/home/box/tmp/ai/two/7OBPNPn8Uww/gm/mirror_f1/game/fps/test/test.nu:4659:18]
+ 4658 |     let from_old_alone = (do $attempt { gauge read-identity $old_alone_run })
+ 4659 |     assert equal [($from_old_alone | get -o from) ($from_old_alone | get -o identity.build.image_sha256) ($from_old_alone | get -o seed)] [legacy fx_full 1] $"a 7c37b3b capture-only report, its placeholder embedded, yields to a real parent's identity and seed: ($from_old_alone)"
+      :                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ^^^^^^^^^|^^^^^^^^
+      :                                                                              |                                                                     `-- right: [legacy, fx_full, 1]
+      :                                                                              `-- left: [embedded, null, null]
+ 4660 |     let old_later = ($rd | path join "old_later")
+      `----
+
+error: recipe `rules-mirror` failed on line 39 with exit code 1

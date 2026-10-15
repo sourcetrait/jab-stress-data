@@ -1,0 +1,26 @@
+use /home/box/tmp/ai/two/7OBPNPn8Uww/gm/mirror_f3/game/fps/test/test.nu [gauge-rules]; gauge-rules /home/box/tmp/ai/two/7OBPNPn8Uww/gm/rules_f3/named_before_kept; print "rules: ok"
+Error: nu::shell::error
+
+  x a run's route is the one beside it before the file its identity names: the
+  | comparison refuses 1 runs: an empty, unclassified, unusable, or unrouted
+  | run always, an incomplete, invalid, unchecked, unpaired, or diagnostic
+  | one, or one missing a leg another run holds, unless --diagnostic admits
+  | it, marked
+  |   /home/box/tmp/ai/two/7OBPNPn8Uww/gm/rules_f3/named_before_kept/routes/
+  | kept/gauge.nuon run 1, unrouted: the route /home/box/tmp/ai/
+  | two/7OBPNPn8Uww/gm/rules_f3/named_before_kept/routes/renamed.nuon has SHA-
+  | 256 dca15ee37b52c1347bb65fdcad0931240884fd080827ff30e0b524efd67c1df3 where
+  | its identity recorded
+  | 6d2db32ffafc5ed2ed3d2985ce526933d976d903765fb88e253da7e322f772ab: its legs
+  | are not the ones that played
+  | These are not equal.
+      ,-[/home/box/tmp/ai/two/7OBPNPn8Uww/gm/mirror_f3/game/fps/test/test.nu:3730:18]
+ 3729 |     let kept_file = ($kept_read | get -o runs.0.route.file | default "" | path expand)
+ 3730 |     assert equal $kept_file ($kept_run | path join "route.nuon" | path expand) $"a run's route is the one beside it before the file its identity names: ($kept_read | get -o refusal)"
+      :                  ^^^^^|^^^^ ^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^
+      :                       |                              `-- right: "/home/box/tmp/ai/two/7OBPNPn8Uww/gm/rules_f3/named_before_kept/routes/kept/run_1/route.nuon"
+      :                       `-- left: "/home/box/proj/sourcetrait/jab-stress/fps/just"
+ 3731 |     # two runs whose identities record no route keep the union
+      `----
+
+error: recipe `rules-mirror` failed on line 39 with exit code 1

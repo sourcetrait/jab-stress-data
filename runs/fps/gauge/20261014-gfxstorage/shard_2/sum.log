@@ -1,0 +1,13 @@
+use /home/box/tmp/ai/two/7OBPNPn8Uww/gm/mirror_f2/game/fps/test/test.nu [gauge-rules]; gauge-rules /home/box/tmp/ai/two/7OBPNPn8Uww/gm/rules_f2/sum; print "rules: ok"
+Error: nu::shell::error
+
+  x a critical path holding the wait breaks the frame's sum: []
+      ,-[/home/box/tmp/ai/two/7OBPNPn8Uww/gm/mirror_f2/game/fps/test/test.nu:3540:12]
+ 3539 |     let holding_says = $"a critical path holding the wait breaks the frame's sum: ($holding.invalid)"
+ 3540 |     assert ((not $holding.valid) and ($holding.invalid | any {|r| $r =~ "not their critical path, wait, and await" })) $holding_says
+      :            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      :                                                                 `-- It is not true.
+ 3541 | 
+      `----
+
+error: recipe `rules-mirror` failed on line 39 with exit code 1

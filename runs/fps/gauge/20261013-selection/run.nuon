@@ -1,0 +1,38 @@
+{
+  set: gauge,
+  stamp: "20261013-selection",
+  task: SelectionIdentity,
+  scope: {
+    kind: targeted,
+    ran: 16,
+    of: 209,
+    names: [
+      bench_first_run,
+      bench_grouped_from_summary,
+      bench_machine_named,
+      bench_machine_standing,
+      bench_machines_from_steps,
+      bench_reads_summary,
+      bench_without_period,
+      build_grain,
+      build_machine,
+      build_workers,
+      compare_reads_summary,
+      legacy_unknown_merged,
+      mixed_refusal_dropped,
+      route_comparison_left_out,
+      route_not_a_build,
+      selection_not_a_build
+    ]
+  },
+  builds: [
+    [part,     build, checkout,  record];
+    [run,      null,  synthetic, unrecorded],
+    [machines, null,  synthetic, unrecorded],
+    [rerun,    null,  synthetic, unrecorded]
+  ],
+  kept: {
+    as: checkpoint,
+    why: "cited as evidence by FrameCeiling's SelectionIdentity"
+  }
+}

@@ -1,0 +1,14 @@
+use /home/box/tmp/jab-stress/gauge-stampwindow/mirror/game/fps/test/test.nu [gauge-rules]; gauge-rules /home/box/tmp/jab-stress/gauge-stampwindow/rules/sf_window_unbounded; print "rules: ok"
+Error: nu::shell::error
+
+  x screen-frame refuses a window of 65,536 frames by the contract's message
+  | alone: {frame: 5, problems: []}
+      ,-[/home/box/tmp/jab-stress/gauge-stampwindow/mirror/game/fps/test/test.nu:4279:12]
+ 4278 |     let long = (gauge screen-frame ($bound_m | update final 65540) 5 4 $worker_expect)
+ 4279 |     assert ($long.frame == null and $long.problems == ["the window from frame 4 to the final frame 65540 holds 65536 frames; it must be shorter than 65,536 frames"]) $"screen-frame refuses a window of 65,536 frames by the contract's message alone: ($long)"
+      :            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      :                                                                                         `-- It is not true.
+ 4280 |     let edge = (gauge screen-frame ($bound_m | update final 65539) 5 4 $worker_expect)
+      `----
+
+error: recipe `rules-mirror` failed on line 39 with exit code 1

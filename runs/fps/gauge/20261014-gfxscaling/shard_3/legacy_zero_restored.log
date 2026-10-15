@@ -1,0 +1,16 @@
+use /home/box/tmp/jab-stress/gauge-gfxscaling/shard_3/mirror/game/fps/test/test.nu [gauge-rules]; gauge-rules /home/box/tmp/jab-stress/gauge-gfxscaling/shard_3/rules/legacy_zero_restored; print "rules: ok"
+Error: nu::shell::error
+
+  x --diagnostic admits the legacy_unasked run marked unpaired, its workers
+  | unknown: {standing: unpaired, effective_workers: 0, effective_grain: 0}
+  | These are not equal.
+      ,-[/home/box/tmp/jab-stress/gauge-gfxscaling/shard_3/mirror/game/fps/test/test.nu:4349:22]
+ 4348 |         let run = ($admitted.runs | where label == $u.name | get 0)
+ 4349 |         assert equal [$run.standing $run.effective_workers $run.effective_grain] [unpaired unknown unknown] $"--diagnostic admits the ($u.name) run marked unpaired, its workers unknown: ($run | select standing effective_workers effective_grain)"
+      :                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ^^^^^^^^^^^^^|^^^^^^^^^^^^
+      :                                                   |                                           `-- right: [unpaired, unknown, unknown]
+      :                                                   `-- left: [unpaired, 0, 0]
+ 4350 |     }
+      `----
+
+error: recipe `rules-mirror` failed on line 39 with exit code 1

@@ -1,0 +1,61 @@
+{
+ call: "4W7Yp8lAKsw",
+ mark: JAB_RUNNER_MARK,
+ stage: ".jabstage.",
+ root: /home/box/proj/sourcetrait/jab,
+ commit: "06a9b50a151189b91822c90b1abc837002263cab",
+ set: "/home/box/ai/two/iter/jab/subiter/kernel/operational/feature_mutants.nuon",
+ "set_sha256": "3fea4e043fc23d1e91b3acbc5bd70840a14401fcf89feae751fd4ac8300338c1",
+ only: [
+  claim_busy_allowed,
+  claim_floor_ignored,
+  grant_discovered,
+  release_busy_allowed,
+  start_owner_unchecked,
+  macro_sixth_unloaded,
+  feature_constant_miswritten,
+  reserved_constant_miswritten,
+  stop_before_join,
+  forced_expiry
+ ],
+ control: {
+  program: test/feature,
+  ok: "feature: ok"
+ },
+ deadline: 540,
+ margin: 15,
+ kill_after: 5,
+ hold: {
+  at: "",
+  seconds: 0
+ },
+ started: "2026-10-13T14:05:48.109+0000",
+ paths: [
+  [file,                      committed,                                                          mutated];
+  ["kernel/src/owners.S",     "dbd93ad8e152cdacd7d66e37725b0629377cbd921f9d266aaed1dfaab24742f9", [
+    [mutant,               hash];
+    [claim_busy_allowed,   "db5c1621db12f8abd05e6b375b909947849e4b1484ea2b5189997681003e6ad9"],
+    [claim_floor_ignored,  "012dbae1bb2f6937f978a0fce34e4af31f15fafa919bcfa7aefe616f396bdca5"],
+    [grant_discovered,     "22d8ded0848f0edd6ba872d492697b0d9f938dec686602a21d4fb820aad24c1e"],
+    [release_busy_allowed, "057311391e624f512afbd1f34297ec7a674e9538b59e1bc9a4d3e911fab7da89"]
+   ]],
+  ["kernel/src/workers.S",    "ab712c48fbc1870e906f76354ecfd2c2462eb974253425858449eccf79f1f77d", [
+    [mutant,                hash];
+    [start_owner_unchecked, "e18f426d6995cc67dd85ff090bf5a8d4eadc3e5974e841df599240e17b53e33d"]
+   ]],
+  ["sdk/src/jab.inc",         "c388b3b086152f710da1947c1aedc4ce702fbf78b7761cd0a9eafb8874489184", [
+    [mutant,               hash];
+    [macro_sixth_unloaded, "2e1c53bda25a1332df66c0b068deac577cdbfbafec570e3aeb07466547f64110"]
+   ]],
+  ["sdk/nu/jab.nu",           "c684349190bdd9fefd0211d3a1eb2f2989bbdeb8c3b752bbee493e32f15bb958", [
+    [mutant,                       hash];
+    [feature_constant_miswritten,  "ebd9d695a9ccb1930059873421d83180fb8c8f0b7116344ca4f11b693ed06b3c"],
+    [reserved_constant_miswritten, "23de302d2f769be1b9eda00a630e14058515ae96dc82d87d5461a42b2bc07277"]
+   ]],
+  ["test/feature/src/main.S", "691bb922f6f25c88d096a99dd2723574260d7d4c4401f894803aa00f4a870721", [
+    [mutant,           hash];
+    [stop_before_join, "8a0d436095c5fee10811a9cdd216c019c596832e9d75d4d580daf02f4320c440"],
+    [forced_expiry,    "1914285aedf0420a3e03a295bc9da975e93ba294c2e09d863f48e3ca5d0c6429"]
+   ]]
+ ]
+}

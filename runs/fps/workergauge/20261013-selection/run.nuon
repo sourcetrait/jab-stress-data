@@ -1,0 +1,18 @@
+{
+  set: workergauge,
+  stamp: "20261013-selection",
+  task: SelectionIdentity,
+  scope: {
+    kind: whole,
+    ran: 7,
+    of: 7
+  },
+  builds: [
+    [part, build, checkout,  record];
+    [run,  null,  synthetic, unrecorded]
+  ],
+  kept: {
+    as: checkpoint,
+    why: "cited as evidence by FrameCeiling's SelectionIdentity"
+  }
+}

@@ -1,0 +1,15 @@
+use /home/box/tmp/ai/two/7OBPNPn8Uww/gauge_mirror_select_b/game/fps/test/test.nu [gauge-rules]; gauge-rules /home/box/tmp/ai/two/7OBPNPn8Uww/rules_select_b/bench_reads_summary; print "rules: ok"
+Error: nu::shell::error
+
+  x run 1 of the bench stands valid
+  | These are not equal.
+      ,-[/home/box/tmp/ai/two/7OBPNPn8Uww/gauge_mirror_select_b/game/fps/test/test.nu:4179:22]
+ 4178 |     for x in [[1 valid] [2 diagnostic] [3 valid]] {
+ 4179 |         assert equal ($runs_doc.runs | where run == $x.0 | get -o 0.standing) $x.1 $"run ($x.0) of the bench stands ($x.1)"
+      :                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^ ^^|^
+      :                                                  |                              `-- right: "valid"
+      :                                                  `-- left: "unpaired"
+ 4180 |     }
+      `----
+
+error: recipe `rules-mirror` failed on line 39 with exit code 1

@@ -1,0 +1,18 @@
+{
+  set: census,
+  stamp: "20261014-gfxscaling",
+  task: GfxScaling,
+  scope: {
+    kind: whole,
+    ran: 13,
+    of: 13
+  },
+  builds: [
+    [part, build, checkout,  record];
+    [run,  null,  synthetic, unrecorded]
+  ],
+  kept: {
+    as: current,
+    why: "the latest whole run of the set, cited as evidence by FrameCeiling's GfxScaling"
+  }
+}

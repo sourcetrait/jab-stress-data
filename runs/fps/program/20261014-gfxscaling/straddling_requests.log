@@ -1,0 +1,40 @@
+gauge: absent: run 1: complete, valid, median 1.8 ms under the 15 ms ceiling, a tail of 0 of 3 frames at or over it; 3 frames to frame 2 at schema 4, critical 1.8 / 1.8 / - / - / 1.8 ms; seeded; cadence 0; workers 2 at grain 0
+gauge:   run 1 played: rounds none; androids none; struck 0; pickups 0; window unknown, audio unknown
+gauge:   run 1 play: median 1.8 ms under the ceiling, a tail of 0 of 3; 3 fast and 0 of them waited; critical 1.8 / 1.8 / - / - / 1.8; draw 1.0, preparation 1.0, raster 0.0, slowest worker 0.0, dispatch 0.0, barrier 0.0, game 0.1, flip 0.5, report 0.1, await 18.2, wait 0.0, pacing 0.0, tiles 0.1 median; 6 cells built over 3 frames, 30 tiled and 30 fallback lit pixels; flips early 0, refusals 0; unattributed 0.1 at most
+gauge: /home/box/ai/two/data/jab/mutants/program-gfxscaling-20261014/straddling_requests/gauge_rules/identities/read/absent_seeded/run_1/gauge.nuon
+gauge: the identity reconciled from /home/box/ai/two/data/jab/mutants/program-gfxscaling-20261014/straddling_requests/gauge_rules/identities/read/absent_seeded/run_1/gauge.nuon and /home/box/ai/two/data/jab/mutants/program-gfxscaling-20261014/straddling_requests/gauge_rules/identities/read/absent_seeded/gauge.nuon
+gauge: absent: run 1: complete, valid, median 1.8 ms under the 15 ms ceiling, a tail of 0 of 3 frames at or over it; 3 frames to frame 2 at schema 4, critical 1.8 / 1.8 / - / - / 1.8 ms; seeded; cadence 0; workers 2 at grain 0
+gauge:   run 1 played: rounds none; androids none; struck 0; pickups 0; window unknown, audio unknown
+gauge:   run 1 play: median 1.8 ms under the ceiling, a tail of 0 of 3; 3 fast and 0 of them waited; critical 1.8 / 1.8 / - / - / 1.8; draw 1.0, preparation 1.0, raster 0.0, slowest worker 0.0, dispatch 0.0, barrier 0.0, game 0.1, flip 0.5, report 0.1, await 18.2, wait 0.0, pacing 0.0, tiles 0.1 median; 6 cells built over 3 frames, 30 tiled and 30 fallback lit pixels; flips early 0, refusals 0; unattributed 0.1 at most
+gauge: /home/box/ai/two/data/jab/mutants/program-gfxscaling-20261014/straddling_requests/gauge_rules/identities/read/absent_seeded/again/gauge.nuon
+gauge: absent: run 1: complete, valid, median 1.8 ms under the 15 ms ceiling, a tail of 0 of 3 frames at or over it; 3 frames to frame 2 at schema 4, critical 1.8 / 1.8 / - / - / 1.8 ms; seeded; cadence 0; workers 2 at grain 0
+gauge:   run 1 played: rounds none; androids none; struck 0; pickups 0; window unknown, audio unknown
+gauge:   run 1 play: median 1.8 ms under the ceiling, a tail of 0 of 3; 3 fast and 0 of them waited; critical 1.8 / 1.8 / - / - / 1.8; draw 1.0, preparation 1.0, raster 0.0, slowest worker 0.0, dispatch 0.0, barrier 0.0, game 0.1, flip 0.5, report 0.1, await 18.2, wait 0.0, pacing 0.0, tiles 0.1 median; 6 cells built over 3 frames, 30 tiled and 30 fallback lit pixels; flips early 0, refusals 0; unattributed 0.1 at most
+gauge: /home/box/ai/two/data/jab/mutants/program-gfxscaling-20261014/straddling_requests/gauge_rules/identities/read/absent_unseeded/run_1/gauge.nuon
+gauge: the identity reconciled from /home/box/ai/two/data/jab/mutants/program-gfxscaling-20261014/straddling_requests/gauge_rules/identities/read/absent_unseeded/run_1/gauge.nuon and /home/box/ai/two/data/jab/mutants/program-gfxscaling-20261014/straddling_requests/gauge_rules/identities/read/absent_unseeded/gauge.nuon
+gauge: absent: run 1: complete, valid, median 1.8 ms under the 15 ms ceiling, a tail of 0 of 3 frames at or over it; 3 frames to frame 2 at schema 4, critical 1.8 / 1.8 / - / - / 1.8 ms; seeded; cadence 0; workers 2 at grain 0
+gauge:   run 1 played: rounds none; androids none; struck 0; pickups 0; window unknown, audio unknown
+gauge:   run 1 play: median 1.8 ms under the ceiling, a tail of 0 of 3; 3 fast and 0 of them waited; critical 1.8 / 1.8 / - / - / 1.8; draw 1.0, preparation 1.0, raster 0.0, slowest worker 0.0, dispatch 0.0, barrier 0.0, game 0.1, flip 0.5, report 0.1, await 18.2, wait 0.0, pacing 0.0, tiles 0.1 median; 6 cells built over 3 frames, 30 tiled and 30 fallback lit pixels; flips early 0, refusals 0; unattributed 0.1 at most
+gauge: /home/box/ai/two/data/jab/mutants/program-gfxscaling-20261014/straddling_requests/gauge_rules/identities/read/absent_unseeded/again/gauge.nuon
+fps: the gauge's rules hold on synthetic captures
+fps: the clock over the walk: 662 frames to frame 661 at schema 6, the critical path's median 12494 us, unattributed at most 39 us of a frame and 266 us of a drawing, residual at most 2 us, 1 flips early; the preparation's median 1245 us and the raster's 10507 us, 4 to 51 commands a frame, 0 flushes, 251488 packet bytes at most; 2586 tiles built, 33554432 bytes of tiles at most; 2 workers, the slowest's median 10403 us, dispatch 61 and barrier 49
+fps: the schedule at cadence 0: 440 frames; the fast stage's interval 16662.0 us and age 6034.5 us; the stall's intervals [50823, 22014, 17090] us; the slow stage's 42494.5 us
+fps: the schedule at cadence 1: 466 frames; the fast stage's interval 16665.5 us and age 16456.5 us; the stall's intervals [38991, 17580, 16670] us; the slow stage's 25415.0 us
+fps: the schedule at cadence 2: 440 frames; the fast stage's interval 16666.0 us and age 16500.0 us; the stall's intervals [49984, 16833, 16472] us; the slow stage's 33332.5 us
+fps: the walk at cadence 0: 3.999999993025679 m/s over 2.947038 s, 70 frames, the interval's median 42568 us
+fps: the walk at cadence 1: 4.000000566006289 m/s over 2.964863 s, 117 frames, the interval's median 25418.5 us
+fps: the walk at cadence 2: 4.000000346062863 m/s over 2.932815 s, 89 frames, the interval's median 33274.0 us
+nu /home/box/proj/sourcetrait/jab-stress/fps/just/../../../jab/game/fps/test/test.nu --kernel /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel/jab.elf --image /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/program_gfxscaling/packets_straddling_requests/debug/fps.jab --out /home/box/ai/two/data/jab/mutants/program-gfxscaling-20261014/straddling_requests --set DEBUG --assets /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/game/fps/fps.romfs
+Error: nu::shell::error
+
+  x first sight settled under the ordinary budget: {frame: 233, missed_blocks:
+  | 11665, admitted: 438, building: 0, tiles_built: 0}
+      ,-[/home/box/proj/sourcetrait/jab-stress/fps/just/../../../jab/game/fps/test/test.nu:2411:12]
+ 2410 |     let settled_at = ($sight.rows | where {|r| do $settled $r } | get -o 0.frame)
+ 2411 |     assert ($settled_at != null) $"first sight settled under the ordinary budget: ($sight.rows | last | select frame missed_blocks admitted building tiles_built)"
+      :            ^^^^^^^^^^|^^^^^^^^^^
+      :                      `-- It is not true.
+ 2412 |     let unsettled = ($sight.rows | where {|r| $r.frame >= $settled_at and not (do $settled $r) })
+      `----
+
+error: recipe `image-test` failed on line 20 with exit code 1

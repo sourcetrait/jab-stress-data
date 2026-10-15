@@ -1,0 +1,30 @@
+use /home/box/tmp/ai/two/7OBPNPn8Uww/gm/mirror_f0/game/fps/test/test.nu [gauge-rules]; gauge-rules /home/box/tmp/ai/two/7OBPNPn8Uww/gm/rules_f0/legacy_without_build_kernel_sha256; print "rules: ok"
+Error: nu::shell::error
+
+  x a file differing in build.kernel_sha256 alone passed over naming it:
+  | {identity: {launched: true, written: 2026-10-06T00:00:00+0000, workspace:
+  | {dir: w, commit: fx_commit, dirty: false}, build: {tree: release, set: ,
+  | flags: -I src -march=rva23u64 fx-, image: fps.jab, image_sha256: fx_full,
+  | elf_sha256: fx_elf, kernel: jab.elf, kernel_sha256: other_kernel,
+  | provenance: }, assets: {map: render_0, tree: t, digest: fx_assets}, route:
+  | {file: route.nuon, sha256: fx_route}, cap: 60, machine: {harts: 3,
+  | diagnostic: false, machine: virt, cpu: rva23s64, accel: tcg,thread=multi},
+  | overrides: [], qemu: {binary: qemu-system-riscv64, version: QEMU emulator
+  | version 11.1.2}, host: {os: linux, hostname: fx_host}, toolchain: {prefix:
+  | fx-, assembler: GNU assembler 2.47, link: riscv}, mode: {window: false,
+  | sound: recorded, pad: route, seed: 1, cadence: 1, workers: 2, grain: 32,
+  | end: 10sec, capture: 12sec}}, from: file, file: /home/box/tmp/ai/
+  | two/7OBPNPn8Uww/gm/rules_f0/legacy_without_build_kernel_sha256/identities/
+  | binding/alone_build_kernel_sha256/run_1/identity.nuon, corrections: ,
+  | identity_sha256:
+  | 04a12d00afae225716782364e5dc792953ee10eb756b0861e44845fb0216b2eb, binding:
+  | {strength: legacy, unrecorded: []}, passed: [], seed: 1}
+      ,-[/home/box/tmp/ai/two/7OBPNPn8Uww/gm/mirror_f0/game/fps/test/test.nu:4482:16]
+ 4481 |         let named = ($read | get -o passed.0.reasons | default [] | any {|r| $r | str contains $"its ($c.field)" })
+ 4482 |         assert (($read | get -o from) == "legacy" and $named) $"a file differing in ($c.field) alone passed over naming it: ($read)"
+      :                ^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^
+      :                                       `-- It is not true.
+ 4483 |     }
+      `----
+
+error: recipe `rules-mirror` failed on line 39 with exit code 1

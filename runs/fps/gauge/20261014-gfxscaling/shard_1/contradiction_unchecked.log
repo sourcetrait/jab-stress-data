@@ -1,0 +1,16 @@
+use /home/box/tmp/jab-stress/gauge-gfxscaling/shard_1/mirror/game/fps/test/test.nu [gauge-rules]; gauge-rules /home/box/tmp/jab-stress/gauge-gfxscaling/shard_1/rules/contradiction_unchecked; print "rules: ok"
+Error: nu::shell::error
+
+  x the flags "-I src --defsym DEBUG=1 -march=rva23u64 fx-" on the release
+  | tree contradict it, true:
+  | These are not equal.
+      ,-[/home/box/tmp/jab-stress/gauge-gfxscaling/shard_1/mirror/game/fps/test/test.nu:4697:22]
+ 4696 |         let said = (gauge flags-contradiction $c.flags $c.tree)
+ 4697 |         assert equal ($said != null) $c.contradicts $"the flags ($c.flags | to nuon) on the ($c.tree) tree contradict it, ($c.contradicts): ($said)"
+      :                      ^^^^^^^|^^^^^^^ ^^^^^^^|^^^^^^
+      :                             |               `-- right: true
+      :                             `-- left: false
+ 4698 |     }
+      `----
+
+error: recipe `rules-mirror` failed on line 39 with exit code 1

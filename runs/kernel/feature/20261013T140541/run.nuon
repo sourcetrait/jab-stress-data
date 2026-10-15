@@ -1,0 +1,18 @@
+{
+  set: feature,
+  stamp: "20261013T140541",
+  task: ScaledFeatureProof,
+  scope: {
+    kind: whole,
+    ran: 10,
+    of: 10
+  },
+  builds: [
+    [part, build,                                      checkout, record];
+    [run,  "06a9b50a151189b91822c90b1abc837002263cab", jab,      "baseline.nuon"]
+  ],
+  kept: {
+    as: current,
+    why: "the latest whole run of the set, cited as evidence by ResourceScaling's ScaledFeatureProof"
+  }
+}

@@ -1,0 +1,17 @@
+nu /home/box/tmp/ai/two/7OBPNPn8Uww/reader_mutants_1/wg_reads_summary/fps/readers/workergauge.nu holds /home/box/tmp/ai/two/7OBPNPn8Uww/reader_mutants_1/wg_reads_summary/workergauge_holds
+Error: nu::shell::error
+
+  x workergauge holds: a summary asking none over forced runs leaves them
+  | forced: [[], automatic]
+     ,-[/home/box/tmp/ai/two/7OBPNPn8Uww/reader_mutants_1/wg_reads_summary/fps/readers/workergauge.nu:289:56]
+ 288 |     mkdir $scratch
+ 289 |     let fail = {|name: string, why: string| error make { msg: $"workergauge holds: ($name): ($why)" } }
+     :                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 290 |     let named = {|name: string, work: closure| try { do $work } catch {|e| do $fail $name $"raised: ($e.msg | str substring 0..300)" } }
+     `----
+
+error: recipe `reader-holds` failed on line 91 with exit code 1
+packetgauge holds: ok
+nu /home/box/tmp/ai/two/7OBPNPn8Uww/reader_mutants_1/wg_reads_summary/fps/readers/packetgauge.nu holds /home/box/tmp/ai/two/7OBPNPn8Uww/reader_mutants_1/wg_reads_summary/packetgauge_holds
+lane holds: ok
+nu /home/box/tmp/ai/two/7OBPNPn8Uww/reader_mutants_1/wg_reads_summary/fps/readers/lane.nu holds /home/box/tmp/ai/two/7OBPNPn8Uww/reader_mutants_1/wg_reads_summary/lane_holds

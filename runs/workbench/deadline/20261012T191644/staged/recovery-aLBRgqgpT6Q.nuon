@@ -1,0 +1,27 @@
+{
+ recovery: "aLBRgqgpT6Q",
+ call: "5uVwI6HpbMd",
+ root: /home/box/tmp/ai/two/iPntyQzLDsd/f_staged,
+ commit: "43ec856a8a3cbc32820d82f80fa5d7625cceabb1",
+ head: "43ec856a8a3cbc32820d82f80fa5d7625cceabb1",
+ results_present: false,
+ started: "2026-10-12T19:20:34.895+0000",
+ sweep: {
+  records: [
+
+  ],
+  left: [
+
+  ]
+ },
+ strays: [
+  [file,                         bytes, "sha256"];
+  [".case.jabstage.5uVwI6HpbMd", 12,    "0eae7e2564e07ed9c8b3a99c278625e38ebe5664876d7aa253aa2dbf7627b210"]
+ ],
+ paths: [
+  [file, found,     hash,                                                               action];
+  [case, committed, "0fcd568a5cb9bdb4677b69354b11ee415af8f784519cff3da49a26f84eaee7f2", none]
+ ],
+ complete: true,
+ finished: 0.05
+}

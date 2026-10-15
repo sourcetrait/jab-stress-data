@@ -1,0 +1,14 @@
+admission holds: ok
+nu /home/box/tmp/ai/two/7OBPNPn8Uww/prm_1/pg_binding_unchecked/fps/readers/admission.nu holds /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/gauge/game/fps/admission /home/box/tmp/ai/two/7OBPNPn8Uww/prm_1/pg_binding_unchecked/fps/readers/ad_holds
+nu /home/box/tmp/ai/two/7OBPNPn8Uww/prm_1/pg_binding_unchecked/fps/readers/poolgauge.nu holds /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/gauge/game/fps /home/box/tmp/ai/two/7OBPNPn8Uww/prm_1/pg_binding_unchecked/fps/readers/pg_holds
+Error: nu::shell::error
+
+  x poolgauge holds: a run whose identity hash is mismatched: accepted
+     ,-[/home/box/tmp/ai/two/7OBPNPn8Uww/prm_1/pg_binding_unchecked/fps/readers/poolgauge.nu:357:56]
+ 356 |     mkdir $scratch
+ 357 |     let fail = {|name: string, why: string| error make { msg: $"poolgauge holds: ($name): ($why)" } }
+     :                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 358 |     let named = {|name: string, work: closure| try { do $work } catch {|e| do $fail $name $"raised: ($e.msg | str substring 0..300)" } }
+     `----
+
+error: recipe `poolgauge-holds` failed on line 32 with exit code 1

@@ -1,0 +1,33 @@
+use /home/box/tmp/ai/two/7OBPNPn8Uww/gm/mirror_f0/game/fps/test/test.nu [gauge-rules]; gauge-rules /home/box/tmp/ai/two/7OBPNPn8Uww/gm/rules_f0/correctable_compared; print "rules: ok"
+Error: nu::shell::error
+
+  x a file differing from the run's embedded identity in a correctable field
+  | alone binds to it: {identity: {launched: true, written: 2026-10-
+  | 06T00:00:00+0000, workspace: {dir: w, commit: fx_commit, dirty: false},
+  | build: {tree: release, set: , flags: -I src -march=rva23u64 fx-, image:
+  | fps.jab, image_sha256: fx_full, elf_sha256: fx_elf, kernel: jab.elf,
+  | kernel_sha256: fx_kernel, provenance: }, assets: {map: render_0, tree: t,
+  | digest: fx_assets}, route: {file: route.nuon, sha256: fx_route}, cap: 60,
+  | machine: {harts: 3, diagnostic: false, machine: virt, cpu: rva23s64,
+  | accel: tcg,thread=multi}, overrides: [], qemu: {binary: qemu-system-
+  | riscv64, version: QEMU emulator version 11.1.2}, host: {os: linux,
+  | hostname: fx_host}, toolchain: {prefix: fx-, assembler: GNU assembler
+  | 2.47, link: riscv}, mode: {window: false, sound: recorded, pad: route,
+  | seed: 1, cadence: 1, workers: 2, grain: 32, end: 10sec, capture: 12sec}},
+  | from: embedded, file: , corrections: , identity_sha256: , binding: ,
+  | passed: [{dir: /home/box/tmp/ai/two/7OBPNPn8Uww/gm/rules_f0/
+  | correctable_compared/identities/binding/embedded/run_1, strength:
+  | embedded, reasons: [its build.flags "-I src --defsym DEBUG=1
+  | -march=rva23u64 fx-", the run's embedded identity's "-I src
+  | -march=rva23u64 fx-"]}], seed: 1}
+  | These are not equal.
+      ,-[/home/box/tmp/ai/two/7OBPNPn8Uww/gm/mirror_f0/game/fps/test/test.nu:4450:18]
+ 4449 |     let by_embedded = (do $attempt { gauge identity-of (fx-report ($bnd | path join "embedded") "embedded" $full_id [$e_run]) $e_run $full_id })
+ 4450 |     assert equal [($by_embedded | get -o from) ($by_embedded | get -o binding.strength) ($by_embedded | get -o identity.build.flags)] [file embedded $debug_flags] $"a file differing from the run's embedded identity in a correctable field alone binds to it: ($by_embedded)"
+      :                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ^^^^^^^^^^^^^^|^^^^^^^^^^^^^
+      :                                                                            |                                                                        `-- right: [file, embedded, "-I src --defsym DEBUG=1 -march=rva23u64 fx-"]
+      :                                                                            `-- left: [embedded, null, "-I src -march=rva23u64 fx-"]
+ 4451 |     let n_home = ($bnd | path join "hostname")
+      `----
+
+error: recipe `rules-mirror` failed on line 39 with exit code 1

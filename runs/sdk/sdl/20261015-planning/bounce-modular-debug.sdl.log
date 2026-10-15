@@ -1,0 +1,1477 @@
+1792043853.588532 make_current qemu-system-riscv64+74273 qemu-system-riscv64+75347(register_displaychangelistener+117) ui-sdl.so+270c qemu-system-riscv64+246426(qemu_init+35a6)
+1792043853.668114 make_current qemu-system-riscv64+75347(register_displaychangelistener+117) ui-sdl.so+270c qemu-system-riscv64+246426(qemu_init+35a6) qemu-system-riscv64+3a1f0(main+20)
+1792043853.673230 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043853.673250 size
+1792043853.673432 swap
+1792043853.673450 poll
+1792043853.673460 size
+1792043853.673464 poll
+1792043853.673468 size
+1792043853.673472 poll
+1792043853.673476 poll
+1792043853.673480 poll
+1792043853.689946 make_current qemu-system-riscv64+74273 qemu-system-riscv64+7591d(dpy_gfx_replace_surface+9d) hw-display-virtio-gpu.so+43da qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043853.700137 make_current qemu-system-riscv64+7591d(dpy_gfx_replace_surface+9d) hw-display-virtio-gpu.so+43da qemu-system-riscv64+607c13(aio_bh_call+33) qemu-system-riscv64+607d06(aio_bh_poll+c6)
+1792043853.701347 make_current qemu-system-riscv64+74273 qemu-system-riscv64+7591d(dpy_gfx_replace_surface+9d) hw-display-virtio-gpu.so+388a hw-display-virtio-gpu.so+4bf9(virtio_gpu_simple_process_cmd+7c9)
+1792043853.711458 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043853.711469 size
+1792043853.711500 swap
+1792043853.711511 poll
+1792043853.711516 poll
+1792043853.711519 poll
+1792043853.712788 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043853.716659 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043853.734751 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043853.743000 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043853.743042 size
+1792043853.743105 swap
+1792043853.743137 poll
+1792043853.752490 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043853.769164 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043853.774416 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043853.774464 size
+1792043853.774530 swap
+1792043853.774571 poll
+1792043853.785812 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043853.802747 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043853.806226 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043853.806255 size
+1792043853.806322 swap
+1792043853.806366 poll
+1792043853.819184 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043853.836046 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043853.838333 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043853.838354 size
+1792043853.838418 swap
+1792043853.838455 poll
+1792043853.852603 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043853.869399 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043853.871608 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043853.871626 size
+1792043853.871685 swap
+1792043853.871720 poll
+1792043853.886384 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043853.903364 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043853.903411 size
+1792043853.903489 swap
+1792043853.903528 poll
+1792043853.905207 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043853.919867 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043853.935657 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043853.935720 size
+1792043853.935804 swap
+1792043853.935855 poll
+1792043853.938864 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043853.953031 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043853.967479 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043853.967526 size
+1792043853.967591 swap
+1792043853.967632 poll
+1792043853.970526 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043853.986320 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043853.999494 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043853.999541 size
+1792043853.999606 swap
+1792043853.999640 poll
+1792043854.002989 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.019713 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.031477 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043854.031526 size
+1792043854.031592 swap
+1792043854.031627 poll
+1792043854.036347 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.052630 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.063626 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043854.063688 size
+1792043854.063771 swap
+1792043854.063812 poll
+1792043854.069496 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.086424 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.095484 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043854.095534 size
+1792043854.095601 swap
+1792043854.095637 poll
+1792043854.102813 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.119682 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.127495 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043854.127542 size
+1792043854.127607 swap
+1792043854.127641 poll
+1792043854.135835 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.152943 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.159481 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043854.159529 size
+1792043854.159603 swap
+1792043854.159639 poll
+1792043854.169651 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.184748 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.190837 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043854.190852 size
+1792043854.190916 swap
+1792043854.190959 poll
+1792043854.202645 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.219396 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.222282 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043854.222301 size
+1792043854.222368 swap
+1792043854.222402 poll
+1792043854.236289 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.253070 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.255294 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043854.255312 size
+1792043854.255378 swap
+1792043854.255412 poll
+1792043854.269823 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.286188 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.288408 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043854.288427 size
+1792043854.288499 swap
+1792043854.288545 poll
+1792043854.302982 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.319424 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.321658 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043854.321677 size
+1792043854.321757 swap
+1792043854.321797 poll
+1792043854.336414 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.353409 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043854.353471 size
+1792043854.353557 swap
+1792043854.353606 poll
+1792043854.355594 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.369919 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.385575 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043854.385638 size
+1792043854.385730 swap
+1792043854.385775 poll
+1792043854.388504 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.402918 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.417488 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043854.417537 size
+1792043854.417617 swap
+1792043854.417655 poll
+1792043854.420386 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.435735 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.447645 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043854.447649 size
+1792043854.447661 swap
+1792043854.447668 poll
+1792043854.450693 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.468980 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.479210 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043854.479226 size
+1792043854.479294 swap
+1792043854.479326 poll
+1792043854.485397 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.502864 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.511221 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043854.511249 size
+1792043854.511327 swap
+1792043854.511366 poll
+1792043854.519200 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.535794 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.543248 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043854.543264 size
+1792043854.543305 swap
+1792043854.543330 poll
+1792043854.552214 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.568928 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.574548 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043854.574560 size
+1792043854.574598 swap
+1792043854.574622 poll
+1792043854.585254 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.601648 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.605271 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043854.605281 size
+1792043854.605313 swap
+1792043854.605332 poll
+1792043854.618805 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.635507 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.637534 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043854.637549 size
+1792043854.637609 swap
+1792043854.637643 poll
+1792043854.652395 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.669401 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043854.669458 size
+1792043854.669531 swap
+1792043854.669567 poll
+1792043854.671521 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.686489 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.701638 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043854.701698 size
+1792043854.701764 swap
+1792043854.701800 poll
+1792043854.704887 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.720011 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.733645 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043854.733694 size
+1792043854.733759 swap
+1792043854.733793 poll
+1792043854.736594 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.752939 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.765432 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043854.765480 size
+1792043854.765546 swap
+1792043854.765581 poll
+1792043854.769106 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.785739 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.797232 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043854.797255 size
+1792043854.797292 swap
+1792043854.797315 poll
+1792043854.802383 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.819052 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.829202 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043854.829216 size
+1792043854.829254 swap
+1792043854.829275 poll
+1792043854.835721 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.852532 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.861359 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043854.861378 size
+1792043854.861440 swap
+1792043854.861475 poll
+1792043854.869012 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.885605 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.893114 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043854.893131 size
+1792043854.893176 swap
+1792043854.893200 poll
+1792043854.902314 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.919065 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.924167 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043854.924199 size
+1792043854.924243 swap
+1792043854.924268 poll
+1792043854.935560 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.952214 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.956196 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043854.956217 size
+1792043854.956287 swap
+1792043854.956330 poll
+1792043854.968957 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.985387 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043854.988176 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043854.988192 size
+1792043854.988257 swap
+1792043854.988286 poll
+1792043855.002082 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.018712 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.020719 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043855.020734 size
+1792043855.020774 swap
+1792043855.020797 poll
+1792043855.035397 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.052130 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043855.052147 size
+1792043855.052184 swap
+1792043855.052211 poll
+1792043855.053714 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.069076 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.083424 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043855.083474 size
+1792043855.083548 swap
+1792043855.083583 poll
+1792043855.085953 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.102366 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.115510 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043855.115577 size
+1792043855.115642 swap
+1792043855.115677 poll
+1792043855.119002 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.135828 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.147474 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043855.147522 size
+1792043855.147586 swap
+1792043855.147620 poll
+1792043855.152389 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.169724 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.177711 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043855.177720 size
+1792043855.177736 swap
+1792043855.177745 poll
+1792043855.185444 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.202485 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.209250 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043855.209265 size
+1792043855.209306 swap
+1792043855.209331 poll
+1792043855.219440 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.235798 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.241514 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043855.241561 size
+1792043855.241632 swap
+1792043855.241670 poll
+1792043855.252497 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.269677 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.273466 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043855.273513 size
+1792043855.273579 swap
+1792043855.273614 poll
+1792043855.286337 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.302709 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.305271 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043855.305290 size
+1792043855.305352 swap
+1792043855.305387 poll
+1792043855.319159 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.335703 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.337900 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043855.337919 size
+1792043855.337979 swap
+1792043855.338014 poll
+1792043855.352457 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.369367 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043855.369414 size
+1792043855.369478 swap
+1792043855.369512 poll
+1792043855.371142 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.385962 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.401356 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043855.401400 size
+1792043855.401468 swap
+1792043855.401504 poll
+1792043855.403769 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.419388 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.433432 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043855.433479 size
+1792043855.433544 swap
+1792043855.433579 poll
+1792043855.436022 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.452632 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.465385 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043855.465432 size
+1792043855.465497 swap
+1792043855.465533 poll
+1792043855.468916 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.485683 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.497308 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043855.497332 size
+1792043855.497396 swap
+1792043855.497431 poll
+1792043855.502713 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.518842 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.528512 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043855.528544 size
+1792043855.528595 swap
+1792043855.528622 poll
+1792043855.535493 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.551085 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.558750 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043855.558761 size
+1792043855.558785 swap
+1792043855.558800 poll
+1792043855.567625 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.585913 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.590387 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043855.590457 size
+1792043855.590544 swap
+1792043855.590593 poll
+1792043855.602671 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.619745 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.622474 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043855.622540 size
+1792043855.622620 swap
+1792043855.622663 poll
+1792043855.636235 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.652981 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.655198 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043855.655257 size
+1792043855.655319 swap
+1792043855.655360 poll
+1792043855.669512 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.684407 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.686049 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043855.686056 size
+1792043855.686081 swap
+1792043855.686096 poll
+1792043855.702278 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.717304 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043855.717322 size
+1792043855.717382 swap
+1792043855.717416 poll
+1792043855.719482 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.735724 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.749561 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043855.749610 size
+1792043855.749677 swap
+1792043855.749713 poll
+1792043855.752815 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.769608 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.781406 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043855.781454 size
+1792043855.781527 swap
+1792043855.781562 poll
+1792043855.785862 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.802731 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.813329 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043855.813347 size
+1792043855.813407 swap
+1792043855.813441 poll
+1792043855.819326 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.836211 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.845378 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043855.845440 size
+1792043855.845505 swap
+1792043855.845539 poll
+1792043855.852528 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.869075 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.877231 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043855.877257 size
+1792043855.877301 swap
+1792043855.877328 poll
+1792043855.885718 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.902730 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.909276 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043855.909293 size
+1792043855.909355 swap
+1792043855.909390 poll
+1792043855.919140 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.936176 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.941499 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043855.941550 size
+1792043855.941620 swap
+1792043855.941657 poll
+1792043855.952608 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.969115 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043855.973493 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043855.973540 size
+1792043855.973611 swap
+1792043855.973645 poll
+1792043855.985586 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.002317 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.005270 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.005290 size
+1792043856.005353 swap
+1792043856.005389 poll
+1792043856.018955 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.035461 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.037581 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.037597 size
+1792043856.037637 swap
+1792043856.037662 poll
+1792043856.052473 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.069288 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.069309 size
+1792043856.069372 swap
+1792043856.069407 poll
+1792043856.071634 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.085904 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.101323 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.101341 size
+1792043856.101401 swap
+1792043856.101435 poll
+1792043856.103753 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.119516 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.133356 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.133375 size
+1792043856.133441 swap
+1792043856.133475 poll
+1792043856.135846 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.152935 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.165497 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.165547 size
+1792043856.165619 swap
+1792043856.165657 poll
+1792043856.169301 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.184843 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.197269 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.197289 size
+1792043856.197356 swap
+1792043856.197394 poll
+1792043856.202525 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.219334 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.229167 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.229183 size
+1792043856.229229 swap
+1792043856.229268 poll
+1792043856.235697 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.252365 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.261173 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.261188 size
+1792043856.261223 swap
+1792043856.261254 poll
+1792043856.269005 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.286033 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.293507 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.293555 size
+1792043856.293621 swap
+1792043856.293657 poll
+1792043856.302921 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.319547 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.325372 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.325406 size
+1792043856.325470 swap
+1792043856.325504 poll
+1792043856.336253 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.353117 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.357494 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.357542 size
+1792043856.357616 swap
+1792043856.357653 poll
+1792043856.369710 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.386443 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.389288 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.389308 size
+1792043856.389370 swap
+1792043856.389404 poll
+1792043856.403056 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.419492 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.421700 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.421718 size
+1792043856.421779 swap
+1792043856.421813 poll
+1792043856.436336 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.452502 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.454714 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.454738 size
+1792043856.454799 swap
+1792043856.454833 poll
+1792043856.469041 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.486419 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.486452 size
+1792043856.486523 swap
+1792043856.486557 poll
+1792043856.487940 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.502503 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.516968 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.517002 size
+1792043856.517039 swap
+1792043856.517061 poll
+1792043856.518040 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.535649 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.547697 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.547745 size
+1792043856.547803 swap
+1792043856.547834 poll
+1792043856.552189 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.568373 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.578844 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.578862 size
+1792043856.578920 swap
+1792043856.578948 poll
+1792043856.585505 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.602386 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.610385 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.610405 size
+1792043856.610489 swap
+1792043856.610527 poll
+1792043856.619456 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.636075 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.642332 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.642351 size
+1792043856.642415 swap
+1792043856.642451 poll
+1792043856.652613 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.669567 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.674263 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.674283 size
+1792043856.674347 swap
+1792043856.674384 poll
+1792043856.684488 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.702544 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.706278 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.706295 size
+1792043856.706356 swap
+1792043856.706390 poll
+1792043856.718857 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.736022 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.738296 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.738314 size
+1792043856.738374 swap
+1792043856.738409 poll
+1792043856.752687 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.769191 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.771418 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.771435 size
+1792043856.771499 swap
+1792043856.771536 poll
+1792043856.785805 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.803371 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.803405 size
+1792043856.803468 swap
+1792043856.803508 poll
+1792043856.804983 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.819505 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.835293 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.835311 size
+1792043856.835373 swap
+1792043856.835408 poll
+1792043856.838321 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.853070 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.867486 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.867534 size
+1792043856.867599 swap
+1792043856.867641 poll
+1792043856.870562 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.886352 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.899503 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.899550 size
+1792043856.899614 swap
+1792043856.899649 poll
+1792043856.902943 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.919625 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.931504 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.931551 size
+1792043856.931622 swap
+1792043856.931657 poll
+1792043856.936282 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.953029 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.963485 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.963533 size
+1792043856.963606 swap
+1792043856.963641 poll
+1792043856.969364 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.986234 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043856.995422 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043856.995469 size
+1792043856.995543 swap
+1792043856.995579 poll
+1792043857.002875 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.019496 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.027487 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043857.027536 size
+1792043857.027604 swap
+1792043857.027648 poll
+1792043857.036358 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.053010 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.059470 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043857.059519 size
+1792043857.059585 swap
+1792043857.059626 poll
+1792043857.069539 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.086304 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.091469 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043857.091518 size
+1792043857.091585 swap
+1792043857.091622 poll
+1792043857.103028 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.119511 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.123359 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043857.123393 size
+1792043857.123457 swap
+1792043857.123491 poll
+1792043857.136300 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.152649 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.155282 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043857.155300 size
+1792043857.155361 swap
+1792043857.155395 poll
+1792043857.169470 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.185022 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.186696 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043857.186709 size
+1792043857.186756 swap
+1792043857.186782 poll
+1792043857.202512 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.218492 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043857.218540 size
+1792043857.218604 swap
+1792043857.218645 poll
+1792043857.221418 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.236300 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.250490 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043857.250538 size
+1792043857.250603 swap
+1792043857.250637 poll
+1792043857.253618 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.269585 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.282498 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043857.282545 size
+1792043857.282612 swap
+1792043857.282646 poll
+1792043857.285877 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.302643 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.314475 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043857.314523 size
+1792043857.314596 swap
+1792043857.314630 poll
+1792043857.319667 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.336390 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.346485 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043857.346534 size
+1792043857.346599 swap
+1792043857.346634 poll
+1792043857.353049 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.369705 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.378490 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043857.378537 size
+1792043857.378602 swap
+1792043857.378643 poll
+1792043857.386331 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.402959 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.410438 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043857.410493 size
+1792043857.410558 swap
+1792043857.410592 poll
+1792043857.419786 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.436327 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.442417 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043857.442464 size
+1792043857.442539 swap
+1792043857.442575 poll
+1792043857.453137 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.469616 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.474457 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043857.474504 size
+1792043857.474569 swap
+1792043857.474603 poll
+1792043857.486334 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.502919 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.506259 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043857.506324 size
+1792043857.506406 swap
+1792043857.506455 poll
+1792043857.519309 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.535402 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.537582 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043857.537601 size
+1792043857.537658 swap
+1792043857.537695 poll
+1792043857.551027 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.567896 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043857.567917 size
+1792043857.567947 swap
+1792043857.567966 poll
+1792043857.568582 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.586041 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.599486 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043857.599533 size
+1792043857.599608 swap
+1792043857.599658 poll
+1792043857.602623 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.619509 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.631474 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043857.631522 size
+1792043857.631589 swap
+1792043857.631625 poll
+1792043857.635923 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.652664 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.663431 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043857.663478 size
+1792043857.663553 swap
+1792043857.663589 poll
+1792043857.669496 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.685736 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.695178 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043857.695253 size
+1792043857.695324 swap
+1792043857.695360 poll
+1792043857.702848 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.719333 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.727632 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043857.727683 size
+1792043857.727749 swap
+1792043857.727783 poll
+1792043857.735944 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.753146 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.759467 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043857.759514 size
+1792043857.759580 swap
+1792043857.759621 poll
+1792043857.769595 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.786015 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.791485 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043857.791533 size
+1792043857.791597 swap
+1792043857.791638 poll
+1792043857.802877 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.819421 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.823464 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043857.823511 size
+1792043857.823575 swap
+1792043857.823610 poll
+1792043857.836352 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.852632 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.855278 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043857.855296 size
+1792043857.855355 swap
+1792043857.855396 poll
+1792043857.869706 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.886281 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.888496 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043857.888515 size
+1792043857.888575 swap
+1792043857.888610 poll
+1792043857.903076 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.919397 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.921606 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043857.921624 size
+1792043857.921684 swap
+1792043857.921725 poll
+1792043857.936377 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.953341 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043857.953375 size
+1792043857.953439 swap
+1792043857.953473 poll
+1792043857.955131 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.969821 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043857.985512 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043857.985560 size
+1792043857.985627 swap
+1792043857.985664 poll
+1792043857.988610 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.003103 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.017511 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043858.017559 size
+1792043858.017628 swap
+1792043858.017672 poll
+1792043858.020347 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.036301 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.049503 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043858.049553 size
+1792043858.049620 swap
+1792043858.049656 poll
+1792043858.052951 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.069700 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.081509 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043858.081564 size
+1792043858.081632 swap
+1792043858.081667 poll
+1792043858.086319 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.102941 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.113523 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043858.113571 size
+1792043858.113636 swap
+1792043858.113678 poll
+1792043858.119530 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.136493 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.145469 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043858.145517 size
+1792043858.145582 swap
+1792043858.145616 poll
+1792043858.152605 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.169727 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.177320 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043858.177363 size
+1792043858.177425 swap
+1792043858.177459 poll
+1792043858.184922 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.202762 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.209307 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043858.209325 size
+1792043858.209386 swap
+1792043858.209421 poll
+1792043858.219737 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.236344 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.241472 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043858.241539 size
+1792043858.241607 swap
+1792043858.241650 poll
+1792043858.253004 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.269586 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.273484 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043858.273531 size
+1792043858.273596 swap
+1792043858.273630 poll
+1792043858.286281 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.302655 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.305284 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043858.305303 size
+1792043858.305370 swap
+1792043858.305404 poll
+1792043858.319630 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.336227 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.338456 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043858.338474 size
+1792043858.338535 swap
+1792043858.338569 poll
+1792043858.352992 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.369407 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.371597 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043858.371615 size
+1792043858.371674 swap
+1792043858.371708 poll
+1792043858.386173 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.402444 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.404575 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043858.404590 size
+1792043858.404651 swap
+1792043858.404692 poll
+1792043858.419481 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.436374 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043858.436434 size
+1792043858.436505 swap
+1792043858.436538 poll
+1792043858.438559 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.453065 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.468503 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043858.468550 size
+1792043858.468622 swap
+1792043858.468656 poll
+1792043858.471482 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.485979 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.500504 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043858.500552 size
+1792043858.500617 swap
+1792043858.500652 poll
+1792043858.503093 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.517942 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.530842 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043858.530870 size
+1792043858.530900 swap
+1792043858.530920 poll
+1792043858.534499 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.551568 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.561954 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043858.561974 size
+1792043858.562042 swap
+1792043858.562084 poll
+1792043858.569183 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.585537 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.593228 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043858.593254 size
+1792043858.593307 swap
+1792043858.593335 poll
+1792043858.602534 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.619345 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.625284 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043858.625302 size
+1792043858.625368 swap
+1792043858.625409 poll
+1792043858.635947 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.652503 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.657303 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043858.657321 size
+1792043858.657389 swap
+1792043858.657423 poll
+1792043858.669669 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.686318 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.689288 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043858.689308 size
+1792043858.689371 swap
+1792043858.689408 poll
+1792043858.702981 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.719670 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.721892 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043858.721911 size
+1792043858.721971 swap
+1792043858.722005 poll
+1792043858.736346 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.753493 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043858.753553 size
+1792043858.753625 swap
+1792043858.753662 poll
+1792043858.755356 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.769645 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.785486 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043858.785533 size
+1792043858.785598 swap
+1792043858.785639 poll
+1792043858.788521 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.802776 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.817476 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043858.817523 size
+1792043858.817587 swap
+1792043858.817621 poll
+1792043858.820452 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.836262 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.849501 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043858.849549 size
+1792043858.849614 swap
+1792043858.849649 poll
+1792043858.852929 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.869607 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.881507 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043858.881554 size
+1792043858.881626 swap
+1792043858.881660 poll
+1792043858.886300 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.902935 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.913480 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043858.913527 size
+1792043858.913593 swap
+1792043858.913628 poll
+1792043858.919475 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.936324 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.945468 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043858.945515 size
+1792043858.945581 swap
+1792043858.945615 poll
+1792043858.952921 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.969484 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043858.977310 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043858.977329 size
+1792043858.977389 swap
+1792043858.977424 poll
+1792043858.985724 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.002502 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.009235 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.009261 size
+1792043859.009303 swap
+1792043859.009328 poll
+1792043859.019079 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.035383 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.040142 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.040152 size
+1792043859.040170 swap
+1792043859.040182 poll
+1792043859.052385 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.067705 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.070041 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.070051 size
+1792043859.070094 swap
+1792043859.070118 poll
+1792043859.085913 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.101409 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.101459 size
+1792043859.101557 swap
+1792043859.101606 poll
+1792043859.103824 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.117327 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.132115 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.132132 size
+1792043859.132168 swap
+1792043859.132187 poll
+1792043859.134482 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.152841 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.163427 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.163475 size
+1792043859.163541 swap
+1792043859.163577 poll
+1792043859.169770 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.184549 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.195457 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.195513 size
+1792043859.195596 swap
+1792043859.195636 poll
+1792043859.202915 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.219587 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.227533 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.227582 size
+1792043859.227651 swap
+1792043859.227689 poll
+1792043859.235765 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.251420 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.259095 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.259137 size
+1792043859.259195 swap
+1792043859.259225 poll
+1792043859.269795 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.286319 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.291496 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.291544 size
+1792043859.291608 swap
+1792043859.291642 poll
+1792043859.303032 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.319532 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.323479 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.323528 size
+1792043859.323592 swap
+1792043859.323627 poll
+1792043859.336329 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.352635 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.355297 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.355315 size
+1792043859.355375 swap
+1792043859.355409 poll
+1792043859.369695 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.386301 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.388499 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.388517 size
+1792043859.388577 swap
+1792043859.388618 poll
+1792043859.403025 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.419404 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.421593 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.421610 size
+1792043859.421671 swap
+1792043859.421705 poll
+1792043859.436379 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.453367 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.453400 size
+1792043859.453464 swap
+1792043859.453497 poll
+1792043859.455160 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.469506 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.485500 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.485554 size
+1792043859.485619 swap
+1792043859.485653 poll
+1792043859.488548 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.503316 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.517447 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.517501 size
+1792043859.517578 swap
+1792043859.517622 poll
+1792043859.519879 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.535838 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.549332 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.549382 size
+1792043859.549442 swap
+1792043859.549475 poll
+1792043859.552030 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.568758 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.580657 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.580671 size
+1792043859.580722 swap
+1792043859.580750 poll
+1792043859.584507 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.602217 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.612322 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.612342 size
+1792043859.612403 swap
+1792043859.612437 poll
+1792043859.619310 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.636257 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.644493 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.644541 size
+1792043859.644609 swap
+1792043859.644647 poll
+1792043859.652800 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.669552 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.676504 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.676553 size
+1792043859.676627 swap
+1792043859.676666 poll
+1792043859.686339 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.702827 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.708464 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.708512 size
+1792043859.708576 swap
+1792043859.708611 poll
+1792043859.719685 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.736422 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.740374 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.740407 size
+1792043859.740482 swap
+1792043859.740518 poll
+1792043859.752847 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.769518 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.772300 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.772319 size
+1792043859.772383 swap
+1792043859.772418 poll
+1792043859.786327 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.802624 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.804816 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.804834 size
+1792043859.804894 swap
+1792043859.804929 poll
+1792043859.819683 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.836376 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.836429 size
+1792043859.836493 swap
+1792043859.836527 poll
+1792043859.838551 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.853053 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.868517 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.868572 size
+1792043859.868636 swap
+1792043859.868670 poll
+1792043859.871586 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.886344 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.900491 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.900541 size
+1792043859.900607 swap
+1792043859.900642 poll
+1792043859.903501 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.919711 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.932548 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.932597 size
+1792043859.932665 swap
+1792043859.932707 poll
+1792043859.936250 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.953008 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.964544 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.964593 size
+1792043859.964659 swap
+1792043859.964694 poll
+1792043859.969309 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.986275 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043859.996564 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043859.996612 size
+1792043859.996682 swap
+1792043859.996716 poll
+1792043860.003010 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.019709 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.028568 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043860.028617 size
+1792043860.028686 swap
+1792043860.028724 poll
+1792043860.036108 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.052838 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.060486 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043860.060535 size
+1792043860.060600 swap
+1792043860.060636 poll
+1792043860.069750 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.086432 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.092519 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043860.092587 size
+1792043860.092658 swap
+1792043860.092704 poll
+1792043860.102977 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.119824 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.124528 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043860.124575 size
+1792043860.124639 swap
+1792043860.124681 poll
+1792043860.136466 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.152997 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.156394 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043860.156447 size
+1792043860.156511 swap
+1792043860.156546 poll
+1792043860.169714 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.184807 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.187703 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043860.187719 size
+1792043860.187776 swap
+1792043860.187808 poll
+1792043860.202831 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.219292 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043860.219313 size
+1792043860.219376 swap
+1792043860.219417 poll
+1792043860.221728 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.235990 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.251330 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043860.251349 size
+1792043860.251409 swap
+1792043860.251444 poll
+1792043860.254360 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.269578 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.283509 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043860.283584 size
+1792043860.283650 swap
+1792043860.283685 poll
+1792043860.286573 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.303006 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.315517 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043860.315565 size
+1792043860.315631 swap
+1792043860.315665 poll
+1792043860.319619 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.336313 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.347517 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043860.347564 size
+1792043860.347628 swap
+1792043860.347662 poll
+1792043860.352739 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.369121 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.379311 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043860.379328 size
+1792043860.379396 swap
+1792043860.379430 poll
+1792043860.385729 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.402876 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.411374 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043860.411420 size
+1792043860.411484 swap
+1792043860.411518 poll
+1792043860.419206 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.436122 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.443381 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043860.443426 size
+1792043860.443490 swap
+1792043860.443524 poll
+1792043860.453125 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.469528 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.475475 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043860.475523 size
+1792043860.475598 swap
+1792043860.475634 poll
+1792043860.486361 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.503065 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.507267 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043860.507302 size
+1792043860.507391 swap
+1792043860.507443 poll
+1792043860.519386 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.536014 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.539222 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043860.539268 size
+1792043860.539344 swap
+1792043860.539392 poll
+1792043860.552855 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.568832 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.571031 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043860.571046 size
+1792043860.571108 swap
+1792043860.571143 poll
+1792043860.584653 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.601303 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043860.601325 size
+1792043860.601358 swap
+1792043860.601376 poll
+1792043860.602155 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.619336 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.633486 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043860.633533 size
+1792043860.633604 swap
+1792043860.633650 poll
+1792043860.636475 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.652929 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.665519 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043860.665566 size
+1792043860.665631 swap
+1792043860.665666 poll
+1792043860.669471 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.684235 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.696614 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043860.696644 size
+1792043860.696686 swap
+1792043860.696710 poll
+1792043860.702408 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.719596 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.728428 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043860.728475 size
+1792043860.728546 swap
+1792043860.728581 poll
+1792043860.735847 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.753097 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.760505 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043860.760553 size
+1792043860.760618 swap
+1792043860.760653 poll
+1792043860.769648 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.786221 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.792487 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043860.792534 size
+1792043860.792598 swap
+1792043860.792632 poll
+1792043860.803005 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.819565 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.824491 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043860.824557 size
+1792043860.824621 swap
+1792043860.824655 poll
+1792043860.836335 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.852889 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.856361 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043860.856407 size
+1792043860.856473 swap
+1792043860.856507 poll
+1792043860.869713 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.886312 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.888545 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043860.888564 size
+1792043860.888623 swap
+1792043860.888658 poll
+1792043860.903026 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.919506 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.921717 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043860.921735 size
+1792043860.921796 swap
+1792043860.921831 poll
+1792043860.935862 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.952350 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.954456 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043860.954470 size
+1792043860.954537 swap
+1792043860.954571 poll
+1792043860.969234 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043860.986205 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043860.986227 size
+1792043860.986303 swap
+1792043860.986339 poll
+1792043860.987863 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.002428 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.018228 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043861.018276 size
+1792043861.018340 swap
+1792043861.018375 poll
+1792043861.020688 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.035668 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.050188 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043861.050205 size
+1792043861.050265 swap
+1792043861.050295 poll
+1792043861.052461 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.068977 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.082160 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043861.082178 size
+1792043861.082221 swap
+1792043861.082253 poll
+1792043861.085652 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.102478 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.114248 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043861.114269 size
+1792043861.114331 swap
+1792043861.114366 poll
+1792043861.119009 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.135712 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.146213 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043861.146231 size
+1792043861.146289 swap
+1792043861.146314 poll
+1792043861.152269 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.169019 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.176648 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043861.176654 size
+1792043861.176664 swap
+1792043861.176670 poll
+1792043861.184214 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.202357 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.208189 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043861.208207 size
+1792043861.208284 swap
+1792043861.208320 poll
+1792043861.219419 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.235880 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.240226 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043861.240260 size
+1792043861.240323 swap
+1792043861.240357 poll
+1792043861.252305 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.269018 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.272150 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043861.272165 size
+1792043861.272213 swap
+1792043861.272254 poll
+1792043861.285548 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.302214 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.304194 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043861.304208 size
+1792043861.304259 swap
+1792043861.304284 poll
+1792043861.319625 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.336412 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043861.336458 size
+1792043861.336524 swap
+1792043861.336565 poll
+1792043861.338567 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.352769 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.368495 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043861.368543 size
+1792043861.368611 swap
+1792043861.368654 poll
+1792043861.371469 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.386351 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.400641 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043861.400691 size
+1792043861.400756 swap
+1792043861.400791 poll
+1792043861.403540 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.419584 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.432509 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043861.432557 size
+1792043861.432622 swap
+1792043861.432657 poll
+1792043861.436224 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.452603 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.464482 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043861.464530 size
+1792043861.464595 swap
+1792043861.464630 poll
+1792043861.469592 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.486393 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.496482 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043861.496530 size
+1792043861.496601 swap
+1792043861.496635 poll
+1792043861.504133 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.519416 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.528321 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043861.528340 size
+1792043861.528359 swap
+1792043861.528371 poll
+1792043861.535758 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.552316 make_current qemu-system-riscv64+76bbe(dpy_gfx_update+ee) hw-display-virtio-gpu.so+516b(virtio_gpu_simple_process_cmd+d3b) hw-display-virtio-gpu.so+619e(virtio_gpu_process_cmdq+8e) qemu-system-riscv64+607c13(aio_bh_call+33)
+1792043861.560276 make_current ui-sdl.so+3cc5(sdl2_gl_refresh+45) qemu-system-riscv64+74342 qemu-system-riscv64+60cd79 qemu-system-riscv64+60cfde(qemu_clock_run_all_timers+3e)
+1792043861.560305 size
+1792043861.560363 swap
+1792043861.560395 poll

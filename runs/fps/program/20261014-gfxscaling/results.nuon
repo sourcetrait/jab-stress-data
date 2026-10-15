@@ -1,0 +1,46 @@
+{
+  control_ok: true,
+  every: true,
+  caught: 34,
+  results: [
+    [name,                     applied, built, exit, class,  expected, title];
+    [control,                  true,    true,  0,    passed, passed,   ""],
+    [flush_drops,              true,    true,  1,    caught, caught,   "the spawn view drawn in packets of 7 commands and 500 spans, 16 flushed, the uncapped one's: rows [0, 1, 2, 3, 4] differ, 1080 in all"],
+    [scratch_leftover,         true,    true,  1,    caught, caught,   "no program or worker fault drawing the plain run's frames: [jab: worker fault: hart=1 argument=0x0000000095549540 cause=0x000000000000000d epc=0x0000000080a05cd0 tval=0x5a5a5a5a5a5a5a5a, jab: worker fault: hart=2 argument=0x00000000955495c0 cause=0x000000000000000d epc=0x0000000080a05cd0 tval=0x5a5a5"],
+    [record_preparation_whole, true,    true,  1,    caught, caught,   "the walk's measurement valid: [649 frames whose drawing is not their preparation and their raster]"],
+    [record_snapshot_stale,    true,    true,  1,    caught, caught,   "the walk's measurement valid: [692 frames whose packets were prepared from another frame's simulation, 2 frames that merged and left unprocessed past their batch's admitted requests, 691 frames whose batch is not the frame before's, 691 frames whose batch's admitted requests are not its source frame'"],
+    [record_bytes_commands,    true,    true,  1,    caught, caught,   "the walk's measurement valid: [698 frames whose packets' bytes are not their commands' and their span records']"],
+    [clear_unowned,            true,    true,  1,    caught, caught,   "the sky's top band at [960, 100] from the yard: /home/box/ai/two/data/jab/ mutants/program-gfxscaling-20261014/clear_unowned/render_0/screen.ppm These are not equal."],
+    [band_short,               true,    true,  1,    caught, caught,   "the spawn view by 1 workers in bands of 0 rows counts as the default's: spans 7285 against 7286, pixels 2166006 against 2167926, lit_spans 7285 against 7286, lit_pixels 2166006 against 2167926, samples 85942 against 85973"],
+    [join_skipped,             true,    true,  1,    caught, caught,   "a screen was taken on the plain run"],
+    [counts_unsummed,          true,    true,  1,    caught, caught,   "the walk's measurement valid: [313 frames whose batch's admitted requests are not its source frame's admissions]"],
+    [context_shared,           true,    true,  1,    caught, caught,   "no program or worker fault drawing the plain run's frames: [jab: worker fault: hart=1 argument=0x0000000095549540 cause=0x000000000000000d epc=0x0000000080a05d08 tval=0x0000000000000000]"],
+    [cancel_dropped,           true,    true,  1,    caught, caught,   "the first frame and the pose's two placements reported on the spawn view with every round cancelled, hart 2's worker held, at a band a worker: fps: frames 69 loaded, 0 missing fps: alpha texture/fence: coverage 733 606 947 922 664 703 312 1250 0 of 10000, scale 66053 95326 72316 119838 47394 72316 78"],
+    [claim_short,              true,    true,  1,    caught, caught,   "a screen was taken on the plain run"],
+    [record_workers_zero,      true,    true,  1,    caught, caught,   "the walk's measurement valid: [650 frames of the serial backend carrying a round's time, 650 frames whose packet record's workers are not their active harts' count]"],
+    [record_times_unconverted, true,    true,  1,    caught, caught,   "the walk's measurement valid: [688 frames whose slowest worker, dispatch, or barrier is past their raster, 688 frames whose workers' busy time is less than their slowest's]"],
+    [record_busy_unconverted,  true,    true,  1,    caught, caught,   "the walk's measurement valid: [692 frames whose workers' busy time is past W times their slowest's]"],
+    [band_by_slot,             true,    true,  1,    caught, caught,   "the first frame and the pose's two placements reported on the spawn view on 4 harts, jab.late=2, 7 workers asked in bands of 0 rows: fps: frames 69 loaded, 0 missing fps: alpha texture/fence: coverage 733 606 947 922 664 703 312 1250 0 of 10000, scale 66053 95326 72316 119838 47394 72316 78399 65536 "],
+    [reservation_skipped,      true,    true,  1,    caught, caught,   "a screen was taken on the plain run"],
+    [owner_none,               true,    true,  1,    caught, caught,   "the plain run names its workers, a raster worker on each hart of its grant: [fps: worker refused on hart 1 code 7, fps: worker refused on hart 2 code 7, fps: workers 0 on harts]"],
+    [job_hart_unwritten,       true,    true,  1,    caught, caught,   "the walk's measurement valid: [698 frames whose reporting harts are not their active]"],
+    [bands_two_cleared,        true,    true,  1,    caught, caught,   "every band of every round rendered once on the spawn view on 4 harts 7 workers asked in bands of 0 rows: {us: 14629, sectors: 11, walls: 44, pieces: 38, planes: 16, openings: 10, sprites: 7, uncovered: 0, clear: 0, plane_us: 301, wall_us: 1106, portal_us: 44, sprite_us: 114, raster_us: 13038, spans: "],
+    [take_stop_skipped,        true,    true,  1,    caught, caught,   "the take on four harts stops hart 3's worker, then claims the hart These are not equal."],
+    [started_kept,             true,    true,  1,    caught, caught,   "the take's taken dispatches to started harts inside the grant alone: [fps: dispatch outside the grant: active 1 2 3, started 1 2 3, grant 1 2]"],
+    [restart_skipped,          true,    true,  1,    caught, caught,   "the take and give-back on four harts by the default: hart 3's worker stopped and the hart claimed, then the claim released and the hart's worker started These are not equal."],
+    [floor_check_skipped,      true,    true,  1,    caught, caught,   "the take on three harts refused under the floor, nothing stopped or claimed These are not equal."],
+    [guideline_ignored,        true,    true,  1,    caught, caught,   "the default on 8 harts draws with GFX_GUIDELINE's 3 of its 7 started workers: {us: 12243, sectors: 11, walls: 44, pieces: 38, planes: 16, openings: 10, sprites: 7, uncovered: 0, clear: 0, plane_us: 831, wall_us: 1372, portal_us: 650, sprite_us: 531, raster_us: 7813, spans: 7286, pixels: 2167926, lit_"],
+    [witness_unwritten,        true,    true,  1,    caught, caught,   "the spawn view with every round cancelled, hart 2's worker held, at a band a worker: exactly one witness for every measured frame from the J's answer, frame 41, through the final, frame 63, rounds above 0 and cancelled equal to rounds: frame 41: 0 witnesses; frame 42: 0 witnesses; frame 43: 0 witness"],
+    [witness_cancelled_zero,   true,    true,  1,    caught, caught,   "the spawn view with every round cancelled, hart 2's worker held, at a band a worker: exactly one witness for every measured frame from the J's answer, frame 40, through the final, frame 62, rounds above 0 and cancelled equal to rounds: frame 40: rounds 1, cancelled 0; frame 41: rounds 1, cancelled 0;"],
+    [generation_unchecked,     true,    true,  1,    caught, caught,   "the stale entries read no tile: the bright spawn view on 64 slots, 208 tiles evicted with their entries left, the lit loop's picture: rows [0, 1, 2, 3, 4] differ, 807 in all"],
+    [boundary_after_snapshot,  true,    true,  1,    caught, caught,   "the tile pool held unchanged through every frame's renders on render_1: [fps: sectors 0 1 2 3 4 5 , fps: tile pool changed in flight]"],
+    [rings_never_merged,       true,    true,  1,    caught, caught,   "the warming frame merged every request the frame before made and built every key merged: {frame: 54, batch_admitted: 517, merged: 33, unprocessed: 462, tiles_built: 33}"],
+    [built_pass_evicted,       true,    true,  1,    caught, caught,   "the pool's stale complete and valid at schema 6:  167 frames that built or evicted past the effective slots"],
+    [straddling_requests,      true,    true,  1,    caught, caught,   "first sight settled under the ordinary budget: {frame: 233, missed_blocks: 11665, admitted: 438, building: 0, tiles_built: 0}"],
+    [merge_restarts_word,      true,    true,  1,    caught, caught,   "every surface requesting under the rotation built within 29 frames of its first request, the most one pass found: [{surface: 2053, asked: 55, built: 125}, {surface: 2055, asked: 55, built: 147}, {surface: 2056, asked: 55, built: 186}, {surface: 2057, asked: 55, built: 194}, {surface: 2060, asked: 55,"],
+    [misses_at_judgement,      true,    true,  1,    caught, caught,   "the walk's measurement valid: [482 frames whose blocks drawn without their tiles are not their requests admitted, dropped, and filtered]"]
+  ],
+  misses: [
+
+  ]
+}

@@ -1,0 +1,20 @@
+use /home/box/tmp/jab-stress/gauge-gfxscaling/shard_2/mirror/game/fps/test/test.nu [gauge-rules]; gauge-rules /home/box/tmp/jab-stress/gauge-gfxscaling/shard_2/rules/two_corrections_unchecked; print "rules: ok"
+Error: nu::shell::error
+
+  x two reports corrected differently are ambiguous: /home/box/tmp/jab-stress/
+  | gauge-gfxscaling/shard_2/rules/two_corrections_unchecked/identities/read/
+  | twice/run_1/gauge.nuon and /home/box/tmp/jab-stress/gauge-gfxscaling/
+  | shard_2/rules/two_corrections_unchecked/identities/read/twice/gauge.nuon
+  | read the run in /home/box/tmp/jab-stress/gauge-gfxscaling/shard_2/rules/
+  | two_corrections_unchecked/identities/read/twice/run_1 differently, each
+  | field unexplained by a correction:
+  |   build.flags: "-I src -march=rva23u64 fx-" against "-I src second fx-"
+      ,-[/home/box/tmp/jab-stress/gauge-gfxscaling/shard_2/mirror/game/fps/test/test.nu:4877:12]
+ 4876 |     let twice_msg = (try { gauge read-identity $twice_run; "" } catch {|e| $e.msg })
+ 4877 |     assert ($twice_msg | str contains "two corrections") $"two reports corrected differently are ambiguous: ($twice_msg)"
+      :            ^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^
+      :                                  `-- It is not true.
+ 4878 |     let hashes = ($rd | path join "hashes")
+      `----
+
+error: recipe `rules-mirror` failed on line 39 with exit code 1

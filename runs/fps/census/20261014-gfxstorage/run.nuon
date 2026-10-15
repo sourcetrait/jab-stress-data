@@ -1,0 +1,18 @@
+{
+  set: census,
+  stamp: "20261014-gfxstorage",
+  task: GfxStorage,
+  scope: {
+    kind: whole,
+    ran: 13,
+    of: 13
+  },
+  builds: [
+    [part, build, checkout,  record];
+    [run,  null,  synthetic, unrecorded]
+  ],
+  kept: {
+    as: last,
+    why: "the whole run before the current one"
+  }
+}

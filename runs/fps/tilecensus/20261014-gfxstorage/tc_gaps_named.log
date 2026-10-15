@@ -1,0 +1,16 @@
+nu /home/box/tmp/ai/two/7OBPNPn8Uww/tcm_1/tc_gaps_named/fps/readers/tilecensus.nu holds /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/gauge/game/fps/census /home/box/tmp/ai/two/7OBPNPn8Uww/tcm_1/tc_gaps_named/fps/readers/holds
+Error: nu::shell::error
+
+  x tilecensus holds: gaps named: the census edge read nodes 1, sampler 0; 1
+  | census frames whose frame line does not parse; 2 measured frames with no
+  | census; 1 measured census frames invalid, the first {frame: 200, reasons:
+  | ["missing: side 64 context 1"]}; 1 uniform verdicts the sampler refused;
+  | lighting revisions 0, 1 inside the measurement
+     ,-[/home/box/tmp/ai/two/7OBPNPn8Uww/tcm_1/tc_gaps_named/fps/readers/tilecensus.nu:311:56]
+ 310 |     let r1 = ($g.runs | where run == 1 | first)
+ 311 |     let fail = {|name: string, why: string| error make { msg: $"tilecensus holds: ($name): ($why)" } }
+     :                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 312 |     let refuses = {|name: string, got: record, reason: string|
+     `----
+
+error: recipe `tilecensus-holds` failed on line 24 with exit code 1

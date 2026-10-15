@@ -1,0 +1,34 @@
+{
+  set: gauge,
+  stamp: "20261013-routes",
+  task: RouteLegs,
+  scope: {
+    kind: targeted,
+    ran: 14,
+    of: 200,
+    names: [
+      build_grain,
+      build_machine,
+      build_workers,
+      common_across_routes,
+      legacy_unknown_merged,
+      named_before_kept,
+      route_digest_unchecked,
+      route_legs_ignored,
+      route_missing_unchecked,
+      route_not_a_build,
+      routes_refusal_dropped,
+      stray_unchecked,
+      unreached_kind_from_empty,
+      unrouted_admitted
+    ]
+  },
+  builds: [
+    [part, build, checkout,  record];
+    [run,  null,  synthetic, unrecorded]
+  ],
+  kept: {
+    as: checkpoint,
+    why: "cited as evidence by FrameCeiling's RouteLegs"
+  }
+}

@@ -1,0 +1,43 @@
+gauge: absent: run 1: complete, valid, median 1.8 ms under the 15 ms ceiling, a tail of 0 of 3 frames at or over it; 3 frames to frame 2 at schema 4, critical 1.8 / 1.8 / - / - / 1.8 ms; seeded; cadence 0; workers 2 at grain 0
+gauge:   run 1 played: rounds none; androids none; struck 0; pickups 0; window unknown, audio unknown
+gauge:   run 1 play: median 1.8 ms under the ceiling, a tail of 0 of 3; 3 fast and 0 of them waited; critical 1.8 / 1.8 / - / - / 1.8; draw 1.0, preparation 1.0, raster 0.0, slowest worker 0.0, dispatch 0.0, barrier 0.0, game 0.1, flip 0.5, report 0.1, await 18.2, wait 0.0, pacing 0.0, tiles 0.1 median; 6 cells built over 3 frames, 30 tiled and 30 fallback lit pixels; flips early 0, refusals 0; unattributed 0.1 at most
+gauge: /home/box/ai/two/data/jab/mutants/program-gfxscaling-20261014/merge_restarts_word/gauge_rules/identities/read/absent_seeded/run_1/gauge.nuon
+gauge: the identity reconciled from /home/box/ai/two/data/jab/mutants/program-gfxscaling-20261014/merge_restarts_word/gauge_rules/identities/read/absent_seeded/run_1/gauge.nuon and /home/box/ai/two/data/jab/mutants/program-gfxscaling-20261014/merge_restarts_word/gauge_rules/identities/read/absent_seeded/gauge.nuon
+gauge: absent: run 1: complete, valid, median 1.8 ms under the 15 ms ceiling, a tail of 0 of 3 frames at or over it; 3 frames to frame 2 at schema 4, critical 1.8 / 1.8 / - / - / 1.8 ms; seeded; cadence 0; workers 2 at grain 0
+gauge:   run 1 played: rounds none; androids none; struck 0; pickups 0; window unknown, audio unknown
+gauge:   run 1 play: median 1.8 ms under the ceiling, a tail of 0 of 3; 3 fast and 0 of them waited; critical 1.8 / 1.8 / - / - / 1.8; draw 1.0, preparation 1.0, raster 0.0, slowest worker 0.0, dispatch 0.0, barrier 0.0, game 0.1, flip 0.5, report 0.1, await 18.2, wait 0.0, pacing 0.0, tiles 0.1 median; 6 cells built over 3 frames, 30 tiled and 30 fallback lit pixels; flips early 0, refusals 0; unattributed 0.1 at most
+gauge: /home/box/ai/two/data/jab/mutants/program-gfxscaling-20261014/merge_restarts_word/gauge_rules/identities/read/absent_seeded/again/gauge.nuon
+gauge: absent: run 1: complete, valid, median 1.8 ms under the 15 ms ceiling, a tail of 0 of 3 frames at or over it; 3 frames to frame 2 at schema 4, critical 1.8 / 1.8 / - / - / 1.8 ms; seeded; cadence 0; workers 2 at grain 0
+gauge:   run 1 played: rounds none; androids none; struck 0; pickups 0; window unknown, audio unknown
+gauge:   run 1 play: median 1.8 ms under the ceiling, a tail of 0 of 3; 3 fast and 0 of them waited; critical 1.8 / 1.8 / - / - / 1.8; draw 1.0, preparation 1.0, raster 0.0, slowest worker 0.0, dispatch 0.0, barrier 0.0, game 0.1, flip 0.5, report 0.1, await 18.2, wait 0.0, pacing 0.0, tiles 0.1 median; 6 cells built over 3 frames, 30 tiled and 30 fallback lit pixels; flips early 0, refusals 0; unattributed 0.1 at most
+gauge: /home/box/ai/two/data/jab/mutants/program-gfxscaling-20261014/merge_restarts_word/gauge_rules/identities/read/absent_unseeded/run_1/gauge.nuon
+gauge: the identity reconciled from /home/box/ai/two/data/jab/mutants/program-gfxscaling-20261014/merge_restarts_word/gauge_rules/identities/read/absent_unseeded/run_1/gauge.nuon and /home/box/ai/two/data/jab/mutants/program-gfxscaling-20261014/merge_restarts_word/gauge_rules/identities/read/absent_unseeded/gauge.nuon
+gauge: absent: run 1: complete, valid, median 1.8 ms under the 15 ms ceiling, a tail of 0 of 3 frames at or over it; 3 frames to frame 2 at schema 4, critical 1.8 / 1.8 / - / - / 1.8 ms; seeded; cadence 0; workers 2 at grain 0
+gauge:   run 1 played: rounds none; androids none; struck 0; pickups 0; window unknown, audio unknown
+gauge:   run 1 play: median 1.8 ms under the ceiling, a tail of 0 of 3; 3 fast and 0 of them waited; critical 1.8 / 1.8 / - / - / 1.8; draw 1.0, preparation 1.0, raster 0.0, slowest worker 0.0, dispatch 0.0, barrier 0.0, game 0.1, flip 0.5, report 0.1, await 18.2, wait 0.0, pacing 0.0, tiles 0.1 median; 6 cells built over 3 frames, 30 tiled and 30 fallback lit pixels; flips early 0, refusals 0; unattributed 0.1 at most
+gauge: /home/box/ai/two/data/jab/mutants/program-gfxscaling-20261014/merge_restarts_word/gauge_rules/identities/read/absent_unseeded/again/gauge.nuon
+fps: the gauge's rules hold on synthetic captures
+fps: the clock over the walk: 664 frames to frame 663 at schema 6, the critical path's median 12064 us, unattributed at most 62 us of a frame and 255 us of a drawing, residual at most 2 us, 0 flips early; the preparation's median 1210 us and the raster's 10106 us, 4 to 51 commands a frame, 0 flushes, 251472 packet bytes at most; 2454 tiles built, 33554432 bytes of tiles at most; 2 workers, the slowest's median 10017 us, dispatch 59 and barrier 42
+fps: the schedule at cadence 0: 444 frames; the fast stage's interval 16666 us and age 5988 us; the stall's intervals [50808, 22487, 16620] us; the slow stage's 42707 us
+fps: the schedule at cadence 1: 467 frames; the fast stage's interval 16664 us and age 16464 us; the stall's intervals [40220, 17625, 16706] us; the slow stage's 25441 us
+fps: the schedule at cadence 2: 442 frames; the fast stage's interval 16662.0 us and age 16521.0 us; the stall's intervals [50105, 16985, 16308] us; the slow stage's 33329.5 us
+fps: the walk at cadence 0: 4.00000008232531 m/s over 2.947025 s, 70 frames, the interval's median 42476.5 us
+fps: the walk at cadence 1: 3.999999939968192 m/s over 2.956349 s, 117 frames, the interval's median 25394 us
+fps: the walk at cadence 2: 4.000000155148513 m/s over 2.932194 s, 89 frames, the interval's median 33293.0 us
+nu /home/box/proj/sourcetrait/jab-stress/fps/just/../../../jab/game/fps/test/test.nu --kernel /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel/jab.elf --image /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/program_gfxscaling/packets_merge_restarts_word/debug/fps.jab --out /home/box/ai/two/data/jab/mutants/program-gfxscaling-20261014/merge_restarts_word --set DEBUG --assets /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/game/fps/fps.romfs
+Error: nu::shell::error
+
+  x every surface requesting under the rotation built within 29 frames of its
+  | first request, the most one pass found: [{surface: 2053, asked: 55, built:
+  | 125}, {surface: 2055, asked: 55, built: 147}, {surface: 2056, asked: 55,
+  | built: 186}, {surface: 2057, asked: 55, built: 194}, {surface: 2060,
+  | asked: 55, built: 205}]
+      ,-[/home/box/proj/sourcetrait/jab-stress/fps/just/../../../jab/game/fps/test/test.nu:2390:12]
+ 2389 |     let late = ($waits | where {|w| $w.built == null or ($w.built - $w.asked) > $most })
+ 2390 |     assert ($late | is-empty) $"every surface requesting under the rotation built within ($most) frames of its first request, the most one pass found: ($late | first 5)"
+      :            ^^^^^^^^^|^^^^^^^^
+      :                     `-- It is not true.
+ 2391 |     # a surface leads two passes running only after a pass that merged
+      `----
+
+error: recipe `image-test` failed on line 20 with exit code 1

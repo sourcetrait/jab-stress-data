@@ -1,0 +1,44 @@
+nu /home/box/proj/sourcetrait/jab-stress/fps/just/../../../jab/game/fps/test/test.nu --kernel /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel/jab.elf --image /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/census_set_gfxstorage/packets_census_class_shift_three/debug/fps.jab --out /home/box/ai/two/data/jab/mutants/census-gfxstorage-20261014/census_class_shift_three --set CENSUS,DEBUG --assets /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/game/fps/fps.romfs
+Error: nu::shell::error
+
+  x every census frame whole and accounting: [{frame: 0, reasons: [side 32
+  | context 6's requests 13983 and distinct tiles 0 not zero together, side
+  | 32's 42 requesting surfaces not the 39 its contexts list, side 64 context
+  | 6's requests 16873 and distinct tiles 0 not zero together, side 64's 42
+  | requesting surfaces not the 39 its contexts list, side 128 context 6's
+  | requests 18496 and distinct tiles 0 not zero together, side 128's 42
+  | requesting surfaces not the 39 its contexts list]}, {frame: 1, reasons:
+  | [side 32 context 6's requests 15753 and distinct tiles 0 not zero
+  | together, side 32's 42 requesting surfaces not the 40 its contexts list,
+  | side 64 context 6's requests 19659 and distinct tiles 0 not zero together,
+  | side 64's 42 requesting surfaces not the 40 its contexts list, side 128
+  | context 6's requests 22026 and distinct tiles 0 not zero together, side
+  | 128's 42 requesting surfaces not the 40 its contexts list]}, {frame: 2,
+  | reasons: [side 32 context 6's requests 13421 and distinct tiles 0 not zero
+  | together, side 32's 42 requesting surfaces not the 38 its contexts list,
+  | side 64 context 6's requests 16715 and distinct tiles 0 not zero together,
+  | side 64's 42 requesting surfaces not the 38 its contexts list, side 128
+  | context 6's requests 18682 and distinct tiles 0 not zero together, side
+  | 128's 42 requesting surfaces not the 38 its contexts list]}]
+    ,-[/home/box/proj/sourcetrait/jab/game/fps/test/census_holds.nu:43:12]
+ 42 |     let invalid = ($frames | where {|f| not $f.valid })
+ 43 |     assert ($invalid | is-empty) $"every census frame whole and accounting: ($invalid | first 3 | select frame reasons)"
+    :            ^^^^^^^^^^|^^^^^^^^^^
+    :                      `-- It is not true.
+ 44 |     let lists = {|fs: list| $fs | each {|f| $f.sides | each {|s| $s.contexts } | flatten } | flatten }
+    `----
+
+Error: nu::shell::error
+
+  x the census fixture's reading held in a nu of its own
+  | These are not equal.
+      ,-[/home/box/proj/sourcetrait/jab-stress/fps/just/../../../jab/game/fps/test/test.nu:5368:18]
+ 5367 |     if $read.exit_code != 0 { print -e -n $read.stderr }
+ 5368 |     assert equal $read.exit_code 0 "the census fixture's reading held in a nu of its own"
+      :                  ^^^^^^^|^^^^^^^ |
+      :                         |        `-- right: 0
+      :                         `-- left: 1
+ 5369 | }
+      `----
+
+error: recipe `image-test` failed on line 18 with exit code 1

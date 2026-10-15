@@ -1,0 +1,14 @@
+{
+ call: hsstgpMRNuo,
+ at: "2026-10-12T19:21:00.934+0000",
+ host_pid: 2277995,
+ logs: [
+  "baseline.nuon",
+  "control.log"
+ ],
+ case: orphan,
+ alive: [
+  [pid,     pgid,    leads, cmd,         mark,                 state, ppid,    sid];
+  [2598158, 2598158, true,  "sleep 300", "hsstgpMRNuo:orphan", S,     2277995, 2598158]
+ ]
+}

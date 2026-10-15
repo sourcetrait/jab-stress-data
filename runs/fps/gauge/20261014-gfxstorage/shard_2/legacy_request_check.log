@@ -1,0 +1,13 @@
+use /home/box/tmp/ai/two/7OBPNPn8Uww/gm/mirror_f2/game/fps/test/test.nu [gauge-rules]; gauge-rules /home/box/tmp/ai/two/7OBPNPn8Uww/gm/rules_f2/legacy_request_check; print "rules: ok"
+Error: nu::shell::error
+
+  x the legacy_asked run is refused unpaired:
+      ,-[/home/box/tmp/ai/two/7OBPNPn8Uww/gm/mirror_f2/game/fps/test/test.nu:3615:16]
+ 3614 |         let refused = (try { gauge compare [$paired $file] "draw_us" 50; "" } catch {|e| $e.msg })
+ 3615 |         assert ($refused | str contains $"($file) run 1, unpaired: ") $"the ($u.name) run is refused unpaired: ($refused)"
+      :                ^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^
+      :                                           `-- It is not true.
+ 3616 |         assert ($refused | str contains $u.reason) $"the ($u.name) run's reason, ($u.reason): ($refused)"
+      `----
+
+error: recipe `rules-mirror` failed on line 39 with exit code 1

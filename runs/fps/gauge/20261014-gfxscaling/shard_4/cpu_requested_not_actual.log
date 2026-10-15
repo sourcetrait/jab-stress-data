@@ -1,0 +1,37 @@
+gauge: absent: run 1: complete, valid, median 1.8 ms under the 15 ms ceiling, a tail of 0 of 3 frames at or over it; 3 frames to frame 2 at schema 4, critical 1.8 / 1.8 / - / - / 1.8 ms; seeded; cadence 0; workers 2 at grain 0
+gauge:   run 1 played: rounds none; androids none; struck 0; pickups 0; window unknown, audio unknown
+gauge:   run 1 play: median 1.8 ms under the ceiling, a tail of 0 of 3; 3 fast and 0 of them waited; critical 1.8 / 1.8 / - / - / 1.8; draw 1.0, preparation 1.0, raster 0.0, slowest worker 0.0, dispatch 0.0, barrier 0.0, game 0.1, flip 0.5, report 0.1, await 18.2, wait 0.0, pacing 0.0, tiles 0.1 median; 6 cells built over 3 frames, 30 tiled and 30 fallback lit pixels; flips early 0, refusals 0; unattributed 0.1 at most
+gauge: /home/box/tmp/jab-stress/gauge-gfxscaling/shard_4/rules/cpu_requested_not_actual/identities/read/absent_seeded/run_1/gauge.nuon
+gauge: the identity reconciled from /home/box/tmp/jab-stress/gauge-gfxscaling/shard_4/rules/cpu_requested_not_actual/identities/read/absent_seeded/run_1/gauge.nuon and /home/box/tmp/jab-stress/gauge-gfxscaling/shard_4/rules/cpu_requested_not_actual/identities/read/absent_seeded/gauge.nuon
+gauge: absent: run 1: complete, valid, median 1.8 ms under the 15 ms ceiling, a tail of 0 of 3 frames at or over it; 3 frames to frame 2 at schema 4, critical 1.8 / 1.8 / - / - / 1.8 ms; seeded; cadence 0; workers 2 at grain 0
+gauge:   run 1 played: rounds none; androids none; struck 0; pickups 0; window unknown, audio unknown
+gauge:   run 1 play: median 1.8 ms under the ceiling, a tail of 0 of 3; 3 fast and 0 of them waited; critical 1.8 / 1.8 / - / - / 1.8; draw 1.0, preparation 1.0, raster 0.0, slowest worker 0.0, dispatch 0.0, barrier 0.0, game 0.1, flip 0.5, report 0.1, await 18.2, wait 0.0, pacing 0.0, tiles 0.1 median; 6 cells built over 3 frames, 30 tiled and 30 fallback lit pixels; flips early 0, refusals 0; unattributed 0.1 at most
+gauge: /home/box/tmp/jab-stress/gauge-gfxscaling/shard_4/rules/cpu_requested_not_actual/identities/read/absent_seeded/again/gauge.nuon
+gauge: absent: run 1: complete, valid, median 1.8 ms under the 15 ms ceiling, a tail of 0 of 3 frames at or over it; 3 frames to frame 2 at schema 4, critical 1.8 / 1.8 / - / - / 1.8 ms; seeded; cadence 0; workers 2 at grain 0
+gauge:   run 1 played: rounds none; androids none; struck 0; pickups 0; window unknown, audio unknown
+gauge:   run 1 play: median 1.8 ms under the ceiling, a tail of 0 of 3; 3 fast and 0 of them waited; critical 1.8 / 1.8 / - / - / 1.8; draw 1.0, preparation 1.0, raster 0.0, slowest worker 0.0, dispatch 0.0, barrier 0.0, game 0.1, flip 0.5, report 0.1, await 18.2, wait 0.0, pacing 0.0, tiles 0.1 median; 6 cells built over 3 frames, 30 tiled and 30 fallback lit pixels; flips early 0, refusals 0; unattributed 0.1 at most
+gauge: /home/box/tmp/jab-stress/gauge-gfxscaling/shard_4/rules/cpu_requested_not_actual/identities/read/absent_unseeded/run_1/gauge.nuon
+gauge: the identity reconciled from /home/box/tmp/jab-stress/gauge-gfxscaling/shard_4/rules/cpu_requested_not_actual/identities/read/absent_unseeded/run_1/gauge.nuon and /home/box/tmp/jab-stress/gauge-gfxscaling/shard_4/rules/cpu_requested_not_actual/identities/read/absent_unseeded/gauge.nuon
+gauge: absent: run 1: complete, valid, median 1.8 ms under the 15 ms ceiling, a tail of 0 of 3 frames at or over it; 3 frames to frame 2 at schema 4, critical 1.8 / 1.8 / - / - / 1.8 ms; seeded; cadence 0; workers 2 at grain 0
+gauge:   run 1 played: rounds none; androids none; struck 0; pickups 0; window unknown, audio unknown
+gauge:   run 1 play: median 1.8 ms under the ceiling, a tail of 0 of 3; 3 fast and 0 of them waited; critical 1.8 / 1.8 / - / - / 1.8; draw 1.0, preparation 1.0, raster 0.0, slowest worker 0.0, dispatch 0.0, barrier 0.0, game 0.1, flip 0.5, report 0.1, await 18.2, wait 0.0, pacing 0.0, tiles 0.1 median; 6 cells built over 3 frames, 30 tiled and 30 fallback lit pixels; flips early 0, refusals 0; unattributed 0.1 at most
+gauge: /home/box/tmp/jab-stress/gauge-gfxscaling/shard_4/rules/cpu_requested_not_actual/identities/read/absent_unseeded/again/gauge.nuon
+use /home/box/tmp/jab-stress/gauge-gfxscaling/shard_4/mirror/game/fps/test/test.nu [gauge-rules]; gauge-rules /home/box/tmp/jab-stress/gauge-gfxscaling/shard_4/rules/cpu_requested_not_actual; print "rules: ok"
+Error: nu::shell::error
+
+  x the whole window from the 5 s reading to the end, at their actual times, a
+  | thread absent at its start null: {window: whole, requested_from: 5.0,
+  | requested_to: 14.0, missing: false, from: 5.05, to: 14.02, interval: 9.0,
+  | threads: [{id: 10, name: CPU 0/TCG, cpu_seconds: 2.4, utilization:
+  | 0.26666666666666666}, {id: 11, name: CPU 1/TCG, cpu_seconds: 4.2,
+  | utilization: 0.4666666666666667}, {id: 12, name: CPU 2/TCG, cpu_seconds: ,
+  | utilization: }]}
+      ,-[/home/box/tmp/jab-stress/gauge-gfxscaling/shard_4/mirror/game/fps/test/test.nu:5045:12]
+ 5044 |     let whole_held = ((not $whole.missing) and (do $near $whole.interval 8.97) and (do $near (do $of $whole "10").cpu_seconds 2.4) and (do $near (do $of $whole "11").cpu_seconds 4.2) and (do $of $whole "12").cpu_seconds == null)
+ 5045 |     assert $whole_held $"the whole window from the 5 s reading to the end, at their actual times, a thread absent at its start null: ($whole)"
+      :            ^^^^^|^^^^^
+      :                 `-- It is not true.
+ 5046 |     assert equal ($w.legs | get window) [first second third] $"a window a leg with placements, the third's three placements one leg: ($w.legs | get window)"
+      `----
+
+error: recipe `rules-mirror` failed on line 39 with exit code 1

@@ -1,0 +1,13 @@
+use /home/box/tmp/ai/two/7OBPNPn8Uww/crm_eight_a2/reader_requests_passing/game/fps/test/census_holds.nu [census-reader-holds]; census-reader-holds (open --raw /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/gauge/game/fps/census/fixture_serial_h8.log | decode); print "reader-holds: ok"
+Error: nu::shell::error
+
+  x the census reader refuses requests past the passing
+     ,-[/home/box/tmp/ai/two/7OBPNPn8Uww/crm_eight_a2/reader_requests_passing/game/fps/test/census_holds.nu:211:16]
+ 210 |         let f = (census frames ($head | append $c.lines | str join (char nl)) | first)
+ 211 |         assert (not $f.valid) $"the census reader refuses ($c.name)"
+     :                ^^^^^^^|^^^^^^
+     :                       `-- It is not true.
+ 212 |         let unnamed = ($c.reasons? | default [$c.reason?] | where {|n| not ($f.reasons | any {|r| $r | str contains $n }) })
+     `----
+
+error: recipe `reader-holds` failed on line 27 with exit code 1

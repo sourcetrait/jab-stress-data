@@ -1,0 +1,26 @@
+{
+ recovery: "8I5Mirh0x8s",
+ call: "jOU2D5zrUt9",
+ root: /home/box/tmp/ai/two/iPntyQzLDsd/f_unrecognised,
+ commit: "fe79b90a42b518550ff110763c5dd440d128466f",
+ head: "fe79b90a42b518550ff110763c5dd440d128466f",
+ results_present: false,
+ started: "2026-10-12T19:20:36.854+0000",
+ sweep: {
+  records: [
+
+  ],
+  left: [
+
+  ]
+ },
+ strays: [
+
+ ],
+ paths: [
+  [file, found,        hash,                                                               action];
+  [case, unrecognised, "b08b4cf3c2d46bb3b720d6850157b63a7f375ddde0b3c3fff3ecf3e0625cef2c", refused]
+ ],
+ complete: false,
+ finished: 0.05
+}

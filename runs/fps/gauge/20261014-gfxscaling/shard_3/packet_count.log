@@ -1,0 +1,13 @@
+use /home/box/tmp/jab-stress/gauge-gfxscaling/shard_3/mirror/game/fps/test/test.nu [gauge-rules]; gauge-rules /home/box/tmp/jab-stress/gauge-gfxscaling/shard_3/rules/packet_count; print "rules: ok"
+Error: nu::shell::error
+
+  x a frame without its packet record leaves the window incomplete: []
+      ,-[/home/box/tmp/jab-stress/gauge-gfxscaling/shard_3/mirror/game/fps/test/test.nu:4005:12]
+ 4004 |     let unpacked_says = $"a frame without its packet record leaves the window incomplete: ($unpacked.problems)"
+ 4005 |     assert ((not $unpacked.complete) and ($unpacked.problems | any {|p| $p =~ "packet records" })) $unpacked_says
+      :            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      :                                                       `-- It is not true.
+ 4006 |     let mixed3 = (do $measure (fx-set $good3 "packet" 1 { schema: 2 }))
+      `----
+
+error: recipe `rules-mirror` failed on line 39 with exit code 1

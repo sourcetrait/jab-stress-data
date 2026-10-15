@@ -1,0 +1,22 @@
+{
+  set: gauge,
+  stamp: "20261015-stampwindow",
+  task: StampWindow,
+  scope: {
+    kind: targeted,
+    ran: 2,
+    of: 254,
+    names: [
+      sf_window_tight,
+      sf_window_unbounded
+    ]
+  },
+  builds: [
+    [part, build, checkout,  record];
+    [run,  null,  synthetic, unrecorded]
+  ],
+  kept: {
+    as: checkpoint,
+    why: "cited as evidence by FrameCeiling's StampWindow; its two mutants are a slice no whole run covers, and with the current run's 252 they name the set's 254 across two builds, no whole run"
+  }
+}

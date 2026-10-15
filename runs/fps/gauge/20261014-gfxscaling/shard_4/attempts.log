@@ -1,0 +1,13 @@
+use /home/box/tmp/jab-stress/gauge-gfxscaling/shard_4/mirror/game/fps/test/test.nu [gauge-rules]; gauge-rules /home/box/tmp/jab-stress/gauge-gfxscaling/shard_4/rules/attempts; print "rules: ok"
+Error: nu::shell::error
+
+  x attempts past the refusals and the final one are invalid: []
+      ,-[/home/box/tmp/jab-stress/gauge-gfxscaling/shard_4/mirror/game/fps/test/test.nu:3802:12]
+ 3801 |     let miscounted_says = $"attempts past the refusals and the final one are invalid: ($miscounted.invalid)"
+ 3802 |     assert ((not $miscounted.valid) and ($miscounted.invalid | any {|r| $r =~ "not their refusals and their final attempt" })) $miscounted_says
+      :            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      :                                                                     `-- It is not true.
+ 3803 |     let outside = (do $measure (fx-set $good2 "present" 1 { cadence: 5 }))
+      `----
+
+error: recipe `rules-mirror` failed on line 39 with exit code 1

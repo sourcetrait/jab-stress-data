@@ -1,0 +1,15 @@
+use /home/box/tmp/jab-stress/gauge-gfxscaling/shard_1/mirror/game/fps/test/test.nu [gauge-rules]; gauge-rules /home/box/tmp/jab-stress/gauge-gfxscaling/shard_1/rules/workers_unread; print "rules: ok"
+Error: nu::shell::error
+
+  x schema 4, two workers, grain 0: 4 [] []
+  | These are not equal.
+      ,-[/home/box/tmp/jab-stress/gauge-gfxscaling/shard_1/mirror/game/fps/test/test.nu:4048:18]
+ 4047 |     assert ($m4.complete and $m4.valid and $m4.under) $"a well-formed capture at schema 4: ($m4.problems) ($m4.invalid)"
+ 4048 |     assert equal [$m4.schema $m4.workers $m4.grains] [4 [2] [0]] $"schema 4, two workers, grain 0: ($m4.schema) ($m4.workers) ($m4.grains)"
+      :                  ^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^ ^^^^^|^^^^^
+      :                                   |                       `-- right: [4, [2], [0]]
+      :                                   `-- left: [4, [], []]
+ 4049 |     let read4 = ($m4.rows | get 2 | select workers grain slowest_us busy_us dispatch_us barrier_us)
+      `----
+
+error: recipe `rules-mirror` failed on line 39 with exit code 1

@@ -1,0 +1,22 @@
+--- test/harts
+Error: nu::shell::error
+
+  x LauncherBound: a machine of JAB_HARTS_MAX's 8 harts taken: --harts takes 1
+  | to 4, the specification's three or a diagnostic count, not 8
+  | These are not equal.
+    ,-[/home/box/proj/sourcetrait/jab/test/harts/test/test.nu:73:18]
+ 72 |     let taken = (try { jab machine-of $max | get harts } catch {|e| $e.msg })
+ 73 |     assert equal $taken $max $"LauncherBound: a machine of JAB_HARTS_MAX's ($max) harts taken: ($taken)"
+    :                  ^^^|^^ ^^|^
+    :                     |     `-- right: 8
+    :                     `-- left: "--harts takes 1 to 4, the specification's three or a diagnostic count, not 8"
+ 74 |     let past_out = ($out | path join $"harts_($max + 1)")
+    `----
+
+╭───┬────────────┬────────╮
+│ # │  program   │ passed │
+├───┼────────────┼────────┤
+│ 0 │ test/harts │ false  │
+╰───┴────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

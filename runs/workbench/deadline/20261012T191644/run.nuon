@@ -1,0 +1,26 @@
+{
+  set: deadline,
+  stamp: "20261012T191644",
+  task: RunnerDeadline,
+  scope: {
+    kind: whole,
+    ran: 9,
+    of: 9
+  },
+  builds: [
+    [part,         build,                                      checkout,  record];
+    [cases,        null,                                       synthetic, "cases/baseline.nuon"],
+    [ignore,       null,                                       synthetic, "ignore/baseline.nuon"],
+    [nested,       null,                                       synthetic, "nested/baseline.nuon"],
+    [orphan,       null,                                       synthetic, "orphan/baseline.nuon"],
+    [qemu,         "2b6558a499f05b2a908187c40dd080a56d638bbb", jab,       "qemu/baseline.nuon"],
+    [renamed,      null,                                       synthetic, "renamed/baseline.nuon"],
+    [sleep,        null,                                       synthetic, "sleep/baseline.nuon"],
+    [staged,       null,                                       synthetic, "staged/baseline.nuon"],
+    [unrecognised, null,                                       synthetic, "unrecognised/baseline.nuon"]
+  ],
+  kept: {
+    as: last,
+    why: "the whole run before the current one, cited as evidence by ResourceScaling's RunnerDeadline"
+  }
+}

@@ -1,0 +1,26 @@
+use /home/box/tmp/ai/two/7OBPNPn8Uww/gm/mirror_f0/game/fps/test/test.nu [gauge-rules]; gauge-rules /home/box/tmp/ai/two/7OBPNPn8Uww/gm/rules_f0/workers_answer_unread; print "rules: ok"
+Error: nu::shell::error
+
+  x the paired run is not named beside seed_unanswered: the comparison refuses
+  | 2 runs: an empty, unclassified, unusable, or unrouted run always, an
+  | incomplete, invalid, unchecked, unpaired, or diagnostic one, or one
+  | missing a leg another run holds, unless --diagnostic admits it, marked
+  |   /home/box/tmp/ai/two/7OBPNPn8Uww/gm/rules_f0/workers_answer_unread/
+  | pair_paired.nuon run 1, unpaired: the workers that drew it are unknown:
+  | below schema 4 a capture is the serial backend only with a W 0 answered
+  | before its first frame and no W after it; no W 0 answered before the first
+  | frame
+  |   /home/box/tmp/ai/two/7OBPNPn8Uww/gm/rules_f0/workers_answer_unread/
+  | pair_seed_unanswered.nuon run 1, unpaired: unseeded: no seed answered
+  | before the first frame; the workers that drew it are unknown: below schema
+  | 4 a capture is the serial backend only with a W 0 answered before its
+  | first frame and no W after it; no W 0 answered before the first frame
+      ,-[/home/box/tmp/ai/two/7OBPNPn8Uww/gm/mirror_f0/game/fps/test/test.nu:3617:16]
+ 3616 |         assert ($refused | str contains $u.reason) $"the ($u.name) run's reason, ($u.reason): ($refused)"
+ 3617 |         assert (not ($refused | str contains $"($paired) run")) $"the paired run is not named beside ($u.name): ($refused)"
+      :                ^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^
+      :                                        `-- It is not true.
+ 3618 |         let admitted = (try { gauge compare [$paired $file] "draw_us" 50 --diagnostic } catch {|e| { refusal: $e.msg } })
+      `----
+
+error: recipe `rules-mirror` failed on line 39 with exit code 1

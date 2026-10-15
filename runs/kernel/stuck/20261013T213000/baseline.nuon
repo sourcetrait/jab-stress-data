@@ -1,0 +1,31 @@
+{
+ call: "1jO9J0yEHWe",
+ mark: JAB_RUNNER_MARK,
+ stage: ".jabstage.",
+ root: /home/box/proj/sourcetrait/jab,
+ commit: "3fc2ca04915241597575d49990f196bd6226af4f",
+ set: "/home/box/ai/two/iter/jab/subiter/kernel/operational/stuck_mutants.nuon",
+ "set_sha256": "85976b141e18e44343f26f2f87ce1b706b7faaf95fae2ecb60fb99c66d0ee307",
+ only: [
+  source_bound_removed
+ ],
+ control: {
+  program: test/harts,
+  ok: "harts: ok"
+ },
+ deadline: 300,
+ margin: 15,
+ kill_after: 5,
+ hold: {
+  at: "",
+  seconds: 0
+ },
+ started: "2026-10-13T21:17:01.379+0000",
+ paths: [
+  [file,               committed,                                                          mutated];
+  ["kernel/src/aia.S", "7b08062d9759224d26480bf528bdc7b5dc28bf3a09796d419e2c6eb4079a74a5", [
+    [mutant,               hash];
+    [source_bound_removed, "cf561f19b5ec3883bb82b6f67c7658b80784e2a534100c8f92c0a3cb3531cd6a"]
+   ]]
+ ]
+}

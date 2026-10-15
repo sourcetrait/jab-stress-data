@@ -1,0 +1,41 @@
+gauge: absent: run 1: complete, valid, median 1.8 ms under the 15 ms ceiling, a tail of 0 of 3 frames at or over it; 3 frames to frame 2 at schema 4, critical 1.8 / 1.8 / - / - / 1.8 ms; seeded; cadence 0; workers 2 at grain 0
+gauge:   run 1 played: rounds none; androids none; struck 0; pickups 0; window unknown, audio unknown
+gauge:   run 1 play: median 1.8 ms under the ceiling, a tail of 0 of 3; 3 fast and 0 of them waited; critical 1.8 / 1.8 / - / - / 1.8; draw 1.0, preparation 1.0, raster 0.0, slowest worker 0.0, dispatch 0.0, barrier 0.0, game 0.1, flip 0.5, report 0.1, await 18.2, wait 0.0, pacing 0.0, tiles 0.1 median; 6 cells built over 3 frames, 30 tiled and 30 fallback lit pixels; flips early 0, refusals 0; unattributed 0.1 at most
+gauge: /home/box/ai/two/data/jab/mutants/program-gfxselection-20261014/rings_never_merged/gauge_rules/identities/read/absent_seeded/run_1/gauge.nuon
+gauge: the identity reconciled from /home/box/ai/two/data/jab/mutants/program-gfxselection-20261014/rings_never_merged/gauge_rules/identities/read/absent_seeded/run_1/gauge.nuon and /home/box/ai/two/data/jab/mutants/program-gfxselection-20261014/rings_never_merged/gauge_rules/identities/read/absent_seeded/gauge.nuon
+gauge: absent: run 1: complete, valid, median 1.8 ms under the 15 ms ceiling, a tail of 0 of 3 frames at or over it; 3 frames to frame 2 at schema 4, critical 1.8 / 1.8 / - / - / 1.8 ms; seeded; cadence 0; workers 2 at grain 0
+gauge:   run 1 played: rounds none; androids none; struck 0; pickups 0; window unknown, audio unknown
+gauge:   run 1 play: median 1.8 ms under the ceiling, a tail of 0 of 3; 3 fast and 0 of them waited; critical 1.8 / 1.8 / - / - / 1.8; draw 1.0, preparation 1.0, raster 0.0, slowest worker 0.0, dispatch 0.0, barrier 0.0, game 0.1, flip 0.5, report 0.1, await 18.2, wait 0.0, pacing 0.0, tiles 0.1 median; 6 cells built over 3 frames, 30 tiled and 30 fallback lit pixels; flips early 0, refusals 0; unattributed 0.1 at most
+gauge: /home/box/ai/two/data/jab/mutants/program-gfxselection-20261014/rings_never_merged/gauge_rules/identities/read/absent_seeded/again/gauge.nuon
+gauge: absent: run 1: complete, valid, median 1.8 ms under the 15 ms ceiling, a tail of 0 of 3 frames at or over it; 3 frames to frame 2 at schema 4, critical 1.8 / 1.8 / - / - / 1.8 ms; seeded; cadence 0; workers 2 at grain 0
+gauge:   run 1 played: rounds none; androids none; struck 0; pickups 0; window unknown, audio unknown
+gauge:   run 1 play: median 1.8 ms under the ceiling, a tail of 0 of 3; 3 fast and 0 of them waited; critical 1.8 / 1.8 / - / - / 1.8; draw 1.0, preparation 1.0, raster 0.0, slowest worker 0.0, dispatch 0.0, barrier 0.0, game 0.1, flip 0.5, report 0.1, await 18.2, wait 0.0, pacing 0.0, tiles 0.1 median; 6 cells built over 3 frames, 30 tiled and 30 fallback lit pixels; flips early 0, refusals 0; unattributed 0.1 at most
+gauge: /home/box/ai/two/data/jab/mutants/program-gfxselection-20261014/rings_never_merged/gauge_rules/identities/read/absent_unseeded/run_1/gauge.nuon
+gauge: the identity reconciled from /home/box/ai/two/data/jab/mutants/program-gfxselection-20261014/rings_never_merged/gauge_rules/identities/read/absent_unseeded/run_1/gauge.nuon and /home/box/ai/two/data/jab/mutants/program-gfxselection-20261014/rings_never_merged/gauge_rules/identities/read/absent_unseeded/gauge.nuon
+gauge: absent: run 1: complete, valid, median 1.8 ms under the 15 ms ceiling, a tail of 0 of 3 frames at or over it; 3 frames to frame 2 at schema 4, critical 1.8 / 1.8 / - / - / 1.8 ms; seeded; cadence 0; workers 2 at grain 0
+gauge:   run 1 played: rounds none; androids none; struck 0; pickups 0; window unknown, audio unknown
+gauge:   run 1 play: median 1.8 ms under the ceiling, a tail of 0 of 3; 3 fast and 0 of them waited; critical 1.8 / 1.8 / - / - / 1.8; draw 1.0, preparation 1.0, raster 0.0, slowest worker 0.0, dispatch 0.0, barrier 0.0, game 0.1, flip 0.5, report 0.1, await 18.2, wait 0.0, pacing 0.0, tiles 0.1 median; 6 cells built over 3 frames, 30 tiled and 30 fallback lit pixels; flips early 0, refusals 0; unattributed 0.1 at most
+gauge: /home/box/ai/two/data/jab/mutants/program-gfxselection-20261014/rings_never_merged/gauge_rules/identities/read/absent_unseeded/again/gauge.nuon
+fps: the gauge's rules hold on synthetic captures
+fps: the clock over the walk: 677 frames to frame 676 at schema 6, the critical path's median 12002 us, unattributed at most 40 us of a frame and 262 us of a drawing, residual at most 2 us, 0 flips early; the preparation's median 1211 us and the raster's 10182 us, 4 to 51 commands a frame, 0 flushes, 251472 packet bytes at most; 2390 tiles built, 33554432 bytes of tiles at most; 2 workers, the slowest's median 10094 us, dispatch 55 and barrier 40
+fps: the schedule at cadence 0: 432 frames; the fast stage's interval 16659 us and age 5975 us; the stall's intervals [50590, 22068, 16943] us; the slow stage's 42544.0 us
+fps: the schedule at cadence 1: 466 frames; the fast stage's interval 16665.5 us and age 16483.0 us; the stall's intervals [39916, 17151, 16697] us; the slow stage's 25424 us
+fps: the schedule at cadence 2: 443 frames; the fast stage's interval 16663.5 us and age 16526.5 us; the stall's intervals [49978, 16740, 16580] us; the slow stage's 33330.0 us
+fps: the walk at cadence 0: 3.999999234543834 m/s over 2.941457 s, 70 frames, the interval's median 42545 us
+fps: the walk at cadence 1: 4.00000000727572 m/s over 2.963373 s, 117 frames, the interval's median 25402 us
+fps: the walk at cadence 2: 4.0000007534617845 m/s over 2.931841 s, 89 frames, the interval's median 33273 us
+nu /home/box/proj/sourcetrait/jab-stress/fps/just/../../../jab/game/fps/test/test.nu --kernel /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel/jab.elf --image /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/program_gfxselection/packets_rings_never_merged/debug/fps.jab --out /home/box/ai/two/data/jab/mutants/program-gfxselection-20261014/rings_never_merged --set DEBUG --assets /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/game/fps/fps.romfs
+Error: nu::shell::error
+
+  x the warming frame merged every request the frame before made and built
+  | every key merged: {frame: 52, batch_admitted: 517, merged: 33,
+  | unprocessed: 462, tiles_built: 33}
+      ,-[/home/box/proj/sourcetrait/jab-stress/fps/just/../../../jab/game/fps/test/test.nu:2340:12]
+ 2339 |     assert ($cold.missed_blocks > 0 and $cold.admitted > 0) $"the rings' cold start asked for the view's tiles: ($cold | select frame missed_blocks admitted)"
+ 2340 |     assert ($warming.batch_admitted == $cold.admitted and $warming.unprocessed == 0 and $warming.tiles_built == $warming.merged and $warming.merged > 0) $"the warming frame merged every request the frame before made and built every key merged: ($warming | select frame batch_admitted merged unprocessed tiles_built)"
+      :            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      :                                                                                  `-- It is not true.
+ 2341 |     assert ($warming.merged > ($warming.requesting * $TILE_CONTEXTS)) $"the warming frame merged past what tiers of one request hold, the open rings merged: ($warming.merged) keys for ($warming.requesting) surfaces"
+      `----
+
+error: recipe `image-test` failed on line 20 with exit code 1

@@ -1,0 +1,14 @@
+use /home/box/tmp/jab-stress/gauge-gfxscaling/shard_4/mirror/game/fps/test/test.nu [gauge-rules]; gauge-rules /home/box/tmp/jab-stress/gauge-gfxscaling/shard_4/rules/harts_clock_unread; print "rules: ok"
+Error: nu::shell::error
+
+  x states with harts records alone are clocked at schema 6 and incomplete:
+  | []
+      ,-[/home/box/tmp/jab-stress/gauge-gfxscaling/shard_4/mirror/game/fps/test/test.nu:4195:12]
+ 4194 |     let alone6 = (do $measure ($good6 | where {|i| $i.kind in ["ack" "cack" "state" "harts"] }))
+ 4195 |     assert ($alone6.clocked and $alone6.schema == 6 and (not $alone6.complete)) $"states with harts records alone are clocked at schema 6 and incomplete: ($alone6.schema) ($alone6.problems)"
+      :            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      :                                              `-- It is not true.
+ 4196 |     # harts 1 to 6 online (126), five of them granted and started (62), the
+      `----
+
+error: recipe `rules-mirror` failed on line 39 with exit code 1

@@ -1,0 +1,186 @@
+{
+ control_ok: true,
+ every: true,
+ restored: true,
+ caught: 10,
+ unrun: [
+
+ ],
+ head: "9e0ac660a0b0f50f79f139985293faa6881abd25",
+ logs: "/home/box/ai/two/data/jab/mutants/deadline-20261013T003722/witness_child",
+ finished: 1.38,
+ deadline: 40,
+ swept: 2,
+ results: [
+  [name,                     applied, exit, class,       expected,    title,                                                                                                                                                             seconds, swept];
+  [control,                  true,    0,    passed,      passed,      "",                                                                                                                                                                0.0,     0],
+  [watchdog,                 true,    1,    unexercised, unexercised, "the slot reuse: unexercised, the hold expired unreleased, exit 16: `fps: held job never released`, status 16",                                                    0.0,     0],
+  [catch_assert,             true,    1,    caught,      caught,      "the eviction cycle: the bay_return phase built its 459 renewed keys and evicted those past its 240 free slots, built 476, evicted 236",                           0.0,     0],
+  [catch_assert_equal,       true,    1,    caught,      caught,      "the eviction cycle: no reset in the window from frame 262, tile_resets [5, 6, 7, 8, 9] These are not equal.",                                                     0.0,     0],
+  [inline_assert,            true,    1,    caught,      caught,      "the eviction cycle: the bay_return phase built its 459 renewed keys and evicted those past its 240 free slots, built 476",                                        0.0,     0],
+  [unrelated_unexercised,    true,    1,    missed,      missed,      "Cannot find column 'unexercised'",                                                                                                                                0.0,     0],
+  [other_assert_unexercised, true,    1,    missed,      missed,      "the eviction cycle: unexercised, the worker was never held",                                                                                                      0.1,     0],
+  [neighbour_expect,         true,    1,    missed,      missed,      "the eviction cycle: the bay_return phase built its 459 renewed keys and evicted those past its 240 free slots, built 476, evicted 236",                           0.0,     0],
+  [neighbour_unexercised,    true,    1,    missed,      missed,      "the eviction cycle: unexercised, the hold expired unreleased, exit 16: `fps: held job never released`, status 16",                                                0.0,     0],
+  [argument_exception,       true,    1,    missed,      missed,      "the eviction cycle: the bay_return phase built its 459 renewed keys and evicted those past its 240 free slots, built 476, evicted 236",                           0.0,     0],
+  [empty_expect,             true,    1,    missed,      missed,      "the eviction cycle: the bay_return phase built its 459 renewed keys and evicted those past its 240 free slots, built 476, evicted 236",                           0.0,     0],
+  [passes,                   true,    0,    missed,      missed,      "",                                                                                                                                                                0.0,     0],
+  [empty_passes,             true,    0,    missed,      missed,      "",                                                                                                                                                                0.0,     0],
+  [label_foreign,            true,    1,    missed,      missed,      "the eviction cycle: the bay_return phase built its 459 renewed keys and evicted those past its 240 free slots, built 476, evicted 236",                           0.1,     0],
+  [label_displaced,          true,    1,    missed,      missed,      "the eviction cycle: the bay_return phase built its 459 renewed keys and evicted those past its 240 free slots, built 476, evicted 236",                           0.0,     0],
+  [equal_unclosed,           true,    1,    missed,      missed,      "the eviction cycle: no reset in the window from frame 262, tile_resets [5, 6, 7, 8, 9]",                                                                          0.0,     0],
+  [equal_unlabelled,         true,    1,    missed,      missed,      "the eviction cycle: no reset in the window from frame 262, tile_resets [5, 6, 7, 8, 9] These are not equal.",                                                     0.0,     0],
+  [reason_absent,            true,    1,    caught,      caught,      "the census reader: every census frame whole and accounting, chunk 12 refused",                                                                                    0.0,     0],
+  [reason_wrong,             true,    1,    caught,      caught,      "the census reader: every census frame whole and accounting, chunk 12: an item that is no surface:count pair",                                                     0.0,     0],
+  [reason_excerpt,           true,    1,    caught,      caught,      "the census reader: every census frame whole and accounting, chunk 12 refused",                                                                                    0.0,     0],
+  [reason_wrapped,           true,    1,    caught,      caught,      "the census reader: every census frame whole and accounting, chunk 12 does not reassemble",                                                                        0.0,     0],
+  [equal_left_multiline,     true,    1,    caught,      caught,      "the eviction cycle: a reused slot's record reads as no refusal: \"refused: the slot's record does not hold for its tile:   generation: 3\" These are not equal.", 0.0,     0],
+  [equal_right_multiline,    true,    1,    caught,      caught,      "the eviction cycle: a reused slot's record reads as the refusal expected These are not equal.",                                                                   0.0,     0],
+  [cleanup_child,            true,    1,    caught,      caught,      "the eviction cycle: the bay_return phase built its 459 renewed keys and evicted those past its 240 free slots, built 476, evicted 236",                           0.2,     2]
+ ],
+ misses: [
+
+ ],
+ call: "rJ5WB9YuTj",
+ started: "2026-10-13T00:37:30.233+0000",
+ sweeps: [
+  [name,                     records,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         left];
+  [control,                  [
+
+   ],                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         [
+
+   ]],
+  [watchdog,                 [
+
+   ],                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         [
+
+   ]],
+  [catch_assert,             [
+
+   ],                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         [
+
+   ]],
+  [catch_assert_equal,       [
+
+   ],                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         [
+
+   ]],
+  [inline_assert,            [
+
+   ],                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         [
+
+   ]],
+  [unrelated_unexercised,    [
+
+   ],                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         [
+
+   ]],
+  [other_assert_unexercised, [
+
+   ],                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         [
+
+   ]],
+  [neighbour_expect,         [
+
+   ],                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         [
+
+   ]],
+  [neighbour_unexercised,    [
+
+   ],                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         [
+
+   ]],
+  [argument_exception,       [
+
+   ],                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         [
+
+   ]],
+  [empty_expect,             [
+
+   ],                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         [
+
+   ]],
+  [passes,                   [
+
+   ],                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         [
+
+   ]],
+  [empty_passes,             [
+
+   ],                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         [
+
+   ]],
+  [label_foreign,            [
+
+   ],                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         [
+
+   ]],
+  [label_displaced,          [
+
+   ],                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         [
+
+   ]],
+  [equal_unclosed,           [
+
+   ],                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         [
+
+   ]],
+  [equal_unlabelled,         [
+
+   ],                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         [
+
+   ]],
+  [reason_absent,            [
+
+   ],                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         [
+
+   ]],
+  [reason_wrong,             [
+
+   ],                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         [
+
+   ]],
+  [reason_excerpt,           [
+
+   ],                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         [
+
+   ]],
+  [reason_wrapped,           [
+
+   ],                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         [
+
+   ]],
+  [equal_left_multiline,     [
+
+   ],                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         [
+
+   ]],
+  [equal_right_multiline,    [
+
+   ],                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         [
+
+   ]],
+  [cleanup_child,            [
+    [pid,     pgid,    leads, cmd,                                                                                                                                              mark,                       signals,                                            gone_at];
+    [2611825, 2611825, true,  "sh -c trap 'setsid -f sleep 300; exit 0' TERM; : > '/home/box/tmp/ai/two/iLLUiMCTFIT/amend/w_child/.git/cleanup_child.ready'; sleep 300 & wait", "rJ5WB9YuTj:cleanup_child", [
+      [signal, at];
+      [TERM,   1.351]
+     ], 1.359],
+    [2611826, 2611825, false, "sleep 300",                                                                                                                                      "rJ5WB9YuTj:cleanup_child", [
+      [signal, at];
+      [TERM,   1.351]
+     ], 1.359]
+   ], [
+
+   ]]
+ ],
+ status: [
+
+ ],
+ status_after: [
+
+ ],
+ staged_after: [
+
+ ]
+}

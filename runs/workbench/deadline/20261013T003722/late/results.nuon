@@ -1,0 +1,172 @@
+{
+ control_ok: true,
+ every: true,
+ restored: true,
+ cleaned: true,
+ caught: 9,
+ unrun: [
+
+ ],
+ head: "d207b43b5f1ab32660fe2ea18bfb724d06549a2e",
+ logs: "/home/box/ai/two/data/jab/mutants/deadline-20261013T003722/late",
+ deadline: 40,
+ swept: 0,
+ results: [
+  [name,                     applied, exit, class,       expected,    title,                                                                                                                                                             seconds, swept];
+  [control,                  true,    0,    passed,      passed,      "",                                                                                                                                                                0.0,     0],
+  [watchdog,                 true,    1,    unexercised, unexercised, "the slot reuse: unexercised, the hold expired unreleased, exit 16: `fps: held job never released`, status 16",                                                    0.1,     0],
+  [catch_assert,             true,    1,    caught,      caught,      "the eviction cycle: the bay_return phase built its 459 renewed keys and evicted those past its 240 free slots, built 476, evicted 236",                           0.0,     0],
+  [catch_assert_equal,       true,    1,    caught,      caught,      "the eviction cycle: no reset in the window from frame 262, tile_resets [5, 6, 7, 8, 9] These are not equal.",                                                     0.0,     0],
+  [inline_assert,            true,    1,    caught,      caught,      "the eviction cycle: the bay_return phase built its 459 renewed keys and evicted those past its 240 free slots, built 476",                                        0.0,     0],
+  [unrelated_unexercised,    true,    1,    missed,      missed,      "Cannot find column 'unexercised'",                                                                                                                                0.0,     0],
+  [other_assert_unexercised, true,    1,    missed,      missed,      "the eviction cycle: unexercised, the worker was never held",                                                                                                      0.0,     0],
+  [neighbour_expect,         true,    1,    missed,      missed,      "the eviction cycle: the bay_return phase built its 459 renewed keys and evicted those past its 240 free slots, built 476, evicted 236",                           0.0,     0],
+  [neighbour_unexercised,    true,    1,    missed,      missed,      "the eviction cycle: unexercised, the hold expired unreleased, exit 16: `fps: held job never released`, status 16",                                                0.0,     0],
+  [argument_exception,       true,    1,    missed,      missed,      "the eviction cycle: the bay_return phase built its 459 renewed keys and evicted those past its 240 free slots, built 476, evicted 236",                           0.0,     0],
+  [empty_expect,             true,    1,    missed,      missed,      "the eviction cycle: the bay_return phase built its 459 renewed keys and evicted those past its 240 free slots, built 476, evicted 236",                           0.0,     0],
+  [passes,                   true,    0,    missed,      missed,      "",                                                                                                                                                                0.0,     0],
+  [empty_passes,             true,    0,    missed,      missed,      "",                                                                                                                                                                0.0,     0],
+  [label_foreign,            true,    1,    missed,      missed,      "the eviction cycle: the bay_return phase built its 459 renewed keys and evicted those past its 240 free slots, built 476, evicted 236",                           0.0,     0],
+  [label_displaced,          true,    1,    missed,      missed,      "the eviction cycle: the bay_return phase built its 459 renewed keys and evicted those past its 240 free slots, built 476, evicted 236",                           0.0,     0],
+  [equal_unclosed,           true,    1,    missed,      missed,      "the eviction cycle: no reset in the window from frame 262, tile_resets [5, 6, 7, 8, 9]",                                                                          0.0,     0],
+  [equal_unlabelled,         true,    1,    missed,      missed,      "the eviction cycle: no reset in the window from frame 262, tile_resets [5, 6, 7, 8, 9] These are not equal.",                                                     0.0,     0],
+  [reason_absent,            true,    1,    caught,      caught,      "the census reader: every census frame whole and accounting, chunk 12 refused",                                                                                    0.0,     0],
+  [reason_wrong,             true,    1,    caught,      caught,      "the census reader: every census frame whole and accounting, chunk 12: an item that is no surface:count pair",                                                     0.0,     0],
+  [reason_excerpt,           true,    1,    caught,      caught,      "the census reader: every census frame whole and accounting, chunk 12 refused",                                                                                    0.0,     0],
+  [reason_wrapped,           true,    1,    caught,      caught,      "the census reader: every census frame whole and accounting, chunk 12 does not reassemble",                                                                        0.0,     0],
+  [equal_left_multiline,     true,    1,    caught,      caught,      "the eviction cycle: a reused slot's record reads as no refusal: \"refused: the slot's record does not hold for its tile:   generation: 3\" These are not equal.", 0.0,     0],
+  [equal_right_multiline,    true,    1,    caught,      caught,      "the eviction cycle: a reused slot's record reads as the refusal expected These are not equal.",                                                                   0.0,     0]
+ ],
+ misses: [
+
+ ],
+ call: "5N9tjK5licu",
+ started: "2026-10-13T00:43:28.533+0000",
+ sweeps: [
+  [name,                     records, left,    scans, ended];
+  [control,                  [
+
+   ], [
+
+   ], 2,     clean],
+  [watchdog,                 [
+
+   ], [
+
+   ], 2,     clean],
+  [catch_assert,             [
+
+   ], [
+
+   ], 2,     clean],
+  [catch_assert_equal,       [
+
+   ], [
+
+   ], 2,     clean],
+  [inline_assert,            [
+
+   ], [
+
+   ], 2,     clean],
+  [unrelated_unexercised,    [
+
+   ], [
+
+   ], 2,     clean],
+  [other_assert_unexercised, [
+
+   ], [
+
+   ], 2,     clean],
+  [neighbour_expect,         [
+
+   ], [
+
+   ], 2,     clean],
+  [neighbour_unexercised,    [
+
+   ], [
+
+   ], 2,     clean],
+  [argument_exception,       [
+
+   ], [
+
+   ], 2,     clean],
+  [empty_expect,             [
+
+   ], [
+
+   ], 2,     clean],
+  [passes,                   [
+
+   ], [
+
+   ], 2,     clean],
+  [empty_passes,             [
+
+   ], [
+
+   ], 2,     clean],
+  [label_foreign,            [
+
+   ], [
+
+   ], 2,     clean],
+  [label_displaced,          [
+
+   ], [
+
+   ], 2,     clean],
+  [equal_unclosed,           [
+
+   ], [
+
+   ], 2,     clean],
+  [equal_unlabelled,         [
+
+   ], [
+
+   ], 2,     clean],
+  [reason_absent,            [
+
+   ], [
+
+   ], 2,     clean],
+  [reason_wrong,             [
+
+   ], [
+
+   ], 2,     clean],
+  [reason_excerpt,           [
+
+   ], [
+
+   ], 2,     clean],
+  [reason_wrapped,           [
+
+   ], [
+
+   ], 2,     clean],
+  [equal_left_multiline,     [
+
+   ], [
+
+   ], 2,     clean],
+  [equal_right_multiline,    [
+
+   ], [
+
+   ], 2,     clean]
+ ],
+ status: [
+
+ ],
+ status_after: [
+
+ ],
+ staged_after: [
+
+ ]
+}

@@ -1,0 +1,14 @@
+use /home/box/tmp/ai/two/7OBPNPn8Uww/gauge_mirror_median/game/fps/test/test.nu [gauge-rules]; gauge-rules /home/box/ai/two/data/jab/mutants/gauge-median-20261013/median_at_ceiling_under; print "rules: ok"
+Error: nu::shell::error
+
+  x a median at 15 ms leaves the window valid and not under: {count: 3, min:
+  | 1800, median: 15000, p95: , p99: , max: 15000}
+      ,-[/home/box/tmp/ai/two/7OBPNPn8Uww/gauge_mirror_median/game/fps/test/test.nu:3302:12]
+ 3301 |     let ma = (do $measure $at)
+ 3302 |     assert ($ma.valid and $ma.under == false) $"a median at 15 ms leaves the window valid and not under: ($ma.whole.critical)"
+      :            ^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^
+      :                             `-- It is not true.
+ 3303 |     let under_line = (gauge run-line "" 1 $mo {})
+      `----
+
+error: recipe `rules-mirror` failed on line 39 with exit code 1

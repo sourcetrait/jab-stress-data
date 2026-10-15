@@ -1,0 +1,22 @@
+--- test/demand
+Error: nu::shell::error
+
+  x on the specification's three harts a declared program's run is declared
+  | and not diagnostic: false, true
+  | These are not equal.
+     ,-[/home/box/proj/sourcetrait/jab/test/demand/test/test.nu:157:18]
+ 156 |     assert equal $three.status $status $"the declared fixture exits with the status its demand's numbers make: ($three.status), ($three.serial)"
+ 157 |     assert equal [$three.declared $three.diagnostic] [true false] $"on the specification's three harts a declared program's run is declared and not diagnostic: ($three.declared), ($three.diagnostic)"
+     :                  ^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^ ^^^^^^|^^^^^
+     :                                   |                        `-- right: [true, false]
+     :                                   `-- left: [false, true]
+ 158 |     let four = (jab launch --kernel $kernel --image $declared_image --out ($out | path join "four") --set $set --harts 4)
+     `----
+
+╭───┬─────────────┬────────╮
+│ # │   program   │ passed │
+├───┼─────────────┼────────┤
+│ 0 │ test/demand │ false  │
+╰───┴─────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

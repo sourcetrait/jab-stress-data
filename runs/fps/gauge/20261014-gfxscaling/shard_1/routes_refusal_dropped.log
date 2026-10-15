@@ -1,0 +1,13 @@
+use /home/box/tmp/jab-stress/gauge-gfxscaling/shard_1/mirror/game/fps/test/test.nu [gauge-rules]; gauge-rules /home/box/tmp/jab-stress/gauge-gfxscaling/shard_1/rules/routes_refusal_dropped; print "rules: ok"
+Error: nu::shell::error
+
+  x runs on two routes refuse the comparison:
+      ,-[/home/box/tmp/jab-stress/gauge-gfxscaling/shard_1/mirror/game/fps/test/test.nu:3981:12]
+ 3980 |     let two_routes = (do $attempt [$on_stairs $on_yard] false | get -o refusal | default "")
+ 3981 |     assert ($two_routes | str contains "the runs played 2 routes") $"runs on two routes refuse the comparison: ($two_routes)"
+      :            ^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      :                                       `-- It is not true.
+ 3982 |     let apart = (do $attempt [$on_stairs $on_yard] true)
+      `----
+
+error: recipe `rules-mirror` failed on line 39 with exit code 1

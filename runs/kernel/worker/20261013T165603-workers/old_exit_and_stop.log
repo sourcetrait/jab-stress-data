@@ -1,0 +1,24 @@
+--- test/workers
+Error: nu::shell::error
+
+  x Restart: a start while hart 1 holds at its exit's gap sees it working and
+  | answers busy, a retry starts it, and the stop's wait answers: restart:
+  | held, start saw idle, then 0, stopped 0
+  | 
+  | These are not equal.
+     ,-[/home/box/proj/sourcetrait/jab/test/workers/test/test.nu:121:22]
+ 120 |         assert (not ($restart.serial | str contains "expired")) $"Restart: the hold expired before the start looked, evidence of neither order: ($restart.serial)"
+ 121 |         assert equal ($restart.serial | lines) ["restart: held, start saw busy, then 0, stopped 1"] $"Restart: a start while hart 1 holds at its exit's gap sees it working and answers busy, a retry starts it, and the stop's wait answers: ($restart.serial)"
+     :                      ^^^^^^^^^^^^|^^^^^^^^^^^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^
+     :                                  |                                       `-- right: ["restart: held, start saw busy, then 0, stopped 1"]
+     :                                  `-- left: ["restart: held, start saw idle, then 0, stopped 0"]
+ 122 |         assert equal $restart.status 0 $"Restart: exit status: ($restart.serial)"
+     `----
+
+╭───┬──────────────┬────────╮
+│ # │   program    │ passed │
+├───┼──────────────┼────────┤
+│ 0 │ test/workers │ false  │
+╰───┴──────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

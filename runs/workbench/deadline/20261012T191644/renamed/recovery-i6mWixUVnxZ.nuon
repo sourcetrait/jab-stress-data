@@ -1,0 +1,27 @@
+{
+ recovery: "i6mWixUVnxZ",
+ call: "gHO9Tt4WuxF",
+ root: /home/box/tmp/ai/two/iPntyQzLDsd/f_renamed,
+ commit: "43ec856a8a3cbc32820d82f80fa5d7625cceabb1",
+ head: "43ec856a8a3cbc32820d82f80fa5d7625cceabb1",
+ results_present: false,
+ started: "2026-10-12T19:20:35.961+0000",
+ sweep: {
+  records: [
+
+  ],
+  left: [
+
+  ]
+ },
+ strays: [
+  [file,                         bytes, "sha256"];
+  [".case.jabstage.gHO9Tt4WuxF", 6,     "dec80c0e825246037793b5f5e6db754b9ec6004f32be59c2b78e97e2778f7fc6"]
+ ],
+ paths: [
+  [file, found,                   hash,                                                               action];
+  [case, "mutation catch_assert", "0eae7e2564e07ed9c8b3a99c278625e38ebe5664876d7aa253aa2dbf7627b210", restored]
+ ],
+ complete: true,
+ finished: 0.07
+}

@@ -1,0 +1,13 @@
+use /home/box/tmp/ai/two/7OBPNPn8Uww/gm/mirror_f3/game/fps/test/test.nu [gauge-rules]; gauge-rules /home/box/tmp/ai/two/7OBPNPn8Uww/gm/rules_f3/ambiguity_dropped; print "rules: ok"
+Error: nu::shell::error
+
+  x two reports conflicting on the seed are ambiguous:
+      ,-[/home/box/tmp/ai/two/7OBPNPn8Uww/gm/mirror_f3/game/fps/test/test.nu:4572:12]
+ 4571 |     let conflict_msg = (try { gauge read-identity $conflict_run; "" } catch {|e| $e.msg })
+ 4572 |     assert ($conflict_msg | str contains "mode.seed: 7 against 1") $"two reports conflicting on the seed are ambiguous: ($conflict_msg)"
+      :            ^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      :                                       `-- It is not true.
+ 4573 |     let unexplained = ($rd | path join "unexplained")
+      `----
+
+error: recipe `rules-mirror` failed on line 39 with exit code 1
