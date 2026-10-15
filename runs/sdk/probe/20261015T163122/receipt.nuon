@@ -1,0 +1,9 @@
+{
+ call: "fnBOG0BpunZ",
+ results: "results.nuon",
+ "results_sha256": "52fcd2e6ab10f5592fd0010e0e0267e6c315567bd3120e57768dcfe029f020ac",
+ finished: 31.758,
+ deadline: 300,
+ in_time: true,
+ ok: true
+}

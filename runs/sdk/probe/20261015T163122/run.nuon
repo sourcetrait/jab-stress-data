@@ -1,0 +1,18 @@
+{
+  set: probe,
+  stamp: "20261015T163122",
+  task: ProbeFixtures,
+  scope: {
+    kind: whole,
+    ran: 20,
+    of: 20
+  },
+  builds: [
+    [part, build,                                      checkout, record];
+    [run,  "beafb5b64866e18636d60cc4e69d138a512161de", jab,      "baseline.nuon"]
+  ],
+  kept: {
+    as: current,
+    why: "the latest run that took the whole set"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  set: sdl,
+  stamp: "20261015T163249",
+  task: ProbeControls,
+  scope: {
+    kind: whole,
+    ran: 3,
+    of: 3
+  },
+  builds: [
+    [part,       build,                                      checkout, record];
+    [monolithic, "beafb5b64866e18636d60cc4e69d138a512161de", jab,      "controls.nuon"],
+    [modular,    "beafb5b64866e18636d60cc4e69d138a512161de", jab,      "controls.nuon"],
+    [stripped,   "beafb5b64866e18636d60cc4e69d138a512161de", jab,      "controls.nuon"]
+  ],
+  kept: {
+    as: current,
+    why: "the latest run that took the whole set, the controls ProbeBySymbol's build is held to"
+  }
+}

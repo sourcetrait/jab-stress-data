@@ -1,0 +1,75 @@
+{
+  jab: "beafb5b64866e18636d60cc4e69d138a512161de",
+  workbench: "baca291a22874c8c8b8cc7d56d06b610471768fd",
+  seconds: 12,
+  monolithic: {
+    ran: true,
+    ok: true,
+    qemu: "QEMU emulator version 11.1.2",
+    traced: {
+      flushes: 619,
+      set_scanouts: 1
+    },
+    read: {
+      uploads: 619,
+      switches: 3,
+      console: 2,
+      renders: 366
+    },
+    flush_windows: [
+      [uploads, windows];
+      [1,       619]
+    ],
+    flips: 619,
+    checks: {
+      one_upload_per_flush: true,
+      none_elsewhere: true,
+      one_switch_per_set_scanout: true,
+      reset_through_reset_bh: true,
+      virtio_gpu_in_executable: true,
+      flips_are_groups: true,
+      switches_as_measured: true,
+      console_as_measured: true
+    }
+  },
+  modular: {
+    ran: true,
+    ok: true,
+    qemu: "QEMU emulator version 10.2.2 (qemu-10.2.2-1.fc44)",
+    module: "/usr/lib64/qemu/hw-display-virtio-gpu.so",
+    read: {
+      uploads: 713,
+      switches: 3,
+      console: 2,
+      renders: 350
+    },
+    corroborated: 713,
+    flips: 712,
+    checks: {
+      virtio_gpu_in_module: true,
+      uploads_agree: true,
+      uploads_corroborated: true,
+      switches_agree: true,
+      console_agree: true,
+      nothing_else: true,
+      switches_as_measured: true,
+      console_as_measured: true
+    }
+  },
+  stripped: {
+    ran: true,
+    ok: true,
+    stripped: {
+      size: 16918704,
+      "sha256": "76ee5bb0257e90ce640171d0af1e655f6311bae9a223aa55d1643312b827b6cd"
+    },
+    refusal: "the sdl probe refuses the log: a make_current's immediate caller is not in the SDL front end, and the executable at /home/box/tmp/ai/two/9TndNPTGzBb/ probe_controls/work-20261015T163249/stripped/bin/qemu-system-riscv64 keeps no symbol table, only dynamic symbols, 67 sized functions among them: 718 make_currents, among them qemu-system-riscv64+37ae08, qemu-system- riscv64+37ad91",
+    checks: {
+      exits_nonzero: true,
+      prints_no_record: true,
+      anchor_refused: true,
+      table_named: true
+    }
+  },
+  ok: true
+}

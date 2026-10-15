@@ -14,7 +14,7 @@
     [bounce-modular-debug, null,  jab,      unrecorded]
   ],
   kept: {
-    as: current,
-    why: "the probe's latest runs, cited as evidence by HostWatch's ProbeBySymbol"
+    as: last,
+    why: "the whole run before the current one, cited as evidence by HostWatch's ProbeBySymbol"
   }
 }

@@ -1,0 +1,72 @@
+{
+ call: "fnBOG0BpunZ",
+ mark: JAB_RUNNER_MARK,
+ stage: ".jabstage.",
+ root: /home/box/proj/sourcetrait/jab,
+ commit: "beafb5b64866e18636d60cc4e69d138a512161de",
+ set: "/home/box/ai/two/iter/jab/subiter/sdk/operational/probe_mutants.nuon",
+ "set_sha256": "1858b0a9ce221960f747e04ea8cece58779844fe152aa2873a14180aedaa7cc4",
+ only: [
+  return_as_is,
+  nearest_below,
+  identity_dropped,
+  deleted_dropped,
+  anchor_dropped,
+  unresolved_console,
+  switch_upload,
+  second_frame_dropped,
+  cut_short_console,
+  module_rule_dropped,
+  exception_dropped,
+  exception_unconditioned,
+  absent_console,
+  dynsym_dropped,
+  names_whole,
+  twice_accepted,
+  unmodelled_counted,
+  skip_two,
+  skip_one,
+  shim_fbase
+ ],
+ control: {
+  program: test/probe,
+  ok: "probe: ok"
+ },
+ deadline: 300,
+ margin: 15,
+ kill_after: 5,
+ hold: {
+  at: "",
+  seconds: 0
+ },
+ started: "2026-10-15T16:31:28.165+0000",
+ paths: [
+  [file,                         committed,                                                          mutated];
+  ["sdk/nu/jab.nu",              "911e37fcf1f2a5093482f35a989f083fe93475ba1edf14a231449ff0f9a83a44", [
+    [mutant,                  hash];
+    [return_as_is,            "7a6f342329a0b4c1959ae9e06d1c59e95a6f4ede5b90f525bceb6530e55fb99e"],
+    [nearest_below,           "f3952e7804b68c5fd31992a91e12f9f305b9de21bb4c9a944444516249195b33"],
+    [identity_dropped,        "b0733beb7a4d6d30fb6ecc43683ef3521543dd975b440245305d71e682f22194"],
+    [deleted_dropped,         "b1639605db5574e7d7c5c836af1d6af63ab4f9be1ccca812c37fbd8d7d3d50dd"],
+    [anchor_dropped,          "9fccf782413a7d38bbf3cb7a3900a4ef17275ec2ad523d9e22e025fb8f4e415e"],
+    [unresolved_console,      "481a91a8c38a08e17249165b03f53e7d3e3b9f3667f7b9b3fa7b08007e21c6d5"],
+    [switch_upload,           "2fdfa4441cdf9d5684eb98fc0336eaf9f934ad69f0087e28c3e28bb9d52c27de"],
+    [second_frame_dropped,    "d352d5afa5008d691280027ee424b983919838e28b70b0636c065ed440594f66"],
+    [cut_short_console,       "e26691f1ac2b240bf9645c7ce1135b201180618d392e8f909e1a7d02dfafc985"],
+    [module_rule_dropped,     "fc31698dbf7ec31cd168a30f450e5aeaca2c6f525ebc3628c1b15c09e52d78c3"],
+    [exception_dropped,       "68ce5f2151138fc84294064ecdfb284c9f956f1cb43adb4d16733138cef30f4f"],
+    [exception_unconditioned, "97d95dbc2f81abad8644e84d7ed6af55c37a14512ed4de797e91558ba3b0986a"],
+    [absent_console,          "a255eeb997ce3aca2e2f9a347ab353c71e528ca8364be8ef9e6886217fe825db"],
+    [dynsym_dropped,          "75939673b190349e450b223bdb6195c492b932d7d060a558eb1824c41aaeb321"],
+    [names_whole,             "b991e10f059dd81f0f2618ac7e4cd88f545c2dd6882a1e187193d4f4c7257520"],
+    [twice_accepted,          "057b0d207e99bd7eb4bea93e0aa58cc2d86db611750bb5be0c06a4a02859771c"],
+    [unmodelled_counted,      "3ed66bef05ce6065a3b0e313b647d592bd3c3c7cf433fe18d779dcd526c578ea"],
+    [skip_two,                "2634b2a1f84faa780819f96b72273a03c5af93b2e8b60b9c9dd2167c077eea3e"],
+    [skip_one,                "4d55fd331042b3304e7229b1414d84468f4dc2b302a402d1dd3f31b589ba0b15"]
+   ]],
+  ["shim/crates/sdl/src/lib.rs", "cca8d0c54456cb9b47721b73f4cd97edc7a2f6b4508666d628f7b5129ab197f0", [
+    [mutant,     hash];
+    [shim_fbase, "f89678c3b38509ca051159c26bbcc4ac6bf7d376710b6e60ec5dde18180e3049"]
+   ]]
+ ]
+}
