@@ -1,0 +1,21 @@
+--- test/probe
+Error: nu::shell::error
+
+  x cold: sdl-resolve gives frame 2 as [virtio_gpu_process_cmdq]
+  | These are not equal.
+     ,-[/home/box/proj/sourcetrait/jab/test/probe/test/test.nu:207:64]
+ 206 |             if ($wanted | get -o shim_frames) != null { assert equal $got.shim_frames $wanted.shim_frames $"($c.name): sdl-resolve drops ($wanted.shim_frames) of the shim's frames" }
+ 207 |             if ($wanted | get -o frame) != null { assert equal ($got.functions | get -o $wanted.frame) $wanted.functions $"($c.name): sdl-resolve gives frame ($wanted.frame) as [($wanted.functions | str join ', ')]" }
+     :                                                                ^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^ ^^^^^^^^|^^^^^^^^
+     :                                                                                   |                            `-- right: [virtio_gpu_process_cmdq]
+     :                                                                                   `-- left: ["virtio_gpu_process_cmdq.cold"]
+ 208 |             if ($wanted | get -o virtio_gpu_in) != null { assert equal $got.virtio_gpu_in $wanted.virtio_gpu_in $"($c.name): the device's code reads in the ($wanted.virtio_gpu_in)" }
+     `----
+
+╭───┬────────────┬────────╮
+│ # │  program   │ passed │
+├───┼────────────┼────────┤
+│ 0 │ test/probe │ false  │
+╰───┴────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

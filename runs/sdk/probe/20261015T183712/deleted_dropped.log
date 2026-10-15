@@ -1,0 +1,25 @@
+--- test/probe
+Error: nu::shell::error
+
+  x deleted: refused, saying the executable at /home/box/.sys/.xdg/cache/jab/
+  | target/jab-66f9749f/debug/test/probe/fixture/fixture.so was deleted after
+  | it started: {flips: 0, console: 0, switches: 0, renders: 0, refused: "the
+  | sdl probe refuses the log: /home/box/.sys/.xdg/cache/jab/target/jab-
+  | 66f9749f/debug/test/probe/fixture/fixture.so is not the file its line in
+  | the object table names, rebuilt or replaced since the run: 1 make_current,
+  | among them fixture.so (deleted)+3f4"}
+     ,-[/home/box/proj/sourcetrait/jab/test/probe/test/test.nu:258:16]
+ 257 |         let said = (if ($c | get -o path) == null { reading $file } else { with-env { PATH: $c.path } { reading $file } })
+ 258 |         assert (($said.refused | str starts-with "the sdl probe refuses the log: ") and ($said.refused | str contains $c.says)) $"($c.name): refused, saying ($c.says): ($said | to nuon)"
+     :                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     :                                                                        `-- It is not true.
+ 259 |         let unsaid = ($c | get -o unsaid | default "")
+     `----
+
+╭───┬────────────┬────────╮
+│ # │  program   │ passed │
+├───┼────────────┼────────┤
+│ 0 │ test/probe │ false  │
+╰───┴────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

@@ -1,0 +1,18 @@
+{
+  set: probe,
+  stamp: "20261015T183712",
+  task: LineGrammar,
+  scope: {
+    kind: whole,
+    ran: 25,
+    of: 25
+  },
+  builds: [
+    [part, build,                                      checkout, record];
+    [run,  "73639ae3a45aeb424ab5de94767e0bedde5fbb9f", jab,      "baseline.nuon"]
+  ],
+  kept: {
+    as: current,
+    why: "the latest run that took the whole set"
+  }
+}

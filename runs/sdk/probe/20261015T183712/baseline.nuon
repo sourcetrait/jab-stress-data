@@ -1,0 +1,82 @@
+{
+ call: "eixz91rFTEN",
+ mark: JAB_RUNNER_MARK,
+ stage: ".jabstage.",
+ root: /home/box/proj/sourcetrait/jab,
+ commit: "73639ae3a45aeb424ab5de94767e0bedde5fbb9f",
+ set: "/home/box/ai/two/iter/jab/subiter/sdk/operational/probe_mutants.nuon",
+ "set_sha256": "dd24bf80af5c7d5035845d3d37f4ea53f4695cfda9ef37cdb1db5a2e03b06ed8",
+ only: [
+  return_as_is,
+  nearest_below,
+  identity_dropped,
+  deleted_dropped,
+  anchor_dropped,
+  unresolved_console,
+  switch_upload,
+  second_frame_dropped,
+  cut_short_console,
+  module_rule_dropped,
+  exception_dropped,
+  exception_unconditioned,
+  absent_console,
+  dynsym_dropped,
+  names_whole,
+  twice_accepted,
+  unmodelled_counted,
+  skip_two,
+  skip_one,
+  shim_fbase,
+  lines_unvalidated,
+  fragment_refused,
+  metadata_apart,
+  notices_unrecognized,
+  stop_accepted
+ ],
+ control: {
+  program: test/probe,
+  ok: "probe: ok"
+ },
+ deadline: 300,
+ margin: 15,
+ kill_after: 5,
+ hold: {
+  at: "",
+  seconds: 0
+ },
+ started: "2026-10-15T18:37:12.334+0000",
+ paths: [
+  [file,                         committed,                                                          mutated];
+  ["sdk/nu/jab.nu",              "281e477535d548e3b221fd1f0d9eddeef41eff0080d2a93fa9d2a8c79641f4d2", [
+    [mutant,                  hash];
+    [return_as_is,            "29da9eea4b85b4da7a4e019bae4764b1769c50254a81ed89150d688f10e93cfc"],
+    [nearest_below,           "cf32bb820b124dea862c5457f89dce5e426b6a98629153a5585e63131b2836f1"],
+    [identity_dropped,        "8962b2a30769261eaf3bbfbc61d174ae3fcad1a64f01323f2f853b63ab680640"],
+    [deleted_dropped,         "8a21037c923a9c25c4680ff857524f997f9ec8b9fd2cd9ac4dda26e967869139"],
+    [anchor_dropped,          "fea61158db9628b3253fe576cd449f11eda80036bd3d9935512cde1e62e1cb8b"],
+    [unresolved_console,      "a5f6a2a1dfb8ca2b3aba2e393ac42251fd97428d48710f8704b93c5d92ae27be"],
+    [switch_upload,           "a13989e8e25e705a6fd8cb08ebe5f51dbaf844f5d250e3c2d5578164e1d3809d"],
+    [second_frame_dropped,    "6cfc530874f7fadb00276bf83b5272e1837e6c6f363d2f2456bd06e0f5746176"],
+    [cut_short_console,       "bce98f3d897e142c1904734c6cc0b88cd7ca93b1a4bb145008d0e387df641e31"],
+    [module_rule_dropped,     "7b128b7385da621d7e5b62d056d68c1d426f37c353da2cdb999c5fd16a3a8278"],
+    [exception_dropped,       "fa13f8670e2cf916c83e3ba39260da6562204f9d3a8ade8c363cf66921167f14"],
+    [exception_unconditioned, "af07e4b40bd8089602b77904af3e0030b6089efec3cda0cb53129a3b5f5ab0e0"],
+    [absent_console,          "a44bccede81fc0b45b2592c9ce32c703c31387b1e91a5ffb3826f302d74ab3d1"],
+    [dynsym_dropped,          "140858a3ccaf9ac267c6453b4edc61fb6c82a8cbbe21a3f30ff1103501a59fa8"],
+    [names_whole,             "0fad1f36a0b7d647e302048118cdd874e783408971c1e1ce900c340094624e68"],
+    [twice_accepted,          "40b9f2bc29fdbe64600c7b66655bdc84f9d22a131c0dd8d189be554b7cba4361"],
+    [unmodelled_counted,      "b860c2ff9ba4a60615609ba2f744c7220c96536655710cddf72646c296f49e70"],
+    [skip_two,                "4a7ed583a4419e2def71e7d17b9d56027a2607a144425b10f4560cc89a62ef5b"],
+    [skip_one,                "105a3924dcff41ce534d78490b751aee4be7a7167f1b3163c1edea07a369c479"],
+    [lines_unvalidated,       "0311834a14c8c4eab38684241b8c007a55ce066882ed014c145f73435b3913f0"],
+    [fragment_refused,        "da5dedcb973caca577ea72ee413f5717d3f1bdec99e48f4308adf4b45d01113d"],
+    [metadata_apart,          "e3d61ff6419fc2209d224997bd46544d5be89e9c27bc0a786d102bc07430df19"],
+    [notices_unrecognized,    "6f2081d5f9fed6ae8eb8e6a0692204897548ef636307ac931a9c7ae4b60a0bd8"],
+    [stop_accepted,           "dcb6eab2eeb40116496d6afd9ccdb98840ca88bcc99ec2ac03417b09181bd308"]
+   ]],
+  ["shim/crates/sdl/src/lib.rs", "cca8d0c54456cb9b47721b73f4cd97edc7a2f6b4508666d628f7b5129ab197f0", [
+    [mutant,     hash];
+    [shim_fbase, "f89678c3b38509ca051159c26bbcc4ac6bf7d376710b6e60ec5dde18180e3049"]
+   ]]
+ ]
+}

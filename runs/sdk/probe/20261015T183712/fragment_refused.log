@@ -1,0 +1,21 @@
+--- test/probe
+Error: nu::shell::error
+
+  x fragment_accepted: read as a flip's upload, the fragment after it left out
+  | These are not equal.
+     ,-[/home/box/proj/sourcetrait/jab/test/probe/test/test.nu:202:22]
+ 201 |         let file = (do $log $c.name $c.lines)
+ 202 |         assert equal (reading $file) $c.read $"($c.name): read as ($c.what)"
+     :                      ^^^^^^^|^^^^^^^ ^^^|^^^
+     :                             |           `-- right: {flips: 1, console: 0, switches: 0, renders: 0, refused: ""}
+     :                             `-- left: {flips: 0, console: 0, switches: 0, renders: 0, refused: "the sdl probe refuses the log: the log has a line the shim does not write: 1 line, among them line 4: 1792000000.040000 make_current 1+"}
+ 203 |         let wanted = ($c | get -o resolve)
+     `----
+
+╭───┬────────────┬────────╮
+│ # │  program   │ passed │
+├───┼────────────┼────────┤
+│ 0 │ test/probe │ false  │
+╰───┴────────────┴────────╯
+
+error: recipe `test` failed with exit code 1
