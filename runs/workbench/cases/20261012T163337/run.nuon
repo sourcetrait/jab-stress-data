@@ -12,7 +12,7 @@
     [run,  null,  synthetic, "results.nuon"]
   ],
   kept: {
-    as: current,
-    why: "the latest whole run of the cases, cited as evidence by ResourceScaling's DemandRerun"
+    as: checkpoint,
+    why: "cited as evidence by ResourceScaling's DemandRerun"
   }
 }
