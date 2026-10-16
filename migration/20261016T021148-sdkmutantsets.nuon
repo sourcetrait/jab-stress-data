@@ -1,7 +1,7 @@
 {
  migration: SdkMutantSets,
  stamp: "20261016T021148",
- complete: false,
+ complete: true,
  sources: [
   [repository, commit,                                     paths];
   [fae_emptwo, "fb42d4586ff1e038dbfc05e74a6c95f512015367", [
@@ -38,11 +38,17 @@
     ["runs/sdk/launch/20261013T213400", last],
     ["runs/sdk/probe/20261015T183712",  last],
     ["runs/sdk/probe/20261015T163122",  checkpoint]
-   ]
+   ],
+   commits: {
+    jab-stress-data: "3115ea5"
+   }
   },
   {
    phase: SourceRemoval,
-   done: false
+   done: true,
+   commits: {
+    fae_emptwo: "d74dacfc"
+   }
   }
  ],
  checks: [
@@ -79,6 +85,12 @@
    phase: ConsumerRuns,
    check: "every landed file's SHA-256 against its source",
    files: 118,
+   ok: true
+  },
+  {
+   phase: SourceRemoval,
+   check: "no current document in the ai repository names the sets' old paths",
+   files: 1172,
    ok: true
   }
  ],
