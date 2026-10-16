@@ -1,0 +1,21 @@
+--- test/probe
+Error: nu::shell::error
+
+  x switch: read as a switch
+  | These are not equal.
+     ,-[/home/box/proj/sourcetrait/jab/test/probe/test/test.nu:202:22]
+ 201 |         let file = (do $log $c.name $c.lines)
+ 202 |         assert equal (reading $file) $c.read $"($c.name): read as ($c.what)"
+     :                      ^^^^^^^|^^^^^^^ ^^^|^^^
+     :                             |           `-- right: {flips: 0, console: 0, switches: 1, renders: 0, refused: ""}
+     :                             `-- left: {flips: 1, console: 0, switches: 0, renders: 0, refused: ""}
+ 203 |         let wanted = ($c | get -o resolve)
+     `----
+
+╭───┬────────────┬────────╮
+│ # │  program   │ passed │
+├───┼────────────┼────────┤
+│ 0 │ test/probe │ false  │
+╰───┴────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

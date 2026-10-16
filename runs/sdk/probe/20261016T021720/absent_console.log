@@ -1,0 +1,20 @@
+--- test/probe
+Error: nu::shell::error
+
+  x absent: refused, saying an upload's chain ends at its immediate caller:
+  | {flips: 0, console: 1, switches: 0, renders: 0, refused: ""}
+     ,-[/home/box/proj/sourcetrait/jab/test/probe/test/test.nu:258:16]
+ 257 |         let said = (if ($c | get -o path) == null { reading $file } else { with-env { PATH: $c.path } { reading $file } })
+ 258 |         assert (($said.refused | str starts-with "the sdl probe refuses the log: ") and ($said.refused | str contains $c.says)) $"($c.name): refused, saying ($c.says): ($said | to nuon)"
+     :                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     :                                                                        `-- It is not true.
+ 259 |         let unsaid = ($c | get -o unsaid | default "")
+     `----
+
+╭───┬────────────┬────────╮
+│ # │  program   │ passed │
+├───┼────────────┼────────┤
+│ 0 │ test/probe │ false  │
+╰───┴────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

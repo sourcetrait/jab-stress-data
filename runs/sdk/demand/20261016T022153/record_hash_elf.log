@@ -1,0 +1,24 @@
+--- test/demand
+Error: nu::shell::error
+
+  x the build records its demand beside its image: {image:
+  | "d11f651924390ddf0828875e82a86051511419d4bf0e30dda8b38c8ef93aad04",
+  | demand: {specs: ["1KA1", "1KB1"], reserved: {gfx_harts: 1}, features:
+  | [[name, io_harts]; [probe, 1]], base: 2}}
+  | These are not equal.
+     ,-[/home/box/proj/sourcetrait/jab/test/demand/test/test.nu:154:18]
+ 153 |     let declared_record = (recorded $declared_image)
+ 154 |     assert equal $declared_record { image: (sha $declared_image), demand: $demand } $"the build records its demand beside its image: ($declared_record | to nuon)"
+     :                  ^^^^^^^^|^^^^^^^ ^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^
+     :                          |                                `-- right: {image: "e87fb5374386f039054dbee7b98f15a59e7437a8de496dffce830bdca2d53e9d", demand: {specs: ["1KA1", "1KB1"], reserved: {gfx_harts: 1}, features: [[name, io_harts]; [probe, 1]], base: 2}}
+     :                          `-- left: {image: "d11f651924390ddf0828875e82a86051511419d4bf0e30dda8b38c8ef93aad04", demand: {specs: ["1KA1", "1KB1"], reserved: {gfx_harts: 1}, features: [[name, io_harts]; [probe, 1]], base: 2}}
+ 155 |     let three = (jab launch --kernel $kernel --image $declared_image --out ($out | path join "three") --set $set)
+     `----
+
+╭───┬─────────────┬────────╮
+│ # │   program   │ passed │
+├───┼─────────────┼────────┤
+│ 0 │ test/demand │ false  │
+╰───┴─────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

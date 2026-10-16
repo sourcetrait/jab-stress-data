@@ -1,0 +1,33 @@
+{
+ call: "8IV8HIz6I4I",
+ mark: JAB_RUNNER_MARK,
+ stage: ".jabstage.",
+ root: /home/box/proj/sourcetrait/jab,
+ commit: "c1f4d4155e10acbd215dcbf87b121d11657a532c",
+ set: "/home/box/proj/sourcetrait/jab-stress-data/assets/sdk/mutants/launch_mutants.nuon",
+ "set_sha256": "bdae9a46ab1a3a047336ac4111218207aef77a5e0d6fa65827a35816f162c246",
+ only: [
+  bound_at_four,
+  bound_dropped
+ ],
+ control: {
+  program: test/harts,
+  ok: "harts: ok"
+ },
+ deadline: 300,
+ margin: 15,
+ kill_after: 5,
+ hold: {
+  at: "",
+  seconds: 0
+ },
+ started: "2026-10-16T02:16:04.565+0000",
+ paths: [
+  [file,            committed,                                                          mutated];
+  ["sdk/nu/jab.nu", "9686e52f4fb70c66c7c060e2d8fe74aaae15cb6d21b0c367612e5b52f44de309", [
+    [mutant,        hash];
+    [bound_at_four, "a3f312960a91229ffa26f80d597379905f991a59fd4cb48174ce3a3d40de1f7e"],
+    [bound_dropped, "5f4babc29acf3835f414fe116666637b16f9211c052abd7f2c443492c75843b9"]
+   ]]
+ ]
+}

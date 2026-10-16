@@ -1,0 +1,638 @@
+{
+ migration: SdkMutantSets,
+ stamp: "20261016T021148",
+ complete: false,
+ sources: [
+  [repository, commit,                                     paths];
+  [fae_emptwo, "fb42d4586ff1e038dbfc05e74a6c95f512015367", [
+    iter/jab/subiter/sdk/operational
+   ]]
+ ],
+ phases: [
+  {
+   phase: AssetData,
+   done: true,
+   commits: {
+    jab-stress-data: [
+     "526fed0",
+     "66f91ab"
+    ]
+   }
+  },
+  {
+   phase: ConsumerRuns,
+   done: true,
+   landed: [
+    "runs/sdk/demand/20261016T022153",
+    "runs/sdk/launch/20261016T021604",
+    "runs/sdk/probe/20261016T021720"
+   ],
+   pruned: [
+    "runs/sdk/demand/20261012T162702",
+    "runs/sdk/demand/20261012T163450",
+    "runs/sdk/launch/20261013T211500"
+   ],
+   demoted: [
+    [run,                               as];
+    ["runs/sdk/demand/20261013T134330", last],
+    ["runs/sdk/launch/20261013T213400", last],
+    ["runs/sdk/probe/20261015T183712",  last],
+    ["runs/sdk/probe/20261015T163122",  checkpoint]
+   ]
+  },
+  {
+   phase: SourceRemoval,
+   done: false
+  }
+ ],
+ checks: [
+  {
+   phase: AssetData,
+   check: "every asset copy's SHA-256 against its source",
+   files: 3,
+   ok: true
+  },
+  {
+   phase: ConsumerRuns,
+   check: "the first demand call from assets/sdk/mutants/, before the fix",
+   call: "demand-20261016T021148",
+   control_ok: true,
+   caught: 78,
+   unapplied: [
+    twice_held
+   ],
+   found: "twice_held unapplied, its find matching twice in jab.nu at c1f4d41, the second copy added by jab eddd67e; the find made unique at 66f91ab, and the attempt, replaced by the rerun, not kept",
+   ok: false
+  },
+  {
+   phase: ConsumerRuns,
+   check: "the checkout runner over each set from assets/sdk/mutants/, the whole set in one call",
+   runs: [
+    [set,    run,                               control_ok, every, caught, of, receipt_ok];
+    [demand, "runs/sdk/demand/20261016T022153", true,       true,  79,     79, true],
+    [launch, "runs/sdk/launch/20261016T021604", true,       true,  2,      2,  true],
+    [probe,  "runs/sdk/probe/20261016T021720",  true,       true,  25,     25, true]
+   ],
+   ok: true
+  },
+  {
+   phase: ConsumerRuns,
+   check: "every landed file's SHA-256 against its source",
+   files: 118,
+   ok: true
+  }
+ ],
+ source_files: [
+  [repository, path,                                                   "sha256",                                                           bytes, fate];
+  [fae_emptwo, "iter/jab/subiter/sdk/operational/demand_mutants.nuon", "38d0637632c7d6352595ac3bc58a54bac816fe937c9590dd6105a11388d153a2", 19031, {
+    kind: copied,
+    to: "assets/sdk/mutants/demand_mutants.nuon"
+   }],
+  [fae_emptwo, "iter/jab/subiter/sdk/operational/launch_mutants.nuon", "448a54f8e74282b7aec69c0398dfd1fd42c8a7b655c66d3d3ae4c6a0c75265a1", 421,   {
+    kind: copied,
+    to: "assets/sdk/mutants/launch_mutants.nuon"
+   }],
+  [fae_emptwo, "iter/jab/subiter/sdk/operational/probe_mutants.nuon",  "0dc1727447215cf9042cae460487a6d2ff6e4000a05cead429fdf6c040c03fe8", 7140,  {
+    kind: copied,
+    to: "assets/sdk/mutants/probe_mutants.nuon"
+   }]
+ ],
+ destination_files: [
+  [repository,      path,                                                            "sha256",                                                           bytes, origin];
+  [jab-stress-data, "assets/sdk/mutants/demand_mutants.nuon",                        "b4c6bb2b88588f6d42f22259f2e7ba5c96a94da9d653183b9eadff40fd34169d", 19118, {
+    kind: asset,
+    phase: AssetData,
+    copied: "526fed0",
+    changed: "66f91ab"
+   }],
+  [jab-stress-data, "assets/sdk/mutants/launch_mutants.nuon",                        "bdae9a46ab1a3a047336ac4111218207aef77a5e0d6fa65827a35816f162c246", 422,   {
+    kind: asset,
+    phase: AssetData,
+    copied: "526fed0"
+   }],
+  [jab-stress-data, "assets/sdk/mutants/probe_mutants.nuon",                         "dd24bf80af5c7d5035845d3d37f4ea53f4695cfda9ef37cdb1db5a2e03b06ed8", 7141,  {
+    kind: asset,
+    phase: AssetData,
+    copied: "526fed0"
+   }],
+  [jab-stress-data, "doc/notes/layout.md",                                           "3f320d7a772d2adf32b0fa9b72019b453cec85f2815fb8665f5bddf95da20e81", 5851,  {
+    kind: note,
+    phase: AssetData
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/run.nuon",                      "cd7b3851dccba96a1331e61653215e016454c393f709649109acf9682f03a530", 423,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/launch/20261016T021604/run.nuon",                      "cb9190f8faa8b4f779aa4a39ffbdea174211ea54cbf5158c4089f96b8ecb0e5c", 421,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261016T021720/run.nuon",                       "daba2908cb58f708e5fcb75225db9853e22210330b52b76fd35534ae543134eb", 422,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261013T134330/run.nuon",                      "272c7860e634f16db31fbd8cc977614e4e8682f5e12ea6a3b9b3622030dc1ec3", 379,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/launch/20261013T213400/run.nuon",                      "730e404159315ece0e9706cd08487901fac0c288782c3edaa0f5544501cc1e95", 426,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261015T183712/run.nuon",                       "b3712ff6b6932486ff87acbdda315cfc8f3c103a536c4afc73c14d7668256d87", 420,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261015T163122/run.nuon",                       "085a235952048915a1a33e9dc0613547745dd28c796e4551e1cf44a039d81e79", 410,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/absent_declared.log",           "92d1718e8d9143c74170c6f3c1867a02ed9b677cf7f285c4e2e4492b828e1a39", 1347,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/base_boundary.log",             "e8ca0fdaab3f285210a6146bc19c0797e36373924e319fd191ee81bbadd24972", 1724,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/base_constant_wrong.log",       "0c7c9a2f7e08cd6dfcaddcd8d7ca16e752076f31e29c822e46666e7e2b561392", 1543,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/base_kind_unchecked.log",       "e9e45e3addbf251d3b74b4d55d6cd9b5c72e58d814d4dab273c067d99a49a266", 1387,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/base_main_only.log",            "b013f84fb4c0865deed4cb7e443635223e4e73e1eec474827c5e97b931dc64a8", 1213,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/base_short_held.log",           "d881c0a94cb9741d425e88cdebf9f5551df75123ec51f1b05239678a9f2cbb2c", 1213,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/base_sum_unchecked.log",        "68fe8f564f045ed9d1bb0652aa06a2ebbb9f9faeb52ca3ab23ebdd3c7b1c09ad", 1190,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/baseline.nuon",                 "1c7ee7738c9c23cb55f6b932f180ab09af76861d709440dd94dedb9c613f58d9", 10470, {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/blank_held.log",                "1290bcbcd3b32dfd3abcad5d28283044fc12724d2b435ac191e969a47ee5861c", 1212,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/build_unchecked.log",           "c72120862645fdcbab155be191211cf8a7246a59aee6820481eef7b22604a6af", 1182,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/cache_record_unheld.log",       "3ef00d6528e9e9c8d6c38e530295ef9b746d53c0d7d6c944d3c35fdcd62b8de0", 855,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/case_sensitive.log",            "8d5bd0d5f1cc1fa3c733d62037d9263946daf8f9135d45cd7a6c3df54e998c0d", 1234,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/control.log",                   "3265ba043742ec1f2f88116ff40d1d5b9d3c04a20b48a56f6e96fd80e225cb40", 1105,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/cores_unchecked.log",           "3adc8244eaf9e5ccd5c5490408a4c2e6ce976147ae90e0c2796e5bdc8c1a7f88", 1213,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/count_unchecked.log",           "86ccef98f8a29882164877cd22870c793c84c1fc63c9f0a9d75cfb5e720e9efb", 1194,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/declared_always.log",           "7656dcb461f276563aaf049b025512bc60906120f68411056572bccdc01fdfbd", 1250,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/demand_kind_unchecked.log",     "3109f49096188499f1f401fa685067b59f0ca1d0ccc50ac13812b8cd85b6329a", 1118,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/demand_missing_unlisted.log",   "af232ccd076603bb505c16dba228c402cec5f2a96c83a84879fac3bc853a6ee3", 1122,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/demand_others_unlisted.log",    "2aa37700e529aec4f1b493adb665b81a92bc8ecb13cc6e71ddc9382d50b64679", 1198,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/diagnostic_demand_only.log",    "41087d79c9da11df085ea12f83bf28381c2c34a7732f0d6e0072f188e35310f6", 1252,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/diagnostic_machine_only.log",   "aae5be0486b92575b2d6403f07b7a492a2938a97fd3df0e4664ad3b3a952998f", 1254,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/empty_held.log",                "7b24a6e0a7193150c93d910ecc7e7eee8312258637708efb3a87597277d65950", 1119,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/feature_constants_dropped.log", "60d980d9c9db73b01d34da8bba0dd8e909e59de054fa18eb36743bfeb56a6f00", 1295,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/feature_counts_unlisted.log",   "7af7226f9e360a8c99475f3c40b6bd88166e64b745244cde753be4dc285ce0d5", 1229,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/feature_empty_held.log",        "85ca91dc375a78196763f146fdc56749f51a7e6ffe4a1cdaa871c5125925a6df", 1161,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/feature_foreign_unlisted.log",  "dc4406e588095a26d772e7ba42c9e6799fe3340dc4e87518a1b604ac2cedccb8", 1213,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/feature_idle_unlisted.log",     "9aa65a7663752e2d559dda93264f7040f6807071e5abae4bff11e5409ad27ec8", 1163,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/feature_kind_unchecked.log",    "693eaaec8c0945c1eb03cd82873c016ff91d71f3c8f0db6a39da4efdacf2fada", 1131,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/feature_name_uncased.log",      "ed9edbac1e1523984f1b9de98b41112c1812dc675544fbdb908f663c6b52953f", 1197,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/feature_name_unchecked.log",    "213e446c374953c41dcca1befb88042660a21dcf16977abdead275d04be51b48", 1190,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/feature_name_unrequired.log",   "94b89180126ccd343de31bb4dfd3190e25654d0a875c410f3711b5410999c5f5", 1118,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/feature_untyped.log",           "6f6fa661e0bd0cf18b082716acef3a7974936eb53398ca908c9795e81c1e5415", 1148,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/features_dropped.log",          "8ac1593f1b4ca78e30b63ada42a88f2325ec47e86d014ab7c51d7f21e9bc8d2c", 1630,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/features_kind_unchecked.log",   "00c6174780cbded2afab5207ce4cd619b75cbf8e26f06f8efccc3aa0285b5962", 1391,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/fraction_allowed.log",          "c563400a5885a4d802f800c322303a4aaf92b56a72d670aa57b33037e31cb450", 1146,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/holds_any_demand.log",          "3ef00d6528e9e9c8d6c38e530295ef9b746d53c0d7d6c944d3c35fdcd62b8de0", 855,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/holds_never.log",               "f599c1a99427d3172468cb1d6b92506e249b6be7e74c0b4490ea4d5a20417537", 1067,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/holds_unreadable.log",          "841fdd1bd6ca817abb645ef0e5a0152e3f1245ff6d3df0878d9bfa1d8d31ae07", 849,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/image_hash_unchecked.log",      "033e3ff3359e7bc19480da6c8551b8ff7a537c4a7ffe19d8795c07061f9c4472", 1319,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/image_hex_unchecked.log",       "fbf6a04843903046ea21bf294752a5677f91dc8e7708fbf83afa41dd0f2b82f5", 1563,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/image_type_unchecked.log",      "789668a7b5b429ef69ca0f4f34db7c1af70d6a0413fe463d2d579627e70e1651", 1133,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/include_after_check.log",       "092cc3e79eda23d0011b88026213f3a521188a316f2b7d3fcdc8060d8c454ed0", 870,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/include_always_written.log",    "ebb41ef304bbc26c5fe1447f27b547b5dbe72eecc3f1623ec51bd675376de7ae", 1067,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/include_everywhere.log",        "6c32fd93475854ec1ec60deef1b73ae39159aad5a4520cb41bf90aa337564bcd", 1140,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/include_not_input.log",         "092cc3e79eda23d0011b88026213f3a521188a316f2b7d3fcdc8060d8c454ed0", 870,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/legacy_missing_held.log",       "8ed86237e8513d3792fd0c0b8941caf27f7cf3c1b1a51452f29d410d669d30c6", 852,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/list_unchecked.log",            "64b8bcfe4572888657a7118ae97d059d2ddd9895fa520e76fe4845eedc932017", 1120,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/lone_unchecked.log",            "7f50389cae70edd85e1cae174b98ec0d7b66a21970422bf4e4352db519f4c45b", 1065,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/names_unchecked.log",           "fcd1f0b818c3b6f25950d4880c395bfc5b9d6696b17f5cfab1a10bb002b3e213", 1120,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/no_demand_include.log",         "69558e42e8dbc7431a386300d972e78c3b5c0c28fef94faef9ae825319028379", 1437,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/no_include_dir.log",            "69558e42e8dbc7431a386300d972e78c3b5c0c28fef94faef9ae825319028379", 1437,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/null_refused.log",              "bc34f67adf079976629c8b6bf3323689b8186279de7760830621d451749f2365", 1425,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/nuon_unread.log",               "d9b668832f69a0b30e5c7203c7c4b155297c6deadb5982b5a73db7406cbfa354", 1393,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/plan_demand_dropped.log",       "f5dc15457daa4f633f71db11243d073e3acc6ab206e159295a9eaba4300f9879", 1354,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/plan_reads_manifest.log",       "edaeb5f5847bc1a352b085e3974bb1da21811c0e583151c9fcaf0b137cdd5cef", 1367,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/plan_swallows.log",             "9f397bdbc79c116fe661da2bd25efb5c259c3500ea7ea15f1e2be9e320cd28bc", 1183,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/problems_ignored.log",          "5e8655c774ab5a8970476eda6c79c0ebe8d4a43ec817bfeb38ce8e20012030a3", 1130,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/receipt.nuon",                  "86c965c28f7faff7e4e39b5997e96757ae327f9a9ba48f1be902003f5295c86b", 200,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/record_demand_null.log",        "e69a20316706f3eb3da65fa107c23c2b8dd0531c0f6e6f876640bdf39ec123e5", 1512,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/record_hash_elf.log",           "faa6869c6d5732d35fd935a677ff79df1984f7087a80974b7ce709fc84d4c22b", 1712,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/record_kind_unchecked.log",     "bb66337183b087263f64e61b7984e4f6f93c8cc0a35e95a92fce833aef60fb72", 1128,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/record_missing_unlisted.log",   "51c5b5869af4461b180317a4bee12b3e6ea3d3efcc24850e6d718b07b772a9fd", 1152,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/record_others_unlisted.log",    "0ef2e4eb7b2481b9cab5e9f23ad36d4dec527f8d63803f08c034cb1dc25d720d", 1174,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/record_renamed.log",            "f28933b1f8fa9ddd4e5402bf2fffd54dc111e930a6fc47411e236b5b07106161", 1334,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/record_unwritten.log",          "f28933b1f8fa9ddd4e5402bf2fffd54dc111e930a6fc47411e236b5b07106161", 1334,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/reservation_dropped.log",       "2f98eee1b8c031921f123ed5b03802db0c6e464cd40bca30e1fae41d597a9019", 1213,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/reserved_absent_unlisted.log",  "b3840f3f4cf66d261d08fb1f1b3833541bcc709cc4bd7a8e2df0d55439efb40f", 1168,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/reserved_constant_zero.log",    "07e0b3b8d4c6145e8f78e7409b465e517293dc80b21849784772c1df5c5136c3", 1543,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/reserved_counts_unlisted.log",  "0760fc0fce90af1782c05c1bda8343a965275359b900f16141d1f0fe5cd86756", 1234,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/reserved_foreign_unlisted.log", "877a67e7b718ec116ff8410ab4597c207d6527dc16883f7ef694d5fa8fb59d0b", 1211,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/reserved_kind_unchecked.log",   "61f27aae3657b49201ce5f2d0d48fec166cecfd43e67a18d54b6b454295bdef3", 1118,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/results.nuon",                  "710f580c08c5fd6b012317656a6dea49de6975d766d27b0e69730e30baaaac06", 36793, {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/retire_skipped.log",            "3f1d028a58c49e5fd1d10ca58fff0bccfa0875df4106f92dc7924d7b17e52846", 1288,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/role_unchecked.log",            "b2cb622995136a4c56bf8b1c4aef901a2adf475b942d1645ff1f556b6b38c4f5", 1161,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/section_untyped.log",           "bcfa43e6e576ddab88f70bccdd98f660e16540e9c6a01168e45715e441bc157b", 1138,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/sections_unguarded.log",        "6d1be347edcea654b9f68f187cf73588bfdcee1493997c036eb70d75cf7ea804", 1080,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/shape_unchecked.log",           "fddfd62f650a42662cbf25e6d37fdd4f5b89e19059682b885fdf18023b610592", 1092,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/specs_empty_held.log",          "b3485e53a690b20545ed32e2c6d29e21b181a01013a963ce8e442d1cbbb34464", 1141,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/specs_kind_unchecked.log",      "cb18be2f2f4d0506c0d2513366dfd1edb655ee35db763e8427f61149902d9777", 1182,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/specs_names_unchecked.log",     "2c32dce3f21c17653d34fb6eca85d84bcfd8706a40769fd1d6c6b3efa6351498", 1171,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/twice_held.log",                "be13bb0df14aacbabd953732912655d02ce8b5ce910ce749bbc0eacaf6cf5339", 1164,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/unknown_held.log",              "136ceb89dd612d17839b6b2b8f226d685ae689ba767059f1c093a72ac98c04a8", 1170,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/demand/20261016T022153/zero_allowed.log",              "86ccef98f8a29882164877cd22870c793c84c1fc63c9f0a9d75cfb5e720e9efb", 1194,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/launch/20261016T021604/baseline.nuon",                 "5b69b0ca31575de4d1cf0208670cf60c9ae5f06d763fd915add67e30ef90c024", 974,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/launch/20261016T021604/bound_at_four.log",             "2f2eb493a3e1f6355fe80eca5d26ee9459c00817acebc749107f9d884a946382", 1107,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/launch/20261016T021604/bound_dropped.log",             "f4449e6a28c27232dc26676f472a60e93578ce297846d6b2354714083082b2c1", 1108,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/launch/20261016T021604/control.log",                   "403c695a5dde63ffd1567a06c587a63e52971907f250b25d5177587a1d110aa8", 1198,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/launch/20261016T021604/receipt.nuon",                  "a75142d43d8482a96cfb929a5776e74ce68789b8ea75d81cdeeaa49bf06daf95", 199,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/launch/20261016T021604/results.nuon",                  "e6b314ba3a11d35811d45759d02c6dc444e541c954ee5b4d24932ef930ecde90", 1523,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261016T021720/absent_console.log",             "f5e6a2728b9ca90e574a28f40572a5e20f9d2ced6af7f5e2dcde11290661a726", 1247,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261016T021720/anchor_dropped.log",             "a7531e932a3aa5d45af37891f042879b70f1765af95e697dd0d0f92381eab02e", 1449,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261016T021720/baseline.nuon",                  "72b01726a0adbc57450a991968a9587f03b9adbfeeb901257e3b125614efa53f", 3866,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261016T021720/control.log",                    "9b13aea0de04ec2bdcb07f7a0a057fa26ba2519fec9ecf72401e7861f7e3bf64", 344,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261016T021720/cut_short_console.log",          "b2819f4a2c420ac843a4d4fdcf2f79d7dba3d84ed67dff9005bdf624427aacf6", 1269,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261016T021720/deleted_dropped.log",            "a016367d716418f1d64fca7c3b888e6967ede2f58130bcc6c438c9605cf3ffed", 1611,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261016T021720/dynsym_dropped.log",             "2573e3de47261014b0cd5cd17deda85c54f451d3103795a4632ad9d85e6bca00", 1288,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261016T021720/exception_dropped.log",          "833a9e98248774b61bcd2ccfb4b1506e7a2936d2a40bcfb4fd66b438e1266068", 1295,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261016T021720/exception_unconditioned.log",    "7b32d4411b430b78b9acd1e6a0a56a56c78d51acdf72fc76303eaf7acb965cc4", 1254,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261016T021720/fragment_refused.log",           "aee91706203978666919a9177cf72431c23fbb3b17066432271e556a0304e95e", 1190,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261016T021720/identity_dropped.log",           "2354e8529a8d7e1f53227fa7cd1e67bc8ee0910589ada854546cf099faa83b20", 1347,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261016T021720/lines_unvalidated.log",          "16e489282e9b78d84b6dc459175cd555d201f69320f5c729617b80973dceeb85", 1382,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261016T021720/metadata_apart.log",             "83c9793e3c472ccd53248d0e17d3c0a5754f6f6a7d60c4ccf5632982122cc434", 1590,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261016T021720/module_rule_dropped.log",        "d72075ad33b4353e3f99bd7c6ad582fce56bf6948387207d9e3d70d8f1e82a2f", 1153,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261016T021720/names_whole.log",                "ee2e9c0076daedc5178a618c208757ac8948bf6e501102e86554c0efbd3b98a6", 1597,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261016T021720/nearest_below.log",              "34be7180b46c989de29fb93bb5912fc1a9951760436824db6dc2d4cc22a7d2c2", 1539,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261016T021720/notices_unrecognized.log",       "dfead1b5000397253ff00a8409de2570f20154a65484cccc044b5559ff2550e1", 1405,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261016T021720/receipt.nuon",                   "40df095c3c17d9d373a6d0c1ef323259389585d1bc92ea0cd987bd0a4b337239", 199,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261016T021720/results.nuon",                   "c76847278359dba7edb63a5815f5fbcd56148a6fef418bda3558c709f9e2e16e", 12303, {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261016T021720/return_as_is.log",               "ae45d7feef09b99919d89375af0c48c8dc4cb53095775a4d6914da243a4c0744", 1289,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261016T021720/second_frame_dropped.log",       "88eb5fb43950919a0d1faaef28bfb22c3ad1518d9cc6f524adf5af3d221c0e49", 1014,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261016T021720/shim_fbase.log",                 "9e70aa07a91d063d414e422f791ee9d76a55f8f3f1361cd64143b7aac456c578", 1279,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261016T021720/skip_one.log",                   "1233481fdd4bfb8af5aac99b48bb573bbc7ada26b34dda143262fd64341b3a3b", 1202,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261016T021720/skip_two.log",                   "65e81e0952a77f6ca95d6846546dd60f81f1ace456c9f16799acc4e573f9c076", 1336,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261016T021720/stop_accepted.log",              "3b2954998e53bfb9b723631f870c838aca982fa5aa4d71381a2adaa4e76ee265", 1264,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261016T021720/switch_upload.log",              "a913a874242e9bb7c8b37b6e2ee305205c73d9b6b232f0445edaed37c7005b6e", 1005,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261016T021720/twice_accepted.log",             "d14a82b93b31f4fd552ef7a74fae63e19aa77608c02e4aefb832517a525304a7", 1268,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261016T021720/unmodelled_counted.log",         "ef625a6f50051176a06cb5f0016869f7c097b80f25bb2eacd62caadd226313f6", 1280,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/sdk/probe/20261016T021720/unresolved_console.log",         "7b32d4411b430b78b9acd1e6a0a56a56c78d51acdf72fc76303eaf7acb965cc4", 1254,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }]
+ ],
+ counts: {
+  sources: {
+   files: 3,
+   bytes: 26592,
+   copied: 3
+  },
+  destinations: {
+   files: 129,
+   assets: 3,
+   notes: 1,
+   manifests: 7,
+   check_runs: 118
+  },
+  pruned_runs: 3
+ }
+}

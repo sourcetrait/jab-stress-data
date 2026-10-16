@@ -12,7 +12,7 @@
     [run,  "beafb5b64866e18636d60cc4e69d138a512161de", jab,      "baseline.nuon"]
   ],
   kept: {
-    as: last,
-    why: "the whole run before the current one"
+    as: checkpoint,
+    why: "cited as evidence by HostWatch's ProbeBySymbol and its LineGrammar"
   }
 }

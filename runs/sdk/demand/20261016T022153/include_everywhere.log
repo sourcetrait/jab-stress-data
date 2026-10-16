@@ -1,0 +1,22 @@
+--- test/demand
+Error: nu::shell::error
+
+  x the legacy build carries no generated constants' directory: -I ../../sdk/
+  | src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/test/demand
+  | --defsym DEBUG=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/
+  | riscv/bin/riscv64-unknown-linux-gnu-
+    ,-[/home/box/proj/sourcetrait/jab/test/demand/test/test.nu:55:12]
+ 54 |     let own_build = (generated ($image | path dirname))
+ 55 |     assert (not $own_build.included) $"the legacy build carries no generated constants' directory: ($own_build.flags)"
+    :            ^^^^^^^^^^^^|^^^^^^^^^^^^
+    :                        `-- It is not true.
+ 56 |     assert ($own_build.constants == null) "the legacy build generates no constants"
+    `----
+
+╭───┬─────────────┬────────╮
+│ # │   program   │ passed │
+├───┼─────────────┼────────┤
+│ 0 │ test/demand │ false  │
+╰───┴─────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

@@ -12,7 +12,7 @@
     [run,  "90011782f2627ff571e12e0c7394d9e367c3fb8d", jab,      "baseline.nuon"]
   ],
   kept: {
-    as: current,
-    why: "the latest whole run of the set, cited as evidence by ResourceScaling's IncludeKeyedBuild"
+    as: last,
+    why: "the whole run before the current one"
   }
 }

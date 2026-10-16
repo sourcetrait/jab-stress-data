@@ -1,9 +1,0 @@
---- test/demand
-demand: a legacy program read, built, and run undeclared and diagnostic; 21 manifests and a spec with no harts refused, each naming its fault; a spec in another case and a feature past every spec held; built afresh, a base demand past its spec refused, and a declared program's constants generated, reaching its assembly, its runs declared, diagnostic on four harts alone, and retired once its declaration was dropped; each image's demand recorded with it and read from there, an edited manifest unread, 27 faults of a record and one beside no image refused, a record kept to the shape passing, and a build beside a record of another demand, an unreadable one, an altered image, or none built again whole
-demand: ok
-╭───┬─────────────┬────────╮
-│ # │   program   │ passed │
-├───┼─────────────┼────────┤
-│ 0 │ test/demand │ true   │
-╰───┴─────────────┴────────╯
-
