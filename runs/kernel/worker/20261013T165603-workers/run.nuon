@@ -38,7 +38,7 @@
     [run,  "62bae3a4f6cf52de657d553f0d0fd0e9a645b878", jab,      "baseline.nuon"]
   ],
   kept: {
-    as: checkpoint,
-    why: "cited as evidence by RegistersSettle's GateHandshake; test/workers' share of the set, whole with 20261013T165850-workerfault"
+    as: last,
+    why: "the whole run before the current one, cited as evidence by RegistersSettle's GateHandshake; test/workers' share of the set, whole with 20261013T165850-workerfault"
   }
 }

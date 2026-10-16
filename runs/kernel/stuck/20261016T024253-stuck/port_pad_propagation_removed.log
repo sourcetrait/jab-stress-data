@@ -1,0 +1,23 @@
+--- test/stuck
+Error: nu::shell::error
+
+  x pad: exit status 124: stuck: scenario pad
+  | jab: interrupt source 4 stalled
+  | 
+  | These are not equal.
+    ,-[/home/box/proj/sourcetrait/jab/test/stuck/test/test.nu:63:18]
+ 62 |     let pad = (scenario $kernel $image ($out | path join "pad") $set "p" --bootargs "jab.hold=3" --pad $table --pad-port)
+ 63 |     assert equal $pad.status 0 $"pad: exit status ($pad.status): ($pad.serial)"
+    :                  ^^^^^|^^^^^ |
+    :                       |      `-- right: 0
+    :                       `-- left: 124
+ 64 |     let serial = (mmio-source $pad.debug "jab: serial at 0x")
+    `----
+
+╭───┬────────────┬────────╮
+│ # │  program   │ passed │
+├───┼────────────┼────────┤
+│ 0 │ test/stuck │ false  │
+╰───┴────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

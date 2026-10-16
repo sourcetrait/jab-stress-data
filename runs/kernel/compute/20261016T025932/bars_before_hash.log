@@ -1,0 +1,22 @@
+--- example/workers
+Error: nu::shell::error
+
+  x Proof: one image whatever the workers: [5de29db7a661f174,
+  | f00977ef91aca815, 35d715203f291c1a]
+  | These are not equal.
+     ,-[/home/box/proj/sourcetrait/jab/example/workers/test/test.nu:110:18]
+ 109 |     let hashes = ($proofs | get hash | uniq)
+ 110 |     assert equal ($hashes | length) 1 $"Proof: one image whatever the workers: ($proofs | get hash)"
+     :                  ^^^^^^^^^|^^^^^^^^ |
+     :                           |         `-- right: 1
+     :                           `-- left: 3
+ 111 |     let hash = ($hashes | first)
+     `----
+
+╭───┬─────────────────┬────────╮
+│ # │     program     │ passed │
+├───┼─────────────────┼────────┤
+│ 0 │ example/workers │ false  │
+╰───┴─────────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

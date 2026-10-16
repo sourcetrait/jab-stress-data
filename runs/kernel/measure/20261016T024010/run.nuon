@@ -1,0 +1,18 @@
+{
+  set: measure,
+  stamp: "20261016T024010",
+  task: KernelMutantSets,
+  scope: {
+    kind: whole,
+    ran: 1,
+    of: 1
+  },
+  builds: [
+    [part, build,                                      checkout, record];
+    [run,  "c1f4d4155e10acbd215dcbf87b121d11657a532c", jab,      "baseline.nuon"]
+  ],
+  kept: {
+    as: current,
+    why: "the latest whole run of the set, the move''s consumer run from assets/kernel/mutants/"
+  }
+}

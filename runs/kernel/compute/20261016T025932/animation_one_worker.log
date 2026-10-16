@@ -1,0 +1,19 @@
+--- example/workers
+Error: nu::shell::error
+
+  x Animation: more than one worker by nine seconds: [1]
+     ,-[/home/box/proj/sourcetrait/jab/example/workers/test/test.nu:161:12]
+ 160 |     let w = ($harts | uniq | length)
+ 161 |     assert ($w >= 2) $"Animation: more than one worker by nine seconds: ($harts | uniq)"
+     :            ^^^^|^^^^
+     :                `-- It is not true.
+ 162 |     let misdealt = ($harts | enumerate | where {|e| $e.item != ((($e.index // $BAND_ROWS) mod $w) + 1) } | get index)
+     `----
+
+╭───┬─────────────────┬────────╮
+│ # │     program     │ passed │
+├───┼─────────────────┼────────┤
+│ 0 │ example/workers │ false  │
+╰───┴─────────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

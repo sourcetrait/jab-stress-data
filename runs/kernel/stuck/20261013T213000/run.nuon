@@ -16,6 +16,6 @@
   ],
   kept: {
     as: checkpoint,
-    why: "cited as evidence by FrameCeiling's LauncherCounts; also the latest run of source_bound_removed, a slice no whole run of the set covers"
+    why: "cited as evidence by FrameCeiling's LauncherCounts"
   }
 }

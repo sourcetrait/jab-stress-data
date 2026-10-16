@@ -1,0 +1,20 @@
+--- example/workers
+Error: nu::shell::error
+
+  x Bench: every band's interval forward in time: bands [0, 1, 2, 3, 4, 5, 6,
+  | 7]
+     ,-[/home/box/proj/sourcetrait/jab/example/workers/test/test.nu:133:12]
+ 132 |     let backward = ($doc.bands | where {|b| $b.start <= 0 or $b.end < $b.start } | get band)
+ 133 |     assert ($backward | is-empty) $"Bench: every band's interval forward in time: bands ($backward | first 8)"
+     :            ^^^^^^^^^^^|^^^^^^^^^^
+     :                       `-- It is not true.
+ 134 |     assert $doc.cpu_at_once $"Bench: the worker harts busy at once, their rates over the held span summing past ($doc.at_once) cores: ($doc.harts)"
+     `----
+
+╭───┬─────────────────┬────────╮
+│ # │     program     │ passed │
+├───┼─────────────────┼────────┤
+│ 0 │ example/workers │ false  │
+╰───┴─────────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

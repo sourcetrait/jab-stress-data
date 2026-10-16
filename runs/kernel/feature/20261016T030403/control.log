@@ -1,0 +1,10 @@
+--- test/feature
+feature: image 87038b8d9a4e5e202ff276df4e6e900e6e35919a115a4009dba4448b4570f4d0, built with .set JAB_BASE_HARTS, 3; .set JAB_RESERVED_GFX_HARTS, 2; .set JAB_FEATURE_SYNTHETIC_IO_HARTS, 1
+feature: 3 machines, every line and frame held, three 8 frames, four 17 frames, sparse 8 frames; the reader's 3 negatives refused
+feature: ok
+╭───┬──────────────┬────────╮
+│ # │   program    │ passed │
+├───┼──────────────┼────────┤
+│ 0 │ test/feature │ true   │
+╰───┴──────────────┴────────╯
+

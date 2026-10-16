@@ -12,7 +12,7 @@
     [run,  "2b6558a499f05b2a908187c40dd080a56d638bbb", jab,      "1/results.nuon"]
   ],
   kept: {
-    as: last,
-    why: "the whole run before the current one, cited as evidence by ResourceScaling's ReservationRerun and FourHarts' HartReservations"
+    as: checkpoint,
+    why: "cited as evidence by FourHarts' HartReservations"
   }
 }

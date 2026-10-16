@@ -1,0 +1,20 @@
+--- example/workers
+Error: nu::shell::error
+
+  x Bench: every row its band's worker's, band b on hart b mod 3 plus 1: rows
+  | [0, 1, 2, 3, 4, 5, 6, 7]
+     ,-[/home/box/proj/sourcetrait/jab/example/workers/test/test.nu:131:12]
+ 130 |     let strays = ($doc.owners | enumerate | where {|e| $e.item != ((($e.index // $BAND_ROWS) mod 3) + 1) } | get index)
+ 131 |     assert ($strays | is-empty) $"Bench: every row its band's worker's, band b on hart b mod 3 plus 1: rows ($strays | first 8)"
+     :            ^^^^^^^^^^|^^^^^^^^^
+     :                      `-- It is not true.
+ 132 |     let backward = ($doc.bands | where {|b| $b.start <= 0 or $b.end < $b.start } | get band)
+     `----
+
+╭───┬─────────────────┬────────╮
+│ # │     program     │ passed │
+├───┼─────────────────┼────────┤
+│ 0 │ example/workers │ false  │
+╰───┴─────────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

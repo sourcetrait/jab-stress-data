@@ -1,0 +1,49 @@
+{
+ call: "6xQ4oU3R1Rd",
+ mark: JAB_RUNNER_MARK,
+ stage: ".jabstage.",
+ root: /home/box/proj/sourcetrait/jab,
+ commit: "c1f4d4155e10acbd215dcbf87b121d11657a532c",
+ set: "/home/box/proj/sourcetrait/jab-stress-data/assets/kernel/mutants/worker_mutants.nuon",
+ "set_sha256": "9ffdd050c0588e38d7cdb0fe8348375da399c4a1c711728603e7ac6f9348dda5",
+ only: [
+  boundary_no_park,
+  worker_line_as_program,
+  idle_ignores_shutdown,
+  await_ignores_shutdown,
+  claim_unchecked,
+  join_ignores_shutdown,
+  address_unchecked
+ ],
+ control: {
+  program: test/workerfault,
+  ok: "workerfault: ok"
+ },
+ deadline: 540,
+ margin: 15,
+ kill_after: 5,
+ hold: {
+  at: "",
+  seconds: 0
+ },
+ started: "2026-10-16T02:55:36.272+0000",
+ paths: [
+  [file,                   committed,                                                          mutated];
+  ["kernel/src/trap.S",    "5df8b67edc452d9778ca7dbbc2629867ff6a23ecc6941ce0470050a6da6a31ae", [
+    [mutant,                 hash];
+    [boundary_no_park,       "10ae4b8421bab9135d360796e11b22d462727128b176825b305975300af501fb"],
+    [worker_line_as_program, "697e691a06010747892edeffecfbe05937c2214fbf3638eded30e0fed9cd9660"]
+   ]],
+  ["kernel/src/workers.S", "ab712c48fbc1870e906f76354ecfd2c2462eb974253425858449eccf79f1f77d", [
+    [mutant,                hash];
+    [idle_ignores_shutdown, "42b6fbb6cf9e2d52703ecec80c0fe63a8b97d784a80589f1f99240051bf175fb"],
+    [claim_unchecked,       "4671bea81642ab7fb1716bb306b1d8348ca708e87b169297df659a119005047b"],
+    [join_ignores_shutdown, "ed268d565ae744abda216004ca0b3953043323680160cfb9268a8e4b5642900e"],
+    [address_unchecked,     "af4bc7ef1df9e77c11570e8f718b323a1987f4d34d54b3d5a369cacae711ec8e"]
+   ]],
+  ["kernel/src/timer.S",   "1eba041afd9ad00d548175f9493faaffbadbd62460ecd11d1041424458969faa", [
+    [mutant,                 hash];
+    [await_ignores_shutdown, "8b92dc16a1697a29769e4f574e4d4862e97eedc7b6ffea2911e94df6ce232713"]
+   ]]
+ ]
+}

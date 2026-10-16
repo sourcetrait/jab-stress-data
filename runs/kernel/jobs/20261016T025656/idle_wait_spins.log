@@ -1,0 +1,20 @@
+--- test/jobs
+Error: nu::shell::error
+
+  x Idle: hart 1's worker, asleep in its await, ran at 0.9904380506108781 of a
+  | core over the held 0.817819953 s, past 0.05
+    ,-[/home/box/proj/sourcetrait/jab/test/jobs/test/test.nu:72:24]
+ 71 |                 assert ($thread != null) $"Idle: hart ($h)'s thread among ($run.threads | get name)"
+ 72 |                 assert ($thread.rate <= $IDLE_RATE) $"Idle: hart ($h)'s worker, asleep in its await, ran at ($thread.rate) of a core over the held ($run.threads_span) s, past ($IDLE_RATE)"
+    :                        ^^^^^^^^^^^^^^|^^^^^^^^^^^^^
+    :                                      `-- It is not true.
+ 73 |             }
+    `----
+
+╭───┬───────────┬────────╮
+│ # │  program  │ passed │
+├───┼───────────┼────────┤
+│ 0 │ test/jobs │ false  │
+╰───┴───────────┴────────╯
+
+error: recipe `test` failed with exit code 1

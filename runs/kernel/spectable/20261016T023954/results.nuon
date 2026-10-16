@@ -1,0 +1,88 @@
+{
+ control_ok: true,
+ every: true,
+ restored: true,
+ cleaned: true,
+ caught: 8,
+ unrun: [
+
+ ],
+ head: "c1f4d4155e10acbd215dcbf87b121d11657a532c",
+ logs: "/home/box/tmp/ai/two/1wA0avCBrJa/kernelsets/spectable",
+ deadline: 300,
+ swept: 0,
+ results: [
+  [name,             applied, exit, class,  expected, title,                                                                                                                                                                                                                 seconds, swept];
+  [control,          true,    0,    passed, passed,   "",                                                                                                                                                                                                                    2.4,     0],
+  [no_unknown,       true,    1,    caught, caught,   "unknown: refused: the loader took it",                                                                                                                                                                                0.5,     0],
+  [case_sensitive,   true,    1,    caught, caught,   "twice_case: refused: the loader took it",                                                                                                                                                                             0.8,     0],
+  [no_spec_inputs,   true,    1,    caught, caught,   "the program listing specs builds again after a change to the type alone: [{program: listed, modified: Fri, 16 Oct 2026 02:40:00 +0000 (now)}, {program: unlisted, modified: Fri, 16 Oct 2026 02:40:00 +0000 (now)}]", 2.0,     0],
+  [data_only_input,  true,    1,    caught, caught,   "the program listing specs builds again after a change to the type alone: [{program: listed, modified: Fri, 16 Oct 2026 02:40:02 +0000 (now)}, {program: unlisted, modified: Fri, 16 Oct 2026 02:40:02 +0000 (now)}]", 1.9,     0],
+  [no_zero_vram,     true,    1,    caught, caught,   "vram_zero: refused: the loader took it",                                                                                                                                                                              1.0,     0],
+  [nested_unchecked, true,    1,    caught, caught,   "missing_nested: refused: the loader took it",                                                                                                                                                                         0.4,     0],
+  [empty_allowed,    true,    1,    caught, caught,   "none: refused: the loader took it",                                                                                                                                                                                   0.8,     0],
+  [name_unchecked,   true,    1,    caught, caught,   "unnamed: refused: the loader took it",                                                                                                                                                                                0.8,     0]
+ ],
+ misses: [
+
+ ],
+ call: "jdoQXeS0LPu",
+ started: "2026-10-16T02:39:54.944+0000",
+ sweeps: [
+  [name,             records, left,    scans, ended];
+  [control,          [
+
+   ], [
+
+   ], 2,     clean],
+  [no_unknown,       [
+
+   ], [
+
+   ], 2,     clean],
+  [case_sensitive,   [
+
+   ], [
+
+   ], 2,     clean],
+  [no_spec_inputs,   [
+
+   ], [
+
+   ], 2,     clean],
+  [data_only_input,  [
+
+   ], [
+
+   ], 2,     clean],
+  [no_zero_vram,     [
+
+   ], [
+
+   ], 2,     clean],
+  [nested_unchecked, [
+
+   ], [
+
+   ], 2,     clean],
+  [empty_allowed,    [
+
+   ], [
+
+   ], 2,     clean],
+  [name_unchecked,   [
+
+   ], [
+
+   ], 2,     clean]
+ ],
+ status: [
+
+ ],
+ status_after: [
+
+ ],
+ staged_after: [
+
+ ]
+}

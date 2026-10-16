@@ -1,0 +1,26 @@
+--- test/stuck
+Error: nu::shell::error
+
+  x api: the unsent write abandoned when the source failed, answering 2, the
+  | next 1: stuck: scenario api
+  | jab: interrupt source 4 stalled
+  | stuck api: write 0 then 1
+  | jab: exit 0
+  | 
+  | These are not equal.
+    ,-[/home/box/proj/sourcetrait/jab/test/stuck/test/test.nu:71:18]
+ 70 |     let api_serial = (mmio-source $api.debug "jab: serial at 0x")
+ 71 |     assert equal ($api.serial | lines) ["stuck: scenario api" $"jab: interrupt source ($api_serial) stalled" "stuck api: write 2 then 1" "jab: exit 0"] $"api: the unsent write abandoned when the source failed, answering 2, the next 1: ($api.serial)"
+    :                  ^^^^^^^^^^|^^^^^^^^^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    :                            |                                                                   `-- right: ["stuck: scenario api", "jab: interrupt source 4 stalled", "stuck api: write 2 then 1", "jab: exit 0"]
+    :                            `-- left: ["stuck: scenario api", "jab: interrupt source 4 stalled", "stuck api: write 0 then 1", "jab: exit 0"]
+ 72 | 
+    `----
+
+╭───┬────────────┬────────╮
+│ # │  program   │ passed │
+├───┼────────────┼────────┤
+│ 0 │ test/stuck │ false  │
+╰───┴────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

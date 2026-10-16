@@ -1,0 +1,20 @@
+--- example/workers
+Error: nu::shell::error
+
+  x Animation: the bars in the deal's pattern for 2 workers: rows [0, 1, 2, 3,
+  | 4, 5, 6, 7]
+     ,-[/home/box/proj/sourcetrait/jab/example/workers/test/test.nu:163:12]
+ 162 |     let misdealt = ($harts | enumerate | where {|e| $e.item != ((($e.index // $BAND_ROWS) mod $w) + 1) } | get index)
+ 163 |     assert ($misdealt | is-empty) $"Animation: the bars in the deal's pattern for ($w) workers: rows ($misdealt | first 8)"
+     :            ^^^^^^^^^^^|^^^^^^^^^^
+     :                       `-- It is not true.
+ 164 |     for c in ($BARS | columns) {
+     `----
+
+╭───┬─────────────────┬────────╮
+│ # │     program     │ passed │
+├───┼─────────────────┼────────┤
+│ 0 │ example/workers │ false  │
+╰───┴─────────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

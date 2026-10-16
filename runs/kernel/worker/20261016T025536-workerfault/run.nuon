@@ -1,0 +1,36 @@
+{
+  set: worker,
+  stamp: "20261016T025536-workerfault",
+  task: KernelMutantSets,
+  scope: {
+    kind: targeted,
+    ran: 7,
+    of: 22,
+    names: [
+      address_unchecked,
+      await_ignores_shutdown,
+      boundary_no_park,
+      claim_unchecked,
+      idle_ignores_shutdown,
+      join_ignores_shutdown,
+      worker_line_as_program
+    ],
+    combined: {
+      runs: [
+        "20261016T025154-workers",
+        "20261016T025536-workerfault"
+      ],
+      kind: whole,
+      ran: 22,
+      of: 22
+    }
+  },
+  builds: [
+    [part, build,                                      checkout, record];
+    [run,  "c1f4d4155e10acbd215dcbf87b121d11657a532c", jab,      "baseline.nuon"]
+  ],
+  kept: {
+    as: current,
+    why: "the latest whole run of the set, the move''s consumer run from assets/kernel/mutants/; its share by program, whole with 20261016T025154-workers"
+  }
+}

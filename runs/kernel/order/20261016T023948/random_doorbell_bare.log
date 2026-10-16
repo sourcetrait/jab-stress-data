@@ -1,0 +1,23 @@
+--- test/purity
+Error: nu::shell::error
+
+  x OrderCheck: every doorbell and enabling write after its fence:
+  | random.S:34: `sh t1, (VQ_AVAIL + VIRTQ_AVAIL_IDX)(t0)` between it and any
+  | fence
+  | These are not equal.
+     ,-[/home/box/proj/sourcetrait/jab/test/purity/test/test.nu:169:18]
+ 168 |     } | flatten | where {|m| $m != "" })
+ 169 |     assert equal $faults [] $"OrderCheck: every doorbell and enabling write after its fence: ($faults | str join '; ')"
+     :                  ^^^|^^^ ^|
+     :                     |     `-- right: []
+     :                     `-- left: ["random.S:34: `sh t1, (VQ_AVAIL + VIRTQ_AVAIL_IDX)(t0)` between it and any fence"]
+ 170 |     ^nu $tool build --kernel $kernel_dir
+     `----
+
+╭───┬─────────────┬────────╮
+│ # │   program   │ passed │
+├───┼─────────────┼────────┤
+│ 0 │ test/purity │ false  │
+╰───┴─────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

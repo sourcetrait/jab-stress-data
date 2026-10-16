@@ -1,0 +1,62 @@
+{
+ call: "cVa70zpwWq6",
+ mark: JAB_RUNNER_MARK,
+ stage: ".jabstage.",
+ root: /home/box/proj/sourcetrait/jab,
+ commit: "c1f4d4155e10acbd215dcbf87b121d11657a532c",
+ set: "/home/box/proj/sourcetrait/jab-stress-data/assets/kernel/mutants/stuck_mutants.nuon",
+ "set_sha256": "85976b141e18e44343f26f2f87ce1b706b7faaf95fae2ecb60fb99c66d0ee307",
+ only: [
+  no_reset,
+  completion_overrides_failure,
+  count_published_after_loop,
+  raw_before_check,
+  abandoned_status_from_memory,
+  probe_guard_removed,
+  both_guards_removed,
+  port_pad_propagation_removed,
+  api_success_always,
+  old_await_branch
+ ],
+ control: {
+  program: test/stuck,
+  ok: "stuck: ok"
+ },
+ deadline: 540,
+ margin: 15,
+ kill_after: 5,
+ hold: {
+  at: "",
+  seconds: 0
+ },
+ started: "2026-10-16T02:42:53.063+0000",
+ paths: [
+  [file,                  committed,                                                          mutated];
+  ["kernel/src/virtio.S", "45eafebde97d61bebca62b2822266c8bd0a7f63f8b4cff954901e1d28a3acece", [
+    [mutant,                       hash];
+    [no_reset,                     "0e2523f97c187a86ce7f1f4be9b7c2348ea24f729dee1c091adcc8a04257aaa3"],
+    [completion_overrides_failure, "bcf4a7799389299d1346cf6eda9aeb77999dee0a3abc23f3ed089d636d721dc6"]
+   ]],
+  ["kernel/src/block.S",  "9212ec75439fd8ca50bf136ef67159400890d724e7b4709bbca8e5d73e2eadb8", [
+    [mutant,                       hash];
+    [count_published_after_loop,   "fe685b3ed3d761191f833501e76755dadd1890efc6fef818be80db7d87ff86cb"],
+    [raw_before_check,             "bd190231329b1cd5fd04b82663c5c34d24d147bc22b6ba1df84a01c182883e4c"],
+    [abandoned_status_from_memory, "6566a8bb97f06efd4f97a98f1d14f3188236759c549abc6b6dbe4bc7981c8b3b"],
+    [probe_guard_removed,          "58046842de182e49c93384de3943a34e96d945518d8ce56e0fe33ac040cf62df"],
+    [both_guards_removed,          "58046842de182e49c93384de3943a34e96d945518d8ce56e0fe33ac040cf62df"]
+   ]],
+  ["kernel/src/aia.S",    "7b08062d9759224d26480bf528bdc7b5dc28bf3a09796d419e2c6eb4079a74a5", [
+    [mutant,              hash];
+    [both_guards_removed, "9d2f8667eeb07dec86f00b22749620766272093c4248ad267d684911a042877b"]
+   ]],
+  ["kernel/src/serial.S", "8402e23f1bf19c0bd5e29fa2f33f1e37b70dd463f5ab04542fbffebf4d822022", [
+    [mutant,                       hash];
+    [port_pad_propagation_removed, "9adc4862107af61e90f3ee562c93f8feb4d32b24ad0ad2a7aa9534d3cf6b507d"],
+    [api_success_always,           "0ca18dd13e0bb0a5493a9ac408e7b560e821a6c0314f66e8dac5c90aa4b99504"]
+   ]],
+  ["kernel/src/timer.S",  "1eba041afd9ad00d548175f9493faaffbadbd62460ecd11d1041424458969faa", [
+    [mutant,           hash];
+    [old_await_branch, "896a6c0f520410bb13f2a83ac06a1e90e3b338c5b6d5274638232bf7c37b9bb8"]
+   ]]
+ ]
+}

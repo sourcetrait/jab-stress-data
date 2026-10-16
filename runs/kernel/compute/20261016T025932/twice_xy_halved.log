@@ -1,0 +1,20 @@
+--- example/workers
+Error: nu::shell::error
+
+  x Proof: row 100 as computed here: pixel 79 is 3767761 where the fixed point
+  | gives 590127
+     ,-[/home/box/proj/sourcetrait/jab/example/workers/test/test.nu:120:16]
+ 119 |         let message = (if $off == null { "" } else { $"Proof: row ($s.item) as computed here: pixel ($off.index) is ($off.item.1) where the fixed point gives ($off.item.0)" })
+ 120 |         assert ($off == null) $message
+     :                ^^^^^^^|^^^^^^
+     :                       `-- It is not true.
+ 121 |     }
+     `----
+
+╭───┬─────────────────┬────────╮
+│ # │     program     │ passed │
+├───┼─────────────────┼────────┤
+│ 0 │ example/workers │ false  │
+╰───┴─────────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

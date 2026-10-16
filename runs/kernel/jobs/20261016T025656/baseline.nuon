@@ -1,0 +1,48 @@
+{
+ call: "aBY0jltwXPw",
+ mark: JAB_RUNNER_MARK,
+ stage: ".jabstage.",
+ root: /home/box/proj/sourcetrait/jab,
+ commit: "c1f4d4155e10acbd215dcbf87b121d11657a532c",
+ set: "/home/box/proj/sourcetrait/jab-stress-data/assets/kernel/mutants/jobs_mutants.nuon",
+ "set_sha256": "9c11e86390cdb3a761995d631cb8d37ba6fada1166706c5547961116b7673283",
+ only: [
+  free_ignores_done,
+  wrap_by_order,
+  cancel_ignored,
+  count_unkept,
+  wake_finds_none_asleep,
+  idle_wait_spins,
+  publish_keeps_cancel,
+  publish_drops_precancel
+ ],
+ control: {
+  program: test/jobs,
+  ok: "jobs: ok"
+ },
+ deadline: 540,
+ margin: 15,
+ kill_after: 5,
+ hold: {
+  at: "",
+  seconds: 0
+ },
+ started: "2026-10-16T02:56:56.748+0000",
+ paths: [
+  [file,                   committed,                                                          mutated];
+  ["sdk/src/jab_jobs.inc", "4e440111434ccafa9f0a539744825be50ca72add3f482c41d01709f968b692ca", [
+    [mutant,                  hash];
+    [free_ignores_done,       "9793109f0721226e876f69a4a45a3d065566b1b261c43b7350c32d9cf6ebaf50"],
+    [wrap_by_order,           "36ac6bd9ffcbfd53683d453886838330aa733b6f81a4f749046e8e3fd46f9da2"],
+    [cancel_ignored,          "3473b84a19c76b1440ae19d6017bc85b8b07f87261f923afd72ffc5b59a3f7fc"],
+    [count_unkept,            "d95f26a1cad6bcfe5274372ac95979cf693963c3fe0fbc99bbba064b98c02807"],
+    [publish_keeps_cancel,    "ef41123c5a0b6abbd830a8b3be4cd58f29ae5982658525a91674073eba536f40"],
+    [publish_drops_precancel, "6dad28555f6c188c33145b00c437c3722113c6f8c31fda567a3a2e68de386448"]
+   ]],
+  ["kernel/src/workers.S", "ab712c48fbc1870e906f76354ecfd2c2462eb974253425858449eccf79f1f77d", [
+    [mutant,                 hash];
+    [wake_finds_none_asleep, "8b5b056ce59ecaa1cb1f9cbeb5693c0c319cc8e743f2e0f2b8f6e0aa78a2aae4"],
+    [idle_wait_spins,        "5e422333c2402d0bc741ef98442156ea8741174cf04b1633d0311388d6108084"]
+   ]]
+ ]
+}

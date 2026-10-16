@@ -1,0 +1,18 @@
+--- test/jobs
+jobs: 2 harts: idle 1 workers held; before 1000 rounds, 0 wrong, 1000 completions; 3 harts: idle 2 workers held; before 1000 rounds, 0 wrong, 2000 completions; 4 harts: idle 3 workers held; before 1000 rounds, 0 wrong, 3000 completions
+jobs: costs on 3 harts, 2 workers at most, microseconds elapsed by rdtime
+  workers 1, 10 us jobs: dispatch median 30.5, p90 34.9, max 357.5; barrier median 28.3, p90 33.6, max 224.1; round overhead lower bound median 58.5, p90 70.3, max 581.6
+  workers 1, 100 us jobs: dispatch median 34.7, p90 36.9, max 128.6; barrier median 31.7, p90 33.6, max 63.2; round overhead lower bound median 67.0, p90 70.2, max 191.8
+  workers 1, 1000 us jobs: dispatch median 6.9, p90 24.9, max 111.9; barrier median 6.8, p90 21.0, max 37.9; round overhead lower bound median 13.6, p90 43.7, max 149.8
+  workers 1, 10000 us jobs: dispatch median 12.0, p90 62.6, max 140.9; barrier median 53.0, p90 62.0, max 103.4; round overhead lower bound median 65.2, p90 117.7, max 153.8
+  workers 2, 10 us jobs: dispatch median 12.1, p90 14.1, max 115.2; barrier median 9.5, p90 12.3, max 23.3; round overhead lower bound median 22.3, p90 78.2, max 128.5
+  workers 2, 100 us jobs: dispatch median 12.0, p90 12.8, max 14.5; barrier median 9.3, p90 11.9, max 13.4; round overhead lower bound median 21.8, p90 24.2, max 25.9
+  workers 2, 1000 us jobs: dispatch median 12.5, p90 17.1, max 102.7; barrier median 11.8, p90 52.3, max 84.8; round overhead lower bound median 24.6, p90 74.2, max 115.9
+  workers 2, 10000 us jobs: dispatch median 17.0, p90 88.6, max 124.4; barrier median 15.4, p90 63.1, max 114.8; round overhead lower bound median 76.9, p90 150.7, max 175.1
+jobs: ok
+╭───┬───────────┬────────╮
+│ # │  program  │ passed │
+├───┼───────────┼────────┤
+│ 0 │ test/jobs │ true   │
+╰───┴───────────┴────────╯
+

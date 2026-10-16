@@ -1,0 +1,9 @@
+--- example/workers
+workers: proof hash 6d69e654f6f12ef6; bench 114 frames in 4006 ms with three, the workers' harts at 2.97 cores over the held 1.02 s, bands at once 2.99; animation 2 workers at nine seconds, hart 1 at 0.99 of a core
+workers: ok
+╭───┬─────────────────┬────────╮
+│ # │     program     │ passed │
+├───┼─────────────────┼────────┤
+│ 0 │ example/workers │ true   │
+╰───┴─────────────────┴────────╯
+

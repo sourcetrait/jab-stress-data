@@ -1,0 +1,898 @@
+{
+ migration: KernelMutantSets,
+ stamp: "20261016T023926",
+ complete: false,
+ sources: [
+  [repository, commit,                                     paths];
+  [fae_emptwo, "08766532bc7a3d7a59943f2cabfdf253b1aad371", [
+    iter/jab/subiter/kernel/operational
+   ]]
+ ],
+ phases: [
+  {
+   phase: AssetData,
+   done: true,
+   commits: {
+    jab-stress-data: [
+     "24229ab",
+     "bd78e55"
+    ]
+   }
+  },
+  {
+   phase: ConsumerRuns,
+   done: true,
+   landed: [
+    "runs/kernel/order/20261016T023948",
+    "runs/kernel/spectable/20261016T023954",
+    "runs/kernel/measure/20261016T024010",
+    "runs/kernel/stuck/20261016T024253-stuck",
+    "runs/kernel/stuck/20261016T024101-harts",
+    "runs/kernel/worker/20261016T025154-workers",
+    "runs/kernel/worker/20261016T025536-workerfault",
+    "runs/kernel/jobs/20261016T025656",
+    "runs/kernel/compute/20261016T025932",
+    "runs/kernel/reservation/20261016T030252",
+    "runs/kernel/feature/20261016T030403"
+   ],
+   pruned: [
+
+   ],
+   demoted: [
+    [run,                                              as];
+    ["runs/kernel/measure/20261013T213300",            last],
+    ["runs/kernel/reservation/20261013T212000",        last],
+    ["runs/kernel/reservation/20261012T163805",        checkpoint],
+    ["runs/kernel/stuck/20261013T213000",              checkpoint],
+    ["runs/kernel/worker/20261013T165603-workers",     last],
+    ["runs/kernel/worker/20261013T165850-workerfault", last],
+    ["runs/kernel/feature/20261013T140541",            last]
+   ]
+  },
+  {
+   phase: SourceRemoval,
+   done: false
+  }
+ ],
+ checks: [
+  {
+   phase: AssetData,
+   check: "every asset copy's SHA-256 against its source",
+   files: 9,
+   ok: true
+  },
+  {
+   phase: AssetData,
+   check: "every find exact-once in its file at jab c1f4d41",
+   found: "spectable's no_spec_inputs matched nothing since jab 9001178 added the generated constants to the build's inputs; its find refitted at bd78e55 and caught",
+   ok: true
+  },
+  {
+   phase: ConsumerRuns,
+   check: "the checkout runner over each set from assets/kernel/mutants/, a set in parts by program where its mutants name two",
+   runs: [
+    [set,         run,                                              control_ok, every, caught, ran, receipt_ok];
+    [order,       "runs/kernel/order/20261016T023948",              true,       true,  1,      1,   true],
+    [spectable,   "runs/kernel/spectable/20261016T023954",          true,       true,  8,      8,   true],
+    [measure,     "runs/kernel/measure/20261016T024010",            true,       true,  1,      1,   true],
+    [stuck,       "runs/kernel/stuck/20261016T024253-stuck",        true,       false, 8,      10,  false],
+    [stuck,       "runs/kernel/stuck/20261016T024101-harts",        true,       true,  1,      1,   true],
+    [worker,      "runs/kernel/worker/20261016T025154-workers",     true,       true,  15,     15,  true],
+    [worker,      "runs/kernel/worker/20261016T025536-workerfault", true,       true,  7,      7,   true],
+    [jobs,        "runs/kernel/jobs/20261016T025656",               true,       true,  8,      8,   true],
+    [compute,     "runs/kernel/compute/20261016T025932",            true,       true,  19,     19,  true],
+    [reservation, "runs/kernel/reservation/20261016T030252",        true,       true,  28,     28,  true],
+    [feature,     "runs/kernel/feature/20261016T030403",            true,       true,  9,      10,  true]
+   ],
+   ok: false
+  },
+  {
+   phase: ConsumerRuns,
+   check: "the stuck set uncredited",
+   found: "probe_guard_removed and both_guards_removed fail at test/stuck's disk assertion, test/stuck/test/test.nu:86, their expect in its title, yet are classed missed: the assertion's list argument spans lines, and the provenance rule reads no assert past the span marker; SpannedAssertCredit plans the fix",
+   ok: false
+  },
+  {
+   phase: ConsumerRuns,
+   check: "test/feature after the call, closing_control.log beside the set's, its image the control's",
+   ok: true
+  },
+  {
+   phase: ConsumerRuns,
+   check: "every landed file's SHA-256 against its source",
+   files: 153,
+   ok: true
+  }
+ ],
+ source_files: [
+  [repository, path,                                                           "sha256",                                                           bytes, fate];
+  [fae_emptwo, "iter/jab/subiter/kernel/operational/compute_mutants.nuon",     "230d999f1d265c24dbc4f7d11c47cdd46f9db8b954b09a82f1b29935a1cac6e2", 8134,  {
+    kind: copied,
+    to: "assets/kernel/mutants/compute_mutants.nuon"
+   }],
+  [fae_emptwo, "iter/jab/subiter/kernel/operational/feature_mutants.nuon",     "259b2716ebff8c223842d9997617fa73c9bd2f487ba3a0691f87371b5277f0da", 5235,  {
+    kind: copied,
+    to: "assets/kernel/mutants/feature_mutants.nuon"
+   }],
+  [fae_emptwo, "iter/jab/subiter/kernel/operational/jobs_mutants.nuon",        "9c11e86390cdb3a761995d631cb8d37ba6fada1166706c5547961116b7673283", 2496,  {
+    kind: copied,
+    to: "assets/kernel/mutants/jobs_mutants.nuon"
+   }],
+  [fae_emptwo, "iter/jab/subiter/kernel/operational/measure_mutants.nuon",     "e3f0cd26d19b6a401b9ea92fb29245a5ef3b6bb25970f2e85a50086a01a546f7", 399,   {
+    kind: copied,
+    to: "assets/kernel/mutants/measure_mutants.nuon"
+   }],
+  [fae_emptwo, "iter/jab/subiter/kernel/operational/order_mutants.nuon",       "f687c9939bf88a8b26e1f91b26ab6e76bad2e8c5953a49d3336e014d07b44bcc", 374,   {
+    kind: copied,
+    to: "assets/kernel/mutants/order_mutants.nuon"
+   }],
+  [fae_emptwo, "iter/jab/subiter/kernel/operational/reservation_mutants.nuon", "e7ee332ca05f4cfb86d7913b677aaa6d8d5972629ecd5e29087eee827c1570b6", 7837,  {
+    kind: copied,
+    to: "assets/kernel/mutants/reservation_mutants.nuon"
+   }],
+  [fae_emptwo, "iter/jab/subiter/kernel/operational/spectable_mutants.nuon",   "179bef6788e63ecd114b7f1cd6fb70c8ff34b08d97ac65b0d213c7bcb2d6b968", 2255,  {
+    kind: copied,
+    to: "assets/kernel/mutants/spectable_mutants.nuon"
+   }],
+  [fae_emptwo, "iter/jab/subiter/kernel/operational/stuck_mutants.nuon",       "85976b141e18e44343f26f2f87ce1b706b7faaf95fae2ecb60fb99c66d0ee307", 5723,  {
+    kind: copied,
+    to: "assets/kernel/mutants/stuck_mutants.nuon"
+   }],
+  [fae_emptwo, "iter/jab/subiter/kernel/operational/worker_mutants.nuon",      "9ffdd050c0588e38d7cdb0fe8348375da399c4a1c711728603e7ac6f9348dda5", 9489,  {
+    kind: copied,
+    to: "assets/kernel/mutants/worker_mutants.nuon"
+   }]
+ ],
+ destination_files: [
+  [repository,      path,                                                                        "sha256",                                                           bytes, origin];
+  [jab-stress-data, "assets/kernel/mutants/compute_mutants.nuon",                                "230d999f1d265c24dbc4f7d11c47cdd46f9db8b954b09a82f1b29935a1cac6e2", 8134,  {
+    kind: asset,
+    phase: AssetData,
+    copied: "24229ab"
+   }],
+  [jab-stress-data, "assets/kernel/mutants/feature_mutants.nuon",                                "3fea4e043fc23d1e91b3acbc5bd70840a14401fcf89feae751fd4ac8300338c1", 5236,  {
+    kind: asset,
+    phase: AssetData,
+    copied: "24229ab"
+   }],
+  [jab-stress-data, "assets/kernel/mutants/jobs_mutants.nuon",                                   "9c11e86390cdb3a761995d631cb8d37ba6fada1166706c5547961116b7673283", 2496,  {
+    kind: asset,
+    phase: AssetData,
+    copied: "24229ab"
+   }],
+  [jab-stress-data, "assets/kernel/mutants/measure_mutants.nuon",                                "06ca78505a99c1c19e09cbce3a41286aae9837aae97301fc78ad02b7be7c8551", 400,   {
+    kind: asset,
+    phase: AssetData,
+    copied: "24229ab"
+   }],
+  [jab-stress-data, "assets/kernel/mutants/order_mutants.nuon",                                  "e2b9b7258c8175ab7665bcd10627fb590105ed9070eb3a166f4a6bd5c7e41a05", 375,   {
+    kind: asset,
+    phase: AssetData,
+    copied: "24229ab"
+   }],
+  [jab-stress-data, "assets/kernel/mutants/reservation_mutants.nuon",                            "0b2df6aa0b52a6d418bd3cee87ed29b95fa985d9966a5ca9dae36f1658e6c9ed", 7838,  {
+    kind: asset,
+    phase: AssetData,
+    copied: "24229ab"
+   }],
+  [jab-stress-data, "assets/kernel/mutants/spectable_mutants.nuon",                              "f1deac205b06236750bbe70e54ba9ec688cb56f817411bbca38fa135739fffe1", 2284,  {
+    kind: asset,
+    phase: AssetData,
+    copied: "24229ab",
+    changed: "bd78e55"
+   }],
+  [jab-stress-data, "assets/kernel/mutants/stuck_mutants.nuon",                                  "85976b141e18e44343f26f2f87ce1b706b7faaf95fae2ecb60fb99c66d0ee307", 5723,  {
+    kind: asset,
+    phase: AssetData,
+    copied: "24229ab"
+   }],
+  [jab-stress-data, "assets/kernel/mutants/worker_mutants.nuon",                                 "9ffdd050c0588e38d7cdb0fe8348375da399c4a1c711728603e7ac6f9348dda5", 9489,  {
+    kind: asset,
+    phase: AssetData,
+    copied: "24229ab"
+   }],
+  [jab-stress-data, "doc/notes/layout.md",                                                       "2ee5560e63b2a7b908a515e72cea5df785c4068db6fa4b7b590f9dec4692c2f3", 5898,  {
+    kind: note,
+    phase: AssetData
+   }],
+  [jab-stress-data, "runs/kernel/order/20261016T023948/run.nuon",                                "bf15b0f7bbbd6cbaed93a802ea159e2e9cbd990d596f6b37a1e41ecf0baaaf1d", 427,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/spectable/20261016T023954/run.nuon",                            "1ca850a86e8a9fed78a7bc9c98090cd5f20d9c6bf2eeb95131f88739bd04374f", 431,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/measure/20261016T024010/run.nuon",                              "8b879d25d66d6341cb372cdb3a82479bf2200198218d14e2ae645cd6d3f6d7fe", 429,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/stuck/20261016T024253-stuck/run.nuon",                          "9cc0a93323aec356216eb3889b8306874010222f2bed23a23fd391141b730241", 1057,  {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/stuck/20261016T024101-harts/run.nuon",                          "4c4713878d79b608263bd87c6752fda9a2031c7b67cd5c510591ed6b7e0a01a7", 698,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025154-workers/run.nuon",                       "b1579a4c2fa2726ed4243d66c50d3d3b60c6fe2f885fa9401b9d9d8400295584", 1098,  {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025536-workerfault/run.nuon",                   "22d8550f55d04fba6c4ca2120df98fb2f97b4c01a19000ef2f8afa133b5cd476", 877,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/jobs/20261016T025656/run.nuon",                                 "8ae8cbcd6e705e93f8827c1533b05c1967c32bcfa047fd254636bf496d53bd32", 426,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/compute/20261016T025932/run.nuon",                              "236558f475ddb690003ee5d32b322ceeccaf1d47067049ef741d95deedc72e85", 431,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/run.nuon",                          "bb6a4fc1ef5cf7aa0c09ef51e03ea5697f3e0e791b73ee0a9c1f8fcf6c8ba0a5", 435,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/feature/20261016T030403/run.nuon",                              "141ec5d185ae06b1e8749af5d811ce5ccf706b8626326ec63f29a24426f7b0dd", 431,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/measure/20261013T213300/run.nuon",                              "f2811877c6d2a8a2f4d2b808d0b06dd6d8ffe0db34b53adbc95e4afa7715d7c8", 427,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261013T212000/run.nuon",                          "fa9c31119ad7bb85d12471ed85cd4e7e527a9898d0b49e783886d3edbf6d2169", 433,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261012T163805/run.nuon",                          "d0d8b7cdbeb7ef223a0a546bad7d4867f5b6ceb13482ede142766cb47e595b2a", 402,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/stuck/20261013T213000/run.nuon",                                "b53d862e45109dff6ead29e76c7c01089c5f51f1b14492df0650acf7b09dee69", 444,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261013T165603-workers/run.nuon",                       "b8c09bbbff616edb4ef035ddda10bcc60e99804894077f6166fcacd6324483a1", 1107,  {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261013T165850-workerfault/run.nuon",                   "0e785bcf4d212eec1ac7a809ca015bb5828fb7809ec963c98be3d82436926229", 891,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/feature/20261013T140541/run.nuon",                              "5fae4a730daef5b9e8688175475f1fe9e10961e9b83b8b8523d5ffc3da909f95", 381,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/order/20261016T023948/baseline.nuon",                           "a910d66771daa1a2ab6f013dee106d8fe622f4eeb6e33bfce34e282ec365a6dd", 903,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/order/20261016T023948/control.log",                             "3ed4217085bc789f62f43864dcfb6ea7bec7fa5a585c851a7c6346d62684347d", 521,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/order/20261016T023948/random_doorbell_bare.log",                "0ebf2aeaaac876089b75cb0fdc95f440497baf3e2d5de4806b0535984ddd4717", 1106,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/order/20261016T023948/receipt.nuon",                            "60b0c34cdc304ed5b009b91d24f8e23dfb61f553f4c1edf3c847dd1ee296af65", 196,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/order/20261016T023948/results.nuon",                            "af9fd77b20330d1ee62c59adc7abf50dcd2035dace4d51d9e7a53e86d9d52e63", 1292,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/spectable/20261016T023954/baseline.nuon",                       "97c49ea5857f8b3343cd4ed5f4c687bb130873ca948ba600060239319bbae7cd", 1655,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/spectable/20261016T023954/case_sensitive.log",                  "cdd606707068e2180d852a900dbbeaf5b2b08dbea1cb4438bb46242cfbcd2721", 921,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/spectable/20261016T023954/control.log",                         "768e900a43f8e98c25b5fec7d16d66b0b600041a5cde24c63724ae84301de458", 660,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/spectable/20261016T023954/data_only_input.log",                 "6313d841f25cbf5632998ad5f67bc24ccca64364d5c4f30e485666086c16a0e2", 1380,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/spectable/20261016T023954/empty_allowed.log",                   "8f87e51706343348eba5c47bdb527c824bb09fa4694fe4409a2185327af2fa26", 915,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/spectable/20261016T023954/name_unchecked.log",                  "3a6cb215ad67cd336a44170bed11550650d0472f378236346ed5c792554a8b6d", 918,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/spectable/20261016T023954/nested_unchecked.log",                "92fe70716539737b2bb5c3c93b3f1c35358659f15e6e14b011b293b652f963e8", 925,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/spectable/20261016T023954/no_spec_inputs.log",                  "394864febdb7b7e44c9ecf361cc00adcfdd2a095f00c36a9db518f6a9be19ad4", 1380,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/spectable/20261016T023954/no_unknown.log",                      "83264dcd38c2070293dfc63b5aaed146887d489ef5f404f5167e43b6a5991883", 918,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/spectable/20261016T023954/no_zero_vram.log",                    "60e151e45860aa4cd2a5129209dfc865773e1bc6d6183f3d6a0bd843776b67b1", 920,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/spectable/20261016T023954/receipt.nuon",                        "c205d8835df605228697844517d9fda1c1985492e540959a84ec1c3ac99b904c", 199,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/spectable/20261016T023954/results.nuon",                        "70382df66817d85f1792eb3a05393ad546d4c464c09813c0cd11efabfc99a321", 3770,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/measure/20261016T024010/baseline.nuon",                         "72168993c6cdad0fe68ce4c690f17424dd31f83061253e85c831aa47cdace6e7", 875,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/measure/20261016T024010/control.log",                           "403c695a5dde63ffd1567a06c587a63e52971907f250b25d5177587a1d110aa8", 1198,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/measure/20261016T024010/rate_undivided.log",                    "ebb44f6ce7daa0eef8878a5441a1b843903ba83642787ad97fd5471013f33c87", 1088,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/measure/20261016T024010/receipt.nuon",                          "8afc1d07ce0d8e5473a240ea7e5e2404b1671edf3e12751ac1ccbdca687da17d", 199,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/measure/20261016T024010/results.nuon",                          "541e6195b6981693b1359d3e62edadf4b43f51ac9e1f2cd5c192ab49c3f5d1ef", 1215,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/stuck/20261016T024253-stuck/abandoned_status_from_memory.log",  "288725b508531c208c874eed0ebd53ce13f9158404a5e9c4c6a699542b200574", 1593,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/stuck/20261016T024253-stuck/api_success_always.log",            "dc11d6a03cf546d5addfc3b919813d8b80ae29660a5c580c31e8cf69ed2612ab", 1559,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/stuck/20261016T024253-stuck/baseline.nuon",                     "c412450d60fdde6a56b8b11333dec8732fdffedad5abb61cefe199c43a7e785c", 2715,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/stuck/20261016T024253-stuck/both_guards_removed.log",           "0d6b4e0934624ca54f5eec5a443ace136b4aeb0c13d1eb37a582c5c9e4282c4b", 2723,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/stuck/20261016T024253-stuck/completion_overrides_failure.log",  "288725b508531c208c874eed0ebd53ce13f9158404a5e9c4c6a699542b200574", 1593,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/stuck/20261016T024253-stuck/control.log",                       "4c5e4c746e8db5b346d245947e0b764b8f48d06e34f6e88744372a59d3cf258d", 430,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/stuck/20261016T024253-stuck/count_published_after_loop.log",    "d9e100b9660e2de2091d5edfaacf77658881ab5f4c1b0d587e78a356259a839a", 1593,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/stuck/20261016T024253-stuck/no_reset.log",                      "944ce6e081cc9d8797d6d5de42fcad7c28dba49f26c30cc8ec1d35e399c88bba", 1774,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/stuck/20261016T024253-stuck/old_await_branch.log",              "27805f9dd02dcd45dc694b62aa97bb5b788d87d4df507bb32cf3841283dde96c", 1036,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/stuck/20261016T024253-stuck/port_pad_propagation_removed.log",  "dce543148aefa1495bce0212e37a4acbaef9b08f56c1c008cfe9ca93f510b851", 1005,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/stuck/20261016T024253-stuck/probe_guard_removed.log",           "9a0fe43a0bb383a7f524d48476acb607064659cb331bea2b0d164bfb3b5251df", 2723,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/stuck/20261016T024253-stuck/raw_before_check.log",              "288725b508531c208c874eed0ebd53ce13f9158404a5e9c4c6a699542b200574", 1593,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/stuck/20261016T024253-stuck/receipt.nuon",                      "de0d436ec884b792b326bcb87e1ebdc323acaa3b312265e87e54d2dbe25cd82a", 201,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/stuck/20261016T024253-stuck/results.nuon",                      "b30be6d96bd271fa6b0636f8e263d4d5d822fc62dfb3df5f749bfff9d4893ec2", 6921,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/stuck/20261016T024101-harts/baseline.nuon",                     "7bf729c5ea19438535bb22d86ed01d2f35b3ed705edb5c0461b4bedc8a9a3644", 897,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/stuck/20261016T024101-harts/control.log",                       "403c695a5dde63ffd1567a06c587a63e52971907f250b25d5177587a1d110aa8", 1198,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/stuck/20261016T024101-harts/receipt.nuon",                      "a7517a8ae4c32a23ea96af54782f390faffd3dd0ae95125c04f35ed9ed71a92a", 198,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/stuck/20261016T024101-harts/results.nuon",                      "b4d4c1e0dd1d16162ae30f5bcde5f48610ed12348447097ea044959b9a354649", 964,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/stuck/20261016T024101-harts/source_bound_removed.log",          "d7e7ca84a05b6fd720ef574deb1be77a6d1ee7710ab371ce2f3922367012a191", 1076,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025154-workers/ack_unbounded.log",              "941ca940700dafb9ce5764975a2fb03e50430b0ad5c608ca01112aa42e05c0b1", 1796,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025154-workers/baseline.nuon",                  "f3d25f1fe2830d6a955e7702931f699f08735accae02e421b9847906f820904b", 2957,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025154-workers/control.log",                    "cd174670b89f6ee63b9668bcf3b74adc28e8ab877d072390f45ea0eae3946c63", 1117,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025154-workers/handshake_never_witnessed.log",  "4881839ee9c2285d477993b3ed030e1502ba62a9657c40e25085169b533811b4", 916,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025154-workers/hart0_exit_admitted.log",        "8a4769c8f89d1904bf1b558867dec7abb2fe425f6dfd36cf251194c4e6038bac", 1245,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025154-workers/join_without_service.log",       "ea57ee332a3657ff0e6e1d5b4b93584de528f30206020e9d645a4a556466d9dd", 951,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025154-workers/leave_publishes_first.log",      "287d2c60ab1395c9a0fcb39ea5c534d900e3adafbed9ba44189f59b59ee71445", 1617,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025154-workers/old_exit_and_stop.log",          "997daeeb9d8fff7d929ef7603394d40a6825278fa2537042da45d0b96476f653", 1617,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025154-workers/receipt.nuon",                   "63439a8431ff760ab28a8b2f0f43b6316fa8065b1afae978944773c817fd6965", 200,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025154-workers/results.nuon",                   "73078a987e604b34185df9d672d0ae325666b294c1b45378e62e2e9d61a43c28", 7981,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025154-workers/start_keeps_fp.log",             "ad7e4b376bcd79d6494959a86c69aa00364d1f584afb49a83cc1564f0f62e73d", 1583,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025154-workers/start_main_stack_unchecked.log", "9fa35be68855803ed5fb43a875a3b82e3a56872e8638345a247fe172479baba3", 1307,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025154-workers/start_overlap_unchecked.log",    "1ebefc4b082f04ef63f14430af1ceaad71d5763f7758b6fdc0e38f90a9d71bc2", 1307,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025154-workers/stop_by_live_mask.log",          "122cf8fb255365fdf93e4e87e7f9ef2191c2561727d533135713a35dfbcc1b81", 1567,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025154-workers/stop_never_forced.log",          "29a5e08a85c2a2493ff0607f0b260d178d11fa57291380120eece22b944ac3f2", 1253,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025154-workers/vector_clobbers_fp.log",         "7cbcd433138a0c4be50bd1eb7f90c5b918be750149c9e22291956810a48b4692", 1593,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025154-workers/wait_returns_on_wake.log",       "925a8b92ad66b37f8dcc045f16f9112a696cd5ea4654833f066f709b7c77db91", 1578,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025154-workers/wait_stop_ignored.log",          "c227d7c1809f3f09640e2f00d310bd5b1b896210e46153ee454c73cd4057edf7", 1222,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025154-workers/worker_calls_admitted.log",      "83fa595711c35ecd6d8ea1edd13f29cb630fdf441b98ac377952532bf42e3fa7", 1321,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025536-workerfault/address_unchecked.log",      "083c444688acb3ec11bab79606d9b855cd0bc70abfddbe4f1faf7c9886557e9a", 1175,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025536-workerfault/await_ignores_shutdown.log", "bc29da613d4c5f307d9f5897911b3b064ee3fb50e154bf0ed0f7e22c0a257fa0", 1251,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025536-workerfault/baseline.nuon",              "8317cde23a8dfa45461749e955dc98b13fcb2f709ccaae0fbdf4a8fa66eafec8", 1921,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025536-workerfault/boundary_no_park.log",       "bc29da613d4c5f307d9f5897911b3b064ee3fb50e154bf0ed0f7e22c0a257fa0", 1251,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025536-workerfault/claim_unchecked.log",        "f929e22d9d9349b07dbc2c415da29ebb7d7fd80e60bad32393faad21d1681bc5", 1381,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025536-workerfault/control.log",                "fd1362ff4b3b44fc18ee8fe3e977502cdba1da37fd6f01b338ba7053090335db", 551,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025536-workerfault/idle_ignores_shutdown.log",  "db5b2b15ca2d3e03d015733316159c2dbf58b71fcffd2036f6e580c2e3acc890", 1251,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025536-workerfault/join_ignores_shutdown.log",  "607019d5d51cd45a011fdd2542cfc58ca549f8bed09ee8a6824d77017234af6f", 1279,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025536-workerfault/receipt.nuon",               "0f256ab2117e786534959b4f10452e5695b4c4e4701d09d0945585ba59e22ea9", 199,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025536-workerfault/results.nuon",               "b703d4d3552e5e64b1fc4b13642617d76b06c361ecad1242bedf6255e1d84e93", 4352,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/worker/20261016T025536-workerfault/worker_line_as_program.log", "3abadbc2092592b0237c701bba87ff1cddf56bf19ab9e639d663bb8662804c43", 1121,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/jobs/20261016T025656/baseline.nuon",                            "883e1db5548b19451c4a8fb3b6da2aead6d76ac80850596adf5abcf3926e2feb", 1882,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/jobs/20261016T025656/cancel_ignored.log",                       "1bfb7bd40927e6e8fdba96e1fa1c0a419a458425fd9a5a2af512b556ab754bf9", 1483,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/jobs/20261016T025656/control.log",                              "beedbd123f0e8e1cb56b3c3152e2adac8c78746a7d8e212dbf29cd5aced7413c", 2004,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/jobs/20261016T025656/count_unkept.log",                         "527e6c2cf8d2fa050beb133d7bb718853eeb61dc09de6a25619ae4709de5dc37", 1464,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/jobs/20261016T025656/free_ignores_done.log",                    "5cf8b352d6e24ac9c6841717a69fb3c796d8178ff512fbdd58f7e7300454d1a2", 1444,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/jobs/20261016T025656/idle_wait_spins.log",                      "f3a5307628bb82635aa61f11f32c7b430e4500268de40ba9c202d73f7d4b293e", 1041,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/jobs/20261016T025656/publish_drops_precancel.log",              "dec866e4881b7b10433e4638f6bf0368e4265472680da32041da2abc4239b379", 1483,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/jobs/20261016T025656/publish_keeps_cancel.log",                 "242f6a11615acf2d7e29bc432d3fc54eda0e7c71b8ba6a7cf2787f039cc3a1c7", 1509,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/jobs/20261016T025656/receipt.nuon",                             "864cb4d1c10859ec9064ae02b576678ca484684c0fcd29317e8aaa9408c5eeb7", 200,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/jobs/20261016T025656/results.nuon",                             "fc89361588aca46f8e220e6bd5d061be47a957c12c18d928394c79804c39d245", 4795,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/jobs/20261016T025656/wake_finds_none_asleep.log",               "c7528e6458d87d269df9b0966bd09757e9a960d57e51aed95ee81fb68afeecaa", 1066,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/jobs/20261016T025656/wrap_by_order.log",                        "85cc95b27b4c331f11f5039ef697da34b44f5ccc8dcdf1133344d19f501d6b57", 1312,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/compute/20261016T025932/animation_late.log",                    "11f6818e58898b6af5f3aea8a1f1d32a791a26b8584813aa04e871565ca9cbe0", 1030,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/compute/20261016T025932/animation_one_worker.log",              "7045dbe90a779a269f927d72bfb1cf5901a1e877ad8d19ec9ae27a230f08620c", 944,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/compute/20261016T025932/awaits_by_polling.log",                 "7e50e4fa052b73876bdecba298e383c8ddd20892c8338fc67edea718ee618e09", 1069,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/compute/20261016T025932/band_times_swapped.log",                "1e89dbecf65234b4d9fe1d2d087d53783a9921ef02308ceb0bc9fa1c55f93aea", 1100,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/compute/20261016T025932/bands_from_zero.log",                   "62bc181d168d761610e5e2723886b32280690c4017c311dbb339871a7869323b", 1209,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/compute/20261016T025932/bar_colour_shifted.log",                "a56d718085583537f94671d8efb5d00c0bce1b9b02a6ef0929220b81ad4e651d", 1033,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/compute/20261016T025932/bars_before_hash.log",                  "d4c823d68c23e6ad56a1795a374f4dc3355703d100f16a01ec2690feff3e7373", 1025,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/compute/20261016T025932/baseline.nuon",                         "80682ad95fdad7769b5f99c740ee75bda96c12d510256c7830186c699701f102", 2994,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/compute/20261016T025932/bench_frame_differs.log",               "ec7489aa9dc9e7a572c155db669a448467d3fa6c71d64742c56453ee66f6a805", 1034,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/compute/20261016T025932/caption_outside_box.log",               "f58d1a282ce16909dd8ade2defd527989d138ec249da6c29e84691e321a36eae", 1280,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/compute/20261016T025932/control.log",                           "9bfae3906d2700a71ef95a2381c128923d481e891173ac2e0d7ec28a6cced5f1", 621,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/compute/20261016T025932/ecall_in_row.log",                      "1797dbb4231a0c692f0b8344e253b1ce87ad6ae1150bb6c1cc976f7f70b2eb76", 989,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/compute/20261016T025932/hot_straddles.log",                     "75bcc5d29886060ec20e304fa745973151983ae4a571c1ede4eec1a23a8d648b", 967,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/compute/20261016T025932/last_band_missed.log",                  "2b14b59123eb2154b50629d3d43e9c38cd7ac5d9eba0564725212c3e6da55e77", 1207,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/compute/20261016T025932/locked_bands.log",                      "d479db8941782990275408c24247a3e703a12deb8e65eb2dc9ac77014b3cd8bf", 1140,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/compute/20261016T025932/no_join.log",                           "362e2d97b31b7f9f160b57a80ec7389d2eeab3e214df91f2cc36c3ba93d02091", 1200,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/compute/20261016T025932/owner_by_band.log",                     "1ca8f35f34a03f3109eaabcacaa6b4719e973d85b07e0587cc857cb2a6f4b7c5", 1138,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/compute/20261016T025932/owner_is_index.log",                    "908200eb2d0bf3535c7a56533fc2cc92d44daa1dda05afe1990679cbb23341bd", 1109,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/compute/20261016T025932/receipt.nuon",                          "81a0f511ce200ab7d6e1004725428769e54d8ff3c72b5a981383abac270b1296", 200,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/compute/20261016T025932/results.nuon",                          "cd3f4c6a386c410af9056de93c8b793c3b63312545e29fc32483f6d8ea17aef6", 9019,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/compute/20261016T025932/serial_dispatch.log",                   "da0f878a1c1862eb769a0e5aa53361f0155ffadb627d8ed9b6ac38c1aa9cc889", 1353,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/compute/20261016T025932/total_uncounted.log",                   "ca1c8950874fcfdd9084ef9940d8f91949ea1eda79b8ff12bea86a08ca87c2d1", 1127,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/compute/20261016T025932/twice_xy_halved.log",                   "d812705b64b2e0ec614597143b495553624461f0035b401a05bbe85873a1fd89", 976,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/baseline.nuon",                     "57bea659724c84c6aa1c00152e2197f985da09a1790231af58df5c3bccb73df0", 4794,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/claim_busy_allowed.log",            "0d8c0bd54d5731ea739c60863ee5bf69a1903ad03292946e9e0a96abe19d23e2", 1608,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/claim_empty_allowed.log",           "429141c8e6180ac5078a9a9572beb0b5a5f598029388bfce4588f7ea708b0cba", 1608,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/claim_floor_ignored.log",           "a201fdc8099744dd8b104e0682c9751d4ada970141e277aca61c2015cb99ae57", 1569,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/claim_ids_reused.log",              "f5a6d7ef61d6b7a2219d22d6d776831825b87c2e80dc5a50978bdf574ff7cc17", 1573,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/claim_ids_short.log",               "60482c20fd70262091677cb2a06955c9fcac43f43b6138bc6caa2e6258a1f94f", 1624,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/claim_outside_allowed.log",         "8fbfab86b24309edfc8bcf5a3b01aecc098800dc4453978cd35f924ad273e6b5", 1608,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/claim_sets_no_owner.log",           "a0438fd78159afea80c0f038eb1d54aa7c9b6968aa53a2a030791d07c93e6eae", 1570,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/claim_spent_boundary.log",          "3a268f2a2fdf5c64175796976d97c4e1a0f74c9b031a6be677f1754694677099", 1629,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/claim_spent_ignored.log",           "3a268f2a2fdf5c64175796976d97c4e1a0f74c9b031a6be677f1754694677099", 1629,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/claim_unreserved_allowed.log",      "a74d711b6768d7c4087e6453ec4822d5553cd9ecff16707704b267fd0119d222", 1582,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/control.log",                       "738d514af909e997d27f26561642cfc24fbed4c444aa0e7cdd554abc203327a6", 734,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/debug_reserved_dropped.log",        "042261fa03cda2fd3e44adc1f158d70bb7efa335f714e6d7b04f04ebbe2bf356", 1744,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/floor_unrecorded.log",              "a201fdc8099744dd8b104e0682c9751d4ada970141e277aca61c2015cb99ae57", 1569,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/knob_ignored.log",                  "886d794cf55059345578f386051196fb57c60dc1ee6465ced4f5da436906e1c7", 1588,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/macro_clears_a5.log",               "85114e27f202f6cf80cdd793c54b567b7cb2b37232735cddccf102d37c3be570", 1568,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/macro_owner_last.log",              "aa110edc6d24dce93b22aa30bbb50ab7b3feaf0c89909a4ce919468da46245f5", 1574,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/owned_counts_all.log",              "677dccd9957b8d36c43a36adeca02ea0c4c82056120a38722ccca3e923258988", 1554,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/receipt.nuon",                      "b939b8ef9039a99b36d206f68dc739625115db9c17da1d434fabd8ece05d4ac9", 199,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/release_busy_allowed.log",          "97b9076924cf189f8b960c655c78f69e965ccd7949ea4bb2b4b4e131d3086782", 1574,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/release_moves_nothing.log",         "a6d1830e412559367b326721b28a1fe616dbd704ad6a65d913b1ac8c4e2eab5b", 1552,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/release_unknown_empty.log",         "6934b287284d6f1d68f078b3313ade251788b2910bd820ddc7c72d1eb6fcc139", 1552,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/release_unknown_low.log",           "ee38c3318ce8b6107b86f887eba0dd9dbf802151c3ffc4fb5d387b1d77b00cbf", 1549,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/reserve_again_allowed.log",         "7e41c6df96ba42537a1a50447217dbbf0e1ec4c5dd1306c66ecc89539b6bd8d2", 1554,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/reserve_busy_allowed.log",          "7576937571433d110571e484b7c0b6e46a674ec8c751e6fff3fb2cbda1965345", 1582,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/reserve_short_allowed.log",         "06f4a034d97eee22ea99a14ca26db4956a47a72a7f55087e95d656723f1285d6", 1582,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/results.nuon",                      "26b0ea3e8fad32f5e90ff1144dcc411be7cbf076e4f67e0b3056f6337c2de724", 13643, {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/start_owner_after_busy.log",        "bf4eea07c9d887798dbd8615658e617107a9745371fd95cd5b2c2d2f03eae7dd", 1574,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/start_owner_always.log",            "40777e17b7a19a0c6289dd0545fa57b681b092acea6fc9cf9a6f267f5ff3cdc1", 1568,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/start_owner_unchecked.log",         "7d02f31e57c837b22875eae796ca1fd1e93f528381ea9344896e1da688f18250", 1560,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/worker_may_reserve.log",            "d90c9faa9f12f2a98d430c518f8e498db32e1626a34475829c171be362f64d51", 1559,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/reservation/20261016T030252/working_ignores.log",               "7576937571433d110571e484b7c0b6e46a674ec8c751e6fff3fb2cbda1965345", 1582,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/feature/20261016T030403/baseline.nuon",                         "a308ccb24434cf5d34c9fdf722ada05c1e62da9a53866f36c5ee974cb65b0fee", 2569,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/feature/20261016T030403/claim_busy_allowed.log",                "35ec84587a82d0710e366aee5c80b71c034545cf79f8ad56473802903f9742e3", 1464,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/feature/20261016T030403/claim_floor_ignored.log",               "ffb40b0a36c26f89dcd254aae519ec379865c9f11a25443403a448d6d56c6f8b", 1339,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/feature/20261016T030403/closing_control.log",                   "8eafc3dc24cf49ecfe7c2c2d266d7c23aef2e65df0d302533919465a7877d877", 687,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/feature/20261016T030403/control.log",                           "8eafc3dc24cf49ecfe7c2c2d266d7c23aef2e65df0d302533919465a7877d877", 687,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/feature/20261016T030403/feature_constant_miswritten.log",       "45a0d25f878b2c6f32e8f490c390637d42b10dcb0bafaac356b7848c3d16f79e", 1448,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/feature/20261016T030403/forced_expiry.log",                     "2f92bd2bd53ee34aa1ecd8a8e4a3626d7669d9d01f0fd52fac7e55b0a0c09b37", 1292,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/feature/20261016T030403/grant_discovered.log",                  "77ebbbf8222b33c64090eea82ab92b28f866055c73c7a7972b9b312b56def546", 1343,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/feature/20261016T030403/macro_sixth_unloaded.log",              "e51e7266d851685fbd8dd9c18e62efd4f7db7bd11abc6e1d695bd00078b3f213", 1325,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/feature/20261016T030403/receipt.nuon",                          "1b86480bfb804116ecae5a864180e9e7cc2ba767ac04a64d8ce37d1fa44cbc4e", 200,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/feature/20261016T030403/release_busy_allowed.log",              "1c36a5762e2cc4a5f8750d04f0241516ea30962156849adc51cb5dd25cd2483b", 1928,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/feature/20261016T030403/reserved_constant_miswritten.log",      "32853e9e77e97c941e698b772ca4765bdf09b097681e5017a68f5cd48475147d", 1199,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/feature/20261016T030403/results.nuon",                          "270b5921dcb0f7909a2a26acd0f51df92729bfd935519a4443aa5dc312a7df99", 5892,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/feature/20261016T030403/start_owner_unchecked.log",             "5afc6bee4cecbc864c903544eec38858d5105413ecf34d7a58420b9000094d7a", 1720,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/kernel/feature/20261016T030403/stop_before_join.log",                  "c8ca0a57fab3aafe4ab887e2c03331de7ebdbacb2e1785cfc904276f2ce271dd", 1676,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }]
+ ],
+ counts: {
+  sources: {
+   files: 9,
+   bytes: 41942,
+   copied: 9
+  },
+  destinations: {
+   files: 181,
+   assets: 9,
+   notes: 1,
+   manifests: 18,
+   check_runs: 153
+  },
+  pruned_runs: 0
+ }
+}

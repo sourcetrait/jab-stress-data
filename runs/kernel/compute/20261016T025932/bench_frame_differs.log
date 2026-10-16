@@ -1,0 +1,21 @@
+--- example/workers
+Error: nu::shell::error
+
+  x Bench: the last frame's hash the proof's: 37438f759e4c6b45
+  | These are not equal.
+     ,-[/home/box/proj/sourcetrait/jab/example/workers/test/test.nu:127:18]
+ 126 |     assert ($frames >= 1) $"Bench: a frame at least in the stretch: ($frames)"
+ 127 |     assert equal $doc.hash $hash $"Bench: the last frame's hash the proof's: ($doc.hash)"
+     :                  ^^^^|^^^^ ^^|^^
+     :                      |       `-- right: "6d69e654f6f12ef6"
+     :                      `-- left: "37438f759e4c6b45"
+ 128 |     let third = ($frames * $HEIGHT // 3)
+     `----
+
+╭───┬─────────────────┬────────╮
+│ # │     program     │ passed │
+├───┼─────────────────┼────────┤
+│ 0 │ example/workers │ false  │
+╰───┴─────────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

@@ -1,0 +1,23 @@
+--- test/jobs
+Error: nu::shell::error
+
+  x RaceBefore on 2 harts, line 3: jobs: scenario fixture, workers 1
+  | idle 1 workers held
+  | 
+  | These are not equal.
+    ,-[/home/box/proj/sourcetrait/jab/test/jobs/test/test.nu:62:26]
+ 61 |         for row in ($lines | enumerate) {
+ 62 |             assert equal ($got | get -o $row.index) $row.item.line $"($row.item.fixture) on ($harts) harts, line ($row.index + 1): ($run.serial)"
+    :                          ^^^^^^^^^^^^^|^^^^^^^^^^^^ ^^^^^^^|^^^^^^
+    :                                       |                    `-- right: "before 1000 rounds, 0 wrong, 1000 completions"
+    :                                       `-- left: null
+ 63 |         }
+    `----
+
+╭───┬───────────┬────────╮
+│ # │  program  │ passed │
+├───┼───────────┼────────┤
+│ 0 │ test/jobs │ false  │
+╰───┴───────────┴────────╯
+
+error: recipe `test` failed with exit code 1

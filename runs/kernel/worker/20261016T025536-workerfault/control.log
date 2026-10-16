@@ -1,0 +1,9 @@
+--- test/workerfault
+workerfault: store, two, join, address, and print each ended with the fault's line and status 1 in 1.1, 1.3, 1.3, 1.1, and 1.1 s
+workerfault: ok
+╭───┬──────────────────┬────────╮
+│ # │     program      │ passed │
+├───┼──────────────────┼────────┤
+│ 0 │ test/workerfault │ true   │
+╰───┴──────────────────┴────────╯
+

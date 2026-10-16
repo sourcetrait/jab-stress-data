@@ -1,0 +1,65 @@
+{
+ call: "2StBokgJ2ct",
+ mark: JAB_RUNNER_MARK,
+ stage: ".jabstage.",
+ root: /home/box/proj/sourcetrait/jab,
+ commit: "c1f4d4155e10acbd215dcbf87b121d11657a532c",
+ set: "/home/box/proj/sourcetrait/jab-stress-data/assets/kernel/mutants/worker_mutants.nuon",
+ "set_sha256": "9ffdd050c0588e38d7cdb0fe8348375da399c4a1c711728603e7ac6f9348dda5",
+ only: [
+  worker_calls_admitted,
+  "hart0_exit_admitted",
+  start_overlap_unchecked,
+  start_main_stack_unchecked,
+  wait_stop_ignored,
+  stop_never_forced,
+  start_keeps_fp,
+  vector_clobbers_fp,
+  join_without_service,
+  wait_returns_on_wake,
+  ack_unbounded,
+  leave_publishes_first,
+  stop_by_live_mask,
+  old_exit_and_stop,
+  handshake_never_witnessed
+ ],
+ control: {
+  program: test/workers,
+  ok: "workers: ok"
+ },
+ deadline: 540,
+ margin: 15,
+ kill_after: 5,
+ hold: {
+  at: "",
+  seconds: 0
+ },
+ started: "2026-10-16T02:51:54.882+0000",
+ paths: [
+  [file,                      committed,                                                          mutated];
+  ["kernel/src/trap.S",       "5df8b67edc452d9778ca7dbbc2629867ff6a23ecc6941ce0470050a6da6a31ae", [
+    [mutant,                hash];
+    [worker_calls_admitted, "2946e8fcececa10fdadac88e9f05fe79a15b9bcec3de30d96c0e167f921aeeb7"],
+    [vector_clobbers_fp,    "7a4c0ba2baf2fbd99594af2db3e0747d31ba43c6867e41439d96dce64ee6217c"]
+   ]],
+  ["kernel/src/workers.S",    "ab712c48fbc1870e906f76354ecfd2c2462eb974253425858449eccf79f1f77d", [
+    [mutant,                     hash];
+    ["hart0_exit_admitted",      "2f0d421a0da37808710a5cdd86be0db2c5cf2e0a2ac8c7ac03785eedca41e354"],
+    [start_overlap_unchecked,    "dabca437d197aa63c7d5650bfe294f4ee910e0a90b002440634d017d178cf49a"],
+    [start_main_stack_unchecked, "5a5167b20a98a3c0c3b97ec41b21fad2e4898b39be3558ed7564408ddee39d2b"],
+    [wait_stop_ignored,          "3653abc95db01120da29eec52afa577e2f1742a097b6af5642286f7609a47649"],
+    [stop_never_forced,          "b0be1a112ab71e6ff5c5ba520b7b1db57ce77cc9826c5b7f1d2f05d1d693b5b3"],
+    [start_keeps_fp,             "abc713bbdb1096c714fe6c4ad15522458bbd158f59fe1812a90a39856d63f4a6"],
+    [join_without_service,       "4fcfc6adc8eaaca0b9a3cc82e2c31bc0c817f919d53d48560bed8ef3bc1c000c"],
+    [wait_returns_on_wake,       "0ad57e6f6303384ebae1370d048662198b9d9371924b46397f195b29c5d32846"],
+    [ack_unbounded,              "2f2fcba972f5b23662626a4bfff8300c9513ceeecfb057b2d189ea90d6057474"],
+    [leave_publishes_first,      "0736454ea22d9e00ce4248af6406af5ffaeb3337bbacf0aab2e467f5aa0667b2"],
+    [stop_by_live_mask,          "ae17a3710b631523175a0094c13457b4fd882dd1ff947649b003c867e4203278"],
+    [old_exit_and_stop,          "ec5a605a8c54c90ce33c4f460665da403b88f33f152ffb380d18bd6eac848065"]
+   ]],
+  ["test/workers/src/main.S", "3eb731d2e3b573d9c9b2a73b0974d3c0022b8e34817473e05432848fad38b20e", [
+    [mutant,                    hash];
+    [handshake_never_witnessed, "b79da98bca030e530775b212d1acc55860e97aeb429afbd3dc8d45fc3dc34494"]
+   ]]
+ ]
+}

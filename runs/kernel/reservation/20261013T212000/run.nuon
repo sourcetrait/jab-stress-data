@@ -12,7 +12,7 @@
     [run,  "f484e08f280ea92ee0514ea2feefe46507c1a52f", jab,      "baseline.nuon"]
   ],
   kept: {
-    as: current,
-    why: "the latest whole run of the set, cited as evidence by FrameCeiling's LauncherCounts"
+    as: last,
+    why: "the whole run before the current one, cited as evidence by FrameCeiling's LauncherCounts"
   }
 }

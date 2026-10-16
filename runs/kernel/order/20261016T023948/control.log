@@ -1,0 +1,9 @@
+--- test/purity
+purity: 17 doorbells and 7 enabling writes each after its fence; 29 debug lines absent from the release kernel and present in the debug one; 20 fault lines in both
+purity: ok
+╭───┬─────────────┬────────╮
+│ # │   program   │ passed │
+├───┼─────────────┼────────┤
+│ 0 │ test/purity │ true   │
+╰───┴─────────────┴────────╯
+

@@ -1,0 +1,22 @@
+--- example/workers
+Error: nu::shell::error
+
+  x Proof: 1 workers' rows, the bands dealt in turn: workers: proof 1 hash
+  | c936ce18c8bdf06a rows 0 0 0 owned 835
+  | These are not equal.
+     ,-[/home/box/proj/sourcetrait/jab/example/workers/test/test.nu:106:22]
+ 105 |         let rows = [($p.r0 | into int) ($p.r1 | into int) ($p.r2 | into int)]
+ 106 |         assert equal $rows ($DEAL | get $i) $"Proof: ($i + 1) workers' rows, the bands dealt in turn: ($got | get $i)"
+     :                      ^^|^^ ^^^^^^^^|^^^^^^^
+     :                        |           `-- right: [1080, 0, 0]
+     :                        `-- left: [0, 0, 0]
+ 107 |         assert equal ($p.owned | into int) $HEIGHT $"Proof: every row of ($i + 1) workers' frame owned: ($got | get $i)"
+     `----
+
+╭───┬─────────────────┬────────╮
+│ # │     program     │ passed │
+├───┼─────────────────┼────────┤
+│ 0 │ example/workers │ false  │
+╰───┴─────────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

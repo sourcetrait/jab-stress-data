@@ -1,0 +1,46 @@
+{
+ control_ok: true,
+ every: true,
+ restored: true,
+ cleaned: true,
+ caught: 1,
+ unrun: [
+
+ ],
+ head: "c1f4d4155e10acbd215dcbf87b121d11657a532c",
+ logs: "/home/box/tmp/ai/two/1wA0avCBrJa/kernelsets/measure",
+ deadline: 300,
+ swept: 0,
+ results: [
+  [name,           applied, exit, class,  expected, title,                                                                                                                                                  seconds, swept];
+  [control,        true,    0,    passed, passed,   "",                                                                                                                                                     45.4,    0],
+  [rate_undivided, true,    1,    caught, caught,   "HeldSpan: a thread's rate its delta over the span, 0.45 s of 0.9 half a core: {name: CPU 1/TCG, delta: 0.4500000000000002, rate: 0.4500000000000002}", 0.3,     0]
+ ],
+ misses: [
+
+ ],
+ call: "6iwlos2TMz6",
+ started: "2026-10-16T02:40:10.560+0000",
+ sweeps: [
+  [name,           records, left,    scans, ended];
+  [control,        [
+
+   ], [
+
+   ], 2,     clean],
+  [rate_undivided, [
+
+   ], [
+
+   ], 2,     clean]
+ ],
+ status: [
+
+ ],
+ status_after: [
+
+ ],
+ staged_after: [
+
+ ]
+}

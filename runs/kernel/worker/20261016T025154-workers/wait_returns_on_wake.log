@@ -1,0 +1,32 @@
+--- test/workers
+Error: nu::shell::error
+
+  x Pestered, line 9: join with sound: start 0, done 1, stop 2 0
+  | sums 500000500000 2000001000000, starts 0 0, stop 6 0
+  | refused hart 1 1 1, entry 3 3 3, stack 4 4 4 4 4 4, overlap 5 5 5, busy 2
+  | stop sleeping 2 0, wait 1
+  | stop spinning 4 4, start 0
+  | denied -1 -1 -1 -1 -1 -1 -1, worker harts 15, hart 0 exit -1
+  | registers 1: entry 0, kept 0, woke 2, stop 2 0
+  | registers 2: entry 0, kept 0, woke 2, stop 2 0
+  | pestered: done 0, woken 1, awaits 6, stop 4 4
+  | hart 3 start 0 then 2, stop 8 0, harts 15 15 0
+  | workers: exit with two running
+  | 
+  | These are not equal.
+    ,-[/home/box/proj/sourcetrait/jab/test/workers/test/test.nu:81:22]
+ 80 |     for row in ($LINES | enumerate) {
+ 81 |         assert equal ($got | get -o $row.index) $row.item.line $"($row.item.fixture), line ($row.index + 1): ($run.serial)"
+    :                      ^^^^^^^^^^^^^|^^^^^^^^^^^^ ^^^^^^^|^^^^^^
+    :                                   |                    `-- right: "pestered: done 1, woken 1, awaits 6, stop 4 4"
+    :                                   `-- left: "pestered: done 0, woken 1, awaits 6, stop 4 4"
+ 82 |     }
+    `----
+
+╭───┬──────────────┬────────╮
+│ # │   program    │ passed │
+├───┼──────────────┼────────┤
+│ 0 │ test/workers │ false  │
+╰───┴──────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

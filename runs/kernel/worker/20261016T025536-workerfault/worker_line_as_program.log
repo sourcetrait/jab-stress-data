@@ -1,0 +1,23 @@
+--- test/workerfault
+Error: nu::shell::error
+
+  x store: the worker's fault, its hart, argument, cause, and address:
+  | workerfault: scenario store
+  | jab: program fault: cause=0x000000000000000f epc=0x0000000080a001ec
+  | tval=0x0000000080000000
+  | 
+    ,-[/home/box/proj/sourcetrait/jab/test/workerfault/test/test.nu:41:12]
+ 40 |     assert equal $lines.0 "workerfault: scenario store" $"store: ($store.serial)"
+ 41 |     assert (fault-line $lines.1 1 0xa1 0x80000000) $"store: the worker's fault, its hart, argument, cause, and address: ($store.serial)"
+    :            ^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^
+    :                               `-- It is not true.
+ 42 | 
+    `----
+
+╭───┬──────────────────┬────────╮
+│ # │     program      │ passed │
+├───┼──────────────────┼────────┤
+│ 0 │ test/workerfault │ false  │
+╰───┴──────────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

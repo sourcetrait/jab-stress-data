@@ -1,0 +1,22 @@
+--- example/workers
+Error: nu::shell::error
+
+  x Bench: the worker harts busy at once, their rates over the held span
+  | summing past 1.5 cores: [{hart: 0, delta: 0.0, rate: 0.0}, {hart: 1,
+  | delta: 0.35, rate: 0.3419452124360229}, {hart: 2, delta: 0.34, rate:
+  | 0.3321753492235652}, {hart: 3, delta: 0.34, rate: 0.3321753492235652}]
+     ,-[/home/box/proj/sourcetrait/jab/example/workers/test/test.nu:134:12]
+ 133 |     assert ($backward | is-empty) $"Bench: every band's interval forward in time: bands ($backward | first 8)"
+ 134 |     assert $doc.cpu_at_once $"Bench: the worker harts busy at once, their rates over the held span summing past ($doc.at_once) cores: ($doc.harts)"
+     :            ^^^^^^^^|^^^^^^^
+     :                    `-- It is not true.
+ 135 |     assert $doc.bands_at_once $"Bench: the last frame's bands overlapping, their time past ($doc.at_once) times the frame's span: ($doc.overlap)"
+     `----
+
+╭───┬─────────────────┬────────╮
+│ # │     program     │ passed │
+├───┼─────────────────┼────────┤
+│ 0 │ example/workers │ false  │
+╰───┴─────────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

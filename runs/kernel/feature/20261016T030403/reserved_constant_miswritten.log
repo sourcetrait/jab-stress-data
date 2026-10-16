@@ -1,0 +1,24 @@
+--- test/feature
+feature: image e95b4b9abfb1bee5b139e190a632f0ced945cbc86bf2e7ab6ad2008de8a1c6fb, built with .set JAB_BASE_HARTS, 3; .set JAB_RESERVED_GFX_HARTS, 3; .set JAB_FEATURE_SYNTHETIC_IO_HARTS, 1
+Error: nu::shell::error
+
+  x three, line 2: harts 6
+  | reserve 1 0 owned 0
+  | 
+  | These are not equal.
+    ,-[/home/box/proj/sourcetrait/jab/test/feature/test/test.nu:88:26]
+ 87 |         for row in ($want | enumerate) {
+ 88 |             assert equal ($got | get -o $row.index) $row.item $"($m.name), line ($row.index + 1): ($run.serial)"
+    :                          ^^^^^^^^^^^^^|^^^^^^^^^^^^ ^^^^|^^^^
+    :                                       |                 `-- right: "reserve 0 6 owned 6"
+    :                                       `-- left: "reserve 1 0 owned 0"
+ 89 |         }
+    `----
+
+╭───┬──────────────┬────────╮
+│ # │   program    │ passed │
+├───┼──────────────┼────────┤
+│ 0 │ test/feature │ false  │
+╰───┴──────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

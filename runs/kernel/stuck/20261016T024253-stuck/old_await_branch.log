@@ -1,0 +1,24 @@
+--- test/stuck
+Error: nu::shell::error
+
+  x sound: exit status 1: stuck: scenario sound
+  | jab: interrupt source 4 stalled
+  | jab: timer left enabled
+  | 
+  | These are not equal.
+    ,-[/home/box/proj/sourcetrait/jab/test/stuck/test/test.nu:74:18]
+ 73 |     let sound = (scenario $kernel $image ($out | path join "sound") $set "s" --bootargs "jab.hold=25" --sound)
+ 74 |     assert equal $sound.status 0 $"sound: exit status ($sound.status): ($sound.serial)"
+    :                  ^^^^^^|^^^^^^ |
+    :                        |       `-- right: 0
+    :                        `-- left: 1
+ 75 |     let stream = (mmio-source $sound.debug "jab: sound at 0x")
+    `----
+
+╭───┬────────────┬────────╮
+│ # │  program   │ passed │
+├───┼────────────┼────────┤
+│ 0 │ test/stuck │ false  │
+╰───┴────────────┴────────╯
+
+error: recipe `test` failed with exit code 1
