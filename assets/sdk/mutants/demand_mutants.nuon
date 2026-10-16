@@ -6,7 +6,7 @@
   {name: "blank_held", program: "test/demand", expect: "blank: refused", edits: [{file: "sdk/nu/jab.nu", find: "or ($s | str trim) == \"\" })", put: "or false })"}]},
   {name: "unknown_held", program: "test/demand", expect: "undefined: refused", edits: [{file: "sdk/nu/jab.nu", find: "if not ($unknown | is-empty) { error make {msg: $\"($name):", put: "if false { error make {msg: $\"($name):"}]},
   {name: "case_sensitive", program: "test/demand", expect: "twice: refused", edits: [{file: "sdk/nu/jab.nu", find: "($r.name | str trim | str lowercase) == ($s | str trim | str lowercase)", put: "($r.name | str trim) == ($s | str trim)"}]},
-  {name: "twice_held", program: "test/demand", expect: "twice: refused", edits: [{file: "sdk/nu/jab.nu", find: "if not ($twice | is-empty) {", put: "if false {"}]},
+  {name: "twice_held", program: "test/demand", expect: "twice: refused", edits: [{file: "sdk/nu/jab.nu", find: "if not ($twice | is-empty) { error make {msg: $\"($name): `specs` names", put: "if false { error make {msg: $\"($name): `specs` names"}]},
   {name: "cores_unchecked", program: "test/demand", expect: "coreless: refused", edits: [{file: "sdk/nu/jab.nu", find: "if not ($uncounted | is-empty) {", put: "if false {"}]},
   {name: "role_unchecked", program: "test/demand", expect: "reserved_role: refused", edits: [{file: "sdk/nu/jab.nu", find: "if $k not-in $roles {", put: "if false {"}]},
   {name: "count_unchecked", program: "test/demand", expect: "reserved_zero: refused", edits: [{file: "sdk/nu/jab.nu", find: "if ($n | describe) != \"int\" or $n < 1 {", put: "if false {"}]},
