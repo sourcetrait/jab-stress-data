@@ -1,7 +1,7 @@
 {
  migration: KernelMutantSets,
  stamp: "20261016T023926",
- complete: false,
+ complete: true,
  sources: [
   [repository, commit,                                     paths];
   [fae_emptwo, "08766532bc7a3d7a59943f2cabfdf253b1aad371", [
@@ -47,11 +47,17 @@
     ["runs/kernel/worker/20261013T165603-workers",     last],
     ["runs/kernel/worker/20261013T165850-workerfault", last],
     ["runs/kernel/feature/20261013T140541",            last]
-   ]
+   ],
+   commits: {
+    jab-stress-data: "5f6b79f"
+   }
   },
   {
    phase: SourceRemoval,
-   done: false
+   done: true,
+   commits: {
+    fae_emptwo: "62d9e0f1"
+   }
   }
  ],
  checks: [
@@ -101,6 +107,12 @@
    phase: ConsumerRuns,
    check: "every landed file's SHA-256 against its source",
    files: 153,
+   ok: true
+  },
+  {
+   phase: SourceRemoval,
+   check: "no current document in the ai repository names the sets' old paths",
+   files: 204,
    ok: true
   }
  ],
