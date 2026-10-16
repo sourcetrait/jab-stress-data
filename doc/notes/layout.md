@@ -73,9 +73,10 @@ history.
 `assets/<subject>/<purpose>/` holds data that a workbench test or recipe
 reads. The runners' own test cases read their canned logs from
 `assets/workbench/cases/logs/`. The fps pose recipes read their pose
-tables from `assets/fps/poses/`. The workbench finds this repository as a
-checkout beside its own, `../jab-stress-data`, the way it finds Jab at
-`../jab`.
+tables from `assets/fps/poses/`. The checkout runner reads the SDK's
+mutant sets from `assets/sdk/mutants/`, one file a set. The workbench
+finds this repository as a checkout beside its own, `../jab-stress-data`,
+the way it finds Jab at `../jab`.
 
 ## Receipts
 
