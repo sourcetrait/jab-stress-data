@@ -1,0 +1,55 @@
+[
+  [name,                   program,   expect,                  edits];
+  [free_ignores_done,      test/jobs, "EmptyFull on 2 harts",  [
+      [file,                   find,                   put];
+      ["sdk/src/jab_jobs.inc", "    seqz \\free, t0
+", "    li \\free, 1
+"]
+    ]],
+  [wrap_by_order,          test/jobs, "Wrap on 2 harts",       [
+      [file,                   find,                                           put];
+      ["sdk/src/jab_jobs.inc", "    bne \\gen, t0, .Ljab_job_await_taken\\@
+", "    bgtu \\gen, t0, .Ljab_job_await_taken\\@
+"]
+    ]],
+  [cancel_ignored,         test/jobs, "Cancel on 2 harts",     [
+      [file,                   find,                        put];
+      ["sdk/src/jab_jobs.inc", "    seqz \\cancelled, t0
+", "    li \\cancelled, 0
+"]
+    ]],
+  [count_unkept,           test/jobs, "RaceBefore on 2 harts", [
+      [file,                   find,                                                      put];
+      ["sdk/src/jab_jobs.inc", "    addi t0, t0, 1
+    sd t0, JAB_JOB_COUNT(\\mailbox)
+", "    sd t0, JAB_JOB_COUNT(\\mailbox)
+"]
+    ]],
+  [wake_finds_none_asleep, test/jobs, "RaceBefore on 2 harts", [
+      [file,                   find,                                         put];
+      ["kernel/src/workers.S", "    li t0, 1
+    sd t0, HART_SLEEPING(tp)
+", "    li t0, 1
+"]
+    ]],
+  [idle_wait_spins,        test/jobs, "Idle: hart 1's worker", [
+      [file,                   find,                                                                                       put];
+      ["kernel/src/workers.S", "    wfi                                     # nothing claims between the check and here
+", "    nop
+"]
+    ]],
+  [publish_keeps_cancel,   test/jobs, "Wrap on 2 harts",       [
+      [file,                   find,                                                                                       put];
+      ["sdk/src/jab_jobs.inc", "    lw t0, JAB_JOB_CANCEL(\\mailbox)
+    addiw t0, t0, -1
+    beq t0, \\gen, .Ljab_job_publish_kept\\@  # cancelled before its publish
+    sw \\gen, JAB_JOB_CANCEL(\\mailbox)       # the last generation: no job to come carries it
+.Ljab_job_publish_kept\\@:
+", ""]
+    ]],
+  [publish_drops_precancel, test/jobs, "Cancel on 2 harts",    [
+      [file,                   find,                                                                                       put];
+      ["sdk/src/jab_jobs.inc", "    beq t0, \\gen, .Ljab_job_publish_kept\\@  # cancelled before its publish
+", ""]
+    ]]
+]

@@ -1,0 +1,134 @@
+[
+  [name,                         program,    expect,                                                edits];
+  [no_reset,                     test/stuck, "rng held: the source masked once",                    [
+      [file,                  find,                                                     put];
+      ["kernel/src/virtio.S", "virtio_reset:
+    addi t0, a0, -QEMU_VIRT_VIRTIO_IRQ0
+", "virtio_reset:
+    ret
+    addi t0, a0, -QEMU_VIRT_VIRTIO_IRQ0
+"]
+    ]],
+  [completion_overrides_failure, test/stuck, "disk: the line masked once",                          [
+      [file,                  find,                                                                                                                                                                                                                                                                                                                       put];
+      ["kernel/src/virtio.S", "1:
+    la t0, irq_faulted
+    ld t0, 0(t0)
+    ld t1, 8(sp)
+    srl t0, t0, t1
+    andi t0, t0, 1
+    bnez t0, 21f                            # failed: whatever the used ring says
+    ld a0, 0(sp)
+    fence rw, rw
+    lhu t0, (VQ_USED + VIRTQ_USED_IDX)(a0)
+    ld t1, VQ_LAST_USED(a0)
+    bne t0, t1, 2f
+    wfi
+", "1:
+    ld a0, 0(sp)
+    fence rw, rw
+    lhu t0, (VQ_USED + VIRTQ_USED_IDX)(a0)
+    ld t1, VQ_LAST_USED(a0)
+    bne t0, t1, 2f
+    la t0, irq_faulted
+    ld t0, 0(t0)
+    ld t1, 8(sp)
+    srl t0, t0, t1
+    andi t0, t0, 1
+    bnez t0, 21f
+    wfi
+"],
+      ["kernel/src/virtio.S", "    la t0, irq_faulted
+    ld t0, 0(t0)
+    ld t1, 8(sp)
+    srl t0, t0, t1
+    andi t0, t0, 1
+    beqz t0, 22f
+    li t0, 1
+    sd t0, 16(sp)                           # failed in the last drain: the completion does not count
+22:
+",                                                                                  ""]
+    ]],
+  [count_published_after_loop,   test/stuck, "disk: the line masked once",                          [
+      [file,                 find,                                                                                                                         put];
+      ["kernel/src/block.S", "    la t1, block_count
+    sd t0, 0(t1)                # counted before its first request, so its line's fault reaches it
+", ""],
+      ["kernel/src/block.S", "8:
+.ifdef DEBUG
+    call block_report
+.endif
+",                                                                              "8:
+    ld t0, 16(sp)
+    la t1, block_count
+    sd t0, 0(t1)
+.ifdef DEBUG
+    call block_report
+.endif
+"]
+    ]],
+  [raw_before_check,             test/stuck, "disk: the line masked once",                          [
+      [file,                 find,                                                                                      put];
+      ["kernel/src/block.S", "    call block_request
+    bnez a0, 7f
+    ld t3, 24(sp)
+    li t0, JAB_BLOCK_KIND_RAW
+", "    call block_request
+    ld t3, 24(sp)
+    li t0, JAB_BLOCK_KIND_RAW
+    sb t0, JAB_BLOCK_KIND(t3)
+    bnez a0, 7f
+    ld t3, 24(sp)
+    li t0, JAB_BLOCK_KIND_RAW
+"]
+    ]],
+  [abandoned_status_from_memory, test/stuck, "disk: the line masked once",                          [
+      [file,                 find,                                                                        put];
+      ["kernel/src/block.S", "    bnez a1, 1f                 # its line failed: the request abandoned
+", ""]
+    ]],
+  [probe_guard_removed,          test/stuck, "disk: the generic disk reset with nothing in flight", [
+      [file,                 find,                                                                     put];
+      ["kernel/src/block.S", "    bnez t1, 7f                 # its line failed: no request, kind 0
+", ""]
+    ]],
+  [both_guards_removed,          test/stuck, "disk: the generic disk reset with nothing in flight", [
+      [file,                 find,                                                                        put];
+      ["kernel/src/block.S", "    bnez t1, 7f                 # its line failed: no request, kind 0
+",    ""],
+      ["kernel/src/aia.S",   "    bnez t0, 9f                             # failed: masked for the run
+", ""]
+    ]],
+  [port_pad_propagation_removed, test/stuck, "pad: exit status",                                    [
+      [file,                  find,                    put];
+      ["kernel/src/serial.S", "    j pad_port_fault
+", "    j virtio_reset
+"]
+    ]],
+  [api_success_always,           test/stuck, "api: the unsent write abandoned",                     [
+      [file,                  find,                                                           put];
+      ["kernel/src/serial.S", "    call serial_send
+    bnez a0, 6f
+7:
+    sd zero, 80(sp)
+", "    call serial_send
+7:
+    sd zero, 80(sp)
+"]
+    ]],
+  [old_await_branch,             test/stuck, "sound: exit status",                                  [
+      [file,                 find,                                                                                                         put];
+      ["kernel/src/timer.S", "    li s1, 0
+    beqz s0, 7f                             # nothing left to await: 0, through the teardown
+", "    li a0, 0
+    beqz s0, 9f
+"]
+    ]],
+  [source_bound_removed,         test/harts, "many_sources: ",                                      [
+      [file,               find,                                                                                                                                                             put];
+      ["kernel/src/aia.S", "    li t0, APLIC_SOURCES_MAX
+    li a1, AIA_TOO_MANY
+    bgtu a0, t0, 90f                        # past sourcecfg[1023]: aia_root would write other registers
+", ""]
+    ]]
+]

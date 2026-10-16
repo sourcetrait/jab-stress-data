@@ -1,0 +1,66 @@
+[
+  {
+    name: no_unknown,
+    program: test/spectable,
+    expect: "unknown: refused",
+    edits: [
+      {file: "sdk/nu/jab.nu", find: "let unknown = ($present | where {|c| $c not-in $named } | each {|c| $\"(field-path $at $c): a field the type does not name\" })", put: "let unknown = []"}
+    ]
+  },
+  {
+    name: case_sensitive,
+    program: test/spectable,
+    expect: "twice_case: refused",
+    edits: [
+      {file: "sdk/nu/jab.nu", find: "| group-by {|r| $r.row.name | str trim | str lowercase }", put: "| group-by {|r| $r.row.name | str trim }"}
+    ]
+  },
+  {
+    name: no_spec_inputs,
+    program: test/spectable,
+    expect: "the program listing specs builds again after a change to the type alone",
+    edits: [
+      {file: "sdk/nu/jab.nu", find: "++ [$c.manifest_path $m.link] ++ $specs)", put: "++ [$c.manifest_path $m.link])"}
+    ]
+  },
+  {
+    name: data_only_input,
+    program: test/spectable,
+    expect: "the program listing specs builds again after a change to the type alone",
+    edits: [
+      {file: "sdk/nu/jab.nu", find: "let files = [($asset | path join \"spec.nuon\") ($asset | path join \"spec.nutype\")]", put: "let files = [($asset | path join \"spec.nuon\")]"}
+    ]
+  },
+  {
+    name: no_zero_vram,
+    program: test/spectable,
+    expect: "vram_zero: refused",
+    edits: [
+      {file: "sdk/nu/jab.nu", find: "let vram = (if \"vram\" in $named and (do $sizes $r.row.vram) and $r.row.vram <= 0B {", put: "let vram = (if false {"}
+    ]
+  },
+  {
+    name: nested_unchecked,
+    program: test/spectable,
+    expect: "missing_nested: refused",
+    edits: [
+      {file: "sdk/nu/jab.nu", find: "\"record\" => (record-problems $value $schema.fields $at),", put: "\"record\" => [],"}
+    ]
+  },
+  {
+    name: empty_allowed,
+    program: test/spectable,
+    expect: "none: refused",
+    edits: [
+      {file: "sdk/nu/jab.nu", find: "if ($rows | is-empty) { error make {msg: $\"($data): no spec in it\"} }", put: ""}
+    ]
+  },
+  {
+    name: name_unchecked,
+    program: test/spectable,
+    expect: "unnamed: refused",
+    edits: [
+      {file: "sdk/nu/jab.nu", find: "let unnamed = ($labelled | where {|r| ($r.row.name | str trim) == \"\" } | each {|r| $\"($r.label): name empty\" })", put: "let unnamed = []"}
+    ]
+  }
+]

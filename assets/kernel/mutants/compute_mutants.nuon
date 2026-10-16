@@ -1,0 +1,186 @@
+[
+  [name,                 program,         expect,                                            edits];
+  [bands_from_zero,      example/workers, "Proof: 2 workers' rows",                          [
+      [file,                         find,                                                                                                       put];
+      ["example/workers/src/main.S", "    mv s6, s3                               # its first band its index, each next the workers' count on
+", "    li s6, 0
+"]
+    ]],
+  [last_band_missed,     example/workers, "Proof: 1 workers' rows",                          [
+      [file,                         find,                                    put];
+      ["example/workers/src/main.S", "    li t0, BANDS
+    bgeu s6, t0, 4f
+", "    li t0, (BANDS - 1)
+    bgeu s6, t0, 4f
+"]
+    ]],
+  [twice_xy_halved,      example/workers, "Proof: row 100 as computed here",                 [
+      [file,                         find,                                                       put];
+      ["example/workers/src/main.S", "    srai t6, t6, (FIX - 1)                  # twice x y
+", "    srai t6, t6, FIX
+"]
+    ]],
+  [bars_before_hash,     example/workers, "Proof: one image whatever the workers",           [
+      [file,                         find,                                                                                           put];
+      ["example/workers/src/main.S", "    mv s1, a0                               # the frame's ticks
+    li a0, JAB_DISPLAY_BASE
+", "    mv s1, a0                               # the frame's ticks
+    call draw_bars
+    li a0, JAB_DISPLAY_BASE
+"]
+    ]],
+  [no_join,              example/workers, "Proof: 1 workers' rows",                          [
+      [file,                         find,                                 put];
+      ["example/workers/src/main.S", "    mv s3, a0
+    jab.job.join s3
+", "    mv s3, a0
+"]
+    ]],
+  [owner_by_band,        example/workers, "Proof: every row of 1 workers' frame owned",      [
+      [file,                         find,                                                                                put];
+      ["example/workers/src/main.S", "    add t0, t0, s7
+    sb s1, 0(t0)                            # the row's owner
+", "    add t0, t0, s6
+    sb s1, 0(t0)                            # the row's owner
+"]
+    ]],
+  [serial_dispatch,      example/workers, "Bench: the worker harts busy at once",            [
+      [file,                         find,                                                                                                                                                 put];
+      ["example/workers/src/main.S", "    sd s2, ARG_INDEX(t2)                    # its index among the frame's workers
+    jab.job.publish t2, zero, zero, zero, t3
+    addi s2, s2, 1
+", "    sd s2, ARG_INDEX(t2)                    # its index among the frame's workers
+    jab.job.publish t2, zero, zero, zero, t3
+    mv s3, t2
+    addi a0, s2, 1
+    call mask_n
+    jab.sys.worker.wake a0
+    jab.job.join s3
+    addi s2, s2, 1
+"]
+    ]],
+  [locked_bands,         example/workers, "Bench: the last frame's bands overlapping",       [
+      [file,                         find,                                                                 put];
+      ["example/workers/src/main.S", "    li s5, 0                                # its rows this frame
+", "    la t0, band_lock
+91:
+    li t1, 1
+    amoswap.w.aq t2, t1, (t0)
+    bnez t2, 91b
+    li s5, 0                                # its rows this frame
+"],
+      ["example/workers/src/main.S", "4:
+    sd s5, OWN_ROWS(s0)
+",                                        "4:
+    la t0, band_lock
+    amoswap.w.rl zero, zero, (t0)
+    sd s5, OWN_ROWS(s0)
+"],
+      ["example/workers/src/main.S", "owners:
+    .skip JAB_DISPLAY_HEIGHT
+",                              "owners:
+    .skip JAB_DISPLAY_HEIGHT
+.balign 8
+band_lock:
+    .skip 8
+"]
+    ]],
+  [bench_frame_differs,  example/workers, "Bench: the last frame's hash the proof's",        [
+      [file,                         find,                                                                                                    put];
+      ["example/workers/src/main.S", "    li a2, STEP0
+    call set_view
+    rdtime s8                               # the stretch's start
+", "    li a2, (STEP0 + 1)
+    call set_view
+    rdtime s8                               # the stretch's start
+"]
+    ]],
+  [total_uncounted,      example/workers, "Bench: each worker's rows a third",               [
+      [file,                         find,                        put];
+      ["example/workers/src/main.S", "    sd t0, OWN_TOTAL(s0)
+", "    nop
+"]
+    ]],
+  [owner_is_index,       example/workers, "Bench: every row its band's worker's",            [
+      [file,                         find,                                                             put];
+      ["example/workers/src/main.S", "    sb s1, 0(t0)                            # the row's owner
+", "    sb s3, 0(t0)
+"]
+    ]],
+  [band_times_swapped,   example/workers, "Bench: every band's interval forward in time",    [
+      [file,                         find,                                                                                  put];
+      ["example/workers/src/main.S", "    sd s9, 0(t1)                            # the band's interval
+    sd t0, 8(t1)
+", "    sd t0, 0(t1)
+    sd s9, 8(t1)
+"]
+    ]],
+  [awaits_by_polling,    example/workers, "Animation: hart 2's worker",                      [
+      [file,                         find,                                                                             put];
+      ["example/workers/src/main.S", "    jab.job.await s0, s2
+    bnez a0, 9f                             # a stop
+", "    lw s2, JAB_JOB_GEN(s0)
+    lw t0, JAB_JOB_DONE(s0)
+    beq s2, t0, 1b
+    fence r, rw
+"]
+    ]],
+  [animation_late,       example/workers, "Animation: one worker first, hart 1 at work",     [
+      [file,                         find,                                                                            put];
+      ["example/workers/src/main.S", "animate:
+    rdtime s7                               # the animation's start
+", "animate:
+    rdtime t0
+    li t1, (3 * JAB_TIME_HZ)
+    add t1, t0, t1
+92:
+    rdtime t0
+    bltu t0, t1, 92b
+    rdtime s7                               # the animation's start
+"]
+    ]],
+  [animation_one_worker, example/workers, "Animation: more than one worker by nine seconds", [
+      [file,                         find,                                                                                              put];
+      ["example/workers/src/main.S", "    remu t1, t1, t2
+    addi s0, t1, 1                          # the workers for this stretch
+", "    li t1, 0
+    addi s0, t1, 1                          # the workers for this stretch
+"]
+    ]],
+  [bar_colour_shifted,   example/workers, "Animation: the bars in the deal's pattern",       [
+      [file,                         find,                                    put];
+      ["example/workers/src/main.S", "    lbu t4, 0(t0)
+    andi t4, t4, 7
+", "    lbu t4, 0(t0)
+    addi t4, t4, 1
+    andi t4, t4, 7
+"]
+    ]],
+  [caption_outside_box,  example/workers, "Animation: the caption's text inside its box",    [
+      [file,                         find,                             put];
+      ["example/workers/src/main.S", ".set TEXT_X, (BAR_WIDTH + 16)
+", ".set TEXT_X, (BAR_WIDTH + 200)
+"]
+    ]],
+  [hot_straddles,        example/workers, "Hot: mandel_row within one page of code",         [
+      [file,                         find,                        put];
+      ["example/workers/src/main.S", ".balign 4096
+mandel_row:
+", ".balign 4096
+    .skip 4000
+mandel_row:
+"]
+    ]],
+  [ecall_in_row,         example/workers, "Hot: no kernel call in mandel_row",               [
+      [file,                         find,                                           put];
+      ["example/workers/src/main.S", "    addi a2, a2, -1
+    bnez a2, 1b
+    ret
+", "    addi a2, a2, -1
+    bnez a2, 1b
+    li a7, JAB_SYS_HARTS
+    ecall
+    ret
+"]
+    ]]
+]

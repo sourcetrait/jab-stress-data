@@ -1,0 +1,10 @@
+[
+  [name,                 program,     expect,                       edits];
+  [random_doorbell_bare, test/purity, "OrderCheck: every doorbell", [
+      [file,                  find,                                       put];
+      ["kernel/src/random.S", "    fence ow, o
+    sw zero, VIRTIO_MMIO_QUEUE_NOTIFY(a0)
+", "    sw zero, VIRTIO_MMIO_QUEUE_NOTIFY(a0)
+"]
+    ]]
+]
