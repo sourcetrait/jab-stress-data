@@ -1,0 +1,23 @@
+--- test/framecap
+framecap: 63 refused; QEMU used 0.13 CPU seconds over 1.31 seconds
+Error: nu::shell::error
+
+  x the batched whole flip's flush answered OK after its refused transfer
+  | counts its present: 2 after 2
+  | These are not equal.
+    ,-[/home/box/proj/sourcetrait/jab/test/framecap/test/test.nu:73:22]
+ 72 |     if $batched {
+ 73 |         assert equal $flip.a3 ($old.a3 + 1) $"the batched whole flip's flush answered OK after its refused transfer counts its present: ($flip.a3) after ($old.a3)"
+    :                      ^^^^|^^^ ^^^^^^|^^^^^^
+    :                          |          `-- right: 3
+    :                          `-- left: 2
+ 74 |     } else {
+    `----
+
+╭───┬───────────────┬────────╮
+│ # │    program    │ passed │
+├───┼───────────────┼────────┤
+│ 0 │ test/framecap │ false  │
+╰───┴───────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

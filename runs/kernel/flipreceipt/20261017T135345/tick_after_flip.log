@@ -1,0 +1,20 @@
+--- test/framecap
+Error: nu::shell::error
+
+  x a presented flip's stamp at or past its tick: {kind: 2, status: 0, before:
+  | 163184, a1: 163267, a2: 197260, a3: 2, after: 167244}
+     ,-[/home/box/proj/sourcetrait/jab/test/framecap/test/test.nu:167:16]
+ 166 |     if $r.status in [0 3] {
+ 167 |         assert ($r.a1 >= $r.a2) $"a presented flip's stamp at or past its tick: ($r)"
+     :                ^^^^^^^^|^^^^^^^
+     :                        `-- It is not true.
+ 168 |     }
+     `----
+
+╭───┬───────────────┬────────╮
+│ # │    program    │ passed │
+├───┼───────────────┼────────┤
+│ 0 │ test/framecap │ false  │
+╰───┴───────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

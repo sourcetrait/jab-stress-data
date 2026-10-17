@@ -1,0 +1,10 @@
+--- test/framecap
+framecap: 63 refused; QEMU used 0.13 CPU seconds over 1.31 seconds
+framecap: receipts on 135 flips; the whole flip batched, its refused transfer's flush counted, the clock untouched by either; the list's present counted, the long list's not; the stuck source's after-check zeros
+framecap: ok
+╭───┬───────────────┬────────╮
+│ # │    program    │ passed │
+├───┼───────────────┼────────┤
+│ 0 │ test/framecap │ true   │
+╰───┴───────────────┴────────╯
+

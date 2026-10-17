@@ -1,0 +1,38 @@
+{
+ call: "b2jGxUZC0lW",
+ mark: JAB_RUNNER_MARK,
+ stage: ".jabstage.",
+ root: /home/box/proj/sourcetrait/jab,
+ commit: "82992d2cbea03b9dc582a19b611ad15804513ce3",
+ set: "/home/box/proj/sourcetrait/jab-stress-data/assets/kernel/mutants/flipreceipt_mutants.nuon",
+ "set_sha256": "bef2cbb60dc0f3f5c83dc7a1d092ae1c06397d880c9e3823de560ec1090ccebd",
+ only: [
+  ordinal_unraised,
+  list_merged_answer,
+  tick_after_flip,
+  failed_stamp_kept
+ ],
+ control: {
+  program: test/framecap,
+  ok: "framecap: ok",
+  symbols: ""
+ },
+ deadline: 300,
+ margin: 15,
+ kill_after: 5,
+ hold: {
+  at: "",
+  seconds: 0
+ },
+ started: "2026-10-17T13:53:45.124+0000",
+ paths: [
+  [file,                   committed,                                                          mutated];
+  ["kernel/src/display.S", "109c8d420117986fd42d08581ebcf2d20c4f1495c10c988b0838e368115d8394", [
+    [mutant,             hash];
+    [ordinal_unraised,   "a09e3ff914eb5cc97dca634f0a175f74c3bca2f638a40acc15e732548e8f3746"],
+    [list_merged_answer, "5e81f73925873a8bd12c460c5386d50d2f2215d734ce12b1a67258195cafdc9c"],
+    [tick_after_flip,    "38731797f1cc94fe71dd2b5e73f06bc87910938b17ebfa2f9001bb85d1a4cee7"],
+    [failed_stamp_kept,  "948f779aa60035a0b47d270a6716b1dec2df595bf454ec215f37095b0c758fdb"]
+   ]]
+ ]
+}

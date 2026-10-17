@@ -1,0 +1,52 @@
+{
+ control_ok: true,
+ every: true,
+ restored: true,
+ cleaned: true,
+ caught: 2,
+ unrun: [
+
+ ],
+ head: "82992d2cbea03b9dc582a19b611ad15804513ce3",
+ logs: "/home/box/tmp/ai/two/7ika2djI60P/submit/sets/submitwait_batched",
+ deadline: 300,
+ swept: 0,
+ results: [
+  [name,             applied, exit, class,  expected, title,                                                                                                                                                                                                                                                                                                    seconds, swept];
+  [control,          true,    0,    passed, passed,   "",                                                                                                                                                                                                                                                                                                       15.1,    0],
+  [merged_answer,    true,    1,    caught, caught,   "the batched whole flip's flush answered OK after its refused transfer counts its present: 2 after 2 These are not equal.",                                                                                                                                                                               5.6,     0],
+  [clock_on_refusal, true,    1,    caught, caught,   "the refused transfer leaves the clock where it stood, the next flip presenting at its tick: {kind: 18, status: 1, before: 6371616, a1: 6372813, a2: 6531395, a3: 3, after: 6373342} after {kind: 14, status: 3, before: 6366056, a1: 6366325, a2: 6364729, a3: 3, after: 6371099} These are not equal.", 5.6,     0]
+ ],
+ misses: [
+
+ ],
+ call: "beGP93KIagp",
+ started: "2026-10-17T13:52:37.673+0000",
+ sweeps: [
+  [name,             records, left,    scans, ended];
+  [control,          [
+
+   ], [
+
+   ], 2,     clean],
+  [merged_answer,    [
+
+   ], [
+
+   ], 2,     clean],
+  [clock_on_refusal, [
+
+   ], [
+
+   ], 2,     clean]
+ ],
+ status: [
+
+ ],
+ status_after: [
+
+ ],
+ staged_after: [
+
+ ]
+}

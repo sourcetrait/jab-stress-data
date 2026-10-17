@@ -1,0 +1,64 @@
+{
+ control_ok: true,
+ every: true,
+ restored: true,
+ cleaned: true,
+ caught: 4,
+ unrun: [
+
+ ],
+ head: "82992d2cbea03b9dc582a19b611ad15804513ce3",
+ logs: "/home/box/tmp/ai/two/7ika2djI60P/submit/sets/flipreceipt",
+ deadline: 300,
+ swept: 0,
+ results: [
+  [name,               applied, exit, class,  expected, title,                                                                                                                                                                           seconds, swept];
+  [control,            true,    0,    passed, passed,   "",                                                                                                                                                                              15.2,    0],
+  [ordinal_unraised,   true,    1,    caught, caught,   "the present ordinal rises by one a presented flip and a print: {kind: 2, status: 0, before: 291292, a1: 291488, a2: 32273, a3: 0, after: 299360} after 1 These are not equal.", 2.1,     0],
+  [list_merged_answer, true,    1,    caught, caught,   "the list's flush answered OK counts its present: 2 after 2 These are not equal.",                                                                                               10.0,    0],
+  [tick_after_flip,    true,    1,    caught, caught,   "a presented flip's stamp at or past its tick: {kind: 2, status: 0, before: 163184, a1: 163267, a2: 197260, a3: 2, after: 167244}",                                              2.2,     0],
+  [failed_stamp_kept,  true,    1,    caught, caught,   "a refused-before-the-check flip observes no decision: {kind: 17, status: 3, before: 41366180, a1: 1515870810, a2: 0, a3: 2, after: 41366778} These are not equal.",             15.1,    0]
+ ],
+ misses: [
+
+ ],
+ call: "b2jGxUZC0lW",
+ started: "2026-10-17T13:53:45.124+0000",
+ sweeps: [
+  [name,               records, left,    scans, ended];
+  [control,            [
+
+   ], [
+
+   ], 2,     clean],
+  [ordinal_unraised,   [
+
+   ], [
+
+   ], 2,     clean],
+  [list_merged_answer, [
+
+   ], [
+
+   ], 2,     clean],
+  [tick_after_flip,    [
+
+   ], [
+
+   ], 2,     clean],
+  [failed_stamp_kept,  [
+
+   ], [
+
+   ], 2,     clean]
+ ],
+ status: [
+
+ ],
+ status_after: [
+
+ ],
+ staged_after: [
+
+ ]
+}

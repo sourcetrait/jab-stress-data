@@ -1,0 +1,21 @@
+[
+  [name,             program,       expect,                                                                                     edits];
+  [merged_answer,    test/framecap, "the batched whole flip's flush answered OK after its refused transfer counts its present", [
+      [file,                   find,                                                                                            put];
+      ["kernel/src/display.S", "    lwu t1, VIRTIO_GPU_HDR_TYPE(t2)
+    li t2, VIRTIO_GPU_RESP_OK_NODATA
+    bne t1, t2, 18f
+", "    bnez a0, 18f
+"]
+    ]],
+  [clock_on_refusal, test/framecap, "leaves the clock where it stood",                                                          [
+      [file,                   find,                                                   put];
+      ["kernel/src/display.S", "    li a1, 3
+    bnez a0, 3f
+    call frame_flipped
+", "    call frame_flipped
+    li a1, 3
+    bnez a0, 3f
+"]
+    ]]
+]

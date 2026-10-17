@@ -12,7 +12,7 @@
     [run,  "4e1819664e05e1a54565b89fb9c5262835acee96", jab,      "baseline.nuon"]
   ],
   kept: {
-    as: current,
-    why: "the latest whole run of the set, its first: each mutant caught at its own case"
+    as: last,
+    why: "the whole run before the current one, its first: each mutant caught at its own case"
   }
 }

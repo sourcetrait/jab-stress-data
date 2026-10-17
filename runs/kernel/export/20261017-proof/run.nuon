@@ -1,0 +1,19 @@
+{
+  set: export,
+  stamp: "20261017-proof",
+  task: SubmitWait,
+  scope: {
+    kind: whole,
+    ran: 2,
+    of: 2
+  },
+  builds: [
+    [part,                         build, checkout,  record];
+    ["kexport_82992d2",            null,  synthetic, "kexport_82992d2/release/provenance.nuon"],
+    ["kexport_82992d2-flip_batch", null,  synthetic, "kexport_82992d2-flip_batch/release/provenance.nuon"]
+  ],
+  kept: {
+    as: checkpoint,
+    why: "cited by SubmitWait.md: the kernel export's proof, each export at 82992d2, without symbols and with flip_batch, loading the bytes the checkout's own release build of that set loads"
+  }
+}
