@@ -1,0 +1,22 @@
+{
+ set: poolreader,
+ stamp: "20261017T062429",
+ task: ProbeRuns,
+ scope: {
+  kind: targeted,
+  ran: 2,
+  of: 21,
+  names: [
+   ad_schema_six_refused,
+   ad_schema_seven_refused
+  ]
+ },
+ builds: [
+  [part, build, checkout,  record];
+  [run,  null,  synthetic, unrecorded]
+ ],
+ kept: {
+  as: targeted,
+  why: "The schema 7 bump's admission slice: ad_schema_six_refused refitted to admission.nu's SCHEMAS [5 6 7] and the new ad_schema_seven_refused, through the pool readers' runner 2rM2CVU5KzA on the admission and poolmeasure batches beside a control, each failing at its own case; no whole run covers the slice"
+ }
+}

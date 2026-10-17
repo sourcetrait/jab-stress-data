@@ -1,0 +1,13 @@
+use /home/box/tmp/ai/two/7ika2djI60P/gm7/s0/mirror/game/fps/test/test.nu [gauge-rules]; gauge-rules /home/box/tmp/ai/two/7ika2djI60P/gm7/s0/rules/load_twice_unseen; print "rules: ok"
+Error: nu::shell::error
+
+  x two load records leaves the window incomplete: []
+      ,-[/home/box/tmp/ai/two/7ika2djI60P/gm7/s0/mirror/game/fps/test/test.nu:4276:16]
+ 4275 |         let mc = (do $measure $c.items)
+ 4276 |         assert ((not $mc.complete) and ($c.says in $mc.problems)) $"($c.name) leaves the window incomplete: ($mc.problems)"
+      :                ^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^
+      :                                         `-- It is not true.
+ 4277 |     }
+      `----
+
+error: recipe `rules-mirror` failed on line 39 with exit code 1

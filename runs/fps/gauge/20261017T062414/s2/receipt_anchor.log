@@ -1,0 +1,14 @@
+use /home/box/tmp/ai/two/7ika2djI60P/gm7/s2/mirror/game/fps/test/test.nu [gauge-rules]; gauge-rules /home/box/tmp/ai/two/7ika2djI60P/gm7/s2/rules/receipt_anchor; print "rules: ok"
+Error: nu::shell::error
+
+  x a well-formed capture at schema 7: [] [1 frames whose present ordinal
+  | breaks the sequence: frame 0 skip, 4 where 3]
+      ,-[/home/box/tmp/ai/two/7ika2djI60P/gm7/s2/mirror/game/fps/test/test.nu:4267:12]
+ 4266 |     assert equal ($m7.rows | each {|r| [$r.receipt_stamp $r.receipt_tick $r.ordinal $r.first_ordinal] }) [[100005 100000 4 4] [300005 300000 5 5] [500005 500000 6 6]] "each frame's receipt read at its offsets, its stamp, tick, ordinal, and first attempt's"
+ 4267 |     assert ($m7.complete and $m7.valid and $m7.schema == 7 and $m7.nonce_set and (not $m7.late_nonce)) $"a well-formed capture at schema 7: ($m7.problems) ($m7.invalid)"
+      :            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      :                                                         `-- It is not true.
+ 4268 |     let window7 = [
+      `----
+
+error: recipe `rules-mirror` failed on line 39 with exit code 1

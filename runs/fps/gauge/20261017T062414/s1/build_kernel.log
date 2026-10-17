@@ -1,0 +1,18 @@
+use /home/box/tmp/ai/two/7ika2djI60P/gm7/s1/mirror/game/fps/test/test.nu [gauge-rules]; gauge-rules /home/box/tmp/ai/two/7ika2djI60P/gm7/s1/rules/build_kernel; print "rules: ok"
+Error: nu::shell::error
+
+  x one image's runs on two kernels under two labels are two builds: one
+  | build, {image: kernel_image, cadence: 0, machine: null, workers: 2, grain:
+  | 0, route: null, selection: forced, probed: false}, is labelled kernel_a
+  | and kernel_b; a build has one name
+  | These are not equal.
+      ,-[/home/box/tmp/ai/two/7ika2djI60P/gm7/s1/mirror/game/fps/test/test.nu:4684:18]
+ 4683 |     let two_kernels = (try { gauge compare [$kernel_a $kernel_b] "draw_us" 50 } catch {|e| { refusal: $e.msg } })
+ 4684 |     assert equal ($two_kernels | get -o table | default [] | get build | uniq) [kernel_a kernel_b] $"one image's runs on two kernels under two labels are two builds: ($two_kernels | get -o refusal)"
+      :                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ^^^^^^^^^|^^^^^^^^^
+      :                                                |                                        `-- right: [kernel_a, kernel_b]
+      :                                                `-- left: []
+ 4685 |     let kernels_one = (fx-request-report ($requests | path join "kernels_1") "kernels_1" $forced_summary [{ run: 1, id: (do $kernel_id "kernel_one"), items: $forced_items }])
+      `----
+
+error: recipe `rules-mirror` failed on line 39 with exit code 1

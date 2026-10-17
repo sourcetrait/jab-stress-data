@@ -1,0 +1,18 @@
+{
+ set: dumpreader,
+ stamp: "20261017T062438",
+ task: ProbeRuns,
+ scope: {
+  kind: whole,
+  ran: 15,
+  of: 15
+ },
+ builds: [
+  [part, build, checkout,  record];
+  [run,  null,  synthetic, unrecorded]
+ ],
+ kept: {
+  as: current,
+  why: "The dump reader's own mutants, fps/mutants/reader_mutants.nu over tiles.nu at schema 7 (its SCHEMA moved from 6), each a mirror read over builder_api.out, the builder launch's capture from the suite at jab 873d691's tree, and alter_probe.nu's alterations of it; every mutant applied once and losing its own fixture, the runner's printed table kept as stdout.nuon"
+ }
+}

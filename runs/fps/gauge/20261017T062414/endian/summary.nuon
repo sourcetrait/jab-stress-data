@@ -1,0 +1,3 @@
+{control: {exit: 0, ok: true, tail: "gauge: absent: run 1: complete, valid, median 1.8 ms under the 15 ms ceiling, a tail of 0 of 3 frames at or over it; 3 frames to frame 2 at schema 4, critical 1.8 / 1.8 / - / - / 1.8 ms; seeded; cadence 0; workers 2 at grain 0
+gauge:   run 1 played: rounds none; androids none; struck 0; pickups 0; window unknown, audio unknown
+gauge:   run 1 play: median 1.8 ms under the ceiling, a tail of 0 of 3; "}, restored: true, every: true, results: [[name, applied, exit, failed_where]; [nonce_frame_endian, true, 1, true]], misses: []}
