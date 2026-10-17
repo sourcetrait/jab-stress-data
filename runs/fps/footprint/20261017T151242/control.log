@@ -1,0 +1,9 @@
+--- game/fps/test/footprint
+footprint: 12 cases held to the exact arithmetic, 9 blocks read back as laid
+footprint: ok
+╭───┬─────────────────────────┬────────╮
+│ # │         program         │ passed │
+├───┼─────────────────────────┼────────┤
+│ 0 │ game/fps/test/footprint │ true   │
+╰───┴─────────────────────────┴────────╯
+
