@@ -23,5 +23,15 @@
   {name: "fragment_refused", program: "test/probe", expect: "fragment_accepted:", edits: [{file: "sdk/nu/jab.nu", find: "    let whole = ($text | split row (char nl) | drop 1)", put: "    let whole = (if ($text | str ends-with (char nl)) { $text | split row (char nl) | drop 1 } else { $text | split row (char nl) })"}]},
   {name: "metadata_apart", program: "test/probe", expect: "object_mixed:", edits: [{file: "sdk/nu/jab.nu", find: "    + 'object [0-9]+ (?:[0-9]+ [0-9]+ -?[0-9]+|- - -) .*'", put: "    + 'object [0-9]+ (?:[0-9]+|-) (?:[0-9]+|-) (?:-?[0-9]+|-) .*'"}]},
   {name: "notices_unrecognized", program: "test/probe", expect: "stopped_libsdl:", edits: [{file: "sdk/nu/jab.nu", find: "    + '|libSDL2 not found|symbol not found'\n", put: ""}]},
-  {name: "stop_accepted", program: "test/probe", expect: "stopped_libsdl:", edits: [{file: "sdk/nu/jab.nu", find: "    if not ($notices | is-empty) {", put: "    if false {"}]}
+  {name: "stop_accepted", program: "test/probe", expect: "stopped_libsdl:", edits: [{file: "sdk/nu/jab.nu", find: "    if not ($notices | is-empty) {", put: "    if false {"}]},
+  {name: bundle_hashes_uncompared, program: test/probe, expect: "bundle_log_byte:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "        if $size != $f.size or $sha256 != $f.sha256 { do $refuse 1 \"the inventory\"", "        if false { do $refuse 1 \"the inventory\""]]},
+  {name: correspondence_unchecked, program: test/probe, expect: "bundle_inode:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "            if ($o | get $k) != ($e | get -o $k) { do $refuse 2 \"the correspondence\"", "            if false { do $refuse 2 \"the correspondence\""]]},
+  {name: sequence_uncompared, program: test/probe, expect: "bundle_event_altered:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "        if $pair.0 != $pair.1 { do $refuse 3 \"the sequence\"", "        if false { do $refuse 3 \"the sequence\""]]},
+  {name: replay_uncompared, program: test/probe, expect: "bundle_kind_altered:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "        if $got != $want { do $refuse 4 \"the replay\"", "        if false { do $refuse 4 \"the replay\""]]},
+  {name: pid_uncompared, program: test/probe, expect: "bundle_pid_altered:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "            if $read.process != $pid { do $refuse 5 \"the run\"", "            if false { do $refuse 5 \"the run\""]]},
+  {name: nonce_uncompared, program: test/probe, expect: "bundle_exchanged:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "            if $echoed != $nonce { do $refuse 5 \"the run\"", "            if false { do $refuse 5 \"the run\""]]},
+  {name: asked_port_dropped, program: test/probe, expect: "plumbing_api:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "    let api_on = ($api or (not ($send | is-empty)))", "    let api_on = (not ($send | is-empty))"]]},
+  {name: nonce_frame_sent, program: test/probe, expect: "plumbing_send:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "        sends: $send,
+", "        sends: (if ($send | is-empty) { $send } else { [{ at: 0sec, bytes: (nonce-hex $capture_nonce | decode hex) }] ++ $send }),
+"]]}
 ]
