@@ -1,0 +1,18 @@
+{
+  set: flipreceipt,
+  stamp: "20261017T034627",
+  task: FlipReceipt,
+  scope: {
+    kind: whole,
+    ran: 4,
+    of: 4
+  },
+  builds: [
+    [part, build,                                      checkout, record];
+    [run,  "4e1819664e05e1a54565b89fb9c5262835acee96", jab,      "baseline.nuon"]
+  ],
+  kept: {
+    as: current,
+    why: "the latest whole run of the set, its first: each mutant caught at its own case"
+  }
+}
