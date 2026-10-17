@@ -1,0 +1,73 @@
+{
+  record: "/home/box/proj/sourcetrait/jab-stress-data/runs/sdk/sdl/20261015T163249",
+  captured: {
+    jab: "beafb5b64866e18636d60cc4e69d138a512161de",
+    workbench: "baca291a22874c8c8b8cc7d56d06b610471768fd"
+  },
+  reread_by: {
+    jab: "9c1dc7d56be3bcc95a07c1e021a8bdfa9c416a43",
+    workbench: "25908227936f20ffb60d6cd255f30d2233a5cafa"
+  },
+  monolithic: {
+    reread: true,
+    ok: true,
+    traced: {
+      flushes: 619,
+      set_scanouts: 1
+    },
+    read: {
+      uploads: 619,
+      switches: 3,
+      console: 2,
+      renders: 366
+    },
+    flush_windows: [
+      [uploads, windows];
+      [1,       619]
+    ],
+    flips: 619,
+    checks: {
+      one_upload_per_flush: true,
+      none_elsewhere: true,
+      one_switch_per_set_scanout: true,
+      reset_through_reset_bh: true,
+      virtio_gpu_in_executable: true,
+      flips_are_groups: true,
+      switches_as_measured: true,
+      console_as_measured: true
+    },
+    discrepancies: [
+
+    ]
+  },
+  modular: {
+    reread: true,
+    ok: true,
+    read: {
+      uploads: 713,
+      switches: 3,
+      console: 2,
+      renders: 350
+    },
+    corroborated: 713,
+    flips: 712,
+    checks: {
+      virtio_gpu_in_module: true,
+      uploads_agree: true,
+      uploads_corroborated: true,
+      switches_agree: true,
+      console_agree: true,
+      nothing_else: true,
+      switches_as_measured: true,
+      console_as_measured: true
+    },
+    discrepancies: [
+
+    ]
+  },
+  stripped: {
+    reread: false,
+    why: "the stripped copy its log names is gone: /home/box/tmp/ai/two/9TndNPTGzBb/probe_controls/work-20261015T163249/stripped/bin/qemu-system-riscv64"
+  },
+  ok: true
+}

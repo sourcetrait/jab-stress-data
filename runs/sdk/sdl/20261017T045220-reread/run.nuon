@@ -1,0 +1,22 @@
+{
+  set: sdl,
+  stamp: "20261017T045220-reread",
+  task: CaptureBundle,
+  scope: {
+    kind: targeted,
+    ran: 2,
+    of: 3,
+    names: [
+      monolithic,
+      modular
+    ]
+  },
+  builds: [
+    [part,             build,                                      checkout, record];
+    ["reader_9c1dc7d", "9c1dc7d56be3bcc95a07c1e021a8bdfa9c416a43", jab,      "reread.nuon"]
+  ],
+  kept: {
+    as: checkpoint,
+    why: "the logs of 20261015T163249 reread by the probe's reader at jab 9c1dc7d, CaptureBundle's, cited as evidence by HostWatch, plan/agenda/HostWatch.md"
+  }
+}
