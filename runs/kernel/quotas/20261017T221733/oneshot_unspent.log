@@ -1,0 +1,22 @@
+--- test/sound
+sound: 1.0 seconds of 439.5 Hz at 16000 recorded from the device; QEMU used 0.16 CPU seconds over 1.72 seconds; submitted 82 returned 82 exhausted 0
+Error: nu::shell::error
+
+  x the late run's exit status, with the UART:
+  | These are not equal.
+    ,-[/home/box/proj/sourcetrait/jab/test/sound/test/test.nu:35:18]
+ 34 |     let late = (jab launch --kernel $kernel --image $image --out ($out | path join "late") --set $set --sound --seconds 15 --bootargs "jab.soundlate=300")
+ 35 |     assert equal $late.status 0 $"the late run's exit status, with the UART: ($late.serial)"
+    :                  ^^^^^^|^^^^^ |
+    :                        |      `-- right: 0
+    :                        `-- left: 124
+ 36 |     assert (not ($late.serial | str contains "jab: sound stalled")) $"sound: the late run's stream went on past its empty queue: ($late.serial)"
+    `----
+
+╭───┬────────────┬────────╮
+│ # │  program   │ passed │
+├───┼────────────┼────────┤
+│ 0 │ test/sound │ false  │
+╰───┴────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

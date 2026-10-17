@@ -1,0 +1,36 @@
+{
+ call: "aohiinhG1x5",
+ mark: JAB_RUNNER_MARK,
+ stage: ".jabstage.",
+ root: /home/box/proj/sourcetrait/jab,
+ commit: "13a9d6f87ea51388b5f6ddc07373d3a9c967e87c",
+ set: "/home/box/proj/sourcetrait/jab-stress-data/assets/kernel/mutants/quotas_mutants.nuon",
+ "set_sha256": "04b4c200fae48b7d08e2ae595bea672ca9111cbd02e5f1ab173f0ae8597bb5ab",
+ only: [
+  increment_removed,
+  check_at_entry,
+  oneshot_unspent
+ ],
+ control: {
+  program: test/sound,
+  ok: "sound: ok",
+  symbols: ""
+ },
+ deadline: 540,
+ margin: 15,
+ kill_after: 5,
+ hold: {
+  at: "",
+  seconds: 0
+ },
+ started: "2026-10-17T22:17:33.826+0000",
+ paths: [
+  [file,                 committed,                                                          mutated];
+  ["kernel/src/sound.S", "06a1451a74a4f603a1008f214a53eb031a25fbc3244c1d9fa2cc9dd0a39ed58f", [
+    [mutant,            hash];
+    [increment_removed, "4e431068a3dcdd0424962ec7377d5a5ae85d4e4e54ca710bb55ed3d59d84513f"],
+    [check_at_entry,    "8fe6c5c59f507ba7b5dad407b4edeb55709239b21b461df7b835d6cfd7c613d9"],
+    [oneshot_unspent,   "074ef52181d0e1b4a17f07e9f72e1dc2e44900db0e736ef3d52779859536b3c0"]
+   ]]
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ control_ok: true,
+ every: true,
+ restored: true,
+ cleaned: true,
+ caught: 3,
+ unrun: [
+
+ ],
+ head: "13a9d6f87ea51388b5f6ddc07373d3a9c967e87c",
+ logs: "/home/box/tmp/ai/two/7ika2djI60P/quotas/mutants2",
+ deadline: 540,
+ swept: 0,
+ results: [
+  [name,              applied, exit, class,  expected, title,                                                                                                                              seconds, swept];
+  [control,           true,    0,    passed, passed,   "",                                                                                                                                 5.9,     0],
+  [increment_removed, true,    1,    caught, caught,   "sound: the late service alone found its queue empty: {submitted: 82, returned: 82, failed: 0, exhausted: 0} These are not equal.", 5.2,     0],
+  [check_at_entry,    true,    1,    caught, caught,   "sound: the late service alone found its queue empty: {submitted: 82, returned: 82, failed: 0, exhausted: 0} These are not equal.", 5.2,     0],
+  [oneshot_unspent,   true,    1,    caught, caught,   "the late run's exit status, with the UART: These are not equal.",                                                                  18.3,    0]
+ ],
+ misses: [
+
+ ],
+ call: "aohiinhG1x5",
+ started: "2026-10-17T22:17:33.826+0000",
+ sweeps: [
+  [name,              records, left,    scans, ended];
+  [control,           [
+
+   ], [
+
+   ], 2,     clean],
+  [increment_removed, [
+
+   ], [
+
+   ], 2,     clean],
+  [check_at_entry,    [
+
+   ], [
+
+   ], 2,     clean],
+  [oneshot_unspent,   [
+
+   ], [
+
+   ], 2,     clean]
+ ],
+ status: [
+
+ ],
+ status_after: [
+
+ ],
+ staged_after: [
+
+ ]
+}
