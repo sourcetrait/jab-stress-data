@@ -1,0 +1,13 @@
+{
+  profile: paired,
+  capture_nonce: 5643734363094098368,
+  qemu_pid: 534593,
+  sdl_log: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/example/walk/probe/sdl.log",
+  shim: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/shim/release/libjabshim_sdl.so",
+  window: "sdl,gl=on",
+  api: true,
+  sends: [
+    [at,  length, "sha256"];
+    [0.2, 16,     "d4c2677ac15a25d25f7891513e4b8d1cfd6ee5773aa72484ade567f1f0d22c0f"]
+  ]
+}

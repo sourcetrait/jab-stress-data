@@ -1,0 +1,21 @@
+{
+ set: walkcadence,
+ stamp: "20261017T074939",
+ task: WalkCadence,
+ scope: {
+  kind: targeted,
+  ran: 1,
+  of: 1,
+  names: [
+   "paired probe, cadence and timing, traced"
+  ]
+ },
+ builds: [
+  [part, build, checkout, record];
+  [run,  null,  jab,      "bundle/bundle.nuon"]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "walk's first paired, traced CADENCE capture, `just do probe sdl example/walk --set cadence,timing --seconds 180 --trace` on jab 92354da's tree before its commit (the bundle's jab.nu SHA-256 the commit's, its reader naming b8b7cb0): the export read guest-only complete and valid, 5,984 frames over 120.03 s; the bundle refused at stage 5 by the trace's 5 ms window, upload 495 at 6.647 ms past its flush and before the next command, every upload inside its bracket; cited as evidence by CaptureBundle's fix plan TraceBracket"
+ }
+}

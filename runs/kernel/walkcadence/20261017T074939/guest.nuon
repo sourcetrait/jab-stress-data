@@ -1,0 +1,82 @@
+{
+ reader: "walk cadence",
+ mode: guest,
+ guest_only: true,
+ limits: [
+  "rdtime is elapsed time: a host stall inside a phase reads as that phase",
+  "the guest's records give intervals between its own clock's readings, and nothing of when the host showed a frame",
+  "attribution is within a run, by a stretch's own frames against the run's steady medians, never by comparing runs"
+ ],
+ complete: true,
+ valid: true,
+ faults: [
+
+ ],
+ nonce: 5643734363094098368,
+ reading: {
+  frames: 5984,
+  window_s: 120.0295047,
+  ended_by: "the duration",
+  flags: {
+   timing: true,
+   replay: false,
+   prepare: false,
+   test: false
+  },
+  frame_interval: {
+   median_ms: 16.6829,
+   "p95_ms": 35.3755,
+   count: 5983
+  },
+  presented_interval: {
+   median_ms: 16.9177,
+   "p95_ms": 35.2873,
+   count: 5982
+  },
+  phases: {
+   work: {
+    median_ms: 8.1021,
+    "p95_ms": 13.6939,
+    count: 5984
+   },
+   wait: {
+    median_ms: 6.5537,
+    "p95_ms": 16.9365,
+    count: 5984
+   },
+   call: {
+    median_ms: 2.7834,
+    "p95_ms": 6.7575,
+    count: 5983
+   }
+  },
+  presents: 5983,
+  k: {
+   eps: 10000,
+   period: 166666,
+   violations: 4088,
+   first: [
+    [index, witness, gap,     bound];
+    [2,     0,       323212,  323332],
+    [52,    51,      148025,  156666],
+    [77,    67,      1637518, 1656660],
+    [91,    90,      143228,  156666],
+    [116,   115,     125515,  156666],
+    [117,   115,     304726,  323332],
+    [118,   115,     465785,  489998],
+    [119,   115,     639340,  656664]
+   ]
+  },
+  workload: {
+   drawn: {
+    median: 432284,
+    "p95": 459331
+   },
+   rect_area: {
+    median: 400331,
+    "p95": 443050
+   },
+   enters_per_s: 0.9164413389435573
+  }
+ }
+}
