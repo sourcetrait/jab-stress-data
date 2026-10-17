@@ -1,0 +1,21 @@
+{
+  set: tilecensus,
+  stamp: "20261017T015424",
+  task: FpsSetsMoved,
+  scope: {
+    kind: targeted,
+    ran: 1,
+    of: 21,
+    names: [
+      tc_standing_valid
+    ]
+  },
+  builds: [
+    [part, build, checkout,  record];
+    [run,  null,  synthetic, unrecorded]
+  ],
+  kept: {
+    as: checkpoint,
+    why: "FpsSetsMoved's consumer run from the set's new home, the tile census reader runner 7SQJSudlVhg over assets/fps/mutants/tilecensus_mutants.nuon on the census_settled_w0 batch, its control and one representative, cited as evidence by MutantSetsHome's FpsSetsMoved"
+  }
+}
