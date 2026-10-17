@@ -1,0 +1,21 @@
+nu /home/box/proj/sourcetrait/jab-stress/fps/just/../../../jab/game/fps/test/test.nu --kernel /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel/jab.elf --image /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/fpsmoved_handoff/packets_interval_reset_at_tile/debug/fps.jab --out /home/box/tmp/ai/two/7ika2djI60P/fpsmoved/handoff_logs/interval_reset_at_tile --set DEBUG,HANDOFF,COUNT --assets /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/game/fps/fps.romfs
+Error: nu::shell::error
+
+  x under partial residency every pixel the tiled picture's or the lit one's:
+  | gradient_0_partial by 1 at most, 41601 pixels; gradient_1_partial by 1 at
+  | most, 50923 pixels; parity_0_partial by 25 at most, 378456 pixels;
+  | parity_1_partial by 22 at most, 405617 pixels; oblique_gradient_0_partial
+  | by 1 at most, 234 pixels; oblique_gradient_1_partial by 1 at most, 542
+  | pixels; oblique_gradient_2_partial by 1 at most, 1417 pixels;
+  | oblique_parity_0_partial by 23 at most, 5863 pixels;
+  | oblique_parity_1_partial by 24 at most, 12930 pixels;
+  | oblique_parity_2_partial by 21 at most, 27522 pixels
+      ,-[/home/box/proj/sourcetrait/jab-stress/fps/just/../../../jab/game/fps/test/test.nu:3334:12]
+ 3333 |     let residual = ($read | where {|r| $r.kind == "partial" and $r.residual.most != 0 })
+ 3334 |     assert ($residual | is-empty) $"under partial residency every pixel the tiled picture's or the lit one's: ($residual | each {|r| $'($r.name) by ($r.residual.most) at most, ($r.residual.differing) pixels' } | str join '; ')"
+      :            ^^^^^^^^^^^|^^^^^^^^^^
+      :                       `-- It is not true.
+ 3335 |     # the handoff head-on: through k the tiled picture within this
+      `----
+
+error: recipe `image-test` failed on line 13 with exit code 1

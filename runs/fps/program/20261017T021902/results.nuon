@@ -1,0 +1,14 @@
+{
+ control_ok: true,
+ every: true,
+ caught: 2,
+ results: [
+  [name,                   applied, built, exit, class,  expected, title];
+  [control,                true,    true,  0,    passed, passed,   ""],
+  [fallback_removed,       true,    true,  1,    caught, caught,   "the wall above k, 4, drawn by the lit loop, no tile read at level 5 under the gradient lumels: {us: 9492, sectors: 1, walls: 8, pieces: 4, planes: 2, openings: 0, sprites: 0, uncovered: 0, clear: 0, plane_us: 88, wall_us: 654, portal_us: 15, sprite_us: 1, raster_us: 8707, spans: 1080, pixels: 2073600"],
+  [interval_reset_at_tile, true,    true,  1,    caught, caught,   "under partial residency every pixel the tiled picture's or the lit one's: gradient_0_partial by 1 at most, 41601 pixels; gradient_1_partial by 1 at most, 50923 pixels; parity_0_partial by 25 at most, 378456 pixels; parity_1_partial by 22 at most, 405617 pixels; oblique_gradient_0_partial by 1 at most"]
+ ],
+ misses: [
+
+ ]
+}
