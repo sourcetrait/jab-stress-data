@@ -1,0 +1,20 @@
+{
+  set: footprint_levels,
+  stamp: "20261017T153736",
+  task: FootprintEstimate,
+  scope: {
+    kind: whole,
+    ran: 17,
+    of: 17
+  },
+  builds: [
+    [part, build, checkout, record];
+    [captures, null, synthetic, "images/footprint_images.nuon"],
+    [footprint_suite, null, jab, unrecorded],
+    [handoff_suite, null, jab, unrecorded]
+  ],
+  kept: {
+    as: current,
+    why: "the latest whole run of the set, its first: the seventeen views of footprint.nuon on export_5631b65's five debug images, every view read against the declared and the secant references and its pictures boxed, with the suite and the handoff set under FOOTPRINT on the checkout at 42cf49f and a61aab6; the screens and the rows stay in $XDGX_TMP_HOME/jab-stress/footprint/20261017T153736"
+  }
+}

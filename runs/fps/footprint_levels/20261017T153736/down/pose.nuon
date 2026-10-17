@@ -1,0 +1,179 @@
+{
+  pose: {
+    name: down,
+    map: "render_0",
+    x: 1.5,
+    y: 3.5,
+    z: 1.6,
+    yaw: 90,
+    pitch: -15,
+    roll: 0
+  },
+  disk: {
+    name: "render_0_still",
+    tree: "/home/box/tmp/jab-stress/footprint/20261017T153736/disk_render_0/tree/render_0_still",
+    disk: "/home/box/tmp/jab-stress/footprint/20261017T153736/disk_render_0/render_0_still.romfs",
+    "sha256": "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+    map: "/home/box/tmp/jab-stress/footprint/20261017T153736/disk_render_0/tree/render_0_still/map/render_0_still.jabfps.map"
+  },
+  export: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_5631b65",
+  commit: "5631b65372e691904a4f16086174998bb5e6d494",
+  tool: {
+    path: /home/box/proj/sourcetrait/jab/game/fps/rust/target/release/footprint,
+    "sha256": "17032cdffab40d0929e9f8d9bbd14bf9fec66190ce31092f72679ae0325c9f9d",
+    commit: "42cf49f3d4bf33a8575583759956d825bc8edf93",
+    dirty: false
+  },
+  rows: [
+    [label,             status, screen,                                                                                 "screen_sha256",                                                    faults,     binding];
+    [picture,           124,    "/home/box/tmp/jab-stress/footprint/20261017T153736/down/picture/screen.ppm",           "787e0e59d4a75f6f9a318face52476204baa443919a22a3bda4a532e4b28eb16", [
+
+      ], {
+        stamp: 322,
+        from: 290,
+        frame: 322,
+        state: {
+          x: 1.5,
+          y: 3.5,
+          z: 1.600000023841858,
+          yaw: 90.0,
+          pitch: -15.000000953674316,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [picture_candidate, 124,    "/home/box/tmp/jab-stress/footprint/20261017T153736/down/picture_candidate/screen.ppm", "43b40680bd786f184312c4a36774b41bd81133b9b5fa5c84ec676fc1a8ddb357", [
+
+      ], {
+        stamp: 303,
+        from: 274,
+        frame: 303,
+        state: {
+          x: 1.5,
+          y: 3.5,
+          z: 1.600000023841858,
+          yaw: 90.0,
+          pitch: -15.000000953674316,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [owner,             124,    "/home/box/tmp/jab-stress/footprint/20261017T153736/down/owner/screen.ppm",             "305aac46f1eba3a73a20e197dcf7756acbbb1b10455175f1a3e67f9cb484b387", [
+
+      ], {
+        stamp: 305,
+        from: 275,
+        frame: 305,
+        state: {
+          x: 1.5,
+          y: 3.5,
+          z: 1.600000023841858,
+          yaw: 90.0,
+          pitch: -15.000000953674316,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [levels,            124,    "/home/box/tmp/jab-stress/footprint/20261017T153736/down/levels/screen.ppm",            "35e5f39f771062c1a0f94ef591b71ab8bc558a45114081dc760b170b5fc0052b", [
+
+      ], {
+        stamp: 301,
+        from: 271,
+        frame: 301,
+        state: {
+          x: 1.5,
+          y: 3.5,
+          z: 1.600000023841858,
+          yaw: 90.0,
+          pitch: -15.000000953674316,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [levels_candidate,  124,    "/home/box/tmp/jab-stress/footprint/20261017T153736/down/levels_candidate/screen.ppm",  "4e7f8c04382b6b3136892f4f90b26594b86e62e1e8850fdfe036cb16e656aa01", [
+
+      ], {
+        stamp: 286,
+        from: 258,
+        frame: 286,
+        state: {
+          x: 1.5,
+          y: 3.5,
+          z: 1.600000023841858,
+          yaw: 90.0,
+          pitch: -15.000000953674316,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }]
+  ],
+  reference: {
+    camera: {
+      x: 1.5,
+      y: 3.5,
+      z: 1.600000023841858,
+      yaw: 90.0,
+      pitch: -15.000000953674316,
+      roll: 0.0
+    },
+    rows: 133834,
+    unread_materials: [
+
+    ],
+    captures: [
+      [file,                                                                                  blocks, judged, sky, actors, unknown, unread, clamped, degenerate, sensitive, agree,  sharper, coarser, secant_agree, secant_sharper, secant_coarser, levels];
+      ["/home/box/tmp/jab-stress/footprint/20261017T153736/down/levels/screen.ppm",           133834, 133834, 0,   0,      0,       0,      0,       0,          1877,      133179, 239,     416,     133834,       0,              0,              [
+          120495,
+          9609,
+          3182,
+          493,
+          55,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]],
+      ["/home/box/tmp/jab-stress/footprint/20261017T153736/down/levels_candidate/screen.ppm", 133834, 133834, 0,   0,      0,       0,      0,       0,          1877,      133179, 239,     416,     133834,       0,              0,              [
+          120495,
+          9617,
+          3174,
+          493,
+          55,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]]
+    ]
+  },
+  pictures: {
+    width: 1920,
+    height: 1080,
+    pixels: 139,
+    regions: [
+      ["x0", "y0", "x1", "y1", pixels, largest];
+      [808,  568,  824,  569,  8,      2],
+      [850,  568,  908,  569,  19,     2],
+      [934,  568,  950,  569,  11,     2],
+      [976,  568,  991,  569,  7,      2],
+      [1018, 568,  1033, 569,  10,     2],
+      [1059, 568,  1117, 569,  19,     2],
+      [887,  630,  1073, 631,  65,     44]
+    ]
+  },
+  problems: [
+
+  ]
+}

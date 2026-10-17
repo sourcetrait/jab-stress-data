@@ -1,0 +1,32 @@
+{
+  commit: "5631b65372e691904a4f16086174998bb5e6d494",
+  symbols: [
+    DEBUG
+  ],
+  source: "the program's src/ and manifest at 5631b65372e691904a4f16086174998bb5e6d494",
+  sdk: "sdk/src at 5631b65372e691904a4f16086174998bb5e6d494, the export's own",
+  build_tool: {
+    checkout: "5631b65372e691904a4f16086174998bb5e6d494",
+    dirty: true,
+    "jab_nu_sha256": "ef4b3806ea6fabcead6838a6f2824c7b27fe8c3cb63f297760366636ce863e41"
+  },
+  toolchain: {
+    prefix: "/home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+    version: "GNU assembler (GNU Binutils) 2.47.20260726",
+    assembler: {
+      path: "/home/box/.sys/adhoc/opt/riscv/bin/riscv64-unknown-linux-gnu-as",
+      "sha256": "594cf6297f02007cecb2f5900b90297902697db42e5bf57c730d7eed00647ef2"
+    },
+    linker: {
+      path: "/home/box/.sys/adhoc/opt/riscv/bin/riscv64-unknown-linux-gnu-ld",
+      "sha256": "b931cf6b8ff1b97d2b3bc0c060b59a2fb638d4d7893cbea9208fd7664c686bb6"
+    },
+    objcopy: {
+      path: "/home/box/.sys/adhoc/opt/riscv/bin/riscv64-unknown-linux-gnu-objcopy",
+      "sha256": "1aed841115bd72b9dfdc46b5509725223542d3b8f47ea15309912b8544cbd2ae"
+    }
+  },
+  flags: "-I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_5631b65/sdk/src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_5631b65_picture/game/fps/debug --defsym DEBUG=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+  "image_sha256": "5fb6641b3445e437c689ba2c7645ad5d7c47383034a110425564e60390b67397",
+  "elf_sha256": "253ae3bb9c64befc35e8becb7fcf369e7de8d188741ee854303c64d825c64e1a"
+}
