@@ -89,6 +89,18 @@ with `complete` false. It is marked complete only when every phase of the
 move and every check of the data's consumers has finished. A receipt
 never lists itself.
 
+Every SHA-256 and size in a receipt is read from the file's raw bytes. A
+committed file's size comes from `git cat-file -s <commit>:<path>` and its
+SHA-256 from `git cat-file blob <commit>:<path> | into binary | hash
+sha256`. A value that a command printed as text is never measured or
+hashed, because binding a command's output as text drops its last
+newline.
+
+A receipt is never edited once it is written. A mistake in one is
+corrected by a new receipt, `migration/<stamp>-receiptcorrection.nuon`,
+which names the receipt it corrects by path and SHA-256 and gives each
+value it changes, both as recorded and as corrected.
+
 ## The retention rule
 
 Each set keeps:

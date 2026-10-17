@@ -1,0 +1,39 @@
+{
+ migration: ReceiptCorrection,
+ stamp: "20261017T004124",
+ complete: true,
+ corrects: [
+  [receipt,                                           "sha256",                                                           source_commit,                              copy_commit, total_recorded, total_corrected];
+  ["migration/20261016T021148-sdkmutantsets.nuon",    "c4d3107c3982f62965dd85c1748a37a9bbbd68b78f9f40910226ab9e7b2d98fb", "fb42d4586ff1e038dbfc05e74a6c95f512015367", "526fed0",   26592,          26595],
+  ["migration/20261016T023926-kernelmutantsets.nuon", "9eba77bf93c90c66ec9dedf342013e9047585a06c71e1c47e3e59a18649acf1d", "08766532bc7a3d7a59943f2cabfdf253b1aad371", "24229ab",   41942,          41947]
+ ],
+ why: "eight source entries record their blob less its final LF: the writing bound `^git show <commit>:<path>` with `let` (run body azaxSEYv0aN, line 53; the SDK's beside it), which drops one trailing newline, then hashed and measured that text",
+ read_by: {
+  bytes: "git cat-file -s <commit>:<path>",
+  "sha256": "git cat-file blob <commit>:<path> | into binary | hash sha256"
+ },
+ corrected: [
+  [path,                                                           recorded_bytes, "recorded_sha256",                                                  bytes, "sha256"];
+  ["iter/jab/subiter/sdk/operational/demand_mutants.nuon",         19031,          "38d0637632c7d6352595ac3bc58a54bac816fe937c9590dd6105a11388d153a2", 19032, "8eeea5c7400e39518d519aee25498de16a9c8127c68206fc72e0f1c6681f836b"],
+  ["iter/jab/subiter/sdk/operational/launch_mutants.nuon",         421,            "448a54f8e74282b7aec69c0398dfd1fd42c8a7b655c66d3d3ae4c6a0c75265a1", 422,   "bdae9a46ab1a3a047336ac4111218207aef77a5e0d6fa65827a35816f162c246"],
+  ["iter/jab/subiter/sdk/operational/probe_mutants.nuon",          7140,           "0dc1727447215cf9042cae460487a6d2ff6e4000a05cead429fdf6c040c03fe8", 7141,  "dd24bf80af5c7d5035845d3d37f4ea53f4695cfda9ef37cdb1db5a2e03b06ed8"],
+  ["iter/jab/subiter/kernel/operational/feature_mutants.nuon",     5235,           "259b2716ebff8c223842d9997617fa73c9bd2f487ba3a0691f87371b5277f0da", 5236,  "3fea4e043fc23d1e91b3acbc5bd70840a14401fcf89feae751fd4ac8300338c1"],
+  ["iter/jab/subiter/kernel/operational/measure_mutants.nuon",     399,            "e3f0cd26d19b6a401b9ea92fb29245a5ef3b6bb25970f2e85a50086a01a546f7", 400,   "06ca78505a99c1c19e09cbce3a41286aae9837aae97301fc78ad02b7be7c8551"],
+  ["iter/jab/subiter/kernel/operational/order_mutants.nuon",       374,            "f687c9939bf88a8b26e1f91b26ab6e76bad2e8c5953a49d3336e014d07b44bcc", 375,   "e2b9b7258c8175ab7665bcd10627fb590105ed9070eb3a166f4a6bd5c7e41a05"],
+  ["iter/jab/subiter/kernel/operational/reservation_mutants.nuon", 7837,           "e7ee332ca05f4cfb86d7913b677aaa6d8d5972629ecd5e29087eee827c1570b6", 7838,  "0b2df6aa0b52a6d418bd3cee87ed29b95fa985d9966a5ca9dae36f1658e6c9ed"],
+  ["iter/jab/subiter/kernel/operational/spectable_mutants.nuon",   2255,           "179bef6788e63ecd114b7f1cd6fb70c8ff34b08d97ac65b0d213c7bcb2d6b968", 2256,  "304b331c9e8a7e4470244e28e77d747f434e1dfeeaa526d46ba6d9f4c22f2795"]
+ ],
+ confirmed: [
+  [path,                                                       bytes, "sha256"];
+  ["iter/jab/subiter/kernel/operational/compute_mutants.nuon", 8134,  "230d999f1d265c24dbc4f7d11c47cdd46f9db8b954b09a82f1b29935a1cac6e2"],
+  ["iter/jab/subiter/kernel/operational/jobs_mutants.nuon",    2496,  "9c11e86390cdb3a761995d631cb8d37ba6fada1166706c5547961116b7673283"],
+  ["iter/jab/subiter/kernel/operational/stuck_mutants.nuon",   5723,  "85976b141e18e44343f26f2f87ce1b706b7faaf95fae2ecb60fb99c66d0ee307"],
+  ["iter/jab/subiter/kernel/operational/worker_mutants.nuon",  9489,  "9ffdd050c0588e38d7cdb0fe8348375da399c4a1c711728603e7ac6f9348dda5"]
+ ],
+ unchanged: "the two receipts stay as written; demand's find repair at 66f91ab and spectable's at bd78e55 are destination revisions of their own, never the original sources",
+ checks: [
+  [check,                                                                                           files, ok];
+  ["every corrected and confirmed entry equal in bytes and SHA-256 to its copy at the copy commit", 12,    true],
+  ["a second reading by the same procedure equal to the first",                                     12,    true]
+ ]
+}
