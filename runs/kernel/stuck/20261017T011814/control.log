@@ -1,0 +1,9 @@
+--- test/stuck
+stuck: rng held 5, free; pad and api on the serial device's 4; sound's 4; disks on 33
+stuck: ok
+╭───┬────────────┬────────╮
+│ # │  program   │ passed │
+├───┼────────────┼────────┤
+│ 0 │ test/stuck │ true   │
+╰───┴────────────┴────────╯
+
