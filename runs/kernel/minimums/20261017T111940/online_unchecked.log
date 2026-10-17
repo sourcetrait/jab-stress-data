@@ -1,0 +1,22 @@
+--- test/spec
+Error: nu::shell::error
+
+  x offline: jab.spec=1ka1 jab.late=2 on 3 harts : 0, spec: up
+  | 
+  | These are not equal.
+     ,-[/home/box/proj/sourcetrait/jab/test/spec/test/test.nu:147:22]
+ 146 |         let run = (jab launch --kernel $kernel --image $image --out ($out | path join $"check_($r.name)") --set $set --harts $r.harts --bootargs $r.bootargs --qemu $r.qemu --seconds 20)
+ 147 |         assert equal [$run.status ($run.serial | lines)] [$r.status [$r.line]] $"($r.name): ($r.bootargs) on ($r.harts) harts (($r.qemu | str join ' ')): ($run.status), ($run.serial)"
+     :                      ^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^ ^^^^^^^^^^|^^^^^^^^^^
+     :                                       |                            `-- right: [1, ["jab: spec 1ka1 wants 3 harts: 3 discovered, 2 online"]]
+     :                                       `-- left: [0, ["spec: up"]]
+ 148 |     }
+     `----
+
+╭───┬───────────┬────────╮
+│ # │  program  │ passed │
+├───┼───────────┼────────┤
+│ 0 │ test/spec │ false  │
+╰───┴───────────┴────────╯
+
+error: recipe `test` failed with exit code 1

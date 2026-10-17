@@ -20,7 +20,7 @@
     program: test/spectable,
     expect: "the program listing specs builds again after a change to the type alone",
     edits: [
-      {file: "sdk/nu/jab.nu", find: "++ [$c.manifest_path $m.link] ++ $specs ++ $constants)", put: "++ [$c.manifest_path $m.link] ++ $constants)"}
+      {file: "sdk/nu/jab.nu", find: "++ [$c.manifest_path $m.link] ++ $specs ++ $constants ++ [$header])", put: "++ [$c.manifest_path $m.link] ++ $constants ++ [$header])"}
     ]
   },
   {

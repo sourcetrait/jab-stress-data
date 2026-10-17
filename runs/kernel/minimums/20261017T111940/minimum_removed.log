@@ -1,0 +1,21 @@
+--- test/spec
+Error: nu::shell::error
+
+  x two harts short of the base demand refused:
+  | These are not equal.
+     ,-[/home/box/proj/sourcetrait/jab/test/spec/test/test.nu:157:18]
+ 156 |     let short = (jab launch --kernel $kernel --image $reserving --out ($out | path join "short") --set $set --harts 2 --seconds 20)
+ 157 |     assert equal [$short.status ($short.serial | lines)] [1 [$SHORT]] $"two harts short of the base demand refused: ($short.serial)"
+     :                  ^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^ ^^^^^^|^^^^^
+     :                                     |                          `-- right: [1, ["jab: harts short of the program's demand: 2 for 3"]]
+     :                                     `-- left: [0, []]
+ 158 |     let held = (jab launch --kernel $kernel --image $reserving --out ($out | path join "held") --set $set --harts 3 --seconds 20)
+     `----
+
+╭───┬───────────┬────────╮
+│ # │  program  │ passed │
+├───┼───────────┼────────┤
+│ 0 │ test/spec │ false  │
+╰───┴───────────┴────────╯
+
+error: recipe `test` failed with exit code 1

@@ -1,0 +1,93 @@
+[
+  {
+    name: crc_unchecked,
+    program: test/spec,
+    expect: "crc: the kernel refuses it",
+    edits: [
+      {file: "kernel/src/start.S", find: "    beq a0, s4, 14f", put: "    j 14f"}
+    ]
+  },
+  {
+    name: version_unchecked,
+    program: test/spec,
+    expect: "version: the kernel refuses it",
+    edits: [
+      {file: "kernel/src/start.S", find: "    beq s1, t0, 1f", put: "    j 1f"}
+    ]
+  },
+  {
+    name: undeclared_length_admitted,
+    program: test/spec,
+    expect: "undeclared_length: the kernel refuses it",
+    edits: [
+      {file: "kernel/src/start.S", find: "    bnez s3, 3f", put: "    nop"}
+    ]
+  },
+  {
+    name: ram_unchecked,
+    program: test/spec,
+    expect: "ram_short: jab.spec=1kb1 on 7 harts",
+    edits: [
+      {file: "kernel/src/start.S", find: "    beq t0, t1, 50f                         # its RAM installed, no more and no less", put: "    j 50f"}
+    ]
+  },
+  {
+    name: minimum_removed,
+    program: test/spec,
+    expect: "two harts short of the base demand refused",
+    edits: [
+      {file: "kernel/src/start.S", find: "    bgeu s6, s1, 90f", put: "    j 90f"}
+    ]
+  },
+  {
+    name: knob_on_release,
+    program: test/spec,
+    expect: "the release kernel refuses it under the knob too",
+    edits: [
+      {file: "kernel/src/start.S", find: "50:\n.ifdef DEBUG\n", put: "50:\n"},
+      {file: "kernel/src/start.S", find: ".popsection\n.endif\n    call harts_masks", put: ".popsection\n    call harts_masks"},
+      {file: "kernel/src/harts.S", find: ".ifdef DEBUG\n.global knob_value", put: ".global knob_value"},
+      {file: "kernel/src/harts.S", find: "    li a0, -1\n    ret\n.endif\n\n.global spec_name", put: "    li a0, -1\n    ret\n\n.global spec_name"}
+    ]
+  },
+  {
+    name: online_unchecked,
+    program: test/spec,
+    expect: "offline: jab.spec=1ka1 jab.late=2 on 3 harts",
+    edits: [
+      {file: "kernel/src/start.S", find: "    beq s6, t0, 42f                         # its cores discovered, every one online", put: "    j 42f"}
+    ]
+  },
+  {
+    name: cores_unchecked,
+    program: test/spec,
+    expect: "cores: jab.spec=1kb1 on 3 harts",
+    edits: [
+      {file: "kernel/src/start.S", find: "    bne t1, t2, 41f", put: "    nop"}
+    ]
+  },
+  {
+    name: count_unchecked,
+    program: test/spec,
+    expect: "count_none: the kernel refuses it",
+    edits: [
+      {file: "kernel/src/start.S", find: "    beqz s5, 15f", put: "    nop"}
+    ]
+  },
+  {
+    name: case_strict,
+    program: test/spec,
+    expect: "capitals: jab.spec=1KA1 on 3 harts",
+    edits: [
+      {file: "kernel/src/start.S", find: "    addi t4, t4, ('a' - 'A')                # the name in any case, the entries lowercase", put: "    nop"}
+    ]
+  },
+  {
+    name: spec_ignored,
+    program: test/spec,
+    expect: "unlisted: jab.spec=2ka1 on 3 harts",
+    edits: [
+      {file: "kernel/src/start.S", find: "    beqz a0, 50f                            # no name: a custom machine, the minimum alone", put: "    j 50f"}
+    ]
+  }
+]

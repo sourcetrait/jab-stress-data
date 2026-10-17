@@ -1,0 +1,55 @@
+{
+ call: "fjJoZhV7xBB",
+ mark: JAB_RUNNER_MARK,
+ stage: ".jabstage.",
+ root: /home/box/proj/sourcetrait/jab,
+ commit: "91b3670b77cca0a19e322767d46d0dae4ed4f1e4",
+ set: "/home/box/proj/sourcetrait/jab-stress-data/assets/kernel/mutants/minimums_mutants.nuon",
+ "set_sha256": "ac27660ec275bb583d8c34e09efe19619cea004eafa8852b8999ee546514dbdd",
+ only: [
+  crc_unchecked,
+  version_unchecked,
+  undeclared_length_admitted,
+  ram_unchecked,
+  minimum_removed,
+  knob_on_release,
+  online_unchecked,
+  cores_unchecked,
+  count_unchecked,
+  case_strict,
+  spec_ignored
+ ],
+ control: {
+  program: test/spec,
+  ok: "spec: ok"
+ },
+ deadline: 540,
+ margin: 15,
+ kill_after: 5,
+ hold: {
+  at: "",
+  seconds: 0
+ },
+ started: "2026-10-17T11:19:40.371+0000",
+ paths: [
+  [file,                 committed,                                                          mutated];
+  ["kernel/src/start.S", "b23f6d83a97de569937d06d71eac05a9beb65406cb7a3f84910cc5ede828f1a9", [
+    [mutant,                     hash];
+    [crc_unchecked,              "6af98051b4c9030deaa103f5e4adf7999df682414dd0d28c256e4123330a3fa7"],
+    [version_unchecked,          "4a4403be2acaab6f5631f4a0b9f88017e4f511b3b0d937da2db962e423a40c33"],
+    [undeclared_length_admitted, "2b21c5402c1849b3d41a30a29b2e3210f2b4821a975e688327ff981b4fa7da7c"],
+    [ram_unchecked,              "8db1c92cc639a70cd589f48542dd5c787eb206f5e547bb60a847c986bfd2c404"],
+    [minimum_removed,            "40bd6468c0c21155ba6ac9575a3e89b2d84d82d5a8990801e8b565474a5e8d44"],
+    [knob_on_release,            "00603bb2faafb4ea1cb229b99cc3e99ad44d3501ab7118bf90387a65b697db8c"],
+    [online_unchecked,           "0d0b43f9922a9e29b3ac19ee24d2644bd9275c1ee8ab791eaf306820518903a8"],
+    [cores_unchecked,            "d0ad13af1f0d4754830ed47c34ba89e9bae9138225f0a4e9955671d47bb8d0eb"],
+    [count_unchecked,            "9daee398b9f0cf84a023ec899aecafc10e66f0c26a401f17fd007bcd9d912aef"],
+    [case_strict,                "971e6761592c7012e86e4559368f86b5843861dad889d8a1ef16ca2f4ff76159"],
+    [spec_ignored,               "b3061575955ecbdafad367a13adbd077cc1f505fa8908b99c3f16108a6fb1b8c"]
+   ]],
+  ["kernel/src/harts.S", "bbac69878bb395a216f14846f6a04647a1021ea7f39bf2b71b1ff9597c064820", [
+    [mutant,          hash];
+    [knob_on_release, "4864b3ccaa3c87147bd8fc618b7369c5b389e8aa55b3eb6995d73b96823d61a8"]
+   ]]
+ ]
+}
