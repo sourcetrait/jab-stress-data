@@ -1,0 +1,18 @@
+{
+ set: proberuns,
+ stamp: "20261017T065433",
+ task: ProbeRuns,
+ scope: {
+  kind: whole,
+  ran: 1,
+  of: 1
+ },
+ builds: [
+  [part,    build,     checkout, record];
+  ["run_1", "b8b7cb0", jab,      "run_1/identity.nuon"]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "The first probed gauge run, `gauge run --sdl-probe` on route_walks at release b8b7cb0 under the sdl shim, sdl,gl=on offscreen: complete and valid at schema 7, its bundle passing sdl-bundle-check's six stages with QEMU's pid and the capture nonce bound and echoed; sdl-pair pairs its 815 presents one for one, ordinals 2 to 816, and refuses it for one residual, ordinal 160 (frame 156) at -12.06 ms, its flip call 14.0 ms against its neighbours' 1.5, the upload in its place; cited as evidence by ProbeRuns' fix plan PairBracket"
+ }
+}
