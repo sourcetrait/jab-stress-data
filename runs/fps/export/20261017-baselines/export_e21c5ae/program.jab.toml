@@ -1,0 +1,12 @@
+name = "fps"
+sdk = "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/sdk"
+workspace = "/home/box/proj/sourcetrait/jab"
+includes = ["/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/sdk/src"]
+link = "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/sdk/src/program.ld"
+specs = [
+    "1ka1",
+    "1kb1",
+]
+
+[reserved]
+gfx_harts = 2

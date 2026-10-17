@@ -1,0 +1,63 @@
+{
+  written: "2026-10-17T21:18:09+0000",
+  label: "baseline_1kb1",
+  workload: {
+    program: example/walk,
+    order: await
+  },
+  target: "1kb1",
+  machine: {
+    harts: 7,
+    ram_gib: 8,
+    spec: {
+      name: "1kb1",
+      cores: 7,
+      ram_gib: 8,
+      display: {
+        width: 1920,
+        height: 1080
+      }
+    },
+    diagnostic: null,
+    machine: "virt,aia=aplic-imsic,aclint=on",
+    cpu: "rva23s64,pmp=true",
+    accel: "tcg,thread=multi",
+    overrides: [
+
+    ]
+  },
+  image: {
+    file: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/example/walk/export_e21c5ae-cadence/example/walk/release/walk.jab",
+    "sha256": "a51b2bdf44bd4e20e34436b88bca4f58829e570a032a3127b99d3beb9aecfd28"
+  },
+  kernel: {
+    file: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kernel/kexport_e21c5ae/kernel/release/jab.elf",
+    "sha256": "cb203ae1fe4a3ec0ccdd1f987d1b57ca5c5ea95a09ff433a1c1def0f3bb11fd2"
+  },
+  assets: {
+    file: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/example/walk/export_e21c5ae-cadence/example/walk/release/walk.romfs",
+    "sha256": "0f7ba7d79b1028bbd72f9324a3a9ce022ae1d7e34c93984da694c44bf7a0dc08"
+  },
+  flags: "-I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/example/walk/export_e21c5ae-cadence/sdk/src --defsym CADENCE=1 --defsym RELEASE=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+  cadence: [
+    CADENCE
+  ],
+  replay: null,
+  mode: {
+    window: false,
+    sound: none,
+    seconds: 180
+  },
+  profile: paired,
+  capture_nonce: 1659429181815597712,
+  qemu_binary: "/home/box/proj/sourcetrait/jab/extern/qemu/bin/qemu-system-riscv64",
+  qemu_pid: 782241,
+  sdl_log: "",
+  shim: "",
+  window: none,
+  api: true,
+  sends: [
+    [at,  length, "sha256"];
+    [0.2, 16,     "788da524a07a1697a919ca0aec5e598e4a5bb1c921f60cfcb365d638c49442c0"]
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  commit: "e21c5aeee99925966e543be9e411c3c24819c5a9",
+  symbols: [
+    CADENCE
+  ],
+  source: "the program's src/ and manifest at e21c5aeee99925966e543be9e411c3c24819c5a9",
+  sdk: "sdk/src at e21c5aeee99925966e543be9e411c3c24819c5a9, the export's own",
+  build_tool: {
+    checkout: "e21c5aeee99925966e543be9e411c3c24819c5a9",
+    dirty: false,
+    "jab_nu_sha256": "4b86a1467d76c121a830a312b632d6b243a8942f3644c11219eb40987152e795"
+  },
+  toolchain: {
+    prefix: "/home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+    version: "GNU assembler (GNU Binutils) 2.47.20260726",
+    assembler: {
+      path: "/home/box/.sys/adhoc/opt/riscv/bin/riscv64-unknown-linux-gnu-as",
+      "sha256": "594cf6297f02007cecb2f5900b90297902697db42e5bf57c730d7eed00647ef2"
+    },
+    linker: {
+      path: "/home/box/.sys/adhoc/opt/riscv/bin/riscv64-unknown-linux-gnu-ld",
+      "sha256": "b931cf6b8ff1b97d2b3bc0c060b59a2fb638d4d7893cbea9208fd7664c686bb6"
+    },
+    objcopy: {
+      path: "/home/box/.sys/adhoc/opt/riscv/bin/riscv64-unknown-linux-gnu-objcopy",
+      "sha256": "1aed841115bd72b9dfdc46b5509725223542d3b8f47ea15309912b8544cbd2ae"
+    }
+  },
+  flags: "-I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/example/walk/export_e21c5ae-cadence/sdk/src --defsym CADENCE=1 --defsym RELEASE=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+  "image_sha256": "a51b2bdf44bd4e20e34436b88bca4f58829e570a032a3127b99d3beb9aecfd28",
+  "elf_sha256": "3fb2bf0fc0103caede03b6400a3283997cc0835e57256c9ef3ddd535dafae822",
+  "romfs_sha256": "0f7ba7d79b1028bbd72f9324a3a9ce022ae1d7e34c93984da694c44bf7a0dc08"
+}

@@ -1,0 +1,22 @@
+{
+  set: export,
+  stamp: "20261017-baselines",
+  task: PresentationScope,
+  scope: {
+    kind: whole,
+    ran: 5,
+    of: 5
+  },
+  builds: [
+    [part,                                    build, checkout,  record];
+    ["kexport_e21c5ae",                       null,  synthetic, "kexport_e21c5ae/release/provenance.nuon"],
+    ["export_e21c5ae-cadence",                null,  synthetic, "export_e21c5ae-cadence/release/provenance.nuon"],
+    ["export_e21c5ae-cadence-timing",         null,  synthetic, "export_e21c5ae-cadence-timing/release/provenance.nuon"],
+    ["export_e21c5ae-cadence-prepare",        null,  synthetic, "export_e21c5ae-cadence-prepare/release/provenance.nuon"],
+    ["export_e21c5ae-cadence-prepare-timing", null,  synthetic, "export_e21c5ae-cadence-prepare-timing/release/provenance.nuon"]
+  ],
+  kept: {
+    as: checkpoint,
+    why: "PresentationScope's frozen baselines, the kernel's and walk's, exported at jab e21c5ae, which carries step 1's program and kernel changes, by jab-stress's kernel/just/export.just: the P0 kernel by kernel-export, gated on the qualification proof's ELF cb203ae1, its loaded bytes eee71773; walk's CADENCE images by walk-export, the await order with TIMING off (image a51b2bdf) and on (8a95fa2e) and the prepare order off (0b5fe65c) and on (aae80fd4), each with its romfs 0f7ba7d7, the tree's own; each export's source, manifest, flags, provenance, and a program's demand record, the builds kept in the box's target; cited by FrameCeiling.md's The baselines"
+  }
+}

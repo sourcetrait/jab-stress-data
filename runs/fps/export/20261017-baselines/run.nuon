@@ -1,0 +1,18 @@
+{
+  set: export,
+  stamp: "20261017-baselines",
+  task: PresentationScope,
+  scope: {
+    kind: whole,
+    ran: 1,
+    of: 1
+  },
+  builds: [
+    [part,             build, checkout,  record];
+    ["export_e21c5ae", null,  synthetic, "export_e21c5ae/release/provenance.nuon"]
+  ],
+  kept: {
+    as: checkpoint,
+    why: "PresentationScope's frozen baseline for fps, exported at jab e21c5ae, which carries step 1's program and kernel changes, by jab-stress's fps/just/pool.just export, gated on the qualification proof's image: image 97cc681a, the one the proof ran on 1KA1 and 1KB1, its ELF 8c7294c4, apart from the tree build's 49811f45 by the RELEASE symbol in its table alone; its source, manifest, flags, provenance, and demand record, the build kept in the box's target; cited by FrameCeiling.md's The baselines"
+  }
+}
