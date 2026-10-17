@@ -1,0 +1,536 @@
+{
+ migration: FpsMutantSets,
+ stamp: "20261017T004237",
+ complete: true,
+ sources: [
+  [repository, commit,                                     paths];
+  [jab-stress, "ad9a1ab7b25bfab52938e7d4a60b59d9506cadd2", [
+    fps/mutants
+   ]]
+ ],
+ phases: [
+  {
+   phase: AssetData,
+   done: true,
+   commits: {
+    jab-stress-data: [
+     "44dc37d",
+     "51c1490"
+    ]
+   }
+  },
+  {
+   phase: DestinationChanges,
+   done: true,
+   changes: [
+    [set,      commit,    task];
+    [eviction, "3495409", StaleFpsFinds],
+    [cadence,  "687b12e", KernelKey],
+    [gauge,    "81a2ea5", KernelKey]
+   ]
+  },
+  {
+   phase: ConsumerRuns,
+   done: true,
+   landed: [
+    "runs/fps/workergauge/20261017T014218",
+    "runs/fps/census_reader/20261017T014228",
+    "runs/fps/gauge/20261017T014426",
+    "runs/fps/tilecensus/20261017T015424",
+    "runs/fps/poolreader/20261017T015426",
+    "runs/fps/eviction/20261017T020344",
+    "runs/fps/cadence/20261017T021151",
+    "runs/fps/census/20261017T021730",
+    "runs/fps/program/20261017T021902",
+    "runs/fps/program/20261017T024612"
+   ],
+   pruned: [
+
+   ],
+   demoted: [
+
+   ],
+   commits: {
+    jab-stress-data: [
+     "38cc6c4",
+     "be1d3eb",
+     "b7a209b",
+     "52a9813",
+     "d58abde",
+     "b7487a3",
+     "7dfaccd"
+    ]
+   }
+  },
+  {
+   phase: SourceRemoval,
+   done: true,
+   commits: {
+    jab-stress: "db6696e"
+   }
+  }
+ ],
+ checks: [
+  {
+   phase: AssetData,
+   check: "every asset copy's SHA-256 against its source at jab-stress ad9a1ab",
+   files: 15,
+   ok: true
+  },
+  {
+   phase: AssetData,
+   check: "no set edited at its old home after the inventory",
+   found: "git diff ad9a1ab df6e7f1 -- fps/mutants/ empty, df6e7f1 the removal's parent",
+   ok: true
+  },
+  {
+   phase: DestinationChanges,
+   check: "each change a commit of its own after the copy, its task beside it",
+   ok: true
+  },
+  {
+   phase: ConsumerRuns,
+   check: "every set parsed to its runner's shape, its mutants by name and count the source's",
+   found: "fourteen sets equal; gauge's 254 at the source and 255 after KernelKey's build_kernel at 81a2ea5",
+   ok: true
+  },
+  {
+   phase: ConsumerRuns,
+   check: "every find exact-once in the file its runner mutates, at jab 10d2fc2 and jab-stress df6e7f1",
+   mutants: 417,
+   finds: 424,
+   ok: true
+  },
+  {
+   phase: ConsumerRuns,
+   check: "the consumer runs, each set by a control and its representatives from assets/fps/mutants/",
+   runs: [
+    [set,           run,                                      runner,        control_ok, ran, of,  caught, unexercised, ok];
+    [workergauge,   "runs/fps/workergauge/20261017T014218",   "1gncsAJS7Ld", true,       1,   10,  1,      0,           true],
+    [census_reader, "runs/fps/census_reader/20261017T014228", "6pn8EVDeSdL", true,       1,   33,  1,      0,           true],
+    [gauge,         "runs/fps/gauge/20261017T014426",         "kQ8CcwbGnHa", true,       6,   255, 6,      0,           true],
+    [tilecensus,    "runs/fps/tilecensus/20261017T015424",    "7SQJSudlVhg", true,       1,   21,  1,      0,           true],
+    [poolreader,    "runs/fps/poolreader/20261017T015426",    "2rM2CVU5KzA", true,       1,   20,  1,      0,           true],
+    [eviction,      "runs/fps/eviction/20261017T020344",      "gQQhjycy0Bk", true,       2,   11,  1,      1,           true],
+    [cadence,       "runs/fps/cadence/20261017T021151",       "gQQhjycy0Bk", true,       3,   10,  3,      0,           true],
+    [census,        "runs/fps/census/20261017T021730",        "5g6hE6ot8h5", true,       1,   13,  1,      0,           true],
+    [handoff_set,   "runs/fps/program/20261017T021902",       "gQQhjycy0Bk", true,       1,   2,   1,      0,           true],
+    [interval,      "runs/fps/program/20261017T021902",       "gQQhjycy0Bk", true,       1,   1,   1,      0,           true],
+    [packet,        "runs/fps/program/20261017T024612",       "gQQhjycy0Bk", true,       1,   5,   1,      0,           true],
+    [worker,        "runs/fps/program/20261017T024612",       "gQQhjycy0Bk", true,       1,   22,  1,      0,           true],
+    [pool,          "runs/fps/program/20261017T024612",       "gQQhjycy0Bk", true,       1,   7,   1,      0,           true],
+    [builder,       "runs/fps/program/20261017T024612",       "gQQhjycy0Bk", true,       1,   6,   1,      0,           true],
+    [handoff,       "runs/fps/program/20261017T024612",       "gQQhjycy0Bk", true,       1,   1,   1,      0,           true]
+   ],
+   ok: true
+  },
+  {
+   phase: ConsumerRuns,
+   check: "every landed log and copied result's SHA-256 against its source",
+   files: 36,
+   ok: true
+  },
+  {
+   phase: ConsumerRuns,
+   check: "each result written from its run's result event, against the event in the launching call's trace",
+   files: 5,
+   ok: true
+  },
+  {
+   phase: ConsumerRuns,
+   check: "the results written from a runner call's returned value",
+   files: 4,
+   found: "workergauge's, census_reader's, and gauge's a and b, written at landing from the value the call returned, which no trace keeps, so no second reading is possible",
+   ok: true
+  },
+  {
+   phase: SourceRemoval,
+   check: "no current document names the sets' old paths",
+   found: "the sweep's hits name the dump reader's harness, fps/mutants/reader_mutants.nu, which stays, or records of done tasks, which keep their paths as written",
+   ok: true
+  }
+ ],
+ source_files: [
+  [repository, path,                                     "sha256",                                                           bytes, fate];
+  [jab-stress, "fps/mutants/builder_mutants.nuon",       "18dbb24e80d6682fe71358aa763950c3a8e9db18b32368ac7d89d0f91c5beb64", 3079,  {
+    kind: copied,
+    to: "assets/fps/mutants/builder_mutants.nuon"
+   }],
+  [jab-stress, "fps/mutants/cadence_mutants.nuon",       "d2e0e0b067a270700c43498fef493ed9c8e86903c3b485731a1c693e6852413e", 3379,  {
+    kind: copied,
+    to: "assets/fps/mutants/cadence_mutants.nuon"
+   }],
+  [jab-stress, "fps/mutants/census_mutants.nuon",        "830b7ed6d94f7a8a94217d50acd3a51f40e5a273a3ab4829ae63c675e2c2ce1c", 5439,  {
+    kind: copied,
+    to: "assets/fps/mutants/census_mutants.nuon"
+   }],
+  [jab-stress, "fps/mutants/census_reader_mutants.nuon", "edce0257b547935b7720617abe7623e720898befd569897a71b7359963119339", 5611,  {
+    kind: copied,
+    to: "assets/fps/mutants/census_reader_mutants.nuon"
+   }],
+  [jab-stress, "fps/mutants/eviction_mutants.nuon",      "3122b72eafb60941ad4f3582713b044deb8a66a33b57c0887488c48945d220b5", 5468,  {
+    kind: copied,
+    to: "assets/fps/mutants/eviction_mutants.nuon"
+   }],
+  [jab-stress, "fps/mutants/gauge_mutants.nuon",         "85d6124963ac9bba4e46f7f4390112b4e761a48c27fb8de7d1a80298cd168fc0", 52460, {
+    kind: copied,
+    to: "assets/fps/mutants/gauge_mutants.nuon"
+   }],
+  [jab-stress, "fps/mutants/handoff_mutants.nuon",       "25a73fca6ad732e6f3863b0c59ecfed2c33492778fe7055f1348886fb677e0ed", 412,   {
+    kind: copied,
+    to: "assets/fps/mutants/handoff_mutants.nuon"
+   }],
+  [jab-stress, "fps/mutants/handoff_set_mutants.nuon",   "0e749d621e12f51a49a7229061ea4bcc45a75202a401d6af68a0e619307506bd", 653,   {
+    kind: copied,
+    to: "assets/fps/mutants/handoff_set_mutants.nuon"
+   }],
+  [jab-stress, "fps/mutants/interval_mutants.nuon",      "dfac7e27f4b7caaf027b1b7d878d88c11cdad9935324006729a43f79e1b9acd4", 460,   {
+    kind: copied,
+    to: "assets/fps/mutants/interval_mutants.nuon"
+   }],
+  [jab-stress, "fps/mutants/packet_mutants.nuon",        "40e5cce2153252b96308179e61a906fbe99b7dd558bbeb1da16498b56635f038", 1615,  {
+    kind: copied,
+    to: "assets/fps/mutants/packet_mutants.nuon"
+   }],
+  [jab-stress, "fps/mutants/pool_mutants.nuon",          "f6de136e547857a89e5d9dcd32e4c5e966cae2eb9ee729171f8a565e3fa91d20", 3388,  {
+    kind: copied,
+    to: "assets/fps/mutants/pool_mutants.nuon"
+   }],
+  [jab-stress, "fps/mutants/poolreader_mutants.nuon",    "53a4515909f6047ebfd066766d35108530b53680ad82375fbdf29ab297ac1d68", 4110,  {
+    kind: copied,
+    to: "assets/fps/mutants/poolreader_mutants.nuon"
+   }],
+  [jab-stress, "fps/mutants/tilecensus_mutants.nuon",    "4635c63cac808fceb2f1d1cddfc7221d43e02bb0ab6d80138b51a71ab9caa00c", 4042,  {
+    kind: copied,
+    to: "assets/fps/mutants/tilecensus_mutants.nuon"
+   }],
+  [jab-stress, "fps/mutants/worker_mutants.nuon",        "e81287ad5bf631b0fc80102c03f008d770f4144c27e1bd570701b88d9cab58da", 6956,  {
+    kind: copied,
+    to: "assets/fps/mutants/worker_mutants.nuon"
+   }],
+  [jab-stress, "fps/mutants/workergauge_mutants.nuon",   "984df0224ba7091413dbbf1a0e9852c79f61e251a28893fa9665da029f9eb04e", 2445,  {
+    kind: copied,
+    to: "assets/fps/mutants/workergauge_mutants.nuon"
+   }]
+ ],
+ destination_files: [
+  [repository,      path,                                                              "sha256",                                                           bytes, origin];
+  [jab-stress-data, "assets/fps/mutants/builder_mutants.nuon",                         "18dbb24e80d6682fe71358aa763950c3a8e9db18b32368ac7d89d0f91c5beb64", 3079,  {
+    kind: asset,
+    phase: AssetData,
+    copied: "44dc37d"
+   }],
+  [jab-stress-data, "assets/fps/mutants/cadence_mutants.nuon",                         "3c5ad26addac3f2ed020020e535ec576911c63e98f16f6e06e5ebaaf597ac79a", 3379,  {
+    kind: asset,
+    phase: AssetData,
+    copied: "44dc37d",
+    changed: "687b12e"
+   }],
+  [jab-stress-data, "assets/fps/mutants/census_mutants.nuon",                          "830b7ed6d94f7a8a94217d50acd3a51f40e5a273a3ab4829ae63c675e2c2ce1c", 5439,  {
+    kind: asset,
+    phase: AssetData,
+    copied: "44dc37d"
+   }],
+  [jab-stress-data, "assets/fps/mutants/census_reader_mutants.nuon",                   "edce0257b547935b7720617abe7623e720898befd569897a71b7359963119339", 5611,  {
+    kind: asset,
+    phase: AssetData,
+    copied: "44dc37d"
+   }],
+  [jab-stress-data, "assets/fps/mutants/eviction_mutants.nuon",                        "7d1af921631319a1b9630e7b8f20efe19e20a6ba10920e7b199d919803cc5824", 5800,  {
+    kind: asset,
+    phase: AssetData,
+    copied: "44dc37d",
+    changed: "3495409"
+   }],
+  [jab-stress-data, "assets/fps/mutants/gauge_mutants.nuon",                           "1af168c0e778d5f4b4a48f7a41e1a035f59e6540001e83652b0712b523d2436b", 53167, {
+    kind: asset,
+    phase: AssetData,
+    copied: "44dc37d",
+    changed: "81a2ea5"
+   }],
+  [jab-stress-data, "assets/fps/mutants/handoff_mutants.nuon",                         "25a73fca6ad732e6f3863b0c59ecfed2c33492778fe7055f1348886fb677e0ed", 412,   {
+    kind: asset,
+    phase: AssetData,
+    copied: "44dc37d"
+   }],
+  [jab-stress-data, "assets/fps/mutants/handoff_set_mutants.nuon",                     "0e749d621e12f51a49a7229061ea4bcc45a75202a401d6af68a0e619307506bd", 653,   {
+    kind: asset,
+    phase: AssetData,
+    copied: "44dc37d"
+   }],
+  [jab-stress-data, "assets/fps/mutants/interval_mutants.nuon",                        "dfac7e27f4b7caaf027b1b7d878d88c11cdad9935324006729a43f79e1b9acd4", 460,   {
+    kind: asset,
+    phase: AssetData,
+    copied: "44dc37d"
+   }],
+  [jab-stress-data, "assets/fps/mutants/packet_mutants.nuon",                          "40e5cce2153252b96308179e61a906fbe99b7dd558bbeb1da16498b56635f038", 1615,  {
+    kind: asset,
+    phase: AssetData,
+    copied: "44dc37d"
+   }],
+  [jab-stress-data, "assets/fps/mutants/pool_mutants.nuon",                            "f6de136e547857a89e5d9dcd32e4c5e966cae2eb9ee729171f8a565e3fa91d20", 3388,  {
+    kind: asset,
+    phase: AssetData,
+    copied: "44dc37d"
+   }],
+  [jab-stress-data, "assets/fps/mutants/poolreader_mutants.nuon",                      "53a4515909f6047ebfd066766d35108530b53680ad82375fbdf29ab297ac1d68", 4110,  {
+    kind: asset,
+    phase: AssetData,
+    copied: "44dc37d"
+   }],
+  [jab-stress-data, "assets/fps/mutants/tilecensus_mutants.nuon",                      "4635c63cac808fceb2f1d1cddfc7221d43e02bb0ab6d80138b51a71ab9caa00c", 4042,  {
+    kind: asset,
+    phase: AssetData,
+    copied: "44dc37d"
+   }],
+  [jab-stress-data, "assets/fps/mutants/worker_mutants.nuon",                          "e81287ad5bf631b0fc80102c03f008d770f4144c27e1bd570701b88d9cab58da", 6956,  {
+    kind: asset,
+    phase: AssetData,
+    copied: "44dc37d"
+   }],
+  [jab-stress-data, "assets/fps/mutants/workergauge_mutants.nuon",                     "984df0224ba7091413dbbf1a0e9852c79f61e251a28893fa9665da029f9eb04e", 2445,  {
+    kind: asset,
+    phase: AssetData,
+    copied: "44dc37d"
+   }],
+  [jab-stress-data, "doc/notes/layout.md",                                             "0018830d89798779128343abdb31f74840e75ad090de665ed7ceea198daab77e", 7096,  {
+    kind: note,
+    phase: AssetData
+   }],
+  [jab-stress-data, "runs/fps/workergauge/20261017T014218/run.nuon",                   "84d1a160d2ced961f174839cbe43d7cb633bdd16d72425ccc6b20cb660e93aac", 548,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/census_reader/20261017T014228/run.nuon",                 "acf5faf2dd96ad8114659a9632a552b7f68797841e3987a8cb5a06d7d701ab67", 569,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/gauge/20261017T014426/run.nuon",                         "99416cfeb109b102281e10c77d85c4f283490fa3d36ad775124b4b2106510a56", 791,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/tilecensus/20261017T015424/run.nuon",                    "ae26b4dd2582a18cfb8dd41b136ba0a976dcda9fffb0128acd65e7379e620361", 578,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/poolreader/20261017T015426/run.nuon",                    "27ab3fad7a6bde7602ac8f72ca7685f9bdf891f1e61153e2c46b1454ddc48638", 584,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/eviction/20261017T020344/run.nuon",                      "d234b60abc1ad7bbcc2997c2a7a34a64c2a98471893c8b4877e30ea3cf13ac85", 734,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/cadence/20261017T021151/run.nuon",                       "01620be158d3f7a41d2a9eff60b736f266f808a2487bcf1b99b932f0f8d4f20a", 723,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/census/20261017T021730/run.nuon",                        "4564af509a322bb5361c4f5eb0ae9c0fff5df6af13dad610472d2d4fd3358027", 580,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/program/20261017T021902/run.nuon",                       "6f00858d1036224887a6b3070eb3f20ec364c00b40d08b9656bb7503e45a5ae7", 628,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/program/20261017T024612/run.nuon",                       "1f97b90a44474f705f0af8faa961fca1cbf62845fa199657d429723555f716ba", 786,   {
+    kind: manifest,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/workergauge/20261017T014218/control.log",                "28975818b809528b660d3425425785c400d13ff6fba78fa1c48e5b97f8c34164", 1000,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/workergauge/20261017T014218/results.nuon",               "95aabdff5df0367cc226b9a372fcdf200f32f4e4e772d6963335f6f542723437", 177,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/workergauge/20261017T014218/wg_automatic_unchecked.log", "2d3fe7d773986183e5b4c1f1f1edf40e1ae05321b00afe8145587283166f5643", 1918,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/census_reader/20261017T014228/control.log",              "7d39fd612a897a25d6fb96be6402d620d2e2b89d3588d73951a9a98455c5cb2b", 305,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/census_reader/20261017T014228/reader_no_directory.log",  "e83b154cc50d6d21ee906ea7e66a729e5a81258c4fe84ef19f7a1868969d20df", 984,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/census_reader/20261017T014228/results.nuon",             "3ea1c0fca3d297f6344edbb0d25f3bd1e1ba736a9be3c6c262699e8f48a6c50d", 151,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/gauge/20261017T014426/a/build_kernel.log",               "205a67764c81758f67dd852625b252533b05b554f492dba7f2b4f50260425b20", 1489,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/gauge/20261017T014426/a/build_machine.log",              "4a04693325b4f46faebffcd2251e223afd7d9ec4472410d94af89eabc206c572", 753,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/gauge/20261017T014426/a/build_workers.log",              "4fcc13d036afaa0429e57511a24b4294b0439032bae38c212be231c30f038779", 841,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/gauge/20261017T014426/a/control.log",                    "c111e98b7ede4b7ebb361c1f54065eb6fd9849a276a723fb223da04302505f23", 4203,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/gauge/20261017T014426/a/results.nuon",                   "ac02b3a8eccaff78dcc44579d57869cd660793d09f406bd3052d8dc8a617006e", 230,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/gauge/20261017T014426/b/build_grain.log",                "3f61c746cb684b3ec760cec95bba530863b5ee31844d2c878bb26f32c32edbb5", 792,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/gauge/20261017T014426/b/control.log",                    "f556c2053a381d2d33395bbac9f5ed9227742e7665289d9752719bc444505bfe", 4203,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/gauge/20261017T014426/b/legacy_unknown_merged.log",      "00c301d3b7b5c22299f4503a0d4cefee9bbfebbf76724d796f16b519fa80bb2b", 934,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/gauge/20261017T014426/b/results.nuon",                   "0837c06e754335fb04819e8b6da142b60aca1047c6807afe60aa5830b89fe2f3", 261,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/gauge/20261017T014426/b/route_not_a_build.log",          "3603571427aba8e1005482de503e6abd2a303e6d6fdaa4df497a518cf3945126", 1747,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/tilecensus/20261017T015424/control.log",                 "b3110ac97010831d68640475504b1a3caf1e68375859cd52b064647148604eca", 284,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/tilecensus/20261017T015424/results.nuon",                "63184f51465e997a5e02a0e8ea8cc9abbf7902186027b35dbe8614edd6fc760d", 89,    {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/tilecensus/20261017T015424/tc_standing_valid.log",       "6f639acd10a8ed3df81e9490559b8c87c45d7e3e13ff8162d6a85ecb213804a5", 915,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/poolreader/20261017T015426/control.log",                 "a5b59803516bc6a4a10de35655cda4404608ab6cf71cb6bc0c9a3ae6aea376c2", 566,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/poolreader/20261017T015426/pg_valid_unchecked.log",      "0720c929902c4473c8ba6deaf48fcf4b9d811c80ae4900d0bc8d5c322495ddc0", 1247,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/poolreader/20261017T015426/results.nuon",                "68d3c10d4dd566641a088f23edeb0f04f1869c182fb1cfccc122514bce2ab5f9", 112,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/eviction/20261017T020344/control.log",                   "2b2db49e33df1678ea3e661fd32c2e33935db844a31d68d156b503e97431e78d", 523,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/eviction/20261017T020344/join_released.log",             "460264d74ca4ef5cf9b4fde3201ff9bd462bc7fd544af56cfb3ddcf36ff5c7ff", 1303,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/eviction/20261017T020344/release_dropped.log",           "0d36c921000a72f05b2b216a445023c181e66161e4115554e6e6722928d2df05", 1349,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/eviction/20261017T020344/results.nuon",                  "474854c9f2c5db6d7427b2aa797d761553ca07a996556fb9f1114facca02967c", 603,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/cadence/20261017T021151/control.log",                    "50b3954b2a4934b193df7cdd29f4ef734b186322dc18e85ef9c790f660a86911", 1192,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/cadence/20261017T021151/critical_holds_wait.log",        "87047c07a1a2f136c4496d955be63bfefddfbe741e6d43ae5bf9370fbbfdf027", 1435,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/cadence/20261017T021151/pad_wake_restarts.log",          "04ff2fc3c8177eaf052592c795e588522e0be5cfef5739ec8c47b99ea6836cb6", 1602,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/cadence/20261017T021151/refusal_not_retried.log",        "1bf42a2dc4c65395c96bdbc64acbef12b2b2f21f74e1553d3a7d1de72a20c119", 1407,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/cadence/20261017T021151/results.nuon",                   "9b79907cd0f866522d6025743c0b1599cac191c9149a64513ba3121f537cf877", 1033,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/census/20261017T021730/census_node_clamp.log",           "e0cdb4f0a3c82d985ee05b3bbe304f0dbe4ee445b91637f225d5e4411c86bc66", 1841,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/census/20261017T021730/control.log",                     "5c40922169bc4afa3c1441663dfcbb2c9255ae96d5825763e4dbad8aa0dd3466", 584,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/census/20261017T021730/results.nuon",                    "34687ad571c9a398638b06e3213ca9384db1ad4ff31d6f66850838cb06b8f065", 289,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/program/20261017T021902/control.log",                    "16359c7b2aa0ce0656010eb14a2cf7af5ecfd13220d53c6f988cff32538397a3", 9343,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/program/20261017T021902/fallback_removed.log",           "71b112dec24926690b14a8e9b375def8d49bd03bc3a4b25db88295cabb229663", 1774,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/program/20261017T021902/interval_reset_at_tile.log",     "e9b4c5481d328d3a098e5971b8d6e0e310db1d9dcf7de64c66f6d6984d23aa34", 1817,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/program/20261017T021902/results.nuon",                   "5c7a02970d42f94d92cebb283b4ee69421435ccc4d25886d055d8841ca8c04e2", 971,   {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/program/20261017T024612/boundary_after_snapshot.log",    "d0dacf71db7fd793e848b55d9dce6759ab70b1304737e895559c1fe33bb99ef7", 5636,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/program/20261017T024612/builder_corner.log",             "47dda4a390cba97664bc3eb74bac223c039c126ffce291a7be2d349f201ee0db", 8315,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/program/20261017T024612/control.log",                    "f900c5bb6d1abc2800b454db7ff9da119f6fd99cd81178108b71c39884fc5fa8", 10952, {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/program/20261017T024612/join_skipped.log",               "3be2731a1537e2c9f5b8cb393df71860416eb7221593a0e47513b9ae3b2e7318", 5320,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/program/20261017T024612/lit_end_sample_carried.log",     "54a4eaf504f0272b5360e3305713843acaf39526d6bf2650c48eec4a8d016ada", 8492,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/program/20261017T024612/results.nuon",                   "675d0ae65bdb7b4069dea0ef027fb5c52eb20a2e1f2a60697c043b40bbd78bc4", 1365,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }],
+  [jab-stress-data, "runs/fps/program/20261017T024612/scratch_leftover.log",           "0e02b64299253796c50842211175465ea6e0b65ad0609fba634192366e691bce", 5806,  {
+    kind: check_run,
+    phase: ConsumerRuns
+   }]
+ ],
+ counts: {
+  sources: {
+   files: 15,
+   bytes: 99517,
+   copied: 15
+  },
+  destinations: {
+   files: 71,
+   assets: 15,
+   notes: 1,
+   manifests: 10,
+   check_runs: 45
+  },
+  pruned_runs: 0
+ }
+}
