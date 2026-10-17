@@ -1,0 +1,14 @@
+[
+  [name,          program,        expect,                                       edits];
+  [register_flip, example/bounce, "a disc of radius 90 has about 25447 pixels", [
+      [file,                        find,                                                                                                                                                                       put];
+      ["example/bounce/src/main.S", "    la t0, flip_rect
+    lwu a0, JAB_RECT_X(t0)
+    lwu a1, JAB_RECT_Y(t0)
+    lwu a2, JAB_RECT_WIDTH(t0)
+    lwu a3, JAB_RECT_HEIGHT(t0)
+    jab.sys.display.flip.rect
+", "    jab.sys.display.flip.rect
+"]
+    ]]
+]

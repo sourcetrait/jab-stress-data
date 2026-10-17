@@ -1,0 +1,9 @@
+--- example/bounce
+bounce: ball at 736,557; QEMU used 0.24 CPU seconds over 3.26 seconds
+bounce: ok
+╭───┬────────────────┬────────╮
+│ # │    program     │ passed │
+├───┼────────────────┼────────┤
+│ 0 │ example/bounce │ true   │
+╰───┴────────────────┴────────╯
+
