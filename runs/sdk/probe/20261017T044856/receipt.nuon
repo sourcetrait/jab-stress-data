@@ -1,0 +1,9 @@
+{
+ call: fDXDWwFzmTS,
+ results: "results.nuon",
+ "results_sha256": "1905e801dd4e802a2e2215d5f112ce664f270d6d7031862c0be75bfc64a56210",
+ finished: 83.977,
+ deadline: 400,
+ in_time: true,
+ ok: true
+}

@@ -12,7 +12,7 @@
     [run,  "73639ae3a45aeb424ab5de94767e0bedde5fbb9f", jab,      "baseline.nuon"]
   ],
   kept: {
-    as: last,
-    why: "the whole run before the current one, cited as evidence by HostWatch's ProbeBySymbol"
+    as: checkpoint,
+    why: "cited as evidence by HostWatch's ProbeBySymbol, plan/agenda/HostWatch/ProbeBySymbol.md, a campaign still open"
   }
 }

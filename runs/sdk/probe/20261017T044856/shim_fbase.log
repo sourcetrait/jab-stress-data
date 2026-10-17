@@ -1,0 +1,23 @@
+--- test/probe
+Error: nu::shell::error
+
+  x harness: sdl-resolve names the harness's own function as the immediate
+  | caller: {object: 0, hex: "1194a", address: 72010, file:
+  | jabshim_sdl_harness, state: read, functions: []}
+  | These are not equal.
+     ,-[/home/box/proj/sourcetrait/jab/test/probe/test/test.nu:478:18]
+ 477 |     assert equal ($caller | get -o object) 0 $"harness: the frame after the shim's lies in the harness, object 0: ($caller | to nuon)"
+ 478 |     assert equal ($caller | get -o functions) ["harness_make_current"] $"harness: sdl-resolve names the harness's own function as the immediate caller: ($caller | to nuon)"
+     :                  ^^^^^^^^^^^^^^|^^^^^^^^^^^^^ ^^^^^^^^^^^^|^^^^^^^^^^^
+     :                                |                          `-- right: [harness_make_current]
+     :                                `-- left: []
+ 479 |     print "probe: ok"
+     `----
+
+╭───┬────────────┬────────╮
+│ # │  program   │ passed │
+├───┼────────────┼────────┤
+│ 0 │ test/probe │ false  │
+╰───┴────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

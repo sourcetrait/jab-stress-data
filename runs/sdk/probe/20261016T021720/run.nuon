@@ -12,7 +12,7 @@
     [run,  "c1f4d4155e10acbd215dcbf87b121d11657a532c", jab,      "baseline.nuon"]
   ],
   kept: {
-    as: current,
-    why: "the latest whole run of the set, the move's consumer run from assets/sdk/mutants/"
+    as: last,
+    why: "the whole run before the current one"
   }
 }
