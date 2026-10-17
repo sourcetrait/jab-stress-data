@@ -33,5 +33,27 @@
   {name: asked_port_dropped, program: test/probe, expect: "plumbing_api:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "    let api_on = ($api or (not ($send | is-empty)))", "    let api_on = (not ($send | is-empty))"]]},
   {name: nonce_frame_sent, program: test/probe, expect: "plumbing_send:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "        sends: $send,
 ", "        sends: (if ($send | is-empty) { $send } else { [{ at: 0sec, bytes: (nonce-hex $capture_nonce | decode hex) }] ++ $send }),
-"]]}
+"]]},
+  {name: ordinal_skip_as_repeat, program: test/probe, expect: "ordinals_skip:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "} else if $got == $last { \"repeat\" } else { \"skip\" })", "} else { \"repeat\" })"]]},
+  {name: ordinal_repeat_as_skip, program: test/probe, expect: "ordinals_repeat:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "} else if $got == $last { \"repeat\" } else { \"skip\" })", "} else { \"skip\" })"]]},
+  {name: ordinal_backward_unseen, program: test/probe, expect: "ordinals_backward:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "            let rule = (if $got < $last { \"backward\" } else if", "            let rule = (if false { \"backward\" } else if"]]},
+  {name: ordinal_advance_unseen, program: test/probe, expect: "ordinals_advance:", edits: [[file, find, put]; ["sdk/nu/jab.nu", " else if not $f.item.presented { \"advance\" }", ""]]},
+  {name: ordinal_refusal_advances, program: test/probe, expect: "ordinals_held:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "        let wanted = (if $f.item.presented { $last + 1 } else { $last })", "        let wanted = ($last + 1)"]]},
+  {name: ordinal_chained_from_wanted, program: test/probe, expect: "ordinals_skip:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "        $last = $got
+", "        $last = $wanted
+"]]},
+  {name: pair_gap_unrefused, program: test/probe, expect: "pair_gap:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "    if not ($gaps | is-empty) { $refusals = ($refusals | append { refusal: \"an ordinal gap in the guest's presents\", count: ($gaps | length) }) }
+", ""]]},
+  {name: pair_short_unrefused, program: test/probe, expect: "pair_short:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "    if $short > 0 { $refusals = ($refusals | append { refusal: \"the log short of an ordinal\", count: $short }) }
+", ""]]},
+  {name: pair_duplicate_unrefused, program: test/probe, expect: "pair_duplicated:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "    if $duplicated > 0 { $refusals = ($refusals | append { refusal: \"a duplicated event\", count: $duplicated }) }
+", ""]]},
+  {name: pair_backwards_unrefused, program: test/probe, expect: "pair_backwards:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "    if $backwards > 0 { $refusals = ($refusals | append { refusal: \"a stamp going backwards\", count: $backwards }) }
+", ""]]},
+  {name: pair_device_unrefused, program: test/probe, expect: "pair_device:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "    if $errors > 0 { $refusals = ($refusals | append { refusal: \"a device error in the window\", count: $errors }) }
+", ""]]},
+  {name: pair_ending_unrefused, program: test/probe, expect: "pair_cut:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "        if $after < 1.0 { $refusals = ($refusals | append { refusal: \"the log ending under 1 s past the window's last upload\", count: 1 }) }
+", ""]]},
+  {name: pair_residual_unrefused, program: test/probe, expect: "pair_three_uploads:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "    if $past > 0 { $refusals = ($refusals | append { refusal: \"a residual past half the period\", count: $past }) }
+", ""]]}
 ]
