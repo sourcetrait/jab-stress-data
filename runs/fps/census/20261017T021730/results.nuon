@@ -1,0 +1,12 @@
+{
+ control_ok: true,
+ every: true,
+ results: [
+  [name,              applied, built, exit, failed_where, credited, reason];
+  [control,           true,    true,  0,    true,         true,     ""],
+  [census_node_clamp, true,    true,  1,    true,         true,     ""]
+ ],
+ misses: [
+
+ ]
+}

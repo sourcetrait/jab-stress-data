@@ -1,0 +1,21 @@
+{
+  set: census,
+  stamp: "20261017T021730",
+  task: FpsSetsMoved,
+  scope: {
+    kind: targeted,
+    ran: 1,
+    of: 13,
+    names: [
+      census_node_clamp
+    ]
+  },
+  builds: [
+    [part, build, checkout,  record];
+    [run,  null,  synthetic, unrecorded]
+  ],
+  kept: {
+    as: checkpoint,
+    why: "FpsSetsMoved's consumer run from the set's new home, the census set's runner 5g6hE6ot8h5 with census.just over assets/fps/mutants/census_mutants.nuon, its control and one representative credited at its own assertion, cited as evidence by MutantSetsHome's FpsSetsMoved"
+  }
+}
