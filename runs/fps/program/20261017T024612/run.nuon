@@ -1,0 +1,25 @@
+{
+  set: program,
+  stamp: "20261017T024612",
+  task: FpsSetsMoved,
+  scope: {
+    kind: targeted,
+    ran: 5,
+    of: 41,
+    names: [
+      scratch_leftover,
+      join_skipped,
+      boundary_after_snapshot,
+      builder_corner,
+      lit_end_sample_carried
+    ]
+  },
+  builds: [
+    [part, build, checkout,  record];
+    [run,  null,  synthetic, unrecorded]
+  ],
+  kept: {
+    as: checkpoint,
+    why: "FpsSetsMoved's consumer run from the sets' new home: the program runner gQQhjycy0Bk with pool.just over packet's scratch_leftover, worker's join_skipped, pool's boundary_after_snapshot, builder's builder_corner, and handoff's lit_end_sample_carried beside a control of the whole suite, each caught at its own assertion, cited as evidence by MutantSetsHome's FpsSetsMoved"
+  }
+}
