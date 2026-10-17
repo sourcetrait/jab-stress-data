@@ -1,0 +1,48 @@
+{
+ call: "gPF8xLSZvLZ",
+ mark: JAB_RUNNER_MARK,
+ stage: ".jabstage.",
+ root: /home/box/proj/sourcetrait/jab,
+ commit: "1c604c84605b55d91d62394dee1e82640fa2d9c8",
+ set: "/home/box/proj/sourcetrait/jab-stress-data/assets/kernel/mutants/owners_mutants.nuon",
+ "set_sha256": "bea5e82fb92d2e3418a6208f755ef4aca4a6328f3c3151362e848186e3c2eb6f",
+ only: [
+  forbidden_emptied,
+  indirect_unchecked,
+  data_unscanned,
+  allowlist_widened,
+  secondary_claims,
+  secondary_enables
+ ],
+ control: {
+  program: test/owners,
+  ok: "owners: ok",
+  symbols: ""
+ },
+ deadline: 540,
+ margin: 15,
+ kill_after: 5,
+ hold: {
+  at: "",
+  seconds: 0
+ },
+ started: "2026-10-17T21:58:44.535+0000",
+ paths: [
+  [file,                       committed,                                                          mutated];
+  ["test/owners/test/test.nu", "1b1a01be775846ef2119059c1cfb35bb905322b7d18a28c1e9f19d8f97711a47", [
+    [mutant,             hash];
+    [forbidden_emptied,  "6ebb9ee89c994aa38140cfc2f2b7ac9fe43f6fb8b61b430635b018952443895b"],
+    [indirect_unchecked, "acb672cd0ed7fc0b8babf7e836ad89500a991da57829adacad87bbcd6ce35d3a"],
+    [data_unscanned,     "71c2568fac848a7dd6545b69f5ef425ce8e9396032ac85c5aaef02fc444d2874"],
+    [allowlist_widened,  "7e45f27014249a21e6e8f313c79b53ff0beafba9c35061eafceefada20f86ef0"]
+   ]],
+  ["kernel/src/workers.S",     "e1961367da2bbdf4c16ca92c6ec0ee6e0590db2dcac30076bc19eb68658263d2", [
+    [mutant,           hash];
+    [secondary_claims, "eb334559cf5ec6bac3312663acdcd70d26f6ec6e76c08cb8e3eb5ee14600e65e"]
+   ]],
+  ["kernel/src/aia.S",         "3a2e059d5d34c7a38fb7a60bdb71963ed6f0b172bc06ccbd4de7b33ed34cc227", [
+    [mutant,            hash];
+    [secondary_enables, "c944eb6973709277493f8d19600af9ff7a3bcf8887dc6d0f5e0cca81f61c1c6e"]
+   ]]
+ ]
+}

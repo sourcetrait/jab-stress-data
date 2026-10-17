@@ -1,0 +1,26 @@
+--- test/owners
+owners: forbidden_call refused: routine keyboard_drain at 0x0: a routine of keyboard.S; path sys_worker_wake -> keyboard_drain (call at sys_worker_wake+0x2)
+owners: driver_data refused: data sys_worker_wake pad_head at 0x6: a reference into pad.S's .bss; path sys_worker_wake
+owners: indirect_call refused: indirect sys_worker_wake at 0xa: jalr t0, no listed dispatch site; path sys_worker_wake
+owners: second_sound_base refused: data irq_drain sound_base at 0x72: a reference into sound.S's .bss, past its allowed one; path irq_drain
+Error: nu::shell::error
+
+  x owners: no secondary's file enabled a device identity: jab: hart 1 enabled
+  | a device identity 63
+  | jab: hart 2 enabled a device identity 63
+  | 
+    ,-[/home/box/proj/sourcetrait/jab/test/owners/test/test.nu:98:12]
+ 97 |     assert (not ($run.serial | str contains " claimed a device identity ")) $"owners: no hart but 0 claimed a device identity: ($run.serial)"
+ 98 |     assert (not ($run.serial | str contains " enabled a device identity ")) $"owners: no secondary's file enabled a device identity: ($run.serial)"
+    :            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    :                                            `-- It is not true.
+ 99 |     assert equal $run.status 0 $"owners: exit status, with the UART: ($run.serial)"
+    `----
+
+╭───┬─────────────┬────────╮
+│ # │   program   │ passed │
+├───┼─────────────┼────────┤
+│ 0 │ test/owners │ false  │
+╰───┴─────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

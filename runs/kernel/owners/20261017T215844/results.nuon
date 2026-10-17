@@ -1,0 +1,76 @@
+{
+ control_ok: true,
+ every: true,
+ restored: true,
+ cleaned: true,
+ caught: 6,
+ unrun: [
+
+ ],
+ head: "1c604c84605b55d91d62394dee1e82640fa2d9c8",
+ logs: "/home/box/tmp/ai/two/7ika2djI60P/owners/mutants1",
+ deadline: 540,
+ swept: 0,
+ results: [
+  [name,               applied, exit, class,  expected, title,                                                                                                                                       seconds, swept];
+  [control,            true,    0,    passed, passed,   "",                                                                                                                                          14.6,    0],
+  [forbidden_emptied,  true,    1,    caught, caught,   "owners: forbidden_call, a worker-admitted call calling a driver's routine, refused: none",                                                  7.0,     0],
+  [indirect_unchecked, true,    1,    caught, caught,   "owners: indirect_call, a worker-admitted call calling a driver's routine through a register, refused: none",                                11.9,    0],
+  [data_unscanned,     true,    1,    caught, caught,   "owners: driver_data, a worker's path loading a driver's data, refused: none",                                                               9.5,     0],
+  [allowlist_widened,  true,    1,    caught, caught,   "owners: second_sound_base, a second load of the sound's base in the drain, refused: none",                                                  14.2,    0],
+  [secondary_claims,   true,    1,    caught, caught,   "owners: no hart but 0 claimed a device identity: jab: hart 1 claimed a device identity 63 ",                                                15.4,    0],
+  [secondary_enables,  true,    1,    caught, caught,   "owners: no secondary's file enabled a device identity: jab: hart 1 enabled a device identity 63 jab: hart 2 enabled a device identity 63 ", 15.6,    0]
+ ],
+ misses: [
+
+ ],
+ call: "gPF8xLSZvLZ",
+ started: "2026-10-17T21:58:44.535+0000",
+ sweeps: [
+  [name,               records, left,    scans, ended];
+  [control,            [
+
+   ], [
+
+   ], 2,     clean],
+  [forbidden_emptied,  [
+
+   ], [
+
+   ], 2,     clean],
+  [indirect_unchecked, [
+
+   ], [
+
+   ], 2,     clean],
+  [data_unscanned,     [
+
+   ], [
+
+   ], 2,     clean],
+  [allowlist_widened,  [
+
+   ], [
+
+   ], 2,     clean],
+  [secondary_claims,   [
+
+   ], [
+
+   ], 2,     clean],
+  [secondary_enables,  [
+
+   ], [
+
+   ], 2,     clean]
+ ],
+ status: [
+
+ ],
+ status_after: [
+
+ ],
+ staged_after: [
+
+ ]
+}

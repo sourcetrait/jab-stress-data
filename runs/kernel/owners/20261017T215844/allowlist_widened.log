@@ -1,0 +1,23 @@
+--- test/owners
+owners: forbidden_call refused: routine keyboard_drain at 0x0: a routine of keyboard.S; path sys_worker_wake -> keyboard_drain (call at sys_worker_wake+0x2)
+owners: driver_data refused: data sys_worker_wake pad_head at 0x6: a reference into pad.S's .bss; path sys_worker_wake
+owners: indirect_call refused: indirect sys_worker_wake at 0xa: jalr t0, no listed dispatch site; path sys_worker_wake
+Error: nu::shell::error
+
+  x owners: second_sound_base, a second load of the sound's base in the drain,
+  | refused: none
+    ,-[/home/box/proj/sourcetrait/jab/test/owners/test/test.nu:89:16]
+ 88 |         let found = ($reading.violations | where {|v| $v.kind == $case.kind and $v.function == $case.function and ($case.symbol == "" or $v.symbol == $case.symbol) })
+ 89 |         assert (not ($found | is-empty)) $"owners: ($case.name), ($case.why), refused: (violation-text $reading.violations)"
+    :                ^^^^^^^^^^^^|^^^^^^^^^^^^
+    :                            `-- It is not true.
+ 90 |         assert ($found | all {|v| $v.path != "" }) $"owners: ($case.name)'s refusal names its path: (violation-text $found)"
+    `----
+
+╭───┬─────────────┬────────╮
+│ # │   program   │ passed │
+├───┼─────────────┼────────┤
+│ 0 │ test/owners │ false  │
+╰───┴─────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

@@ -1,0 +1,20 @@
+--- test/owners
+Error: nu::shell::error
+
+  x owners: forbidden_call, a worker-admitted call calling a driver's routine,
+  | refused: none
+    ,-[/home/box/proj/sourcetrait/jab/test/owners/test/test.nu:89:16]
+ 88 |         let found = ($reading.violations | where {|v| $v.kind == $case.kind and $v.function == $case.function and ($case.symbol == "" or $v.symbol == $case.symbol) })
+ 89 |         assert (not ($found | is-empty)) $"owners: ($case.name), ($case.why), refused: (violation-text $reading.violations)"
+    :                ^^^^^^^^^^^^|^^^^^^^^^^^^
+    :                            `-- It is not true.
+ 90 |         assert ($found | all {|v| $v.path != "" }) $"owners: ($case.name)'s refusal names its path: (violation-text $found)"
+    `----
+
+╭───┬─────────────┬────────╮
+│ # │   program   │ passed │
+├───┼─────────────┼────────┤
+│ 0 │ test/owners │ false  │
+╰───┴─────────────┴────────╯
+
+error: recipe `test` failed with exit code 1
