@@ -1,0 +1,73 @@
+{
+  written: "2026-10-17T10:01:04+0000",
+  label: replay,
+  workload: {
+    program: example/walk,
+    order: await
+  },
+  target: "1ka1",
+  machine: {
+    harts: 3,
+    ram_gib: 4,
+    spec: {
+      name: "1ka1",
+      cores: 3,
+      ram_gib: 4,
+      display: {
+        width: 1920,
+        height: 1080
+      }
+    },
+    diagnostic: null,
+    machine: "virt,aia=aplic-imsic,aclint=on",
+    cpu: "rva23s64,pmp=true",
+    accel: "tcg,thread=multi",
+    overrides: [
+
+    ]
+  },
+  image: {
+    file: "/home/box/tmp/ai/two/7ika2djI60P/walk/launches3/builds/replay/walk.jab",
+    "sha256": "08b6d79aa05d3adb89a78fbd86c86c8966405f192370aadd00b233ca9b92eebd"
+  },
+  kernel: {
+    file: "/home/box/tmp/ai/two/7ika2djI60P/walk/launches3/builds/replay/jab.elf",
+    "sha256": "9a1e7a9a656837958380ef1fd4311271f4c1870c10551742677e30d93125d267"
+  },
+  assets: {
+    file: "/home/box/tmp/ai/two/7ika2djI60P/walk/launches3/builds/replay/walk.romfs",
+    "sha256": "0f7ba7d79b1028bbd72f9324a3a9ce022ae1d7e34c93984da694c44bf7a0dc08"
+  },
+  flags: "-I ../../sdk/src --defsym CADENCE=1 --defsym CADENCE_TEST=1 --defsym REPLAY=1 --defsym TIMING=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+  cadence: [
+    CADENCE,
+    TIMING,
+    REPLAY,
+    CADENCE_TEST
+  ],
+  replay: {
+    file: "/home/box/tmp/ai/two/7ika2djI60P/walk/launches3/await_on.wrpl",
+    "sha256": "c677bf5b400d0fc40da437d35af4819c444154feb22896f1836913ac910bbab0",
+    frames: 500,
+    window_s: 9.9395318,
+    bound: 80
+  },
+  mode: {
+    window: false,
+    sound: none,
+    seconds: 80
+  },
+  profile: paired,
+  capture_nonce: 2761303988472310842,
+  qemu_binary: "/home/box/proj/sourcetrait/jab/extern/qemu/bin/qemu-system-riscv64",
+  qemu_pid: 583942,
+  sdl_log: "",
+  shim: "",
+  window: none,
+  api: true,
+  sends: [
+    [at,  length, "sha256"];
+    [0.2, 16,     "f8a667d768a979a1e71f1841ea09843459daca5b44f95bcd311048f78a2695f1"],
+    [0.2, 2064,   "c677bf5b400d0fc40da437d35af4819c444154feb22896f1836913ac910bbab0"]
+  ]
+}

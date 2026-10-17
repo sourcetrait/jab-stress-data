@@ -1,0 +1,130 @@
+{
+  status: 0,
+  serial: "",
+  debug: "",
+  screen: "",
+  qemu_log: "/home/box/tmp/ai/two/7ika2djI60P/walk/launches3/runs/prepare_off/qemu.log",
+  stderr: "",
+  cpu_seconds: 5.68,
+  wall_seconds: 12.100423563,
+  sound: "",
+  qemu_binary: "/home/box/proj/sourcetrait/jab/extern/qemu/bin/qemu-system-riscv64",
+  qemu: [
+    -machine,
+    "virt,aia=aplic-imsic,aclint=on",
+    -cpu,
+    "rva23s64,pmp=true",
+    -accel,
+    "tcg,thread=multi",
+    -smp,
+    "3",
+    -global,
+    "virtio-mmio.force-legacy=false",
+    -parallel,
+    none,
+    -name,
+    "jab walk,process=jab,debug-threads=on",
+    -m,
+    "4G",
+    -device,
+    "virtio-gpu-device,xres=1920,yres=1080",
+    -device,
+    virtio-keyboard-device,
+    -device,
+    virtio-tablet-device,
+    -device,
+    virtio-rng-device,
+    -device,
+    virtio-serial-device,
+    -chardev,
+    "pipe,id=jabapi,path=/home/box/tmp/ai/two/7ika2djI60P/walk/launches3/runs/prepare_off/api",
+    -device,
+    "virtserialport,chardev=jabapi,nr=2,name=jab.api",
+    -bios,
+    none,
+    -kernel,
+    "/home/box/tmp/ai/two/7ika2djI60P/walk/launches3/builds/prepare_off/jab.elf",
+    -device,
+    "loader,file=/home/box/tmp/ai/two/7ika2djI60P/walk/launches3/builds/prepare_off/walk.jab,addr=0x80a00000,force-raw=on",
+    -display,
+    none,
+    -monitor,
+    "pipe:/home/box/tmp/ai/two/7ika2djI60P/walk/launches3/runs/prepare_off/monitor",
+    -serial,
+    "file:/home/box/tmp/ai/two/7ika2djI60P/walk/launches3/runs/prepare_off/serial.log",
+    -pidfile,
+    "/home/box/tmp/ai/two/7ika2djI60P/walk/launches3/runs/prepare_off/qemu.pid",
+    -d,
+    guest_errors,
+    -D,
+    "/home/box/tmp/ai/two/7ika2djI60P/walk/launches3/runs/prepare_off/qemu.log",
+    -append,
+    "jab.spec=1ka1",
+    -drive,
+    "if=none,id=disk0,file=/home/box/tmp/ai/two/7ika2djI60P/walk/launches3/builds/prepare_off/walk.romfs,format=raw,readonly=on",
+    -device,
+    "virtio-blk-pci,disable-legacy=on,vectors=0,drive=disk0,serial=walk",
+    -drive,
+    "if=none,id=mix,file=/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/mix.romfs,format=raw,readonly=on",
+    -device,
+    "virtio-blk-pci,disable-legacy=on,vectors=0,drive=mix,serial=mix"
+  ],
+  overrides: [
+
+  ],
+  window: none,
+  audio: "",
+  machine: {
+    harts: 3,
+    ram_gib: 4,
+    spec: {
+      name: "1ka1",
+      cores: 3,
+      ram_gib: 4,
+      display: {
+        width: 1920,
+        height: 1080
+      }
+    },
+    diagnostic: null,
+    machine: "virt,aia=aplic-imsic,aclint=on",
+    cpu: "rva23s64,pmp=true",
+    accel: "tcg,thread=multi",
+    overrides: [
+
+    ]
+  },
+  threads: [
+
+  ],
+  threads_span: null,
+  thread_readings: [
+
+  ],
+  screen_started: null,
+  screen_completed: null,
+  send_seconds: [
+    0.211242194
+  ],
+  declared: false,
+  diagnostic: true,
+  qemu_pid: 583751,
+  sdl_log: "",
+  shim: "",
+  capture_nonce: 3361900523274731918,
+  profile: paired,
+  capture: {
+    profile: paired,
+    capture_nonce: 3361900523274731918,
+    qemu_pid: 583751,
+    sdl_log: "",
+    shim: "",
+    window: none,
+    api: true,
+    sends: [
+      [at,  length, "sha256"];
+      [0.2, 16,     "4dfa8123cafa9c28a1eab06f300dcf25dd4db8746e0f1f5c2710a43ea12859e7"]
+    ]
+  },
+  api_bytes: 45296
+}

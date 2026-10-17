@@ -1,0 +1,11 @@
+Error: nu::shell::error
+
+  x cadence holds: TIMING off: refused: [[rule, held, examples]; ["the phase
+  | order", 61, ["frame 0", "frame 1", "frame 2", "frame 3"]]]
+     ,-[/home/box/tmp/ai/two/7ika2djI60P/walk/mutants2/reader/untimed_as_timed/kernel/walk/cadence.nu:498:56]
+ 497 |     mkdir $scratch
+ 498 |     let fail = {|name: string, why: string| error make { msg: $"cadence holds: ($name): ($why)" } }
+     :                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 499 |     let id = { capture_nonce: 77 }
+     `----
+

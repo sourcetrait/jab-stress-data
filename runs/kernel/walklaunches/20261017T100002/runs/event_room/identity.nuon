@@ -1,0 +1,65 @@
+{
+  written: "2026-10-17T10:00:59+0000",
+  label: event_room,
+  workload: {
+    program: example/walk,
+    order: await
+  },
+  target: "1ka1",
+  machine: {
+    harts: 3,
+    ram_gib: 4,
+    spec: {
+      name: "1ka1",
+      cores: 3,
+      ram_gib: 4,
+      display: {
+        width: 1920,
+        height: 1080
+      }
+    },
+    diagnostic: null,
+    machine: "virt,aia=aplic-imsic,aclint=on",
+    cpu: "rva23s64,pmp=true",
+    accel: "tcg,thread=multi",
+    overrides: [
+
+    ]
+  },
+  image: {
+    file: "/home/box/tmp/ai/two/7ika2djI60P/walk/launches3/builds/event_room/walk.jab",
+    "sha256": "c2dbb03a70cc315fc7841155d3e5fd6dc2d39e630259f9babdae7bc8b67efc4f"
+  },
+  kernel: {
+    file: "/home/box/tmp/ai/two/7ika2djI60P/walk/launches3/builds/event_room/jab.elf",
+    "sha256": "e61d8c12656a50d48d05ea89bf118445166e07e4009ce43bee18b532d68ad93f"
+  },
+  assets: {
+    file: "/home/box/tmp/ai/two/7ika2djI60P/walk/launches3/builds/event_room/walk.romfs",
+    "sha256": "0f7ba7d79b1028bbd72f9324a3a9ce022ae1d7e34c93984da694c44bf7a0dc08"
+  },
+  flags: "-I ../../sdk/src --defsym CADENCE=1 --defsym CADENCE_TEST=1 --defsym EVENT_ROOM=1 --defsym TIMING=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+  cadence: [
+    CADENCE,
+    TIMING,
+    CADENCE_TEST
+  ],
+  replay: null,
+  mode: {
+    window: false,
+    sound: none,
+    seconds: 180
+  },
+  profile: paired,
+  capture_nonce: 3934834500382153629,
+  qemu_binary: "/home/box/proj/sourcetrait/jab/extern/qemu/bin/qemu-system-riscv64",
+  qemu_pid: 583878,
+  sdl_log: "",
+  shim: "",
+  window: none,
+  api: true,
+  sends: [
+    [at,  length, "sha256"];
+    [0.2, 16,     "a645d5e1dde7abfd99601e94f059afa1651ff09b8a7c2f92d792e0e79ac50c4e"]
+  ]
+}

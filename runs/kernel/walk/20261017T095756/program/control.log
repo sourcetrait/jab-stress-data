@@ -1,0 +1,3 @@
+walk launches: await_off: 499 frames, the stall's median interval 42.03605 ms
+walk launches: prepare_off: 562 frames, the stall's median interval 25.1407 ms
+walk launches: ok

@@ -1,0 +1,10 @@
+Error: nu::shell::error
+
+  x cadence holds: no flip, a status of 0: admitted
+     ,-[/home/box/tmp/ai/two/7ika2djI60P/walk/mutants2/reader/receipt_flip_removed/kernel/walk/cadence.nu:498:56]
+ 497 |     mkdir $scratch
+ 498 |     let fail = {|name: string, why: string| error make { msg: $"cadence holds: ($name): ($why)" } }
+     :                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 499 |     let id = { capture_nonce: 77 }
+     `----
+

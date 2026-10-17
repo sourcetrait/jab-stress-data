@@ -1,0 +1,18 @@
+{
+ set: walklaunches,
+ stamp: "20261017T100002",
+ task: WalkCadence,
+ scope: {
+  kind: whole,
+  ran: 10,
+  of: 10
+ },
+ builds: [
+  [part, build, checkout, record];
+  [run,  null,  jab,      unrecorded]
+ ],
+ kept: {
+  as: current,
+  why: "walk's CADENCE_TEST launches, `just -f kernel/just/walk.just cadence-launches` at jab bead4f4 and jab-stress ea5a9b3, both clean at the run's start: each loop order with TIMING on and off, the event room's close at frame 60 with 8 events and none omitted, the replay of await_on frame for frame, and the bounded waits' four exits at 10.65 to 10.7 s, every case held; 119 s. The runner records no commit; the run's files are each launch's own and the builds' flags"
+ }
+}

@@ -1,0 +1,12 @@
+-I ../../sdk/src --defsym CADENCE=1 --defsym CADENCE_TEST=1 --defsym TIMING=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-
+../../sdk/src/program.ld
+/home/box/proj/sourcetrait/jab/example/walk/../../sdk/src/jab.inc
+/home/box/proj/sourcetrait/jab/example/walk/../../sdk/src/jab_f32.inc
+/home/box/proj/sourcetrait/jab/example/walk/../../sdk/src/jab_f64.inc
+/home/box/proj/sourcetrait/jab/example/walk/../../sdk/src/jab_jobs.inc
+/home/box/proj/sourcetrait/jab/example/walk/../../sdk/src/jab_keys.inc
+/home/box/proj/sourcetrait/jab/example/walk/../../sdk/src/jab_pad.inc
+/home/box/proj/sourcetrait/jab/example/walk/../../sdk/src/jab_rng.inc
+/home/box/proj/sourcetrait/jab/example/walk/../../sdk/src/program.ld
+/home/box/proj/sourcetrait/jab/example/walk/program.jab.toml
+/home/box/proj/sourcetrait/jab/example/walk/src/main.S

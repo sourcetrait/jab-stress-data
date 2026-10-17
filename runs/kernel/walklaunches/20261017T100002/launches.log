@@ -1,0 +1,11 @@
+walk launches: await_off: 500 frames, the stall's median interval 42.05705 ms
+walk launches: await_on: 500 frames, the stall's median interval 42.02445 ms
+walk launches: prepare_off: 562 frames, the stall's median interval 25.1345 ms
+walk launches: prepare_on: 562 frames, the stall's median interval 25.1372 ms
+walk launches: event_room: closed at frame 60 with 8 events, 0 omitted
+walk launches: replay: 500 frames, the reference's workload and dt frame for frame
+walk launches: no_nonce: status 6 after 10.67 s
+walk launches: nonce_cut: status 6 after 10.7 s
+walk launches: no_replay: status 5 after 10.7 s
+walk launches: replay_cut: status 5 after 10.65 s
+walk launches: ok
