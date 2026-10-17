@@ -1,0 +1,15 @@
+Error: nu::shell::error
+
+  x timing holds: host limit admissible: decided insufficient: {strategy:
+  | reordered, calibration: {state: calibrated, eps: 1000, qualifying:
+  | {"1ka1": 1200, "1kb1": 1300}, calibrated: true}, eligibility: {eligible:
+  | true, why: []}, presentation: {guest: [[base, compared, d, n, runs, host,
+  | target, leg, worse]; [17.025, 17.025, 0.0, 0.025000000000000355, [6, 6],
+  | box
+     ,-[/home/box/tmp/ai/two/7ika2djI60P/timing/mutants1/limit_out_removed/select.nu:335:56]
+ 334 |     mkdir $scratch
+ 335 |     let fail = {|name: string, why: string| error make { msg: $"timing holds: ($name): ($why)" } }
+     :                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 336 |     let base = (base-readings)
+     `----
+
