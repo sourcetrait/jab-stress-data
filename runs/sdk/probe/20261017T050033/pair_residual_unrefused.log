@@ -1,0 +1,20 @@
+--- test/probe
+Error: nu::shell::error
+
+  x pair_three_uploads: refused, saying a residual past half the period and
+  | nothing else: []
+     ,-[/home/box/proj/sourcetrait/jab/test/probe/test/test.nu:531:16]
+ 530 |         let read = (jab sdl-pair $c.events $c.flips)
+ 531 |         assert ((not $read.ok) and (($read.refusals | get refusal) == [$c.says])) $"($c.name): refused, saying ($c.says) and nothing else: ($read.refusals | to nuon)"
+     :                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     :                                                 `-- It is not true.
+ 532 |     }
+     `----
+
+╭───┬────────────┬────────╮
+│ # │  program   │ passed │
+├───┼────────────┼────────┤
+│ 0 │ test/probe │ false  │
+╰───┴────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

@@ -12,7 +12,7 @@
     [run,  "c1f4d4155e10acbd215dcbf87b121d11657a532c", jab,      "baseline.nuon"]
   ],
   kept: {
-    as: last,
-    why: "the whole run before the current one"
+    as: checkpoint,
+    why: "cited as evidence by the SdkMutantSets receipt, migration/20261016T021148-sdkmutantsets.nuon, the move's consumer run"
   }
 }

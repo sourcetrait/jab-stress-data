@@ -1,0 +1,21 @@
+--- test/probe
+Error: nu::shell::error
+
+  x function_end: read as a flip's upload
+  | These are not equal.
+     ,-[/home/box/proj/sourcetrait/jab/test/probe/test/test.nu:259:22]
+ 258 |         let file = (do $log $c.name $c.lines)
+ 259 |         assert equal (reading $file) $c.read $"($c.name): read as ($c.what)"
+     :                      ^^^^^^^|^^^^^^^ ^^^|^^^
+     :                             |           `-- right: {flips: 1, console: 0, switches: 0, renders: 0, refused: ""}
+     :                             `-- left: {flips: 0, console: 0, switches: 0, renders: 0, refused: "the sdl probe refuses the log: an upload's second frame resolves in no table, and the executable at /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/test/probe/fixture/fixture.so keeps a symbol table of 15 sized functions: 1 make_current, among them fixture.so+570"}
+ 260 |         let wanted = ($c | get -o resolve)
+     `----
+
+╭───┬────────────┬────────╮
+│ # │  program   │ passed │
+├───┼────────────┼────────┤
+│ 0 │ test/probe │ false  │
+╰───┴────────────┴────────╯
+
+error: recipe `test` failed with exit code 1
