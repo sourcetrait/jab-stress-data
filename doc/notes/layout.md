@@ -28,6 +28,13 @@ them: its logs, results, baselines, and receipts, byte for byte. Nothing
 in them is edited after the copy. Beside them sits `run.nuon`, the
 manifest this repository adds.
 
+A reread passes a run's saved logs through a reader again, with nothing
+run again, when the reader changes in a way that reaches what the logs
+say. It is a run of its own beside the run it reads, which stays as
+written. Its stamp is the reread's start with the label `reread`, its
+items are those whose logs it read, each reader revision is one of its
+parts, and its `why` names the run it read.
+
 ## The manifest
 
 `run.nuon` is one record with six fields.
@@ -72,7 +79,8 @@ history.
 
 `assets/<subject>/<purpose>/` holds data that a workbench test or recipe
 reads. The runners' own test cases read their canned logs from
-`assets/workbench/cases/logs/`. The fps pose recipes read their pose
+`assets/workbench/cases/logs/`, and the provenance rule's own mutants are
+`assets/workbench/mutants/provenance_mutants.nuon`. The fps pose recipes read their pose
 tables from `assets/fps/poses/`. The checkout runner reads the SDK's
 mutant sets from `assets/sdk/mutants/` and the kernel's from
 `assets/kernel/mutants/`, one file a set. The workbench

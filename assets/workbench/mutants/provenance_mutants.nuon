@@ -1,0 +1,12 @@
+# The provenance rule's own mutants, the rule in jab-stress's
+# runners/provenance.nu: each a `find` on the rule, its `put`, and its
+# `expect`, the case of runners/program_mutants_cases/cases.nuon it must
+# misread, run by that directory's provenance_mutants.nu
+# (`cases.just provenance-mutants`) on mirrors of the rule.
+[
+  [name,                   find,                                                                                        put,                                                                  expect];
+  [gutter_unstripped,      "    let code = (if $spanned { $opening.code | str substring 4.. } else { $opening.code })", "    let code = $opening.code",                                       spanned_equal],
+  [collector_stops,        "        $after | first $bound | where {|e| $e.kind == \"label\" } | get code",              "        $after | take while {|e| $e.kind == \"label\" } | get code", spanned_equal],
+  [long_connector_dropped, "    let connector = (if $spanned { '`(?:-[-|]|----) ' } else { '`-[-|] ' })",               "    let connector = '`-[-|] '",                                      spanned_equal],
+  [span_unclosed,          "        let bound = (if $past == null { $after | length } else { $close + 1 + $past })",    "        let bound = ($after | length)",                              spanned_other_labels]
+]

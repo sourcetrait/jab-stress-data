@@ -1,0 +1,18 @@
+{
+  set: provenance,
+  stamp: "20261017T010616",
+  task: SpannedAssertCredit,
+  scope: {
+    kind: whole,
+    ran: 4,
+    of: 4
+  },
+  builds: [
+    [part, build, checkout,  record];
+    [run,  null,  synthetic, unrecorded]
+  ],
+  kept: {
+    as: current,
+    why: "the latest whole run of the provenance rule's mutants, each misreading its own case on a mirror, the control none, under the rule at jab-stress cbf9926"
+  }
+}

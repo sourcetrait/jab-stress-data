@@ -1,0 +1,35 @@
+{
+ read: "20261016T024253-stuck",
+ set: {
+  path: "assets/kernel/mutants/stuck_mutants.nuon",
+  commit: "24229ab8938f1f1a3bb30e3ccae27b6add8694ca",
+  "sha256": "85976b141e18e44343f26f2f87ce1b706b7faaf95fae2ecb60fb99c66d0ee307"
+ },
+ rules: [
+  [name,                 commit,                                     blob];
+  ["provenance_085b4f4", "085b4f4e68ace18548abeecac67d587db6ecf2bc", "981eb374681ab6c96de60e9fbe7621362733152c"],
+  ["provenance_cbf9926", "cbf9926605665b8fd662e24ead27b4ed3d5db4f9", "12ba7a15a96b1a02cd28fd54c82df6f72cc49427"]
+ ],
+ control: {
+  "kind_085b4f4": null,
+  "kind_cbf9926": null
+ },
+ rows: [
+  [name,                         exit, recorded, "kind_085b4f4", "carries_085b4f4", "class_085b4f4", "kind_cbf9926", "carries_cbf9926", "class_cbf9926"];
+  [no_reset,                     1,    caught,   "assert equal", true,              caught,          "assert equal", true,              caught],
+  [completion_overrides_failure, 1,    caught,   "assert equal", true,              caught,          "assert equal", true,              caught],
+  [count_published_after_loop,   1,    caught,   "assert equal", true,              caught,          "assert equal", true,              caught],
+  [raw_before_check,             1,    caught,   "assert equal", true,              caught,          "assert equal", true,              caught],
+  [abandoned_status_from_memory, 1,    caught,   "assert equal", true,              caught,          "assert equal", true,              caught],
+  [probe_guard_removed,          1,    missed,   null,           true,              missed,          "assert equal", true,              caught],
+  [both_guards_removed,          1,    missed,   null,           true,              missed,          "assert equal", true,              caught],
+  [port_pad_propagation_removed, 1,    caught,   "assert equal", true,              caught,          "assert equal", true,              caught],
+  [api_success_always,           1,    caught,   "assert equal", true,              caught,          "assert equal", true,              caught],
+  [old_await_branch,             1,    caught,   "assert equal", true,              caught,          "assert equal", true,              caught]
+ ],
+ reproduces: true,
+ changed: [
+  probe_guard_removed,
+  both_guards_removed
+ ]
+}

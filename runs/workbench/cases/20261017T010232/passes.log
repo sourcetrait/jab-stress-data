@@ -1,0 +1,5 @@
+eviction cycle: ok in 207.8 s
+eviction rebuild: ok in 106.7 s
+eviction held: ok in 12.9 s
+eviction reuse: ok in 58.1 s
+let log = (open --raw ('/home/box/proj/sourcetrait/jab-stress/runners/program_mutants_cases/../../../jab-stress-data/assets/workbench/cases/logs' | path join $"('/home/box/proj/sourcetrait/jab-stress-data/runs/workbench/cases/20261017T010232/passes' | path basename).log") | decode); print -n $log; exit (if ($log | str contains "Error: ") { 1 } else { 0 })
