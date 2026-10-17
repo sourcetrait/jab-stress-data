@@ -1,0 +1,5 @@
+eviction cycle: ok in 240.5 s
+eviction rebuild: ok in 114.1 s
+eviction held: ok in 14.9 s
+eviction reuse: ok in 62.2 s
+^nu /home/box/proj/sourcetrait/jab-stress/fps/just/../stress/eviction.nu /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel/jab.elf /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/fpsmoved_eviction/packets_control/debug/fps.jab /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/game/fps/still.romfs /home/box/tmp/ai/two/7ika2djI60P/fpsmoved/eviction_logs/control 

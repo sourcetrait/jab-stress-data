@@ -1,0 +1,22 @@
+{
+  set: eviction,
+  stamp: "20261017T020344",
+  task: StaleFpsFinds,
+  scope: {
+    kind: targeted,
+    ran: 2,
+    of: 11,
+    names: [
+      join_released,
+      release_dropped
+    ]
+  },
+  builds: [
+    [part, build, checkout,  record];
+    [run,  null,  synthetic, unrecorded]
+  ],
+  kept: {
+    as: checkpoint,
+    why: "StaleFpsFinds' proof and FpsSetsMoved's consumer run from the set's new home: join_released and release_dropped refitted at jab-stress-data 3495409, run through the program runner gQQhjycy0Bk with eviction_mutants.just on the reuse fixture beside a control of all four fixtures, caught at exit 15 and unexercised at exit 16, cited as evidence by fps's StaleFpsFinds and MutantSetsHome's FpsSetsMoved"
+  }
+}
