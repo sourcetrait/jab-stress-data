@@ -1,0 +1,22 @@
+--- test/probe
+Error: nu::shell::error
+
+  x k_all_pairs: sequence 19 at eps 10000, the linear check's flips the all-
+  | pairs check's
+  | These are not equal.
+     ,-[/home/box/proj/sourcetrait/jab/test/probe/test/test.nu:532:26]
+ 531 |             let pairs = (1..<($s.item | length) | each {|j| $j } | where {|j| 0..<$j | each {|i| $i } | any {|i| (($s.item | get $j) - ($s.item | get $i)) <= (($j - $i) * $period - $eps) } })
+ 532 |             assert equal (jab k-violations $s.item $period $eps | get index) $pairs $"k_all_pairs: sequence ($s.index) at eps ($eps), the linear check's flips the all-pairs check's"
+     :                          ^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^ ^^^|^^
+     :                                                   |                             `-- right: [6, 7, 8, 9, 10, 16, 17, 18, 19, 29]
+     :                                                   `-- left: [6, 7, 8, 9, 10, 16, 17, 18, 19]
+ 533 |         }
+     `----
+
+╭───┬────────────┬────────╮
+│ # │  program   │ passed │
+├───┼────────────┼────────┤
+│ 0 │ test/probe │ false  │
+╰───┴────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

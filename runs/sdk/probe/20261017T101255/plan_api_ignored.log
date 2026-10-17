@@ -1,0 +1,21 @@
+--- test/probe
+Error: nu::shell::error
+
+  x probe_api: the probe's profile, port, and sends
+  | These are not equal.
+     ,-[/home/box/proj/sourcetrait/jab/test/probe/test/test.nu:417:22]
+ 416 |     for p in $plans {
+ 417 |         assert equal (jab probe-plan $p.manifest $p.names $nonce --api=$p.api --send $p.send) $p.wanted $"($p.name): the probe's profile, port, and sends"
+     :                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ^^^^|^^^^
+     :                                                          |                                        `-- right: {profile: generic, api: true, sends: []}
+     :                                                          `-- left: {profile: generic, api: false, sends: []}
+ 418 |     }
+     `----
+
+╭───┬────────────┬────────╮
+│ # │  program   │ passed │
+├───┼────────────┼────────┤
+│ 0 │ test/probe │ false  │
+╰───┴────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

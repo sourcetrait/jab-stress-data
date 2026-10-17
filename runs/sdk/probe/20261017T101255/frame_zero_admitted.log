@@ -1,0 +1,19 @@
+--- test/probe
+Error: nu::shell::error
+
+  x probe_frame_zero: a nonce of 0 has no frame:
+     ,-[/home/box/proj/sourcetrait/jab/test/probe/test/test.nu:407:12]
+ 406 |     let zero_frame = (try { jab nonce-frame 0 | ignore; "" } catch {|e| $e.msg })
+ 407 |     assert ($zero_frame | str contains "a capture nonce is 1 to 2^63 - 1") $"probe_frame_zero: a nonce of 0 has no frame: ($zero_frame)"
+     :            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     :                                           `-- It is not true.
+ 408 |     let plans = [
+     `----
+
+╭───┬────────────┬────────╮
+│ # │  program   │ passed │
+├───┼────────────┼────────┤
+│ 0 │ test/probe │ false  │
+╰───┴────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

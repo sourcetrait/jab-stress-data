@@ -55,5 +55,17 @@
   {name: pair_ending_unrefused, program: test/probe, expect: "pair_cut:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "        if $after < 1.0 { $refusals = ($refusals | append { refusal: \"the log ending under 1 s past the window's last upload\", count: 1 }) }
 ", ""]]},
   {name: pair_residual_unrefused, program: test/probe, expect: "pair_three_uploads:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "    if $past > 0 { $refusals = ($refusals | append { refusal: \"a residual past half the period\", count: $past }) }
-", ""]]}
+", ""]]},
+  {name: plan_paired_unseen, program: test/probe, expect: "probe_paired:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "$symbol != \"\" and (($symbol | str screaming-snake-case) in $names)", "false"]]},
+  {name: plan_symbol_raw, program: test/probe, expect: "probe_paired:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "$symbol != \"\" and (($symbol | str screaming-snake-case) in $names)", "$symbol != \"\" and ($symbol in $names)"]]},
+  {name: plan_frame_dropped, program: test/probe, expect: "probe_paired:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "let framed = (if $paired { [{ at: 200ms, bytes: (nonce-frame $nonce) }] } else { [] })", "let framed = []"]]},
+  {name: plan_send_first, program: test/probe, expect: "probe_paired_send:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "let sends = ($framed ++ (if ($send | bytes length) == 0 { [] } else { [{ at: 200ms, bytes: $send }] }))", "let sends = ((if ($send | bytes length) == 0 { [] } else { [{ at: 200ms, bytes: $send }] }) ++ $framed)"]]},
+  {name: plan_api_ignored, program: test/probe, expect: "probe_api:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "{ profile: (if $paired { \"paired\" } else { \"generic\" }), api: ($api or not ($sends | is-empty)), sends: $sends }", "{ profile: (if $paired { \"paired\" } else { \"generic\" }), api: (not ($sends | is-empty)), sends: $sends }"]]},
+  {name: plan_send_no_port, program: test/probe, expect: "probe_send:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "{ profile: (if $paired { \"paired\" } else { \"generic\" }), api: ($api or not ($sends | is-empty)), sends: $sends }", "{ profile: (if $paired { \"paired\" } else { \"generic\" }), api: $api, sends: $sends }"]]},
+  {name: frame_big_endian, program: test/probe, expect: "probe_frame:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "0x[57 4e 4f 4e 00 00 00 00] ++ ($nonce | into binary --endian little)", "0x[57 4e 4f 4e 00 00 00 00] ++ ($nonce | into binary --endian big)"]]},
+  {name: frame_zero_admitted, program: test/probe, expect: "probe_frame_zero:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "if $nonce < 1 { error make {msg: $\"a capture nonce is 1 to 2^63 - 1, not ($nonce)\"} }", "if $nonce < 0 { error make {msg: $\"a capture nonce is 1 to 2^63 - 1, not ($nonce)\"} }"]]},
+  {name: trace_unchecked, program: test/probe, expect: "probe_untraced:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "if not ($missing | is-empty) { error make {msg: $\"($qemu) lists no trace event ($missing | str join ' or '), which --trace needs\"} }", "if false { error make {msg: \"no trace event\"} }"]]},
+  {name: k_eps_ignored, program: test/probe, expect: "k_zero_delay:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "if $witness >= 0 and $q <= ($top - $eps) {", "if $witness >= 0 and $q <= $top {"]]},
+  {name: k_witness_on_equal, program: test/probe, expect: "k_zero_delay_strict:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "if $witness < 0 or $q > $top {", "if $witness < 0 or $q >= $top {"]]},
+  {name: k_max_lags, program: test/probe, expect: "k_all_pairs:", edits: [[file, find, put]; ["sdk/nu/jab.nu", "if $witness < 0 or $q > $top {", "if $witness < 0 or $q > ($top + $eps) {"]]}
 ]

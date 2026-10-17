@@ -1,0 +1,53 @@
+{
+ call: "khOarLwMF4N",
+ mark: JAB_RUNNER_MARK,
+ stage: ".jabstage.",
+ root: /home/box/proj/sourcetrait/jab,
+ commit: "bead4f467213e8cf2e76c2431fa1b0588497b07b",
+ set: "/home/box/proj/sourcetrait/jab-stress-data/assets/sdk/mutants/probe_mutants.nuon",
+ "set_sha256": "dfca84c672c6c552549c1f6a55f1af65bc949c981794dcbccf5f980193596955",
+ only: [
+  plan_paired_unseen,
+  plan_symbol_raw,
+  plan_frame_dropped,
+  plan_send_first,
+  plan_api_ignored,
+  plan_send_no_port,
+  frame_big_endian,
+  frame_zero_admitted,
+  trace_unchecked,
+  k_eps_ignored,
+  k_witness_on_equal,
+  k_max_lags
+ ],
+ control: {
+  program: test/probe,
+  ok: "probe: ok"
+ },
+ deadline: 900,
+ margin: 15,
+ kill_after: 5,
+ hold: {
+  at: "",
+  seconds: 0
+ },
+ started: "2026-10-17T10:12:55.060+0000",
+ paths: [
+  [file,            committed,                                                          mutated];
+  ["sdk/nu/jab.nu", "db9ae2fdcb704f0d07129aec7bcb98eaf9f6e6bf220050555fb26b41b8888503", [
+    [mutant,              hash];
+    [plan_paired_unseen,  "5567e40b42476d29684ed95adaac72eb8a6acb4a55ac85dbd4ef38d3b62b70d9"],
+    [plan_symbol_raw,     "3b3009985719a5f0e0af408acd0eba3e80b8a8f47a8c81f9a264ff329b818c44"],
+    [plan_frame_dropped,  "66b31181c2c5c9bdb30ae82a3c0a620950c1dba3913147034b94b3b64009ce5a"],
+    [plan_send_first,     "a35b0191dee883e5f0d4e8e3ad3e24d98e4df4f3b827574d0fc5e0295b7627ee"],
+    [plan_api_ignored,    "a71c8616cc418111b26d36dc351bde8f6b9a8c81c5ee1f74bac5b524a0ab9081"],
+    [plan_send_no_port,   "efc0f3e93ab3f404acf56350cbd3ea1e8e6821af76bef9e36cdc4e6f930462b5"],
+    [frame_big_endian,    "bbbe9432aaa28a826e5f93d7848469007e4b45ff22195a0883d73984b9d3f1bb"],
+    [frame_zero_admitted, "70ceac724c772d994e4e77aa2cf9022e1bbe2271e431cb28b7ec906faa06c5bf"],
+    [trace_unchecked,     "deeb66a2f50491e70e3c741c9895c7dc1ee026469d5895ef657beca4abaed186"],
+    [k_eps_ignored,       "82a70ad26f1c3cb6345fa143445a59bae220ebb97a57303814bc79eaf7ab64d6"],
+    [k_witness_on_equal,  "4ab9424e8572726fba83e523dad666775cfcf054df6dbbbbadaca890025c0a8e"],
+    [k_max_lags,          "73d0fc2fe2ccf08963790d668a2b14d410d6987a94d529aee9a51cfe2932ce14"]
+   ]]
+ ]
+}

@@ -1,0 +1,19 @@
+--- test/probe
+Error: nu::shell::error
+
+  x probe_untraced: a QEMU listing neither trace event is refused:
+     ,-[/home/box/proj/sourcetrait/jab/test/probe/test/test.nu:420:12]
+ 419 |     let untraced = (try { jab trace-args "true" ($plumbing | path join "trace.log") | ignore; "" } catch {|e| $e.msg })
+ 420 |     assert ($untraced | str contains "lists no trace event virtio_gpu_cmd_res_flush or virtio_gpu_cmd_set_scanout") $"probe_untraced: a QEMU listing neither trace event is refused: ($untraced)"
+     :            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+     :                                                                `-- It is not true.
+ 421 | 
+     `----
+
+╭───┬────────────┬────────╮
+│ # │  program   │ passed │
+├───┼────────────┼────────┤
+│ 0 │ test/probe │ false  │
+╰───┴────────────┴────────╯
+
+error: recipe `test` failed with exit code 1

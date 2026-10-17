@@ -1,0 +1,112 @@
+{
+ control_ok: true,
+ every: true,
+ restored: true,
+ cleaned: true,
+ caught: 12,
+ unrun: [
+
+ ],
+ head: "bead4f467213e8cf2e76c2431fa1b0588497b07b",
+ logs: "/home/box/tmp/ai/two/7ika2djI60P/probe_mutants/logs1",
+ deadline: 900,
+ swept: 0,
+ results: [
+  [name,                applied, exit, class,  expected, title,                                                                                                         seconds, swept];
+  [control,             true,    0,    passed, passed,   "",                                                                                                            15.9,    0],
+  [plan_paired_unseen,  true,    1,    caught, caught,   "probe_paired: the probe's profile, port, and sends These are not equal.",                                     4.2,     0],
+  [plan_symbol_raw,     true,    1,    caught, caught,   "probe_paired: the probe's profile, port, and sends These are not equal.",                                     4.2,     0],
+  [plan_frame_dropped,  true,    1,    caught, caught,   "probe_paired: the probe's profile, port, and sends These are not equal.",                                     4.2,     0],
+  [plan_send_first,     true,    1,    caught, caught,   "probe_paired_send: the probe's profile, port, and sends These are not equal.",                                4.2,     0],
+  [plan_api_ignored,    true,    1,    caught, caught,   "probe_api: the probe's profile, port, and sends These are not equal.",                                        4.2,     0],
+  [plan_send_no_port,   true,    1,    caught, caught,   "probe_send: the probe's profile, port, and sends These are not equal.",                                       4.2,     0],
+  [frame_big_endian,    true,    1,    caught, caught,   "probe_frame: WNON, a zero word, the nonce as a le64 These are not equal.",                                    4.2,     0],
+  [frame_zero_admitted, true,    1,    caught, caught,   "probe_frame_zero: a nonce of 0 has no frame:",                                                                4.2,     0],
+  [trace_unchecked,     true,    1,    caught, caught,   "probe_untraced: a QEMU listing neither trace event is refused:",                                              4.2,     0],
+  [k_eps_ignored,       true,    1,    caught, caught,   "k_zero_delay: exact periods pass at eps 100 These are not equal.",                                            5.9,     0],
+  [k_witness_on_equal,  true,    1,    caught, caught,   "k_zero_delay_strict: every pair fails at eps 0, each against the first These are not equal.",                 5.8,     0],
+  [k_max_lags,          true,    1,    caught, caught,   "k_all_pairs: sequence 19 at eps 10000, the linear check's flips the all- pairs check's These are not equal.", 11.6,    0]
+ ],
+ misses: [
+
+ ],
+ call: "khOarLwMF4N",
+ started: "2026-10-17T10:12:55.060+0000",
+ sweeps: [
+  [name,                records, left,    scans, ended];
+  [control,             [
+
+   ], [
+
+   ], 2,     clean],
+  [plan_paired_unseen,  [
+
+   ], [
+
+   ], 2,     clean],
+  [plan_symbol_raw,     [
+
+   ], [
+
+   ], 2,     clean],
+  [plan_frame_dropped,  [
+
+   ], [
+
+   ], 2,     clean],
+  [plan_send_first,     [
+
+   ], [
+
+   ], 2,     clean],
+  [plan_api_ignored,    [
+
+   ], [
+
+   ], 2,     clean],
+  [plan_send_no_port,   [
+
+   ], [
+
+   ], 2,     clean],
+  [frame_big_endian,    [
+
+   ], [
+
+   ], 2,     clean],
+  [frame_zero_admitted, [
+
+   ], [
+
+   ], 2,     clean],
+  [trace_unchecked,     [
+
+   ], [
+
+   ], 2,     clean],
+  [k_eps_ignored,       [
+
+   ], [
+
+   ], 2,     clean],
+  [k_witness_on_equal,  [
+
+   ], [
+
+   ], 2,     clean],
+  [k_max_lags,          [
+
+   ], [
+
+   ], 2,     clean]
+ ],
+ status: [
+
+ ],
+ status_after: [
+
+ ],
+ staged_after: [
+
+ ]
+}
