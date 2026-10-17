@@ -91,33 +91,47 @@
     name: join_released,
     file: "workers.S",
     edits: [
-      { find: "    li s3, 0
+      { find: "    li s3, 0                        # the position
+    li s4, 1                        # the hart
 5:
-    bgeu s3, s1, 6f
-    slli s6, s3, 7
+    li t0, JAB_HARTS_MAX
+    bgeu s4, t0, 6f
+    lwu t0, ROUND_HARTS(s0)
+    srl t0, t0, s4
+    andi t0, t0, 1
+    beqz t0, 51f
+    addi t1, s4, -1
+    slli s6, t1, 7
     la t0, mailboxes
     add s6, s6, t0
+    addi s3, s3, 1
 .ifdef DEBUG
-    addi t0, s3, 1
-    sw t0, ROUND_RELEASE(s0)        # the join reached this index: its held worker released
+    sw s3, ROUND_RELEASE(s0)        # the join reached this position: its held worker released
 .endif
     jab.job.join s6
-    addi s3, s3, 1
+51:
+    addi s4, s4, 1
     j 5b
 6:
 ", put: "6:
 " },
       { find: "85:
 .ifdef DEBUG
-    li s3, 0
+    li s3, 1
 86:
-    bgeu s3, s1, 87f
-    slli s6, s3, 7
+    li t0, JAB_HARTS_MAX
+    bgeu s3, t0, 87f
+    lwu t0, ROUND_HARTS(s0)
+    srl t0, t0, s3
+    andi t0, t0, 1
+    addi s3, s3, 1
+    beqz t0, 86b
+    addi t1, s3, -2
+    slli s6, t1, 7
     la t0, mailboxes
     add s6, s6, t0
     lw t0, JAB_JOB_DONE(s6)
     lw t1, JAB_JOB_GEN(s6)
-    addi s3, s3, 1
     beq t0, t1, 86b                 # its job joined, the round's
     jab.sys.uart.print msg_unjoined
     jab.sys.exit 13
@@ -140,8 +154,7 @@
     name: release_dropped,
     file: "workers.S",
     edits: [{ find: ".ifdef DEBUG
-    addi t0, s3, 1
-    sw t0, ROUND_RELEASE(s0)        # the join reached this index: its held worker released
+    sw s3, ROUND_RELEASE(s0)        # the join reached this position: its held worker released
 .endif
     jab.job.join s6
 ", put: "    jab.job.join s6
