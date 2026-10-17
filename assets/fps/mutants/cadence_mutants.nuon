@@ -32,13 +32,13 @@
     name: pad_wake_restarts,
     file: "main.S",
     edits: [{ find: "    beqz t0, 3b                     # a wake on the pad alone, consumed: wait again\n", put: "    beqz t0, 8f\n" }],
-    expect: "the window complete and valid at schema 2 on the schedule at cadence 1"
+    expect: "the window complete and valid at schema 6 on the schedule at cadence 1"
   },
   {
     name: refusal_not_retried,
     file: "main.S",
     edits: [{ find: "    bne a0, t0, 8f\n1:\n.endif\n", put: "    j 8f\n1:\n.endif\n" }],
-    expect: "the window complete and valid at schema 2 on the schedule at cadence 1"
+    expect: "the window complete and valid at schema 6 on the schedule at cadence 1"
   },
   {
     name: forced_after_tick,
@@ -56,7 +56,7 @@
     name: critical_holds_wait,
     file: "main.S",
     edits: [{ find: "    sub t4, t4, t2                  # the wait apart\n", put: "" }],
-    expect: "the window complete and valid at schema 2 on the schedule at cadence 1"
+    expect: "the window complete and valid at schema 6 on the schedule at cadence 1"
   },
   {
     name: wrong_mark,
