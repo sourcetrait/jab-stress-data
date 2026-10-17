@@ -1,0 +1,25 @@
+{
+  set: qualification,
+  stamp: "20261017T181257-1ka1",
+  task: Qualification,
+  scope: {
+    kind: targeted,
+    ran: 31,
+    of: 62,
+    names: ["qual_1ka1"],
+    combined: {
+      runs: ["20261017T181257-1ka1", "20261017T192135-1kb1"],
+      kind: whole,
+      ran: 62,
+      of: 62
+    }
+  },
+  builds: [
+    [part, build, checkout, record];
+    [run, "e21c5aeee99925966e543be9e411c3c24819c5a9", jab, "qualification.nuon"]
+  ],
+  kept: {
+    as: current,
+    why: "The qualification benches' first run here, the preparation's proof and never a qualification: qual_1ka1 at jab e21c5ae, release, every arm sdl,gl=on offscreen under just watch bench, read through jab-stress e5a0544's qualification.nu on an untagged candidate (candidate.nuon), its report by ed9a517's. Every acceptance run passes, medians 12.6 to 12.9 ms; the scaling control met; the shim control met and inadmissible, the flip 0.050 ms longer under the shim against a noise of 0.022; the check names the untagged candidate alone. The bench run stays in the box's target, jab-66f9749f's bench/game/fps/qual_1ka1/20261017-181257, its tar game_fps_qual_1ka1-20261017-181257.tar, 389,130,240 bytes, SHA-256 9eea48370e5578672def50c5da8ed86522a9efd4e4faa6248eb6789d18683b6d. Cited by FrameCeiling/Qualification.md."
+  }
+}

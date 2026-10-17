@@ -1,0 +1,32 @@
+{
+  tag: null,
+  written: "2026-10-17T18:11:00+0000",
+  jab: "e21c5aeee99925966e543be9e411c3c24819c5a9",
+  stress: "e5a05442406e97e6ddd32d019fdca15b0b55885c",
+  "image_sha256": "97cc681a036fe9c452b0fc74de53398d0a4519deefc0e0a0cc4abb53e271cf51",
+  "elf_sha256": "49811f458d9864d3b87b3609986fef7617fa9795efa8a94d42f8585b09b3c944",
+  "kernel_sha256": "cb203ae1fe4a3ec0ccdd1f987d1b57ca5c5ea95a09ff433a1c1def0f3bb11fd2",
+  flags: "-I ../../sdk/src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/game/fps -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+  toolchain: {
+    prefix: "/home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+    version: "GNU assembler (GNU Binutils) 2.47.20260726",
+    tools: {
+      as: {
+        path: "/home/box/.sys/adhoc/opt/riscv/bin/riscv64-unknown-linux-gnu-as",
+        "sha256": "594cf6297f02007cecb2f5900b90297902697db42e5bf57c730d7eed00647ef2"
+      },
+      ld: {
+        path: "/home/box/.sys/adhoc/opt/riscv/bin/riscv64-unknown-linux-gnu-ld",
+        "sha256": "b931cf6b8ff1b97d2b3bc0c060b59a2fb638d4d7893cbea9208fd7664c686bb6"
+      },
+      objcopy: {
+        path: "/home/box/.sys/adhoc/opt/riscv/bin/riscv64-unknown-linux-gnu-objcopy",
+        "sha256": "1aed841115bd72b9dfdc46b5509725223542d3b8f47ea15309912b8544cbd2ae"
+      }
+    }
+  },
+  assets: {
+    map: "render_0",
+    digest: "10b33d35c19a6501ea13c68a46d69dbf80a1631c9568e6386e9e4484b2ec668d"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  set: qualification,
+  stamp: "20261017T192135-1kb1",
+  task: Qualification,
+  scope: {
+    kind: targeted,
+    ran: 31,
+    of: 62,
+    names: ["qual_1kb1"],
+    combined: {
+      runs: ["20261017T181257-1ka1", "20261017T192135-1kb1"],
+      kind: whole,
+      ran: 62,
+      of: 62
+    }
+  },
+  builds: [
+    [part, build, checkout, record];
+    [run, "e21c5aeee99925966e543be9e411c3c24819c5a9", jab, "qualification.nuon"]
+  ],
+  kept: {
+    as: current,
+    why: "The qualification benches' first run here, the preparation's proof and never a qualification: qual_1kb1 at jab e21c5ae, release, every arm sdl,gl=on offscreen under just watch bench, read through jab-stress e5a0544's qualification.nu on an untagged candidate (candidate.nuon), its report by ed9a517's. 28 of its 31 runs recorded: step probed_2 failed at its third run's bundle, the sdl probe refusing a render its 2 ms window misread after a 3 ms host stall (proberuns/20261017T192135-render, RenderAnchor's finding). Every acceptance run passes, medians 10.4 to 11.4 ms; the scaling control met; the check names the untagged candidate, the failed step, and its runs missing from the presentation and the shim control. The bench run stays in the box's target, jab-66f9749f's bench/game/fps/qual_1kb1/20261017-192135, its tar game_fps_qual_1kb1-20261017-192135.tar, 382,064,640 bytes, SHA-256 70323efcf45794b387b08202bc4b14ccdcc0e02f45ab83b4c7dfd4fcf70a9a4b. Cited by FrameCeiling/Qualification.md."
+  }
+}
