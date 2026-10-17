@@ -1,0 +1,23 @@
+{
+  set: cadence,
+  stamp: "20261017T021151",
+  task: KernelKey,
+  scope: {
+    kind: targeted,
+    ran: 3,
+    of: 10,
+    names: [
+      pad_wake_restarts,
+      refusal_not_retried,
+      critical_holds_wait
+    ]
+  },
+  builds: [
+    [part, build, checkout,  record];
+    [run,  null,  synthetic, unrecorded]
+  ],
+  kept: {
+    as: checkpoint,
+    why: "KernelKey's three expects at schema 6 (jab-stress-data 687b12e) and FpsSetsMoved's consumer run from the set's new home: the program runner gQQhjycy0Bk with jab-stress's new cadence_mutants.just over the cadence fixtures alone beside a control, each caught at its own assertion, cited as evidence by FrameCeiling's KernelKey and MutantSetsHome's FpsSetsMoved"
+  }
+}

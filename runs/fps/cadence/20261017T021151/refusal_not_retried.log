@@ -1,0 +1,15 @@
+fps: the schedule at cadence 0: 442 frames; the fast stage's interval 16665 us and age 5831 us; the stall's intervals [50981, 22646, 16776] us; the slow stage's 42533.5 us
+^nu /home/box/proj/sourcetrait/jab-stress/fps/just/../stress/cadence.nu /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel/jab.elf /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/fpsmoved_cadence/packets_refusal_not_retried/debug/fps.jab /home/box/tmp/ai/two/7ika2djI60P/fpsmoved/cadence_logs/refusal_not_retried
+Error: nu::shell::error
+
+  x the window complete and valid at schema 6 on the schedule at cadence 1: []
+  | [1 frames under cadence 1 or 2 whose final flip was not presented]
+      ,-[/home/box/proj/sourcetrait/jab-stress/fps/just/../stress/../../../jab/game/fps/test/test.nu:5137:16]
+ 5136 |         let m = (gauge measure $run.api [{ name: "schedule", places: [], pad: [] }])
+ 5137 |         assert ($m.complete and $m.valid and $m.schema == $CLOCK_SCHEMA) $"the window complete and valid at schema ($CLOCK_SCHEMA) ($says): ($m.problems) ($m.invalid)"
+      :                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^|^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      :                                            `-- It is not true.
+ 5138 |         assert equal $m.cadences [$cadence] $"every frame presented at cadence ($cadence) ($says)"
+      `----
+
+error: recipe `image-test` failed on line 16 with exit code 1

@@ -1,0 +1,8 @@
+fps: the schedule at cadence 0: 425 frames; the fast stage's interval 16658.5 us and age 5794.0 us; the stall's intervals [50975, 22086, 16819] us; the slow stage's 42478 us
+fps: the schedule at cadence 1: 466 frames; the fast stage's interval 16665 us and age 16502 us; the stall's intervals [40703, 17046, 16664] us; the slow stage's 25404.5 us
+fps: the schedule at cadence 2: 444 frames; the fast stage's interval 16667.0 us and age 16512.0 us; the stall's intervals [50173, 16455, 16698] us; the slow stage's 33333.0 us
+fps: the walk at cadence 0: 4.000000252051563 m/s over 2.984057 s, 71 frames, the interval's median 42391.0 us
+fps: the walk at cadence 1: 4.00000190495638 m/s over 2.954802 s, 117 frames, the interval's median 25394.0 us
+fps: the walk at cadence 2: 3.999998715249586 m/s over 2.965424 s, 90 frames, the interval's median 33309.0 us
+cadence: ok
+^nu /home/box/proj/sourcetrait/jab-stress/fps/just/../stress/cadence.nu /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel/jab.elf /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/fpsmoved_cadence/packets_control/debug/fps.jab /home/box/tmp/ai/two/7ika2djI60P/fpsmoved/cadence_logs/control
