@@ -1,0 +1,10 @@
+{
+ control: {
+  exit: 0,
+  ok: true
+ },
+ results: [
+  [name,                exit, at_own, ok_printed];
+  [reader_no_directory, 1,    true,   true]
+ ]
+}

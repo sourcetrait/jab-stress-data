@@ -1,0 +1,21 @@
+{
+  set: workergauge,
+  stamp: "20261017T014218",
+  task: FpsSetsMoved,
+  scope: {
+    kind: targeted,
+    ran: 1,
+    of: 10,
+    names: [
+      wg_automatic_unchecked
+    ]
+  },
+  builds: [
+    [part, build, checkout,  record];
+    [run,  null,  synthetic, unrecorded]
+  ],
+  kept: {
+    as: checkpoint,
+    why: "FpsSetsMoved's consumer run from the set's new home, the reader holds runner 1gncsAJS7Ld over assets/fps/mutants/workergauge_mutants.nuon, its control and one representative, cited as evidence by MutantSetsHome's FpsSetsMoved"
+  }
+}

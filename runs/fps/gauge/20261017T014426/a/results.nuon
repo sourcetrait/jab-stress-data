@@ -1,0 +1,19 @@
+{
+ control: {
+  exit: 0,
+  ok: true,
+  secs: 121
+ },
+ results: [
+  [name,          exit, secs];
+  [build_machine, 1,    96],
+  [build_kernel,  1,    103],
+  [build_workers, 1,    82]
+ ],
+ titles: {
+  all: true,
+  rows: [
+
+  ]
+ }
+}
