@@ -78,15 +78,9 @@ history.
 ## Assets
 
 `assets/<subject>/<purpose>/` holds data that a workbench test or recipe
-reads. The runners' own test cases read their canned logs from
-`assets/workbench/cases/logs/`, and the provenance rule's own mutants are
-`assets/workbench/mutants/provenance_mutants.nuon`. The fps pose recipes
-read their pose tables from `assets/fps/poses/`. The checkout runner reads
-the SDK's mutant sets from `assets/sdk/mutants/` and the kernel's from
-`assets/kernel/mutants/`, and the program, gauge, and reader runners read
-fps's from `assets/fps/mutants/`, one file a set. The workbench finds this
-repository as a checkout beside its own, `../jab-stress-data`, the way it
-finds Jab at `../jab`.
+reads. The fps pose recipes read their pose tables from
+`assets/fps/poses/`. The workbench finds this repository as a checkout
+beside its own, `../jab-stress-data`, the way it finds Jab at `../jab`.
 
 ## Receipts
 

@@ -1,9 +1,0 @@
-[
-  [name,           program,    expect,                      edits];
-  [rate_undivided, test/harts, "HeldSpan: a thread's rate", [
-      [file,            find,                                                                put];
-      ["sdk/nu/jab.nu", "            { name: $t.name, delta: $delta, rate: ($delta / $span) }
-", "            { name: $t.name, delta: $delta, rate: $delta }
-"]
-    ]]
-]

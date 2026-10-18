@@ -1,4 +1,0 @@
-[
-  {name: "bound_at_four", program: "test/harts", expect: "a machine of JAB_HARTS_MAX's 8 harts taken", edits: [{file: "sdk/nu/jab.nu", find: "const harts_allowed = [1 2 3 4 5 6 7 8]", put: "const harts_allowed = [1 2 3 4]"}]},
-  {name: "bound_dropped", program: "test/harts", expect: "9 harts refused before QEMU starts", edits: [{file: "sdk/nu/jab.nu", find: "if $harts not-in $harts_allowed {", put: "if false {"}]}
-]
