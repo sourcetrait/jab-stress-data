@@ -72,8 +72,10 @@ items its set held at the run's time.
 
 `assets/<subject>/<purpose>/` holds data that a workbench test or recipe
 reads. The fps pose recipes read their pose tables from
-`assets/fps/poses/`. The workbench finds this repository as a checkout
-beside its own, `../jab-stress-data`, the way it finds Jab at `../jab`.
+`assets/fps/poses/`. The import-map checker reads the migration contract
+of Jab's nushell trees from `assets/jab/importmap/contract.nuon`. The
+workbench finds this repository as a checkout beside its own,
+`../jab-stress-data`, the way it finds Jab at `../jab`.
 
 ## Receipts
 
