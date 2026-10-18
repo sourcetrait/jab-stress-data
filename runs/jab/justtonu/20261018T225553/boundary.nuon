@@ -1,0 +1,19 @@
+{
+ program: game/fps/test/footprint,
+ before: {
+  commit: "d5708691e7f87de7e69916104a9db30001b802b3",
+  fresh_target: true
+ },
+ after: {
+  commit: "65bbd87284c99f736347bf94d4e092e70e3b738b",
+  fresh_target: true
+ },
+ why: "MetaTestsRetired removed the fixture's laid pattern, its row derivative's cases kept: the one image that task changes",
+ rows: [
+  [profile, role,        path,                                    before,                                                             before_size, after,                                                              after_size];
+  [release, program_jab, "game/fps/test/footprint/footprint.jab", "b39426098fcdf513cf29c775d5fecfb79bf46f6cf97abfb7d7a5c87be71a7a2d", 5361,        "8f02f13e37327a1cc2f2b8c56e1907f85891bf4cb781633712d0d7ccb21561c8", 5001],
+  [release, program_elf, "game/fps/test/footprint/footprint.elf", "4ce5538b51c53b84f69865e06f031d83a48fccffd550a5c4f170016a0f96a69e", 55000,       "831bdc24bd34526b6b193633f04828cf9dde3994559a3861a7c8591f7fc05cf7", 54472],
+  [debug,   program_jab, "game/fps/test/footprint/footprint.jab", "b39426098fcdf513cf29c775d5fecfb79bf46f6cf97abfb7d7a5c87be71a7a2d", 5361,        "8f02f13e37327a1cc2f2b8c56e1907f85891bf4cb781633712d0d7ccb21561c8", 5001],
+  [debug,   program_elf, "game/fps/test/footprint/footprint.elf", "cd47fa3c43c9aabda8281236ed0fe9bcd8f07a671dd9c2b020741e199634d1b3", 55024,       "4128c04cfde66c9e0fb5f80814f083da6b6da099ef412461f8b847d1e07df4ac", 54496]
+ ]
+}

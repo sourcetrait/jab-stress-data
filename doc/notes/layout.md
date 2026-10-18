@@ -10,7 +10,7 @@ while it runs, and its record is copied in whole once it is done.
 A run's record lives at `runs/<subject>/<set>/<stamp>/`.
 
 - The subject is the part of Jab the run tested: `sdk`, `kernel`, or
-  `fps`.
+  `fps`, or `jab` for the whole repository, such as its fresh builds.
 - The set is what the run took, named for the recipe, probe, or bench
   that ran it, such as `qualification`, `export`, or the probe's `sdl`.
 - The stamp is the run's start in UTC as `YYYYMMDDTHHMMSS`. A record
