@@ -10,18 +10,14 @@ while it runs, and its record is copied in whole once it is done.
 A run's record lives at `runs/<subject>/<set>/<stamp>/`.
 
 - The subject is the part of Jab the run tested: `sdk`, `kernel`, or
-  `fps`, or `workbench` for the workbench's tests of its own runners.
-- The set is what the run took. For a mutant set it is the set's file
-  name less `_mutants.nuon`, so `demand_mutants.nuon` gives `demand`. A
-  run of several sets as one file, or a runner's proofs of itself, is
-  named for its runner: `program` is the fps packet, worker, and pool
-  sets run together, and `deadline` is the checkout runner's deadline
-  proofs. A probe's runs are named for the probe, such as `sdl`.
+  `fps`.
+- The set is what the run took, named for the recipe, probe, or bench
+  that ran it, such as `qualification`, `export`, or the probe's `sdl`.
 - The stamp is the run's start in UTC as `YYYYMMDDTHHMMSS`. A record
   that kept only its date has the date, `YYYYMMDD`, and the run's label
-  after a dash, such as `20261014-gfxscaling`, so two runs of one date
-  stay apart. Two runs that together took a set whole carry the program
-  each ran as a label, such as `20261013T165603-workers`.
+  after a dash, such as `20261017-baselines`, so two runs of one date
+  stay apart. Two runs that together took a set whole carry what each
+  took as a label, such as `20261017T181257-1ka1`.
 
 The directory holds the run's own files exactly as its runner wrote
 them: its logs, results, baselines, and receipts, byte for byte. Nothing
@@ -46,8 +42,8 @@ parts, and its `why` names the run it read.
   - `kind` is `whole` when the run took every item its set held at the
     time, and `targeted` when it took only some.
   - `ran` counts the items the run took, and `of` the items its set held
-    at the time. A mutant set's items are its mutants. The deadline
-    proofs' items are their scenarios, and a probe's are its runs.
+    at the time. A probe's or a bench's items are its runs, an export's
+    its images, and the level comparison's its views.
   - `names` lists the items a targeted run took.
   - `combined` appears on each of two runs that together took their set
     whole. It names both runs and gives their joint `kind`, `ran`, and
@@ -56,8 +52,8 @@ parts, and its `why` names the run it read.
   round, a scenario, or a probe run. A run of one part has one row, named
   `run`.
   - `checkout` is `jab` when the part ran in the Jab checkout itself, and
-    `synthetic` when it ran in a tree its runner laid out, such as a
-    candidate copy, a mirror, or a scratch checkout.
+    `synthetic` when it ran in a tree its runner laid out, such as an
+    export's tree, a candidate copy, or a scratch checkout.
   - `build` is the Jab commit the part ran on. It is given only for a
     part that ran in the Jab checkout, and only when the part's record
     names the commit; otherwise it is null.
@@ -69,11 +65,8 @@ parts, and its `why` names the run it read.
   the reason in a line, and for a checkpoint it names the document that
   cites the run.
 
-A run's kind is read from its own selection record where it has one: the
-names it was told to run, against the version of the set that its
-recorded hash names. A run with no selection record is read from its
-logs, against the set file's version at the run's time in that file's
-history.
+A run's kind is read from its own record: the items it took against the
+items its set held at the run's time.
 
 ## Assets
 

@@ -1,9 +1,0 @@
---- test/spectable
-spectable: 6 specs as SPEC.md defines them; 13 wrong copies of the data and 2 of the type refused, each naming its row and field or its file; the build: a change to the type alone and to the data alone each built the program listing specs again and left the other
-spectable: ok
-╭───┬────────────────┬────────╮
-│ # │    program     │ passed │
-├───┼────────────────┼────────┤
-│ 0 │ test/spectable │ true   │
-╰───┴────────────────┴────────╯
-

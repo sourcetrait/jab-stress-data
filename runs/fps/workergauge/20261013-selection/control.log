@@ -1,6 +1,0 @@
-workergauge holds: ok
-nu /home/box/tmp/ai/two/7OBPNPn8Uww/reader_mutants_1/control/fps/readers/workergauge.nu holds /home/box/tmp/ai/two/7OBPNPn8Uww/reader_mutants_1/control/workergauge_holds
-packetgauge holds: ok
-nu /home/box/tmp/ai/two/7OBPNPn8Uww/reader_mutants_1/control/fps/readers/packetgauge.nu holds /home/box/tmp/ai/two/7OBPNPn8Uww/reader_mutants_1/control/packetgauge_holds
-lane holds: ok
-nu /home/box/tmp/ai/two/7OBPNPn8Uww/reader_mutants_1/control/fps/readers/lane.nu holds /home/box/tmp/ai/two/7OBPNPn8Uww/reader_mutants_1/control/lane_holds

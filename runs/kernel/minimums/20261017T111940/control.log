@@ -1,9 +1,0 @@
---- test/spec
-spec: 2 specs provisioned, each line and tree from the table; 6 defined; the startup check's 6 machines, the minimum, the legacy path twice, 13 malformed first pages, and a kernel without the check
-spec: ok
-╭───┬───────────┬────────╮
-│ # │  program  │ passed │
-├───┼───────────┼────────┤
-│ 0 │ test/spec │ true   │
-╰───┴───────────┴────────╯
-

@@ -1,9 +1,0 @@
-{
- call: "8q0QdrKy5mG",
- results: "results.nuon",
- "results_sha256": "26b0ea3e8fad32f5e90ff1144dcc411be7cbf076e4f67e0b3056f6337c2de724",
- finished: 65.807,
- deadline: 540,
- in_time: true,
- ok: true
-}

@@ -1,5 +1,0 @@
-{
- refused_call: eLKsGyTxRnQ,
- message: "the checkout differs from d207b43b5f1ab32660fe2ea18bfb724d06549a2e at case, where the set writes; it must be clean there",
- logs_written: false
-}

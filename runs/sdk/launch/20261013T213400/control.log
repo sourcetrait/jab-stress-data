@@ -1,9 +1,0 @@
---- test/harts
-harts: the launcher takes 8 and refuses 9; 1 harts: harts 1 1 0; 2 harts: harts 3 3 0; 3 harts: harts 7 7 0; 4 harts: harts 15 15 0; 8 harts: harts 255 255 0; a cpu past the bound: harts 7 1 6; a slow timebase: jab: timer unsupported: timebase-frequency 1000000; wide_same: harts 15 15 0; wide_high: jab: timer unsupported: timebase-frequency 4304967296; own_every: harts 15 15 0; own_slow: jab: timer unsupported: timebase-frequency 1000000; no_imsic: jab: interrupt platform refused: code 1; no_timer: jab: interrupt platform refused: code 4; no_domain: jab: interrupt platform refused: code 3; moved_imsic: jab: interrupt platform refused: code 5; many_sources: jab: interrupt platform refused: code 9; missing: harts 15 3 12; late: harts 7 3 4; stray: jab: kernel fault: hart=0 cause=0x0000000000000007 epc=0x0000000080003506 tval=0x0000000028100000
-harts: ok
-╭───┬────────────┬────────╮
-│ # │  program   │ passed │
-├───┼────────────┼────────┤
-│ 0 │ test/harts │ true   │
-╰───┴────────────┴────────╯
-

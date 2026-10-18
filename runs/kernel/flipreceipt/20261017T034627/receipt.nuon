@@ -1,9 +1,0 @@
-{
- call: "6i236MqloWC",
- results: "results.nuon",
- "results_sha256": "c23bf4762d27ad6bda69f0d0681ae363fc3344a456062335315f4fa98c44992d",
- finished: 38.2,
- deadline: 600,
- in_time: true,
- ok: true
-}

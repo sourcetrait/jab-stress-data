@@ -1,9 +1,0 @@
---- test/reservations
-reservations: 5 machines, every line held; three claim 0 id 2 owned 4 2 again 2 second 4; four claim 0 id 2 owned 8 6 again 2 second 4; eight claim 0 id 2 owned 128 126 again 2 second 4; sparse claim 0 id 2 owned 8 2 again 2 second 4; spent claim 0 id 9223372036854775807 owned 4 2 again 2 second 4
-reservations: ok
-╭───┬───────────────────┬────────╮
-│ # │      program      │ passed │
-├───┼───────────────────┼────────┤
-│ 0 │ test/reservations │ true   │
-╰───┴───────────────────┴────────╯
-

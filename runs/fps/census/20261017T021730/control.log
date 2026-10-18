@@ -1,3 +1,0 @@
-fps: the census's 236 frames, 33 under the shrunk chunk, revisions 0 1 2 3, the edge's verdicts 0 and 0, contexts 8
-fps: ok
-nu /home/box/proj/sourcetrait/jab-stress/fps/just/../../../jab/game/fps/test/test.nu --kernel /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel/jab.elf --image /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/fpsmoved_census/packets_control/debug/fps.jab --out /home/box/tmp/ai/two/7ika2djI60P/fpsmoved/census_logs/control --set CENSUS,DEBUG --assets /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/game/fps/fps.romfs

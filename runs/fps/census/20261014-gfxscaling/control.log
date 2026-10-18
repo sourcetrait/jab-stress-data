@@ -1,3 +1,0 @@
-fps: the census's 240 frames, 34 under the shrunk chunk, revisions 0 1 2 3, the edge's verdicts 0 and 0, contexts 8
-fps: ok
-nu /home/box/proj/sourcetrait/jab-stress/fps/just/../../../jab/game/fps/test/test.nu --kernel /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel/jab.elf --image /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/packets_control/debug/fps.jab --out /home/box/ai/two/data/jab/mutants/tilecensus-gfxscaling-20261014/control --set CENSUS,DEBUG --assets /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/game/fps/fps.romfs

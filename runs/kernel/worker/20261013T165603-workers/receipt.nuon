@@ -1,9 +1,0 @@
-{
- call: "jB3KO372XwB",
- results: "results.nuon",
- "results_sha256": "806dc109516576c1bd9df4aad3603e8bbd6c5ddb8ffc5e35eab3daeda0be306d",
- finished: 157.747,
- deadline: 540,
- in_time: true,
- ok: true
-}
