@@ -1,0 +1,25 @@
+{
+ schema: 2,
+ set: sdl,
+ stamp: "20261019T190655-reread",
+ task: RenderAnchor,
+ scope: {
+  kind: targeted,
+  ran: 2,
+  of: 3,
+  names: [
+   monolithic,
+   stripped
+  ]
+ },
+ builds: [
+  [part,             build,                                      source,   record];
+  ["reader_972cf10", "972cf1085711e7485546553a179e1d27ed343b72", checkout, "reread.nuon"]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "the controls' current run, 20261019T104458, reread by the probe's reader at jab 972cf10, the render read by its anchor: the monolithic control's 359 renders and the stripped control's refusal of 716 make_currents as recorded, the stripped copy made again at its capture's SHA-256 76ee5bb0 and its log's object line pointed at it (standin.nuon); the modular control failed at its capture and is not reread; cited by RenderAnchor, the sdk subiter's plan/agenda/HostWatch/CaptureBundle/RenderAnchor.md"
+ },
+ inventory: "56419b1afa5b9012fa9db6191012856a50e7d9d972f758e8f3f3816f1ff487c1",
+ storage: "c2e2517b68c08ef126cd581fd2671f77406d72f17e2e9f4c089f2f82bebd3ec5"
+}

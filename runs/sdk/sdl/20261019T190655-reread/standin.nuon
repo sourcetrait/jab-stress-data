@@ -1,0 +1,8 @@
+{
+ stripped_from: "/home/box/proj/sourcetrait/jab/extern/qemu/bin/qemu-system-riscv64",
+ stripped_by: "strip --strip-all",
+ stand_in: "/home/box/tmp/ai/two/fHgIKRMSg0U/reread/stripped_standin/bin/qemu-system-riscv64",
+ "stand_in_sha256": "76ee5bb0257e90ce640171d0af1e655f6311bae9a223aa55d1643312b827b6cd",
+ object_line_recorded: "1792406726.505005 object 0 185352229 16918704 1792406725983150749 /home/box/tmp/ai/two/1i0jAbrhQct/controls_work/20261019T104458/stripped/bin/qemu-system-riscv64",
+ object_line_read: "1792406726.505005 object 0 184815826 16918704 1792436668513842308 /home/box/tmp/ai/two/fHgIKRMSg0U/reread/stripped_standin/bin/qemu-system-riscv64"
+}
