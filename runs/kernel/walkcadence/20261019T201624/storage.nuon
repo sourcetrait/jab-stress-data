@@ -1,0 +1,29 @@
+[
+ [object,                kind,    length, "sha256",                                                           holds];
+ ["probe/identity.nuon", raw,     1090,   "3e4a393069ec486290abf3ba16f1a40dc929544e873761a28f4e210e12f79161", [
+   "probe/identity.nuon"
+  ]],
+ ["probe_record.nuon",   raw,     4277,   "a71c6186cc00a69af370b8d3ef0827218268abca949c45e53d941caeb5136d5e", [
+   "probe_record.nuon"
+  ]],
+ ["walk.paired.nuon",    raw,     89785,  "21a553c696c702a0f4e370c9ab439d7c9bdd3185f1ad43264b56b1d02fc021a5", [
+   "walk.paired.nuon"
+  ]],
+ ["archive.tar.xz",      archive, 812708, "5efce95ba73ad4b753e96c579900e068e136dcd7008fe9e1c5e25aae41b001b6", [
+   build/kernel/flags,
+   "build/kernel/jab.elf",
+   build/walk/flags,
+   "build/walk/walk.elf",
+   "build/walk/walk.jab",
+   "probe/api.out",
+   "probe/bundle/api.out",
+   "probe/bundle/bundle.nuon",
+   "probe/bundle/classified.nuon",
+   "probe/bundle/identity.nuon",
+   "probe/bundle/sdl.log",
+   "probe/bundle/tables/0.nm",
+   "probe/bundle/trace.log",
+   "probe/sdl.log",
+   "probe/trace.log"
+  ]]
+]

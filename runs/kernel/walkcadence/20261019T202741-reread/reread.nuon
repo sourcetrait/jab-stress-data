@@ -1,0 +1,12 @@
+{
+ run: "/home/box/proj/sourcetrait/jab-stress-data/runs/kernel/walkcadence/20261017T211603-baselines",
+ reader: "kernel walk guest",
+ bin: "/home/box/proj/sourcetrait/jab-stress/nu/bin/nuance/kernel/walk.nu",
+ words: [
+  guest-runs,
+  "{tree}",
+  "{out}"
+ ],
+ restoration: "e85fc99e2390477aef22618d10d76d55229fe7cbde3ea28344e35c66e9b8d93b",
+ exit: 0
+}

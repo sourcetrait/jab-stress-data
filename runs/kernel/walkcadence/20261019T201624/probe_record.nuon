@@ -1,0 +1,145 @@
+{
+  run: {
+    program: walk,
+    os: linux,
+    qemu: "QEMU emulator version 11.1.2",
+    binary: "/home/box/.sys/adhoc/opt/qemu/bin/qemu-system-riscv64",
+    window: "sdl,gl=on",
+    driver: offscreen,
+    symbols: [
+      CADENCE,
+      TIMING
+    ],
+    seconds: 180,
+    qemu_said: [
+
+    ],
+    exit: 0,
+    capture_nonce: 1536739867143407198,
+    qemu_pid: 1382820,
+    profile: paired,
+    api: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/example/walk/probe/api.out",
+    sends: [
+      [at,  length, "sha256",                                                           written];
+      [0.2, 16,     "e750d6f06c81ff124ea13412b468f8599853b69a59c9d33e410f7afa98f2f1aa", 0.209205602]
+    ],
+    trace: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/example/walk/probe/trace.log",
+    bundle: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/example/walk/probe/bundle"
+  },
+  virtio_gpu_in: executable,
+  seconds_logged: 122.5,
+  flips: 6039,
+  uploads_per_flip: [
+    [uploads, count];
+    [1,       6039]
+  ],
+  flip_span_ms: {
+    median: 0.0,
+    max: 0.0
+  },
+  upload_gap_ms: {
+    median: 0.0,
+    max: 0.0
+  },
+  flip_cadence_ms: [
+    [ms,   count];
+    [17.0, 1643],
+    [16.0, 1079],
+    [18.0, 511],
+    [15.0, 323],
+    [34.0, 253],
+    [35.0, 247]
+  ],
+  renders: 3856,
+  render_interval_ms: [
+    [ms,   count];
+    [30.0, 3055],
+    [31.0, 181],
+    [32.0, 135],
+    [34.0, 106],
+    [33.0, 102],
+    [29.0, 98]
+  ],
+  render_gaps: {
+    renders: 3856,
+    by_timing: 0,
+    sizeless: 0,
+    median_ms: 0.024,
+    "p99_ms": 0.058,
+    max_ms: 0.295,
+    past: [
+
+    ]
+  },
+  frames_shown: {
+    shown: 1683,
+    repeated: 2,
+    skipped: 2185,
+    unshown_at_end: 0
+  },
+  skip_times_s: [
+    1.086,
+    1.116,
+    1.15,
+    1.183,
+    1.217,
+    1.25,
+    1.283,
+    1.317,
+    1.35,
+    1.383,
+    1.416,
+    1.451,
+    1.484,
+    1.518,
+    1.551,
+    1.585,
+    1.617,
+    1.651,
+    1.684,
+    1.717,
+    1.748,
+    1.808,
+    1.838,
+    1.87
+  ],
+  skip_interval_ms: {
+    median: 30.0,
+    min: 29.0,
+    max: 885.0
+  },
+  repeat_times_s: [
+    0.006,
+    0.546
+  ],
+  repeat_interval_ms: {
+    median: 541.0,
+    min: 541.0,
+    max: 541.0
+  },
+  renders_inside_flip: 0,
+  inside_cases: [
+
+  ],
+  polls: 4042,
+  switches: 3,
+  other_uploads: 2,
+  upload_callers: [
+    [callers,                                                                                                                                                                         count];
+    ["sdl2_gl_update < qemu_console_update < virtio_gpu_simple_process_cmd < virtio_gpu_process_cmdq < aio_bh_call < aio_bh_poll < aio_ctx_dispatch < libglib-2.0.so.0.8800.3+43f24", 6039]
+  ],
+  other_upload_callers: [
+    [callers,                                                                                                                                                                          count];
+    ["sdl2_gl_update < qemu_console_set_surface < virtio_gpu_reset_bh < aio_bh_call < aio_bh_poll < aio_ctx_dispatch < libglib-2.0.so.0.8800.3+43f24 < libglib-2.0.so.0.8800.3+441e5", 1],
+    ["sdl2_gl_update < qemu_console_register_listener < sdl2_display_init < qemu_init_displays < qemu_init < main < libc.so.6+3681 < libc.so.6+3798",                                  1]
+  ],
+  switch_callers: [
+    [callers,                                                                                                                                                                                          count];
+    ["sdl2_gl_switch < displaychangelistener_gfx_switch < qemu_console_set_surface < virtio_gpu_do_set_scanout < virtio_gpu_simple_process_cmd < virtio_gpu_process_cmdq < aio_bh_call < aio_bh_poll", 1],
+    ["sdl2_gl_switch < displaychangelistener_gfx_switch < qemu_console_set_surface < virtio_gpu_reset_bh < aio_bh_call < aio_bh_poll < aio_ctx_dispatch < libglib-2.0.so.0.8800.3+43f24",              1]
+  ],
+  render_callers: [
+    [callers,                                                                                                                                     count];
+    ["sdl2_gl_render_surface < sdl2_gl_refresh < gui_update < timerlist_run_timers < main_loop_wait < qemu_default_main < main < libc.so.6+3681", 3856]
+  ]
+}

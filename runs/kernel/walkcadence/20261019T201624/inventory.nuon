@@ -1,0 +1,21 @@
+[
+ [path,                           role,   length,  "sha256",                                                           disposition, reason];
+ [build/kernel/flags,             record, 3699,    "a2ba0c46cd0bdc6ea3c3df8b69265c67249d515e55fd44bd59834e974d3fe675", archived,    ""],
+ ["build/kernel/jab.elf",         build,  532312,  "9cf2b54681ec57ed251464419856577483db7609d50721576a06a0d428c6b915", archived,    ""],
+ [build/walk/flags,               record, 926,     "26a95d37c18d33e4bce86c0fa3bcf280031333454eb8106a0db80bc5568a6ce9", archived,    ""],
+ ["build/walk/walk.elf",          build,  35656,   "a431bc72dfed75be40e4369f636b4684881671c209beb83f593be3ef7e3c41e3", archived,    ""],
+ ["build/walk/walk.jab",          build,  7327,    "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d", archived,    ""],
+ ["probe/api.out",                stream, 484856,  "c6522b2188a3bfae068b37830306724fe7e724cd0768b8cc72879c2ef5427c8b", archived,    ""],
+ ["probe/bundle/api.out",         stream, 484856,  "c6522b2188a3bfae068b37830306724fe7e724cd0768b8cc72879c2ef5427c8b", archived,    ""],
+ ["probe/bundle/bundle.nuon",     record, 74831,   "5d13f067e63f87ca122d720ad286e1cdcd33dc2946b5c231378c1e792f77268b", archived,    ""],
+ ["probe/bundle/classified.nuon", record, 7423825, "cbe5d5678a19a511a8bc4feffff04479d49032b927cf9b5ba4265f3b0c423e97", archived,    ""],
+ ["probe/bundle/identity.nuon",   record, 1090,    "3e4a393069ec486290abf3ba16f1a40dc929544e873761a28f4e210e12f79161", archived,    ""],
+ ["probe/bundle/sdl.log",         log,    1464034, "8ee3d668488656120e9be8c09ff0b5c975aa01c0509bb8323002282b47ec762b", archived,    ""],
+ ["probe/bundle/tables/0.nm",     log,    2102803, "674ff798e61990120039408a1b7ca2e006e5812bbb71d6411e9839ae987d821c", archived,    ""],
+ ["probe/bundle/trace.log",       log,    529117,  "ddc436e8c4833e5552854c1a01779d13c10a7cab6afbb3edb4b7afb8bb341970", archived,    ""],
+ ["probe/identity.nuon",          record, 1090,    "3e4a393069ec486290abf3ba16f1a40dc929544e873761a28f4e210e12f79161", kept,        ""],
+ ["probe/sdl.log",                log,    1464034, "8ee3d668488656120e9be8c09ff0b5c975aa01c0509bb8323002282b47ec762b", archived,    ""],
+ ["probe/trace.log",              log,    529117,  "ddc436e8c4833e5552854c1a01779d13c10a7cab6afbb3edb4b7afb8bb341970", archived,    ""],
+ ["probe_record.nuon",            record, 4277,    "a71c6186cc00a69af370b8d3ef0827218268abca949c45e53d941caeb5136d5e", kept,        ""],
+ ["walk.paired.nuon",             record, 89785,   "21a553c696c702a0f4e370c9ab439d7c9bdd3185f1ad43264b56b1d02fc021a5", kept,        ""]
+]

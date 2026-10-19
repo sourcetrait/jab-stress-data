@@ -1,0 +1,11 @@
+{
+ run: "/home/box/proj/sourcetrait/jab-stress-data/runs/kernel/walkcadence/20261017T074939",
+ reader: "kernel walk paired",
+ bin: "/home/box/proj/sourcetrait/jab-stress/nu/bin/nuance/kernel/walk.nu",
+ words: [
+  "{tree}",
+  "{out}/walk.paired.nuon"
+ ],
+ restoration: "c498599043a2f6b9f0d7f0713b1142cbd29b01604672b63d9fa0d072efc84ef3",
+ exit: 0
+}

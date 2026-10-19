@@ -1,0 +1,12 @@
+{
+ run: "/home/box/proj/sourcetrait/jab-stress-data/runs/kernel/walklaunches/20261017T100002",
+ reader: "kernel walk launches",
+ bin: "/home/box/proj/sourcetrait/jab-stress/nu/bin/nuance/kernel/walk/launches.nu",
+ words: [
+  reread,
+  "{tree}",
+  "{out}/launches.nuon"
+ ],
+ restoration: "20a4527dd321da639082384419faf603fcd883ab1110241e8f620967c367fc80",
+ exit: 0
+}
