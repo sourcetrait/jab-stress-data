@@ -1,0 +1,179 @@
+{
+ migration: WalkBaselineExports,
+ stamp: "20261019T153140",
+ complete: true,
+ run: "runs/kernel/walkcadence/20261017T211603-baselines",
+ sources: [
+  [repository,      commit,                                     paths];
+  [jab-stress-data, "8e1eab1a2d1d1b422e5c859d7336b6f39be1580c", [
+    "runs/kernel/walkcadence/20261017T211603-baselines"
+   ]]
+ ],
+ phases: [
+  [phase,    done];
+  [Classed,  true],
+  [Landed,   true],
+  [Restored, true],
+  [Replaced, true]
+ ],
+ checks: [
+  {
+   phase: Classed,
+   check: "each further original equal by SHA-256 to the run's own file at its path",
+   files: 0,
+   ok: true
+  },
+  {
+   phase: Landed,
+   check: "the landed run held to its record by runner record stored",
+   ok: true
+  },
+  {
+   phase: Restored,
+   check: "every kept and archived original restored at its inventory SHA-256 by runner restore",
+   files: 12,
+   ok: true
+  }
+ ],
+ source_files: [
+  [repository,      path,                                                                   "sha256",                                                           bytes,  fate];
+  [jab-stress-data, "runs/kernel/walkcadence/20261017T211603-baselines/1ka1.guest.nuon",    "bb50daeb3f5d3f2f0961f63af6a308d4e3de2cdcb9cf46db3c7b07d71d27e199", 1516,   {
+    kind: kept,
+    as: "1ka1.guest.nuon",
+    to: "1ka1.guest.nuon"
+   }],
+  [jab-stress-data, "runs/kernel/walkcadence/20261017T211603-baselines/1ka1/api.out",       "e48007c3cba283177321d1af52fc24186638ea94696a978f909ba2b28700b938", 577600, {
+    kind: kept,
+    as: "1ka1/api.out",
+    to: "1ka1/api.out"
+   }],
+  [jab-stress-data, "runs/kernel/walkcadence/20261017T211603-baselines/1ka1/identity.nuon", "cdad23a498c4121b641b68e3127a851202c0663412ddedd21d0f314ded68b3de", 1897,   {
+    kind: kept,
+    as: "1ka1/identity.nuon",
+    to: "1ka1/identity.nuon"
+   }],
+  [jab-stress-data, "runs/kernel/walkcadence/20261017T211603-baselines/1ka1/qemu.log",      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", 0,      {
+    kind: kept,
+    as: "1ka1/qemu.log",
+    to: "1ka1/qemu.log"
+   }],
+  [jab-stress-data, "runs/kernel/walkcadence/20261017T211603-baselines/1ka1/run.nuon",      "ef02503a8bf5b0deb224c0e4ed1cad8886028c6f4215c8d43b622983508d51d1", 3322,   {
+    kind: kept,
+    as: "1ka1/run.nuon",
+    to: "1ka1/run.nuon"
+   }],
+  [jab-stress-data, "runs/kernel/walkcadence/20261017T211603-baselines/1ka1/serial.log",    "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", 0,      {
+    kind: kept,
+    as: "1ka1/serial.log",
+    to: "1ka1/serial.log"
+   }],
+  [jab-stress-data, "runs/kernel/walkcadence/20261017T211603-baselines/1kb1.guest.nuon",    "3596f072cee59a129691c1f5c9c89e67471c3c815a420afaf0bf236e2a049104", 1513,   {
+    kind: kept,
+    as: "1kb1.guest.nuon",
+    to: "1kb1.guest.nuon"
+   }],
+  [jab-stress-data, "runs/kernel/walkcadence/20261017T211603-baselines/1kb1/api.out",       "4d139947ef41ce1b4f480413182cb01494c648183600369727736f77952edbec", 577472, {
+    kind: kept,
+    as: "1kb1/api.out",
+    to: "1kb1/api.out"
+   }],
+  [jab-stress-data, "runs/kernel/walkcadence/20261017T211603-baselines/1kb1/identity.nuon", "b5f00e7fde90daf40731d696796ab16db9d6f244dd4c0c6135fd2ce767106308", 1897,   {
+    kind: kept,
+    as: "1kb1/identity.nuon",
+    to: "1kb1/identity.nuon"
+   }],
+  [jab-stress-data, "runs/kernel/walkcadence/20261017T211603-baselines/1kb1/qemu.log",      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", 0,      {
+    kind: kept,
+    as: "1kb1/qemu.log",
+    to: "1kb1/qemu.log"
+   }],
+  [jab-stress-data, "runs/kernel/walkcadence/20261017T211603-baselines/1kb1/run.nuon",      "365d2f7501523d0c4020555dc0111016c6b12499152b798a08bc9718355b4178", 3321,   {
+    kind: kept,
+    as: "1kb1/run.nuon",
+    to: "1kb1/run.nuon"
+   }],
+  [jab-stress-data, "runs/kernel/walkcadence/20261017T211603-baselines/1kb1/serial.log",    "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", 0,      {
+    kind: kept,
+    as: "1kb1/serial.log",
+    to: "1kb1/serial.log"
+   }]
+ ],
+ destination_files: [
+  [repository,      path,                                                                   "sha256",                                                           bytes,  origin];
+  [jab-stress-data, "runs/kernel/walkcadence/20261017T211603-baselines/1ka1.guest.nuon",    "bb50daeb3f5d3f2f0961f63af6a308d4e3de2cdcb9cf46db3c7b07d71d27e199", 1516,   {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/kernel/walkcadence/20261017T211603-baselines/1ka1/api.out",       "e48007c3cba283177321d1af52fc24186638ea94696a978f909ba2b28700b938", 577600, {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/kernel/walkcadence/20261017T211603-baselines/1ka1/identity.nuon", "cdad23a498c4121b641b68e3127a851202c0663412ddedd21d0f314ded68b3de", 1897,   {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/kernel/walkcadence/20261017T211603-baselines/1ka1/qemu.log",      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", 0,      {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/kernel/walkcadence/20261017T211603-baselines/1ka1/run.nuon",      "ef02503a8bf5b0deb224c0e4ed1cad8886028c6f4215c8d43b622983508d51d1", 3322,   {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/kernel/walkcadence/20261017T211603-baselines/1ka1/serial.log",    "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", 0,      {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/kernel/walkcadence/20261017T211603-baselines/1kb1.guest.nuon",    "3596f072cee59a129691c1f5c9c89e67471c3c815a420afaf0bf236e2a049104", 1513,   {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/kernel/walkcadence/20261017T211603-baselines/1kb1/api.out",       "4d139947ef41ce1b4f480413182cb01494c648183600369727736f77952edbec", 577472, {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/kernel/walkcadence/20261017T211603-baselines/1kb1/identity.nuon", "b5f00e7fde90daf40731d696796ab16db9d6f244dd4c0c6135fd2ce767106308", 1897,   {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/kernel/walkcadence/20261017T211603-baselines/1kb1/qemu.log",      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", 0,      {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/kernel/walkcadence/20261017T211603-baselines/1kb1/run.nuon",      "365d2f7501523d0c4020555dc0111016c6b12499152b798a08bc9718355b4178", 3321,   {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/kernel/walkcadence/20261017T211603-baselines/1kb1/serial.log",    "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", 0,      {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/kernel/walkcadence/20261017T211603-baselines/inventory.nuon",     "75d38c37bd94e25eb6ea074b544cfa9fe1c7e2e72f150252fbf79bc4867644df", 1644,   {
+    kind: record,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/kernel/walkcadence/20261017T211603-baselines/run.nuon",           "f419000843f842504873ccde73c7e1e551c7bd9b0960dd6eda2d09fff32f840d", 2052,   {
+    kind: record,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/kernel/walkcadence/20261017T211603-baselines/storage.nuon",       "7002d1984dbd23eb9c6a5faf65600f86dbb56ea72f77f0712b854d7f17d9d73e", 1728,   {
+    kind: record,
+    phase: Landed
+   }]
+ ],
+ counts: {
+  sources: {
+   files: 12,
+   bytes: 1168538,
+   committed: 12
+  },
+  dispositions: [
+   [disposition, files, bytes];
+   [kept,        12,    1168538]
+  ],
+  destinations: {
+   files: 15,
+   bytes: 1173962
+  }
+ }
+}

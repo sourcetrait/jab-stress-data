@@ -1,20 +1,44 @@
 {
-  set: walkcadence,
-  stamp: "20261017T211603-baselines",
-  task: PresentationScope,
-  scope: {
-    kind: targeted,
-    ran: 2,
-    of: 2,
-    names: ["export_e21c5ae-cadence on 1ka1", "export_e21c5ae-cadence on 1kb1"]
-  },
-  builds: [
-    [part,   build, checkout,  record];
-    ["1ka1", null,  synthetic, "1ka1/identity.nuon"],
-    ["1kb1", null,  synthetic, "1kb1/identity.nuon"]
-  ],
-  kept: {
-    as: checkpoint,
-    why: "PresentationScope's frozen baseline for walk on both targets: export_e21c5ae-cadence (walk's CADENCE image at jab e21c5ae, the await order, TIMING off, image a51b2bdf) on the kernel export kexport_e21c5ae (ELF cb203ae1), one unprobed run through walk's wrapper, example/walk/test/cadence.nu, on each target, each read guest-only by jab-stress ed9a517's kernel/just/walk.just guest complete and valid: 7,199 frames on 1KA1 and 7,197 on 1KB1 over 120.01 s, ended by the duration; each run's directory's regular files byte for byte, its pipes left behind, beside its guest reading; cited by FrameCeiling.md's The baselines"
-  }
+ schema: 2,
+ set: walkcadence,
+ stamp: "20261017T211603-baselines",
+ task: PresentationScope,
+ scope: {
+  kind: targeted,
+  ran: 2,
+  of: 2,
+  names: [
+   "export_e21c5ae-cadence on 1ka1",
+   "export_e21c5ae-cadence on 1kb1"
+  ]
+ },
+ builds: [
+  [part,   build, source, record,               export];
+  ["1ka1", null,  export, "1ka1/identity.nuon", {
+    name: "export_e21c5ae-cadence",
+    commit: "e21c5aeee99925966e543be9e411c3c24819c5a9",
+    provenance: "runs/kernel/export/20261017-baselines/export_e21c5ae-cadence/release/provenance.nuon",
+    symbols: [
+     CADENCE
+    ],
+    "image_sha256": "a51b2bdf44bd4e20e34436b88bca4f58829e570a032a3127b99d3beb9aecfd28",
+    "kernel_sha256": "cb203ae1fe4a3ec0ccdd1f987d1b57ca5c5ea95a09ff433a1c1def0f3bb11fd2"
+   }],
+  ["1kb1", null,  export, "1kb1/identity.nuon", {
+    name: "export_e21c5ae-cadence",
+    commit: "e21c5aeee99925966e543be9e411c3c24819c5a9",
+    provenance: "runs/kernel/export/20261017-baselines/export_e21c5ae-cadence/release/provenance.nuon",
+    symbols: [
+     CADENCE
+    ],
+    "image_sha256": "a51b2bdf44bd4e20e34436b88bca4f58829e570a032a3127b99d3beb9aecfd28",
+    "kernel_sha256": "cb203ae1fe4a3ec0ccdd1f987d1b57ca5c5ea95a09ff433a1c1def0f3bb11fd2"
+   }]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "PresentationScope's frozen baseline for walk on both targets: export_e21c5ae-cadence (walk's CADENCE image at jab e21c5ae, the await order, TIMING off, image a51b2bdf) on the kernel export kexport_e21c5ae (ELF cb203ae1), one unprobed run through walk's wrapper, example/walk/test/cadence.nu, on each target, each read guest-only by jab-stress ed9a517's kernel/just/walk.just guest complete and valid: 7,199 frames on 1KA1 and 7,197 on 1KB1 over 120.01 s, ended by the duration; each run's directory's regular files byte for byte, its pipes left behind, beside its guest reading; cited by FrameCeiling.md's The baselines"
+ },
+ inventory: "75d38c37bd94e25eb6ea074b544cfa9fe1c7e2e72f150252fbf79bc4867644df",
+ storage: "7002d1984dbd23eb9c6a5faf65600f86dbb56ea72f77f0712b854d7f17d9d73e"
 }
