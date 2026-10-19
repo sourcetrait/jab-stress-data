@@ -1,22 +1,74 @@
 {
-  set: export,
-  stamp: "20261017-baselines",
-  task: PresentationScope,
-  scope: {
-    kind: whole,
-    ran: 5,
-    of: 5
-  },
-  builds: [
-    [part,                                    build, checkout,  record];
-    ["kexport_e21c5ae",                       null,  synthetic, "kexport_e21c5ae/release/provenance.nuon"],
-    ["export_e21c5ae-cadence",                null,  synthetic, "export_e21c5ae-cadence/release/provenance.nuon"],
-    ["export_e21c5ae-cadence-timing",         null,  synthetic, "export_e21c5ae-cadence-timing/release/provenance.nuon"],
-    ["export_e21c5ae-cadence-prepare",        null,  synthetic, "export_e21c5ae-cadence-prepare/release/provenance.nuon"],
-    ["export_e21c5ae-cadence-prepare-timing", null,  synthetic, "export_e21c5ae-cadence-prepare-timing/release/provenance.nuon"]
-  ],
-  kept: {
-    as: checkpoint,
-    why: "PresentationScope's frozen baselines, the kernel's and walk's, exported at jab e21c5ae, which carries step 1's program and kernel changes, by jab-stress's kernel/just/export.just: the P0 kernel by kernel-export, gated on the qualification proof's ELF cb203ae1, its loaded bytes eee71773; walk's CADENCE images by walk-export, the await order with TIMING off (image a51b2bdf) and on (8a95fa2e) and the prepare order off (0b5fe65c) and on (aae80fd4), each with its romfs 0f7ba7d7, the tree's own; each export's source, manifest, flags, provenance, and a program's demand record, the builds kept in the box's target; cited by FrameCeiling.md's The baselines"
-  }
+ schema: 2,
+ set: export,
+ stamp: "20261017-baselines",
+ task: PresentationScope,
+ scope: {
+  kind: whole,
+  ran: 5,
+  of: 5
+ },
+ builds: [
+  [part,                                    build, source, record,                                                          export];
+  ["kexport_e21c5ae",                       null,  export, "kexport_e21c5ae/release/provenance.nuon",                       {
+    name: "kexport_e21c5ae",
+    commit: "e21c5aeee99925966e543be9e411c3c24819c5a9",
+    provenance: "kexport_e21c5ae/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "cb203ae1fe4a3ec0ccdd1f987d1b57ca5c5ea95a09ff433a1c1def0f3bb11fd2",
+    "kernel_sha256": null
+   }],
+  ["export_e21c5ae-cadence",                null,  export, "export_e21c5ae-cadence/release/provenance.nuon",                {
+    name: "export_e21c5ae-cadence",
+    commit: "e21c5aeee99925966e543be9e411c3c24819c5a9",
+    provenance: "export_e21c5ae-cadence/release/provenance.nuon",
+    symbols: [
+     CADENCE
+    ],
+    "image_sha256": "a51b2bdf44bd4e20e34436b88bca4f58829e570a032a3127b99d3beb9aecfd28",
+    "kernel_sha256": null
+   }],
+  ["export_e21c5ae-cadence-timing",         null,  export, "export_e21c5ae-cadence-timing/release/provenance.nuon",         {
+    name: "export_e21c5ae-cadence-timing",
+    commit: "e21c5aeee99925966e543be9e411c3c24819c5a9",
+    provenance: "export_e21c5ae-cadence-timing/release/provenance.nuon",
+    symbols: [
+     CADENCE,
+     TIMING
+    ],
+    "image_sha256": "8a95fa2e73e0f93838f08d1b32ef902ba6d81b8dc520a32cf81b6c22e877dd23",
+    "kernel_sha256": null
+   }],
+  ["export_e21c5ae-cadence-prepare",        null,  export, "export_e21c5ae-cadence-prepare/release/provenance.nuon",        {
+    name: "export_e21c5ae-cadence-prepare",
+    commit: "e21c5aeee99925966e543be9e411c3c24819c5a9",
+    provenance: "export_e21c5ae-cadence-prepare/release/provenance.nuon",
+    symbols: [
+     CADENCE,
+     PREPARE
+    ],
+    "image_sha256": "0b5fe65c93852b45be52054a9ea10db02c414d4c1681a1a0833ab6989f09900e",
+    "kernel_sha256": null
+   }],
+  ["export_e21c5ae-cadence-prepare-timing", null,  export, "export_e21c5ae-cadence-prepare-timing/release/provenance.nuon", {
+    name: "export_e21c5ae-cadence-prepare-timing",
+    commit: "e21c5aeee99925966e543be9e411c3c24819c5a9",
+    provenance: "export_e21c5ae-cadence-prepare-timing/release/provenance.nuon",
+    symbols: [
+     CADENCE,
+     PREPARE,
+     TIMING
+    ],
+    "image_sha256": "aae80fd4a496b5bb2b454668eecf4cf33a42d614c105655add50a586b8bca842",
+    "kernel_sha256": null
+   }]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "PresentationScope's frozen baselines, the kernel's and walk's, exported at jab e21c5ae, which carries step 1's program and kernel changes, by jab-stress's kernel/just/export.just: the P0 kernel by kernel-export, gated on the qualification proof's ELF cb203ae1, its loaded bytes eee71773; walk's CADENCE images by walk-export, the await order with TIMING off (image a51b2bdf) and on (8a95fa2e) and the prepare order off (0b5fe65c) and on (aae80fd4), each with its romfs 0f7ba7d7, the tree's own; each export's source, manifest, flags, provenance, and a program's demand record, the builds kept in the box's target; cited by FrameCeiling.md's The baselines"
+ },
+ inventory: "fc7debdc96ba695dc419e438edd0bd0bd89d774de264d5e8a5aea3c261c22203",
+ storage: "862e5ea33cd2d3eda76f16946473215b47e60c3883a9612f84567226ccebc0a3"
 }

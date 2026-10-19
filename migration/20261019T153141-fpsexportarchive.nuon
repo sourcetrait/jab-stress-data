@@ -1,0 +1,344 @@
+{
+ migration: FpsExportArchive,
+ stamp: "20261019T153141",
+ complete: true,
+ run: "runs/fps/export/20261017-baselines",
+ sources: [
+  [repository,      commit,                                     paths];
+  [jab-stress-data, "8e1eab1a2d1d1b422e5c859d7336b6f39be1580c", [
+    "runs/fps/export/20261017-baselines"
+   ]],
+  [null,            null,                                       [
+    "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae"
+   ]]
+ ],
+ phases: [
+  [phase,    done];
+  [Classed,  true],
+  [Landed,   true],
+  [Restored, true],
+  [Replaced, true]
+ ],
+ checks: [
+  {
+   phase: Classed,
+   check: "each further original equal by SHA-256 to the run's own file at its path",
+   files: 0,
+   ok: true
+  },
+  {
+   phase: Landed,
+   check: "the landed run held to its record by runner record stored",
+   ok: true
+  },
+  {
+   phase: Restored,
+   check: "every kept and archived original restored at its inventory SHA-256 by runner restore",
+   files: 49,
+   ok: true
+  }
+ ],
+ source_files: [
+  [repository,      path,                                                                                                                     "sha256",                                                           bytes,  fate];
+  [jab-stress-data, "runs/fps/export/20261017-baselines/export_e21c5ae/program.jab.toml",                                                     "b2adf7a8ec0bc1e0ce0ab6d929e319247440f6953e6468fe2bd4e2eb5e1ea2a2", 438,    {
+    kind: kept,
+    as: "export_e21c5ae/program.jab.toml",
+    to: "export_e21c5ae/program.jab.toml"
+   }],
+  [jab-stress-data, "runs/fps/export/20261017-baselines/export_e21c5ae/release/demand.nuon",                                                  "22fada5cc8195b7bdd97db8585991a6655380bc68b96ed2c4f2f5a4473faf38a", 159,    {
+    kind: kept,
+    as: "export_e21c5ae/release/demand.nuon",
+    to: "export_e21c5ae/release/demand.nuon"
+   }],
+  [jab-stress-data, "runs/fps/export/20261017-baselines/export_e21c5ae/release/flags",                                                        "4e98190031ddfea4d318d0c4a4233ae6b5b761f1f72313da39a8b0bd55e9bd2c", 3923,   {
+    kind: kept,
+    as: "export_e21c5ae/release/flags",
+    to: "export_e21c5ae/release/flags"
+   }],
+  [jab-stress-data, "runs/fps/export/20261017-baselines/export_e21c5ae/release/provenance.nuon",                                              "a6b287228a8fc1431bdae054efa8c1af8d262327b45fb6289857473d4cc7dba2", 1648,   {
+    kind: kept,
+    as: "export_e21c5ae/release/provenance.nuon",
+    to: "export_e21c5ae/release/provenance.nuon"
+   }],
+  [jab-stress-data, "runs/fps/export/20261017-baselines/export_e21c5ae/source.nuon",                                                          "ec06ffcfba8a9313fcc071918b1fc2779b81d2a1b577cf76c6ff88089d00733b", 435,    {
+    kind: kept,
+    as: "export_e21c5ae/source.nuon",
+    to: "export_e21c5ae/source.nuon"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/export.tar",                        "a9554c267ba11b59ccbcb9f8b6f336a4cb34c86ea6ba7bacd6bdeff1a2695764", 501760, {
+    kind: archived,
+    as: "export_e21c5ae/tree/export.tar",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/program.jab.toml",         "b2adf7a8ec0bc1e0ce0ab6d929e319247440f6953e6468fe2bd4e2eb5e1ea2a2", 438,    {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/program.jab.toml",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/release/demand.nuon",      "22fada5cc8195b7bdd97db8585991a6655380bc68b96ed2c4f2f5a4473faf38a", 159,    {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/release/demand.nuon",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/release/flags",            "4e98190031ddfea4d318d0c4a4233ae6b5b761f1f72313da39a8b0bd55e9bd2c", 3923,   {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/release/flags",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/release/fps.elf",          "8c7294c4869bfb95319f07649278bfd2a58349df27899531693c00fd68e47995", 140000, {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/release/fps.elf",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/release/fps.jab",          "97cc681a036fe9c452b0fc74de53398d0a4519deefc0e0a0cc4abb53e271cf51", 65855,  {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/release/fps.jab",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/release/fps.o",            "c8e79ba4af8cfa8d5543725f8bfd07337bc14cd11c2a79850f1bfba7a1b7ab0e", 358744, {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/release/fps.o",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/release/home",             "850d7e32d4ed3f31da40b6d7abff02aeed33a161fe89c4688c6f91072c23bdcd", 93,     {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/release/home",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/release/jab_header.S",     "c60d401d3486b77bee1584dcd6ee4d2bbbf622c1ce0502cf88747990bd9569bd", 642,    {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/release/jab_header.S",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/release/jab_header.o",     "88fe92e3c3d6a2adf3fb17bd1288f3d64c327d359c1b562d271cebee32aa1767", 2160,   {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/release/jab_header.o",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/release/jab_manifest.inc", "dcf131950c20bab350dfd354780ea15062ff4f3c534c4fac420b3d5187ae33f8", 54,     {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/release/jab_manifest.inc",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/release/march/march.S",    "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", 0,      {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/release/march/march.S",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/release/march/march.o",    "a5075f65c41866f806ded53d8a9fa7228199f5fa2943ffbbd82dfb6bbd52bf2e", 1232,   {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/release/march/march.o",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/release/provenance.nuon",  "a6b287228a8fc1431bdae054efa8c1af8d262327b45fb6289857473d4cc7dba2", 1648,   {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/release/provenance.nuon",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/source.nuon",              "ec06ffcfba8a9313fcc071918b1fc2779b81d2a1b577cf76c6ff88089d00733b", 435,    {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/source.nuon",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/src/actor.S",              "818e604dd9d9240cdd092f72aef7852b353266ece6750da3cb03b087c3bed042", 26047,  {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/src/actor.S",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/src/body.S",               "2cfaff08478166e82e1a077fa763740fbe10b6ed155c56a00bd628b4860e1439", 9675,   {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/src/body.S",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/src/camera.S",             "2b7bb7b2670a0da37db0f229111c156432d2905c36cb5118f75d0349f5147dfb", 8240,   {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/src/camera.S",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/src/census.S",             "5a059ae5ee3e487ea0fc049801b9a1258e7ad439075c69e8a5f058baf2444dce", 35664,  {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/src/census.S",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/src/console.S",            "e421d6f885d6e77f043cc517e4bf7a62372caa480c24f8d062ae33bf6f6c48a7", 10421,  {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/src/console.S",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/src/hud.S",                "0ca0b1c23fa4751bb429186faf5001665f4dbdd9883cea8ea88455b41640c9cd", 2054,   {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/src/hud.S",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/src/light.S",              "3a1aca5dbbf6b2991e4d01c875f076277c9d9159df295f3be092c197a5e66c16", 25655,  {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/src/light.S",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/src/load.S",               "c577f9316474eb63efcb39d8222b22b56505b03530f79970a1ff27687829cd28", 23560,  {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/src/load.S",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/src/main.S",               "93d06d283ac7ca7f9327fe221e2eb7fec9511b98f2d9f8d66e6771591fd3bf20", 43413,  {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/src/main.S",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/src/map.inc",              "cc11988e64ee69b128036580dc38d8414e1e322233834c993c6af22a65a27a6d", 2484,   {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/src/map.inc",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/src/mip.S",                "0af21d048579e78cf448bb44b3859a444d24b80f9ff089e458506687010a2a5d", 7913,   {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/src/mip.S",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/src/mixer.S",              "f62371ab16e1e040f8e11fd409de43e1a005571621fbbaa7f8cb42ecb25664a7", 8899,   {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/src/mixer.S",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/src/player.S",             "f61594398b98b236f25b472c1a1504bacf346534894ba017ea00ed8d87ec1196", 7181,   {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/src/player.S",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/src/raster.S",             "f8d7ab69670aa45984403b70048ebb1378ed4c1d3722c6c3b788c7807df0b655", 56909,  {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/src/raster.S",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/src/render.inc",           "121e8dca4d05f684dc546d6a9a719cbcb7f6f817be54ba5148fee8183b2231ab", 16843,  {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/src/render.inc",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/src/sector.S",             "01b718627963218dc1578297f052b1854e115824b8900cb121107468196ac71f", 5763,   {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/src/sector.S",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/src/sprite.S",             "7b59bec53cedd9486652e36c74197b1dfa52508c672e7bab1d6525f3ce304ab3", 12991,  {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/src/sprite.S",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/src/tile.S",               "aa38c3c9863bee6737b0b91d6a27074e55726b9b2e1211d3b92f0a22153398b8", 66430,  {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/src/tile.S",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/src/trace.S",              "da2eb8796cad039a2fe0f0d56a438236501029cf732b31193a98abed2833fdc9", 9706,   {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/src/trace.S",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/src/workers.S",            "ea3efb11af89154905ac0d1b3627e87de11fc81c8d36705e0e3dece462d85d62", 25934,  {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/src/workers.S",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/game/fps/src/world.S",              "6915b48adb1c5f8b1ccf19bfafbe62d229a24cb86f997f8386de18d29b52f8b2", 30198,  {
+    kind: archived,
+    as: "export_e21c5ae/tree/game/fps/src/world.S",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/sdk/src/jab.inc",                   "7672d138a8f4434c4dbbb0159628f122e886dd608f732dcd8bcd935d7039a1d6", 16226,  {
+    kind: archived,
+    as: "export_e21c5ae/tree/sdk/src/jab.inc",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/sdk/src/jab_f32.inc",               "16024c24cdc914dcd279ae888d58c031ed780e466aa76a24afad4aba429f9359", 6616,   {
+    kind: archived,
+    as: "export_e21c5ae/tree/sdk/src/jab_f32.inc",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/sdk/src/jab_f64.inc",               "8a58a212cb03ab5a91ab2ddcb023de7db3bbe639a4f46904c4a8b1123f94d1b7", 2964,   {
+    kind: archived,
+    as: "export_e21c5ae/tree/sdk/src/jab_f64.inc",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/sdk/src/jab_jobs.inc",              "4e440111434ccafa9f0a539744825be50ca72add3f482c41d01709f968b692ca", 2796,   {
+    kind: archived,
+    as: "export_e21c5ae/tree/sdk/src/jab_jobs.inc",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/sdk/src/jab_keys.inc",              "6a1934f5b948eb07ede52c9729f36aa4f1b9cc4e710afd95062a73587144ee5a", 1856,   {
+    kind: archived,
+    as: "export_e21c5ae/tree/sdk/src/jab_keys.inc",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/sdk/src/jab_pad.inc",               "059cc2beb9da5d67b4408eea7bcdc2a04d3268c8f7e968092c234fc9888b42b7", 608,    {
+    kind: archived,
+    as: "export_e21c5ae/tree/sdk/src/jab_pad.inc",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/sdk/src/jab_rng.inc",               "febe4d4cfb156b5f24c41a06823ce254bed90c19a2608ffe5aa6571d171a4d38", 407,    {
+    kind: archived,
+    as: "export_e21c5ae/tree/sdk/src/jab_rng.inc",
+    to: "archive.tar.xz"
+   }],
+  [null,            "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_e21c5ae/sdk/src/program.ld",                "7bfb1aca740e99e575b4daf00c7091407e826fde57c681d169f9fa7dc4828e71", 730,    {
+    kind: archived,
+    as: "export_e21c5ae/tree/sdk/src/program.ld",
+    to: "archive.tar.xz"
+   }]
+ ],
+ destination_files: [
+  [repository,      path,                                                                        "sha256",                                                           bytes,  origin];
+  [jab-stress-data, "runs/fps/export/20261017-baselines/archive.tar.xz",                         "a87698e32cd8d093d819a4cf690e81ae3da4b893411b4c2dcf3000613d599af5", 149232, {
+    kind: archive,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/export/20261017-baselines/export_e21c5ae/program.jab.toml",        "b2adf7a8ec0bc1e0ce0ab6d929e319247440f6953e6468fe2bd4e2eb5e1ea2a2", 438,    {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/export/20261017-baselines/export_e21c5ae/release/demand.nuon",     "22fada5cc8195b7bdd97db8585991a6655380bc68b96ed2c4f2f5a4473faf38a", 159,    {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/export/20261017-baselines/export_e21c5ae/release/flags",           "4e98190031ddfea4d318d0c4a4233ae6b5b761f1f72313da39a8b0bd55e9bd2c", 3923,   {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/export/20261017-baselines/export_e21c5ae/release/provenance.nuon", "a6b287228a8fc1431bdae054efa8c1af8d262327b45fb6289857473d4cc7dba2", 1648,   {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/export/20261017-baselines/export_e21c5ae/source.nuon",             "ec06ffcfba8a9313fcc071918b1fc2779b81d2a1b577cf76c6ff88089d00733b", 435,    {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/export/20261017-baselines/inventory.nuon",                         "210eb0aaedaaeacbb509e4d6482a737c687d8bb1d0fa41cca5ee91ef40e53f8e", 8056,   {
+    kind: record,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/export/20261017-baselines/run.nuon",                               "5e9266ea86c5b0cb51eee5564781306936162649bfe705214771c1b58b90f6e5", 1292,   {
+    kind: record,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/export/20261017-baselines/storage.nuon",                           "f12b8b72bae7a0a3a224f900191050558e3112310abbfad4281cf51af1899ffe", 3288,   {
+    kind: record,
+    phase: Landed
+   }]
+ ],
+ counts: {
+  sources: {
+   files: 49,
+   bytes: 1551929,
+   committed: 5
+  },
+  dispositions: [
+   [disposition, files, bytes];
+   [kept,        5,     6603],
+   [archived,    44,    1545326]
+  ],
+  destinations: {
+   files: 9,
+   bytes: 168471
+  }
+ }
+}
