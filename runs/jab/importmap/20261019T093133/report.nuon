@@ -1,7 +1,7 @@
 {
  contract: {
   file: "/home/box/proj/sourcetrait/jab-stress-data/assets/jab/importmap/contract.nuon",
-  "sha256": "52634c147bd4abe33d3c8ff53de1408c31910ab420b96c6fcbf47259e92f9944",
+  "sha256": "0ee21d4cb9955d5b269b95c88da847d31a666da75f1e18f6bc8e420e2a8dca81",
   commits: {
    jab: "1fb01695b15715a01624a0ecdfd1642c9b4ce543",
    stress: "674bbbc141c177c4dabdc906fc25ba73830f121f"
@@ -9,11 +9,11 @@
  },
  trees: {
   jab: {
-   commit: "aab49a0c1a53875bf33788088188069b67bc381e",
+   commit: "721a5c194e4e3206a4c0b0faee26e59b89d0451c",
    dirty: false
   },
   jab-stress: {
-   commit: "843ebcbce260c18fb17ea768331e4a77c091580b",
+   commit: "750969d724bf8efac047a4e403ea2f6c7e85576f",
    dirty: false
   }
  },
@@ -26,14 +26,15 @@
   "SdkModules/5",
   "SdkModules/6",
   "SdkModules/7",
-  FierceModules
+  FierceModules,
+  FierceTools
  ],
  checked: {
-  sources: 277,
-  declarations: 2061,
+  sources: 286,
+  declarations: 2107,
   contract_defs: 417,
-  imports: 495,
-  consumer_calls: 249
+  imports: 522,
+  consumer_calls: 260
  },
  refusals: [
 
