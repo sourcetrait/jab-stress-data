@@ -1,0 +1,18 @@
+{
+ set: importmap,
+ stamp: "20261019T012632",
+ task: SdkModules,
+ scope: {
+  kind: whole,
+  ran: 1,
+  of: 1
+ },
+ builds: [
+  [part, build,                                      checkout, record];
+  [run,  "981d3ce8e8e70267dffbe120f3676cabd2efe617", jab,      "report.nuon"]
+ ],
+ kept: {
+  as: current,
+  why: "The import-map checker with KitFierce and SdkModules/1 landed: jab 981d3ce and jab-stress 77531a3, both clean, held to the contract generated at jab 1fb0169 and jab-stress 674bbbc (SHA-256 792dec27) by jab-stress's `nuance.nu importmap check`: 222 sources, 1989 declarations, 414 contract defs, 198 import edges, and 246 consumer calls, no refusal"
+ }
+}

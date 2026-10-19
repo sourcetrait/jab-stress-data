@@ -1,0 +1,34 @@
+{
+ contract: {
+  file: "/home/box/proj/sourcetrait/jab-stress-data/assets/jab/importmap/contract.nuon",
+  "sha256": "792dec2789459fc41f5ac6f7a1b7323677004f567d6ab747f94ec9345617b941",
+  commits: {
+   jab: "1fb01695b15715a01624a0ecdfd1642c9b4ce543",
+   stress: "674bbbc141c177c4dabdc906fc25ba73830f121f"
+  }
+ },
+ trees: {
+  jab: {
+   commit: "981d3ce8e8e70267dffbe120f3676cabd2efe617",
+   dirty: false
+  },
+  jab-stress: {
+   commit: "77531a3caca074ed02bfd9d3c06dc9c16209d710",
+   dirty: false
+  }
+ },
+ landed: [
+  KitFierce,
+  "SdkModules/1"
+ ],
+ checked: {
+  sources: 222,
+  declarations: 1989,
+  contract_defs: 414,
+  imports: 198,
+  consumer_calls: 246
+ },
+ refusals: [
+
+ ]
+}
