@@ -1,20 +1,116 @@
 {
-  set: footprint_levels,
-  stamp: "20261017T153736",
-  task: FootprintEstimate,
-  scope: {
-    kind: whole,
-    ran: 17,
-    of: 17
+ schema: 2,
+ set: footprint_levels,
+ stamp: "20261017T153736",
+ task: FootprintEstimate,
+ scope: {
+  kind: whole,
+  ran: 17,
+  of: 17
+ },
+ builds: [
+  {
+   part: levels,
+   build: null,
+   source: export,
+   record: "images/footprint_images.nuon",
+   export: {
+    name: "export_5631b65_levels",
+    commit: "5631b65372e691904a4f16086174998bb5e6d494",
+    provenance: "images/levels/provenance.nuon",
+    symbols: [
+     DEBUG,
+     LEVELS
+    ],
+    "image_sha256": "a25cfab4aa639d336f4784529e008b190e12b33a470b4e0b40a42f74ee068070",
+    "kernel_sha256": "b53093ed76f78db3c2e764c73ce50f6bac1a44721af30caf882a02a2f69f3dc0"
+   }
   },
-  builds: [
-    [part, build, checkout, record];
-    [captures, null, synthetic, "images/footprint_images.nuon"],
-    [footprint_suite, null, jab, unrecorded],
-    [handoff_suite, null, jab, unrecorded]
-  ],
-  kept: {
-    as: current,
-    why: "the latest whole run of the set, its first: the seventeen views of footprint.nuon on export_5631b65's five debug images, every view read against the declared and the secant references and its pictures boxed, with the suite and the handoff set under FOOTPRINT on the checkout at 42cf49f and a61aab6; the screens and the rows stay in $XDGX_TMP_HOME/jab-stress/footprint/20261017T153736"
+  {
+   part: levels_candidate,
+   build: null,
+   source: export,
+   record: "images/footprint_images.nuon",
+   export: {
+    name: "export_5631b65_levels_candidate",
+    commit: "5631b65372e691904a4f16086174998bb5e6d494",
+    provenance: "images/levels_candidate/provenance.nuon",
+    symbols: [
+     DEBUG,
+     FOOTPRINT,
+     LEVELS
+    ],
+    "image_sha256": "e854a8af77a078a2cac3f9a34d3d9c981cad25d72e6bb612aa833bf600111d88",
+    "kernel_sha256": "b39ea67268b1511a14c26520d24bfcffd096941aec78289ed50aae828b45a521"
+   }
+  },
+  {
+   part: owner,
+   build: null,
+   source: export,
+   record: "images/footprint_images.nuon",
+   export: {
+    name: "export_5631b65_owner",
+    commit: "5631b65372e691904a4f16086174998bb5e6d494",
+    provenance: "images/owner/provenance.nuon",
+    symbols: [
+     DEBUG,
+     OWNER
+    ],
+    "image_sha256": "7ffb40d339858fdca67796dd7b26becb1e51d4b5af4df3b54c7423532c5b2190",
+    "kernel_sha256": "809f150aa2f33b30c0d0fba1adfc2360660cb1a64c5b5df8f6ce964b2b1ac7f4"
+   }
+  },
+  {
+   part: picture,
+   build: null,
+   source: export,
+   record: "images/footprint_images.nuon",
+   export: {
+    name: "export_5631b65_picture",
+    commit: "5631b65372e691904a4f16086174998bb5e6d494",
+    provenance: "images/picture/provenance.nuon",
+    symbols: [
+     DEBUG
+    ],
+    "image_sha256": "5fb6641b3445e437c689ba2c7645ad5d7c47383034a110425564e60390b67397",
+    "kernel_sha256": "324b5d3f7d667dae2752c536758abca89e5da440a10477b4f4fb7c9c212fe808"
+   }
+  },
+  {
+   part: picture_candidate,
+   build: null,
+   source: export,
+   record: "images/footprint_images.nuon",
+   export: {
+    name: "export_5631b65_picture_candidate",
+    commit: "5631b65372e691904a4f16086174998bb5e6d494",
+    provenance: "images/picture_candidate/provenance.nuon",
+    symbols: [
+     DEBUG,
+     FOOTPRINT
+    ],
+    "image_sha256": "0789b3fc60e2da2ec02078944afec3e6a80c2666c4b5e992600d6c29fef8f6a2",
+    "kernel_sha256": "ee95db46ca7cd618652ec67c916b460a00b51d870c31fb13885f70b4a4c7af91"
+   }
+  },
+  {
+   part: footprint_suite,
+   build: null,
+   source: checkout,
+   record: unrecorded
+  },
+  {
+   part: handoff_suite,
+   build: null,
+   source: checkout,
+   record: unrecorded
   }
+ ],
+ kept: {
+  as: current,
+  why: "the latest whole run of the set, its first: the seventeen views of footprint.nuon on export_5631b65's five debug images, every view read against the declared and the secant references and its pictures boxed, with the suite and the handoff set under FOOTPRINT on the checkout, at 42cf49f and a61aab6 as the lander noted them, the run recording no revision for either; its screens, API streams, and launch logs archived here with the seven 5631b65 exports, its block tables and crops derived by the footprint reader, its recordings and the still copies' trees and disks kept as hashes (EvidenceRetention)"
+ },
+ inventory: "d8ea5db7a346be392cf417f824d90f343c5efac56f05056b1cbef6672012d19d",
+ storage: "b4d2f96f0e6bf82f07ee68b719be66c2256bad1588015535c88d4bc44d95f559"
 }
