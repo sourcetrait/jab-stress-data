@@ -1,0 +1,20 @@
+{
+  set: sdl,
+  stamp: "20261019T104458",
+  task: WorkspaceDrivers,
+  scope: {
+    kind: whole,
+    ran: 3,
+    of: 3
+  },
+  builds: [
+    [part,       build,                                      checkout, record];
+    [monolithic, "954a2711ffca94a34151176601b4b51c4ba0b3fd", jab,      "controls.nuon"],
+    [modular,    "954a2711ffca94a34151176601b4b51c4ba0b3fd", jab,      "controls.nuon"],
+    [stripped,   "954a2711ffca94a34151176601b4b51c4ba0b3fd", jab,      "controls.nuon"]
+  ],
+  kept: {
+    as: current,
+    why: "the latest run that took the whole set, WorkspaceDrivers' probe through nu/bin/nuance/probe.nu sdl <program>; its modular control refused by programs-of's walk, WalkPrune's finding, keeping no shim log, since the controls keep only one their run wrote"
+  }
+}

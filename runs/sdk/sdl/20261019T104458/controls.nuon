@@ -1,0 +1,56 @@
+{
+  jab: "954a2711ffca94a34151176601b4b51c4ba0b3fd",
+  workbench: "6cd29d479dbbb997db04e7f11749fdd19cca060d",
+  seconds: 12,
+  monolithic: {
+    ran: true,
+    ok: true,
+    qemu: "QEMU emulator version 11.1.2",
+    traced: {
+      flushes: 582,
+      set_scanouts: 1
+    },
+    read: {
+      uploads: 582,
+      switches: 3,
+      console: 2,
+      renders: 359
+    },
+    flush_windows: [
+      [uploads, windows];
+      [1,       582]
+    ],
+    flips: 582,
+    checks: {
+      one_upload_per_flush: true,
+      none_elsewhere: true,
+      one_switch_per_set_scanout: true,
+      reset_through_reset_bh: true,
+      virtio_gpu_in_executable: true,
+      flips_are_groups: true,
+      switches_as_measured: true,
+      console_as_measured: true
+    }
+  },
+  modular: {
+    ran: true,
+    ok: false,
+    why: "the probe failed or refused:    :                         `-- Permission denied (os error 13)  4 |         if ($e.msg | str starts-with \"No matches found\") { [] } else { error make {msg: $e.msg} }    `---- "
+  },
+  stripped: {
+    ran: true,
+    ok: true,
+    stripped: {
+      size: 16918704,
+      "sha256": "76ee5bb0257e90ce640171d0af1e655f6311bae9a223aa55d1643312b827b6cd"
+    },
+    refusal: "the sdl probe refuses the log: a make_current's immediate caller is not in the SDL front end, and the executable at /home/box/tmp/ai/two/1i0jAbrhQct/ controls_work/20261019T104458/stripped/bin/qemu-system-riscv64 keeps no symbol table, only dynamic symbols, 67 sized functions among them: 716 make_currents, among them qemu-system-riscv64+37ae08, qemu-system- riscv64+37ad91",
+    checks: {
+      exits_nonzero: true,
+      prints_no_record: true,
+      anchor_refused: true,
+      table_named: true
+    }
+  },
+  ok: false
+}

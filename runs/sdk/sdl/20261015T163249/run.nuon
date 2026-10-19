@@ -14,7 +14,7 @@
     [stripped,   "beafb5b64866e18636d60cc4e69d138a512161de", jab,      "controls.nuon"]
   ],
   kept: {
-    as: last,
-    why: "the whole run before the current one, the controls ProbeBySymbol's build is held to"
+    as: checkpoint,
+    why: "the controls ProbeBySymbol's build is held to, cited as evidence by HostWatch, plan/agenda/HostWatch.md"
   }
 }

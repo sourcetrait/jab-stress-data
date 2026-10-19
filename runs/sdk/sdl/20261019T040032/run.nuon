@@ -14,7 +14,7 @@
     [stripped,   "de52d7c35eec81fd0fde300196d9de4ed4c818f7", jab,      "controls.nuon"]
   ],
   kept: {
-    as: current,
-    why: "the latest run that took the whole set, SdkModules/7's probe through nu/bin/nuance/probe.nu; its modular control refused by programs-of's walk into the bounce extern/qemu linked to /usr, the evidence the sdk's WalkPrune cites"
+    as: last,
+    why: "the whole run before the current one, SdkModules/7's probe through nu/bin/nuance/probe.nu; its modular control refused by programs-of's walk into the bounce extern/qemu linked to /usr, the evidence the sdk's WalkPrune cites; its bounce.sdl.log a log an earlier probe left at 03:32:53, copied before the controls kept only their own"
   }
 }

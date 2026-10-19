@@ -1,0 +1,21 @@
+Error: nu::shell::error
+
+  x Error extracting glob pattern
+   ,-[/home/box/proj/sourcetrait/jab/nu/mod/walk/mod.nu:4:83]
+ 3 |     let found = (try { ls -a ($pattern | into glob) } catch {|e|
+ 4 |         if ($e.msg | str starts-with "No matches found") { [] } else { error make {msg: $e.msg} }
+   :                                                                                   ^^^^^^^^^^^^^
+ 5 |     })
+   `----
+
+Error: nu::shell::error
+
+  x Error extracting glob pattern
+   ,-[/home/box/proj/sourcetrait/jab/nu/mod/walk/mod.nu:3:24]
+ 2 | export def paths [pattern: string, --no-dir]: nothing -> list<string> {
+ 3 |     let found = (try { ls -a ($pattern | into glob) } catch {|e|
+   :                        ^|
+   :                         `-- Permission denied (os error 13)
+ 4 |         if ($e.msg | str starts-with "No matches found") { [] } else { error make {msg: $e.msg} }
+   `----
+
