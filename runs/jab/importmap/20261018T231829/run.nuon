@@ -12,7 +12,7 @@
   [run,  "2c79cd100a2460a65a651f4b75df4b6c8ca00194", jab,      "report.nuon"]
  ],
  kept: {
-  as: current,
+  as: last,
   why: "The import-map checker's first run, nothing landed: jab 2c79cd1 and jab-stress 11bb54d, both clean, held to assets/jab/importmap/contract.nuon (SHA-256 509f5d2b) by jab-stress 11bb54d's `nuance.nu importmap check`: 208 sources, 1977 declarations, 413 contract defs, 125 import edges, and 246 consumer calls, no refusal; 18 s"
  }
 }

@@ -10,7 +10,9 @@ while it runs, and its record is copied in whole once it is done.
 A run's record lives at `runs/<subject>/<set>/<stamp>/`.
 
 - The subject is the part of Jab the run tested: `sdk`, `kernel`, or
-  `fps`, or `jab` for the whole repository, such as its fresh builds.
+  `fierce`, or `jab` for the whole repository, such as its fresh builds.
+  The game's runs from before it moved to `kit/fierce` stay under `fps`,
+  as they were recorded.
 - The set is what the run took, named for the recipe, probe, or bench
   that ran it, such as `qualification`, `export`, or the probe's `sdl`.
 - The stamp is the run's start in UTC as `YYYYMMDDTHHMMSS`. A record
@@ -71,8 +73,8 @@ items its set held at the run's time.
 ## Assets
 
 `assets/<subject>/<purpose>/` holds data that a workbench test or recipe
-reads. The fps pose recipes read their pose tables from
-`assets/fps/poses/`. The import-map checker reads the migration contract
+reads. The fierce pose recipes read their pose tables from
+`assets/fierce/poses/`. The import-map checker reads the migration contract
 of Jab's nushell trees from `assets/jab/importmap/contract.nuon`. The
 workbench finds this repository as a checkout beside its own,
 `../jab-stress-data`, the way it finds Jab at `../jab`.

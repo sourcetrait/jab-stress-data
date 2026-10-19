@@ -1,0 +1,1315 @@
+{
+ commit: "1fb01695b15715a01624a0ecdfd1642c9b4ce543",
+ builds: [
+  [program,                  symbols,                                                          exit];
+  [*,                        [
+
+   ],                                                          0],
+  [*,                        [
+    DEBUG
+   ],                                                 0],
+  [kit/fierce,               [
+    COUNT,
+    DEBUG
+   ],                                      0],
+  [kit/fierce,               [
+    CENSUS,
+    DEBUG
+   ],                                     0],
+  [kit/fierce,               [
+    COUNT,
+    DEBUG,
+    HANDOFF
+   ],                         0],
+  [kit/fierce,               [
+    DEBUG,
+    HANDOFF
+   ],                                    0],
+  [kit/fierce,               [
+    DEBUG,
+    OWNER
+   ],                                      0],
+  [kit/fierce,               [
+    DEBUG,
+    STATS
+   ],                                      0],
+  [kit/fierce,               [
+    DEBUG,
+    FOOTPRINT
+   ],                                  0],
+  [kit/fierce,               [
+    DEBUG,
+    LEVELS
+   ],                                     0],
+  [kit/fierce,               [
+    DEBUG,
+    FOOTPRINT,
+    LEVELS
+   ],                      0],
+  [kit/fierce,               [
+    RELEASE
+   ],                                               0],
+  [kit/fierce,               [
+    FOOTPRINT,
+    RELEASE
+   ],                                0],
+  [kit/fierce/test/fillrate, [
+    VECTOR
+   ],                                                0],
+  [kit/fierce/test/fillrate, [
+    DEBUG,
+    VECTOR
+   ],                                     0],
+  [example/walk,             [
+    CADENCE,
+    CADENCE_TEST
+   ],                             0],
+  [example/walk,             [
+    CADENCE,
+    CADENCE_TEST,
+    TIMING
+   ],                 0],
+  [example/walk,             [
+    CADENCE,
+    CADENCE_TEST,
+    PREPARE
+   ],                0],
+  [example/walk,             [
+    CADENCE,
+    CADENCE_TEST,
+    PREPARE,
+    TIMING
+   ],    0],
+  [example/walk,             [
+    CADENCE,
+    CADENCE_TEST,
+    EVENT_ROOM,
+    TIMING
+   ], 0],
+  [example/walk,             [
+    CADENCE,
+    CADENCE_TEST,
+    REPLAY,
+    TIMING
+   ],     0],
+  [example/walk,             [
+    CADENCE
+   ],                                               0],
+  [example/walk,             [
+    CADENCE,
+    TIMING
+   ],                                   0],
+  [example/walk,             [
+    CADENCE,
+    PREPARE
+   ],                                  0],
+  [example/walk,             [
+    CADENCE,
+    PREPARE,
+    TIMING
+   ],                      0],
+  [example/walk,             [
+    DEBUG,
+    PREPARE
+   ],                                    0],
+  [example/bounce,           [
+    DEBUG,
+    PREPARE
+   ],                                    0],
+  [example/wasd,             [
+    DEBUG,
+    PREPARE
+   ],                                    0],
+  [example/pad,              [
+    DEBUG,
+    PREPARE
+   ],                                    0],
+  [test/framecap,            [
+    DEBUG,
+    FLIP_BATCH
+   ],                                 0],
+  [kernel,                   [
+    FLIP_BATCH
+   ],                                            0]
+ ],
+ rows: [
+  [program,                   profile, symbols,                                                          role,          path,                                      "sha256",                                                           size];
+  [example/bounce,            release, [
+
+   ],                                                          program_jab,   "example/bounce/bounce.jab",               "65731978d4ed72801037c955bd7a91b9b082d17b2c8987ecad1378782fc7249c", 4640],
+  [example/bounce,            release, [
+
+   ],                                                          program_elf,   "example/bounce/bounce.elf",               "2036bc72dc69ea0c67bf6373d85cd88148c65163704f239a8a5bc8d0769ba080", 27552],
+  [example/helloworld,        release, [
+
+   ],                                                          program_jab,   "example/helloworld/helloworld.jab",       "530bd37b385dd0372d6cb76eca619c395dc56aaf56c4768f7b70f2f8c1b51fd5", 4133],
+  [example/helloworld,        release, [
+
+   ],                                                          program_elf,   "example/helloworld/helloworld.elf",       "a9d4af489c065ceb11b1e127a89ee8072e111c43ed5bf7e79049ed8ebe5b21cb", 26352],
+  [example/logo,              release, [
+
+   ],                                                          program_jab,   "example/logo/logo.jab",                   "e7efb3685b7d83f75fa9642f6c7caca4f30def352f57073db4fedf78f9fcafcf", 4474],
+  [example/logo,              release, [
+
+   ],                                                          program_elf,   "example/logo/logo.elf",                   "430fea727e1f68d04631081b8a5b6bfd94668d01789e29deec44c8c5624a069c", 27240],
+  [example/logo,              release, [
+
+   ],                                                          romfs_disk,    "example/logo/logo.romfs",                 "a92057c18d12ec66d57b7e124080d4072392d5caebd1fc8456dda6836304a295", 28672],
+  [example/pad,               release, [
+
+   ],                                                          program_jab,   "example/pad/pad.jab",                     "0dbd7a63f1118d0b3fa8ab1c838a8d33158adcafb116719f30d2bd52dc013fdb", 9000],
+  [example/pad,               release, [
+
+   ],                                                          program_elf,   "example/pad/pad.elf",                     "465fe0fa54b4ff8ed7ee8afa6aa20441b9bd0ffc28c56996e61b261f56be0f55", 36344],
+  [example/piano,             release, [
+
+   ],                                                          program_jab,   "example/piano/piano.jab",                 "9b6ce3e9a33f67c99db6dfffeed4e4403d22f296a09159ef8b277e180aca4660", 4522],
+  [example/piano,             release, [
+
+   ],                                                          program_elf,   "example/piano/piano.elf",                 "25eea395c398c487909dcc9e3e47212ff5e8e619c54b728efc900b905eda1624", 27648],
+  [example/techno,            release, [
+
+   ],                                                          program_jab,   "example/techno/techno.jab",               "c79585f94b7e389e74b337c7bd5e0c708fa7c23e41013478886c4a961f66bdf6", 4594],
+  [example/techno,            release, [
+
+   ],                                                          program_elf,   "example/techno/techno.elf",               "a7dc67d4492f7894bb486f94ed6bbb484748b17cf522a2797be2cd965189a339", 27648],
+  [example/techno,            release, [
+
+   ],                                                          romfs_disk,    "example/techno/techno.romfs",             "f5b95b836ac2de1d29826a7805d68cc7abdbb8d5391eca8c92587ca119407c10", 84992],
+  [example/walk,              release, [
+
+   ],                                                          program_jab,   "example/walk/walk.jab",                   "d47a7a49abd760bfcf1f835e421868126163d1ae81a2c7b0a50a59ab0a583472", 5612],
+  [example/walk,              release, [
+
+   ],                                                          program_elf,   "example/walk/walk.elf",                   "a2d5b61fbdca0e1db6b3799c8c89368c8c50708383ac859953deae2f1843be2b", 29792],
+  [example/walk,              release, [
+
+   ],                                                          romfs_disk,    "example/walk/walk.romfs",                 "0f7ba7d79b1028bbd72f9324a3a9ce022ae1d7e34c93984da694c44bf7a0dc08", 340992],
+  [example/wasd,              release, [
+
+   ],                                                          program_jab,   "example/wasd/wasd.jab",                   "654d3bd583b65537a10ce87f644abb5e654477825dfa40d51bddfa7d71bcc894", 7294],
+  [example/wasd,              release, [
+
+   ],                                                          program_elf,   "example/wasd/wasd.elf",                   "8c93276f9022e1253f33585285e24689aa944b98999a70e4bab0b011c991ae52", 32648],
+  [example/workers,           release, [
+
+   ],                                                          program_jab,   "example/workers/workers.jab",             "bbc8f362ff674af148babd71703b12306c44f4394978540bd54fcfe45352ad9c", 10377],
+  [example/workers,           release, [
+
+   ],                                                          program_elf,   "example/workers/workers.elf",             "69d5ed8d61de672d5fa0c4ddca142f9bfd7573ffe12fdb92210e5e9f30743793", 36280],
+  [kit/fierce,                release, [
+
+   ],                                                          program_jab,   "kit/fierce/fierce.jab",                   "97cc681a036fe9c452b0fc74de53398d0a4519deefc0e0a0cc4abb53e271cf51", 65855],
+  [kit/fierce,                release, [
+
+   ],                                                          program_elf,   "kit/fierce/fierce.elf",                   "dac72b7dfc640ed97c8ae67eea84a40afba09af3646b6f2b8856d31102d28886", 139976],
+  [kit/fierce,                release, [
+
+   ],                                                          romfs_disk,    "kit/fierce/fierce.romfs",                 "204b105c6841f750844bc3c206b21295155a43f54d1d2e87454f58dcc6283dbc", 2121728],
+  [kit/fierce/test/fillrate,  release, [
+
+   ],                                                          program_jab,   "kit/fierce/test/fillrate/fillrate.jab",   "f851c5dd8be42ee07d58f430f5072e3e002500fcb5fc9821235d5577d198653b", 6428],
+  [kit/fierce/test/fillrate,  release, [
+
+   ],                                                          program_elf,   "kit/fierce/test/fillrate/fillrate.elf",   "ef1c59e9a6667fa082240662de4c41bfc7b425f9417f6c0ea0824708f012ce06", 30968],
+  [kit/fierce/test/footprint, release, [
+
+   ],                                                          program_jab,   "kit/fierce/test/footprint/footprint.jab", "8f02f13e37327a1cc2f2b8c56e1907f85891bf4cb781633712d0d7ccb21561c8", 5001],
+  [kit/fierce/test/footprint, release, [
+
+   ],                                                          program_elf,   "kit/fierce/test/footprint/footprint.elf", "831bdc24bd34526b6b193633f04828cf9dde3994559a3861a7c8591f7fc05cf7", 54472],
+  [test/badstack,             release, [
+
+   ],                                                          program_jab,   "test/badstack/badstack.jab",              "371a05915bf641d0b71b255b22564dd0c43cf0be3b8135c9368480dea1455eeb", 4252],
+  [test/badstack,             release, [
+
+   ],                                                          program_elf,   "test/badstack/badstack.elf",              "48ee96b3eeae5e35ac279a16d736eb6535d8ca182b94e90f25191ef0b4f149ea", 26544],
+  [test/badstore,             release, [
+
+   ],                                                          program_jab,   "test/badstore/badstore.jab",              "e004486161cb49cdcad17251d6f7d2197d89beb5d8c8d1e41b0c891c9121d836", 4191],
+  [test/badstore,             release, [
+
+   ],                                                          program_elf,   "test/badstore/badstore.elf",              "cab93de37efcc6abae962aa86e3a2a0cc352e28d0e3c6f6f551e571d1dfbaae0", 26448],
+  [test/blocklist,            release, [
+
+   ],                                                          program_jab,   "test/blocklist/blocklist.jab",            "a3107dadaa91174c57619562482ec8d167a24bdc43c37d0d8161714660d316e0", 4627],
+  [test/blocklist,            release, [
+
+   ],                                                          program_elf,   "test/blocklist/blocklist.elf",            "fe3659d5f6ad0262f090e71e9eef607542c55037008229b9f7ce0e347d41a546", 27472],
+  [test/blocklist,            release, [
+
+   ],                                                          romfs_disk,    "test/blocklist/blocklist.romfs",          "1ce88c2b383e86d427d67d40dd9f83fb1cf3294967503dd859768ff9a4e3079c", 1024],
+  [test/checksum,             release, [
+
+   ],                                                          program_jab,   "test/checksum/checksum.jab",              "1e6b8d96dc1446afabcb9843b08f5c376c2f5bcf06711be1db51abf2b80438a8", 4540],
+  [test/checksum,             release, [
+
+   ],                                                          program_elf,   "test/checksum/checksum.elf",              "439b893ec527ca62661cb163090613cbb52a978208ea4274b1f9ec6d04a655ca", 27280],
+  [test/demand,               release, [
+
+   ],                                                          program_jab,   "test/demand/demand.jab",                  "3b79819b90d2cc5599ae55d2f7652e734e4ccb7c49819ebc90b20235c78ec60f", 4104],
+  [test/demand,               release, [
+
+   ],                                                          program_elf,   "test/demand/demand.elf",                  "89b020f64c195ff0bb7086f8e6285adc07a1015298c574de9c28ec224e7763f0", 26200],
+  [test/displayprint,         release, [
+
+   ],                                                          program_jab,   "test/displayprint/displayprint.jab",      "f8a5928b4490409ee3954735a409143b8d48c57865863f01b8fca2ee934e3d00", 4263],
+  [test/displayprint,         release, [
+
+   ],                                                          program_elf,   "test/displayprint/displayprint.elf",      "fdd2660febe778cac4f48a10594f6ec03531dc2e7dabf26ab633bdb31d985556", 26688],
+  [test/dtb,                  release, [
+
+   ],                                                          program_jab,   "test/dtb/dtb.jab",                        "ac0d39bc16ebadebb9296e5caa38b6034652a08625b97e88c2f6bc297deaf5fe", 9202],
+  [test/dtb,                  release, [
+
+   ],                                                          program_elf,   "test/dtb/dtb.elf",                        "c11ca2ac1d053d82b1931378c85daea14c73ed2b066108442084dffc623d5a20", 39880],
+  [test/exitstatus,           release, [
+
+   ],                                                          program_jab,   "test/exitstatus/exitstatus.jab",          "c58fd15a8c58045ba373d55543b364670d715137cae5213b94be3b0c319c9052", 4134],
+  [test/exitstatus,           release, [
+
+   ],                                                          program_elf,   "test/exitstatus/exitstatus.elf",          "415c87ec9d280b8648a1dc131a920f0670ce639b7ed445622452538976c74c00", 26352],
+  [test/feature,              release, [
+
+   ],                                                          program_jab,   "test/feature/feature.jab",                "c498fa7ad78f6646a67c1a3b6356f12616b08929615b03d22ba7876f8aec1462", 7641],
+  [test/feature,              release, [
+
+   ],                                                          program_elf,   "test/feature/feature.elf",                "b329580df91f85180c712782daafa677153c96d97d07710f9768543dcccb9267", 34144],
+  [test/framecap,             release, [
+
+   ],                                                          program_jab,   "test/framecap/framecap.jab",              "cbddcb7a086cfff2552810372aa70ae04e6e91855629af25dc1f80e8b8ce4082", 6429],
+  [test/framecap,             release, [
+
+   ],                                                          program_elf,   "test/framecap/framecap.elf",              "baf50d5b224337955c768ed0e0069b5ea0194371754838f1198f171ef9cc0ea9", 30800],
+  [test/gz,                   release, [
+
+   ],                                                          program_jab,   "test/gz/gz.jab",                          "d0325d8c6df07b6880282011a04003f5f0f166901503389526fbaf0d3a175296", 4857],
+  [test/gz,                   release, [
+
+   ],                                                          program_elf,   "test/gz/gz.elf",                          "5e025d01a8f60c0aa806cd10d14037e27e6c3d1bf547a96f324ecf3f5f32876e", 27936],
+  [test/harts,                release, [
+
+   ],                                                          program_jab,   "test/harts/harts.jab",                    "bdeb2e0ea301b92b8e6184ee2cf3ef0368dfe32fca02a19b4568e9dd01ebe138", 4435],
+  [test/harts,                release, [
+
+   ],                                                          program_elf,   "test/harts/harts.elf",                    "b60d12a149ccad0b71a70d9017e691dc224bec7c4cbae7dc3067a1096b617b77", 27072],
+  [test/hash,                 release, [
+
+   ],                                                          program_jab,   "test/hash/hash.jab",                      "cd85dd0e1c328a1131daa8b83a7ba7ef4785eef4fb20f902c6a7a2f384ed6afa", 4731],
+  [test/hash,                 release, [
+
+   ],                                                          program_elf,   "test/hash/hash.elf",                      "483e5699aacd9e87d74f74b531f15e51c0e3eb7c3bad743dce5b2f3acbc87b6a", 27456],
+  [test/jobs,                 release, [
+
+   ],                                                          program_jab,   "test/jobs/jobs.jab",                      "543a5b0df1c983595d1324123791047f0cda5025a376a567191fd95aa278dab3", 7325],
+  [test/jobs,                 release, [
+
+   ],                                                          program_elf,   "test/jobs/jobs.elf",                      "c913c0441cd5cd4a6b2873b7547053783fef123baed5678518397f1def65dad2", 33384],
+  [test/keys,                 release, [
+
+   ],                                                          program_jab,   "test/keys/keys.jab",                      "d8d5783a9737208a328f3fb520df47737a18f9320448e6b76a589a54caf1a41d", 4256],
+  [test/keys,                 release, [
+
+   ],                                                          program_elf,   "test/keys/keys.elf",                      "a027005adaee88b3b45f6bc9b119318c739ffabf9db6baee77414dde56cfe8aa", 26728],
+  [test/math,                 release, [
+
+   ],                                                          program_jab,   "test/math/math.jab",                      "50b998c230b81b27d3fd698b278ec42022686d9f3de55970592e3ddcd59cb0c9", 16426],
+  [test/math,                 release, [
+
+   ],                                                          program_elf,   "test/math/math.elf",                      "e1ca9395a0670c5f0e5b358c7b0ca7b10ab963fc5cf0ea350916d501a04393aa", 41912],
+  [test/midi,                 release, [
+
+   ],                                                          program_jab,   "test/midi/midi.jab",                      "d933ce06816dc4c31ff6a38e3821c84de6176c91a04825c3b26faefef6898edc", 4260],
+  [test/midi,                 release, [
+
+   ],                                                          program_elf,   "test/midi/midi.elf",                      "f80244e09c664761dbf3e2cf6215458400c9d098e55bfeea061d2f872c3e19d3", 26704],
+  [test/owners,               release, [
+
+   ],                                                          program_jab,   "test/owners/owners.jab",                  "d6a55d5f635e315d5a4b263d708c7e3422ef42b302d20bb28f326c1cd32e7968", 4503],
+  [test/owners,               release, [
+
+   ],                                                          program_elf,   "test/owners/owners.elf",                  "be850ca7d37effc810f1b249bcec6eda81607e1434631dd5fcb134112f4aebf1", 27232],
+  [test/pad,                  release, [
+
+   ],                                                          program_jab,   "test/pad/pad.jab",                        "7898090a3360babd45e32c30b8f5c08be0ddaa2d91650f135fb79d61eff77210", 4897],
+  [test/pad,                  release, [
+
+   ],                                                          program_elf,   "test/pad/pad.elf",                        "e773dd588779f7e93dab55f19f90784e5b92a87448cee6b7f977bfdba42646eb", 28080],
+  [test/png,                  release, [
+
+   ],                                                          program_jab,   "test/png/png.jab",                        "1e027d2ff7bd4bd9afae579b93c9fade276fb1a4ba9b16821dbde59e3f1848c1", 6196],
+  [test/png,                  release, [
+
+   ],                                                          program_elf,   "test/png/png.elf",                        "083a79834cff52bff446b439892af2f8b38c9ef206dd323636e55861afc3cf57", 30280],
+  [test/probe,                release, [
+
+   ],                                                          program_jab,   "test/probe/probe.jab",                    "3b79819b90d2cc5599ae55d2f7652e734e4ccb7c49819ebc90b20235c78ec60f", 4104],
+  [test/probe,                release, [
+
+   ],                                                          program_elf,   "test/probe/probe.elf",                    "cbca69eb5171b546c7e4e1c3fc63714a075493de306188548034d04df3c16321", 26200],
+  [test/profile,              release, [
+
+   ],                                                          program_jab,   "test/profile/profile.jab",                "18cd72d932741852e9aadf056a1e8942635898c3140d84ae15ee37f411b8e919", 4752],
+  [test/profile,              release, [
+
+   ],                                                          program_elf,   "test/profile/profile.elf",                "21959c48b822b418a9e689f86da935e7c6b3790980fbc265dfdfb106770bbb96", 27760],
+  [test/purity,               release, [
+
+   ],                                                          program_jab,   "test/purity/purity.jab",                  "e0545ccca4b42d5cb8c38e518aab2b92f0f32761da0f162f879c41d6a557bc9d", 4132],
+  [test/purity,               release, [
+
+   ],                                                          program_elf,   "test/purity/purity.elf",                  "9bc62e47d3ce1550395d954134c8aa56b3b087d0e3de0bd9dd8faa8b1d1fb3ba", 26352],
+  [test/random,               release, [
+
+   ],                                                          program_jab,   "test/random/random.jab",                  "5f461bf55482f3ecb6e04b3d108e1f4b42ae371f4333a6746cad755f0b6f8b5a", 4499],
+  [test/random,               release, [
+
+   ],                                                          program_elf,   "test/random/random.elf",                  "ad11ec9a7f06a29a31f5dc808fb3f5b2dbc96787324f6dac7cc99fcbf4da1984", 27320],
+  [test/reservations,         release, [
+
+   ],                                                          program_jab,   "test/reservations/reservations.jab",      "c6177d87a8c51d98c23f134b5bf9094b745d8b47f287a85aeef16aeac44af072", 6678],
+  [test/reservations,         release, [
+
+   ],                                                          program_elf,   "test/reservations/reservations.elf",      "bb641687e1f2fb03fa2f7007ce0eee1704404e7f4e2d35139e7ca3a032027fdf", 31304],
+  [test/romfs,                release, [
+
+   ],                                                          program_jab,   "test/romfs/romfs.jab",                    "61a7f1a243233d8843f1f3d38e0066ebd330f9cc2c26f52ad9d51456af1b1612", 5724],
+  [test/romfs,                release, [
+
+   ],                                                          program_elf,   "test/romfs/romfs.elf",                    "35ec86326ac081877e8beffce00559893f88758de7c2a5ac1d267f24e9086cbe", 29184],
+  [test/smf,                  release, [
+
+   ],                                                          program_jab,   "test/smf/smf.jab",                        "eb30f4845478337b87256d5ae684295928a3add21898e33037820e77f620b1c0", 4426],
+  [test/smf,                  release, [
+
+   ],                                                          program_elf,   "test/smf/smf.elf",                        "f5ad7588a5f7a60b64e7f05d1e449aa999d01742c30d7916c88d4e024f9664bf", 27064],
+  [test/sound,                release, [
+
+   ],                                                          program_jab,   "test/sound/sound.jab",                    "3646c4669d92cec088acc2ebf840bdda4b90ea5a4f1d97ecd750ec519b20f56a", 4279],
+  [test/sound,                release, [
+
+   ],                                                          program_elf,   "test/sound/sound.elf",                    "950dcdaf26fcc6d2761494da7e8df26c1a53fa4cd556c7d9cd34f32258b482f3", 26816],
+  [test/soundfont,            release, [
+
+   ],                                                          program_jab,   "test/soundfont/soundfont.jab",            "adfd9825f27f48feb832dfdb16212ecbf5ff654f5aba854b59096f7364434320", 5310],
+  [test/soundfont,            release, [
+
+   ],                                                          program_elf,   "test/soundfont/soundfont.elf",            "416d78e07515e8088a0a536dfafba177d859a1c13cb4387fee5baf036c5e14f4", 29184],
+  [test/spec,                 release, [
+
+   ],                                                          program_jab,   "test/spec/spec.jab",                      "713f94f19c01c8ee121f4f3a66470c3c5e1225f468c85a6015f7aee07d4da475", 4128],
+  [test/spec,                 release, [
+
+   ],                                                          program_elf,   "test/spec/spec.elf",                      "95713ae3f37ac0d862aba74514f7575eaa2cbe2747429666218b38627cc1f2f5", 26344],
+  [test/spectable,            release, [
+
+   ],                                                          program_jab,   "test/spectable/spectable.jab",            "3b79819b90d2cc5599ae55d2f7652e734e4ccb7c49819ebc90b20235c78ec60f", 4104],
+  [test/spectable,            release, [
+
+   ],                                                          program_elf,   "test/spectable/spectable.elf",            "6f23da35f69857f1558867f1ae37b4cf59e46701158513e47dc0ff38f0de6158", 26200],
+  [test/sprite,               release, [
+
+   ],                                                          program_jab,   "test/sprite/sprite.jab",                  "a98fc3b4f356de7e90adb67ef34c3bf1f254d29eab1dcddc8fd50bda45b31a9f", 5632],
+  [test/sprite,               release, [
+
+   ],                                                          program_elf,   "test/sprite/sprite.elf",                  "d932a12584d944acba728cc726895cdeb6c13b2fd57565e69b94d41240615730", 28192],
+  [test/stuck,                release, [
+
+   ],                                                          program_jab,   "test/stuck/stuck.jab",                    "86c5555636ca0307ad908562092076d3bcdcd3ba5dc06c1767352ddcf0cbcb9b", 5450],
+  [test/stuck,                release, [
+
+   ],                                                          program_elf,   "test/stuck/stuck.elf",                    "d74bc5b42c5be1ded8d98f95df8981a84f104515e43f953feb3035195d05d227", 29192],
+  [test/tar,                  release, [
+
+   ],                                                          program_jab,   "test/tar/tar.jab",                        "07144d616cfaa26b4936e62f07fd0ea8b37944baacd44c4e0e769a0a279da663", 4838],
+  [test/tar,                  release, [
+
+   ],                                                          program_elf,   "test/tar/tar.elf",                        "00c0c3b309ce6c5193c445d0a3a435c90e8edc115250d843a4f301ba8cbc7abb", 27784],
+  [test/workerfault,          release, [
+
+   ],                                                          program_jab,   "test/workerfault/workerfault.jab",        "00ffc28bcbf6f6e3075fd78b59acfae8d485a034e0e77345d0c378fb7f555b51", 4962],
+  [test/workerfault,          release, [
+
+   ],                                                          program_elf,   "test/workerfault/workerfault.elf",        "c99854fd3d938324584227f1c42a230a2c5675a006aeaaef035f0d61a5fb388e", 28440],
+  [test/workers,              release, [
+
+   ],                                                          program_jab,   "test/workers/workers.jab",                "e2c7616bca93d91b3e223fccea784e4ea41546b6e5c42e70d079c0448ce79e99", 11416],
+  [test/workers,              release, [
+
+   ],                                                          program_elf,   "test/workers/workers.elf",                "95f3170d73c0a9a3a772ef80ccb52e9fbedc0054721221ba4dbd1935768d859b", 38656],
+  [kernel,                    release, [
+
+   ],                                                          kernel_elf,    "kernel/jab.elf",                          "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b", 530592],
+  [kernel,                    release, [
+
+   ],                                                          kernel_loaded, "kernel/jab.elf",                          "eee717739f5e4943f67f23c1b7da48cef6e50ed02baa2c00518fadc71acee40b", 61508],
+  [example/bounce,            debug,   [
+    DEBUG
+   ],                                                 program_jab,   "example/bounce/bounce.jab",               "65731978d4ed72801037c955bd7a91b9b082d17b2c8987ecad1378782fc7249c", 4640],
+  [example/bounce,            debug,   [
+    DEBUG
+   ],                                                 program_elf,   "example/bounce/bounce.elf",               "fd6d8d6f978395549546307635509d0c44dbc7323baa6d982d4210d3082a0587", 27576],
+  [example/helloworld,        debug,   [
+    DEBUG
+   ],                                                 program_jab,   "example/helloworld/helloworld.jab",       "530bd37b385dd0372d6cb76eca619c395dc56aaf56c4768f7b70f2f8c1b51fd5", 4133],
+  [example/helloworld,        debug,   [
+    DEBUG
+   ],                                                 program_elf,   "example/helloworld/helloworld.elf",       "c383e2707e91cb983afcfc7b41adb7da6bb21017d8186bbf40d7ed21a526db62", 26376],
+  [example/logo,              debug,   [
+    DEBUG
+   ],                                                 program_jab,   "example/logo/logo.jab",                   "e7efb3685b7d83f75fa9642f6c7caca4f30def352f57073db4fedf78f9fcafcf", 4474],
+  [example/logo,              debug,   [
+    DEBUG
+   ],                                                 program_elf,   "example/logo/logo.elf",                   "7c15dc7b576c0b63ec2670d3d519057bb6f39eb47e4775ac1cf8a7b2271db4af", 27264],
+  [example/logo,              debug,   [
+    DEBUG
+   ],                                                 romfs_disk,    "example/logo/logo.romfs",                 "a92057c18d12ec66d57b7e124080d4072392d5caebd1fc8456dda6836304a295", 28672],
+  [example/pad,               debug,   [
+    DEBUG
+   ],                                                 program_jab,   "example/pad/pad.jab",                     "0dbd7a63f1118d0b3fa8ab1c838a8d33158adcafb116719f30d2bd52dc013fdb", 9000],
+  [example/pad,               debug,   [
+    DEBUG
+   ],                                                 program_elf,   "example/pad/pad.elf",                     "e5bd912e8d3974c14ed97e36e63edca52df1b7a71763922d6f23e1ed78ce8f92", 36368],
+  [example/piano,             debug,   [
+    DEBUG
+   ],                                                 program_jab,   "example/piano/piano.jab",                 "9b6ce3e9a33f67c99db6dfffeed4e4403d22f296a09159ef8b277e180aca4660", 4522],
+  [example/piano,             debug,   [
+    DEBUG
+   ],                                                 program_elf,   "example/piano/piano.elf",                 "fed238c91599f8f8d0187a741777d3329278f3be3e6bd94c5f97d02049147017", 27672],
+  [example/techno,            debug,   [
+    DEBUG
+   ],                                                 program_jab,   "example/techno/techno.jab",               "c79585f94b7e389e74b337c7bd5e0c708fa7c23e41013478886c4a961f66bdf6", 4594],
+  [example/techno,            debug,   [
+    DEBUG
+   ],                                                 program_elf,   "example/techno/techno.elf",               "524aca7190d903d648f074706a0d7aecbc18ec9804debd332787a428b2834d5c", 27672],
+  [example/techno,            debug,   [
+    DEBUG
+   ],                                                 romfs_disk,    "example/techno/techno.romfs",             "f5b95b836ac2de1d29826a7805d68cc7abdbb8d5391eca8c92587ca119407c10", 84992],
+  [example/walk,              debug,   [
+    DEBUG
+   ],                                                 program_jab,   "example/walk/walk.jab",                   "d47a7a49abd760bfcf1f835e421868126163d1ae81a2c7b0a50a59ab0a583472", 5612],
+  [example/walk,              debug,   [
+    DEBUG
+   ],                                                 program_elf,   "example/walk/walk.elf",                   "f08da65a8376d1977a0a34e39d395094773e0b10dfd05a9ba22b052cf28ee317", 29816],
+  [example/walk,              debug,   [
+    DEBUG
+   ],                                                 romfs_disk,    "example/walk/walk.romfs",                 "0f7ba7d79b1028bbd72f9324a3a9ce022ae1d7e34c93984da694c44bf7a0dc08", 340992],
+  [example/wasd,              debug,   [
+    DEBUG
+   ],                                                 program_jab,   "example/wasd/wasd.jab",                   "654d3bd583b65537a10ce87f644abb5e654477825dfa40d51bddfa7d71bcc894", 7294],
+  [example/wasd,              debug,   [
+    DEBUG
+   ],                                                 program_elf,   "example/wasd/wasd.elf",                   "99cb210831c1ea98dad320ff3d7ceb6b8bbc978e03d20ee3207785ca7f1303d6", 32672],
+  [example/workers,           debug,   [
+    DEBUG
+   ],                                                 program_jab,   "example/workers/workers.jab",             "bbc8f362ff674af148babd71703b12306c44f4394978540bd54fcfe45352ad9c", 10377],
+  [example/workers,           debug,   [
+    DEBUG
+   ],                                                 program_elf,   "example/workers/workers.elf",             "53cbf35f1110052b06164d733dc34a3bd714f6b2365a15f5a9774ba26ae372a8", 36304],
+  [kit/fierce,                debug,   [
+    DEBUG
+   ],                                                 program_jab,   "kit/fierce/fierce.jab",                   "5fb6641b3445e437c689ba2c7645ad5d7c47383034a110425564e60390b67397", 80702],
+  [kit/fierce,                debug,   [
+    DEBUG
+   ],                                                 program_elf,   "kit/fierce/fierce.elf",                   "1e23eac952d860f273ae014f392307b81582bc762c8a50275b0c42edf64cac65", 160960],
+  [kit/fierce,                debug,   [
+    DEBUG
+   ],                                                 romfs_disk,    "kit/fierce/fierce.romfs",                 "204b105c6841f750844bc3c206b21295155a43f54d1d2e87454f58dcc6283dbc", 2121728],
+  [kit/fierce/test/fillrate,  debug,   [
+    DEBUG
+   ],                                                 program_jab,   "kit/fierce/test/fillrate/fillrate.jab",   "f851c5dd8be42ee07d58f430f5072e3e002500fcb5fc9821235d5577d198653b", 6428],
+  [kit/fierce/test/fillrate,  debug,   [
+    DEBUG
+   ],                                                 program_elf,   "kit/fierce/test/fillrate/fillrate.elf",   "f7373ebd9ea7dbe5769ce6224d28f5b54696133f9237cf2f80edcc41f8f8c699", 30992],
+  [kit/fierce/test/footprint, debug,   [
+    DEBUG
+   ],                                                 program_jab,   "kit/fierce/test/footprint/footprint.jab", "8f02f13e37327a1cc2f2b8c56e1907f85891bf4cb781633712d0d7ccb21561c8", 5001],
+  [kit/fierce/test/footprint, debug,   [
+    DEBUG
+   ],                                                 program_elf,   "kit/fierce/test/footprint/footprint.elf", "4128c04cfde66c9e0fb5f80814f083da6b6da099ef412461f8b847d1e07df4ac", 54496],
+  [test/badstack,             debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/badstack/badstack.jab",              "371a05915bf641d0b71b255b22564dd0c43cf0be3b8135c9368480dea1455eeb", 4252],
+  [test/badstack,             debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/badstack/badstack.elf",              "98bfe5d411292ff0d2827b92a2501866484c54bb1b280f0055df7b884c29161a", 26568],
+  [test/badstore,             debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/badstore/badstore.jab",              "e004486161cb49cdcad17251d6f7d2197d89beb5d8c8d1e41b0c891c9121d836", 4191],
+  [test/badstore,             debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/badstore/badstore.elf",              "2e112b92d6f901738371ed321156e2a0e0653eecc4e7e54502e08c9d10ebeaef", 26472],
+  [test/blocklist,            debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/blocklist/blocklist.jab",            "a3107dadaa91174c57619562482ec8d167a24bdc43c37d0d8161714660d316e0", 4627],
+  [test/blocklist,            debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/blocklist/blocklist.elf",            "e1791dbd17247cbc0fa56c4c6b616d21c15488b31dde8ff954053b37644b4171", 27496],
+  [test/blocklist,            debug,   [
+    DEBUG
+   ],                                                 romfs_disk,    "test/blocklist/blocklist.romfs",          "1ce88c2b383e86d427d67d40dd9f83fb1cf3294967503dd859768ff9a4e3079c", 1024],
+  [test/checksum,             debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/checksum/checksum.jab",              "1e6b8d96dc1446afabcb9843b08f5c376c2f5bcf06711be1db51abf2b80438a8", 4540],
+  [test/checksum,             debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/checksum/checksum.elf",              "4f5fd9c443c2e4bef3d56c2ac517f034b72d8e89407dec9ac73c3134495fdcaf", 27304],
+  [test/demand,               debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/demand/demand.jab",                  "3b79819b90d2cc5599ae55d2f7652e734e4ccb7c49819ebc90b20235c78ec60f", 4104],
+  [test/demand,               debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/demand/demand.elf",                  "f3fe2e12e8f4367adb45a79639cc59c4496a38bcda5fddeadfc4094da169b331", 26224],
+  [test/displayprint,         debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/displayprint/displayprint.jab",      "f8a5928b4490409ee3954735a409143b8d48c57865863f01b8fca2ee934e3d00", 4263],
+  [test/displayprint,         debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/displayprint/displayprint.elf",      "3ecb0a59ae75796d25c979c120c4a38eee16cbda0a1c9b0423c815f89b88dbbd", 26712],
+  [test/dtb,                  debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/dtb/dtb.jab",                        "ac0d39bc16ebadebb9296e5caa38b6034652a08625b97e88c2f6bc297deaf5fe", 9202],
+  [test/dtb,                  debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/dtb/dtb.elf",                        "e33f6edbbd5e898591a958eac44a524c12aa2e755bc1523e3e7cf63570e7193a", 39904],
+  [test/exitstatus,           debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/exitstatus/exitstatus.jab",          "c58fd15a8c58045ba373d55543b364670d715137cae5213b94be3b0c319c9052", 4134],
+  [test/exitstatus,           debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/exitstatus/exitstatus.elf",          "41ef75252ac3a6cbe02f86111f8b66b3d0daafe04a860657e9916b7d1dac59f1", 26376],
+  [test/feature,              debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/feature/feature.jab",                "c498fa7ad78f6646a67c1a3b6356f12616b08929615b03d22ba7876f8aec1462", 7641],
+  [test/feature,              debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/feature/feature.elf",                "6a4635b667d92c85472404df77e3e5a20f4a12a3f682e2fdbe3677e289fd76a6", 34168],
+  [test/framecap,             debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/framecap/framecap.jab",              "cbddcb7a086cfff2552810372aa70ae04e6e91855629af25dc1f80e8b8ce4082", 6429],
+  [test/framecap,             debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/framecap/framecap.elf",              "4880590a4e700de60a1a95c302f03361544b9d057713a044c42ee9e69276a6b5", 30824],
+  [test/gz,                   debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/gz/gz.jab",                          "d0325d8c6df07b6880282011a04003f5f0f166901503389526fbaf0d3a175296", 4857],
+  [test/gz,                   debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/gz/gz.elf",                          "a91d18ed928cce6c6f1985b2618781c3829dccdf340c5f4a97976bdae17a55d9", 27960],
+  [test/harts,                debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/harts/harts.jab",                    "bdeb2e0ea301b92b8e6184ee2cf3ef0368dfe32fca02a19b4568e9dd01ebe138", 4435],
+  [test/harts,                debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/harts/harts.elf",                    "0e17f29a7d286427a0a6680ea465a30bfbbfcdb68a9b6754adede7512d760aaa", 27096],
+  [test/hash,                 debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/hash/hash.jab",                      "cd85dd0e1c328a1131daa8b83a7ba7ef4785eef4fb20f902c6a7a2f384ed6afa", 4731],
+  [test/hash,                 debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/hash/hash.elf",                      "68699c312d20ead4ed2795f95554b5c2d30ddee04afcc0f4e7dfa1d28974534c", 27480],
+  [test/jobs,                 debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/jobs/jobs.jab",                      "543a5b0df1c983595d1324123791047f0cda5025a376a567191fd95aa278dab3", 7325],
+  [test/jobs,                 debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/jobs/jobs.elf",                      "bdfd5da3e6fd4068f6ebab28b87c811a4e75a322f2b663f0e1c744001ca62c3c", 33408],
+  [test/keys,                 debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/keys/keys.jab",                      "d8d5783a9737208a328f3fb520df47737a18f9320448e6b76a589a54caf1a41d", 4256],
+  [test/keys,                 debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/keys/keys.elf",                      "7ec71609bddd5a7983689cde2958a4425c47a22ca01f8b38d6e9dc945627cb8d", 26752],
+  [test/math,                 debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/math/math.jab",                      "50b998c230b81b27d3fd698b278ec42022686d9f3de55970592e3ddcd59cb0c9", 16426],
+  [test/math,                 debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/math/math.elf",                      "e9beaf1bd8ffeea2b4fc86c265e97858b6aa983562b1c4b7e3406c8ba3a98c4a", 41936],
+  [test/midi,                 debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/midi/midi.jab",                      "d933ce06816dc4c31ff6a38e3821c84de6176c91a04825c3b26faefef6898edc", 4260],
+  [test/midi,                 debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/midi/midi.elf",                      "29072339e7b6ad6af21f2924edc9d7a4a1e62331244ac955c1a00942a48a877d", 26728],
+  [test/owners,               debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/owners/owners.jab",                  "d6a55d5f635e315d5a4b263d708c7e3422ef42b302d20bb28f326c1cd32e7968", 4503],
+  [test/owners,               debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/owners/owners.elf",                  "58487e35d5ef01048ff89fd7b3c757b626086e88b12f5a8299897e3f696656b1", 27256],
+  [test/pad,                  debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/pad/pad.jab",                        "7898090a3360babd45e32c30b8f5c08be0ddaa2d91650f135fb79d61eff77210", 4897],
+  [test/pad,                  debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/pad/pad.elf",                        "d31daf11913b6911ba8d40df0efdd9d9b176c460f8508bd8bd4eef04ec479374", 28104],
+  [test/png,                  debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/png/png.jab",                        "1e027d2ff7bd4bd9afae579b93c9fade276fb1a4ba9b16821dbde59e3f1848c1", 6196],
+  [test/png,                  debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/png/png.elf",                        "853fc616cefc31cf51dbb519f5542c497bd277ffcb751e681d9f843280bbb66c", 30304],
+  [test/probe,                debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/probe/probe.jab",                    "3b79819b90d2cc5599ae55d2f7652e734e4ccb7c49819ebc90b20235c78ec60f", 4104],
+  [test/probe,                debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/probe/probe.elf",                    "1423645dc742e274bcde8419c7144c113bf5e43212343d5ffbc030854b3be551", 26224],
+  [test/profile,              debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/profile/profile.jab",                "18cd72d932741852e9aadf056a1e8942635898c3140d84ae15ee37f411b8e919", 4752],
+  [test/profile,              debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/profile/profile.elf",                "f067ddaad2e69a21b438427f2bcc820f09e2251f87d40a3766dfee3f71a954c4", 27784],
+  [test/purity,               debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/purity/purity.jab",                  "03789b92511cad7bc93c2cabd17e81e579c6c7e34a54bd6cfb3dc0a8e6d96c87", 4167],
+  [test/purity,               debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/purity/purity.elf",                  "0b116010ac4c1eda4c1134b1e3bc179e8b4717d5c774a2e057bfe32d95772ef1", 26448],
+  [test/random,               debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/random/random.jab",                  "5f461bf55482f3ecb6e04b3d108e1f4b42ae371f4333a6746cad755f0b6f8b5a", 4499],
+  [test/random,               debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/random/random.elf",                  "a78256bd787f9d65494826d2bc0d230be1400f8d8757354e6a4872c6f5fb0016", 27344],
+  [test/reservations,         debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/reservations/reservations.jab",      "c6177d87a8c51d98c23f134b5bf9094b745d8b47f287a85aeef16aeac44af072", 6678],
+  [test/reservations,         debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/reservations/reservations.elf",      "a6008926f6792cdcbc710731c472b48872ddeea55f665769bf03909ac67a79fe", 31328],
+  [test/romfs,                debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/romfs/romfs.jab",                    "61a7f1a243233d8843f1f3d38e0066ebd330f9cc2c26f52ad9d51456af1b1612", 5724],
+  [test/romfs,                debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/romfs/romfs.elf",                    "af170ba4ab311672e6da0a956e8ece3cd29e65cae0cd97c593b5732cd7b7225c", 29208],
+  [test/smf,                  debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/smf/smf.jab",                        "eb30f4845478337b87256d5ae684295928a3add21898e33037820e77f620b1c0", 4426],
+  [test/smf,                  debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/smf/smf.elf",                        "57bc0bc707157201ba5629ccf7c49e98bfaaf1d1dcdfaba0cba11b3bf5c34c9c", 27088],
+  [test/sound,                debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/sound/sound.jab",                    "3646c4669d92cec088acc2ebf840bdda4b90ea5a4f1d97ecd750ec519b20f56a", 4279],
+  [test/sound,                debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/sound/sound.elf",                    "9eb93fb186df12ad40d2342896d37fc3132c4a5b759ac5c23e1a278519918032", 26840],
+  [test/soundfont,            debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/soundfont/soundfont.jab",            "adfd9825f27f48feb832dfdb16212ecbf5ff654f5aba854b59096f7364434320", 5310],
+  [test/soundfont,            debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/soundfont/soundfont.elf",            "e3e3acac05632e6bb2bb5ad792d84b132a15a0978e59b02eb005842fe29fa77b", 29208],
+  [test/spec,                 debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/spec/spec.jab",                      "713f94f19c01c8ee121f4f3a66470c3c5e1225f468c85a6015f7aee07d4da475", 4128],
+  [test/spec,                 debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/spec/spec.elf",                      "abe3e0be907a1760562993ce0b28cdeadb9f3d58a2771cac9003cd89651c50d4", 26368],
+  [test/spectable,            debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/spectable/spectable.jab",            "3b79819b90d2cc5599ae55d2f7652e734e4ccb7c49819ebc90b20235c78ec60f", 4104],
+  [test/spectable,            debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/spectable/spectable.elf",            "78a14ef3fe7dc209cb3283d1d7cc852c46c4f1bd124078463806944ef4e52470", 26224],
+  [test/sprite,               debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/sprite/sprite.jab",                  "a98fc3b4f356de7e90adb67ef34c3bf1f254d29eab1dcddc8fd50bda45b31a9f", 5632],
+  [test/sprite,               debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/sprite/sprite.elf",                  "fd124f761e30228a75bf03388e4e418fb2c48384da3a54b96f68543112639841", 28216],
+  [test/stuck,                debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/stuck/stuck.jab",                    "86c5555636ca0307ad908562092076d3bcdcd3ba5dc06c1767352ddcf0cbcb9b", 5450],
+  [test/stuck,                debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/stuck/stuck.elf",                    "01156a6af4929bec2005671ff4191f1fd3108879884ae2ddf3482e98697164db", 29216],
+  [test/tar,                  debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/tar/tar.jab",                        "07144d616cfaa26b4936e62f07fd0ea8b37944baacd44c4e0e769a0a279da663", 4838],
+  [test/tar,                  debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/tar/tar.elf",                        "1dbb45f5a40008b1600c6ca5bf0b54190078f102de119c5e5d33632599ef6959", 27808],
+  [test/workerfault,          debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/workerfault/workerfault.jab",        "00ffc28bcbf6f6e3075fd78b59acfae8d485a034e0e77345d0c378fb7f555b51", 4962],
+  [test/workerfault,          debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/workerfault/workerfault.elf",        "64c49e993a14394d0758c2733f54011ac6c10aed9b7efa134b59087395b1751a", 28464],
+  [test/workers,              debug,   [
+    DEBUG
+   ],                                                 program_jab,   "test/workers/workers.jab",                "e2c7616bca93d91b3e223fccea784e4ea41546b6e5c42e70d079c0448ce79e99", 11416],
+  [test/workers,              debug,   [
+    DEBUG
+   ],                                                 program_elf,   "test/workers/workers.elf",                "f3e714db127319d10fa5543f87189648dd00368ba9455c20feaa31747752dd6f", 38680],
+  [kernel,                    debug,   [
+    DEBUG
+   ],                                                 kernel_elf,    "kernel/jab.elf",                          "f2eb11d762f2843589a61e3ee464b0621a5c0ac072b9049c10f961db978a32cb", 539584],
+  [kernel,                    debug,   [
+    DEBUG
+   ],                                                 kernel_loaded, "kernel/jab.elf",                          "2484b5d9d63a26feb0164b4ead2b6aa7e0d4a10c4efcad2a1c81cd57c3417dde", 65604],
+  [kit/fierce,                debug,   [
+    COUNT,
+    DEBUG
+   ],                                      program_jab,   "kit/fierce/fierce.jab",                   "641597ba1680f233329c141c744d271929bbcd77add5855c80cc2550b728a81b", 83934],
+  [kit/fierce,                debug,   [
+    COUNT,
+    DEBUG
+   ],                                      program_elf,   "kit/fierce/fierce.elf",                   "90c0b7f7a99006feb096680be523b4a417a1f523b52ecf2121974ad02fa90b01", 164816],
+  [kit/fierce,                debug,   [
+    COUNT,
+    DEBUG
+   ],                                      romfs_disk,    "kit/fierce/fierce.romfs",                 "204b105c6841f750844bc3c206b21295155a43f54d1d2e87454f58dcc6283dbc", 2121728],
+  [kernel,                    debug,   [
+    COUNT,
+    DEBUG
+   ],                                      kernel_elf,    "kernel/jab.elf",                          "40819c8aca6ffa307537f4cbe1baabad64e9bc4b0dbe4429f2389dec2dfd5dcf", 540424],
+  [kernel,                    debug,   [
+    COUNT,
+    DEBUG
+   ],                                      kernel_loaded, "kernel/jab.elf",                          "2484b5d9d63a26feb0164b4ead2b6aa7e0d4a10c4efcad2a1c81cd57c3417dde", 65604],
+  [kit/fierce,                debug,   [
+    CENSUS,
+    DEBUG
+   ],                                     program_jab,   "kit/fierce/fierce.jab",                   "f644174fedd6fa541a5b1c315ac6edafe01d664038fa04e0a584679cff3a7caf", 88796],
+  [kit/fierce,                debug,   [
+    CENSUS,
+    DEBUG
+   ],                                     program_elf,   "kit/fierce/fierce.elf",                   "7d44b4c4c5c9cc0d9dcd4f4fa22655a02a7143e6356707dabe81c36de2071080", 174792],
+  [kit/fierce,                debug,   [
+    CENSUS,
+    DEBUG
+   ],                                     romfs_disk,    "kit/fierce/fierce.romfs",                 "204b105c6841f750844bc3c206b21295155a43f54d1d2e87454f58dcc6283dbc", 2121728],
+  [kernel,                    debug,   [
+    CENSUS,
+    DEBUG
+   ],                                     kernel_elf,    "kernel/jab.elf",                          "5f0d350c2298e80a233ab8a31bfe4b19b7adb0a243cba207f904281adeb0f56f", 540432],
+  [kernel,                    debug,   [
+    CENSUS,
+    DEBUG
+   ],                                     kernel_loaded, "kernel/jab.elf",                          "2484b5d9d63a26feb0164b4ead2b6aa7e0d4a10c4efcad2a1c81cd57c3417dde", 65604],
+  [kit/fierce,                debug,   [
+    COUNT,
+    DEBUG,
+    HANDOFF
+   ],                         program_jab,   "kit/fierce/fierce.jab",                   "641597ba1680f233329c141c744d271929bbcd77add5855c80cc2550b728a81b", 83934],
+  [kit/fierce,                debug,   [
+    COUNT,
+    DEBUG,
+    HANDOFF
+   ],                         program_elf,   "kit/fierce/fierce.elf",                   "479acb4bccbb4e4862d03c018658ddee0e3d7c950de2b57d1fd5b69a8fbc15bc", 164848],
+  [kit/fierce,                debug,   [
+    COUNT,
+    DEBUG,
+    HANDOFF
+   ],                         romfs_disk,    "kit/fierce/fierce.romfs",                 "204b105c6841f750844bc3c206b21295155a43f54d1d2e87454f58dcc6283dbc", 2121728],
+  [kernel,                    debug,   [
+    COUNT,
+    DEBUG,
+    HANDOFF
+   ],                         kernel_elf,    "kernel/jab.elf",                          "05152d18d3a8b5430269c8ac6b9975379085e5daac2e7f25f2b520af1c3d976b", 541272],
+  [kernel,                    debug,   [
+    COUNT,
+    DEBUG,
+    HANDOFF
+   ],                         kernel_loaded, "kernel/jab.elf",                          "2484b5d9d63a26feb0164b4ead2b6aa7e0d4a10c4efcad2a1c81cd57c3417dde", 65604],
+  [kit/fierce,                debug,   [
+    DEBUG,
+    HANDOFF
+   ],                                    program_jab,   "kit/fierce/fierce.jab",                   "5fb6641b3445e437c689ba2c7645ad5d7c47383034a110425564e60390b67397", 80702],
+  [kit/fierce,                debug,   [
+    DEBUG,
+    HANDOFF
+   ],                                    program_elf,   "kit/fierce/fierce.elf",                   "1e4be2e04818f9b593f9273e62cc92fea127ba9b68b8da9e23db28ce75739356", 160992],
+  [kit/fierce,                debug,   [
+    DEBUG,
+    HANDOFF
+   ],                                    romfs_disk,    "kit/fierce/fierce.romfs",                 "204b105c6841f750844bc3c206b21295155a43f54d1d2e87454f58dcc6283dbc", 2121728],
+  [kernel,                    debug,   [
+    DEBUG,
+    HANDOFF
+   ],                                    kernel_elf,    "kernel/jab.elf",                          "c8ee30dfdd7ea7818ec724f7cf066c77046048a8e583c7841ae57432349307ab", 540432],
+  [kernel,                    debug,   [
+    DEBUG,
+    HANDOFF
+   ],                                    kernel_loaded, "kernel/jab.elf",                          "2484b5d9d63a26feb0164b4ead2b6aa7e0d4a10c4efcad2a1c81cd57c3417dde", 65604],
+  [kit/fierce,                debug,   [
+    DEBUG,
+    OWNER
+   ],                                      program_jab,   "kit/fierce/fierce.jab",                   "7ffb40d339858fdca67796dd7b26becb1e51d4b5af4df3b54c7423532c5b2190", 80678],
+  [kit/fierce,                debug,   [
+    DEBUG,
+    OWNER
+   ],                                      program_elf,   "kit/fierce/fierce.elf",                   "783d432ea68c35ee872b52350f835de38360985ce1c841cdeb101167c2fbb5a5", 160960],
+  [kit/fierce,                debug,   [
+    DEBUG,
+    OWNER
+   ],                                      romfs_disk,    "kit/fierce/fierce.romfs",                 "204b105c6841f750844bc3c206b21295155a43f54d1d2e87454f58dcc6283dbc", 2121728],
+  [kernel,                    debug,   [
+    DEBUG,
+    OWNER
+   ],                                      kernel_elf,    "kernel/jab.elf",                          "1d2a6b9a14b62331a7ce603cbd0f9db6eeb68fa5cc9d5185e53f97798149493d", 540424],
+  [kernel,                    debug,   [
+    DEBUG,
+    OWNER
+   ],                                      kernel_loaded, "kernel/jab.elf",                          "2484b5d9d63a26feb0164b4ead2b6aa7e0d4a10c4efcad2a1c81cd57c3417dde", 65604],
+  [kit/fierce,                debug,   [
+    DEBUG,
+    STATS
+   ],                                      program_jab,   "kit/fierce/fierce.jab",                   "5fb6641b3445e437c689ba2c7645ad5d7c47383034a110425564e60390b67397", 80702],
+  [kit/fierce,                debug,   [
+    DEBUG,
+    STATS
+   ],                                      program_elf,   "kit/fierce/fierce.elf",                   "f13d26ad04e764e58e6182f14d1c84bf9b6941eba750514b67d73faec241eabb", 160992],
+  [kit/fierce,                debug,   [
+    DEBUG,
+    STATS
+   ],                                      romfs_disk,    "kit/fierce/fierce.romfs",                 "204b105c6841f750844bc3c206b21295155a43f54d1d2e87454f58dcc6283dbc", 2121728],
+  [kernel,                    debug,   [
+    DEBUG,
+    STATS
+   ],                                      kernel_elf,    "kernel/jab.elf",                          "4bfa90f979fb547bcb676a3ff7f54365aa2ce6f4d5976b847091fbaa560ce8d5", 540432],
+  [kernel,                    debug,   [
+    DEBUG,
+    STATS
+   ],                                      kernel_loaded, "kernel/jab.elf",                          "2484b5d9d63a26feb0164b4ead2b6aa7e0d4a10c4efcad2a1c81cd57c3417dde", 65604],
+  [kit/fierce,                debug,   [
+    DEBUG,
+    FOOTPRINT
+   ],                                  program_jab,   "kit/fierce/fierce.jab",                   "0789b3fc60e2da2ec02078944afec3e6a80c2666c4b5e992600d6c29fef8f6a2", 80766],
+  [kit/fierce,                debug,   [
+    DEBUG,
+    FOOTPRINT
+   ],                                  program_elf,   "kit/fierce/fierce.elf",                   "517e7fb02c19e8c360f33b4ef98ebf5a00d91ec062a38105f5a1618e55552392", 161104],
+  [kit/fierce,                debug,   [
+    DEBUG,
+    FOOTPRINT
+   ],                                  romfs_disk,    "kit/fierce/fierce.romfs",                 "204b105c6841f750844bc3c206b21295155a43f54d1d2e87454f58dcc6283dbc", 2121728],
+  [kernel,                    debug,   [
+    DEBUG,
+    FOOTPRINT
+   ],                                  kernel_elf,    "kernel/jab.elf",                          "62e0a0db10286db72c497b375fc11079db655c31c7ab7275c803d0d0ab197e95", 540440],
+  [kernel,                    debug,   [
+    DEBUG,
+    FOOTPRINT
+   ],                                  kernel_loaded, "kernel/jab.elf",                          "2484b5d9d63a26feb0164b4ead2b6aa7e0d4a10c4efcad2a1c81cd57c3417dde", 65604],
+  [kit/fierce,                debug,   [
+    DEBUG,
+    LEVELS
+   ],                                     program_jab,   "kit/fierce/fierce.jab",                   "a25cfab4aa639d336f4784529e008b190e12b33a470b4e0b40a42f74ee068070", 80582],
+  [kit/fierce,                debug,   [
+    DEBUG,
+    LEVELS
+   ],                                     program_elf,   "kit/fierce/fierce.elf",                   "294ea0ed74d1ca03e1a5b67c089961a06e02b9e527130d12ca180c6d5969203b", 160864],
+  [kit/fierce,                debug,   [
+    DEBUG,
+    LEVELS
+   ],                                     romfs_disk,    "kit/fierce/fierce.romfs",                 "204b105c6841f750844bc3c206b21295155a43f54d1d2e87454f58dcc6283dbc", 2121728],
+  [kernel,                    debug,   [
+    DEBUG,
+    LEVELS
+   ],                                     kernel_elf,    "kernel/jab.elf",                          "e9f704db1f553126cbd1e29a4e1dd4d98bb21c09f1b0b077ef1584afc8ac6f1d", 540432],
+  [kernel,                    debug,   [
+    DEBUG,
+    LEVELS
+   ],                                     kernel_loaded, "kernel/jab.elf",                          "2484b5d9d63a26feb0164b4ead2b6aa7e0d4a10c4efcad2a1c81cd57c3417dde", 65604],
+  [kit/fierce,                debug,   [
+    DEBUG,
+    FOOTPRINT,
+    LEVELS
+   ],                      program_jab,   "kit/fierce/fierce.jab",                   "e854a8af77a078a2cac3f9a34d3d9c981cad25d72e6bb612aa833bf600111d88", 80638],
+  [kit/fierce,                debug,   [
+    DEBUG,
+    FOOTPRINT,
+    LEVELS
+   ],                      program_elf,   "kit/fierce/fierce.elf",                   "c18b6b7d561c21d00668516dc6a5c5028e67c790b8fccc7f784991f9b245ce48", 161000],
+  [kit/fierce,                debug,   [
+    DEBUG,
+    FOOTPRINT,
+    LEVELS
+   ],                      romfs_disk,    "kit/fierce/fierce.romfs",                 "204b105c6841f750844bc3c206b21295155a43f54d1d2e87454f58dcc6283dbc", 2121728],
+  [kernel,                    debug,   [
+    DEBUG,
+    FOOTPRINT,
+    LEVELS
+   ],                      kernel_elf,    "kernel/jab.elf",                          "2ac9ae195117b0c98c5760aa7d5f312b510928b872cda4bd90ec92329c13e5d2", 541280],
+  [kernel,                    debug,   [
+    DEBUG,
+    FOOTPRINT,
+    LEVELS
+   ],                      kernel_loaded, "kernel/jab.elf",                          "2484b5d9d63a26feb0164b4ead2b6aa7e0d4a10c4efcad2a1c81cd57c3417dde", 65604],
+  [kit/fierce,                release, [
+    RELEASE
+   ],                                               program_jab,   "kit/fierce/fierce.jab",                   "97cc681a036fe9c452b0fc74de53398d0a4519deefc0e0a0cc4abb53e271cf51", 65855],
+  [kit/fierce,                release, [
+    RELEASE
+   ],                                               program_elf,   "kit/fierce/fierce.elf",                   "c024709da90b33fd3110696595700d6cb51653b92a525c0251c5bc6f07f030b9", 140000],
+  [kit/fierce,                release, [
+    RELEASE
+   ],                                               romfs_disk,    "kit/fierce/fierce.romfs",                 "204b105c6841f750844bc3c206b21295155a43f54d1d2e87454f58dcc6283dbc", 2121728],
+  [kernel,                    release, [
+    RELEASE
+   ],                                               kernel_elf,    "kernel/jab.elf",                          "0cd33e6b0cf6ade848ba89ff609adbbdd60463fce26da06edea06389db53298d", 531456],
+  [kernel,                    release, [
+    RELEASE
+   ],                                               kernel_loaded, "kernel/jab.elf",                          "eee717739f5e4943f67f23c1b7da48cef6e50ed02baa2c00518fadc71acee40b", 61508],
+  [kit/fierce,                release, [
+    FOOTPRINT,
+    RELEASE
+   ],                                program_jab,   "kit/fierce/fierce.jab",                   "747f7fff4539d27ba1f8370b1640ea2c01950ce9dfd3255e437645f9985434ae", 65911],
+  [kit/fierce,                release, [
+    FOOTPRINT,
+    RELEASE
+   ],                                program_elf,   "kit/fierce/fierce.elf",                   "06faedeafd4e594c0c992d676b9591cf41d87e9d3d45903ea5638d36f6f4388c", 140128],
+  [kit/fierce,                release, [
+    FOOTPRINT,
+    RELEASE
+   ],                                romfs_disk,    "kit/fierce/fierce.romfs",                 "204b105c6841f750844bc3c206b21295155a43f54d1d2e87454f58dcc6283dbc", 2121728],
+  [kernel,                    release, [
+    FOOTPRINT,
+    RELEASE
+   ],                                kernel_elf,    "kernel/jab.elf",                          "fff72cf5ba41ce6bf93e25e06cba11d8925ac3b30bdf9c6fff4d5afc82f5baaa", 532304],
+  [kernel,                    release, [
+    FOOTPRINT,
+    RELEASE
+   ],                                kernel_loaded, "kernel/jab.elf",                          "eee717739f5e4943f67f23c1b7da48cef6e50ed02baa2c00518fadc71acee40b", 61508],
+  [kit/fierce/test/fillrate,  release, [
+    VECTOR
+   ],                                                program_jab,   "kit/fierce/test/fillrate/fillrate.jab",   "f2b9de1de754cae0e46e16d4f96421bf6e8a6556610bc66ca1b8240ec3efb186", 6532],
+  [kit/fierce/test/fillrate,  release, [
+    VECTOR
+   ],                                                program_elf,   "kit/fierce/test/fillrate/fillrate.elf",   "959eb799fd17a5d3ee23bfb441724aa8bceb93ab6d9a6ba4a64cae60ff929d90", 31136],
+  [kernel,                    release, [
+    VECTOR
+   ],                                                kernel_elf,    "kernel/jab.elf",                          "db00a3f321c088357566b694682f31b52f110d327b558a7795dd6779e42c0d32", 531456],
+  [kernel,                    release, [
+    VECTOR
+   ],                                                kernel_loaded, "kernel/jab.elf",                          "eee717739f5e4943f67f23c1b7da48cef6e50ed02baa2c00518fadc71acee40b", 61508],
+  [kit/fierce/test/fillrate,  debug,   [
+    DEBUG,
+    VECTOR
+   ],                                     program_jab,   "kit/fierce/test/fillrate/fillrate.jab",   "f2b9de1de754cae0e46e16d4f96421bf6e8a6556610bc66ca1b8240ec3efb186", 6532],
+  [kit/fierce/test/fillrate,  debug,   [
+    DEBUG,
+    VECTOR
+   ],                                     program_elf,   "kit/fierce/test/fillrate/fillrate.elf",   "763c39d4a07d0a12c11f041155fb8bd3d28077b322962ed20f4655c6e21c0fec", 31160],
+  [kernel,                    debug,   [
+    DEBUG,
+    VECTOR
+   ],                                     kernel_elf,    "kernel/jab.elf",                          "85d4a8c714103eb9d89a80ab5d8fa90bae95de502da0076775821762f7292aee", 540424],
+  [kernel,                    debug,   [
+    DEBUG,
+    VECTOR
+   ],                                     kernel_loaded, "kernel/jab.elf",                          "2484b5d9d63a26feb0164b4ead2b6aa7e0d4a10c4efcad2a1c81cd57c3417dde", 65604],
+  [example/walk,              release, [
+    CADENCE,
+    CADENCE_TEST
+   ],                             program_jab,   "example/walk/walk.jab",                   "181194f8c8d09fc50da98935b67f9686ac7203e7d4be82dd90a63b107bdcd317", 7355],
+  [example/walk,              release, [
+    CADENCE,
+    CADENCE_TEST
+   ],                             program_elf,   "example/walk/walk.elf",                   "a11c4075893e511434c92ec094824d4ce931799ef3898ca73eeae806ce050e36", 35720],
+  [example/walk,              release, [
+    CADENCE,
+    CADENCE_TEST
+   ],                             romfs_disk,    "example/walk/walk.romfs",                 "0f7ba7d79b1028bbd72f9324a3a9ce022ae1d7e34c93984da694c44bf7a0dc08", 340992],
+  [kernel,                    release, [
+    CADENCE,
+    CADENCE_TEST
+   ],                             kernel_elf,    "kernel/jab.elf",                          "194d3a536206580edb7e25167284acfea6632706d588134e2d1442086b3a20a5", 532312],
+  [kernel,                    release, [
+    CADENCE,
+    CADENCE_TEST
+   ],                             kernel_loaded, "kernel/jab.elf",                          "eee717739f5e4943f67f23c1b7da48cef6e50ed02baa2c00518fadc71acee40b", 61508],
+  [example/walk,              release, [
+    CADENCE,
+    CADENCE_TEST,
+    TIMING
+   ],                 program_jab,   "example/walk/walk.jab",                   "f77f70c54a9a856b2feeb4471c768f64f34f5212c37193d234a8ea03420813ce", 7403],
+  [example/walk,              release, [
+    CADENCE,
+    CADENCE_TEST,
+    TIMING
+   ],                 program_elf,   "example/walk/walk.elf",                   "1a9c6dff76abfa19896f23b311bf3e338db03fc5ee14131913e68ef4206c5e71", 35800],
+  [example/walk,              release, [
+    CADENCE,
+    CADENCE_TEST,
+    TIMING
+   ],                 romfs_disk,    "example/walk/walk.romfs",                 "0f7ba7d79b1028bbd72f9324a3a9ce022ae1d7e34c93984da694c44bf7a0dc08", 340992],
+  [kernel,                    release, [
+    CADENCE,
+    CADENCE_TEST,
+    TIMING
+   ],                 kernel_elf,    "kernel/jab.elf",                          "1ffc151c9feddea36bb967c3eac3c02ea19210746deb5ecc62020a87790fe048", 533160],
+  [kernel,                    release, [
+    CADENCE,
+    CADENCE_TEST,
+    TIMING
+   ],                 kernel_loaded, "kernel/jab.elf",                          "eee717739f5e4943f67f23c1b7da48cef6e50ed02baa2c00518fadc71acee40b", 61508],
+  [example/walk,              release, [
+    CADENCE,
+    CADENCE_TEST,
+    PREPARE
+   ],                program_jab,   "example/walk/walk.jab",                   "17eefb4a33d77b846528a3a55d765b7e48aaa661462715b3320694ec3588c548", 7371],
+  [example/walk,              release, [
+    CADENCE,
+    CADENCE_TEST,
+    PREPARE
+   ],                program_elf,   "example/walk/walk.elf",                   "405e26194afb34b239c6f34f3130d91fe984a80139bda8de4b4ab43d4389f649", 35768],
+  [example/walk,              release, [
+    CADENCE,
+    CADENCE_TEST,
+    PREPARE
+   ],                romfs_disk,    "example/walk/walk.romfs",                 "0f7ba7d79b1028bbd72f9324a3a9ce022ae1d7e34c93984da694c44bf7a0dc08", 340992],
+  [kernel,                    release, [
+    CADENCE,
+    CADENCE_TEST,
+    PREPARE
+   ],                kernel_elf,    "kernel/jab.elf",                          "9830aac12610f21699edb311cf0e2d6240fdb60cf307aae76dfd5e9fa325d35e", 533152],
+  [kernel,                    release, [
+    CADENCE,
+    CADENCE_TEST,
+    PREPARE
+   ],                kernel_loaded, "kernel/jab.elf",                          "eee717739f5e4943f67f23c1b7da48cef6e50ed02baa2c00518fadc71acee40b", 61508],
+  [example/walk,              release, [
+    CADENCE,
+    CADENCE_TEST,
+    PREPARE,
+    TIMING
+   ],    program_jab,   "example/walk/walk.jab",                   "403df24d141e20da0dbe1c1a392591c99a9868a62d8eac234acf184dcca220a7", 7429],
+  [example/walk,              release, [
+    CADENCE,
+    CADENCE_TEST,
+    PREPARE,
+    TIMING
+   ],    program_elf,   "example/walk/walk.elf",                   "d0bed28d12b114f4e1f96c62a6f8d41337e5ba5dcdea938f439b141b4e9cf2ff", 35856],
+  [example/walk,              release, [
+    CADENCE,
+    CADENCE_TEST,
+    PREPARE,
+    TIMING
+   ],    romfs_disk,    "example/walk/walk.romfs",                 "0f7ba7d79b1028bbd72f9324a3a9ce022ae1d7e34c93984da694c44bf7a0dc08", 340992],
+  [kernel,                    release, [
+    CADENCE,
+    CADENCE_TEST,
+    PREPARE,
+    TIMING
+   ],    kernel_elf,    "kernel/jab.elf",                          "c2cc7ef0b85fd9e4ed0e1a787f2f126a8c3eb9e23f4123d2cbe2ebd6d5e4440a", 534000],
+  [kernel,                    release, [
+    CADENCE,
+    CADENCE_TEST,
+    PREPARE,
+    TIMING
+   ],    kernel_loaded, "kernel/jab.elf",                          "eee717739f5e4943f67f23c1b7da48cef6e50ed02baa2c00518fadc71acee40b", 61508],
+  [example/walk,              release, [
+    CADENCE,
+    CADENCE_TEST,
+    EVENT_ROOM,
+    TIMING
+   ], program_jab,   "example/walk/walk.jab",                   "c9eb0213876973422c1fa98467ff0d88cf7870d26fcb538e6a6e1c5f98e837d4", 7401],
+  [example/walk,              release, [
+    CADENCE,
+    CADENCE_TEST,
+    EVENT_ROOM,
+    TIMING
+   ], program_elf,   "example/walk/walk.elf",                   "473ed82a3a41e3fa612e4cf36f7e42bb074383c7e4902ca4a77b22e51758f830", 35832],
+  [example/walk,              release, [
+    CADENCE,
+    CADENCE_TEST,
+    EVENT_ROOM,
+    TIMING
+   ], romfs_disk,    "example/walk/walk.romfs",                 "0f7ba7d79b1028bbd72f9324a3a9ce022ae1d7e34c93984da694c44bf7a0dc08", 340992],
+  [kernel,                    release, [
+    CADENCE,
+    CADENCE_TEST,
+    EVENT_ROOM,
+    TIMING
+   ], kernel_elf,    "kernel/jab.elf",                          "1516773d6557d68aca1ea75f58cbdfd849dbddaa3f47a8434a52ef0d279f78c7", 534016],
+  [kernel,                    release, [
+    CADENCE,
+    CADENCE_TEST,
+    EVENT_ROOM,
+    TIMING
+   ], kernel_loaded, "kernel/jab.elf",                          "eee717739f5e4943f67f23c1b7da48cef6e50ed02baa2c00518fadc71acee40b", 61508],
+  [example/walk,              release, [
+    CADENCE,
+    CADENCE_TEST,
+    REPLAY,
+    TIMING
+   ],     program_jab,   "example/walk/walk.jab",                   "e5dc9719936bb91caa4778735587df137a6b275590b18278b476f3e4bed84067", 7635],
+  [example/walk,              release, [
+    CADENCE,
+    CADENCE_TEST,
+    REPLAY,
+    TIMING
+   ],     program_elf,   "example/walk/walk.elf",                   "ddc0cc64541a4b083dcb23178490337670aebe1a3945353437a525a51933eb5b", 36248],
+  [example/walk,              release, [
+    CADENCE,
+    CADENCE_TEST,
+    REPLAY,
+    TIMING
+   ],     romfs_disk,    "example/walk/walk.romfs",                 "0f7ba7d79b1028bbd72f9324a3a9ce022ae1d7e34c93984da694c44bf7a0dc08", 340992],
+  [kernel,                    release, [
+    CADENCE,
+    CADENCE_TEST,
+    REPLAY,
+    TIMING
+   ],     kernel_elf,    "kernel/jab.elf",                          "ce9eeb220d3afec5e2009b79b864cce347c3228a3e8c91c4f4e79a67a758eed9", 534008],
+  [kernel,                    release, [
+    CADENCE,
+    CADENCE_TEST,
+    REPLAY,
+    TIMING
+   ],     kernel_loaded, "kernel/jab.elf",                          "eee717739f5e4943f67f23c1b7da48cef6e50ed02baa2c00518fadc71acee40b", 61508],
+  [example/walk,              release, [
+    CADENCE
+   ],                                               program_jab,   "example/walk/walk.jab",                   "a51b2bdf44bd4e20e34436b88bca4f58829e570a032a3127b99d3beb9aecfd28", 7277],
+  [example/walk,              release, [
+    CADENCE
+   ],                                               program_elf,   "example/walk/walk.elf",                   "c7982610e220902de80b18b43ae9c9a50ca7ffc68e2be4998ff15904a8dedeb2", 35568],
+  [example/walk,              release, [
+    CADENCE
+   ],                                               romfs_disk,    "example/walk/walk.romfs",                 "0f7ba7d79b1028bbd72f9324a3a9ce022ae1d7e34c93984da694c44bf7a0dc08", 340992],
+  [kernel,                    release, [
+    CADENCE
+   ],                                               kernel_elf,    "kernel/jab.elf",                          "d0030bed74a8b52606fdc04592dcb1b062ff3a864d089cdf4b8dbb2e605df386", 531464],
+  [kernel,                    release, [
+    CADENCE
+   ],                                               kernel_loaded, "kernel/jab.elf",                          "eee717739f5e4943f67f23c1b7da48cef6e50ed02baa2c00518fadc71acee40b", 61508],
+  [example/walk,              release, [
+    CADENCE,
+    TIMING
+   ],                                   program_jab,   "example/walk/walk.jab",                   "8a95fa2e73e0f93838f08d1b32ef902ba6d81b8dc520a32cf81b6c22e877dd23", 7327],
+  [example/walk,              release, [
+    CADENCE,
+    TIMING
+   ],                                   program_elf,   "example/walk/walk.elf",                   "62f5ce95bda382fad4e060779754f0a728fdfee78e93ab2ff60fdbd28f982ef6", 35656],
+  [example/walk,              release, [
+    CADENCE,
+    TIMING
+   ],                                   romfs_disk,    "example/walk/walk.romfs",                 "0f7ba7d79b1028bbd72f9324a3a9ce022ae1d7e34c93984da694c44bf7a0dc08", 340992],
+  [kernel,                    release, [
+    CADENCE,
+    TIMING
+   ],                                   kernel_elf,    "kernel/jab.elf",                          "9cf2b54681ec57ed251464419856577483db7609d50721576a06a0d428c6b915", 532312],
+  [kernel,                    release, [
+    CADENCE,
+    TIMING
+   ],                                   kernel_loaded, "kernel/jab.elf",                          "eee717739f5e4943f67f23c1b7da48cef6e50ed02baa2c00518fadc71acee40b", 61508],
+  [example/walk,              release, [
+    CADENCE,
+    PREPARE
+   ],                                  program_jab,   "example/walk/walk.jab",                   "0b5fe65c93852b45be52054a9ea10db02c414d4c1681a1a0833ab6989f09900e", 7293],
+  [example/walk,              release, [
+    CADENCE,
+    PREPARE
+   ],                                  program_elf,   "example/walk/walk.elf",                   "96f2957bc0ebf46aaf37f1c96702440c64fd39cc9ab21f6bcea1bdce0614197e", 35616],
+  [example/walk,              release, [
+    CADENCE,
+    PREPARE
+   ],                                  romfs_disk,    "example/walk/walk.romfs",                 "0f7ba7d79b1028bbd72f9324a3a9ce022ae1d7e34c93984da694c44bf7a0dc08", 340992],
+  [kernel,                    release, [
+    CADENCE,
+    PREPARE
+   ],                                  kernel_elf,    "kernel/jab.elf",                          "d17a210e94d6a6432a77cc022b203414f7e758837a190d64fbeec88556746144", 532304],
+  [kernel,                    release, [
+    CADENCE,
+    PREPARE
+   ],                                  kernel_loaded, "kernel/jab.elf",                          "eee717739f5e4943f67f23c1b7da48cef6e50ed02baa2c00518fadc71acee40b", 61508],
+  [example/walk,              release, [
+    CADENCE,
+    PREPARE,
+    TIMING
+   ],                      program_jab,   "example/walk/walk.jab",                   "aae80fd4a496b5bb2b454668eecf4cf33a42d614c105655add50a586b8bca842", 7353],
+  [example/walk,              release, [
+    CADENCE,
+    PREPARE,
+    TIMING
+   ],                      program_elf,   "example/walk/walk.elf",                   "2bd3c776229eef536200a4de641ea6683a8024615a7f9094e8c6f2d5dbe26057", 35712],
+  [example/walk,              release, [
+    CADENCE,
+    PREPARE,
+    TIMING
+   ],                      romfs_disk,    "example/walk/walk.romfs",                 "0f7ba7d79b1028bbd72f9324a3a9ce022ae1d7e34c93984da694c44bf7a0dc08", 340992],
+  [kernel,                    release, [
+    CADENCE,
+    PREPARE,
+    TIMING
+   ],                      kernel_elf,    "kernel/jab.elf",                          "967a215f911e2c44708f2ff733caa30fed77272687ea35a1470d309f1526821b", 533152],
+  [kernel,                    release, [
+    CADENCE,
+    PREPARE,
+    TIMING
+   ],                      kernel_loaded, "kernel/jab.elf",                          "eee717739f5e4943f67f23c1b7da48cef6e50ed02baa2c00518fadc71acee40b", 61508],
+  [example/walk,              debug,   [
+    DEBUG,
+    PREPARE
+   ],                                    program_jab,   "example/walk/walk.jab",                   "808a7af9cbdfbd5594836c26fc82a558d96bd1c52cf18c379837a51fe530b8b2", 5632],
+  [example/walk,              debug,   [
+    DEBUG,
+    PREPARE
+   ],                                    program_elf,   "example/walk/walk.elf",                   "fa35a9149aaa563f2b0ef7f4abab59d80a323dc53aa218632d7ab9b9091adb1b", 29904],
+  [example/walk,              debug,   [
+    DEBUG,
+    PREPARE
+   ],                                    romfs_disk,    "example/walk/walk.romfs",                 "0f7ba7d79b1028bbd72f9324a3a9ce022ae1d7e34c93984da694c44bf7a0dc08", 340992],
+  [kernel,                    debug,   [
+    DEBUG,
+    PREPARE
+   ],                                    kernel_elf,    "kernel/jab.elf",                          "3b6ef38d1ebd93685b65c4649c4f1242133a731742b31c213d277ebb5fac9e40", 540424],
+  [kernel,                    debug,   [
+    DEBUG,
+    PREPARE
+   ],                                    kernel_loaded, "kernel/jab.elf",                          "2484b5d9d63a26feb0164b4ead2b6aa7e0d4a10c4efcad2a1c81cd57c3417dde", 65604],
+  [example/bounce,            debug,   [
+    DEBUG,
+    PREPARE
+   ],                                    program_jab,   "example/bounce/bounce.jab",               "0934fcf332a85f37e358cb06bd44b1dcd458073eef86a6ce58554d12cc2f99a5", 4708],
+  [example/bounce,            debug,   [
+    DEBUG,
+    PREPARE
+   ],                                    program_elf,   "example/bounce/bounce.elf",               "39c1c25fd1a2fd3c00f8afdb1988a2d2b733e6f4745fdaa1eaa52be58da002ef", 27744],
+  [example/wasd,              debug,   [
+    DEBUG,
+    PREPARE
+   ],                                    program_jab,   "example/wasd/wasd.jab",                   "0a24e2eb39eacf6146b1a691bd8e2c6318894f7c62b5d11958891f1ef4868465", 7350],
+  [example/wasd,              debug,   [
+    DEBUG,
+    PREPARE
+   ],                                    program_elf,   "example/wasd/wasd.elf",                   "eee7ea266d069978d9784e8d3e12e8a6d5326bc6e26da7a2d2f719c220b52cb4", 32824],
+  [example/pad,               debug,   [
+    DEBUG,
+    PREPARE
+   ],                                    program_jab,   "example/pad/pad.jab",                     "ce50bdf1a75f8cc0b5e1d764520c5cb7a37233c58b94e8d2eed1872dee3a6ff4", 9088],
+  [example/pad,               debug,   [
+    DEBUG,
+    PREPARE
+   ],                                    program_elf,   "example/pad/pad.elf",                     "1ddbf098cd9a63fab384bb44293bc90bdbd9b9b4e6b5b0c9d7a66f6840209314", 36552],
+  [test/framecap,             debug,   [
+    DEBUG,
+    FLIP_BATCH
+   ],                                 program_jab,   "test/framecap/framecap.jab",              "cbddcb7a086cfff2552810372aa70ae04e6e91855629af25dc1f80e8b8ce4082", 6429],
+  [test/framecap,             debug,   [
+    DEBUG,
+    FLIP_BATCH
+   ],                                 program_elf,   "test/framecap/framecap.elf",              "f3e0b34905f5befee48eed2e15228db95e77f52e1f1d17cf435a55384d19851c", 30864],
+  [kernel,                    debug,   [
+    DEBUG,
+    FLIP_BATCH
+   ],                                 kernel_elf,    "kernel/jab.elf",                          "6bb70abe0cea4ffd11346be50e1d4f1b1571f6a78da11b59083522766f2d70a4", 540472],
+  [kernel,                    debug,   [
+    DEBUG,
+    FLIP_BATCH
+   ],                                 kernel_loaded, "kernel/jab.elf",                          "6bd2815ed41d69acbac6dc06368ad13ede31efb390a150f3194e91e1f0a1c170", 65604],
+  [kernel,                    release, [
+    FLIP_BATCH
+   ],                                            kernel_elf,    "kernel/jab.elf",                          "9391e193fd4ae77717d350b074720c3a755cc5441723cbf9e74056ca3e769132", 531504],
+  [kernel,                    release, [
+    FLIP_BATCH
+   ],                                            kernel_loaded, "kernel/jab.elf",                          "e2ee8cca082c08c00d60bafedf4bf1778c47d6e0977b450b891a52414a768537", 61508]
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ set: justtonu,
+ stamp: "20261018T235046",
+ task: KitFierce,
+ scope: {
+  kind: whole,
+  ran: 31,
+  of: 31
+ },
+ builds: [
+  [part, build,                                      checkout, record];
+  [run,  "1fb01695b15715a01624a0ecdfd1642c9b4ce543", jab,      "manifest.nuon"]
+ ],
+ kept: {
+  as: current,
+  why: "KitFierce's fresh build, jab 1fb0169's 31 builds in a fresh cache, held by jab-stress 4e5dba5's `freshbuild compare` to FreshBuildProof's manifest at 65bbd87 (compare.nuon): 310 of 336 rows the same and fierce's 26 remade, its ELFs built again under the old name in a worktree and its disks made again with tile.nuon's paths moved back, each equal to its recorded row; no refusal"
+ }
+}

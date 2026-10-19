@@ -12,7 +12,7 @@
   [run,  "65bbd87284c99f736347bf94d4e092e70e3b738b", jab,      "manifest.nuon"]
  ],
  kept: {
-  as: current,
+  as: last,
   why: "FreshBuildProof's artifact manifest, the set's first run: jab 65bbd87's 31 builds in a fresh cache by jab-stress 7e49dee's `nuance.nu freshbuild manifest`, 336 rows, each kernel and disk one digest across its tuples; walk's CADENCE images and the release kernel's loaded bytes equal to PresentationScope's exports'; footprint's rows changed at that commit, the build before beside them in boundary.nuon. The cutover's builds are held to it"
  }
 }
