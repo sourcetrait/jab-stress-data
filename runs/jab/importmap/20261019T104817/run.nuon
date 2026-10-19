@@ -12,7 +12,7 @@
   [run,  "954a2711ffca94a34151176601b4b51c4ba0b3fd", jab,      "report.nuon"]
  ],
  kept: {
-  as: current,
+  as: last,
   why: "The import-map checker with KitFierce, SdkModules/1 to 7, FierceModules, FierceTools, and WorkspaceDrivers landed: jab 954a2711 and jab-stress 68c04c6a, both clean, held to the contract (SHA-256 08ddcf229) by jab-stress's `nuance.nu importmap check`: 286 sources, 2120 declarations, 418 contract defs, 521 import edges, and 260 consumer calls, no refusal; workspace subject planned, the linked bin's bound imports read, and jab.nu's definitions and constant retired"
  }
 }
