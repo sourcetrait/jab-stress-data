@@ -115,9 +115,9 @@ The landing classes each file by its name:
 |---|---|---|
 | log | `.log`, `.stdout`, `.stderr`, `.txt`, `.nm`, `.disas` | a container |
 | stream | `.out`, `.in`, `.wrpl`, `.wav` | written |
-| record | `.nuon`, `.nuonl`, `.toml`, `flags` | written |
+| record | `.nuon`, `.nuonl`, `.toml`, `flags`, a build's `home` | written |
 | picture | `.ppm`, `.png` | written |
-| build | `.jab`, `.elf`, `.romfs`, or any ELF | written |
+| build | `.jab`, `.elf`, `.romfs`, a flat `.bin`, or any ELF | written |
 | source | a copied `.nu` | written |
 | fixture | a staged `.jabstage.<nonce>` | written |
 
