@@ -1,0 +1,18 @@
+{
+ set: importmap,
+ stamp: "20261019T061616",
+ task: "GaugeModules and SuiteModules",
+ scope: {
+  kind: whole,
+  ran: 1,
+  of: 1
+ },
+ builds: [
+  [part, build,                                      checkout, record];
+  [run,  "aab49a0c1a53875bf33788088188069b67bc381e", jab,      "report.nuon"]
+ ],
+ kept: {
+  as: current,
+  why: "The import-map checker with KitFierce, SdkModules/1 to 7, and FierceModules landed: jab aab49a0c and jab-stress 843ebcbc, both clean, held to the contract (SHA-256 52634c147) by jab-stress's `nuance.nu importmap check`: 277 sources, 2061 declarations, 417 contract defs, 495 import edges, and 249 consumer calls, no refusal"
+ }
+}
