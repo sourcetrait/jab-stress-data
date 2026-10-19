@@ -1,0 +1,54 @@
+{
+ before: {
+  file: "/home/box/tmp/ai/two/1i0jAbrhQct/proofs/freshbuild_before/tree/manifest.nuon",
+  commit: "65bbd87284c99f736347bf94d4e092e70e3b738b"
+ },
+ after: {
+  file: "/home/box/tmp/jab-stress/freshbuild/20261019T143112",
+  commit: "921d7a9e3a5c035890db3f9e263c77f51d21ba77"
+ },
+ moves: {
+  paths: [
+   [from,     to];
+   [game/fps, kit/fierce]
+  ],
+  names: [
+   [program,    from, to];
+   [kit/fierce, fps,  fierce]
+  ]
+ },
+ rows: 336,
+ same: 310,
+ remade: [
+  [key,                                                     before,                                                             after,                                                              remade,                                                             held, cause];
+  ["kit/fierce release [none] program_elf",                 "49811f458d9864d3b87b3609986fef7617fa9795efa8a94d42f8585b09b3c944", "dac72b7dfc640ed97c8ae67eea84a40afba09af3646b6f2b8856d31102d28886", "49811f458d9864d3b87b3609986fef7617fa9795efa8a94d42f8585b09b3c944", true, "its object named after the program, fps before and fierce after"],
+  ["kit/fierce release [none] romfs_disk",                  "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", "204b105c6841f750844bc3c206b21295155a43f54d1d2e87454f58dcc6283dbc", "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", true, "its volume named fps before and fierce after; tile.nuon naming its sources at its place"],
+  ["kit/fierce debug [DEBUG] program_elf",                  "253ae3bb9c64befc35e8becb7fcf369e7de8d188741ee854303c64d825c64e1a", "1e23eac952d860f273ae014f392307b81582bc762c8a50275b0c42edf64cac65", "253ae3bb9c64befc35e8becb7fcf369e7de8d188741ee854303c64d825c64e1a", true, "its object named after the program, fps before and fierce after"],
+  ["kit/fierce debug [DEBUG] romfs_disk",                   "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", "204b105c6841f750844bc3c206b21295155a43f54d1d2e87454f58dcc6283dbc", "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", true, "its volume named fps before and fierce after; tile.nuon naming its sources at its place"],
+  ["kit/fierce debug [COUNT,DEBUG] program_elf",            "ead5486eccc5d3e27a2485f2f2778654411d5b14dbc76515792cb2fd7c59f9bf", "90c0b7f7a99006feb096680be523b4a417a1f523b52ecf2121974ad02fa90b01", "ead5486eccc5d3e27a2485f2f2778654411d5b14dbc76515792cb2fd7c59f9bf", true, "its object named after the program, fps before and fierce after"],
+  ["kit/fierce debug [COUNT,DEBUG] romfs_disk",             "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", "204b105c6841f750844bc3c206b21295155a43f54d1d2e87454f58dcc6283dbc", "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", true, "its volume named fps before and fierce after; tile.nuon naming its sources at its place"],
+  ["kit/fierce debug [CENSUS,DEBUG] program_elf",           "b91bcc85f4a7d3edfc780d51c2572d2e4e8874421fe0ae5f2603f606dc5ebadd", "7d44b4c4c5c9cc0d9dcd4f4fa22655a02a7143e6356707dabe81c36de2071080", "b91bcc85f4a7d3edfc780d51c2572d2e4e8874421fe0ae5f2603f606dc5ebadd", true, "its object named after the program, fps before and fierce after"],
+  ["kit/fierce debug [CENSUS,DEBUG] romfs_disk",            "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", "204b105c6841f750844bc3c206b21295155a43f54d1d2e87454f58dcc6283dbc", "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", true, "its volume named fps before and fierce after; tile.nuon naming its sources at its place"],
+  ["kit/fierce debug [COUNT,DEBUG,HANDOFF] program_elf",    "12381ed7a086062bbf8cd809bbfdf4332ea59d01e3044bc3e2a5579b94fcdd29", "479acb4bccbb4e4862d03c018658ddee0e3d7c950de2b57d1fd5b69a8fbc15bc", "12381ed7a086062bbf8cd809bbfdf4332ea59d01e3044bc3e2a5579b94fcdd29", true, "its object named after the program, fps before and fierce after"],
+  ["kit/fierce debug [COUNT,DEBUG,HANDOFF] romfs_disk",     "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", "204b105c6841f750844bc3c206b21295155a43f54d1d2e87454f58dcc6283dbc", "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", true, "its volume named fps before and fierce after; tile.nuon naming its sources at its place"],
+  ["kit/fierce debug [DEBUG,HANDOFF] program_elf",          "9f649ed763087d2e3a9872797126d50fb522224d3487777ee1f1f10bd2abf39a", "1e4be2e04818f9b593f9273e62cc92fea127ba9b68b8da9e23db28ce75739356", "9f649ed763087d2e3a9872797126d50fb522224d3487777ee1f1f10bd2abf39a", true, "its object named after the program, fps before and fierce after"],
+  ["kit/fierce debug [DEBUG,HANDOFF] romfs_disk",           "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", "204b105c6841f750844bc3c206b21295155a43f54d1d2e87454f58dcc6283dbc", "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", true, "its volume named fps before and fierce after; tile.nuon naming its sources at its place"],
+  ["kit/fierce debug [DEBUG,OWNER] program_elf",            "46d9a83a92b7091b00ec3a997c13dcc123756ccdf2a85f8a6ea96536ab4745e9", "783d432ea68c35ee872b52350f835de38360985ce1c841cdeb101167c2fbb5a5", "46d9a83a92b7091b00ec3a997c13dcc123756ccdf2a85f8a6ea96536ab4745e9", true, "its object named after the program, fps before and fierce after"],
+  ["kit/fierce debug [DEBUG,OWNER] romfs_disk",             "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", "204b105c6841f750844bc3c206b21295155a43f54d1d2e87454f58dcc6283dbc", "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", true, "its volume named fps before and fierce after; tile.nuon naming its sources at its place"],
+  ["kit/fierce debug [DEBUG,STATS] program_elf",            "6fdfd7e693e53ef1d2a7a78a115242f9c7b7e77f6deb557a8afe1389c82e20b7", "f13d26ad04e764e58e6182f14d1c84bf9b6941eba750514b67d73faec241eabb", "6fdfd7e693e53ef1d2a7a78a115242f9c7b7e77f6deb557a8afe1389c82e20b7", true, "its object named after the program, fps before and fierce after"],
+  ["kit/fierce debug [DEBUG,STATS] romfs_disk",             "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", "204b105c6841f750844bc3c206b21295155a43f54d1d2e87454f58dcc6283dbc", "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", true, "its volume named fps before and fierce after; tile.nuon naming its sources at its place"],
+  ["kit/fierce debug [DEBUG,FOOTPRINT] program_elf",        "0163f8e4925746d0654b5c0382cef08d21b347c2f940c617ec1cf4d06240547a", "517e7fb02c19e8c360f33b4ef98ebf5a00d91ec062a38105f5a1618e55552392", "0163f8e4925746d0654b5c0382cef08d21b347c2f940c617ec1cf4d06240547a", true, "its object named after the program, fps before and fierce after"],
+  ["kit/fierce debug [DEBUG,FOOTPRINT] romfs_disk",         "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", "204b105c6841f750844bc3c206b21295155a43f54d1d2e87454f58dcc6283dbc", "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", true, "its volume named fps before and fierce after; tile.nuon naming its sources at its place"],
+  ["kit/fierce debug [DEBUG,LEVELS] program_elf",           "c150b61e94419b1ade2e2dfdb759004bd6bd2491a423683d65546a2e9d48110c", "294ea0ed74d1ca03e1a5b67c089961a06e02b9e527130d12ca180c6d5969203b", "c150b61e94419b1ade2e2dfdb759004bd6bd2491a423683d65546a2e9d48110c", true, "its object named after the program, fps before and fierce after"],
+  ["kit/fierce debug [DEBUG,LEVELS] romfs_disk",            "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", "204b105c6841f750844bc3c206b21295155a43f54d1d2e87454f58dcc6283dbc", "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", true, "its volume named fps before and fierce after; tile.nuon naming its sources at its place"],
+  ["kit/fierce debug [DEBUG,FOOTPRINT,LEVELS] program_elf", "cec2a3948ceeb73e8321f1f6a9ddbce988a1dcff80ac982ace035d033491c656", "c18b6b7d561c21d00668516dc6a5c5028e67c790b8fccc7f784991f9b245ce48", "cec2a3948ceeb73e8321f1f6a9ddbce988a1dcff80ac982ace035d033491c656", true, "its object named after the program, fps before and fierce after"],
+  ["kit/fierce debug [DEBUG,FOOTPRINT,LEVELS] romfs_disk",  "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", "204b105c6841f750844bc3c206b21295155a43f54d1d2e87454f58dcc6283dbc", "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", true, "its volume named fps before and fierce after; tile.nuon naming its sources at its place"],
+  ["kit/fierce release [RELEASE] program_elf",              "8c7294c4869bfb95319f07649278bfd2a58349df27899531693c00fd68e47995", "c024709da90b33fd3110696595700d6cb51653b92a525c0251c5bc6f07f030b9", "8c7294c4869bfb95319f07649278bfd2a58349df27899531693c00fd68e47995", true, "its object named after the program, fps before and fierce after"],
+  ["kit/fierce release [RELEASE] romfs_disk",               "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", "204b105c6841f750844bc3c206b21295155a43f54d1d2e87454f58dcc6283dbc", "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", true, "its volume named fps before and fierce after; tile.nuon naming its sources at its place"],
+  ["kit/fierce release [FOOTPRINT,RELEASE] program_elf",    "ced9c24d521b463711fe26491e956bf86a325e2e05ae8e2e4bdd4dc4673d9dc8", "06faedeafd4e594c0c992d676b9591cf41d87e9d3d45903ea5638d36f6f4388c", "ced9c24d521b463711fe26491e956bf86a325e2e05ae8e2e4bdd4dc4673d9dc8", true, "its object named after the program, fps before and fierce after"],
+  ["kit/fierce release [FOOTPRINT,RELEASE] romfs_disk",     "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", "204b105c6841f750844bc3c206b21295155a43f54d1d2e87454f58dcc6283dbc", "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", true, "its volume named fps before and fierce after; tile.nuon naming its sources at its place"]
+ ],
+ refusals: [
+
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ schema: 2,
+ set: justtonu,
+ stamp: "20261019T143112",
+ task: FreshBuildProof,
+ scope: {
+  kind: whole,
+  ran: 31,
+  of: 31
+ },
+ builds: [
+  [part, build,                                      source,   record];
+  [run,  "921d7a9e3a5c035890db3f9e263c77f51d21ba77", checkout, "manifest.nuon"]
+ ],
+ kept: {
+  as: current,
+  why: "The campaign's cutover, JustToNu's every group and JustRetired landed: jab 921d7a9's 31 builds in a fresh cache, held by jab-stress 91f5955's `freshbuild compare` to FreshBuildProof's manifest at 65bbd87 (compare.nuon): 310 of 336 rows the same and fierce's 26 remade, its ELFs built again under the old name in a worktree and its disks made again with tile.nuon's paths moved back, each equal to its recorded row; no refusal"
+ },
+ inventory: "6736ef1771886987bf4a2bc7f6ba8b3b756338ee10ee81cfa174e7db5c8aec80",
+ storage: "4d5de5bae1f16cf3efb5f23dc3ff0e6e3566ca8a0e55b026b9e5998827c2109a"
+}
