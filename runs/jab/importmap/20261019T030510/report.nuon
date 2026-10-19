@@ -1,7 +1,7 @@
 {
  contract: {
   file: "/home/box/proj/sourcetrait/jab-stress-data/assets/jab/importmap/contract.nuon",
-  "sha256": "951db3db155e5605a242755893131a83c7ceeb54c9a7bdbbd4ed22820ed80149",
+  "sha256": "58d2353557a8b41cceb68c7057e93c3b67e6f7a369fdb25e1a51f23f736afadb",
   commits: {
    jab: "1fb01695b15715a01624a0ecdfd1642c9b4ce543",
    stress: "674bbbc141c177c4dabdc906fc25ba73830f121f"
@@ -9,25 +9,28 @@
  },
  trees: {
   jab: {
-   commit: "e8eb876a115534d1252871849437f1eedd05306a",
+   commit: "52ea5e2c02ad6cf663fd65645a92c8f5f4f8d166",
    dirty: false
   },
   jab-stress: {
-   commit: "360bd02920efe649de5b375be5aee8e463621809",
+   commit: "2ae1251bbe93a77f45a588db39facacb12ab8f8b",
    dirty: false
   }
  },
  landed: [
   KitFierce,
   "SdkModules/1",
-  "SdkModules/2"
+  "SdkModules/2",
+  "SdkModules/3",
+  "SdkModules/4",
+  "SdkModules/5"
  ],
  checked: {
-  sources: 230,
-  declarations: 1989,
+  sources: 245,
+  declarations: 1994,
   contract_defs: 414,
-  imports: 226,
-  consumer_calls: 261
+  imports: 315,
+  consumer_calls: 259
  },
  refusals: [
 
