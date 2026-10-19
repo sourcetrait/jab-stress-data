@@ -1,0 +1,278 @@
+{
+  pose: {
+    name: garage_far,
+    map: "render_0",
+    x: 1.5,
+    y: 17.0,
+    z: -1.4,
+    yaw: 0,
+    pitch: -5,
+    roll: 0
+  },
+  disk: {
+    name: "render_0_still",
+    tree: "/home/box/tmp/jab-stress/footprint/20261019T221047/disk_render_0/tree/render_0_still",
+    disk: "/home/box/tmp/jab-stress/footprint/20261019T221047/disk_render_0/render_0_still.romfs",
+    "sha256": "91561f81c2d16eac928535f7c877c56e8daa0fcb363257599547a47703c0b432",
+    map: "/home/box/tmp/jab-stress/footprint/20261019T221047/disk_render_0/tree/render_0_still/map/render_0_still.jabfps.map"
+  },
+  export: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_46f969b",
+  commit: "46f969b957ed13df229c9d88a1ad44635e3f34a0",
+  tool: {
+    path: /home/box/proj/sourcetrait/jab/kit/fierce/rust/target/release/footprint,
+    "sha256": "b2cbfedd7c5027965debc22908a0f825bca825345c71cd97f407e80e502be1fe",
+    commit: "46f969b957ed13df229c9d88a1ad44635e3f34a0",
+    dirty: false
+  },
+  rows: [
+    [label,             status, screen,                                                                                       "screen_sha256",                                                    faults,     bake,                                                                    binding];
+    [picture,           124,    "/home/box/tmp/jab-stress/footprint/20261019T221047/garage_far/picture/screen.ppm",           "5befe7ae33ecf974f91a1216759d56e84d0c25012e4f8ec6d1dc7987a29816e3", [
+
+      ], {
+        maps: 228,
+        lumels: 64726,
+        unmapped: 0
+      }, {
+        stamp: 446,
+        from: 390,
+        frame: 446,
+        state: {
+          x: 1.5,
+          y: 17.0,
+          z: -1.399999976158142,
+          yaw: 0.0,
+          pitch: -5.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [picture_candidate, 124,    "/home/box/tmp/jab-stress/footprint/20261019T221047/garage_far/picture_candidate/screen.ppm", "d062ece14e494bd1efd6ee6cb2fdb1e1a34b055c5ff70552a3f3bac96acb4679", [
+
+      ], {
+        maps: 228,
+        lumels: 64726,
+        unmapped: 0
+      }, {
+        stamp: 419,
+        from: 366,
+        frame: 419,
+        state: {
+          x: 1.5,
+          y: 17.0,
+          z: -1.399999976158142,
+          yaw: 0.0,
+          pitch: -5.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [owner,             124,    "/home/box/tmp/jab-stress/footprint/20261019T221047/garage_far/owner/screen.ppm",             "deedef002eec16da3390aaad2761ed061a3bbe111d27c0aae697954f0cbd33d3", [
+
+      ], {
+        maps: 228,
+        lumels: 64726,
+        unmapped: 0
+      }, {
+        stamp: 420,
+        from: 368,
+        frame: 420,
+        state: {
+          x: 1.5,
+          y: 17.0,
+          z: -1.399999976158142,
+          yaw: 0.0,
+          pitch: -5.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [levels,            124,    "/home/box/tmp/jab-stress/footprint/20261019T221047/garage_far/levels/screen.ppm",            "0c88f58db288a98fadf488fdccdbd1225fd2992c715fa4d9c480ea5f99bb49fe", [
+
+      ], {
+        maps: 228,
+        lumels: 64726,
+        unmapped: 0
+      }, {
+        stamp: 407,
+        from: 357,
+        frame: 407,
+        state: {
+          x: 1.5,
+          y: 17.0,
+          z: -1.399999976158142,
+          yaw: 0.0,
+          pitch: -5.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [levels_candidate,  124,    "/home/box/tmp/jab-stress/footprint/20261019T221047/garage_far/levels_candidate/screen.ppm",  "dab7c95167d4db218b854e5b8365d92d10ee8ff3176e28d6dfca5143c2b1e922", [
+
+      ], {
+        maps: 228,
+        lumels: 64726,
+        unmapped: 0
+      }, {
+        stamp: 382,
+        from: 334,
+        frame: 382,
+        state: {
+          x: 1.5,
+          y: 17.0,
+          z: -1.399999976158142,
+          yaw: 0.0,
+          pitch: -5.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }]
+  ],
+  reference: {
+    camera: {
+      x: 1.5,
+      y: 17.0,
+      z: -1.399999976158142,
+      yaw: 0.0,
+      pitch: -5.0,
+      roll: 0.0
+    },
+    iz_min: 4096,
+    floor_depth: 16384.0,
+    rows: 130694,
+    lumels: {
+      maps: 228,
+      lumels: 64726,
+      unmapped: 0
+    },
+    unread_materials: [
+
+    ],
+    owner: {
+      frame: 420,
+      spans: 0,
+      actors: 0
+    },
+    population: {
+      blocks: 130694,
+      classes: {
+        judged: 130694,
+        sky: 0,
+        unknown: 0,
+        unread: 0,
+        actor: 0,
+        degenerate: 0,
+        no_end: 0,
+        unpaired: 0
+      },
+      unresolved: 0,
+      sensitive: 9569,
+      clamped: 0,
+      actors: 0
+    },
+    captures: [
+      [file,                                                                                        blocks, judged, agree,  sharper, coarser, secant_agree, secant_sharper, secant_coarser, levels,                                                                                                                                                              snapshot];
+      ["/home/box/tmp/jab-stress/footprint/20261019T221047/garage_far/levels/screen.ppm",           130694, 130694, 130329, 3,       362,     130262,       0,              432,            [
+          80677,
+          24902,
+          13734,
+          6722,
+          3010,
+          1285,
+          364,
+          0,
+          0,
+          0
+        ], {
+          frame: 407,
+          spans: 2886,
+          actors: 0
+        }],
+      ["/home/box/tmp/jab-stress/footprint/20261019T221047/garage_far/levels_candidate/screen.ppm", 130694, 130694, 130691, 3,       0,       130694,       0,              0,              [
+          81080,
+          24515,
+          13747,
+          6645,
+          3105,
+          1238,
+          364,
+          0,
+          0,
+          0
+        ], {
+          frame: 382,
+          spans: 2886,
+          actors: 0
+        }]
+    ]
+  },
+  pictures: {
+    width: 1920,
+    height: 1080,
+    pixels: 6549,
+    regions: [
+      ["x0", "y0", "x1", "y1", pixels, largest];
+      [154,  331,  960,  332,  806,    2],
+      [1035, 331,  1766, 332,  731,    2],
+      [651,  393,  960,  394,  309,    1],
+      [1035, 393,  1196, 394,  161,    1],
+      [1271, 393,  1365, 394,  77,     1],
+      [288,  420,  336,  516,  1270,   24],
+      [1584, 418,  1650, 517,  1780,   31],
+      [755,  497,  960,  498,  75,     13],
+      [1120, 497,  1168, 498,  24,     13],
+      [561,  555,  624,  556,  38,     1],
+      [643,  555,  960,  556,  189,    4],
+      [1033, 555,  1360, 556,  198,    5],
+      [393,  596,  704,  597,  191,    3],
+      [725,  596,  923,  597,  125,    4],
+      [944,  596,  960,  597,  16,     3],
+      [1033, 596,  1360, 597,  204,    4],
+      [1381, 596,  1529, 597,  96,     4],
+      [10,   737,  13,   738,  3,      3],
+      [71,   737,  95,   738,  14,     17],
+      [143,  737,  205,  738,  16,     6],
+      [225,  737,  229,  738,  4,      8],
+      [263,  737,  287,  738,  5,      9],
+      [349,  737,  379,  738,  9,      3],
+      [414,  737,  426,  738,  9,      3],
+      [448,  737,  451,  738,  3,      3],
+      [510,  737,  533,  738,  13,     17],
+      [581,  737,  585,  738,  4,      1],
+      [609,  737,  667,  738,  15,     8],
+      [701,  737,  703,  738,  2,      1],
+      [722,  737,  725,  738,  3,      9],
+      [787,  737,  818,  738,  11,     3],
+      [852,  737,  864,  738,  9,      3],
+      [886,  737,  889,  738,  3,      3],
+      [948,  737,  972,  738,  14,     17],
+      [1020, 737,  1023, 738,  3,      1],
+      [1047, 737,  1105, 738,  14,     8],
+      [1139, 737,  1163, 738,  5,      9],
+      [1225, 737,  1232, 738,  7,      1],
+      [1252, 737,  1256, 738,  4,      3],
+      [1290, 737,  1328, 738,  13,     3],
+      [1386, 737,  1410, 738,  13,     17],
+      [1458, 737,  1519, 738,  14,     6],
+      [1540, 737,  1543, 738,  3,      8],
+      [1577, 737,  1601, 738,  5,      9],
+      [1663, 737,  1694, 738,  11,     3],
+      [1728, 737,  1740, 738,  9,      3],
+      [1762, 737,  1766, 738,  4,      3],
+      [1824, 737,  1848, 738,  14,     17],
+      [1896, 737,  1899, 738,  3,      1]
+    ]
+  },
+  problems: [
+
+  ]
+}

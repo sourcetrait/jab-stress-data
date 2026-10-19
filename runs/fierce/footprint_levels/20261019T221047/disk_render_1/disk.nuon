@@ -1,0 +1,7 @@
+{
+  name: "render_1_still",
+  tree: "/home/box/tmp/jab-stress/footprint/20261019T221047/disk_render_1/tree/render_1_still",
+  disk: "/home/box/tmp/jab-stress/footprint/20261019T221047/disk_render_1/render_1_still.romfs",
+  "sha256": "72b2ce96c3ea7c9fe21f6ca42ad63c03d62126a21f6d6898162216c4cc720c39",
+  map: "/home/box/tmp/jab-stress/footprint/20261019T221047/disk_render_1/tree/render_1_still/map/render_1_still.jabfps.map"
+}

@@ -1,0 +1,229 @@
+{
+  pose: {
+    name: "r1_light",
+    map: "render_1",
+    x: 4.0,
+    y: 4.0,
+    z: 1.6,
+    yaw: 180,
+    pitch: -45,
+    roll: 0
+  },
+  disk: {
+    name: "render_1_still",
+    tree: "/home/box/tmp/jab-stress/footprint/20261019T221047/disk_render_1/tree/render_1_still",
+    disk: "/home/box/tmp/jab-stress/footprint/20261019T221047/disk_render_1/render_1_still.romfs",
+    "sha256": "72b2ce96c3ea7c9fe21f6ca42ad63c03d62126a21f6d6898162216c4cc720c39",
+    map: "/home/box/tmp/jab-stress/footprint/20261019T221047/disk_render_1/tree/render_1_still/map/render_1_still.jabfps.map"
+  },
+  export: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_46f969b",
+  commit: "46f969b957ed13df229c9d88a1ad44635e3f34a0",
+  tool: {
+    path: /home/box/proj/sourcetrait/jab/kit/fierce/rust/target/release/footprint,
+    "sha256": "b2cbfedd7c5027965debc22908a0f825bca825345c71cd97f407e80e502be1fe",
+    commit: "46f969b957ed13df229c9d88a1ad44635e3f34a0",
+    dirty: false
+  },
+  rows: [
+    [label,             status, screen,                                                                                     "screen_sha256",                                                    faults,     bake,                                                                   binding];
+    [picture,           124,    "/home/box/tmp/jab-stress/footprint/20261019T221047/r1_light/picture/screen.ppm",           "3a53e6827ade445dcc3f0508148f9ef69fecaa8e66e800c333c1a1937b3b9fe0", [
+
+      ], {
+        maps: 79,
+        lumels: 13194,
+        unmapped: 0
+      }, {
+        stamp: 490,
+        from: 430,
+        frame: 490,
+        state: {
+          x: 4.0,
+          y: 4.0,
+          z: 1.600000023841858,
+          yaw: 180.0,
+          pitch: -45.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [picture_candidate, 124,    "/home/box/tmp/jab-stress/footprint/20261019T221047/r1_light/picture_candidate/screen.ppm", "babdb294dfb01a76dd3115e7ac55bf85afc15a9ce5f75ca5275e87a58ca8049b", [
+
+      ], {
+        maps: 79,
+        lumels: 13194,
+        unmapped: 0
+      }, {
+        stamp: 452,
+        from: 396,
+        frame: 452,
+        state: {
+          x: 4.0,
+          y: 4.0,
+          z: 1.600000023841858,
+          yaw: 180.0,
+          pitch: -45.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [owner,             124,    "/home/box/tmp/jab-stress/footprint/20261019T221047/r1_light/owner/screen.ppm",             "660a348d700e4385a5b2fae966e434dd92e6195876f74a6995f3c9422b0d7aac", [
+
+      ], {
+        maps: 79,
+        lumels: 13194,
+        unmapped: 0
+      }, {
+        stamp: 467,
+        from: 410,
+        frame: 467,
+        state: {
+          x: 4.0,
+          y: 4.0,
+          z: 1.600000023841858,
+          yaw: 180.0,
+          pitch: -45.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [levels,            124,    "/home/box/tmp/jab-stress/footprint/20261019T221047/r1_light/levels/screen.ppm",            "3ceeecf1a09842e450aee8b8243b6f9ca46ef7ba084eec84a5542de039126d0c", [
+
+      ], {
+        maps: 79,
+        lumels: 13194,
+        unmapped: 0
+      }, {
+        stamp: 458,
+        from: 402,
+        frame: 458,
+        state: {
+          x: 4.0,
+          y: 4.0,
+          z: 1.600000023841858,
+          yaw: 180.0,
+          pitch: -45.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [levels_candidate,  124,    "/home/box/tmp/jab-stress/footprint/20261019T221047/r1_light/levels_candidate/screen.ppm",  "9248d517f1b54f71c3b1763cd146004e49659563b265060f60accbac4f59f106", [
+
+      ], {
+        maps: 79,
+        lumels: 13194,
+        unmapped: 0
+      }, {
+        stamp: 412,
+        from: 362,
+        frame: 412,
+        state: {
+          x: 4.0,
+          y: 4.0,
+          z: 1.600000023841858,
+          yaw: 180.0,
+          pitch: -45.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }]
+  ],
+  reference: {
+    camera: {
+      x: 4.0,
+      y: 4.0,
+      z: 1.600000023841858,
+      yaw: 180.0,
+      pitch: -45.0,
+      roll: 0.0
+    },
+    iz_min: 4096,
+    floor_depth: 16384.0,
+    rows: 129584,
+    lumels: {
+      maps: 79,
+      lumels: 13194,
+      unmapped: 0
+    },
+    unread_materials: [
+
+    ],
+    owner: {
+      frame: 467,
+      spans: 0,
+      actors: 0
+    },
+    population: {
+      blocks: 129584,
+      classes: {
+        judged: 129584,
+        sky: 0,
+        unknown: 0,
+        unread: 0,
+        actor: 0,
+        degenerate: 0,
+        no_end: 0,
+        unpaired: 0
+      },
+      unresolved: 0,
+      sensitive: 0,
+      clamped: 0,
+      actors: 0
+    },
+    captures: [
+      [file,                                                                                      blocks, judged, agree,  sharper, coarser, secant_agree, secant_sharper, secant_coarser, levels,                                                                                                                                            snapshot];
+      ["/home/box/tmp/jab-stress/footprint/20261019T221047/r1_light/levels/screen.ppm",           129584, 129584, 129584, 0,       0,       129584,       0,              0,              [
+          129584,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ], {
+          frame: 458,
+          spans: 1080,
+          actors: 0
+        }],
+      ["/home/box/tmp/jab-stress/footprint/20261019T221047/r1_light/levels_candidate/screen.ppm", 129584, 129584, 129584, 0,       0,       129584,       0,              0,              [
+          129584,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ], {
+          frame: 412,
+          spans: 1080,
+          actors: 0
+        }]
+    ]
+  },
+  pictures: {
+    width: 1920,
+    height: 1080,
+    pixels: 0,
+    regions: [
+
+    ]
+  },
+  problems: [
+
+  ]
+}

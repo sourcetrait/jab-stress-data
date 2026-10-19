@@ -1,0 +1,7 @@
+{
+  name: "render_0_bay_android_1",
+  tree: "/home/box/tmp/jab-stress/footprint/20261019T221047/disk_render_0_bay_android_1/tree/render_0_bay_android_1",
+  disk: "/home/box/tmp/jab-stress/footprint/20261019T221047/disk_render_0_bay_android_1/render_0_bay_android_1.romfs",
+  "sha256": "4d1444b879f5fdb93dfc23b5b9ff9e1141d7197654580f77c1f384b6da75f3b0",
+  map: "/home/box/tmp/jab-stress/footprint/20261019T221047/disk_render_0_bay_android_1/tree/render_0_bay_android_1/map/render_0_bay_android_1.jabfps.map"
+}

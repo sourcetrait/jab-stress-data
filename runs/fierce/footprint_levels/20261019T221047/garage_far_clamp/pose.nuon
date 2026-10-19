@@ -1,0 +1,183 @@
+{
+  pose: {
+    name: garage_far_clamp,
+    map: "render_0",
+    x: 1.5,
+    y: 17.0,
+    z: -1.4,
+    yaw: 0,
+    pitch: -5,
+    roll: 0,
+    images: clamp,
+    witness: {
+      row: 511,
+      "x0": 735
+    }
+  },
+  disk: {
+    name: "render_0_still",
+    tree: "/home/box/tmp/jab-stress/footprint/20261019T221047/disk_render_0/tree/render_0_still",
+    disk: "/home/box/tmp/jab-stress/footprint/20261019T221047/disk_render_0/render_0_still.romfs",
+    "sha256": "91561f81c2d16eac928535f7c877c56e8daa0fcb363257599547a47703c0b432",
+    map: "/home/box/tmp/jab-stress/footprint/20261019T221047/disk_render_0/tree/render_0_still/map/render_0_still.jabfps.map"
+  },
+  export: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_46f969b",
+  commit: "46f969b957ed13df229c9d88a1ad44635e3f34a0",
+  tool: {
+    path: /home/box/proj/sourcetrait/jab/kit/fierce/rust/target/release/footprint,
+    "sha256": "b2cbfedd7c5027965debc22908a0f825bca825345c71cd97f407e80e502be1fe",
+    commit: "46f969b957ed13df229c9d88a1ad44635e3f34a0",
+    dirty: false
+  },
+  rows: [
+    [label,                  status, screen,                                                                                                  "screen_sha256",                                                    faults,     bake,                                                                    binding];
+    [owner_clamp,            124,    "/home/box/tmp/jab-stress/footprint/20261019T221047/garage_far_clamp/owner_clamp/screen.ppm",            "7c25031d1500ab46def428acbe77a33b78e8429c8cd8299b9d93ee487c5d4e14", [
+
+      ], {
+        maps: 228,
+        lumels: 64726,
+        unmapped: 0
+      }, {
+        stamp: 408,
+        from: 357,
+        frame: 408,
+        state: {
+          x: 1.5,
+          y: 17.0,
+          z: -1.399999976158142,
+          yaw: 0.0,
+          pitch: -5.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [levels_clamp,           124,    "/home/box/tmp/jab-stress/footprint/20261019T221047/garage_far_clamp/levels_clamp/screen.ppm",           "c8087578db3f82c8d47f296e77a588410ce3f363a6e358af61f24ba45388434b", [
+
+      ], {
+        maps: 228,
+        lumels: 64726,
+        unmapped: 0
+      }, {
+        stamp: 316,
+        from: 278,
+        frame: 316,
+        state: {
+          x: 1.5,
+          y: 17.0,
+          z: -1.399999976158142,
+          yaw: 0.0,
+          pitch: -5.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [levels_candidate_clamp, 124,    "/home/box/tmp/jab-stress/footprint/20261019T221047/garage_far_clamp/levels_candidate_clamp/screen.ppm", "61d233f67e498a8e6cf135d479e8c19b76e96ff8bea7fd55aff426a7137e029b", [
+
+      ], {
+        maps: 228,
+        lumels: 64726,
+        unmapped: 0
+      }, {
+        stamp: 373,
+        from: 327,
+        frame: 373,
+        state: {
+          x: 1.5,
+          y: 17.0,
+          z: -1.399999976158142,
+          yaw: 0.0,
+          pitch: -5.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }]
+  ],
+  reference: {
+    camera: {
+      x: 1.5,
+      y: 17.0,
+      z: -1.399999976158142,
+      yaw: 0.0,
+      pitch: -5.0,
+      roll: 0.0
+    },
+    iz_min: 12201612,
+    floor_depth: 5.499999836087231,
+    rows: 130694,
+    lumels: {
+      maps: 228,
+      lumels: 64726,
+      unmapped: 0
+    },
+    unread_materials: [
+
+    ],
+    owner: {
+      frame: 408,
+      spans: 0,
+      actors: 0
+    },
+    population: {
+      blocks: 130694,
+      classes: {
+        judged: 130694,
+        sky: 0,
+        unknown: 0,
+        unread: 0,
+        actor: 0,
+        degenerate: 0,
+        no_end: 0,
+        unpaired: 0
+      },
+      unresolved: 0,
+      sensitive: 2963,
+      clamped: 55710,
+      actors: 0
+    },
+    captures: [
+      [file,                                                                                                    blocks, judged, agree,  sharper, coarser, secant_agree, secant_sharper, secant_coarser, levels,                                                                                                                                                    snapshot];
+      ["/home/box/tmp/jab-stress/footprint/20261019T221047/garage_far_clamp/levels_clamp/screen.ppm",           130694, 130694, 130418, 276,     0,       130418,       276,            0,              [
+          81111,
+          37971,
+          11577,
+          35,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ], {
+          frame: 316,
+          spans: 2886,
+          actors: 0
+        }],
+      ["/home/box/tmp/jab-stress/footprint/20261019T221047/garage_far_clamp/levels_candidate_clamp/screen.ppm", 130694, 130694, 130694, 0,       0,       130694,       0,              0,              [
+          80715,
+          38285,
+          11659,
+          35,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ], {
+          frame: 373,
+          spans: 2886,
+          actors: 0
+        }]
+    ]
+  },
+  pictures: null,
+  problems: [
+
+  ]
+}
