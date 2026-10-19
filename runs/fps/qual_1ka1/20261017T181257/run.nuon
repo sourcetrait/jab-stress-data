@@ -1,0 +1,21 @@
+{
+ schema: 2,
+ set: "qual_1ka1",
+ stamp: "20261017T181257",
+ task: Qualification,
+ scope: {
+  kind: whole,
+  ran: 31,
+  of: 31
+ },
+ builds: [
+  [part, build,                                      source,   record];
+  [run,  "e21c5aeee99925966e543be9e411c3c24819c5a9", checkout, "bench.nuon"]
+ ],
+ kept: {
+  as: current,
+  why: "The qual_1ka1 bench's first run, at jab e21c5ae's release on 1KA1 under watch bench, every arm sdl,gl=on offscreen, the qualification preparation's proof and never a qualification: its bench, watch, and report records, its runs' API streams, identities, routes, and run records, its pads, and its probed runs' logs and bundles archived here; its closing screens and disk copies kept as hashes, its gauge reports derived by the batch reread (EvidenceRetention). Read by qualification/20261017T181257-1ka1; cited by FrameCeiling/Qualification.md."
+ },
+ inventory: "4dc1fa580e219178339e331fd1e8356bfe63043ef66aa642439f78e0d4432166",
+ storage: "500aecf10fbc8e8908d9cac06867cb75773787ff7147a812ddd6dc0b0194f9b8"
+}

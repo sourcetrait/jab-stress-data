@@ -1,0 +1,21 @@
+{
+ schema: 2,
+ set: "qual_1kb1",
+ stamp: "20261017T192135",
+ task: Qualification,
+ scope: {
+  kind: whole,
+  ran: 31,
+  of: 31
+ },
+ builds: [
+  [part, build,                                      source,   record];
+  [run,  "e21c5aeee99925966e543be9e411c3c24819c5a9", checkout, "bench.nuon"]
+ ],
+ kept: {
+  as: current,
+  why: "The qual_1kb1 bench's first run, at jab e21c5ae's release on 1KB1 under watch bench, every arm sdl,gl=on offscreen, the qualification preparation's proof and never a qualification; 28 of its 31 runs recorded, step probed_2 failing at its third run's bundle (proberuns/20261017T192135-render, RenderAnchor's finding): its bench, watch, and report records, its runs' API streams, identities, routes, and run records, its pads, and its probed runs' logs and bundles archived here; its closing screens and disk copies kept as hashes, its gauge reports derived by the batch reread (EvidenceRetention). Read by qualification/20261017T192135-1kb1; cited by FrameCeiling/Qualification.md."
+ },
+ inventory: "01959c9bc1a6f7a8a8bcafe1d6e2b8c8038c9b0b8cc977f69d6110b8e7db19fc",
+ storage: "9e23cac4a296fbe8d1ebd0bd63a1dce90c59a42dceb32f13417ae8d857dd1c17"
+}
