@@ -1,0 +1,21 @@
+{
+ schema: 2,
+ set: importmap,
+ stamp: "20261019T142957",
+ task: JustRetired,
+ scope: {
+  kind: whole,
+  ran: 1,
+  of: 1
+ },
+ builds: [
+  [part, build,                                      source,   record];
+  [run,  "921d7a9e3a5c035890db3f9e263c77f51d21ba77", checkout, "report.nuon"]
+ ],
+ kept: {
+  as: current,
+  why: "The import-map checker with every group landed, JustRetired last: jab 921d7a9e and jab-stress 91f5955f, both clean, held to the contract (SHA-256 70059256) by jab-stress's `nu/bin/nuance/importmap.nu check`: 283 sources, 2354 declarations, 418 contract defs, 652 import edges, and 269 consumer calls, no refusal; the justfiles, fierce's do.nu shim, and the checker's recipe readers gone"
+ },
+ inventory: "da6d0738b9b8c97dfc4968c765031a5097be9d674d4ab239d53b4d3c71386927",
+ storage: "87820d62262bb9ced70825ba11dd961b23844c96a1c4bf1171b5530efc2cf408"
+}
