@@ -1,0 +1,222 @@
+{
+ migration: RefusedProbed,
+ stamp: "20261019T153024",
+ complete: true,
+ run: "runs/fps/proberuns/20261017T065433",
+ sources: [
+  [repository,      commit,                                     paths];
+  [jab-stress-data, "ba7e9bc301b863082da344117e2343fcffdf5814", [
+    "runs/fps/proberuns/20261017T065433"
+   ]]
+ ],
+ phases: [
+  [phase,    done];
+  [Classed,  true],
+  [Landed,   true],
+  [Restored, true],
+  [Replaced, true]
+ ],
+ checks: [
+  {
+   phase: Classed,
+   check: "each further original equal by SHA-256 to the run's own file at its path",
+   files: 0,
+   ok: true
+  },
+  {
+   phase: Landed,
+   check: "the landed run held to its record by runner record stored",
+   ok: true
+  },
+  {
+   phase: Restored,
+   check: "every kept and archived original restored at its inventory SHA-256 by runner restore",
+   files: 15,
+   ok: true
+  }
+ ],
+ source_files: [
+  [repository,      path,                                                              "sha256",                                                           bytes,   fate];
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/gauge.nuon",                   "a6ed20e6a3cda67dd6da8b8d85dd642117834862fa048fe9f6b4abcdc32cd8af", 522069,  {
+    kind: kept,
+    as: "gauge.nuon",
+    to: "gauge.nuon"
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/pad.nuon",                     "1bc420f3a080a35bc3ee50f4eb680708399d279a1a263c25989ce439f978fada", 183,     {
+    kind: kept,
+    as: "pad.nuon",
+    to: "pad.nuon"
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/render_0.romfs",               "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", 2121728, {
+    kind: hash-only,
+    as: "render_0.romfs",
+    to: null
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/run_1/api.out",                "ba24fcae843c04e1bf59c64e01957c564f30102cf134be258f5dead6a8ab4d9d", 546752,  {
+    kind: kept,
+    as: "run_1/api.out",
+    to: "run_1/api.out"
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/run_1/bundle/api.out",         "ba24fcae843c04e1bf59c64e01957c564f30102cf134be258f5dead6a8ab4d9d", 546752,  {
+    kind: kept,
+    as: "run_1/bundle/api.out",
+    to: "run_1/bundle/api.out"
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/run_1/bundle/bundle.nuon",     "5fabd125e7d1c195c0704cdffdcf257841d90bc99a1e9d8cc16c45b6b5a8c8cb", 75822,   {
+    kind: kept,
+    as: "run_1/bundle/bundle.nuon",
+    to: "run_1/bundle/bundle.nuon"
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/run_1/bundle/classified.nuon", "b3f70721f9fc897d2cbe551e17ddb75fb6699e4350c057a9edad249744e5a227", 695772,  {
+    kind: kept,
+    as: "run_1/bundle/classified.nuon",
+    to: "run_1/bundle/classified.nuon"
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/run_1/bundle/identity.nuon",   "3bd75913b216d29bc4e0817cf9cbf98f6de18b85b7c944bca5a9c1651f34ec44", 3471,    {
+    kind: kept,
+    as: "run_1/bundle/identity.nuon",
+    to: "run_1/bundle/identity.nuon"
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/run_1/bundle/sdl.log",         "6f35840cb3c3b735d0bd885511636653845281074a39168f0160077c053c4d1d", 236346,  {
+    kind: kept,
+    as: "run_1/bundle/sdl.log",
+    to: "run_1/bundle/sdl.log"
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/run_1/bundle/tables/0.nm",     "674ff798e61990120039408a1b7ca2e006e5812bbb71d6411e9839ae987d821c", 2102803, {
+    kind: kept,
+    as: "run_1/bundle/tables/0.nm",
+    to: "run_1/bundle/tables/0.nm"
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/run_1/identity.nuon",          "3bd75913b216d29bc4e0817cf9cbf98f6de18b85b7c944bca5a9c1651f34ec44", 3471,    {
+    kind: kept,
+    as: "run_1/identity.nuon",
+    to: "run_1/identity.nuon"
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/run_1/qemu.log",               "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", 0,       {
+    kind: kept,
+    as: "run_1/qemu.log",
+    to: "run_1/qemu.log"
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/run_1/route.nuon",             "6c9fbc625a55ab72476f6405b0e52b69d0b6f69ed97e760ec583dccbf7a39217", 1488,    {
+    kind: kept,
+    as: "run_1/route.nuon",
+    to: "run_1/route.nuon"
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/run_1/run.nuon",               "f0dfcef316f3bbb4ca29e0ddcbe1e830cbf16086ab254d3ac5678ae1134bcedb", 2615,    {
+    kind: kept,
+    as: "run_1/run.nuon",
+    to: "run_1/run.nuon"
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/run_1/screen.ppm",             "94efb9d1d769bff081e98a729cde1b53bfaeb6ae8e8ea7ba5b7706b94948615f", 6220817, {
+    kind: hash-only,
+    as: "run_1/screen.ppm",
+    to: null
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/run_1/sdl.log",                "6f35840cb3c3b735d0bd885511636653845281074a39168f0160077c053c4d1d", 236346,  {
+    kind: kept,
+    as: "run_1/sdl.log",
+    to: "run_1/sdl.log"
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/run_1/serial.log",             "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", 0,       {
+    kind: kept,
+    as: "run_1/serial.log",
+    to: "run_1/serial.log"
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/run_1/sound.wav",              "d34b83912ead438c9a9f5cffb06b578d18b0861c6fd9a3613706e93cae3a9c32", 3182996, {
+    kind: hash-only,
+    as: "run_1/sound.wav",
+    to: null
+   }]
+ ],
+ destination_files: [
+  [repository,      path,                                                              "sha256",                                                           bytes,   origin];
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/gauge.nuon",                   "a6ed20e6a3cda67dd6da8b8d85dd642117834862fa048fe9f6b4abcdc32cd8af", 522069,  {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/inventory.nuon",               "ff213f4a8579a3b6f017991717e21cd87ea054ef0b0b6082d7186e5eaab01ae7", 2872,    {
+    kind: record,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/pad.nuon",                     "1bc420f3a080a35bc3ee50f4eb680708399d279a1a263c25989ce439f978fada", 183,     {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/run.nuon",                     "ff6286d02d6a33c8f7c47baa2e3228246346cadc6a5c65579707dc54e625f0c4", 962,     {
+    kind: record,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/run_1/api.out",                "ba24fcae843c04e1bf59c64e01957c564f30102cf134be258f5dead6a8ab4d9d", 546752,  {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/run_1/bundle/api.out",         "ba24fcae843c04e1bf59c64e01957c564f30102cf134be258f5dead6a8ab4d9d", 546752,  {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/run_1/bundle/bundle.nuon",     "5fabd125e7d1c195c0704cdffdcf257841d90bc99a1e9d8cc16c45b6b5a8c8cb", 75822,   {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/run_1/bundle/classified.nuon", "b3f70721f9fc897d2cbe551e17ddb75fb6699e4350c057a9edad249744e5a227", 695772,  {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/run_1/bundle/identity.nuon",   "3bd75913b216d29bc4e0817cf9cbf98f6de18b85b7c944bca5a9c1651f34ec44", 3471,    {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/run_1/bundle/sdl.log",         "6f35840cb3c3b735d0bd885511636653845281074a39168f0160077c053c4d1d", 236346,  {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/run_1/bundle/tables/0.nm",     "674ff798e61990120039408a1b7ca2e006e5812bbb71d6411e9839ae987d821c", 2102803, {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/run_1/identity.nuon",          "3bd75913b216d29bc4e0817cf9cbf98f6de18b85b7c944bca5a9c1651f34ec44", 3471,    {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/run_1/qemu.log",               "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", 0,       {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/run_1/route.nuon",             "6c9fbc625a55ab72476f6405b0e52b69d0b6f69ed97e760ec583dccbf7a39217", 1488,    {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/run_1/run.nuon",               "f0dfcef316f3bbb4ca29e0ddcbe1e830cbf16086ab254d3ac5678ae1134bcedb", 2615,    {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/run_1/sdl.log",                "6f35840cb3c3b735d0bd885511636653845281074a39168f0160077c053c4d1d", 236346,  {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/run_1/serial.log",             "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", 0,       {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T065433/storage.nuon",                 "3ffaf11939fbaccab34e0f5c37e95e8dc6145e64b364f01085e1887dc4bf6909", 2357,    {
+    kind: record,
+    phase: Landed
+   }]
+ ],
+ counts: {
+  sources: {
+   files: 18,
+   bytes: 16499431,
+   committed: 18
+  },
+  dispositions: [
+   [disposition, files, bytes];
+   [kept,        15,    4973890],
+   [hash-only,   3,     11525541]
+  ],
+  destinations: {
+   files: 18,
+   bytes: 4980081
+  }
+ }
+}

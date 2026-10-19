@@ -1,4 +1,5 @@
 {
+ schema: 2,
  set: proberuns,
  stamp: "20261017T065433",
  task: ProbeRuns,
@@ -8,11 +9,13 @@
   of: 1
  },
  builds: [
-  [part,    build,     checkout, record];
-  ["run_1", "b8b7cb0", jab,      "run_1/identity.nuon"]
+  [part,    build,     source,   record];
+  ["run_1", "b8b7cb0", checkout, "run_1/identity.nuon"]
  ],
  kept: {
   as: checkpoint,
   why: "The first probed gauge run, `gauge run --sdl-probe` on route_walks at release b8b7cb0 under the sdl shim, sdl,gl=on offscreen: complete and valid at schema 7, its bundle passing sdl-bundle-check's six stages with QEMU's pid and the capture nonce bound and echoed; sdl-pair pairs its 815 presents one for one, ordinals 2 to 816, and refuses it for one residual, ordinal 160 (frame 156) at -12.06 ms, its flip call 14.0 ms against its neighbours' 1.5, the upload in its place; cited as evidence by ProbeRuns' fix plan PairBracket"
- }
+ },
+ inventory: "ff213f4a8579a3b6f017991717e21cd87ea054ef0b0b6082d7186e5eaab01ae7",
+ storage: "3ffaf11939fbaccab34e0f5c37e95e8dc6145e64b364f01085e1887dc4bf6909"
 }

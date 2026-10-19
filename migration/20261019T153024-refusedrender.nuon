@@ -1,0 +1,140 @@
+{
+ migration: RefusedRender,
+ stamp: "20261019T153024",
+ complete: true,
+ run: "runs/fps/proberuns/20261017T192135-render",
+ sources: [
+  [repository,      commit,                                     paths];
+  [jab-stress-data, "ba7e9bc301b863082da344117e2343fcffdf5814", [
+    "runs/fps/proberuns/20261017T192135-render"
+   ]]
+ ],
+ phases: [
+  [phase,    done];
+  [Classed,  true],
+  [Landed,   true],
+  [Restored, true],
+  [Replaced, true]
+ ],
+ checks: [
+  {
+   phase: Classed,
+   check: "each further original equal by SHA-256 to the run's own file at its path",
+   files: 0,
+   ok: true
+  },
+  {
+   phase: Landed,
+   check: "the landed run held to its record by runner record stored",
+   ok: true
+  },
+  {
+   phase: Restored,
+   check: "every kept and archived original restored at its inventory SHA-256 by runner restore",
+   files: 7,
+   ok: true
+  }
+ ],
+ source_files: [
+  [repository,      path,                                                            "sha256",                                                           bytes,   fate];
+  [jab-stress-data, "runs/fps/proberuns/20261017T192135-render/run_3/api.out",       "986e403d95ac11b128c68b8417b4ce32ffe0b822a931525d4dd96a8861ec408f", 1979712, {
+    kind: kept,
+    as: "run_3/api.out",
+    to: "run_3/api.out"
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T192135-render/run_3/identity.nuon", "1839aeb1d9c48af502a0f463adadcc8bba4c8fddad78c36c6d1aa213b1e21517", 5422,    {
+    kind: kept,
+    as: "run_3/identity.nuon",
+    to: "run_3/identity.nuon"
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T192135-render/run_3/qemu.log",      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", 0,       {
+    kind: kept,
+    as: "run_3/qemu.log",
+    to: "run_3/qemu.log"
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T192135-render/run_3/route.nuon",    "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", 5884,    {
+    kind: kept,
+    as: "run_3/route.nuon",
+    to: "run_3/route.nuon"
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T192135-render/run_3/run.nuon",      "9de3939177e6a1cf1d4399709508d784be76bc10cb402287ed4439d20bc5fd59", 2992,    {
+    kind: kept,
+    as: "run_3/run.nuon",
+    to: "run_3/run.nuon"
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T192135-render/run_3/screen.ppm",    "f5e8604ec261f3303ac14be7cc2eb2e4830988b547c090bb200d785c182cdc92", 6220817, {
+    kind: hash-only,
+    as: "run_3/screen.ppm",
+    to: null
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T192135-render/run_3/sdl.log",       "179bdd11bcc92e304819932af3c0a456c2b1d1807a4975c1012650d747f4e119", 788102,  {
+    kind: kept,
+    as: "run_3/sdl.log",
+    to: "run_3/sdl.log"
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T192135-render/run_3/serial.log",    "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", 0,       {
+    kind: kept,
+    as: "run_3/serial.log",
+    to: "run_3/serial.log"
+   }]
+ ],
+ destination_files: [
+  [repository,      path,                                                            "sha256",                                                           bytes,   origin];
+  [jab-stress-data, "runs/fps/proberuns/20261017T192135-render/inventory.nuon",      "c774f6362fed0f636b577e5b0dab28911a2ac14b5c58b2aafc65ed3a9467577a", 1236,    {
+    kind: record,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T192135-render/run.nuon",            "c9c72440bd8c0ff9604251ca55e86fde00fb78081457d3cd1a2086c7cf97f9aa", 1167,    {
+    kind: record,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T192135-render/run_3/api.out",       "986e403d95ac11b128c68b8417b4ce32ffe0b822a931525d4dd96a8861ec408f", 1979712, {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T192135-render/run_3/identity.nuon", "1839aeb1d9c48af502a0f463adadcc8bba4c8fddad78c36c6d1aa213b1e21517", 5422,    {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T192135-render/run_3/qemu.log",      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", 0,       {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T192135-render/run_3/route.nuon",    "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", 5884,    {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T192135-render/run_3/run.nuon",      "9de3939177e6a1cf1d4399709508d784be76bc10cb402287ed4439d20bc5fd59", 2992,    {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T192135-render/run_3/sdl.log",       "179bdd11bcc92e304819932af3c0a456c2b1d1807a4975c1012650d747f4e119", 788102,  {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T192135-render/run_3/serial.log",    "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", 0,       {
+    kind: raw,
+    phase: Landed
+   }],
+  [jab-stress-data, "runs/fps/proberuns/20261017T192135-render/storage.nuon",        "a8041f1c2a26f136f226a913d30975a5ff69a2dd5b75d95ee8f255a89827b65e", 1077,    {
+    kind: record,
+    phase: Landed
+   }]
+ ],
+ counts: {
+  sources: {
+   files: 8,
+   bytes: 9002929,
+   committed: 8
+  },
+  dispositions: [
+   [disposition, files, bytes];
+   [kept,        7,     2782112],
+   [hash-only,   1,     6220817]
+  ],
+  destinations: {
+   files: 10,
+   bytes: 2785592
+  }
+ }
+}

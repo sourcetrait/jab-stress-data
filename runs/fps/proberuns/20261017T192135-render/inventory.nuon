@@ -1,0 +1,11 @@
+[
+ [path,                  role,    length,  "sha256",                                                           disposition, reason];
+ ["run_3/api.out",       stream,  1979712, "986e403d95ac11b128c68b8417b4ce32ffe0b822a931525d4dd96a8861ec408f", kept,        ""],
+ ["run_3/identity.nuon", record,  5422,    "1839aeb1d9c48af502a0f463adadcc8bba4c8fddad78c36c6d1aa213b1e21517", kept,        ""],
+ ["run_3/qemu.log",      log,     0,       "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", kept,        ""],
+ ["run_3/route.nuon",    record,  5884,    "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", kept,        ""],
+ ["run_3/run.nuon",      record,  2992,    "9de3939177e6a1cf1d4399709508d784be76bc10cb402287ed4439d20bc5fd59", kept,        ""],
+ ["run_3/screen.ppm",    picture, 6220817, "f5e8604ec261f3303ac14be7cc2eb2e4830988b547c090bb200d785c182cdc92", hash-only,   "the run's closing screen, which no consumer reads (EvidenceRetention)"],
+ ["run_3/sdl.log",       log,     788102,  "179bdd11bcc92e304819932af3c0a456c2b1d1807a4975c1012650d747f4e119", kept,        ""],
+ ["run_3/serial.log",    log,     0,       "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", kept,        ""]
+]

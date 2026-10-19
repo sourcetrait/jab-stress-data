@@ -1,0 +1,48 @@
+[
+ [object,                         kind, length,  "sha256",                                                           holds];
+ ["gauge.nuon",                   raw,  522069,  "a6ed20e6a3cda67dd6da8b8d85dd642117834862fa048fe9f6b4abcdc32cd8af", [
+   "gauge.nuon"
+  ]],
+ ["pad.nuon",                     raw,  183,     "1bc420f3a080a35bc3ee50f4eb680708399d279a1a263c25989ce439f978fada", [
+   "pad.nuon"
+  ]],
+ ["run_1/api.out",                raw,  546752,  "ba24fcae843c04e1bf59c64e01957c564f30102cf134be258f5dead6a8ab4d9d", [
+   "run_1/api.out"
+  ]],
+ ["run_1/bundle/api.out",         raw,  546752,  "ba24fcae843c04e1bf59c64e01957c564f30102cf134be258f5dead6a8ab4d9d", [
+   "run_1/bundle/api.out"
+  ]],
+ ["run_1/bundle/bundle.nuon",     raw,  75822,   "5fabd125e7d1c195c0704cdffdcf257841d90bc99a1e9d8cc16c45b6b5a8c8cb", [
+   "run_1/bundle/bundle.nuon"
+  ]],
+ ["run_1/bundle/classified.nuon", raw,  695772,  "b3f70721f9fc897d2cbe551e17ddb75fb6699e4350c057a9edad249744e5a227", [
+   "run_1/bundle/classified.nuon"
+  ]],
+ ["run_1/bundle/identity.nuon",   raw,  3471,    "3bd75913b216d29bc4e0817cf9cbf98f6de18b85b7c944bca5a9c1651f34ec44", [
+   "run_1/bundle/identity.nuon"
+  ]],
+ ["run_1/bundle/sdl.log",         raw,  236346,  "6f35840cb3c3b735d0bd885511636653845281074a39168f0160077c053c4d1d", [
+   "run_1/bundle/sdl.log"
+  ]],
+ ["run_1/bundle/tables/0.nm",     raw,  2102803, "674ff798e61990120039408a1b7ca2e006e5812bbb71d6411e9839ae987d821c", [
+   "run_1/bundle/tables/0.nm"
+  ]],
+ ["run_1/identity.nuon",          raw,  3471,    "3bd75913b216d29bc4e0817cf9cbf98f6de18b85b7c944bca5a9c1651f34ec44", [
+   "run_1/identity.nuon"
+  ]],
+ ["run_1/qemu.log",               raw,  0,       "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", [
+   "run_1/qemu.log"
+  ]],
+ ["run_1/route.nuon",             raw,  1488,    "6c9fbc625a55ab72476f6405b0e52b69d0b6f69ed97e760ec583dccbf7a39217", [
+   "run_1/route.nuon"
+  ]],
+ ["run_1/run.nuon",               raw,  2615,    "f0dfcef316f3bbb4ca29e0ddcbe1e830cbf16086ab254d3ac5678ae1134bcedb", [
+   "run_1/run.nuon"
+  ]],
+ ["run_1/sdl.log",                raw,  236346,  "6f35840cb3c3b735d0bd885511636653845281074a39168f0160077c053c4d1d", [
+   "run_1/sdl.log"
+  ]],
+ ["run_1/serial.log",             raw,  0,       "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", [
+   "run_1/serial.log"
+  ]]
+]
