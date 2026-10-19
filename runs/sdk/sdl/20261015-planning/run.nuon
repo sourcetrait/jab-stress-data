@@ -14,7 +14,7 @@
     [bounce-modular-debug, null,  jab,      unrecorded]
   ],
   kept: {
-    as: last,
-    why: "the whole run before the current one, cited as evidence by HostWatch's ProbeBySymbol"
+    as: checkpoint,
+    why: "the probe's planning logs, cited as evidence by the jab iter's TraceFlushes sequence and HostWatch, plan/agenda/HostWatch.md"
   }
 }

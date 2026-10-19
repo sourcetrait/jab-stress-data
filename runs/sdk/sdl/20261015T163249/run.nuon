@@ -14,7 +14,7 @@
     [stripped,   "beafb5b64866e18636d60cc4e69d138a512161de", jab,      "controls.nuon"]
   ],
   kept: {
-    as: current,
-    why: "the latest run that took the whole set, the controls ProbeBySymbol's build is held to"
+    as: last,
+    why: "the whole run before the current one, the controls ProbeBySymbol's build is held to"
   }
 }

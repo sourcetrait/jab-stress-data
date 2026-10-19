@@ -1,0 +1,20 @@
+{
+  set: sdl,
+  stamp: "20261019T040032",
+  task: SdkModules,
+  scope: {
+    kind: whole,
+    ran: 3,
+    of: 3
+  },
+  builds: [
+    [part,       build,                                      checkout, record];
+    [monolithic, "de52d7c35eec81fd0fde300196d9de4ed4c818f7", jab,      "controls.nuon"],
+    [modular,    "de52d7c35eec81fd0fde300196d9de4ed4c818f7", jab,      "controls.nuon"],
+    [stripped,   "de52d7c35eec81fd0fde300196d9de4ed4c818f7", jab,      "controls.nuon"]
+  ],
+  kept: {
+    as: current,
+    why: "the latest run that took the whole set, SdkModules/7's probe through nu/bin/nuance/probe.nu; its modular control refused by programs-of's walk into the bounce extern/qemu linked to /usr, the evidence the sdk's WalkPrune cites"
+  }
+}

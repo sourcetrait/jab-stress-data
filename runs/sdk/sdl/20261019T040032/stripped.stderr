@@ -1,0 +1,14 @@
+Error: nu::shell::error
+
+  x the sdl probe refuses the log: a make_current's immediate caller is not in
+  | the SDL front end, and the executable at /home/box/tmp/ai/two/1i0jAbrhQct/
+  | controls/work/stripped/bin/qemu-system-riscv64 keeps no symbol table, only
+  | dynamic symbols, 67 sized functions among them: 715 make_currents, among
+  | them qemu-system-riscv64+37ae08, qemu-system-riscv64+37ad91
+     ,-[/home/box/proj/sourcetrait/jab/nu/bin/nuance/../../mod/probe/../sdl/report/../classify/mod.nu:128:49]
+ 127 |         let cases = ($refused | where class == $class)
+ 128 |         if not ($cases | is-empty) { error make {msg: (refusal sdl-refusal (sdl-faults $cases $counts $resolved.objects))} }
+     :                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 129 |     }
+     `----
+
