@@ -1,0 +1,690 @@
+{
+ runs: [
+  [label, run, dir,                                                                           seed, cadence, identity_from, capture,                                                                                     bundle,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            flips,                                                                                                 pairing,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    k,                                                                                                                                                                                                                                                                                                                                                                                                                                                          stage, refusals, renders, whole,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  legs];
+  [tree,  1,   "/home/box/tmp/ai/two/fHgIKRMSg0U/reread/proberuns_rr/restoration/tree/run_1", 1,    1,       file,          {
+    schema: 7,
+    complete: true,
+    valid: true,
+    frames: 813,
+    under: true
+   }, {
+    profile: paired,
+    run: {
+     process: 524544,
+     nonce: "7caf58e67b5cb4db",
+     capture_nonce: 8984497528562824411,
+     qemu_pid: 524544,
+     guest_nonce: 8984497528562824411
+    },
+    reader: {
+     host: {
+      jab: "b8b7cb0ee7f8f46fcf521e8f7cc729edc009d1c3",
+      "jab_nu_sha256": "f0903fefa923988af346a033e20dec9eb4dab349fb7a427ad18218fa049ee614"
+     },
+     box: {
+      repos: [
+       [repo,                           commit,                                     dirty];
+       [/home/box/proj/sourcetrait/jab, "ce45dc57450394a862c5f080e609fe2d18efc667", false]
+      ],
+      runtime: [
+       [role, version,   "sha256"];
+       [nu,   "0.115.1", "c343a927a2d4a45ebf9300d013b226bcdc2598ecb0178a8a79722ebffe71e56e"]
+      ],
+      executables: [
+
+      ]
+     },
+     same: false
+    },
+    trace: null
+   }, {
+    source: derived,
+    origin: {
+     lo: 1173486,
+     hi: 1186737,
+     width: 13251
+    }
+   }, {
+    verdict: admitted,
+    refusals: [
+
+    ],
+    bracket: {
+     status: feasible,
+     reason: null,
+     drift_ppm: 50,
+     best: {
+      b: "881473/881472",
+      b_ppm: 1.1344659841719305,
+      margin: "1438566803/110184",
+      margin_ticks: 13056.040831699702,
+      offset_lo_ticks: -203249.42196348833,
+      offset_hi_ticks: -190193.38113178866
+     },
+     feasible: {
+      b_lo: "19999/20000",
+      b_hi: "20001/20000",
+      b_lo_ppm: -50.0,
+      b_hi_ppm: 50.0,
+      offset_lo_ticks: -203339.16645,
+      offset_hi_ticks: -189540.15445
+     },
+     free: {
+      feasible: true,
+      b_lo_ppm: -110.83117219034855,
+      b_hi_ppm: 97.03950502548541
+     },
+     binding: {
+      ceiling: [
+       391
+      ],
+      floor: [
+       169,
+       645
+      ]
+     }
+    },
+    shifts: [
+     [name,    status];
+     [earlier, infeasible],
+     [later,   infeasible]
+    ],
+    window: {
+     first: 2,
+     last: 816,
+     presents: 815,
+     uploads: 951
+    },
+    fit: {
+     offset_s: 1792220073.8614814,
+     drift: 1.0000032396194698,
+     max_residual_ms: 12.063439197162573
+    },
+    stalls: {
+     calls: [
+      [ordinal, call_ms, median_ms, place,                                                                                 bound];
+      [160,     14.0458, 1.6768,    {
+        first_ms: 0.39011449863652453,
+        last_ms: 1.7033069061935293
+       }, derived]
+     ],
+     outer: [
+      [ordinal, call_ms,  median_ms, place,                                                                              bound];
+      [2,       20.3329,  1.6768,    {
+        first_ms: 18.954963193159656,
+        last_ms: 20.3329
+       },          outer],
+      [3,       774.6969, 1.6768,    {
+        first_ms: 773.1536897294865,
+        last_ms: 774.4912766468084
+       }, outer]
+     ]
+    },
+    limits: "the pairing is exact under the run binding, which ties the guest's records to the log, and under the log's assumptions, that it records every upload once and that every flush the device accepted makes one upload. The bracket is a consistency check under a correspondence fitted from the same stream: it cannot in general prove the absence of compensating edits, it cannot uniquely reject every stream shift, and it does not establish that a loss and an addition fall inside one call; a host stamp is read as the closed microsecond after it, admitting the one point no instant logged there holds. A stall is reported, never refused. walk's TIMING-off arm pairs on a frame bracket alone. The fit is a diagnostic, giving intervals and jitter and no absolute guest-to-SDL latency."
+   }, {
+    eps: 10000,
+    period: 166666,
+    violations: 798,
+    first: [
+     [index, witness, gap,     bound];
+     [1,     0,       148868,  156666],
+     [2,     0,       313021,  323332],
+     [3,     0,       479323,  489998],
+     [4,     0,       646042,  656664],
+     [5,     0,       813780,  823330],
+     [6,     0,       979464,  989996],
+     [7,     0,       1146110, 1156662],
+     [8,     0,       1312804, 1323328]
+    ]
+   }, null,  [
+
+   ],  529,     {
+    frames: 813,
+    presented_interval: {
+     count: 813,
+     min: 12603.9,
+     median: 16665.8,
+     "p95": 16850.8,
+     "p99": 18231.9,
+     max: 26768.2
+    },
+    upload_interval: {
+     count: 813,
+     min: 12627,
+     median: 16662,
+     "p95": 17033,
+     "p99": 18236,
+     max: 26568
+    },
+    render_interval: {
+     count: 451,
+     min: 29260,
+     median: 29998,
+     "p95": 30166,
+     "p99": 30498,
+     max: 31135
+    },
+    age: {
+     count: 451,
+     min: 1140,
+     median: 8959,
+     "p95": 15808,
+     "p99": 15962,
+     max: 16407
+    },
+    shown_interval: {
+     count: 451,
+     min: 29260,
+     median: 29998,
+     "p95": 30166,
+     "p99": 30498,
+     max: 31135
+    },
+    shown: 451,
+    superseded: 362,
+    repeated: 0,
+    unshown_at_end: 0,
+    share_shown: 0.5547355473554736,
+    longest_superseded: 1,
+    longest_repeat: 0,
+    critical: {
+     count: 813,
+     min: 10426,
+     median: 12833,
+     "p95": 16228,
+     "p99": 18182,
+     max: 25179
+    },
+    submission_age: {
+     count: 813,
+     min: 12506,
+     median: 16550,
+     "p95": 17067,
+     "p99": 18153,
+     max: 29286
+    }
+   }, [
+    [leg,   frames, presented_interval,                                                                                                                   upload_interval,                                                                                                            render_interval,                                                                                                            age,                                                                                                                      shown_interval,                                                                                                             shown, superseded, repeated, unshown_at_end, share_shown,        longest_superseded, longest_repeat, critical,                                                                                                                   submission_age];
+    [start, 44,     {
+      count: 44,
+      min: 14886.8,
+      median: 16664.6,
+      "p95": 16855.1,
+      "p99": null,
+      max: 20633.1
+     },     {
+      count: 44,
+      min: 14886,
+      median: 16668,
+      "p95": 17034,
+      "p99": null,
+      max: 20407
+     },   {
+      count: 24,
+      min: 29843,
+      median: 29999,
+      "p95": 30149,
+      "p99": null,
+      max: 30155
+     },   {
+      count: 24,
+      min: 2041,
+      median: 8976,
+      "p95": 15836,
+      "p99": null,
+      max: 15845
+     },   {
+      count: 24,
+      min: 29843,
+      median: 29999,
+      "p95": 30149,
+      "p99": null,
+      max: 30155
+     },   24,    20,         0,        0,              0.5454545454545454, 1,                  0,              {
+      count: 44,
+      min: 12543,
+      median: 12914,
+      "p95": 14934,
+      "p99": null,
+      max: 19655
+     },   {
+      count: 44,
+      min: 14793,
+      median: 16589,
+      "p95": 16975,
+      "p99": null,
+      max: 19547
+     }],
+    [up,    239,    {
+      count: 239,
+      min: 12603.9,
+      median: 16664.8,
+      "p95": 17021.3,
+      "p99": 19133.1,
+      max: 26768.2
+     }, {
+      count: 239,
+      min: 12627,
+      median: 16658,
+      "p95": 17154,
+      "p99": 19126,
+      max: 26568
+     }, {
+      count: 133,
+      min: 29260,
+      median: 29998,
+      "p95": 30150,
+      "p99": 30283,
+      max: 30718
+     }, {
+      count: 133,
+      min: 1340,
+      median: 8988,
+      "p95": 15819,
+      "p99": 15916,
+      max: 16084
+     }, {
+      count: 133,
+      min: 29260,
+      median: 29998,
+      "p95": 30150,
+      "p99": 30283,
+      max: 30718
+     }, 133,   106,        0,        0,              0.5564853556485355, 1,                  0,              {
+      count: 239,
+      min: 12241,
+      median: 13239,
+      "p95": 16944,
+      "p99": 19285,
+      max: 25179
+     }, {
+      count: 239,
+      min: 12506,
+      median: 16528,
+      "p95": 17230,
+      "p99": 19238,
+      max: 29286
+     }],
+    [down,  240,    {
+      count: 240,
+      min: 13608.6,
+      median: 16666.0,
+      "p95": 16843.4,
+      "p99": 17482.5,
+      max: 19153.6
+     }, {
+      count: 240,
+      min: 13624,
+      median: 16660,
+      "p95": 17033,
+      "p99": 17524,
+      max: 19304
+     }, {
+      count: 133,
+      min: 29745,
+      median: 30000,
+      "p95": 30141,
+      "p99": 30223,
+      max: 30263
+     }, {
+      count: 133,
+      min: 2085,
+      median: 9047,
+      "p95": 15853,
+      "p99": 16002,
+      max: 16407
+     }, {
+      count: 133,
+      min: 29745,
+      median: 30000,
+      "p95": 30141,
+      "p99": 30223,
+      max: 30263
+     }, 133,   107,        0,        0,              0.5541666666666667, 1,                  0,              {
+      count: 240,
+      min: 10426,
+      median: 11698,
+      "p95": 15506,
+      "p99": 17708,
+      max: 19473
+     }, {
+      count: 240,
+      min: 13440,
+      median: 16539,
+      "p95": 17075,
+      "p99": 17851,
+      max: 19356
+     }],
+    [ramp,  290,    {
+      count: 290,
+      min: 14473.3,
+      median: 16665.8,
+      "p95": 16785.0,
+      "p99": 16907.3,
+      max: 18915.0
+     }, {
+      count: 290,
+      min: 14566,
+      median: 16663,
+      "p95": 16938,
+      "p99": 17188,
+      max: 18999
+     }, {
+      count: 161,
+      min: 29567,
+      median: 29997,
+      "p95": 30300,
+      "p99": 31077,
+      max: 31135
+     }, {
+      count: 161,
+      min: 1140,
+      median: 7739,
+      "p95": 15622,
+      "p99": 15812,
+      max: 15897
+     }, {
+      count: 161,
+      min: 29567,
+      median: 29997,
+      "p95": 30300,
+      "p99": 31077,
+      max: 31135
+     }, 161,   129,        0,        0,              0.5551724137931034, 1,                  0,              {
+      count: 290,
+      min: 11768,
+      median: 12833,
+      "p95": 14591,
+      "p99": 16277,
+      max: 19101
+     }, {
+      count: 290,
+      min: 14486,
+      median: 16555,
+      "p95": 16998,
+      "p99": 17333,
+      max: 19064
+     }]
+   ]]
+ ],
+ cadences: [
+  [cadence, runs,                    verdicts,                                       whole,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  legs];
+  [1,       [
+    "tree run 1"
+   ], [
+    [verdict,  runs];
+    [admitted, 1]
+   ], {
+    frames: 813,
+    presented_interval: {
+     count: 813,
+     min: 12603.9,
+     median: 16665.8,
+     "p95": 16850.8,
+     "p99": 18231.9,
+     max: 26768.2
+    },
+    upload_interval: {
+     count: 813,
+     min: 12627,
+     median: 16662,
+     "p95": 17033,
+     "p99": 18236,
+     max: 26568
+    },
+    render_interval: {
+     count: 451,
+     min: 29260,
+     median: 29998,
+     "p95": 30166,
+     "p99": 30498,
+     max: 31135
+    },
+    age: {
+     count: 451,
+     min: 1140,
+     median: 8959,
+     "p95": 15808,
+     "p99": 15962,
+     max: 16407
+    },
+    shown_interval: {
+     count: 451,
+     min: 29260,
+     median: 29998,
+     "p95": 30166,
+     "p99": 30498,
+     max: 31135
+    },
+    shown: 451,
+    superseded: 362,
+    repeated: 0,
+    unshown_at_end: 0,
+    share_shown: 0.5547355473554736,
+    longest_superseded: 1,
+    longest_repeat: 0,
+    critical: {
+     count: 813,
+     min: 10426,
+     median: 12833,
+     "p95": 16228,
+     "p99": 18182,
+     max: 25179
+    },
+    submission_age: {
+     count: 813,
+     min: 12506,
+     median: 16550,
+     "p95": 17067,
+     "p99": 18153,
+     max: 29286
+    }
+   }, [
+    [leg,   frames, presented_interval,                                                                                                                   upload_interval,                                                                                                            render_interval,                                                                                                            age,                                                                                                                      shown_interval,                                                                                                             shown, superseded, repeated, unshown_at_end, share_shown,        longest_superseded, longest_repeat, critical,                                                                                                                   submission_age];
+    [start, 44,     {
+      count: 44,
+      min: 14886.8,
+      median: 16664.6,
+      "p95": 16855.1,
+      "p99": null,
+      max: 20633.1
+     },     {
+      count: 44,
+      min: 14886,
+      median: 16668,
+      "p95": 17034,
+      "p99": null,
+      max: 20407
+     },   {
+      count: 24,
+      min: 29843,
+      median: 29999,
+      "p95": 30149,
+      "p99": null,
+      max: 30155
+     },   {
+      count: 24,
+      min: 2041,
+      median: 8976,
+      "p95": 15836,
+      "p99": null,
+      max: 15845
+     },   {
+      count: 24,
+      min: 29843,
+      median: 29999,
+      "p95": 30149,
+      "p99": null,
+      max: 30155
+     },   24,    20,         0,        0,              0.5454545454545454, 1,                  0,              {
+      count: 44,
+      min: 12543,
+      median: 12914,
+      "p95": 14934,
+      "p99": null,
+      max: 19655
+     },   {
+      count: 44,
+      min: 14793,
+      median: 16589,
+      "p95": 16975,
+      "p99": null,
+      max: 19547
+     }],
+    [up,    239,    {
+      count: 239,
+      min: 12603.9,
+      median: 16664.8,
+      "p95": 17021.3,
+      "p99": 19133.1,
+      max: 26768.2
+     }, {
+      count: 239,
+      min: 12627,
+      median: 16658,
+      "p95": 17154,
+      "p99": 19126,
+      max: 26568
+     }, {
+      count: 133,
+      min: 29260,
+      median: 29998,
+      "p95": 30150,
+      "p99": 30283,
+      max: 30718
+     }, {
+      count: 133,
+      min: 1340,
+      median: 8988,
+      "p95": 15819,
+      "p99": 15916,
+      max: 16084
+     }, {
+      count: 133,
+      min: 29260,
+      median: 29998,
+      "p95": 30150,
+      "p99": 30283,
+      max: 30718
+     }, 133,   106,        0,        0,              0.5564853556485355, 1,                  0,              {
+      count: 239,
+      min: 12241,
+      median: 13239,
+      "p95": 16944,
+      "p99": 19285,
+      max: 25179
+     }, {
+      count: 239,
+      min: 12506,
+      median: 16528,
+      "p95": 17230,
+      "p99": 19238,
+      max: 29286
+     }],
+    [down,  240,    {
+      count: 240,
+      min: 13608.6,
+      median: 16666.0,
+      "p95": 16843.4,
+      "p99": 17482.5,
+      max: 19153.6
+     }, {
+      count: 240,
+      min: 13624,
+      median: 16660,
+      "p95": 17033,
+      "p99": 17524,
+      max: 19304
+     }, {
+      count: 133,
+      min: 29745,
+      median: 30000,
+      "p95": 30141,
+      "p99": 30223,
+      max: 30263
+     }, {
+      count: 133,
+      min: 2085,
+      median: 9047,
+      "p95": 15853,
+      "p99": 16002,
+      max: 16407
+     }, {
+      count: 133,
+      min: 29745,
+      median: 30000,
+      "p95": 30141,
+      "p99": 30223,
+      max: 30263
+     }, 133,   107,        0,        0,              0.5541666666666667, 1,                  0,              {
+      count: 240,
+      min: 10426,
+      median: 11698,
+      "p95": 15506,
+      "p99": 17708,
+      max: 19473
+     }, {
+      count: 240,
+      min: 13440,
+      median: 16539,
+      "p95": 17075,
+      "p99": 17851,
+      max: 19356
+     }],
+    [ramp,  290,    {
+      count: 290,
+      min: 14473.3,
+      median: 16665.8,
+      "p95": 16785.0,
+      "p99": 16907.3,
+      max: 18915.0
+     }, {
+      count: 290,
+      min: 14566,
+      median: 16663,
+      "p95": 16938,
+      "p99": 17188,
+      max: 18999
+     }, {
+      count: 161,
+      min: 29567,
+      median: 29997,
+      "p95": 30300,
+      "p99": 31077,
+      max: 31135
+     }, {
+      count: 161,
+      min: 1140,
+      median: 7739,
+      "p95": 15622,
+      "p99": 15812,
+      max: 15897
+     }, {
+      count: 161,
+      min: 29567,
+      median: 29997,
+      "p95": 30300,
+      "p99": 31077,
+      max: 31135
+     }, 161,   129,        0,        0,              0.5551724137931034, 1,                  0,              {
+      count: 290,
+      min: 11768,
+      median: 12833,
+      "p95": 14591,
+      "p99": 16277,
+      max: 19101
+     }, {
+      count: 290,
+      min: 14486,
+      median: 16555,
+      "p95": 16998,
+      "p99": 17333,
+      max: 19064
+     }]
+   ]]
+ ],
+ unread: [
+
+ ],
+ limits: "the pairing is exact under the run binding, which ties the guest's records to the log, and under the log's assumptions, that it records every upload once and that every flush the device accepted makes one upload. The bracket is a consistency check under a correspondence fitted from the same stream: it cannot in general prove the absence of compensating edits, it cannot uniquely reject every stream shift, and it does not establish that a loss and an addition fall inside one call; a host stamp is read as the closed microsecond after it, admitting the one point no instant logged there holds. A stall is reported, never refused. walk's TIMING-off arm pairs on a frame bracket alone. The fit is a diagnostic, giving intervals and jitter and no absolute guest-to-SDL latency."
+}

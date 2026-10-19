@@ -1,0 +1,12 @@
+{
+ run: "/home/box/proj/sourcetrait/jab-stress-data/runs/fps/proberuns/20261017T065433",
+ reader: "fps proberuns",
+ bin: "/home/box/proj/sourcetrait/jab-stress/nu/bin/nuance/fierce/proberuns.nu",
+ words: [
+  "{tree}/..",
+  "{out}/proberuns.nuon",
+  tree
+ ],
+ restoration: "853e7179fb4baa2111d192218af542f8f6d198f08e9ffd78c2e8e463bcbea15d",
+ exit: 0
+}
