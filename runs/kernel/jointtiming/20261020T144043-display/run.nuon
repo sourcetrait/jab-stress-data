@@ -1,0 +1,180 @@
+{
+ schema: 2,
+ set: jointtiming,
+ stamp: "20261020T144043-display",
+ task: JointTiming,
+ scope: {
+  kind: whole,
+  ran: 48,
+  of: 48
+ },
+ builds: [
+  [part,               build, source, record,                                 export];
+  ["p0_probed_1ka1_1", null,  export, "p0_probed_1ka1_1/run_1/identity.nuon", {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec"
+   }],
+  ["p2_probed_1ka1_1", null,  export, "p2_probed_1ka1_1/run_1/identity.nuon", {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c"
+   }],
+  ["p0_1ka1_1",        null,  export, "p0_1ka1_1/run_1/identity.nuon",        {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec"
+   }],
+  ["p2_1ka1_1",        null,  export, "p2_1ka1_1/run_1/identity.nuon",        {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c"
+   }],
+  ["p2_1ka1_2",        null,  export, "p2_1ka1_2/run_1/identity.nuon",        {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c"
+   }],
+  ["p0_1ka1_2",        null,  export, "p0_1ka1_2/run_1/identity.nuon",        {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec"
+   }],
+  ["p2_probed_1ka1_2", null,  export, "p2_probed_1ka1_2/run_1/identity.nuon", {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c"
+   }],
+  ["p0_probed_1ka1_2", null,  export, "p0_probed_1ka1_2/run_1/identity.nuon", {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec"
+   }],
+  ["p0_probed_1kb1_1", null,  export, "p0_probed_1kb1_1/run_1/identity.nuon", {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec"
+   }],
+  ["p2_probed_1kb1_1", null,  export, "p2_probed_1kb1_1/run_1/identity.nuon", {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c"
+   }],
+  ["p0_1kb1_1",        null,  export, "p0_1kb1_1/run_1/identity.nuon",        {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec"
+   }],
+  ["p2_1kb1_1",        null,  export, "p2_1kb1_1/run_1/identity.nuon",        {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c"
+   }],
+  ["p2_1kb1_2",        null,  export, "p2_1kb1_2/run_1/identity.nuon",        {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c"
+   }],
+  ["p0_1kb1_2",        null,  export, "p0_1kb1_2/run_1/identity.nuon",        {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec"
+   }],
+  ["p2_probed_1kb1_2", null,  export, "p2_probed_1kb1_2/run_1/identity.nuon", {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c"
+   }],
+  ["p0_probed_1kb1_2", null,  export, "p0_probed_1kb1_2/run_1/identity.nuon", {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec"
+   }]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "JointTiming's display battery, the comparison's step 3 on the box: fps's frozen release export export_c804ccb (image 264e7b7c) on P0's and P2's kernels exported at jab 73660a8 (landed as runs/kernel/export/20261020-jointtiming), in offscreen SDL (JAB_DISPLAY sdl,gl=on, SDL_VIDEODRIVER offscreen, JAB_AUDIO none), the factory route at cadence 1 with --host, --eps 3700, through jab-stress's gauge_batches runner from 14:40 to 16:24: sixteen batches of three runs at seeds 1 to 3, each target's P0 probed, P2 probed, P0, P2, P2, P0, P2 probed, P0 probed, 1KA1 then 1KB1, the probed runs under the SDL shim and bundled, six runs a condition. Read by the timing selector's readings assembler at jab-stress 1e956e7 over jab 8807a33: all 48 valid at eps 3,700; P0's K violations 923 to 3,301 a run and P2's none; late wakes 20 to 51 a condition, no catch-ups; each kernel's shim control passing on each target; a host limit admissible on each target, SDL's render interval's median more than half a period past the guest's presented interval's on every probed run of both kernels, so the box's display side is out and its decision guest-side. The batches' runs, pads, and bundles archived; each step's gauge report derived by the batch reread; each disk copy kept as its hash; fps's export's provenance in its landed run, runs/fierce/export/20261020-baselines. Decided with the other batteries by runs/kernel/jointtiming/20261020T211529-decision. Cited by the kernel subiter's plan/agenda/FourHarts/PresentationContract/JointTiming.md."
+ },
+ inventory: "270b45ae181bad574f26f12a77b0498b47dd923df9fe9e66fafbf3159cceec0a",
+ storage: "715879279ada18cafc19cb68a459b8b99c580e52d91bce010ef24af445566657"
+}
