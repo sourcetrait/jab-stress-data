@@ -1,0 +1,3048 @@
+{
+ reader: "walk cadence",
+ mode: paired,
+ guest_only: false,
+ limits: [
+  "rdtime is elapsed time: a host stall inside a phase reads as that phase",
+  "the pairing gives intervals and no absolute guest-to-SDL latency; its own limits are the pairing core's, given with it",
+  "attribution is within a run, by a stretch's own frames against the run's steady medians, never by comparing runs",
+  "a TIMING-off run pairs on its frame's bracket, never a call's, and locates no phase"
+ ],
+ complete: true,
+ valid: true,
+ faults: [
+
+ ],
+ nonce: 486911884824977308,
+ historical: false,
+ deciding: true,
+ build: {
+  workload: {
+   program: example/walk,
+   order: await
+  },
+  cadence: [
+   CADENCE,
+   TIMING
+  ],
+  image: "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+  kernel: "9cf2b54681ec57ed251464419856577483db7609d50721576a06a0d428c6b915"
+ },
+ unchecked: [
+
+ ],
+ reading: {
+  frames: 5515,
+  window_s: 120.0073586,
+  ended_by: "the duration",
+  flags: {
+   timing: true,
+   replay: false,
+   prepare: false,
+   test: false,
+   event_room: false
+  },
+  frame_interval: {
+   median_ms: 16.6993,
+   "p95_ms": 35.2649,
+   count: 5514
+  },
+  presented_interval: {
+   median_ms: 16.9327,
+   "p95_ms": 35.335,
+   count: 5513
+  },
+  phases: {
+   work: {
+    median_ms: 8.1534,
+    "p95_ms": 14.0456,
+    count: 5515
+   },
+   wait: {
+    median_ms: 6.8783,
+    "p95_ms": 17.0203,
+    count: 5515
+   },
+   call: {
+    median_ms: 3.0982,
+    "p95_ms": 6.8196,
+    count: 5514
+   }
+  },
+  presents: 5514,
+  k: {
+   eps: 10000,
+   period: 166666,
+   violations: 3469,
+   first: [
+    [index, witness, gap,     bound];
+    [6,     0,       989895,  989996],
+    [10,    0,       1656168, 1656660],
+    [11,    0,       1822977, 1823326],
+    [12,    0,       1989427, 1989992],
+    [13,    0,       2156126, 2156658],
+    [14,    0,       2322868, 2323324],
+    [15,    0,       2489319, 2489990],
+    [16,    0,       2656081, 2656656]
+   ]
+  },
+  workload: {
+   drawn: {
+    median: 422546,
+    "p95": 463733
+   },
+   rect_area: {
+    median: 399247,
+    "p95": 463035
+   },
+   enters_per_s: 0.8666135244809896
+  }
+ },
+ stage: null,
+ capture: {
+  profile: paired,
+  run: {
+   process: 1571315,
+   nonce: "06c1dbc78be89f9c",
+   capture_nonce: 486911884824977308,
+   qemu_pid: 1571315,
+   guest_nonce: 486911884824977308
+  },
+  reader: {
+   host: {
+    repos: [
+     [repo,                           commit,                                     dirty];
+     [/home/box/proj/sourcetrait/jab, "c804ccbc15a97e36016b9001b2e211b04431f3ed", false]
+    ],
+    runtime: [
+     [role, version,   "sha256"];
+     [nu,   "0.115.1", "c343a927a2d4a45ebf9300d013b226bcdc2598ecb0178a8a79722ebffe71e56e"]
+    ],
+    executables: [
+
+    ]
+   },
+   box: {
+    repos: [
+     [repo,                           commit,                                     dirty];
+     [/home/box/proj/sourcetrait/jab, "d83e19275992722b0e5d0731de60c2637136cd61", false]
+    ],
+    runtime: [
+     [role, version,   "sha256"];
+     [nu,   "0.115.1", "c343a927a2d4a45ebf9300d013b226bcdc2598ecb0178a8a79722ebffe71e56e"]
+    ],
+    executables: [
+
+    ]
+   },
+   same: false
+  },
+  trace: {
+   flushes: 5515,
+   uploads: 5515,
+   set_scanouts: 1,
+   max_lag_us: 1027,
+   median_lag_us: 77,
+   "p99_lag_us": 188,
+   resolution_us: 1,
+   open_last: true,
+   slow: [
+
+   ]
+  }
+ },
+ pairing: {
+  verdict: admitted,
+  refusals: [
+
+  ],
+  bound: recorded,
+  bracket: {
+   status: feasible,
+   reason: null,
+   drift_ppm: 50,
+   best: {
+    b: "260805180/260805511",
+    b_ppm: -1.2691449606676448,
+    margin: "58833021780/8413081",
+    margin_ticks: 6993.041167676859,
+    offset_lo_ticks: -20209.3552969822,
+    offset_hi_ticks: -13216.314129305343
+   },
+   feasible: {
+    b_lo: "1087665340/1087677777",
+    b_hi: "98385257/98384549",
+    b_lo_ppm: -11.434452613625478,
+    b_hi_ppm: 7.196251923663339,
+    offset_lo_ticks: -21587.708029967183,
+    offset_hi_ticks: -13002.571732648354
+   },
+   free: {
+    feasible: true,
+    b_lo_ppm: -11.434452613625478,
+    b_hi_ppm: 7.196251923663339
+   },
+   binding: {
+    ceiling: [
+     128,
+     1425
+    ],
+    floor: [
+     840
+    ]
+   }
+  },
+  shifts: [
+   [name,    status];
+   [earlier, infeasible],
+   [later,   infeasible]
+  ],
+  window: {
+   first: 2,
+   last: 5515,
+   presents: 5514,
+   uploads: 5515
+  },
+  fit: {
+   offset_s: 1792485263.4413228,
+   drift: 0.9999958188023357,
+   max_residual_ms: 10.260668867451805
+  },
+  stalls: {
+   calls: [
+    [ordinal, call_ms, median_ms, place];
+    [2,       7.8495,  3.09865,   {
+      first_ms: 1.3002720411638748,
+      last_ms: 2.159755260853768
+     }],
+    [5,       7.3317,  3.09865,   {
+      first_ms: 0.3387275332235925,
+      last_ms: 1.1973056694510642
+     }],
+    [75,      7.5085,  3.09865,   {
+      first_ms: 0.49462219856155387,
+      last_ms: 1.3313759182740155
+     }],
+    [205,     13.5627, 3.09865,   {
+      first_ms: 0.467734937457914,
+      last_ms: 1.2771633159102282
+     }],
+    [207,     7.7101,  3.09865,   {
+      first_ms: 0.7712293276958686,
+      last_ms: 1.5800281129173652
+     }],
+    [214,     7.4224,  3.09865,   {
+      first_ms: 0.6797290569650496,
+      last_ms: 1.4865286151155757
+     }],
+    [225,     7.38,    3.09865,   {
+      first_ms: 0.7125049869293241,
+      last_ms: 1.5161300400638278
+     }],
+    [1324,    7.3776,  3.09865,   {
+      first_ms: 0.9974875259111036,
+      last_ms: 1.7321341324632795
+     }],
+    [1329,    7.3179,  3.09865,   {
+      first_ms: 0.8169108170205822,
+      last_ms: 1.5521968360444724
+     }],
+    [1623,    7.4396,  3.09865,   {
+      first_ms: 0.7190183924662469,
+      last_ms: 1.4757255083382503
+     }],
+    [1627,    7.4287,  3.09865,   {
+      first_ms: 0.7637492152585615,
+      last_ms: 1.5209907646078682
+     }],
+    [1628,    7.4313,  3.09865,   {
+      first_ms: 0.7794821236933495,
+      last_ms: 1.5368581096261071
+     }],
+    [1755,    8.8704,  3.09865,   {
+      first_ms: 0.692706605767977,
+      last_ms: 1.4587614642620281
+     }],
+    [1781,    7.3352,  3.09865,   {
+      first_ms: 0.8304190221448898,
+      last_ms: 1.599792740461832
+     }],
+    [2736,    7.3697,  3.09865,   {
+      first_ms: 0.7375678886963658,
+      last_ms: 1.592112792032319
+     }],
+    [2740,    7.4195,  3.09865,   {
+      first_ms: 0.7479007653730598,
+      last_ms: 1.60298849265522
+     }],
+    [2741,    7.4673,  3.09865,   {
+      first_ms: 0.7886339187311493,
+      last_ms: 1.6438570831503296
+     }],
+    [2954,    7.3176,  3.09865,   {
+      first_ms: 0.6468245020463528,
+      last_ms: 1.5167158132978946
+     }],
+    [2955,    7.3149,  3.09865,   {
+      first_ms: 0.7155583506394834,
+      last_ms: 1.5855879391820733
+     }],
+    [3173,    7.308,   3.09865,   {
+      first_ms: 0.7905866088765058,
+      last_ms: 1.6762552869495
+     }],
+    [3175,    7.3687,  3.09865,   {
+      first_ms: 0.7699525279581682,
+      last_ms: 1.6558904967519164
+     }],
+    [3176,    7.4109,  3.09865,   {
+      first_ms: 0.760585697708762,
+      last_ms: 1.646659170605714
+     }],
+    [3178,    7.6576,  3.09865,   {
+      first_ms: 0.8764511298366162,
+      last_ms: 1.7627919041647464
+     }],
+    [3256,    7.3212,  3.09865,   {
+      first_ms: 0.8322746171162188,
+      last_ms: 1.7258445023122244
+     }],
+    [4094,    7.5686,  3.09865,   {
+      first_ms: 0.31090049290802413,
+      last_ms: 1.3056709797799957
+     }],
+    [4366,    7.5184,  3.09865,   {
+      first_ms: 0.8662241993629465,
+      last_ms: 1.9112179419659776
+     }],
+    [4367,    7.4458,  3.09865,   {
+      first_ms: 0.8104091935024924,
+      last_ms: 1.855656151440513
+     }],
+    [4383,    7.3218,  3.09865,   {
+      first_ms: 0.790676699402999,
+      last_ms: 1.8398468626425037
+     }],
+    [4392,    7.4045,  3.09865,   {
+      first_ms: 0.7738471311110017,
+      last_ms: 1.8252036853650544
+     }],
+    [4472,    7.4265,  3.09865,   {
+      first_ms: 0.8537852951321682,
+      last_ms: 1.9186623446937265
+     }],
+    [4475,    7.5268,  3.09865,   {
+      first_ms: 0.7817698897791056,
+      last_ms: 1.8475630023365153
+     }],
+    [4476,    8.9242,  3.09865,   {
+      first_ms: 0.6646970782309538,
+      last_ms: 1.7307998393833688
+     }],
+    [4523,    7.4563,  3.09865,   {
+      first_ms: 0.8265969821255416,
+      last_ms: 1.9041825504238465
+     }],
+    [4566,    7.3523,  3.09865,   {
+      first_ms: 0.736256980489188,
+      last_ms: 1.8237939677230846
+     }],
+    [4572,    7.6416,  3.09865,   {
+      first_ms: 0.8455258912275325,
+      last_ms: 1.934896189077423
+     }],
+    [4608,    10.1642, 3.09865,   {
+      first_ms: 0.6780377042101988,
+      last_ms: 1.7737368747556967
+     }],
+    [4775,    7.4545,  3.09865,   {
+      first_ms: 1.019015837065552,
+      last_ms: 2.147128828118456
+     }],
+    [4868,    8.3958,  3.09865,   {
+      first_ms: 0.5317603218747357,
+      last_ms: 1.685200571558726
+     }],
+    [4920,    7.3056,  3.09865,   {
+      first_ms: 1.0855462836388265,
+      last_ms: 2.254781372887943
+     }],
+    [5134,    8.3056,  3.09865,   {
+      first_ms: 0.4613059540978338,
+      last_ms: 1.6848624132833585
+     }],
+    [5281,    7.3766,  3.09865,   {
+      first_ms: 0.9743411942553548,
+      last_ms: 2.2535756260855018
+     }]
+   ],
+   frame: [
+
+   ]
+  },
+  limits: "the pairing is exact under the run binding, which ties the guest's records to the log, and under the log's assumptions, that it records every upload once and that every flush the device accepted makes one upload. The bracket is a consistency check under a correspondence fitted from the same stream: it cannot in general prove the absence of compensating edits, it cannot uniquely reject every stream shift, and it does not establish that a loss and an addition fall inside one call; a host stamp is read as the closed microsecond after it, admitting the one point no instant logged there holds. A stall is reported, never refused. walk's TIMING-off arm pairs on a frame bracket alone. The fit is a diagnostic, giving intervals and jitter and no absolute guest-to-SDL latency."
+ },
+ flips: {
+  presents: 5514,
+  renders: 3758,
+  shown: 3756,
+  superseded: 1758,
+  repeated: 0,
+  unshown_at_end: 0,
+  share_shown: 0.6811751904243744,
+  host_interval: {
+   median_ms: 16.947,
+   "p95_ms": 35.305,
+   count: 5513
+  },
+  presented_interval: {
+   median_ms: 16.9327,
+   "p95_ms": 35.335,
+   count: 5513
+  },
+  age: {
+   median_ms: 8.97,
+   "p95_ms": 25.519,
+   count: 3756
+  },
+  shown_interval: {
+   median_ms: 30.028,
+   "p95_ms": 35.392,
+   count: 3755
+  }
+ },
+ stretches: [
+  [first,                                     last,                                      flips, at_s,        host_interval,                                                     presented_interval,                                                  frame_interval,                                                                                                                                              phases,                                                                                                                                                                                                                                                                                                       located];
+  [{
+    frame: 205,
+    ordinal: 206
+   },   {
+    frame: 241,
+    ordinal: 242
+   },   37,    3.4558707,   {
+    median_ms: 34.168,
+    "p95_ms": 34.957,
+    count: 37
+   }, {
+    median_ms: 34.1981,
+    "p95_ms": 35.0355,
+    count: 37
+   }, {
+    name: frame_interval,
+    median_ms: 34.218,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.5507,
+    risen: true
+   },  [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 10.1403,   7.9705,           10.7963,         2.1698,  false],
+    [wait, 16.9974,   6.3671,           8.8073,          10.6303, true],
+    [call, 7.1313,    2.3236,           6.2605,          4.8077,  true]
+   ],  [
+    "the wait",
+    "the flip call"
+   ]],
+  [{
+    frame: 248,
+    ordinal: 249
+   },   {
+    frame: 253,
+    ordinal: 254
+   },   6,     4.8217067,   {
+    median_ms: 34.351,
+    "p95_ms": 34.842,
+    count: 6
+   },  {
+    median_ms: 34.4062,
+    "p95_ms": 34.8733,
+    count: 6
+   },  {
+    name: frame_interval,
+    median_ms: 34.4516,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.7843,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 11.0548,   7.9705,           10.7963,         3.0843,  false],
+    [wait, 16.9921,   6.3671,           8.8073,          10.625,  true],
+    [call, 6.2528,    2.3236,           6.2605,          3.9292,  false]
+   ], [
+    "the wait"
+   ]],
+  [{
+    frame: 259,
+    ordinal: 260
+   },   {
+    frame: 274,
+    ordinal: 275
+   },   16,    5.1123837,   {
+    median_ms: 35.178,
+    "p95_ms": 36.124,
+    count: 16
+   }, {
+    median_ms: 35.1697,
+    "p95_ms": 36.2643,
+    count: 16
+   }, {
+    name: frame_interval,
+    median_ms: 35.1105,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.4432,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 12.3642,   7.9705,           10.7963,         4.3937,  true],
+    [wait, 16.9917,   6.3671,           8.8073,          10.6246, true],
+    [call, 5.5904,    2.3236,           6.2605,          3.2668,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 276,
+    ordinal: 277
+   },   {
+    frame: 295,
+    ordinal: 296
+   },   20,    5.6939112,   {
+    median_ms: 35.057,
+    "p95_ms": 36.615,
+    count: 20
+   }, {
+    median_ms: 34.9595,
+    "p95_ms": 36.5344,
+    count: 20
+   }, {
+    name: frame_interval,
+    median_ms: 35.0749,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.4076,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.7595,   7.9705,           10.7963,         5.789,   true],
+    [wait, 17.0085,   6.3671,           8.8073,          10.6414, true],
+    [call, 4.1328,    2.3236,           6.2605,          1.8092,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 297,
+    ordinal: 298
+   },   {
+    frame: 312,
+    ordinal: 313
+   },   16,    6.4165414,   {
+    median_ms: 35.062,
+    "p95_ms": 38.623,
+    count: 16
+   }, {
+    median_ms: 35.0786,
+    "p95_ms": 38.8727,
+    count: 16
+   }, {
+    name: frame_interval,
+    median_ms: 35.2321,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.5648,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 14.12,     7.9705,           10.7963,         6.1495,  true],
+    [wait, 16.9902,   6.3671,           8.8073,          10.6231, true],
+    [call, 3.9462,    2.3236,           6.2605,          1.6226,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 348,
+    ordinal: 349
+   },   {
+    frame: 378,
+    ordinal: 379
+   },   31,    7.5694248,   {
+    median_ms: 34.558,
+    "p95_ms": 35.899,
+    count: 31
+   }, {
+    median_ms: 34.563,
+    "p95_ms": 35.8985,
+    count: 31
+   },  {
+    name: frame_interval,
+    median_ms: 34.6296,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.9623,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 14.2346,   7.9705,           10.7963,         6.2641,  true],
+    [wait, 16.8693,   6.3671,           8.8073,          10.5022, true],
+    [call, 3.4502,    2.3236,           6.2605,          1.1266,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 989,
+    ordinal: 990
+   },   {
+    frame: 994,
+    ordinal: 995
+   },   6,     18.8264892,  {
+    median_ms: 33.564,
+    "p95_ms": 35.83,
+    count: 6
+   },   {
+    median_ms: 33.5887,
+    "p95_ms": 35.7737,
+    count: 6
+   },  {
+    name: frame_interval,
+    median_ms: 33.8851,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.2178,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 14.05,     7.9705,           10.7963,         6.0795,  true],
+    [wait, 16.9934,   6.3671,           8.8073,          10.6263, true],
+    [call, 2.6123,    2.3236,           6.2605,          0.2887,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 1043,
+    ordinal: 1044
+   }, {
+    frame: 1060,
+    ordinal: 1061
+   }, 18,    19.8666629,  {
+    median_ms: 33.995,
+    "p95_ms": 36.391,
+    count: 18
+   }, {
+    median_ms: 33.9268,
+    "p95_ms": 36.8183,
+    count: 18
+   }, {
+    name: frame_interval,
+    median_ms: 33.9667,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.2994,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 14.0701,   7.9705,           10.7963,         6.0996,  true],
+    [wait, 16.9893,   6.3671,           8.8073,          10.6222, true],
+    [call, 2.8508,    2.3236,           6.2605,          0.5272,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 1163,
+    ordinal: 1164
+   }, {
+    frame: 1167,
+    ordinal: 1168
+   }, 5,     22.1851932,  {
+    median_ms: 34.541,
+    "p95_ms": 35.006,
+    count: 5
+   },  {
+    median_ms: 34.5569,
+    "p95_ms": 35.005,
+    count: 5
+   },   {
+    name: frame_interval,
+    median_ms: 34.6503,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.983,
+    risen: true
+   },  [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 14.1545,   7.9705,           10.7963,         6.184,   true],
+    [wait, 16.9608,   6.3671,           8.8073,          10.5937, true],
+    [call, 3.4475,    2.3236,           6.2605,          1.1239,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 1169,
+    ordinal: 1170
+   }, {
+    frame: 1181,
+    ordinal: 1182
+   }, 13,    22.3783839,  {
+    median_ms: 34.473,
+    "p95_ms": 36.011,
+    count: 13
+   }, {
+    median_ms: 34.4932,
+    "p95_ms": 36.2828,
+    count: 13
+   }, {
+    name: frame_interval,
+    median_ms: 34.5598,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.8925,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 14.081,    7.9705,           10.7963,         6.1105,  true],
+    [wait, 16.9748,   6.3671,           8.8073,          10.6077, true],
+    [call, 3.3797,    2.3236,           6.2605,          1.0561,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 1288,
+    ordinal: 1289
+   }, {
+    frame: 1319,
+    ordinal: 1320
+   }, 32,    24.5965625,  {
+    median_ms: 34.889,
+    "p95_ms": 37.447,
+    count: 32
+   }, {
+    median_ms: 34.8264,
+    "p95_ms": 37.6325,
+    count: 32
+   }, {
+    name: frame_interval,
+    median_ms: 34.9123,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.245,
+    risen: true
+   },  [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.0388,   7.9705,           10.7963,         5.0683,  true],
+    [wait, 16.9827,   6.3671,           8.8073,          10.6156, true],
+    [call, 4.8463,    2.3236,           6.2605,          2.5227,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 1324,
+    ordinal: 1325
+   }, {
+    frame: 1333,
+    ordinal: 1334
+   }, 10,    25.788903,   {
+    median_ms: 35.253,
+    "p95_ms": 36.647,
+    count: 10
+   }, {
+    median_ms: 35.2244,
+    "p95_ms": 36.5194,
+    count: 10
+   }, {
+    name: frame_interval,
+    median_ms: 35.3033,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.636,
+    risen: true
+   },  [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 11.9988,   7.9705,           10.7963,         4.0283,  false],
+    [wait, 16.9747,   6.3671,           8.8073,          10.6076, true],
+    [call, 6.0011,    2.3236,           6.2605,          3.6775,  false]
+   ], [
+    "the wait"
+   ]],
+  [{
+    frame: 1337,
+    ordinal: 1338
+   }, {
+    frame: 1367,
+    ordinal: 1368
+   }, 31,    26.1897502,  {
+    median_ms: 34.447,
+    "p95_ms": 35.018,
+    count: 31
+   }, {
+    median_ms: 34.4736,
+    "p95_ms": 35.0224,
+    count: 31
+   }, {
+    name: frame_interval,
+    median_ms: 34.5795,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.9122,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 11.5585,   7.9705,           10.7963,         3.588,   false],
+    [wait, 16.9311,   6.3671,           8.8073,          10.564,  true],
+    [call, 6.2568,    2.3236,           6.2605,          3.9332,  false]
+   ], [
+    "the wait"
+   ]],
+  [{
+    frame: 1621,
+    ordinal: 1622
+   }, {
+    frame: 1630,
+    ordinal: 1631
+   }, 10,    31.5111838,  {
+    median_ms: 33.847,
+    "p95_ms": 34.128,
+    count: 10
+   }, {
+    median_ms: 33.8961,
+    "p95_ms": 34.1474,
+    count: 10
+   }, {
+    name: frame_interval,
+    median_ms: 33.7785,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.1112,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 9.6645,    7.9705,           10.7963,         1.694,   false],
+    [wait, 17.0167,   6.3671,           8.8073,          10.6496, true],
+    [call, 7.0746,    2.3236,           6.2605,          4.751,   true]
+   ],  [
+    "the wait",
+    "the flip call"
+   ]],
+  [{
+    frame: 1753,
+    ordinal: 1754
+   }, {
+    frame: 1766,
+    ordinal: 1767
+   }, 14,    33.8831015,  {
+    median_ms: 34.349,
+    "p95_ms": 36.651,
+    count: 14
+   }, {
+    median_ms: 34.3681,
+    "p95_ms": 36.6042,
+    count: 14
+   }, {
+    name: frame_interval,
+    median_ms: 34.338,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.6707,
+    risen: true
+   },  [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 10.9022,   7.9705,           10.7963,         2.9317,  false],
+    [wait, 16.9145,   6.3671,           8.8073,          10.5474, true],
+    [call, 6.4299,    2.3236,           6.2605,          4.1063,  false]
+   ], [
+    "the wait"
+   ]],
+  [{
+    frame: 1770,
+    ordinal: 1771
+   }, {
+    frame: 1785,
+    ordinal: 1786
+   }, 16,    34.4156804,  {
+    median_ms: 34.389,
+    "p95_ms": 34.847,
+    count: 16
+   }, {
+    median_ms: 34.3357,
+    "p95_ms": 34.9519,
+    count: 16
+   }, {
+    name: frame_interval,
+    median_ms: 34.4412,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.7739,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 10.7509,   7.9705,           10.7963,         2.7804,  false],
+    [wait, 16.9856,   6.3671,           8.8073,          10.6185, true],
+    [call, 6.4963,    2.3236,           6.2605,          4.1727,  true]
+   ],  [
+    "the wait",
+    "the flip call"
+   ]],
+  [{
+    frame: 1798,
+    ordinal: 1799
+   }, {
+    frame: 1804,
+    ordinal: 1805
+   }, 7,     35.1667884,  {
+    median_ms: 34.825,
+    "p95_ms": 35.181,
+    count: 7
+   },  {
+    median_ms: 34.8087,
+    "p95_ms": 35.2376,
+    count: 7
+   },  {
+    name: frame_interval,
+    median_ms: 34.6784,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.0111,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 11.1049,   7.9705,           10.7963,         3.1344,  false],
+    [wait, 16.977,    6.3671,           8.8073,          10.6099, true],
+    [call, 6.5409,    2.3236,           6.2605,          4.2173,  true]
+   ],  [
+    "the wait",
+    "the flip call"
+   ]],
+  [{
+    frame: 1812,
+    ordinal: 1813
+   }, {
+    frame: 1818,
+    ordinal: 1819
+   }, 7,     35.5277079,  {
+    median_ms: 35.392,
+    "p95_ms": 35.784,
+    count: 7
+   },  {
+    median_ms: 35.396,
+    "p95_ms": 35.8003,
+    count: 7
+   },   {
+    name: frame_interval,
+    median_ms: 35.352,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.6847,
+    risen: true
+   },  [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 11.8885,   7.9705,           10.7963,         3.918,   false],
+    [wait, 16.9935,   6.3671,           8.8073,          10.6264, true],
+    [call, 6.2892,    2.3236,           6.2605,          3.9656,  false]
+   ], [
+    "the wait"
+   ]],
+  [{
+    frame: 1825,
+    ordinal: 1826
+   }, {
+    frame: 1840,
+    ordinal: 1841
+   }, 16,    35.8755793,  {
+    median_ms: 34.816,
+    "p95_ms": 36.186,
+    count: 16
+   }, {
+    median_ms: 34.7806,
+    "p95_ms": 36.2618,
+    count: 16
+   }, {
+    name: frame_interval,
+    median_ms: 34.7129,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.0456,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 12.4553,   7.9705,           10.7963,         4.4848,  true],
+    [wait, 16.978,    6.3671,           8.8073,          10.6109, true],
+    [call, 5.1674,    2.3236,           6.2605,          2.8438,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 1881,
+    ordinal: 1882
+   }, {
+    frame: 1905,
+    ordinal: 1906
+   }, 25,    37.0798975,  {
+    median_ms: 35.39,
+    "p95_ms": 37.447,
+    count: 25
+   },  {
+    median_ms: 35.4013,
+    "p95_ms": 37.7481,
+    count: 25
+   }, {
+    name: frame_interval,
+    median_ms: 35.1517,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.4844,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.5872,   7.9705,           10.7963,         5.6167,  true],
+    [wait, 16.977,    6.3671,           8.8073,          10.6099, true],
+    [call, 4.5753,    2.3236,           6.2605,          2.2517,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 1916,
+    ordinal: 1917
+   }, {
+    frame: 1921,
+    ordinal: 1922
+   }, 6,     38.1321446,  {
+    median_ms: 34.161,
+    "p95_ms": 35.413,
+    count: 6
+   },  {
+    median_ms: 34.1547,
+    "p95_ms": 35.4695,
+    count: 6
+   },  {
+    name: frame_interval,
+    median_ms: 34.2194,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.5521,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.2184,   7.9705,           10.7963,         5.2479,  true],
+    [wait, 16.9581,   6.3671,           8.8073,          10.591,  true],
+    [call, 4.1084,    2.3236,           6.2605,          1.7848,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 1929,
+    ordinal: 1930
+   }, {
+    frame: 1941,
+    ordinal: 1942
+   }, 13,    38.5378595,  {
+    median_ms: 34.869,
+    "p95_ms": 36.431,
+    count: 13
+   }, {
+    median_ms: 34.9417,
+    "p95_ms": 36.6618,
+    count: 13
+   }, {
+    name: frame_interval,
+    median_ms: 34.6358,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.9685,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.7624,   7.9705,           10.7963,         5.7919,  true],
+    [wait, 16.9844,   6.3671,           8.8073,          10.6173, true],
+    [call, 3.8359,    2.3236,           6.2605,          1.5123,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 1961,
+    ordinal: 1962
+   }, {
+    frame: 1965,
+    ordinal: 1966
+   }, 5,     39.3067191,  {
+    median_ms: 34.618,
+    "p95_ms": 34.94,
+    count: 5
+   },   {
+    median_ms: 34.55,
+    "p95_ms": 35.028,
+    count: 5
+   },     {
+    name: frame_interval,
+    median_ms: 34.5794,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.9121,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.75,     7.9705,           10.7963,         5.7795,  true],
+    [wait, 16.9741,   6.3671,           8.8073,          10.607,  true],
+    [call, 3.8081,    2.3236,           6.2605,          1.4845,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 1967,
+    ordinal: 1968
+   }, {
+    frame: 1992,
+    ordinal: 1993
+   }, 26,    39.5002462,  {
+    median_ms: 34.781,
+    "p95_ms": 36.459,
+    count: 26
+   }, {
+    median_ms: 34.7391,
+    "p95_ms": 36.2566,
+    count: 26
+   }, {
+    name: frame_interval,
+    median_ms: 34.6254,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.9581,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.8664,   7.9705,           10.7963,         5.8959,  true],
+    [wait, 16.992,    6.3671,           8.8073,          10.6249, true],
+    [call, 3.7391,    2.3236,           6.2605,          1.4155,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 1996,
+    ordinal: 1997
+   }, {
+    frame: 2006,
+    ordinal: 2007
+   }, 11,    40.4542632,  {
+    median_ms: 34.185,
+    "p95_ms": 35.824,
+    count: 11
+   }, {
+    median_ms: 34.2351,
+    "p95_ms": 36.1469,
+    count: 11
+   }, {
+    name: frame_interval,
+    median_ms: 34.2395,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.5722,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.9253,   7.9705,           10.7963,         5.9548,  true],
+    [wait, 16.8924,   6.3671,           8.8073,          10.5253, true],
+    [call, 3.4057,    2.3236,           6.2605,          1.0821,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 2054,
+    ordinal: 2055
+   }, {
+    frame: 2073,
+    ordinal: 2074
+   }, 20,    41.7085278,  {
+    median_ms: 34.2,
+    "p95_ms": 36.411,
+    count: 20
+   },   {
+    median_ms: 34.2074,
+    "p95_ms": 36.4969,
+    count: 20
+   }, {
+    name: frame_interval,
+    median_ms: 34.1643,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.497,
+    risen: true
+   },  [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 14.013,    7.9705,           10.7963,         6.0425,  true],
+    [wait, 16.9698,   6.3671,           8.8073,          10.6027, true],
+    [call, 3.2042,    2.3236,           6.2605,          0.8806,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 2425,
+    ordinal: 2426
+   }, {
+    frame: 2445,
+    ordinal: 2446
+   }, 21,    48.2843718,  {
+    median_ms: 33.864,
+    "p95_ms": 34.456,
+    count: 21
+   }, {
+    median_ms: 33.8517,
+    "p95_ms": 34.4429,
+    count: 21
+   }, {
+    name: frame_interval,
+    median_ms: 33.9181,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.2508,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.6611,   7.9705,           10.7963,         5.6906,  true],
+    [wait, 16.9792,   6.3671,           8.8073,          10.6121, true],
+    [call, 3.1912,    2.3236,           6.2605,          0.8676,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 2464,
+    ordinal: 2465
+   }, {
+    frame: 2472,
+    ordinal: 2473
+   }, 9,     49.299291,   {
+    median_ms: 34.026,
+    "p95_ms": 35.328,
+    count: 9
+   },  {
+    median_ms: 34.0079,
+    "p95_ms": 35.3253,
+    count: 9
+   },  {
+    name: frame_interval,
+    median_ms: 34.249,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.5817,
+    risen: true
+   },  [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.7316,   7.9705,           10.7963,         5.7611,  true],
+    [wait, 16.9899,   6.3671,           8.8073,          10.6228, true],
+    [call, 3.2706,    2.3236,           6.2605,          0.947,   false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 2497,
+    ordinal: 2498
+   }, {
+    frame: 2503,
+    ordinal: 2504
+   }, 7,     50.0056156,  {
+    median_ms: 34.747,
+    "p95_ms": 38.289,
+    count: 7
+   },  {
+    median_ms: 34.7304,
+    "p95_ms": 38.5273,
+    count: 7
+   },  {
+    name: frame_interval,
+    median_ms: 34.4099,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.7426,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.9098,   7.9705,           10.7963,         5.9393,  true],
+    [wait, 17.0134,   6.3671,           8.8073,          10.6463, true],
+    [call, 3.705,     2.3236,           6.2605,          1.3814,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 2513,
+    ordinal: 2514
+   }, {
+    frame: 2520,
+    ordinal: 2521
+   }, 8,     50.4582853,  {
+    median_ms: 33.763,
+    "p95_ms": 34.139,
+    count: 8
+   },  {
+    median_ms: 33.7682,
+    "p95_ms": 34.2146,
+    count: 8
+   },  {
+    name: frame_interval,
+    median_ms: 33.7491,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.0818,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.8176,   7.9705,           10.7963,         5.8471,  true],
+    [wait, 16.8242,   6.3671,           8.8073,          10.4571, true],
+    [call, 3.018,     2.3236,           6.2605,          0.6944,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 2534,
+    ordinal: 2535
+   }, {
+    frame: 2545,
+    ordinal: 2546
+   }, 12,    51.020706,   {
+    median_ms: 34.604,
+    "p95_ms": 35.407,
+    count: 12
+   }, {
+    median_ms: 34.5546,
+    "p95_ms": 35.4731,
+    count: 12
+   }, {
+    name: frame_interval,
+    median_ms: 34.5085,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.8412,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.5618,   7.9705,           10.7963,         5.5913,  true],
+    [wait, 17.0005,   6.3671,           8.8073,          10.6334, true],
+    [call, 3.9223,    2.3236,           6.2605,          1.5987,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 2548,
+    ordinal: 2549
+   }, {
+    frame: 2593,
+    ordinal: 2594
+   }, 46,    51.4696677,  {
+    median_ms: 34.691,
+    "p95_ms": 36.556,
+    count: 46
+   }, {
+    median_ms: 34.7165,
+    "p95_ms": 36.4084,
+    count: 46
+   }, {
+    name: frame_interval,
+    median_ms: 34.6721,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.0048,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.3489,   7.9705,           10.7963,         5.3784,  true],
+    [wait, 16.9913,   6.3671,           8.8073,          10.6242, true],
+    [call, 4.3853,    2.3236,           6.2605,          2.0617,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 2609,
+    ordinal: 2610
+   }, {
+    frame: 2645,
+    ordinal: 2646
+   }, 37,    53.3249138,  {
+    median_ms: 34.959,
+    "p95_ms": 35.712,
+    count: 37
+   }, {
+    median_ms: 34.9619,
+    "p95_ms": 35.7939,
+    count: 37
+   }, {
+    name: frame_interval,
+    median_ms: 35.0063,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.339,
+    risen: true
+   },  [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 12.7681,   7.9705,           10.7963,         4.7976,  true],
+    [wait, 16.9542,   6.3671,           8.8073,          10.5871, true],
+    [call, 5.2566,    2.3236,           6.2605,          2.933,   false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 2647,
+    ordinal: 2648
+   }, {
+    frame: 2657,
+    ordinal: 2658
+   }, 11,    54.6356989,  {
+    median_ms: 35.153,
+    "p95_ms": 36.841,
+    count: 11
+   }, {
+    median_ms: 35.2782,
+    "p95_ms": 36.8981,
+    count: 11
+   }, {
+    name: frame_interval,
+    median_ms: 35.2638,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.5965,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 12.1795,   7.9705,           10.7963,         4.209,   true],
+    [wait, 16.9621,   6.3671,           8.8073,          10.595,  true],
+    [call, 6.0596,    2.3236,           6.2605,          3.736,   false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 2735,
+    ordinal: 2736
+   }, {
+    frame: 2742,
+    ordinal: 2743
+   }, 8,     56.3815892,  {
+    median_ms: 34.308,
+    "p95_ms": 34.897,
+    count: 8
+   },  {
+    median_ms: 34.3147,
+    "p95_ms": 34.8842,
+    count: 8
+   },  {
+    name: frame_interval,
+    median_ms: 34.3248,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.6575,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 10.2281,   7.9705,           10.7963,         2.2576,  false],
+    [wait, 16.9978,   6.3671,           8.8073,          10.6307, true],
+    [call, 6.9982,    2.3236,           6.2605,          4.6746,  true]
+   ],  [
+    "the wait",
+    "the flip call"
+   ]],
+  [{
+    frame: 2945,
+    ordinal: 2946
+   }, {
+    frame: 2950,
+    ordinal: 2951
+   }, 6,     60.039483,   {
+    median_ms: 33.752,
+    "p95_ms": 34.573,
+    count: 6
+   },  {
+    median_ms: 33.8084,
+    "p95_ms": 34.5449,
+    count: 6
+   },  {
+    name: frame_interval,
+    median_ms: 33.7456,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.0783,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 10.0081,   7.9705,           10.7963,         2.0376,  false],
+    [wait, 16.995,    6.3671,           8.8073,          10.6279, true],
+    [call, 6.847,     2.3236,           6.2605,          4.5234,  true]
+   ],  [
+    "the wait",
+    "the flip call"
+   ]],
+  [{
+    frame: 2953,
+    ordinal: 2954
+   }, {
+    frame: 2957,
+    ordinal: 2958
+   }, 5,     60.2776727,  {
+    median_ms: 34.973,
+    "p95_ms": 35.103,
+    count: 5
+   },  {
+    median_ms: 34.8554,
+    "p95_ms": 35.1685,
+    count: 5
+   },  {
+    name: frame_interval,
+    median_ms: 34.7541,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.0868,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 10.6587,   7.9705,           10.7963,         2.6882,  false],
+    [wait, 17.0071,   6.3671,           8.8073,          10.64,   true],
+    [call, 6.8908,    2.3236,           6.2605,          4.5672,  true]
+   ],  [
+    "the wait",
+    "the flip call"
+   ]],
+  [{
+    frame: 3155,
+    ordinal: 3156
+   }, {
+    frame: 3160,
+    ordinal: 3161
+   }, 6,     63.7337975,  {
+    median_ms: 34.35,
+    "p95_ms": 34.999,
+    count: 6
+   },   {
+    median_ms: 34.3402,
+    "p95_ms": 35.159,
+    count: 6
+   },   {
+    name: frame_interval,
+    median_ms: 34.3959,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.7286,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 10.8588,   7.9705,           10.7963,         2.8883,  false],
+    [wait, 16.9972,   6.3671,           8.8073,          10.6301, true],
+    [call, 6.5132,    2.3236,           6.2605,          4.1896,  true]
+   ],  [
+    "the wait",
+    "the flip call"
+   ]],
+  [{
+    frame: 3163,
+    ordinal: 3164
+   }, {
+    frame: 3179,
+    ordinal: 3180
+   }, 17,    63.9742689,  {
+    median_ms: 34.118,
+    "p95_ms": 34.798,
+    count: 17
+   }, {
+    median_ms: 34.1216,
+    "p95_ms": 34.794,
+    count: 17
+   },  {
+    name: frame_interval,
+    median_ms: 34.2536,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.5863,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 10.0853,   7.9705,           10.7963,         2.1148,  false],
+    [wait, 16.9663,   6.3671,           8.8073,          10.5992, true],
+    [call, 7.1276,    2.3236,           6.2605,          4.804,   true]
+   ],  [
+    "the wait",
+    "the flip call"
+   ]],
+  [{
+    frame: 3248,
+    ordinal: 3249
+   }, {
+    frame: 3269,
+    ordinal: 3270
+   }, 22,    65.6891063,  {
+    median_ms: 35.037,
+    "p95_ms": 35.584,
+    count: 22
+   }, {
+    median_ms: 34.9955,
+    "p95_ms": 35.4663,
+    count: 22
+   }, {
+    name: frame_interval,
+    median_ms: 34.8728,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.2055,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 11.1748,   7.9705,           10.7963,         3.2043,  false],
+    [wait, 17.0071,   6.3671,           8.8073,          10.64,   true],
+    [call, 6.6908,    2.3236,           6.2605,          4.3672,  true]
+   ],  [
+    "the wait",
+    "the flip call"
+   ]],
+  [{
+    frame: 3377,
+    ordinal: 3378
+   }, {
+    frame: 3381,
+    ordinal: 3382
+   }, 5,     68.2430928,  {
+    median_ms: 34.868,
+    "p95_ms": 37.574,
+    count: 5
+   },  {
+    median_ms: 34.9375,
+    "p95_ms": 37.9771,
+    count: 5
+   },  {
+    name: frame_interval,
+    median_ms: 35.1591,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.4918,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.2009,   7.9705,           10.7963,         5.2304,  true],
+    [wait, 17.0167,   6.3671,           8.8073,          10.6496, true],
+    [call, 4.6478,    2.3236,           6.2605,          2.3242,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 3385,
+    ordinal: 3386
+   }, {
+    frame: 3392,
+    ordinal: 3393
+   }, 8,     68.4702166,  {
+    median_ms: 34.958,
+    "p95_ms": 37.181,
+    count: 8
+   },  {
+    median_ms: 34.915,
+    "p95_ms": 37.3232,
+    count: 8
+   },   {
+    name: frame_interval,
+    median_ms: 34.9028,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.2355,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.0812,   7.9705,           10.7963,         5.1107,  true],
+    [wait, 16.9578,   6.3671,           8.8073,          10.5907, true],
+    [call, 4.7684,    2.3236,           6.2605,          2.4448,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 3394,
+    ordinal: 3395
+   }, {
+    frame: 3400,
+    ordinal: 3401
+   }, 7,     68.7685061,  {
+    median_ms: 34.884,
+    "p95_ms": 36.073,
+    count: 7
+   },  {
+    median_ms: 35.0351,
+    "p95_ms": 36.1067,
+    count: 7
+   },  {
+    name: frame_interval,
+    median_ms: 34.9517,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.2844,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.4671,   7.9705,           10.7963,         5.4966,  true],
+    [wait, 16.8872,   6.3671,           8.8073,          10.5201, true],
+    [call, 4.4493,    2.3236,           6.2605,          2.1257,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 3402,
+    ordinal: 3403
+   }, {
+    frame: 3422,
+    ordinal: 3423
+   }, 21,    69.0290155,  {
+    median_ms: 34.86,
+    "p95_ms": 36.113,
+    count: 21
+   },  {
+    median_ms: 34.8144,
+    "p95_ms": 36.1698,
+    count: 21
+   }, {
+    name: frame_interval,
+    median_ms: 34.76,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.0927,
+    risen: true
+   },   [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.1446,   7.9705,           10.7963,         5.1741,  true],
+    [wait, 16.9841,   6.3671,           8.8073,          10.617,  true],
+    [call, 4.5507,    2.3236,           6.2605,          2.2271,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 3424,
+    ordinal: 3425
+   }, {
+    frame: 3453,
+    ordinal: 3454
+   }, 30,    69.7790241,  {
+    median_ms: 34.48,
+    "p95_ms": 35.86,
+    count: 30
+   },   {
+    median_ms: 34.467,
+    "p95_ms": 35.9549,
+    count: 30
+   },  {
+    name: frame_interval,
+    median_ms: 34.439,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.7717,
+    risen: true
+   },  [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.5155,   7.9705,           10.7963,         5.545,   true],
+    [wait, 16.9627,   6.3671,           8.8073,          10.5956, true],
+    [call, 3.9877,    2.3236,           6.2605,          1.6641,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 3536,
+    ordinal: 3537
+   }, {
+    frame: 3555,
+    ordinal: 3556
+   }, 20,    72.1842512,  {
+    median_ms: 34.377,
+    "p95_ms": 35.347,
+    count: 20
+   }, {
+    median_ms: 34.4151,
+    "p95_ms": 35.3141,
+    count: 20
+   }, {
+    name: frame_interval,
+    median_ms: 34.4384,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.7711,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.6552,   7.9705,           10.7963,         5.6847,  true],
+    [wait, 16.9878,   6.3671,           8.8073,          10.6207, true],
+    [call, 3.8541,    2.3236,           6.2605,          1.5305,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 3557,
+    ordinal: 3558
+   }, {
+    frame: 3563,
+    ordinal: 3564
+   }, 7,     72.8936564,  {
+    median_ms: 33.731,
+    "p95_ms": 35.349,
+    count: 7
+   },  {
+    median_ms: 33.6917,
+    "p95_ms": 35.5628,
+    count: 7
+   },  {
+    name: frame_interval,
+    median_ms: 34.0301,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.3628,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.604,    7.9705,           10.7963,         5.6335,  true],
+    [wait, 16.9767,   6.3671,           8.8073,          10.6096, true],
+    [call, 3.2774,    2.3236,           6.2605,          0.9538,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 3623,
+    ordinal: 3624
+   }, {
+    frame: 3633,
+    ordinal: 3634
+   }, 11,    74.1164273,  {
+    median_ms: 34.081,
+    "p95_ms": 35.162,
+    count: 11
+   }, {
+    median_ms: 34.1593,
+    "p95_ms": 35.3576,
+    count: 11
+   }, {
+    name: frame_interval,
+    median_ms: 34.0515,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.3842,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.8117,   7.9705,           10.7963,         5.8412,  true],
+    [wait, 16.9929,   6.3671,           8.8073,          10.6258, true],
+    [call, 3.2222,    2.3236,           6.2605,          0.8986,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 3935,
+    ordinal: 3936
+   }, {
+    frame: 3947,
+    ordinal: 3948
+   }, 13,    79.5599896,  {
+    median_ms: 34.186,
+    "p95_ms": 34.866,
+    count: 13
+   }, {
+    median_ms: 34.2356,
+    "p95_ms": 34.8594,
+    count: 13
+   }, {
+    name: frame_interval,
+    median_ms: 34.2951,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.6278,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.7237,   7.9705,           10.7963,         5.7532,  true],
+    [wait, 16.991,    6.3671,           8.8073,          10.6239, true],
+    [call, 3.5309,    2.3236,           6.2605,          1.2073,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 3964,
+    ordinal: 3965
+   }, {
+    frame: 3968,
+    ordinal: 3969
+   }, 5,     80.2760684,  {
+    median_ms: 34.35,
+    "p95_ms": 37.216,
+    count: 5
+   },   {
+    median_ms: 34.3475,
+    "p95_ms": 37.232,
+    count: 5
+   },   {
+    name: frame_interval,
+    median_ms: 34.2849,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.6176,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.8516,   7.9705,           10.7963,         5.8811,  true],
+    [wait, 16.8293,   6.3671,           8.8073,          10.4622, true],
+    [call, 3.5781,    2.3236,           6.2605,          1.2545,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 4125,
+    ordinal: 4126
+   }, {
+    frame: 4135,
+    ordinal: 4136
+   }, 11,    83.1384095,  {
+    median_ms: 34.696,
+    "p95_ms": 35.495,
+    count: 11
+   }, {
+    median_ms: 34.6356,
+    "p95_ms": 35.5271,
+    count: 11
+   }, {
+    name: frame_interval,
+    median_ms: 34.8223,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.155,
+    risen: true
+   },  [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 12.783,    7.9705,           10.7963,         4.8125,  true],
+    [wait, 16.9989,   6.3671,           8.8073,          10.6318, true],
+    [call, 4.9645,    2.3236,           6.2605,          2.6409,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 4169,
+    ordinal: 4170
+   }, {
+    frame: 4185,
+    ordinal: 4186
+   }, 17,    84.0890249,  {
+    median_ms: 34.807,
+    "p95_ms": 35.362,
+    count: 17
+   }, {
+    median_ms: 34.8069,
+    "p95_ms": 35.4889,
+    count: 17
+   }, {
+    name: frame_interval,
+    median_ms: 34.868,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.2007,
+    risen: true
+   },  [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 11.7806,   7.9705,           10.7963,         3.8101,  false],
+    [wait, 16.9885,   6.3671,           8.8073,          10.6214, true],
+    [call, 5.8894,    2.3236,           6.2605,          3.5658,  false]
+   ], [
+    "the wait"
+   ]],
+  [{
+    frame: 4188,
+    ordinal: 4189
+   }, {
+    frame: 4196,
+    ordinal: 4197
+   }, 9,     84.7152619,  {
+    median_ms: 34.582,
+    "p95_ms": 35.932,
+    count: 9
+   },  {
+    median_ms: 34.4775,
+    "p95_ms": 35.7205,
+    count: 9
+   },  {
+    name: frame_interval,
+    median_ms: 34.5285,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.8612,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 11.8196,   7.9705,           10.7963,         3.8491,  false],
+    [wait, 16.9967,   6.3671,           8.8073,          10.6296, true],
+    [call, 5.5123,    2.3236,           6.2605,          3.1887,  false]
+   ], [
+    "the wait"
+   ]],
+  [{
+    frame: 4198,
+    ordinal: 4199
+   }, {
+    frame: 4214,
+    ordinal: 4215
+   }, 17,    85.0439845,  {
+    median_ms: 35.305,
+    "p95_ms": 36.663,
+    count: 17
+   }, {
+    median_ms: 35.3463,
+    "p95_ms": 36.7961,
+    count: 17
+   }, {
+    name: frame_interval,
+    median_ms: 35.2034,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.5361,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 12.4717,   7.9705,           10.7963,         4.5012,  true],
+    [wait, 16.9562,   6.3671,           8.8073,          10.5891, true],
+    [call, 5.8789,    2.3236,           6.2605,          3.5553,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 4216,
+    ordinal: 4217
+   }, {
+    frame: 4230,
+    ordinal: 4231
+   }, 15,    85.6589233,  {
+    median_ms: 34.669,
+    "p95_ms": 35.662,
+    count: 15
+   }, {
+    median_ms: 34.679,
+    "p95_ms": 35.5061,
+    count: 15
+   },  {
+    name: frame_interval,
+    median_ms: 34.6931,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.0258,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 12.5774,   7.9705,           10.7963,         4.6069,  true],
+    [wait, 16.9876,   6.3671,           8.8073,          10.6205, true],
+    [call, 5.0017,    2.3236,           6.2605,          2.6781,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 4232,
+    ordinal: 4233
+   }, {
+    frame: 4239,
+    ordinal: 4240
+   }, 8,     86.2006083,  {
+    median_ms: 35.225,
+    "p95_ms": 37.85,
+    count: 8
+   },   {
+    median_ms: 35.154,
+    "p95_ms": 37.9034,
+    count: 8
+   },   {
+    name: frame_interval,
+    median_ms: 34.9505,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.2832,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 12.7609,   7.9705,           10.7963,         4.7904,  true],
+    [wait, 16.9619,   6.3671,           8.8073,          10.5948, true],
+    [call, 4.9574,    2.3236,           6.2605,          2.6338,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 4282,
+    ordinal: 4283
+   }, {
+    frame: 4293,
+    ordinal: 4294
+   }, 12,    87.1814215,  {
+    median_ms: 34.444,
+    "p95_ms": 35.671,
+    count: 12
+   }, {
+    median_ms: 34.4448,
+    "p95_ms": 35.6047,
+    count: 12
+   }, {
+    name: frame_interval,
+    median_ms: 34.2047,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.5374,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 12.6081,   7.9705,           10.7963,         4.6376,  true],
+    [wait, 16.871,    6.3671,           8.8073,          10.5039, true],
+    [call, 4.6224,    2.3236,           6.2605,          2.2988,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 4315,
+    ordinal: 4316
+   }, {
+    frame: 4346,
+    ordinal: 4347
+   }, 32,    87.9463215,  {
+    median_ms: 34.558,
+    "p95_ms": 35.836,
+    count: 32
+   }, {
+    median_ms: 34.5751,
+    "p95_ms": 36.0543,
+    count: 32
+   }, {
+    name: frame_interval,
+    median_ms: 34.5484,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.8811,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 12.4114,   7.9705,           10.7963,         4.4409,  true],
+    [wait, 16.9572,   6.3671,           8.8073,          10.5901, true],
+    [call, 5.1311,    2.3236,           6.2605,          2.8075,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 4348,
+    ordinal: 4349
+   }, {
+    frame: 4357,
+    ordinal: 4358
+   }, 10,    89.0725963,  {
+    median_ms: 34.332,
+    "p95_ms": 34.957,
+    count: 10
+   }, {
+    median_ms: 34.2921,
+    "p95_ms": 35.0364,
+    count: 10
+   }, {
+    name: frame_interval,
+    median_ms: 34.4351,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.7678,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 11.3844,   7.9705,           10.7963,         3.4139,  false],
+    [wait, 16.9495,   6.3671,           8.8073,          10.5824, true],
+    [call, 6.2103,    2.3236,           6.2605,          3.8867,  false]
+   ], [
+    "the wait"
+   ]],
+  [{
+    frame: 4359,
+    ordinal: 4360
+   }, {
+    frame: 4417,
+    ordinal: 4418
+   }, 59,    89.4342784,  {
+    median_ms: 34.3,
+    "p95_ms": 35.213,
+    count: 59
+   },   {
+    median_ms: 34.2728,
+    "p95_ms": 35.1812,
+    count: 59
+   }, {
+    name: frame_interval,
+    median_ms: 34.2993,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.632,
+    risen: true
+   },  [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 10.3383,   7.9705,           10.7963,         2.3678,  false],
+    [wait, 16.9967,   6.3671,           8.8073,          10.6296, true],
+    [call, 6.999,     2.3236,           6.2605,          4.6754,  true]
+   ],  [
+    "the wait",
+    "the flip call"
+   ]],
+  [{
+    frame: 4470,
+    ordinal: 4471
+   }, {
+    frame: 4480,
+    ordinal: 4481
+   }, 11,    92.3908649,  {
+    median_ms: 34.762,
+    "p95_ms": 37.051,
+    count: 11
+   }, {
+    median_ms: 34.8318,
+    "p95_ms": 37.1028,
+    count: 11
+   }, {
+    name: frame_interval,
+    median_ms: 34.7817,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.1144,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 11.094,    7.9705,           10.7963,         3.1235,  false],
+    [wait, 16.985,    6.3671,           8.8073,          10.6179, true],
+    [call, 6.9502,    2.3236,           6.2605,          4.6266,  true]
+   ],  [
+    "the wait",
+    "the flip call"
+   ]],
+  [{
+    frame: 4482,
+    ordinal: 4483
+   }, {
+    frame: 4486,
+    ordinal: 4487
+   }, 5,     92.7927718,  {
+    median_ms: 34.511,
+    "p95_ms": 34.743,
+    count: 5
+   },  {
+    median_ms: 34.5517,
+    "p95_ms": 34.7592,
+    count: 5
+   },  {
+    name: frame_interval,
+    median_ms: 34.5556,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.8883,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 10.8733,   7.9705,           10.7963,         2.9028,  false],
+    [wait, 16.9321,   6.3671,           8.8073,          10.565,  true],
+    [call, 6.7023,    2.3236,           6.2605,          4.3787,  true]
+   ],  [
+    "the wait",
+    "the flip call"
+   ]],
+  [{
+    frame: 4510,
+    ordinal: 4511
+   }, {
+    frame: 4526,
+    ordinal: 4527
+   }, 17,    93.4725169,  {
+    median_ms: 34.349,
+    "p95_ms": 35.019,
+    count: 17
+   }, {
+    median_ms: 34.2642,
+    "p95_ms": 34.9917,
+    count: 17
+   }, {
+    name: frame_interval,
+    median_ms: 34.3946,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.7273,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 10.1406,   7.9705,           10.7963,         2.1701,  false],
+    [wait, 16.9839,   6.3671,           8.8073,          10.6168, true],
+    [call, 7.0201,    2.3236,           6.2605,          4.6965,  true]
+   ],  [
+    "the wait",
+    "the flip call"
+   ]],
+  [{
+    frame: 4528,
+    ordinal: 4529
+   }, {
+    frame: 4533,
+    ordinal: 4534
+   }, 6,     94.0723076,  {
+    median_ms: 34.268,
+    "p95_ms": 34.564,
+    count: 6
+   },  {
+    median_ms: 34.2094,
+    "p95_ms": 34.5567,
+    count: 6
+   },  {
+    name: frame_interval,
+    median_ms: 34.3269,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.6596,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 10.6155,   7.9705,           10.7963,         2.645,   false],
+    [wait, 16.975,    6.3671,           8.8073,          10.6079, true],
+    [call, 6.6789,    2.3236,           6.2605,          4.3553,  true]
+   ],  [
+    "the wait",
+    "the flip call"
+   ]],
+  [{
+    frame: 4544,
+    ordinal: 4545
+   }, {
+    frame: 4554,
+    ordinal: 4555
+   }, 11,    94.4447664,  {
+    median_ms: 34.59,
+    "p95_ms": 35.006,
+    count: 11
+   },  {
+    median_ms: 34.5625,
+    "p95_ms": 34.9618,
+    count: 11
+   }, {
+    name: frame_interval,
+    median_ms: 34.5503,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.883,
+    risen: true
+   },  [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 10.8507,   7.9705,           10.7963,         2.8802,  false],
+    [wait, 16.9817,   6.3671,           8.8073,          10.6146, true],
+    [call, 6.7623,    2.3236,           6.2605,          4.4387,  true]
+   ],  [
+    "the wait",
+    "the flip call"
+   ]],
+  [{
+    frame: 4563,
+    ordinal: 4564
+   }, {
+    frame: 4573,
+    ordinal: 4574
+   }, 11,    94.9578174,  {
+    median_ms: 34.736,
+    "p95_ms": 35.638,
+    count: 11
+   }, {
+    median_ms: 34.7611,
+    "p95_ms": 35.8097,
+    count: 11
+   }, {
+    name: frame_interval,
+    median_ms: 34.7352,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.0679,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 11.0711,   7.9705,           10.7963,         3.1006,  false],
+    [wait, 16.9998,   6.3671,           8.8073,          10.6327, true],
+    [call, 6.717,     2.3236,           6.2605,          4.3934,  true]
+   ],  [
+    "the wait",
+    "the flip call"
+   ]],
+  [{
+    frame: 4603,
+    ordinal: 4604
+   }, {
+    frame: 4619,
+    ordinal: 4620
+   }, 17,    95.8234055,  {
+    median_ms: 35.098,
+    "p95_ms": 38.597,
+    count: 17
+   }, {
+    median_ms: 34.9815,
+    "p95_ms": 38.5182,
+    count: 17
+   }, {
+    name: frame_interval,
+    median_ms: 34.9902,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.3229,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 11.4936,   7.9705,           10.7963,         3.5231,  false],
+    [wait, 16.9926,   6.3671,           8.8073,          10.6255, true],
+    [call, 6.4655,    2.3236,           6.2605,          4.1419,  false]
+   ], [
+    "the wait"
+   ]],
+  [{
+    frame: 4652,
+    ordinal: 4653
+   }, {
+    frame: 4661,
+    ordinal: 4662
+   }, 10,    97.0269141,  {
+    median_ms: 34.711,
+    "p95_ms": 35.921,
+    count: 10
+   }, {
+    median_ms: 34.7266,
+    "p95_ms": 36.012,
+    count: 10
+   },  {
+    name: frame_interval,
+    median_ms: 34.7348,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.0675,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 12.3483,   7.9705,           10.7963,         4.3778,  true],
+    [wait, 16.9978,   6.3671,           8.8073,          10.6307, true],
+    [call, 5.247,     2.3236,           6.2605,          2.9234,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 4721,
+    ordinal: 4722
+   }, {
+    frame: 4725,
+    ordinal: 4726
+   }, 5,     98.3613234,  {
+    median_ms: 35.447,
+    "p95_ms": 37.246,
+    count: 5
+   },  {
+    median_ms: 35.4307,
+    "p95_ms": 37.6898,
+    count: 5
+   },  {
+    name: frame_interval,
+    median_ms: 35.4266,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.7593,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.4705,   7.9705,           10.7963,         5.5,     true],
+    [wait, 16.9802,   6.3671,           8.8073,          10.6131, true],
+    [call, 4.7948,    2.3236,           6.2605,          2.4712,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 4759,
+    ordinal: 4760
+   }, {
+    frame: 4778,
+    ordinal: 4779
+   }, 20,    99.1581748,  {
+    median_ms: 34.726,
+    "p95_ms": 36.977,
+    count: 20
+   }, {
+    median_ms: 34.7161,
+    "p95_ms": 36.4609,
+    count: 20
+   }, {
+    name: frame_interval,
+    median_ms: 34.7137,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.0464,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.3857,   7.9705,           10.7963,         5.4152,  true],
+    [wait, 16.9725,   6.3671,           8.8073,          10.6054, true],
+    [call, 4.4901,    2.3236,           6.2605,          2.1665,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 4780,
+    ordinal: 4781
+   }, {
+    frame: 4791,
+    ordinal: 4792
+   }, 12,    99.8804593,  {
+    median_ms: 34.924,
+    "p95_ms": 38.281,
+    count: 12
+   }, {
+    median_ms: 34.9632,
+    "p95_ms": 38.4836,
+    count: 12
+   }, {
+    name: frame_interval,
+    median_ms: 34.93,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.2627,
+    risen: true
+   },   [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.6013,   7.9705,           10.7963,         5.6308,  true],
+    [wait, 16.9537,   6.3671,           8.8073,          10.5866, true],
+    [call, 4.0593,    2.3236,           6.2605,          1.7357,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 4797,
+    ordinal: 4798
+   }, {
+    frame: 4840,
+    ordinal: 4841
+   }, 44,    100.3872941, {
+    median_ms: 34.602,
+    "p95_ms": 35.474,
+    count: 44
+   }, {
+    median_ms: 34.5777,
+    "p95_ms": 35.5843,
+    count: 44
+   }, {
+    name: frame_interval,
+    median_ms: 34.6201,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.9528,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.5758,   7.9705,           10.7963,         5.6053,  true],
+    [wait, 16.9844,   6.3671,           8.8073,          10.6173, true],
+    [call, 3.953,     2.3236,           6.2605,          1.6294,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 4845,
+    ordinal: 4846
+   }, {
+    frame: 4858,
+    ordinal: 4859
+   }, 14,    101.9817297, {
+    median_ms: 34.505,
+    "p95_ms": 38.739,
+    count: 14
+   }, {
+    median_ms: 34.491,
+    "p95_ms": 38.8547,
+    count: 14
+   },  {
+    name: frame_interval,
+    median_ms: 34.5307,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.8634,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.9619,   7.9705,           10.7963,         5.9914,  true],
+    [wait, 16.9851,   6.3671,           8.8073,          10.618,  true],
+    [call, 3.567,     2.3236,           6.2605,          1.2434,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 4868,
+    ordinal: 4869
+   }, {
+    frame: 4939,
+    ordinal: 4940
+   }, 72,    102.6286448, {
+    median_ms: 34.636,
+    "p95_ms": 37.733,
+    count: 72
+   }, {
+    median_ms: 34.6443,
+    "p95_ms": 37.2532,
+    count: 72
+   }, {
+    name: frame_interval,
+    median_ms: 34.6574,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.9901,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 14.1326,   7.9705,           10.7963,         6.1621,  true],
+    [wait, 16.9877,   6.3671,           8.8073,          10.6206, true],
+    [call, 3.4884,    2.3236,           6.2605,          1.1648,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 4941,
+    ordinal: 4942
+   }, {
+    frame: 4969,
+    ordinal: 4970
+   }, 29,    105.155689,  {
+    median_ms: 34.186,
+    "p95_ms": 35.116,
+    count: 29
+   }, {
+    median_ms: 34.184,
+    "p95_ms": 35.1177,
+    count: 29
+   },  {
+    name: frame_interval,
+    median_ms: 34.159,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.4917,
+    risen: true
+   },  [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 14.1683,   7.9705,           10.7963,         6.1978,  true],
+    [wait, 16.8647,   6.3671,           8.8073,          10.4976, true],
+    [call, 3.1163,    2.3236,           6.2605,          0.7927,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 5029,
+    ordinal: 5030
+   }, {
+    frame: 5045,
+    ordinal: 5046
+   }, 17,    107.1493688, {
+    median_ms: 34.599,
+    "p95_ms": 36.684,
+    count: 17
+   }, {
+    median_ms: 34.6451,
+    "p95_ms": 36.7341,
+    count: 17
+   }, {
+    name: frame_interval,
+    median_ms: 34.7667,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.0994,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 14.1087,   7.9705,           10.7963,         6.1382,  true],
+    [wait, 16.9711,   6.3671,           8.8073,          10.604,  true],
+    [call, 3.605,     2.3236,           6.2605,          1.2814,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 5047,
+    ordinal: 5048
+   }, {
+    frame: 5112,
+    ordinal: 5113
+   }, 66,    107.7610866, {
+    median_ms: 34.528,
+    "p95_ms": 36.286,
+    count: 66
+   }, {
+    median_ms: 34.547,
+    "p95_ms": 36.3813,
+    count: 66
+   },  {
+    name: frame_interval,
+    median_ms: 34.5365,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.8692,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.8336,   7.9705,           10.7963,         5.8631,  true],
+    [wait, 16.9637,   6.3671,           8.8073,          10.5966, true],
+    [call, 3.7412,    2.3236,           6.2605,          1.4176,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 5114,
+    ordinal: 5115
+   }, {
+    frame: 5120,
+    ordinal: 5121
+   }, 7,     110.0686026, {
+    median_ms: 34.717,
+    "p95_ms": 37.83,
+    count: 7
+   },   {
+    median_ms: 34.6886,
+    "p95_ms": 38.0493,
+    count: 7
+   },  {
+    name: frame_interval,
+    median_ms: 34.7552,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.0879,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.3917,   7.9705,           10.7963,         5.4212,  true],
+    [wait, 16.9544,   6.3671,           8.8073,          10.5873, true],
+    [call, 4.3231,    2.3236,           6.2605,          1.9995,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 5130,
+    ordinal: 5131
+   }, {
+    frame: 5134,
+    ordinal: 5135
+   }, 5,     110.5207306, {
+    median_ms: 35.983,
+    "p95_ms": 37.274,
+    count: 5
+   },  {
+    median_ms: 36.2178,
+    "p95_ms": 37.4348,
+    count: 5
+   },  {
+    name: frame_interval,
+    median_ms: 35.8724,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 19.2051,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.9471,   7.9705,           10.7963,         5.9766,  true],
+    [wait, 16.9605,   6.3671,           8.8073,          10.5934, true],
+    [call, 4.7735,    2.3236,           6.2605,          2.4499,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 5136,
+    ordinal: 5137
+   }, {
+    frame: 5141,
+    ordinal: 5142
+   }, 6,     110.7219097, {
+    median_ms: 34.595,
+    "p95_ms": 36.758,
+    count: 6
+   },  {
+    median_ms: 34.4494,
+    "p95_ms": 36.8598,
+    count: 6
+   },  {
+    name: frame_interval,
+    median_ms: 34.5063,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.839,
+    risen: true
+   },  [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.3688,   7.9705,           10.7963,         5.3983,  true],
+    [wait, 16.8387,   6.3671,           8.8073,          10.4716, true],
+    [call, 4.1827,    2.3236,           6.2605,          1.8591,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 5143,
+    ordinal: 5144
+   }, {
+    frame: 5147,
+    ordinal: 5148
+   }, 5,     110.9454264, {
+    median_ms: 35.251,
+    "p95_ms": 36.983,
+    count: 5
+   },  {
+    median_ms: 35.06,
+    "p95_ms": 36.9889,
+    count: 5
+   },    {
+    name: frame_interval,
+    median_ms: 34.5889,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.9216,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.4892,   7.9705,           10.7963,         5.5187,  true],
+    [wait, 16.8195,   6.3671,           8.8073,          10.4524, true],
+    [call, 4.2543,    2.3236,           6.2605,          1.9307,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 5176,
+    ordinal: 5177
+   }, {
+    frame: 5187,
+    ordinal: 5188
+   }, 12,    111.6277326, {
+    median_ms: 35.128,
+    "p95_ms": 37.397,
+    count: 12
+   }, {
+    median_ms: 35.057,
+    "p95_ms": 37.3279,
+    count: 12
+   },  {
+    name: frame_interval,
+    median_ms: 35.3051,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.6378,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.2433,   7.9705,           10.7963,         5.2728,  true],
+    [wait, 16.9408,   6.3671,           8.8073,          10.5737, true],
+    [call, 4.7801,    2.3236,           6.2605,          2.4565,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 5189,
+    ordinal: 5190
+   }, {
+    frame: 5250,
+    ordinal: 5251
+   }, 62,    112.0741802, {
+    median_ms: 34.874,
+    "p95_ms": 36.594,
+    count: 62
+   }, {
+    median_ms: 34.8634,
+    "p95_ms": 36.1795,
+    count: 62
+   }, {
+    name: frame_interval,
+    median_ms: 34.8463,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.179,
+    risen: true
+   },  [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.2842,   7.9705,           10.7963,         5.3137,  true],
+    [wait, 16.9815,   6.3671,           8.8073,          10.6144, true],
+    [call, 4.6345,    2.3236,           6.2605,          2.3109,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 5281,
+    ordinal: 5282
+   }, {
+    frame: 5285,
+    ordinal: 5286
+   }, 5,     114.7470963, {
+    median_ms: 34.878,
+    "p95_ms": 37.112,
+    count: 5
+   },  {
+    median_ms: 34.9953,
+    "p95_ms": 37.5056,
+    count: 5
+   },  {
+    name: frame_interval,
+    median_ms: 34.9455,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.2782,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.0135,   7.9705,           10.7963,         5.043,   true],
+    [wait, 16.9301,   6.3671,           8.8073,          10.563,  true],
+    [call, 4.9645,    2.3236,           6.2605,          2.6409,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 5292,
+    ordinal: 5293
+   }, {
+    frame: 5304,
+    ordinal: 5305
+   }, 13,    115.0206765, {
+    median_ms: 35.285,
+    "p95_ms": 36.144,
+    count: 13
+   }, {
+    median_ms: 35.3202,
+    "p95_ms": 36.4657,
+    count: 13
+   }, {
+    name: frame_interval,
+    median_ms: 34.9766,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.3093,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.0993,   7.9705,           10.7963,         5.1288,  true],
+    [wait, 16.9785,   6.3671,           8.8073,          10.6114, true],
+    [call, 5.0369,    2.3236,           6.2605,          2.7133,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 5306,
+    ordinal: 5307
+   }, {
+    frame: 5311,
+    ordinal: 5312
+   }, 6,     115.4985241, {
+    median_ms: 33.979,
+    "p95_ms": 36.659,
+    count: 6
+   },  {
+    median_ms: 33.953,
+    "p95_ms": 36.8212,
+    count: 6
+   },   {
+    name: frame_interval,
+    median_ms: 34.3973,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.73,
+    risen: true
+   },   [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 12.4548,   7.9705,           10.7963,         4.4843,  true],
+    [wait, 16.9388,   6.3671,           8.8073,          10.5717, true],
+    [call, 4.6714,    2.3236,           6.2605,          2.3478,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 5356,
+    ordinal: 5357
+   }, {
+    frame: 5363,
+    ordinal: 5364
+   }, 8,     116.4397041, {
+    median_ms: 34.656,
+    "p95_ms": 36.227,
+    count: 8
+   },  {
+    median_ms: 34.5455,
+    "p95_ms": 36.6942,
+    count: 8
+   },  {
+    name: frame_interval,
+    median_ms: 34.713,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 18.0457,
+    risen: true
+   },  [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 12.5987,   7.9705,           10.7963,         4.6282,  true],
+    [wait, 16.9493,   6.3671,           8.8073,          10.5822, true],
+    [call, 4.9911,    2.3236,           6.2605,          2.6675,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]],
+  [{
+    frame: 5460,
+    ordinal: 5461
+   }, {
+    frame: 5503,
+    ordinal: 5504
+   }, 44,    118.3163655, {
+    median_ms: 34.516,
+    "p95_ms": 36.485,
+    count: 44
+   }, {
+    median_ms: 34.5387,
+    "p95_ms": 36.7269,
+    count: 44
+   }, {
+    name: frame_interval,
+    median_ms: 34.5646,
+    steady_median_ms: 16.6673,
+    "steady_p95_ms": 16.8351,
+    rise_ms: 17.8973,
+    risen: true
+   }, [
+    [name, median_ms, steady_median_ms, "steady_p95_ms", rise_ms, risen];
+    [work, 13.2237,   7.9705,           10.7963,         5.2532,  true],
+    [wait, 16.9355,   6.3671,           8.8073,          10.5684, true],
+    [call, 4.3067,    2.3236,           6.2605,          1.9831,  false]
+   ],  [
+    "the work",
+    "the wait"
+   ]]
+ ]
+}

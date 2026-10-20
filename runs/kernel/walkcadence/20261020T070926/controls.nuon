@@ -1,0 +1,927 @@
+{
+ reader: "walk controls",
+ base: "/home/box/tmp/jab-stress/walkcadence/20261020T0710-series",
+ runs: [
+  [label,           arm,           words,                                                                         "image_sha256",                                                     "kernel_sha256",                                                    cadence,                        capture_nonce,       paired,                                                                                                   measures];
+  ["timing_1",      timing,        [
+    --set,
+    "cadence,timing",
+    --seconds,
+    "180"
+   ],              "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d", "9cf2b54681ec57ed251464419856577483db7609d50721576a06a0d428c6b915", [
+    CADENCE,
+    TIMING
+   ], 2168650797142865394, {
+    valid: true,
+    deciding: true,
+    stage: null,
+    faults: [
+
+    ],
+    verdict: admitted
+   }, {
+    paired: {
+     guest_median_ms: 16.8623,
+     "guest_p95_ms": 35.2085,
+     host_median_ms: 16.868,
+     "host_p95_ms": 35.19,
+     stretches: 80,
+     shown_share: 0.6331292404434883
+    },
+    host: {
+     flips: 6044,
+     renders: 3829,
+     shown: 3827,
+     unshown_at_end: 0,
+     host_median_ms: 16.868114471435547,
+     "host_p95_ms": 35.19415855407715,
+     stretches: 80,
+     shown_share: 0.6331899404367968,
+     report_frames_shown: {
+      shown: 1619,
+      repeated: 2,
+      skipped: 2217,
+      unshown_at_end: 0
+     }
+    }
+   }],
+  ["cadence_1",     cadence,       [
+    --set,
+    cadence,
+    --seconds,
+    "180"
+   ],                       "ad2f50b1142e80e2b263a10e76e0d54a8ca69d25b74126546bda25b61bf6d7ff", "d0030bed74a8b52606fdc04592dcb1b062ff3a864d089cdf4b8dbb2e605df386", [
+    CADENCE
+   ],             8504529112315348879, {
+    valid: true,
+    deciding: true,
+    stage: null,
+    faults: [
+
+    ],
+    verdict: admitted
+   }, {
+    paired: {
+     guest_median_ms: 16.8704,
+     "guest_p95_ms": 35.448,
+     host_median_ms: 16.88,
+     "host_p95_ms": 35.45,
+     stretches: 83,
+     shown_share: 0.6406591558769127
+    },
+    host: {
+     flips: 5948,
+     renders: 3812,
+     shown: 3811,
+     unshown_at_end: 0,
+     host_median_ms: 16.880035400390625,
+     "host_p95_ms": 35.45713424682617,
+     stretches: 83,
+     shown_share: 0.640719569603228,
+     report_frames_shown: {
+      shown: 1680,
+      repeated: 1,
+      skipped: 2137,
+      unshown_at_end: 0
+     }
+    }
+   }],
+  ["cadence_2",     cadence,       [
+    --set,
+    cadence,
+    --seconds,
+    "180"
+   ],                       "ad2f50b1142e80e2b263a10e76e0d54a8ca69d25b74126546bda25b61bf6d7ff", "d0030bed74a8b52606fdc04592dcb1b062ff3a864d089cdf4b8dbb2e605df386", [
+    CADENCE
+   ],             4944308063304636730, {
+    valid: true,
+    deciding: true,
+    stage: null,
+    faults: [
+
+    ],
+    verdict: admitted
+   }, {
+    paired: {
+     guest_median_ms: 16.829,
+     "guest_p95_ms": 34.9703,
+     host_median_ms: 16.839,
+     "host_p95_ms": 34.943,
+     stretches: 69,
+     shown_share: 0.6268680961663418
+    },
+    host: {
+     flips: 6157,
+     renders: 3861,
+     shown: 3860,
+     unshown_at_end: 0,
+     host_median_ms: 16.839027404785156,
+     "host_p95_ms": 34.94715690612793,
+     stretches: 69,
+     shown_share: 0.6269286990417411,
+     report_frames_shown: {
+      shown: 1572,
+      repeated: 1,
+      skipped: 2297,
+      unshown_at_end: 0
+     }
+    }
+   }],
+  ["timing_2",      timing,        [
+    --set,
+    "cadence,timing",
+    --seconds,
+    "180"
+   ],              "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d", "9cf2b54681ec57ed251464419856577483db7609d50721576a06a0d428c6b915", [
+    CADENCE,
+    TIMING
+   ], 6062640323519303268, {
+    valid: true,
+    deciding: true,
+    stage: null,
+    faults: [
+
+    ],
+    verdict: admitted
+   }, {
+    paired: {
+     guest_median_ms: 16.8409,
+     "guest_p95_ms": 35.1497,
+     host_median_ms: 16.849,
+     "host_p95_ms": 35.132,
+     stretches: 87,
+     shown_share: 0.6338842975206611
+    },
+    host: {
+     flips: 6051,
+     renders: 3837,
+     shown: 3836,
+     unshown_at_end: 0,
+     host_median_ms: 16.84880256652832,
+     "host_p95_ms": 35.138845443725586,
+     stretches: 87,
+     shown_share: 0.6339448025119815,
+     report_frames_shown: {
+      shown: 1628,
+      repeated: 1,
+      skipped: 2215,
+      unshown_at_end: 0
+     }
+    }
+   }],
+  ["timing_3",      timing,        [
+    --set,
+    "cadence,timing",
+    --seconds,
+    "180"
+   ],              "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d", "9cf2b54681ec57ed251464419856577483db7609d50721576a06a0d428c6b915", [
+    CADENCE,
+    TIMING
+   ], 6223342040392330089, {
+    valid: true,
+    deciding: true,
+    stage: null,
+    faults: [
+
+    ],
+    verdict: admitted
+   }, {
+    paired: {
+     guest_median_ms: 16.7985,
+     "guest_p95_ms": 34.9973,
+     host_median_ms: 16.799,
+     "host_p95_ms": 34.991,
+     stretches: 68,
+     shown_share: 0.6182285806140492
+    },
+    host: {
+     flips: 6222,
+     renders: 3848,
+     shown: 3847,
+     unshown_at_end: 0,
+     host_median_ms: 16.798973083496094,
+     "host_p95_ms": 34.99293327331543,
+     stretches: 68,
+     shown_share: 0.6182899389263903,
+     report_frames_shown: {
+      shown: 1482,
+      repeated: 1,
+      skipped: 2375,
+      unshown_at_end: 0
+     }
+    }
+   }],
+  ["cadence_3",     cadence,       [
+    --set,
+    cadence,
+    --seconds,
+    "180"
+   ],                       "ad2f50b1142e80e2b263a10e76e0d54a8ca69d25b74126546bda25b61bf6d7ff", "d0030bed74a8b52606fdc04592dcb1b062ff3a864d089cdf4b8dbb2e605df386", [
+    CADENCE
+   ],             5521091281332503445, {
+    valid: true,
+    deciding: true,
+    stage: null,
+    faults: [
+
+    ],
+    verdict: admitted
+   }, {
+    paired: {
+     guest_median_ms: 16.9006,
+     "guest_p95_ms": 35.487,
+     host_median_ms: 16.909,
+     "host_p95_ms": 35.464,
+     stretches: 103,
+     shown_share: 0.6505900461775269
+    },
+    host: {
+     flips: 5848,
+     renders: 3806,
+     shown: 3805,
+     unshown_at_end: 0,
+     host_median_ms: 16.909122467041016,
+     "host_p95_ms": 35.46905517578125,
+     stretches: 103,
+     shown_share: 0.6506497948016415,
+     report_frames_shown: {
+      shown: 1771,
+      repeated: 1,
+      skipped: 2043,
+      unshown_at_end: 0
+     }
+    }
+   }],
+  ["ordinary_1",    ordinary,      [
+    --seconds,
+    "180"
+   ],                                               "d47a7a49abd760bfcf1f835e421868126163d1ae81a2c7b0a50a59ab0a583472", "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b", [
+
+   ],                        6908419819780832581, null,                                                                                                     {
+    paired: null,
+    host: {
+     flips: 8720,
+     renders: 5700,
+     shown: 5698,
+     unshown_at_end: 0,
+     host_median_ms: 16.926050186157227,
+     "host_p95_ms": 35.40992736816406,
+     stretches: 149,
+     shown_share: 0.6534403669724771,
+     report_frames_shown: {
+      shown: 2689,
+      repeated: 2,
+      skipped: 3022,
+      unshown_at_end: 0
+     }
+    }
+   }],
+  ["e2e_cadence_1", "e2e_cadence", [
+    --set,
+    cadence,
+    --seconds,
+    "180"
+   ],                       "ad2f50b1142e80e2b263a10e76e0d54a8ca69d25b74126546bda25b61bf6d7ff", "d0030bed74a8b52606fdc04592dcb1b062ff3a864d089cdf4b8dbb2e605df386", [
+    CADENCE
+   ],             5156998575957339945, {
+    valid: true,
+    deciding: true,
+    stage: null,
+    faults: [
+
+    ],
+    verdict: admitted
+   }, {
+    paired: {
+     guest_median_ms: 16.8661,
+     "guest_p95_ms": 35.0663,
+     host_median_ms: 16.869,
+     "host_p95_ms": 35.061,
+     stretches: 81,
+     shown_share: 0.6364391297126724
+    },
+    host: {
+     flips: 6022,
+     renders: 3835,
+     shown: 3833,
+     unshown_at_end: 0,
+     host_median_ms: 16.869068145751953,
+     "host_p95_ms": 35.06183624267578,
+     stretches: 81,
+     shown_share: 0.6364995018266356,
+     report_frames_shown: {
+      shown: 1652,
+      repeated: 2,
+      skipped: 2189,
+      unshown_at_end: 0
+     }
+    }
+   }],
+  ["e2e_cadence_2", "e2e_cadence", [
+    --set,
+    cadence,
+    --seconds,
+    "180"
+   ],                       "ad2f50b1142e80e2b263a10e76e0d54a8ca69d25b74126546bda25b61bf6d7ff", "d0030bed74a8b52606fdc04592dcb1b062ff3a864d089cdf4b8dbb2e605df386", [
+    CADENCE
+   ],             7701519667225176206, {
+    valid: true,
+    deciding: true,
+    stage: null,
+    faults: [
+
+    ],
+    verdict: admitted
+   }, {
+    paired: {
+     guest_median_ms: 16.8162,
+     "guest_p95_ms": 34.9696,
+     host_median_ms: 16.819,
+     "host_p95_ms": 34.967,
+     stretches: 56,
+     shown_share: 0.635036496350365
+    },
+    host: {
+     flips: 6029,
+     renders: 3830,
+     shown: 3829,
+     unshown_at_end: 0,
+     host_median_ms: 16.819000244140625,
+     "host_p95_ms": 34.970998764038086,
+     stretches: 56,
+     shown_share: 0.6350970310167524,
+     report_frames_shown: {
+      shown: 1637,
+      repeated: 1,
+      skipped: 2200,
+      unshown_at_end: 0
+     }
+    }
+   }],
+  ["ordinary_2",    ordinary,      [
+    --seconds,
+    "180"
+   ],                                               "d47a7a49abd760bfcf1f835e421868126163d1ae81a2c7b0a50a59ab0a583472", "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b", [
+
+   ],                        9893034952702964,    null,                                                                                                     {
+    paired: null,
+    host: {
+     flips: 8840,
+     renders: 5697,
+     shown: 5695,
+     unshown_at_end: 0,
+     host_median_ms: 16.836881637573242,
+     "host_p95_ms": 35.131216049194336,
+     stretches: 98,
+     shown_share: 0.6442307692307693,
+     report_frames_shown: {
+      shown: 2560,
+      repeated: 2,
+      skipped: 3145,
+      unshown_at_end: 0
+     }
+    }
+   }],
+  ["ordinary_3",    ordinary,      [
+    --seconds,
+    "180"
+   ],                                               "d47a7a49abd760bfcf1f835e421868126163d1ae81a2c7b0a50a59ab0a583472", "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b", [
+
+   ],                        1883371054483699854, null,                                                                                                     {
+    paired: null,
+    host: {
+     flips: 8375,
+     renders: 5643,
+     shown: 5641,
+     unshown_at_end: 0,
+     host_median_ms: 16.94011688232422,
+     "host_p95_ms": 35.20607948303223,
+     stretches: 99,
+     shown_share: 0.6735522388059701,
+     report_frames_shown: {
+      shown: 2913,
+      repeated: 2,
+      skipped: 2734,
+      unshown_at_end: 0
+     }
+    }
+   }],
+  ["e2e_cadence_3", "e2e_cadence", [
+    --set,
+    cadence,
+    --seconds,
+    "180"
+   ],                       "ad2f50b1142e80e2b263a10e76e0d54a8ca69d25b74126546bda25b61bf6d7ff", "d0030bed74a8b52606fdc04592dcb1b062ff3a864d089cdf4b8dbb2e605df386", [
+    CADENCE
+   ],             8848283453908942759, {
+    valid: true,
+    deciding: true,
+    stage: null,
+    faults: [
+
+    ],
+    verdict: admitted
+   }, {
+    paired: {
+     guest_median_ms: 16.8583,
+     "guest_p95_ms": 35.1754,
+     host_median_ms: 16.862,
+     "host_p95_ms": 35.191,
+     stretches: 57,
+     shown_share: 0.6477428180574556
+    },
+    host: {
+     flips: 5849,
+     renders: 3790,
+     shown: 3789,
+     unshown_at_end: 0,
+     host_median_ms: 16.862154006958008,
+     "host_p95_ms": 35.192012786865234,
+     stretches: 57,
+     shown_share: 0.6478030432552573,
+     report_frames_shown: {
+      shown: 1735,
+      repeated: 1,
+      skipped: 2060,
+      unshown_at_end: 0
+     }
+    }
+   }],
+  ["noapi_1",       noapi,         [
+    --seconds,
+    "180"
+   ],                                               "d47a7a49abd760bfcf1f835e421868126163d1ae81a2c7b0a50a59ab0a583472", "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b", [
+
+   ],                        3414477900154165206, null,                                                                                                     {
+    paired: null,
+    host: {
+     flips: 8478,
+     renders: 5661,
+     shown: 5660,
+     unshown_at_end: 0,
+     host_median_ms: 16.907215118408203,
+     "host_p95_ms": 35.108089447021484,
+     stretches: 110,
+     shown_share: 0.6676102854446804,
+     report_frames_shown: {
+      shown: 2848,
+      repeated: 1,
+      skipped: 2818,
+      unshown_at_end: 0
+     }
+    }
+   }],
+  ["api_1",         api,           [
+    --seconds,
+    "180",
+    --api
+   ],                                    "d47a7a49abd760bfcf1f835e421868126163d1ae81a2c7b0a50a59ab0a583472", "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b", [
+
+   ],                        4124987370456906697, null,                                                                                                     {
+    paired: null,
+    host: {
+     flips: 8605,
+     renders: 5661,
+     shown: 5660,
+     unshown_at_end: 0,
+     host_median_ms: 16.880035400390625,
+     "host_p95_ms": 35.20798683166504,
+     stretches: 88,
+     shown_share: 0.6577571179546775,
+     report_frames_shown: {
+      shown: 2726,
+      repeated: 1,
+      skipped: 2945,
+      unshown_at_end: 0
+     }
+    }
+   }],
+  ["api_2",         api,           [
+    --seconds,
+    "180",
+    --api
+   ],                                    "d47a7a49abd760bfcf1f835e421868126163d1ae81a2c7b0a50a59ab0a583472", "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b", [
+
+   ],                        5931402993530548178, null,                                                                                                     {
+    paired: null,
+    host: {
+     flips: 8758,
+     renders: 5665,
+     shown: 5663,
+     unshown_at_end: 2,
+     host_median_ms: 16.849040985107422,
+     "host_p95_ms": 35.28904914855957,
+     stretches: 79,
+     shown_share: 0.6466088147978991,
+     report_frames_shown: {
+      shown: 2582,
+      repeated: 2,
+      skipped: 3093,
+      unshown_at_end: 2
+     }
+    }
+   }],
+  ["noapi_2",       noapi,         [
+    --seconds,
+    "180"
+   ],                                               "d47a7a49abd760bfcf1f835e421868126163d1ae81a2c7b0a50a59ab0a583472", "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b", [
+
+   ],                        4211640532903482186, null,                                                                                                     {
+    paired: null,
+    host: {
+     flips: 8614,
+     renders: 5672,
+     shown: 5670,
+     unshown_at_end: 0,
+     host_median_ms: 16.896963119506836,
+     "host_p95_ms": 35.21108627319336,
+     stretches: 100,
+     shown_share: 0.6582307870907824,
+     report_frames_shown: {
+      shown: 2737,
+      repeated: 2,
+      skipped: 2944,
+      unshown_at_end: 0
+     }
+    }
+   }],
+  ["noapi_3",       noapi,         [
+    --seconds,
+    "180"
+   ],                                               "d47a7a49abd760bfcf1f835e421868126163d1ae81a2c7b0a50a59ab0a583472", "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b", [
+
+   ],                        7281411091517889616, null,                                                                                                     {
+    paired: null,
+    host: {
+     flips: 8379,
+     renders: 5633,
+     shown: 5631,
+     unshown_at_end: 0,
+     host_median_ms: 16.91889762878418,
+     "host_p95_ms": 35.32218933105469,
+     stretches: 107,
+     shown_share: 0.6720372359470104,
+     report_frames_shown: {
+      shown: 2888,
+      repeated: 2,
+      skipped: 2748,
+      unshown_at_end: 0
+     }
+    }
+   }],
+  ["api_3",         api,           [
+    --seconds,
+    "180",
+    --api
+   ],                                    "d47a7a49abd760bfcf1f835e421868126163d1ae81a2c7b0a50a59ab0a583472", "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b", [
+
+   ],                        5662869963866266791, null,                                                                                                     {
+    paired: null,
+    host: {
+     flips: 8745,
+     renders: 5678,
+     shown: 5677,
+     unshown_at_end: 1,
+     host_median_ms: 16.8609619140625,
+     "host_p95_ms": 35.260915756225586,
+     stretches: 96,
+     shown_share: 0.6491709548313321,
+     report_frames_shown: {
+      shown: 2622,
+      repeated: 1,
+      skipped: 3067,
+      unshown_at_end: 1
+     }
+    }
+   }],
+  [oracle,          oracle,        [
+    --set,
+    "cadence,timing",
+    --seconds,
+    "180",
+    --trace
+   ], "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d", "9cf2b54681ec57ed251464419856577483db7609d50721576a06a0d428c6b915", [
+    CADENCE,
+    TIMING
+   ], 486911884824977308,  {
+    valid: true,
+    deciding: true,
+    stage: null,
+    faults: [
+
+    ],
+    verdict: admitted
+   }, {
+    paired: {
+     guest_median_ms: 16.9327,
+     "guest_p95_ms": 35.335,
+     host_median_ms: 16.947,
+     "host_p95_ms": 35.305,
+     stretches: 88,
+     shown_share: 0.6811751904243744
+    },
+    host: {
+     flips: 5515,
+     renders: 3758,
+     shown: 3757,
+     unshown_at_end: 0,
+     host_median_ms: 16.947031021118164,
+     "host_p95_ms": 35.30597686767578,
+     stretches: 88,
+     shown_share: 0.6812330009066183,
+     report_frames_shown: {
+      shown: 2005,
+      repeated: 1,
+      skipped: 1758,
+      unshown_at_end: 0
+     }
+    }
+   }]
+ ],
+ controls: [
+  [control,               first,    second,        side,   measures,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               within, problems];
+  ["the instrumentation", timing,   cadence,       paired, [
+    [measure,                           first,              second,             effect,                noise,                within, values];
+    ["guest presented interval median", 16.8409,            16.8704,            -0.02949999999999875,  0.035800000000000054, true,   {
+      timing: [
+       16.8623,
+       16.8409,
+       16.7985
+      ],
+      cadence: [
+       16.8704,
+       16.829,
+       16.9006
+      ]
+     }],
+    ["guest presented interval 95th",   35.1497,            35.448,             -0.29829999999999757,  0.2583500000000001,   false,  {
+      timing: [
+       35.2085,
+       35.1497,
+       34.9973
+      ],
+      cadence: [
+       35.448,
+       34.9703,
+       35.487
+      ]
+     }],
+    ["host flip interval median",       16.849,             16.88,              -0.030999999999998806, 0.03500000000000014,  true,   {
+      timing: [
+       16.868,
+       16.849,
+       16.799
+      ],
+      cadence: [
+       16.88,
+       16.839,
+       16.909
+      ]
+     }],
+    ["host flip interval 95th",         35.132,             35.45,              -0.31800000000000495,  0.2605000000000004,   false,  {
+      timing: [
+       35.19,
+       35.132,
+       34.991
+      ],
+      cadence: [
+       35.45,
+       34.943,
+       35.464
+      ]
+     }],
+    ["slow stretches",                  80,                 83,                 -3,                    17.0,                 true,   {
+      timing: [
+       80,
+       87,
+       68
+      ],
+      cadence: [
+       83,
+       69,
+       103
+      ]
+     }],
+    ["shown share",                     0.6331292404434883, 0.6406591558769127, -0.007529915433424406, 0.011860975005592578, true,   {
+      timing: [
+       0.6331292404434883,
+       0.6338842975206611,
+       0.6182285806140492
+      ],
+      cadence: [
+       0.6406591558769127,
+       0.6268680961663418,
+       0.6505900461775269
+      ]
+     }]
+   ], false,  [
+
+   ]],
+  ["end to end",          ordinary, "e2e_cadence", host,   [
+    [measure,                     first,              second,             effect,               noise,                within, values];
+    ["host flip interval median", 16.926050186157227, 16.862154006958008, 0.06389617919921875,  0.05161762237548828,  false,  {
+      ordinary: [
+       16.926050186157227,
+       16.836881637573242,
+       16.94011688232422
+      ],
+      "e2e_cadence": [
+       16.869068145751953,
+       16.819000244140625,
+       16.862154006958008
+      ]
+     }],
+    ["host flip interval 95th",   35.20607948303223,  35.06183624267578,  0.1442432403564453,   0.13935565948486328,  false,  {
+      ordinary: [
+       35.40992736816406,
+       35.131216049194336,
+       35.20607948303223
+      ],
+      "e2e_cadence": [
+       35.06183624267578,
+       34.970998764038086,
+       35.192012786865234
+      ]
+     }],
+    ["slow stretches",            99,                 57,                 42,                   25.5,                 false,  {
+      ordinary: [
+       149,
+       98,
+       99
+      ],
+      "e2e_cadence": [
+       81,
+       56,
+       57
+      ]
+     }],
+    ["shown share",               0.6534403669724771, 0.6364995018266356, 0.016940865145841477, 0.014660734787600438, false,  {
+      ordinary: [
+       0.6534403669724771,
+       0.6442307692307693,
+       0.6735522388059701
+      ],
+      "e2e_cadence": [
+       0.6364995018266356,
+       0.6350970310167524,
+       0.6478030432552573
+      ]
+     }]
+   ],                                                                                                                                                                                                                                                                                                                                                                                                                                                  false,  [
+
+   ]],
+  ["the API port",        api,      noapi,         host,   [
+    [measure,                     first,              second,             effect,                noise,                within, values];
+    ["host flip interval median", 16.8609619140625,   16.907215118408203, -0.046253204345703125, 0.015497207641601563, false,  {
+      api: [
+       16.880035400390625,
+       16.849040985107422,
+       16.8609619140625
+      ],
+      noapi: [
+       16.907215118408203,
+       16.896963119506836,
+       16.91889762878418
+      ]
+     }],
+    ["host flip interval 95th",   35.260915756225586, 35.21108627319336,  0.04982948303222656,   0.10704994201660156,  true,   {
+      api: [
+       35.20798683166504,
+       35.28904914855957,
+       35.260915756225586
+      ],
+      noapi: [
+       35.108089447021484,
+       35.21108627319336,
+       35.32218933105469
+      ]
+     }],
+    ["slow stretches",            88,                 107,                -19,                   8.5,                  false,  {
+      api: [
+       88,
+       79,
+       96
+      ],
+      noapi: [
+       110,
+       100,
+       107
+      ]
+     }],
+    ["shown share",               0.6491709548313321, 0.6676102854446804, -0.018439330613348237, 0.006903224428113974, false,  {
+      api: [
+       0.6577571179546775,
+       0.6466088147978991,
+       0.6491709548313321
+      ],
+      noapi: [
+       0.6676102854446804,
+       0.6582307870907824,
+       0.6720372359470104
+      ]
+     }]
+   ],                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  false,  [
+
+   ]]
+ ],
+ oracle: {
+  label: oracle,
+  arm: oracle,
+  words: [
+   --set,
+   "cadence,timing",
+   --seconds,
+   "180",
+   --trace
+  ],
+  "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+  "kernel_sha256": "9cf2b54681ec57ed251464419856577483db7609d50721576a06a0d428c6b915",
+  cadence: [
+   CADENCE,
+   TIMING
+  ],
+  capture_nonce: 486911884824977308,
+  paired: {
+   valid: true,
+   deciding: true,
+   stage: null,
+   faults: [
+
+   ],
+   verdict: admitted
+  },
+  measures: {
+   paired: {
+    guest_median_ms: 16.9327,
+    "guest_p95_ms": 35.335,
+    host_median_ms: 16.947,
+    "host_p95_ms": 35.305,
+    stretches: 88,
+    shown_share: 0.6811751904243744
+   },
+   host: {
+    flips: 5515,
+    renders: 3758,
+    shown: 3757,
+    unshown_at_end: 0,
+    host_median_ms: 16.947031021118164,
+    "host_p95_ms": 35.30597686767578,
+    stretches: 88,
+    shown_share: 0.6812330009066183,
+    report_frames_shown: {
+     shown: 2005,
+     repeated: 1,
+     skipped: 1758,
+     unshown_at_end: 0
+    }
+   }
+  }
+ },
+ images: [
+  [set,              runs,                                                                                                                                            "sha256",                                                                      expected,                                                           problems];
+  ["CADENCE,TIMING", [
+    "timing_1",
+    "timing_2",
+    "timing_3",
+    oracle
+   ],                                                                               [
+    "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d"
+   ], "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d", [
+
+   ]],
+  [CADENCE,          [
+    "cadence_1",
+    "cadence_2",
+    "cadence_3",
+    "e2e_cadence_1",
+    "e2e_cadence_2",
+    "e2e_cadence_3"
+   ],                         [
+    "ad2f50b1142e80e2b263a10e76e0d54a8ca69d25b74126546bda25b61bf6d7ff"
+   ], "ad2f50b1142e80e2b263a10e76e0d54a8ca69d25b74126546bda25b61bf6d7ff", [
+
+   ]],
+  [ordinary,         [
+    "ordinary_1",
+    "ordinary_2",
+    "ordinary_3",
+    "noapi_1",
+    "api_1",
+    "api_2",
+    "noapi_2",
+    "noapi_3",
+    "api_3"
+   ], [
+    "d47a7a49abd760bfcf1f835e421868126163d1ae81a2c7b0a50a59ab0a583472"
+   ], null,                                                               [
+
+   ]]
+ ],
+ limits: [
+  "The instrumentation's effect is TIMING's four stamps alone: both arms run CADENCE with its seed, window, anchors, buffered events, receipts, and export, so the effect stands for no other policy, loop order, target, backend, or build.",
+  "End to end sets ordinary walk against CADENCE without TIMING on the host's side alone, ordinary walk holding no receipts; it shows how the measurement build's protocol differs and supports no causal claim.",
+  "The API port sets ordinary walk with its port against it without, both generic, on the host's side alone.",
+  "The probe takes no thread readings, so no thread's CPU is read.",
+  "An arm's statistic is the median of its runs', the effect the first arm's less the second's, the noise half the larger arm's range, three runs an arm."
+ ]
+}

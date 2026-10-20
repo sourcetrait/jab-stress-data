@@ -1,0 +1,30 @@
+{
+  profile: paired,
+  capture_nonce: 5156998575957339945,
+  qemu_pid: 1566400,
+  sdl_log: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/example/walk/probe/sdl.log",
+  shim: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/shim/release/libjabshim_sdl.so",
+  window: "sdl,gl=on",
+  api: true,
+  sends: [
+    [at,  length, "sha256"];
+    [0.2, 16,     "5ada2719d6f15a70f0acc9cbda51121e4b26ef0e7cc2272c442c733e8abc0345"]
+  ],
+  workload: {
+    program: example/walk,
+    order: await
+  },
+  image: {
+    file: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/example/walk/walk.jab",
+    "sha256": "ad2f50b1142e80e2b263a10e76e0d54a8ca69d25b74126546bda25b61bf6d7ff"
+  },
+  kernel: {
+    file: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/kernel/jab.elf",
+    "sha256": "d0030bed74a8b52606fdc04592dcb1b062ff3a864d089cdf4b8dbb2e605df386"
+  },
+  flags: "-I ../../sdk/src --defsym CADENCE=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+  cadence: [
+    CADENCE
+  ],
+  replay: null
+}

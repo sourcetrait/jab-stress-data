@@ -1,0 +1,40 @@
+{
+ schema: 2,
+ set: walkcadence,
+ stamp: "20261020T070926",
+ task: WalkCadence,
+ scope: {
+  kind: whole,
+  ran: 19,
+  of: 19
+ },
+ builds: [
+  [part,             build,                                      source,   record];
+  ["timing_1",       null,                                       checkout, "timing_1/probe/identity.nuon"],
+  ["cadence_1",      null,                                       checkout, "cadence_1/probe/identity.nuon"],
+  ["cadence_2",      null,                                       checkout, "cadence_2/probe/identity.nuon"],
+  ["timing_2",       null,                                       checkout, "timing_2/probe/identity.nuon"],
+  ["timing_3",       null,                                       checkout, "timing_3/probe/identity.nuon"],
+  ["cadence_3",      null,                                       checkout, "cadence_3/probe/identity.nuon"],
+  ["ordinary_1",     null,                                       checkout, "ordinary_1/probe/identity.nuon"],
+  ["e2e_cadence_1",  null,                                       checkout, "e2e_cadence_1/probe/identity.nuon"],
+  ["e2e_cadence_2",  null,                                       checkout, "e2e_cadence_2/probe/identity.nuon"],
+  ["ordinary_2",     null,                                       checkout, "ordinary_2/probe/identity.nuon"],
+  ["ordinary_3",     null,                                       checkout, "ordinary_3/probe/identity.nuon"],
+  ["e2e_cadence_3",  null,                                       checkout, "e2e_cadence_3/probe/identity.nuon"],
+  ["noapi_1",        null,                                       checkout, "noapi_1/probe/identity.nuon"],
+  ["api_1",          null,                                       checkout, "api_1/probe/identity.nuon"],
+  ["api_2",          null,                                       checkout, "api_2/probe/identity.nuon"],
+  ["noapi_2",        null,                                       checkout, "noapi_2/probe/identity.nuon"],
+  ["noapi_3",        null,                                       checkout, "noapi_3/probe/identity.nuon"],
+  ["api_3",          null,                                       checkout, "api_3/probe/identity.nuon"],
+  [oracle,           null,                                       checkout, "oracle/probe/identity.nuon"],
+  ["reader_11ce99e", "11ce99ead79b26d6e0cdcd8ff33fedffef3a8600", checkout, "controls.nuon"]
+ ],
+ kept: {
+  as: current,
+  why: "WalkCadence's box series on jab c804ccb's checkout, nineteen sdl probes of walk, 180 s each, offscreen SDL, through jab-stress's jab_probes runner from 07:09 to 08:38: the instrumentation, CADENCE with TIMING against without, on off off on on off; end to end, ordinary walk against CADENCE, the same order; the API port, ordinary walk without and with --api; and one traced TIMING run, the oracle. Read by walk.nu controls at jab-stress 11ce99e, the host side's share shown corrected from 4c0bf6f's: every CADENCE run's paired reading admitted, its images the freeze's exports, CADENCE ad2f50b1 and CADENCE,TIMING 1e1388b0. The instrumentation past its noise on the guest's presented interval's 95th, 35.15 against 35.45 ms, and the host flip interval's 95th, so the TIMING readings are instrumented-only; end to end, ordinary walk against CADENCE, past on every host measure, the slow stretches 99 against 57, a protocol difference and no causal claim; the API port past on the host flip interval's median, the stretches, and the share shown. No thread's CPU read, the probe taking no thread readings. The probes' logs, bundles, and streams archived; each probe's identity and the controls' readings kept. Cited by the kernel subiter's plan/agenda/WalkExample/WalkCadence.md."
+ },
+ inventory: "533cbdaa1c151b954ea0cc120e96fc2fbd9b93a2172aa157fea907dbaf97d216",
+ storage: "ddcecc88809e2b474bd0f01266d88551bc921694e1cc65539029ae59e9589221"
+}

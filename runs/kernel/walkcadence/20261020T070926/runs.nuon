@@ -1,0 +1,103 @@
+[
+  [label,           words];
+  ["timing_1",      [
+      --set,
+      "cadence,timing",
+      --seconds,
+      "180"
+    ]],
+  ["cadence_1",     [
+      --set,
+      cadence,
+      --seconds,
+      "180"
+    ]],
+  ["cadence_2",     [
+      --set,
+      cadence,
+      --seconds,
+      "180"
+    ]],
+  ["timing_2",      [
+      --set,
+      "cadence,timing",
+      --seconds,
+      "180"
+    ]],
+  ["timing_3",      [
+      --set,
+      "cadence,timing",
+      --seconds,
+      "180"
+    ]],
+  ["cadence_3",     [
+      --set,
+      cadence,
+      --seconds,
+      "180"
+    ]],
+  ["ordinary_1",    [
+      --seconds,
+      "180"
+    ]],
+  ["e2e_cadence_1", [
+      --set,
+      cadence,
+      --seconds,
+      "180"
+    ]],
+  ["e2e_cadence_2", [
+      --set,
+      cadence,
+      --seconds,
+      "180"
+    ]],
+  ["ordinary_2",    [
+      --seconds,
+      "180"
+    ]],
+  ["ordinary_3",    [
+      --seconds,
+      "180"
+    ]],
+  ["e2e_cadence_3", [
+      --set,
+      cadence,
+      --seconds,
+      "180"
+    ]],
+  ["noapi_1",       [
+      --seconds,
+      "180"
+    ]],
+  ["api_1",         [
+      --seconds,
+      "180",
+      --api
+    ]],
+  ["api_2",         [
+      --seconds,
+      "180",
+      --api
+    ]],
+  ["noapi_2",       [
+      --seconds,
+      "180"
+    ]],
+  ["noapi_3",       [
+      --seconds,
+      "180"
+    ]],
+  ["api_3",         [
+      --seconds,
+      "180",
+      --api
+    ]],
+  [oracle,          [
+      --set,
+      "cadence,timing",
+      --seconds,
+      "180",
+      --trace
+    ]]
+]
