@@ -1,0 +1,43 @@
+{
+  commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+  symbols: [
+    CADENCE,
+    PREPARE
+  ],
+  source: "the program's src/ and manifest at c804ccbc15a97e36016b9001b2e211b04431f3ed",
+  sdk: "sdk/src at c804ccbc15a97e36016b9001b2e211b04431f3ed, the export's own",
+  build_tool: {
+    repos: [
+      [repo,                           commit,                                     dirty];
+      [/home/box/proj/sourcetrait/jab, "c804ccbc15a97e36016b9001b2e211b04431f3ed", false]
+    ],
+    runtime: [
+      [role,          version,   "sha256"];
+      [nu,            "0.115.1", "c343a927a2d4a45ebf9300d013b226bcdc2598ecb0178a8a79722ebffe71e56e"],
+      ["nu launched", "0.115.1", "c343a927a2d4a45ebf9300d013b226bcdc2598ecb0178a8a79722ebffe71e56e"]
+    ],
+    executables: [
+
+    ]
+  },
+  toolchain: {
+    prefix: "/home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+    version: "GNU assembler (GNU Binutils) 2.47.20260726",
+    assembler: {
+      path: "/home/box/.sys/adhoc/opt/riscv/bin/riscv64-unknown-linux-gnu-as",
+      "sha256": "594cf6297f02007cecb2f5900b90297902697db42e5bf57c730d7eed00647ef2"
+    },
+    linker: {
+      path: "/home/box/.sys/adhoc/opt/riscv/bin/riscv64-unknown-linux-gnu-ld",
+      "sha256": "b931cf6b8ff1b97d2b3bc0c060b59a2fb638d4d7893cbea9208fd7664c686bb6"
+    },
+    objcopy: {
+      path: "/home/box/.sys/adhoc/opt/riscv/bin/riscv64-unknown-linux-gnu-objcopy",
+      "sha256": "1aed841115bd72b9dfdc46b5509725223542d3b8f47ea15309912b8544cbd2ae"
+    }
+  },
+  flags: "-I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/example/walk/export_c804ccb-cadence-prepare/sdk/src --defsym CADENCE=1 --defsym PREPARE=1 --defsym RELEASE=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+  "image_sha256": "32b2dcd195e392aada13943589af2a1c58c5fc7a0bfe56a87ec8dde600bdab3f",
+  "elf_sha256": "9414928ea842ec0056607fba297a36d73be7d907482f9dc01c61f53bad1a9e6c",
+  "romfs_sha256": "0f7ba7d79b1028bbd72f9324a3a9ce022ae1d7e34c93984da694c44bf7a0dc08"
+}

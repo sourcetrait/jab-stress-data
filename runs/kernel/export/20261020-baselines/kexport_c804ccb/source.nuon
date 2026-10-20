@@ -1,0 +1,7 @@
+{
+  commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+  symbols: [
+
+  ],
+  exported_from: "git archive of kernel/src, kernel/kernel.jab.toml, and sdk/src at c804ccbc15a97e36016b9001b2e211b04431f3ed, the manifest's workspace the checkout's for the toolchain and the target, its do dropped"
+}

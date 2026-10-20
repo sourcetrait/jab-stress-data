@@ -1,0 +1,9 @@
+{
+  commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+  symbols: [
+    CADENCE,
+    PREPARE,
+    TIMING
+  ],
+  exported_from: "git archive of sdk/src, the program's src/ and manifest, and its assets, asset/img, at c804ccbc15a97e36016b9001b2e211b04431f3ed, the manifest's sdk, includes, link, and assets redirected into the export and its workspace the checkout's for the kernel and the target, its declaration and run shape kept, paired, and its fields naming the program's own tree dropped"
+}

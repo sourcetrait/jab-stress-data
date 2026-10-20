@@ -1,0 +1,21 @@
+{
+  supervisor: {
+    path: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/shim/release/jabpipe",
+    "sha256": "f14f64cd541c6d182321bae13c1cd9c5579f6f839b3f82d7995f37d720615ef5"
+  },
+  built_from: {
+    repo: /home/box/proj/sourcetrait/jab,
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    dirty: false
+  },
+  bounds: {
+    startup_ns: 11000000000,
+    retry_ns: 10000000,
+    screen_ns: 5000000000,
+    screen_poll_ns: 50000000,
+    cpu_ns: 100000000,
+    grace_ns: 2000000000,
+    term_ns: 1000000000
+  },
+  timing: "the supervisor's monotonic clock: the go's Instant, as the supervisor lets QEMU run, the origin of every receipt time, in nanoseconds; QEMU's CPU read by the supervisor every cpu_ns; a result's times in seconds from the go and its wall_seconds from the go to the reap; the caller's realtime clock gives dates alone. A run captured before this freeze keeps the timing it was captured under, its times from the caller's realtime start."
+}

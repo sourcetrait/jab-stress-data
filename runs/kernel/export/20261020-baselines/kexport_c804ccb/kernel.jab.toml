@@ -1,0 +1,8 @@
+name = "jab"
+sdk = "../sdk"
+includes = [
+    "src/include",
+    "../sdk/src",
+]
+link = "src/link.ld"
+workspace = "/home/box/proj/sourcetrait/jab"

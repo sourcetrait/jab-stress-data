@@ -1,0 +1,74 @@
+{
+ schema: 2,
+ set: export,
+ stamp: "20261020-baselines",
+ task: PresentationScope,
+ scope: {
+  kind: whole,
+  ran: 5,
+  of: 5
+ },
+ builds: [
+  [part,                                    build, source, record,                                                          export];
+  ["kexport_c804ccb",                       null,  export, "kexport_c804ccb/release/provenance.nuon",                       {
+    name: "kexport_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "kexport_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b",
+    "kernel_sha256": null
+   }],
+  ["export_c804ccb-cadence",                null,  export, "export_c804ccb-cadence/release/provenance.nuon",                {
+    name: "export_c804ccb-cadence",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "export_c804ccb-cadence/release/provenance.nuon",
+    symbols: [
+     CADENCE
+    ],
+    "image_sha256": "ad2f50b1142e80e2b263a10e76e0d54a8ca69d25b74126546bda25b61bf6d7ff",
+    "kernel_sha256": null
+   }],
+  ["export_c804ccb-cadence-timing",         null,  export, "export_c804ccb-cadence-timing/release/provenance.nuon",         {
+    name: "export_c804ccb-cadence-timing",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "export_c804ccb-cadence-timing/release/provenance.nuon",
+    symbols: [
+     CADENCE,
+     TIMING
+    ],
+    "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+    "kernel_sha256": null
+   }],
+  ["export_c804ccb-cadence-prepare",        null,  export, "export_c804ccb-cadence-prepare/release/provenance.nuon",        {
+    name: "export_c804ccb-cadence-prepare",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "export_c804ccb-cadence-prepare/release/provenance.nuon",
+    symbols: [
+     CADENCE,
+     PREPARE
+    ],
+    "image_sha256": "32b2dcd195e392aada13943589af2a1c58c5fc7a0bfe56a87ec8dde600bdab3f",
+    "kernel_sha256": null
+   }],
+  ["export_c804ccb-cadence-prepare-timing", null,  export, "export_c804ccb-cadence-prepare-timing/release/provenance.nuon", {
+    name: "export_c804ccb-cadence-prepare-timing",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "export_c804ccb-cadence-prepare-timing/release/provenance.nuon",
+    symbols: [
+     CADENCE,
+     PREPARE,
+     TIMING
+    ],
+    "image_sha256": "088eff5d5cd15ce91acf8b48ab0d2cb43a27a8839e642b0e88588acd101e2f0d",
+    "kernel_sha256": null
+   }]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "PresentationScope's frozen kernel and walk baselines at FrameCeiling's fix pass, step 5, exported at jab c804ccb, the fixing commit, by jab-stress's freeze bins, each gated on e21c5ae's bytes as the pass's map expected them unchanged. The kernel's loaded bytes are e21c5ae's, eee71773; its ELF is c12d64ac where e21c5ae's was cb203ae1, its symbol table alone grown, FAULT_HART_DEC among the symbols it adds, every loaded section the same. walk's four images changed, each by jab 3cfef40's 90-period trail in its main.S alone, sdk/src the same since e21c5ae: CADENCE ad2f50b1, TIMING 1e1388b0, PREPARE 32b2dcd1, PREPARE and TIMING 088eff5d; so walk's baseline runs are taken again on them. Each export's source, manifest, flags, and provenance kept and its whole tree archived, the builds in the box's target under candidates/. The launcher its measurements run under is the fierce baselines' launcher.nuon, runs/fierce/export/20261020-baselines. Cited by the fps subiter's plan/agenda/FrameCeiling.md, The baselines."
+ },
+ inventory: "dcbdeed0ee99804a9f429be5e3c50e5c36d462f249bbc220eebde949aab38148",
+ storage: "fff01058ced6370ac5e51d5c57398f684247546d345cc5f18371ed0f8045303e"
+}

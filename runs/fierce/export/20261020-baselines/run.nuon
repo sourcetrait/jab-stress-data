@@ -1,0 +1,30 @@
+{
+ schema: 2,
+ set: export,
+ stamp: "20261020-baselines",
+ task: PresentationScope,
+ scope: {
+  kind: whole,
+  ran: 1,
+  of: 1
+ },
+ builds: [
+  [part,             build, source, record,                                   export];
+  ["export_c804ccb", null,  export, "export_c804ccb/release/provenance.nuon", {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": null
+   }]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "PresentationScope's frozen baseline for fierce at FrameCeiling's fix pass, step 5, exported at jab c804ccb, the fixing commit, by jab-stress's `nu/bin/nuance/fierce/freeze.nu` with no gate, its image new with PairBracket's schema 8 (kind 20's call bounds, kind 22, two reads in the load): image 264e7b7c, ELF 3b52a32f; its source, manifest, flags, provenance, and demand record kept and the export's whole tree archived, the build itself in the box's target under candidates/kit/fierce. The launcher its measurements run under, launcher.nuon from `freeze.nu launcher`: jabpipe f14f64cd built from jab c804ccb, clean, its bounds, and its timing domain, the supervisor's go the origin of every receipt time; a run captured before this freeze keeps the timing it was captured under. Cited by the fps subiter's plan/agenda/FrameCeiling.md, The baselines."
+ },
+ inventory: "fee4767caec59f9dfd7356c511acd60351285bbe9399a0327fff6666bd1e313f",
+ storage: "b72fe3cf05ade6c205626bec0a4649304ad465f2fa6c7e2b3756fb72c51d5ecd"
+}

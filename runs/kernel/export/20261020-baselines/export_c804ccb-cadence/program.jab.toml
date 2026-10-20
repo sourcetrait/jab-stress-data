@@ -1,0 +1,7 @@
+name = "walk"
+sdk = "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/example/walk/export_c804ccb-cadence/sdk"
+workspace = "/home/box/proj/sourcetrait/jab"
+includes = ["/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/example/walk/export_c804ccb-cadence/sdk/src"]
+link = "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/example/walk/export_c804ccb-cadence/sdk/src/program.ld"
+assets = "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/example/walk/export_c804ccb-cadence/asset/img"
+paired = "cadence"

@@ -1,0 +1,12 @@
+name = "fierce"
+sdk = "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_c804ccb/sdk"
+workspace = "/home/box/proj/sourcetrait/jab"
+includes = ["/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_c804ccb/sdk/src"]
+link = "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_c804ccb/sdk/src/program.ld"
+specs = [
+    "1ka1",
+    "1kb1",
+]
+
+[reserved]
+gfx_harts = 2
