@@ -139,7 +139,7 @@ The landing classes each file by its name:
 | asset | a map tree's `.map`, `.pcm`, `.mid`, `.svg`, `map/name`, `map/title` | written |
 | fixture | a staged `.jabstage.<nonce>` | written |
 
-A `.json` file is a launch's control file, which its launch removes, so
+A `.json` file is a launch's control file, which its launch retires, so
 one found refuses the landing. So does a file of a kind the table does
 not list, so a new kind is classified on purpose. A pipe or a socket, a
 plain launch's live wire, holds nothing at rest and is left out. A link
@@ -167,6 +167,13 @@ A derived or hash-only original gives its reason. An input left out with
 no proved recovery leaves its reread unavailable, and the record of that
 work says so.
 
+A map's compiled tree, and a disk made from it, is rebuilt from the game's
+content. A tree compiled before jab c804ccb names each tile's source in its
+`tile.nuon` by the checkout's absolute path, where one compiled since names
+it relative to the content; such a tree is made again with those paths put
+back, as the workbench's `tilesources` does, and must then hash as the
+original did.
+
 An original outside this repository, a measurement's bulk in the box's
 target or its scratch, is removed only once its removal gate passes: its
 archive is committed here; a restoration into a fresh location gives back
@@ -186,7 +193,7 @@ disposition before a run of it lands:
   receipt carries every action; it does not land.
 - The JSON wire files, the schedule, the readiness, the authorization, the
   cancel, the outcome, and the exit receipt: control files the launch
-  removes on every path once its supervisor has ended; one a landing finds
+  retires on every path once its supervisor has ended; one a landing finds
   refuses it by name.
 - `qemu.stdout` and `qemu.stderr`, the child's streams: logs, landed as
   containers where a consumer reads them.
