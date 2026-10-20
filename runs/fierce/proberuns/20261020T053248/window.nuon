@@ -1,0 +1,156 @@
+{
+ windowed: [
+  [name,               problems];
+  ["windowed_1 run 1", [
+
+   ]],
+  ["windowed_1 run 2", [
+
+   ]],
+  ["windowed_1 run 3", [
+
+   ]],
+  ["windowed_2 run 1", [
+
+   ]],
+  ["windowed_2 run 2", [
+
+   ]],
+  ["windowed_2 run 3", [
+
+   ]]
+ ],
+ headless: [
+  [name,               problems];
+  ["headless_1 run 1", [
+
+   ]],
+  ["headless_1 run 2", [
+
+   ]],
+  ["headless_1 run 3", [
+
+   ]],
+  ["headless_2 run 1", [
+
+   ]],
+  ["headless_2 run 2", [
+
+   ]],
+  ["headless_2 run 3", [
+
+   ]]
+ ],
+ measures: [
+  [measure,                      windowed, headless, effect,              noise,              within, runs];
+  ["critical path median",       12654,    11505,    1149,                91.5,               false,  [
+    [arm,      name,               value];
+    [windowed, "windowed_1 run 1", 12703],
+    [windowed, "windowed_1 run 2", 12678],
+    [windowed, "windowed_1 run 3", 12619],
+    [windowed, "windowed_2 run 1", 12620],
+    [windowed, "windowed_2 run 2", 12667],
+    [windowed, "windowed_2 run 3", 12654],
+    [headless, "headless_1 run 1", 11530],
+    [headless, "headless_1 run 2", 11521],
+    [headless, "headless_1 run 3", 11548],
+    [headless, "headless_2 run 1", 11498],
+    [headless, "headless_2 run 2", 11365],
+    [headless, "headless_2 run 3", 11505]
+   ]],
+  ["drawing median",             10946,    10908,    38,                  69.0,               true,   [
+    [arm,      name,               value];
+    [windowed, "windowed_1 run 1", 10985],
+    [windowed, "windowed_1 run 2", 10966],
+    [windowed, "windowed_1 run 3", 10911],
+    [windowed, "windowed_2 run 1", 10974],
+    [windowed, "windowed_2 run 2", 10946],
+    [windowed, "windowed_2 run 3", 10924],
+    [headless, "headless_1 run 1", 10936],
+    [headless, "headless_1 run 2", 10900],
+    [headless, "headless_1 run 3", 10937],
+    [headless, "headless_2 run 1", 10908],
+    [headless, "headless_2 run 2", 10809],
+    [headless, "headless_2 run 3", 10947]
+   ]],
+  ["flip median",                1583,     436,      1147,                29.5,               false,  [
+    [arm,      name,               value];
+    [windowed, "windowed_1 run 1", 1591],
+    [windowed, "windowed_1 run 2", 1599],
+    [windowed, "windowed_1 run 3", 1583],
+    [windowed, "windowed_2 run 1", 1540],
+    [windowed, "windowed_2 run 2", 1570],
+    [windowed, "windowed_2 run 3", 1595],
+    [headless, "headless_1 run 1", 434],
+    [headless, "headless_1 run 2", 445],
+    [headless, "headless_1 run 3", 443],
+    [headless, "headless_2 run 1", 438],
+    [headless, "headless_2 run 2", 412],
+    [headless, "headless_2 run 3", 436]
+   ]],
+  ["acceptance interval median", 16666.4,  16666.3,  0.10000000000218279, 0.1499999999996362, true,   [
+    [arm,      name,               value];
+    [windowed, "windowed_1 run 1", 16666.4],
+    [windowed, "windowed_1 run 2", 16666.4],
+    [windowed, "windowed_1 run 3", 16666.3],
+    [windowed, "windowed_2 run 1", 16666.5],
+    [windowed, "windowed_2 run 2", 16666.2],
+    [windowed, "windowed_2 run 3", 16666.5],
+    [headless, "headless_1 run 1", 16666.4],
+    [headless, "headless_1 run 2", 16666.3],
+    [headless, "headless_1 run 3", 16666.2],
+    [headless, "headless_2 run 1", 16666.3],
+    [headless, "headless_2 run 2", 16666.2],
+    [headless, "headless_2 run 3", 16666.4]
+   ]],
+  ["acceptance interval 95th",   16844.0,  16824.9,  19.099999999998545,  19.100000000000364, true,   [
+    [arm,      name,               value];
+    [windowed, "windowed_1 run 1", 16844.0],
+    [windowed, "windowed_1 run 2", 16859.9],
+    [windowed, "windowed_1 run 3", 16855.3],
+    [windowed, "windowed_2 run 1", 16833.2],
+    [windowed, "windowed_2 run 2", 16853.7],
+    [windowed, "windowed_2 run 3", 16821.7],
+    [headless, "headless_1 run 1", 16815.5],
+    [headless, "headless_1 run 2", 16826.7],
+    [headless, "headless_1 run 3", 16824.9],
+    [headless, "headless_2 run 1", 16826.0],
+    [headless, "headless_2 run 2", 16823.5],
+    [headless, "headless_2 run 3", 16834.8]
+   ]],
+  ["completion interval median", 16663,    16663,    0,                   2.0,                true,   [
+    [arm,      name,               value];
+    [windowed, "windowed_1 run 1", 16664],
+    [windowed, "windowed_1 run 2", 16663],
+    [windowed, "windowed_1 run 3", 16666],
+    [windowed, "windowed_2 run 1", 16662],
+    [windowed, "windowed_2 run 2", 16662],
+    [windowed, "windowed_2 run 3", 16663],
+    [headless, "headless_1 run 1", 16664],
+    [headless, "headless_1 run 2", 16663],
+    [headless, "headless_1 run 3", 16662],
+    [headless, "headless_2 run 1", 16663],
+    [headless, "headless_2 run 2", 16664],
+    [headless, "headless_2 run 3", 16666]
+   ]],
+  ["completion interval 95th",   17041,    16912,    129,                 23.5,               false,  [
+    [arm,      name,               value];
+    [windowed, "windowed_1 run 1", 17042],
+    [windowed, "windowed_1 run 2", 17065],
+    [windowed, "windowed_1 run 3", 17032],
+    [windowed, "windowed_2 run 1", 17018],
+    [windowed, "windowed_2 run 2", 17041],
+    [windowed, "windowed_2 run 3", 17043],
+    [headless, "headless_1 run 1", 16922],
+    [headless, "headless_1 run 2", 16914],
+    [headless, "headless_1 run 3", 16912],
+    [headless, "headless_2 run 1", 16913],
+    [headless, "headless_2 run 2", 16896],
+    [headless, "headless_2 run 3", 16909]
+   ]]
+ ],
+ within: false,
+ problems: [
+
+ ]
+}

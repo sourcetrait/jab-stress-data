@@ -1,0 +1,190 @@
+{
+ schema: 2,
+ set: proberuns,
+ stamp: "20261020T053248",
+ task: ProbeRuns,
+ scope: {
+  kind: whole,
+  ran: 45,
+  of: 45
+ },
+ builds: [
+  [part,           build, source, record,                             export];
+  ["probed0_1",    null,  export, "probed0_1/run_1/identity.nuon",    {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b"
+   }],
+  ["probed1_1",    null,  export, "probed1_1/run_1/identity.nuon",    {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b"
+   }],
+  ["probed2_1",    null,  export, "probed2_1/run_1/identity.nuon",    {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b"
+   }],
+  ["probed2_2",    null,  export, "probed2_2/run_1/identity.nuon",    {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b"
+   }],
+  ["probed1_2",    null,  export, "probed1_2/run_1/identity.nuon",    {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b"
+   }],
+  ["probed0_2",    null,  export, "probed0_2/run_1/identity.nuon",    {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b"
+   }],
+  ["oracle0",      null,  export, "oracle0/run_1/identity.nuon",      {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b"
+   }],
+  ["oracle1",      null,  export, "oracle1/run_1/identity.nuon",      {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b"
+   }],
+  ["oracle2",      null,  export, "oracle2/run_1/identity.nuon",      {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b"
+   }],
+  ["shimprobed_1", null,  export, "shimprobed_1/run_1/identity.nuon", {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b"
+   }],
+  ["shimplain_1",  null,  export, "shimplain_1/run_1/identity.nuon",  {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b"
+   }],
+  ["shimplain_2",  null,  export, "shimplain_2/run_1/identity.nuon",  {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b"
+   }],
+  ["shimprobed_2", null,  export, "shimprobed_2/run_1/identity.nuon", {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b"
+   }],
+  ["headless_1",   null,  export, "headless_1/run_1/identity.nuon",   {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b"
+   }],
+  ["windowed_1",   null,  export, "windowed_1/run_1/identity.nuon",   {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b"
+   }],
+  ["windowed_2",   null,  export, "windowed_2/run_1/identity.nuon",   {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b"
+   }],
+  ["headless_2",   null,  export, "headless_2/run_1/identity.nuon",   {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b"
+   }]
+ ],
+ kept: {
+  as: current,
+  why: "ProbeRuns' box matrix on fierce's frozen baseline, export_c804ccb (image 264e7b7c) on kexport_c804ccb (ELF c12d64ac), P0, 1KA1, the factory route, every arm `--host` with JAB_AUDIO none, through jab-stress's gauge_batches runner from 05:32 to 07:09: seventeen batches, 45 runs, every batch ok. The probed batches at cadences 0 1 2 2 1 0 and the oracle's three traced runs read by ProbeRuns' reader at jab-stress 4c0bf6f over jab c804ccb: every pairing admitted on its recorded bounds; 60.2, 55.6, and 58.8 percent of frames shown at cadences 0, 1, and 2, superseded runs of two at most, no repeats, SDL's offscreen renders every 30.0 ms; presented every 16.67 to 16.70 ms; K violations by the thousand at cadences 0 and 1 under P0, as P0's catch-up gives them, and none at cadence 2. The observer set: the shim's effect past its noise on the flip call's median (0.044 ms) and the completion interval's median (0.005 ms), so the probed readings are instrumented-only. The window's cost, offscreen SDL against headless: the flip call 1.147 ms longer at the median and the critical path with it, the drawing and the acceptance intervals unchanged. The readings proberuns.nuon, observer.nuon, and window.nuon kept; the batches' runs, pads, and logs archived; each step's gauge report derived by the batch reread; each disk copy kept as its hash. Cited by the fps subiter's plan/agenda/FrameCeiling/FrameCadence/CadenceGauge/ProbeRuns.md."
+ },
+ inventory: "140d173b1d9bf184cdcd9319a04d02949770eefb93a374a8d8243cd7577e44aa",
+ storage: "53eebbda6f1936d39caa97f33a8ab1239724fb45fc90d19f7156486367ee7e92"
+}

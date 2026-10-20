@@ -1,0 +1,156 @@
+{
+ probed: [
+  [name,                 problems];
+  ["shimprobed_1 run 1", [
+
+   ]],
+  ["shimprobed_1 run 2", [
+
+   ]],
+  ["shimprobed_1 run 3", [
+
+   ]],
+  ["shimprobed_2 run 1", [
+
+   ]],
+  ["shimprobed_2 run 2", [
+
+   ]],
+  ["shimprobed_2 run 3", [
+
+   ]]
+ ],
+ plain: [
+  [name,                problems];
+  ["shimplain_1 run 1", [
+
+   ]],
+  ["shimplain_1 run 2", [
+
+   ]],
+  ["shimplain_1 run 3", [
+
+   ]],
+  ["shimplain_2 run 1", [
+
+   ]],
+  ["shimplain_2 run 2", [
+
+   ]],
+  ["shimplain_2 run 3", [
+
+   ]]
+ ],
+ measures: [
+  [measure,                      probed,  plain,   effect,              noise,              within, runs];
+  ["critical path median",       12761,   12621,   140,                 178.0,              true,   [
+    [arm,    name,                 value];
+    [probed, "shimprobed_1 run 1", 12789],
+    [probed, "shimprobed_1 run 2", 12841],
+    [probed, "shimprobed_1 run 3", 12945],
+    [probed, "shimprobed_2 run 1", 12676],
+    [probed, "shimprobed_2 run 2", 12761],
+    [probed, "shimprobed_2 run 3", 12684],
+    [plain,  "shimplain_1 run 1",  12621],
+    [plain,  "shimplain_1 run 2",  12592],
+    [plain,  "shimplain_1 run 3",  12646],
+    [plain,  "shimplain_2 run 1",  12947],
+    [plain,  "shimplain_2 run 2",  12683],
+    [plain,  "shimplain_2 run 3",  12591]
+   ]],
+  ["drawing median",             11017,   10935,   82,                  181.0,              true,   [
+    [arm,    name,                 value];
+    [probed, "shimprobed_1 run 1", 11025],
+    [probed, "shimprobed_1 run 2", 11017],
+    [probed, "shimprobed_1 run 3", 11139],
+    [probed, "shimprobed_2 run 1", 10920],
+    [probed, "shimprobed_2 run 2", 11022],
+    [probed, "shimprobed_2 run 3", 10959],
+    [plain,  "shimplain_1 run 1",  10910],
+    [plain,  "shimplain_1 run 2",  10935],
+    [plain,  "shimplain_1 run 3",  10938],
+    [plain,  "shimplain_2 run 1",  11272],
+    [plain,  "shimplain_2 run 2",  10954],
+    [plain,  "shimplain_2 run 3",  10928]
+   ]],
+  ["flip median",                1614,    1570,    44,                  26.0,               false,  [
+    [arm,    name,                 value];
+    [probed, "shimprobed_1 run 1", 1656],
+    [probed, "shimprobed_1 run 2", 1655],
+    [probed, "shimprobed_1 run 3", 1656],
+    [probed, "shimprobed_2 run 1", 1612],
+    [probed, "shimprobed_2 run 2", 1614],
+    [probed, "shimprobed_2 run 3", 1605],
+    [plain,  "shimplain_1 run 1",  1576],
+    [plain,  "shimplain_1 run 2",  1575],
+    [plain,  "shimplain_1 run 3",  1569],
+    [plain,  "shimplain_2 run 1",  1543],
+    [plain,  "shimplain_2 run 2",  1595],
+    [plain,  "shimplain_2 run 3",  1570]
+   ]],
+  ["acceptance interval median", 16666.2, 16666.5, -0.2999999999992724, 0.4500000000007276, true,   [
+    [arm,    name,                 value];
+    [probed, "shimprobed_1 run 1", 16665.8],
+    [probed, "shimprobed_1 run 2", 16666.7],
+    [probed, "shimprobed_1 run 3", 16666.1],
+    [probed, "shimprobed_2 run 1", 16666.2],
+    [probed, "shimprobed_2 run 2", 16666.4],
+    [probed, "shimprobed_2 run 3", 16666.3],
+    [plain,  "shimplain_1 run 1",  16666.5],
+    [plain,  "shimplain_1 run 2",  16666.4],
+    [plain,  "shimplain_1 run 3",  16666.4],
+    [plain,  "shimplain_2 run 1",  16666.8],
+    [plain,  "shimplain_2 run 2",  16666.7],
+    [plain,  "shimplain_2 run 3",  16666.5]
+   ]],
+  ["acceptance interval 95th",   16846.3, 16827.9, 18.399999999997817,  21.25,              true,   [
+    [arm,    name,                 value];
+    [probed, "shimprobed_1 run 1", 16862.9],
+    [probed, "shimprobed_1 run 2", 16846.3],
+    [probed, "shimprobed_1 run 3", 16857.3],
+    [probed, "shimprobed_2 run 1", 16823.5],
+    [probed, "shimprobed_2 run 2", 16827.1],
+    [probed, "shimprobed_2 run 3", 16866.0],
+    [plain,  "shimplain_1 run 1",  16852.6],
+    [plain,  "shimplain_1 run 2",  16823.9],
+    [plain,  "shimplain_1 run 3",  16828.8],
+    [plain,  "shimplain_2 run 1",  16829.1],
+    [plain,  "shimplain_2 run 2",  16827.9],
+    [plain,  "shimplain_2 run 3",  16810.6]
+   ]],
+  ["completion interval median", 16660,   16665,   -5,                  4.0,                false,  [
+    [arm,    name,                 value];
+    [probed, "shimprobed_1 run 1", 16656],
+    [probed, "shimprobed_1 run 2", 16658],
+    [probed, "shimprobed_1 run 3", 16660],
+    [probed, "shimprobed_2 run 1", 16663],
+    [probed, "shimprobed_2 run 2", 16664],
+    [probed, "shimprobed_2 run 3", 16661],
+    [plain,  "shimplain_1 run 1",  16665],
+    [plain,  "shimplain_1 run 2",  16662],
+    [plain,  "shimplain_1 run 3",  16662],
+    [plain,  "shimplain_2 run 1",  16667],
+    [plain,  "shimplain_2 run 2",  16665],
+    [plain,  "shimplain_2 run 3",  16665]
+   ]],
+  ["completion interval 95th",   17062,   17000,   62,                  150.5,              true,   [
+    [arm,    name,                 value];
+    [probed, "shimprobed_1 run 1", 17313],
+    [probed, "shimprobed_1 run 2", 17240],
+    [probed, "shimprobed_1 run 3", 17206],
+    [probed, "shimprobed_2 run 1", 17012],
+    [probed, "shimprobed_2 run 2", 17041],
+    [probed, "shimprobed_2 run 3", 17062],
+    [plain,  "shimplain_1 run 1",  17017],
+    [plain,  "shimplain_1 run 2",  16992],
+    [plain,  "shimplain_1 run 3",  17033],
+    [plain,  "shimplain_2 run 1",  17017],
+    [plain,  "shimplain_2 run 2",  16999],
+    [plain,  "shimplain_2 run 3",  17000]
+   ]]
+ ],
+ admissible: false,
+ problems: [
+
+ ]
+}
