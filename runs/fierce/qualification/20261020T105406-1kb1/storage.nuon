@@ -1,0 +1,33 @@
+[
+ [object,                             kind, length,  "sha256",                                                           holds];
+ ["candidate.nuon",                   raw,  2642,    "18a03f5cc026bf337ed4037bd2fcd416da2e0b67ec55b200b01389d6c7ad274d", [
+   "candidate.nuon"
+  ]],
+ ["check/bench/audio/gauge.nuon",     raw,  482771,  "650ffff32b01d0f4969dcdad5b872ed2b25af32f642586508e19daac66849168", [
+   "check/bench/audio/gauge.nuon"
+  ]],
+ ["check/bench/bench.nuon",           raw,  4060,    "897180c73a252d1cceaead063d880e560b21e0f1e6db25fd265252836cd1a10f", [
+   "check/bench/bench.nuon"
+  ]],
+ ["check/bench/candidate.nuon",       raw,  2642,    "18a03f5cc026bf337ed4037bd2fcd416da2e0b67ec55b200b01389d6c7ad274d", [
+   "check/bench/candidate.nuon"
+  ]],
+ ["check/bench/service_1/gauge.nuon", raw,  7038946, "57d47e842d67dc1f366fb18dd46f7baeb2c8ed0f0d72bbb87b1ee52af9ca9281", [
+   "check/bench/service_1/gauge.nuon"
+  ]],
+ ["check/bench/service_2/gauge.nuon", raw,  7041188, "378bd473e9e31d1e017d4b63b20bd286ed0e5fe7e3911d35a8c832bb327454e7", [
+   "check/bench/service_2/gauge.nuon"
+  ]],
+ ["check/bench/watch.nuon",           raw,  75041,   "1460234af4c12a3caf35d23c3bf31f883f62dbd3edac67356730cac4b1b11582", [
+   "check/bench/watch.nuon"
+  ]],
+ ["check/check.nuon",                 raw,  17590,   "24a6e8ee16ce4cbd6fab4cdab0acd001518037db354992d7906b4d9f13da73e2", [
+   "check/check.nuon"
+  ]],
+ ["check/qualification.nuon",         raw,  564726,  "270866825809967c04283540ca213996e6b5564c316ec6faed82cca224ff7169", [
+   "check/qualification.nuon"
+  ]],
+ ["qualification.nuon",               raw,  564807,  "89323f15542c5fbaedc8556f48e612476bc07b31d160622681b8130fcf759b60", [
+   "qualification.nuon"
+  ]]
+]

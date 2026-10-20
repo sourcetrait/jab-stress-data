@@ -1,0 +1,26 @@
+{
+ schema: 2,
+ set: "qual_1kb1",
+ stamp: "20261020T103813",
+ task: Qualification,
+ scope: {
+  kind: targeted,
+  ran: 7,
+  of: 7,
+  names: [
+   "service_1",
+   "service_2",
+   audio
+  ]
+ },
+ builds: [
+  [part, build,                                      source,   record];
+  [run,  "d4da91162bd9ff41212a29ab4fdde1e0a08902af", checkout, "bench.nuon"]
+ ],
+ kept: {
+  as: targeted,
+  why: "The qualification bench's new rows on 1KB1 at jab d4da911, `./do bench kit/fierce/qual_1kb1 --only service_1,service_2,audio` under its watch, every arm sdl,gl=on offscreen, the named service and debug builds built beside the tree: the qualification preparation's proof of the rows SceneOwnership and RegressionSuite added, never a qualification. Read by qualification/<record stamp>-1kb1: its service, unavailable-feature, and audio cases read with no problem, the bench's other steps missing as a targeted run's. Its bench, watch, and report records, its runs, builds, pads, and logs archived here; its gauge reports derived by the batch reread, its disk copies kept as hashes. Cited by the fps subiter's plan/agenda/FrameCeiling/Qualification.md."
+ },
+ inventory: "1c8dff8b1dc539bd694d1269510a4b22f9f9d3e098c1329df39cfc93b9307a49",
+ storage: "c67f3f76dec1730f49ffccc39e076886f821b06d9d690a96cd339d2ce2c8b32e"
+}

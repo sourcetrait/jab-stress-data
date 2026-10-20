@@ -1,0 +1,52 @@
+[
+ [object,             kind,      length, "sha256",                                                           holds];
+ ["bench.nuon",       raw,       3301,   "eb8caefe9a408a5e75990b5eb4e4279a3ac521e4aee2a610ec43dfc9bcc0255a", [
+   "bench.nuon"
+  ]],
+ ["report.nuon",      raw,       20489,  "035d4acdcaac3657dab96a0204f028ab6dc0bbfad0d597225c3d1fd5ed7f05c1", [
+   "report.nuon"
+  ]],
+ ["report.txt.nuonl", container, 4636,   "da306812d7812eb64f299397f09514be0987b6feb6142fe48ab6131d52b2ccec", [
+   "report.txt"
+  ]],
+ ["watch.nuon",       raw,       32538,  "69d254f3053e4412810c4f4fb6681fdc4ac3b37b0b473fba449ccaa41d13520d", [
+   "watch.nuon"
+  ]],
+ ["archive.tar.xz",   archive,   499064, "884dcc2b541ed429b3ed630bb48c368d7f763dd7a2f6db861bd52b2216a47661", [
+   "audio/run_1/api.out",
+   "audio/run_1/audio.nuon",
+   "audio/run_1/debug.log",
+   "audio/run_1/identity.nuon",
+   "audio/run_1/launch.nuon",
+   "audio/run_1/qemu.log",
+   "audio/run_1/qemu.stderr",
+   "audio/run_1/qemu.stdout",
+   "audio/run_1/run.nuon",
+   "audio/run_1/serial.log",
+   "audio/run_1/table.nuon",
+   "build/debug/demand.nuon",
+   "build/debug/fierce.elf",
+   "build/debug/fierce.jab",
+   build/debug/flags,
+   build/debug/home,
+   "build/debug/jab.elf",
+   "build/service/demand.nuon",
+   "build/service/fierce.elf",
+   "build/service/fierce.jab",
+   build/service/flags,
+   build/service/home,
+   "build/service/jab.elf",
+   "unavailable/pad.nuon",
+   "unavailable/run_1/api.out",
+   "unavailable/run_1/identity.nuon",
+   "unavailable/run_1/launch.nuon",
+   "unavailable/run_1/qemu.log",
+   "unavailable/run_1/qemu.stderr",
+   "unavailable/run_1/qemu.stdout",
+   "unavailable/run_1/route.nuon",
+   "unavailable/run_1/run.nuon",
+   "unavailable/run_1/serial.log",
+   "watch/audio-1.nuonl",
+   "watch/unavailable-1.nuonl"
+  ]]
+]

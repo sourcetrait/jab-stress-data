@@ -1,0 +1,13 @@
+[
+ [path,                               role,   length,  "sha256",                                                           disposition, reason];
+ ["candidate.nuon",                   record, 2642,    "18a03f5cc026bf337ed4037bd2fcd416da2e0b67ec55b200b01389d6c7ad274d", kept,        ""],
+ ["check/bench/audio/gauge.nuon",     record, 482771,  "650ffff32b01d0f4969dcdad5b872ed2b25af32f642586508e19daac66849168", kept,        ""],
+ ["check/bench/bench.nuon",           record, 4060,    "897180c73a252d1cceaead063d880e560b21e0f1e6db25fd265252836cd1a10f", kept,        ""],
+ ["check/bench/candidate.nuon",       record, 2642,    "18a03f5cc026bf337ed4037bd2fcd416da2e0b67ec55b200b01389d6c7ad274d", kept,        ""],
+ ["check/bench/service_1/gauge.nuon", record, 7038946, "57d47e842d67dc1f366fb18dd46f7baeb2c8ed0f0d72bbb87b1ee52af9ca9281", kept,        ""],
+ ["check/bench/service_2/gauge.nuon", record, 7041188, "378bd473e9e31d1e017d4b63b20bd286ed0e5fe7e3911d35a8c832bb327454e7", kept,        ""],
+ ["check/bench/watch.nuon",           record, 75041,   "1460234af4c12a3caf35d23c3bf31f883f62dbd3edac67356730cac4b1b11582", kept,        ""],
+ ["check/check.nuon",                 record, 17590,   "24a6e8ee16ce4cbd6fab4cdab0acd001518037db354992d7906b4d9f13da73e2", kept,        ""],
+ ["check/qualification.nuon",         record, 564726,  "270866825809967c04283540ca213996e6b5564c316ec6faed82cca224ff7169", kept,        ""],
+ ["qualification.nuon",               record, 564807,  "89323f15542c5fbaedc8556f48e612476bc07b31d160622681b8130fcf759b60", kept,        ""]
+]

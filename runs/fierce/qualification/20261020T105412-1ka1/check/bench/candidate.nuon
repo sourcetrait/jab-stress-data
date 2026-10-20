@@ -1,0 +1,54 @@
+{
+  tag: null,
+  written: "2026-10-20T10:53:24+0000",
+  jab: "d4da91162bd9ff41212a29ab4fdde1e0a08902af",
+  stress: "11ce99ead79b26d6e0cdcd8ff33fedffef3a8600",
+  stress_checkout: {
+    dirty: false,
+    tagged: null
+  },
+  "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+  "elf_sha256": "e414b3276c0dabb136414c48539268e199af0b03ec03bf1e29215888da398658",
+  "kernel_sha256": "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b",
+  flags: "-I ../../sdk/src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/kit/fierce -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+  toolchain: {
+    prefix: "/home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+    version: "GNU assembler (GNU Binutils) 2.47.20260726",
+    tools: {
+      as: {
+        path: "/home/box/.sys/adhoc/opt/riscv/bin/riscv64-unknown-linux-gnu-as",
+        "sha256": "594cf6297f02007cecb2f5900b90297902697db42e5bf57c730d7eed00647ef2"
+      },
+      ld: {
+        path: "/home/box/.sys/adhoc/opt/riscv/bin/riscv64-unknown-linux-gnu-ld",
+        "sha256": "b931cf6b8ff1b97d2b3bc0c060b59a2fb638d4d7893cbea9208fd7664c686bb6"
+      },
+      objcopy: {
+        path: "/home/box/.sys/adhoc/opt/riscv/bin/riscv64-unknown-linux-gnu-objcopy",
+        "sha256": "1aed841115bd72b9dfdc46b5509725223542d3b8f47ea15309912b8544cbd2ae"
+      }
+    }
+  },
+  assets: {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+  },
+  builds: {
+    service: {
+      set: service,
+      tree: release,
+      flags: "-I ../../sdk/src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/kit/fierce --defsym SERVICE=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+      "image_sha256": "55762a95a1cd5372f9d6ee673657f9b1ec6e16ca049c285dad67fd99793ebce9",
+      "elf_sha256": "4a4e3e27e1c12be20b6bab09334139dd7566dba68b6db54ff32a8c7c8fb210a6",
+      "kernel_sha256": "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b"
+    },
+    debug: {
+      set: debug,
+      tree: debug,
+      flags: "-I ../../sdk/src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kit/fierce --defsym DEBUG=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+      "image_sha256": "899d98270cbea2d09e14dbcf04ab34b58ad1bf1c988cf10008619058c8975498",
+      "elf_sha256": "f912cf1a93c8f0381b882a9a74770cb07155cfb00825547e4bdde7d4a0b3541c",
+      "kernel_sha256": "a6831aa2087cfcf47782184a51bb24c4bd2368cedbfb6ff470e13d6e9766c153"
+    }
+  }
+}

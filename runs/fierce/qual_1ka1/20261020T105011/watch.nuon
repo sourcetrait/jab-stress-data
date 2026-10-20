@@ -1,0 +1,821 @@
+{
+  bench: "kit/fierce/qual_1ka1",
+  run: "20261020-105011",
+  dir: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1ka1/20261020-105011",
+  state: done,
+  steps: [
+    [label,       attend, gate,  run,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              state, exit, seconds];
+    [unavailable, null,   false, [
+        "nu/bin/nuance.nu",
+        gauge,
+        run,
+        --tree,
+        release,
+        --image,
+        "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1ka1/20261020-105011/build/service/fierce.jab",
+        --kernel,
+        "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1ka1/20261020-105011/build/service/jab.elf",
+        --runs,
+        "1",
+        --host,
+        --spec,
+        "1ka1",
+        --service,
+        "2"
+      ], done,  0,    103.2],
+    [audio,       null,   false, [
+        "nu/bin/nuance.nu",
+        gauge,
+        audio,
+        --tree,
+        debug,
+        --image,
+        "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1ka1/20261020-105011/build/debug/fierce.jab",
+        --kernel,
+        "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1ka1/20261020-105011/build/debug/jab.elf",
+        --host,
+        --spec,
+        "1ka1"
+      ],                                                                  done,  0,    45.8]
+  ],
+  report: {
+    bench: "kit/fierce/qual_1ka1",
+    stamp: "20261020-105011",
+    dir: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1ka1/20261020-105011",
+    steps: [
+      [label,       state, file];
+      [unavailable, done,  "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1ka1/20261020-105011/unavailable/gauge.nuon"],
+      [audio,       done,  "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1ka1/20261020-105011/audio/gauge.nuon"]
+    ],
+    runs: [
+      [label,       run, seed, kind,  selection, cadence, workers, grain, period_us,          machine,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      qemu,                           standing, reasons];
+      [unavailable, 1,   1,    route, automatic, 1,       null,    null,  16666.666666666668, {
+          harts: 3,
+          ram_gib: 4,
+          spec: {
+            name: "1ka1",
+            cores: 3,
+            ram_gib: 4,
+            display: {
+              width: 1920,
+              height: 1080
+            }
+          },
+          diagnostic: null,
+          machine: "virt,aia=aplic-imsic,aclint=on",
+          cpu: "rva23s64,pmp=true",
+          accel: "tcg,thread=multi",
+          overrides: [
+
+          ]
+        },                                                        "QEMU emulator version 11.1.2", valid,    [
+
+        ]],
+      [audio,       1,   null, audio, automatic, null,    null,    null,  16666.666666666668, {
+          harts: 3,
+          ram_gib: 4,
+          spec: {
+            name: "1ka1",
+            cores: 3,
+            ram_gib: 4,
+            display: {
+              width: 1920,
+              height: 1080
+            }
+          },
+          diagnostic: null,
+          machine: "virt,aia=aplic-imsic,aclint=on",
+          cpu: "rva23s64,pmp=true",
+          accel: "tcg,thread=multi",
+          overrides: [
+            -trace,
+            virtio_input_queue_full
+          ]
+        }, "QEMU emulator version 11.1.2", unpaired, [
+          "unseeded: no seed answered before the first frame",
+          "no cadence asked before the first frame",
+          "the identity asks no cadence"
+        ]]
+    ],
+    groups: [
+      [kind,  cadences];
+      [route, [
+          [cadence, period_us,          steps,                                     runs, valid, standings,                                                                                                                             cpu_over_wall,                                    cpu_left,         outcomes,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  frames,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 apart];
+          [1,       16666.666666666668, [
+              unavailable
+            ], 1,    1,     [
+              [label,       run, standing, reasons];
+              [unavailable, 1,   valid,    [
+
+                ]]
+            ], [
+              1.3437379674173262
+            ], [
+
+            ], [
+              [label,       run, outcomes];
+              [unavailable, 1,   {
+                  rounds: [
+                    [met,     count];
+                    [android, 4]
+                  ],
+                  androids: [
+                    [event,     count];
+                    [roused,    4],
+                    [fired,     29],
+                    [struck,    3],
+                    [destroyed, 1],
+                    [fallen,    1],
+                    [waypoint,  8]
+                  ],
+                  struck: 0,
+                  pickups: 1,
+                  sectors: [
+                    [leg,      sectors];
+                    [start,    [
+                        0
+                      ]],
+                    [fight,    [
+                        0
+                      ]],
+                    [spawn,    [
+                        0
+                      ]],
+                    [yard,     [
+                        25
+                      ]],
+                    [up,       [
+                        2,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                      ]],
+                    [down,     [
+                        2,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        17
+                      ]],
+                    [ramp,     [
+                        27,
+                        28
+                      ]],
+                    [revisit,  [
+                        0
+                      ]],
+                    [pressure, [
+                        25,
+                        11,
+                        0,
+                        17,
+                        28,
+                        2
+                      ]]
+                  ]
+                }]
+            ], {
+              frames: 3298,
+              presented: 3298,
+              acceptance: {
+                count: 3298,
+                min: 12800.3,
+                median: 16666.4,
+                "p95": 16858.9,
+                "p99": 18877.0,
+                max: 27184.1
+              },
+              completion: {
+                count: 3297,
+                min: 12786,
+                median: 16663,
+                "p95": 17002,
+                "p99": 18846,
+                max: 24690
+              },
+              call_interval: {
+                count: 3297,
+                min: 12801,
+                median: 16666,
+                "p95": 16856,
+                "p99": 18732,
+                max: 24745
+              },
+              grid: [
+                [periods, intervals];
+                [1,       3218]
+              ],
+              off_grid: 79,
+              unknown_calls: 0,
+              submission_age: {
+                count: 3298,
+                min: 12749,
+                median: 16562,
+                "p95": 16936,
+                "p99": 18649,
+                max: 26071
+              },
+              critical: {
+                count: 3298,
+                min: 9087,
+                median: 12712,
+                "p95": 15966,
+                "p99": 18854,
+                max: 26247
+              },
+              draw: {
+                count: 3298,
+                min: 7153,
+                median: 11044,
+                "p95": 14211,
+                "p99": 16837,
+                max: 22504
+              },
+              wait: {
+                count: 3298,
+                min: 0,
+                median: 3947,
+                "p95": 5980,
+                "p99": 6747,
+                max: 7969
+              },
+              pacing: {
+                count: 3298,
+                min: 1,
+                median: 1,
+                "p95": 2,
+                "p99": 9,
+                max: 130
+              },
+              await: {
+                count: 3298,
+                min: 0,
+                median: 0,
+                "p95": 0,
+                "p99": 0,
+                max: 7
+              },
+              wakes: 58,
+              attempts: 3298,
+              refusals: 0,
+              flips_early: 0,
+              flips_failed: 0,
+              over: 350,
+              fast: 3209,
+              fast_waited: 3130,
+              catch_up: 0
+            }, [
+
+            ]]
+        ]]
+    ],
+    compared: [
+      [field,       diagnostic, table];
+      [critical_us, false,      [
+          [build,       leg,      route,                                                              selection, machine,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       probed, value_us,           half_spread_us, batches, missing, standings];
+          [unavailable, start,    "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+              harts: 3,
+              ram_gib: 4,
+              spec: {
+                name: "1ka1",
+                cores: 3,
+                ram_gib: 4,
+                display: {
+                  width: 1920,
+                  height: 1080
+                }
+              },
+              diagnostic: null,
+              machine: "virt,aia=aplic-imsic,aclint=on",
+              cpu: "rva23s64,pmp=true",
+              accel: "tcg,thread=multi",
+              overrides: [
+
+              ]
+            }, false,  13277.0,            0.0,            1,       0,       [
+              valid
+            ]],
+          [unavailable, fight,    "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+              harts: 3,
+              ram_gib: 4,
+              spec: {
+                name: "1ka1",
+                cores: 3,
+                ram_gib: 4,
+                display: {
+                  width: 1920,
+                  height: 1080
+                }
+              },
+              diagnostic: null,
+              machine: "virt,aia=aplic-imsic,aclint=on",
+              cpu: "rva23s64,pmp=true",
+              accel: "tcg,thread=multi",
+              overrides: [
+
+              ]
+            }, false,  11800.724137931034, 0.0,            1,       0,       [
+              valid
+            ]],
+          [unavailable, spawn,    "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+              harts: 3,
+              ram_gib: 4,
+              spec: {
+                name: "1ka1",
+                cores: 3,
+                ram_gib: 4,
+                display: {
+                  width: 1920,
+                  height: 1080
+                }
+              },
+              diagnostic: null,
+              machine: "virt,aia=aplic-imsic,aclint=on",
+              cpu: "rva23s64,pmp=true",
+              accel: "tcg,thread=multi",
+              overrides: [
+
+              ]
+            }, false,  12845.166666666666, 0.0,            1,       0,       [
+              valid
+            ]],
+          [unavailable, yard,     "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+              harts: 3,
+              ram_gib: 4,
+              spec: {
+                name: "1ka1",
+                cores: 3,
+                ram_gib: 4,
+                display: {
+                  width: 1920,
+                  height: 1080
+                }
+              },
+              diagnostic: null,
+              machine: "virt,aia=aplic-imsic,aclint=on",
+              cpu: "rva23s64,pmp=true",
+              accel: "tcg,thread=multi",
+              overrides: [
+
+              ]
+            }, false,  14153.736842105263, 0.0,            1,       0,       [
+              valid
+            ]],
+          [unavailable, up,       "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+              harts: 3,
+              ram_gib: 4,
+              spec: {
+                name: "1ka1",
+                cores: 3,
+                ram_gib: 4,
+                display: {
+                  width: 1920,
+                  height: 1080
+                }
+              },
+              diagnostic: null,
+              machine: "virt,aia=aplic-imsic,aclint=on",
+              cpu: "rva23s64,pmp=true",
+              accel: "tcg,thread=multi",
+              overrides: [
+
+              ]
+            }, false,  14356.75,           0.0,            1,       0,       [
+              valid
+            ]],
+          [unavailable, down,     "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+              harts: 3,
+              ram_gib: 4,
+              spec: {
+                name: "1ka1",
+                cores: 3,
+                ram_gib: 4,
+                display: {
+                  width: 1920,
+                  height: 1080
+                }
+              },
+              diagnostic: null,
+              machine: "virt,aia=aplic-imsic,aclint=on",
+              cpu: "rva23s64,pmp=true",
+              accel: "tcg,thread=multi",
+              overrides: [
+
+              ]
+            }, false,  11247.25,           0.0,            1,       0,       [
+              valid
+            ]],
+          [unavailable, ramp,     "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+              harts: 3,
+              ram_gib: 4,
+              spec: {
+                name: "1ka1",
+                cores: 3,
+                ram_gib: 4,
+                display: {
+                  width: 1920,
+                  height: 1080
+                }
+              },
+              diagnostic: null,
+              machine: "virt,aia=aplic-imsic,aclint=on",
+              cpu: "rva23s64,pmp=true",
+              accel: "tcg,thread=multi",
+              overrides: [
+
+              ]
+            }, false,  12632.466666666667, 0.0,            1,       0,       [
+              valid
+            ]],
+          [unavailable, revisit,  "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+              harts: 3,
+              ram_gib: 4,
+              spec: {
+                name: "1ka1",
+                cores: 3,
+                ram_gib: 4,
+                display: {
+                  width: 1920,
+                  height: 1080
+                }
+              },
+              diagnostic: null,
+              machine: "virt,aia=aplic-imsic,aclint=on",
+              cpu: "rva23s64,pmp=true",
+              accel: "tcg,thread=multi",
+              overrides: [
+
+              ]
+            }, false,  12762.538461538461, 0.0,            1,       0,       [
+              valid
+            ]],
+          [unavailable, pressure, "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+              harts: 3,
+              ram_gib: 4,
+              spec: {
+                name: "1ka1",
+                cores: 3,
+                ram_gib: 4,
+                display: {
+                  width: 1920,
+                  height: 1080
+                }
+              },
+              diagnostic: null,
+              machine: "virt,aia=aplic-imsic,aclint=on",
+              cpu: "rva23s64,pmp=true",
+              accel: "tcg,thread=multi",
+              overrides: [
+
+              ]
+            }, false,  14633.625,          0.0,            1,       0,       [
+              valid
+            ]]
+        ]],
+      [draw_us,     false,      [
+          [build,       leg,      route,                                                              selection, machine,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       probed, value_us,           half_spread_us, batches, missing, standings];
+          [unavailable, start,    "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+              harts: 3,
+              ram_gib: 4,
+              spec: {
+                name: "1ka1",
+                cores: 3,
+                ram_gib: 4,
+                display: {
+                  width: 1920,
+                  height: 1080
+                }
+              },
+              diagnostic: null,
+              machine: "virt,aia=aplic-imsic,aclint=on",
+              cpu: "rva23s64,pmp=true",
+              accel: "tcg,thread=multi",
+              overrides: [
+
+              ]
+            }, false,  11369.0,            0.0,            1,       0,       [
+              valid
+            ]],
+          [unavailable, fight,    "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+              harts: 3,
+              ram_gib: 4,
+              spec: {
+                name: "1ka1",
+                cores: 3,
+                ram_gib: 4,
+                display: {
+                  width: 1920,
+                  height: 1080
+                }
+              },
+              diagnostic: null,
+              machine: "virt,aia=aplic-imsic,aclint=on",
+              cpu: "rva23s64,pmp=true",
+              accel: "tcg,thread=multi",
+              overrides: [
+
+              ]
+            }, false,  10082.241379310344, 0.0,            1,       0,       [
+              valid
+            ]],
+          [unavailable, spawn,    "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+              harts: 3,
+              ram_gib: 4,
+              spec: {
+                name: "1ka1",
+                cores: 3,
+                ram_gib: 4,
+                display: {
+                  width: 1920,
+                  height: 1080
+                }
+              },
+              diagnostic: null,
+              machine: "virt,aia=aplic-imsic,aclint=on",
+              cpu: "rva23s64,pmp=true",
+              accel: "tcg,thread=multi",
+              overrides: [
+
+              ]
+            }, false,  11163.75,           0.0,            1,       0,       [
+              valid
+            ]],
+          [unavailable, yard,     "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+              harts: 3,
+              ram_gib: 4,
+              spec: {
+                name: "1ka1",
+                cores: 3,
+                ram_gib: 4,
+                display: {
+                  width: 1920,
+                  height: 1080
+                }
+              },
+              diagnostic: null,
+              machine: "virt,aia=aplic-imsic,aclint=on",
+              cpu: "rva23s64,pmp=true",
+              accel: "tcg,thread=multi",
+              overrides: [
+
+              ]
+            }, false,  12292.947368421053, 0.0,            1,       0,       [
+              valid
+            ]],
+          [unavailable, up,       "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+              harts: 3,
+              ram_gib: 4,
+              spec: {
+                name: "1ka1",
+                cores: 3,
+                ram_gib: 4,
+                display: {
+                  width: 1920,
+                  height: 1080
+                }
+              },
+              diagnostic: null,
+              machine: "virt,aia=aplic-imsic,aclint=on",
+              cpu: "rva23s64,pmp=true",
+              accel: "tcg,thread=multi",
+              overrides: [
+
+              ]
+            }, false,  12558.666666666666, 0.0,            1,       0,       [
+              valid
+            ]],
+          [unavailable, down,     "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+              harts: 3,
+              ram_gib: 4,
+              spec: {
+                name: "1ka1",
+                cores: 3,
+                ram_gib: 4,
+                display: {
+                  width: 1920,
+                  height: 1080
+                }
+              },
+              diagnostic: null,
+              machine: "virt,aia=aplic-imsic,aclint=on",
+              cpu: "rva23s64,pmp=true",
+              accel: "tcg,thread=multi",
+              overrides: [
+
+              ]
+            }, false,  9606.541666666666,  0.0,            1,       0,       [
+              valid
+            ]],
+          [unavailable, ramp,     "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+              harts: 3,
+              ram_gib: 4,
+              spec: {
+                name: "1ka1",
+                cores: 3,
+                ram_gib: 4,
+                display: {
+                  width: 1920,
+                  height: 1080
+                }
+              },
+              diagnostic: null,
+              machine: "virt,aia=aplic-imsic,aclint=on",
+              cpu: "rva23s64,pmp=true",
+              accel: "tcg,thread=multi",
+              overrides: [
+
+              ]
+            }, false,  10885.4,            0.0,            1,       0,       [
+              valid
+            ]],
+          [unavailable, revisit,  "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+              harts: 3,
+              ram_gib: 4,
+              spec: {
+                name: "1ka1",
+                cores: 3,
+                ram_gib: 4,
+                display: {
+                  width: 1920,
+                  height: 1080
+                }
+              },
+              diagnostic: null,
+              machine: "virt,aia=aplic-imsic,aclint=on",
+              cpu: "rva23s64,pmp=true",
+              accel: "tcg,thread=multi",
+              overrides: [
+
+              ]
+            }, false,  11141.76923076923,  0.0,            1,       0,       [
+              valid
+            ]],
+          [unavailable, pressure, "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+              harts: 3,
+              ram_gib: 4,
+              spec: {
+                name: "1ka1",
+                cores: 3,
+                ram_gib: 4,
+                display: {
+                  width: 1920,
+                  height: 1080
+                }
+              },
+              diagnostic: null,
+              machine: "virt,aia=aplic-imsic,aclint=on",
+              cpu: "rva23s64,pmp=true",
+              accel: "tcg,thread=multi",
+              overrides: [
+
+              ]
+            }, false,  12752.75,           0.0,            1,       0,       [
+              valid
+            ]]
+        ]]
+    ],
+    services: [
+      [label,       run, service];
+      [unavailable, 1,   {
+          frames: 3298,
+          running: 0,
+          answers: [
+            [states, status, harts, generation, start];
+            [0,      -1,     0,     0,          true],
+            [3297,   -5,     0,     0,          false]
+          ],
+          started: false,
+          refusals: [
+            -1
+          ],
+          windows: [
+
+          ],
+          skipped: 0,
+          reduced: false,
+          apply: {
+            count: 3298,
+            min: 0,
+            median: 0,
+            "p95": 0,
+            "p99": 1,
+            max: 51
+          },
+          problems: [
+
+          ]
+        }]
+    ],
+    audio: [
+      [label, run, standing, reading];
+      [audio, 1,   unpaired, {
+          sent: 3750,
+          trace_listed: true,
+          queue_full: 0,
+          complaints: [
+
+          ],
+          status: 0,
+          faults: [
+
+          ],
+          pads: 1,
+          pad: {
+            accepted: 3750,
+            taken: 3750,
+            dropped: 0
+          },
+          sounds: 1,
+          sound: {
+            submitted: 823,
+            returned: 823,
+            failed: 0,
+            exhausted: 0
+          },
+          recorded: false,
+          windows: null,
+          problems: [
+
+          ]
+        }]
+    ]
+  },
+  watch: [
+    [step,        n, pid,     file,                                                                                                                     watch];
+    [unavailable, 1, 1592016, "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1ka1/20261020-105011/watch/unavailable-1.nuonl", {
+        run: {
+          os: linux,
+          arch: "x86_64",
+          qemu: "QEMU emulator version 11.1.2",
+          harts: 3,
+          machine: "virt,aia=aplic-imsic,aclint=on",
+          cpu: "rva23s64,pmp=true",
+          accel: "tcg,thread=multi",
+          window: "sdl,gl=on",
+          kernel: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1ka1/20261020-105011/build/service/jab.elf",
+          symbols: [
+            SERVICE
+          ],
+          pid: 1592016,
+          started: "2026-10-20T10:50:19"
+        },
+        skipped: 5.0,
+        seconds: 52.1,
+        samples: 44,
+        tcg: multi-threaded,
+        process: 0.213,
+        threads: [
+          [name,        id,        steady, peak,  stable];
+          ["CPU 0/TCG", "1592019", 0.113,  0.182, true],
+          [jab,         "1592016", 0.1,    0.132, true]
+        ],
+        memory: {
+          median: 446955520,
+          peak: 446955520,
+          samples: 43
+        }
+      }],
+    [audio,       1, 1592315, "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1ka1/20261020-105011/watch/audio-1.nuonl",       {
+        run: {
+          os: linux,
+          arch: "x86_64",
+          qemu: "QEMU emulator version 11.1.2",
+          harts: 3,
+          machine: "virt,aia=aplic-imsic,aclint=on",
+          cpu: "rva23s64,pmp=true",
+          accel: "tcg,thread=multi",
+          window: "sdl,gl=on",
+          kernel: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1ka1/20261020-105011/build/debug/jab.elf",
+          symbols: [
+            DEBUG
+          ],
+          pid: 1592315,
+          started: "2026-10-20T10:52:09"
+        },
+        skipped: 5.0,
+        seconds: 9.7,
+        samples: 9,
+        tcg: multi-threaded,
+        process: 0.973,
+        threads: [
+          [name,        id,        steady, peak,  stable];
+          ["CPU 2/TCG", "1592320", 0.396,  0.603, true],
+          ["CPU 1/TCG", "1592319", 0.396,  0.603, true],
+          ["CPU 0/TCG", "1592318", 0.1,    0.132, true],
+          [jab,         "1592315", 0.081,  0.116, true]
+        ],
+        memory: {
+          median: 433807360,
+          peak: 433815552,
+          samples: 9
+        }
+      }]
+  ]
+}

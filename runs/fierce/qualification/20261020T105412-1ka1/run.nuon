@@ -1,0 +1,24 @@
+{
+ schema: 2,
+ set: qualification,
+ stamp: "20261020T105412-1ka1",
+ task: Qualification,
+ scope: {
+  kind: targeted,
+  ran: 1,
+  of: 1,
+  names: [
+   "the new rows on 1KA1"
+  ]
+ },
+ builds: [
+  [part,             build,        source,   record];
+  ["reader_11ce99e", "11ce99ead7", checkout, "qualification.nuon"]
+ ],
+ kept: {
+  as: targeted,
+  why: "The qualification record of the bench run fierce/qual_1ka1 20261020T105011, the new rows first reading, by jab-stress 11ce99e record and check over the untagged candidate at jab d4da911, image 264e7b7c, the freeze image: the service-active, unavailable-feature, and audio cases with no problem; the check 59 problems the bench other steps, not run in a targeted run, so no report is made. The record, the check, and the candidate. Cited by the fps subiter plan/agenda/FrameCeiling/Qualification.md."
+ },
+ inventory: "f549ad4249c7d0ebad533c83268f75d4be4e5daf65c916de28955ca604fb8426",
+ storage: "274a914c859b01da8964df7ce0cfd92a7b342754a4b7c1419d3d7f6f31e62584"
+}

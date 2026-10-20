@@ -1,0 +1,78 @@
+{
+  bench: "kit/fierce/qual_1kb1",
+  summary: "the qualification on 1KB1: the factory route twice, your play, the probed batches and their shim control, two workers against the automatic choice, the service active, the audio's debug run",
+  tree: release,
+  stamp: "20261020-103813",
+  started: "2026-10-20T10:38:13",
+  file: "/home/box/proj/sourcetrait/jab/kit/fierce/bench/qual_1kb1.nuon",
+  "file_sha256": "0ba396916eeb55673a547c7fd64ce05661a7b2f8ccc73eed73ef57c15dd39c58",
+  build: tree,
+  package: null,
+  build_root: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1kb1/20261020-103813/build",
+  builds: [
+    [name,    set,     dir,                                                                                                          "image_sha256",                                                     "elf_sha256",                                                       "kernel_sha256"];
+    [service, service, "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1kb1/20261020-103813/build/service", "55762a95a1cd5372f9d6ee673657f9b1ec6e16ca049c285dad67fd99793ebce9", "4a4e3e27e1c12be20b6bab09334139dd7566dba68b6db54ff32a8c7c8fb210a6", "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b"],
+    [debug,   debug,   "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1kb1/20261020-103813/build/debug",   "899d98270cbea2d09e14dbcf04ab34b58ad1bf1c988cf10008619058c8975498", "f912cf1a93c8f0381b882a9a74770cb07155cfb00825547e4bdde7d4a0b3541c", "a6831aa2087cfcf47782184a51bb24c4bd2368cedbfb6ff470e13d6e9766c153"]
+  ],
+  steps: [
+    [label,       attend, gate,  run,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 state, exit, seconds];
+    ["service_1", null,   false, [
+        "nu/bin/nuance.nu",
+        gauge,
+        run,
+        --tree,
+        release,
+        --image,
+        "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1kb1/20261020-103813/build/service/fierce.jab",
+        --kernel,
+        "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1kb1/20261020-103813/build/service/jab.elf",
+        --runs,
+        "3",
+        --seeds,
+        "[1 2 3]",
+        --host,
+        --spec,
+        "1kb1",
+        --cpu,
+        --service,
+        "2"
+      ], done,  0,    313.6],
+    ["service_2", null,   false, [
+        "nu/bin/nuance.nu",
+        gauge,
+        run,
+        --tree,
+        release,
+        --image,
+        "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1kb1/20261020-103813/build/service/fierce.jab",
+        --kernel,
+        "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1kb1/20261020-103813/build/service/jab.elf",
+        --runs,
+        "3",
+        --seeds,
+        "[3 2 1]",
+        --host,
+        --spec,
+        "1kb1",
+        --cpu,
+        --service,
+        "2"
+      ], done,  0,    313.9],
+    [audio,       null,   false, [
+        "nu/bin/nuance.nu",
+        gauge,
+        audio,
+        --tree,
+        debug,
+        --image,
+        "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1kb1/20261020-103813/build/debug/fierce.jab",
+        --kernel,
+        "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1kb1/20261020-103813/build/debug/jab.elf",
+        --host,
+        --spec,
+        "1kb1"
+      ],                                                                                                                     done,  0,    46.3]
+  ],
+  report: 0,
+  state: done
+}

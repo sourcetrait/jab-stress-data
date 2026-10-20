@@ -1,0 +1,1424 @@
+{
+ bench: "kit/fierce/qual_1kb1",
+ stamp: "20261020-103813",
+ dir: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1kb1/20261020-103813",
+ steps: [
+  [label,       state, file];
+  ["service_1", done,  "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1kb1/20261020-103813/service_1/gauge.nuon"],
+  ["service_2", done,  "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1kb1/20261020-103813/service_2/gauge.nuon"],
+  [audio,       done,  "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1kb1/20261020-103813/audio/gauge.nuon"]
+ ],
+ runs: [
+  [label,       run, seed, kind,  selection, cadence, workers, grain, period_us,          machine,                                                                                                                                                                                                                                                                                                                                                                    qemu,                           standing, reasons];
+  ["service_1", 1,   1,    route, automatic, 1,       null,    null,  16666.666666666668, {
+    harts: 7,
+    ram_gib: 8,
+    spec: {
+     name: "1kb1",
+     cores: 7,
+     ram_gib: 8,
+     display: {
+      width: 1920,
+      height: 1080
+     }
+    },
+    diagnostic: null,
+    machine: "virt,aia=aplic-imsic,aclint=on",
+    cpu: "rva23s64,pmp=true",
+    accel: "tcg,thread=multi",
+    overrides: [
+
+    ]
+   },                                          "QEMU emulator version 11.1.2", valid,    [
+
+   ]],
+  ["service_1", 2,   2,    route, automatic, 1,       null,    null,  16666.666666666668, {
+    harts: 7,
+    ram_gib: 8,
+    spec: {
+     name: "1kb1",
+     cores: 7,
+     ram_gib: 8,
+     display: {
+      width: 1920,
+      height: 1080
+     }
+    },
+    diagnostic: null,
+    machine: "virt,aia=aplic-imsic,aclint=on",
+    cpu: "rva23s64,pmp=true",
+    accel: "tcg,thread=multi",
+    overrides: [
+
+    ]
+   },                                          "QEMU emulator version 11.1.2", valid,    [
+
+   ]],
+  ["service_1", 3,   3,    route, automatic, 1,       null,    null,  16666.666666666668, {
+    harts: 7,
+    ram_gib: 8,
+    spec: {
+     name: "1kb1",
+     cores: 7,
+     ram_gib: 8,
+     display: {
+      width: 1920,
+      height: 1080
+     }
+    },
+    diagnostic: null,
+    machine: "virt,aia=aplic-imsic,aclint=on",
+    cpu: "rva23s64,pmp=true",
+    accel: "tcg,thread=multi",
+    overrides: [
+
+    ]
+   },                                          "QEMU emulator version 11.1.2", valid,    [
+
+   ]],
+  ["service_2", 1,   3,    route, automatic, 1,       null,    null,  16666.666666666668, {
+    harts: 7,
+    ram_gib: 8,
+    spec: {
+     name: "1kb1",
+     cores: 7,
+     ram_gib: 8,
+     display: {
+      width: 1920,
+      height: 1080
+     }
+    },
+    diagnostic: null,
+    machine: "virt,aia=aplic-imsic,aclint=on",
+    cpu: "rva23s64,pmp=true",
+    accel: "tcg,thread=multi",
+    overrides: [
+
+    ]
+   },                                          "QEMU emulator version 11.1.2", valid,    [
+
+   ]],
+  ["service_2", 2,   2,    route, automatic, 1,       null,    null,  16666.666666666668, {
+    harts: 7,
+    ram_gib: 8,
+    spec: {
+     name: "1kb1",
+     cores: 7,
+     ram_gib: 8,
+     display: {
+      width: 1920,
+      height: 1080
+     }
+    },
+    diagnostic: null,
+    machine: "virt,aia=aplic-imsic,aclint=on",
+    cpu: "rva23s64,pmp=true",
+    accel: "tcg,thread=multi",
+    overrides: [
+
+    ]
+   },                                          "QEMU emulator version 11.1.2", valid,    [
+
+   ]],
+  ["service_2", 3,   1,    route, automatic, 1,       null,    null,  16666.666666666668, {
+    harts: 7,
+    ram_gib: 8,
+    spec: {
+     name: "1kb1",
+     cores: 7,
+     ram_gib: 8,
+     display: {
+      width: 1920,
+      height: 1080
+     }
+    },
+    diagnostic: null,
+    machine: "virt,aia=aplic-imsic,aclint=on",
+    cpu: "rva23s64,pmp=true",
+    accel: "tcg,thread=multi",
+    overrides: [
+
+    ]
+   },                                          "QEMU emulator version 11.1.2", valid,    [
+
+   ]],
+  [audio,       1,   null, audio, automatic, null,    null,    null,  16666.666666666668, {
+    harts: 7,
+    ram_gib: 8,
+    spec: {
+     name: "1kb1",
+     cores: 7,
+     ram_gib: 8,
+     display: {
+      width: 1920,
+      height: 1080
+     }
+    },
+    diagnostic: null,
+    machine: "virt,aia=aplic-imsic,aclint=on",
+    cpu: "rva23s64,pmp=true",
+    accel: "tcg,thread=multi",
+    overrides: [
+     -trace,
+     virtio_input_queue_full
+    ]
+   }, "QEMU emulator version 11.1.2", unpaired, [
+    "unseeded: no seed answered before the first frame",
+    "no cadence asked before the first frame",
+    "the identity asks no cadence"
+   ]]
+ ],
+ groups: [
+  [kind,  cadences];
+  [route, [
+    [cadence, period_us,          steps,                                         runs, valid, standings,                                                                                                                                                                                                                                                                                                                                                  cpu_over_wall,                                                                                                                                                    cpu_left,  outcomes,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    frames,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                apart];
+    [1,       16666.666666666668, [
+      "service_1",
+      "service_2"
+     ], 6,    6,     [
+      [label,       run, standing, reasons];
+      ["service_1", 1,   valid,    [
+
+       ]],
+      ["service_1", 2,   valid,    [
+
+       ]],
+      ["service_1", 3,   valid,    [
+
+       ]],
+      ["service_2", 1,   valid,    [
+
+       ]],
+      ["service_2", 2,   valid,    [
+
+       ]],
+      ["service_2", 3,   valid,    [
+
+       ]]
+     ], [
+      1.4981546203585883,
+      1.438504610530629,
+      1.464424781591046,
+      1.4826805180510587,
+      1.426894663190729,
+      1.4919995632448424
+     ], [
+
+     ], [
+      [label,       run, outcomes];
+      ["service_1", 1,   {
+        rounds: [
+         [met,     count];
+         [android, 4]
+        ],
+        androids: [
+         [event,     count];
+         [roused,    4],
+         [fired,     29],
+         [struck,    3],
+         [destroyed, 1],
+         [fallen,    1],
+         [waypoint,  8]
+        ],
+        struck: 0,
+        pickups: 1,
+        sectors: [
+         [leg,      sectors];
+         [start,    [
+           0
+          ]],
+         [fight,    [
+           0
+          ]],
+         [spawn,    [
+           0
+          ]],
+         [yard,     [
+           25
+          ]],
+         [up,       [
+           2,
+           5,
+           6,
+           7,
+           8,
+           9,
+           10,
+           11
+          ]],
+         [down,     [
+           2,
+           19,
+           20,
+           21,
+           22,
+           23,
+           24,
+           17
+          ]],
+         [ramp,     [
+           27,
+           28
+          ]],
+         [revisit,  [
+           0
+          ]],
+         [pressure, [
+           25,
+           11,
+           0,
+           17,
+           28,
+           2
+          ]]
+        ]
+       }],
+      ["service_1", 2,   {
+        rounds: [
+         [met,     count];
+         [android, 4]
+        ],
+        androids: [
+         [event,     count];
+         [roused,    4],
+         [fired,     24],
+         [struck,    3],
+         [destroyed, 1],
+         [fallen,    1],
+         [waypoint,  8]
+        ],
+        struck: 1,
+        pickups: 1,
+        sectors: [
+         [leg,      sectors];
+         [start,    [
+           0
+          ]],
+         [fight,    [
+           0
+          ]],
+         [spawn,    [
+           0
+          ]],
+         [yard,     [
+           25
+          ]],
+         [up,       [
+           2,
+           5,
+           6,
+           7,
+           8,
+           9,
+           10,
+           11
+          ]],
+         [down,     [
+           2,
+           19,
+           20,
+           21,
+           22,
+           23,
+           24,
+           17
+          ]],
+         [ramp,     [
+           27,
+           28
+          ]],
+         [revisit,  [
+           0
+          ]],
+         [pressure, [
+           25,
+           11,
+           0,
+           17,
+           28,
+           2
+          ]]
+        ]
+       }],
+      ["service_1", 3,   {
+        rounds: [
+         [met,     count];
+         [android, 4]
+        ],
+        androids: [
+         [event,     count];
+         [roused,    4],
+         [fired,     30],
+         [struck,    3],
+         [destroyed, 1],
+         [fallen,    1],
+         [waypoint,  8]
+        ],
+        struck: 0,
+        pickups: 1,
+        sectors: [
+         [leg,      sectors];
+         [start,    [
+           0
+          ]],
+         [fight,    [
+           0
+          ]],
+         [spawn,    [
+           0
+          ]],
+         [yard,     [
+           25
+          ]],
+         [up,       [
+           2,
+           5,
+           6,
+           7,
+           8,
+           9,
+           10,
+           11
+          ]],
+         [down,     [
+           2,
+           19,
+           20,
+           21,
+           22,
+           23,
+           24,
+           17
+          ]],
+         [ramp,     [
+           27,
+           28
+          ]],
+         [revisit,  [
+           0
+          ]],
+         [pressure, [
+           25,
+           11,
+           0,
+           17,
+           28,
+           2
+          ]]
+        ]
+       }],
+      ["service_2", 1,   {
+        rounds: [
+         [met,     count];
+         [android, 4]
+        ],
+        androids: [
+         [event,     count];
+         [roused,    4],
+         [fired,     30],
+         [struck,    3],
+         [destroyed, 1],
+         [fallen,    1],
+         [waypoint,  8]
+        ],
+        struck: 0,
+        pickups: 1,
+        sectors: [
+         [leg,      sectors];
+         [start,    [
+           0
+          ]],
+         [fight,    [
+           0
+          ]],
+         [spawn,    [
+           0
+          ]],
+         [yard,     [
+           25
+          ]],
+         [up,       [
+           2,
+           5,
+           6,
+           7,
+           8,
+           9,
+           10,
+           11
+          ]],
+         [down,     [
+           2,
+           19,
+           20,
+           21,
+           22,
+           23,
+           24,
+           17
+          ]],
+         [ramp,     [
+           27,
+           28
+          ]],
+         [revisit,  [
+           0
+          ]],
+         [pressure, [
+           25,
+           11,
+           0,
+           17,
+           28,
+           2
+          ]]
+        ]
+       }],
+      ["service_2", 2,   {
+        rounds: [
+         [met,     count];
+         [android, 4]
+        ],
+        androids: [
+         [event,     count];
+         [roused,    4],
+         [fired,     24],
+         [struck,    3],
+         [destroyed, 1],
+         [fallen,    1],
+         [waypoint,  8]
+        ],
+        struck: 1,
+        pickups: 1,
+        sectors: [
+         [leg,      sectors];
+         [start,    [
+           0
+          ]],
+         [fight,    [
+           0
+          ]],
+         [spawn,    [
+           0
+          ]],
+         [yard,     [
+           25
+          ]],
+         [up,       [
+           2,
+           5,
+           6,
+           7,
+           8,
+           9,
+           10,
+           11
+          ]],
+         [down,     [
+           2,
+           19,
+           20,
+           21,
+           22,
+           23,
+           24,
+           17
+          ]],
+         [ramp,     [
+           27,
+           28
+          ]],
+         [revisit,  [
+           0
+          ]],
+         [pressure, [
+           25,
+           11,
+           0,
+           17,
+           28,
+           2
+          ]]
+        ]
+       }],
+      ["service_2", 3,   {
+        rounds: [
+         [met,     count];
+         [android, 4]
+        ],
+        androids: [
+         [event,     count];
+         [roused,    4],
+         [fired,     29],
+         [struck,    3],
+         [destroyed, 1],
+         [fallen,    1],
+         [waypoint,  8]
+        ],
+        struck: 1,
+        pickups: 1,
+        sectors: [
+         [leg,      sectors];
+         [start,    [
+           0
+          ]],
+         [fight,    [
+           0
+          ]],
+         [spawn,    [
+           0
+          ]],
+         [yard,     [
+           25
+          ]],
+         [up,       [
+           2,
+           5,
+           6,
+           7,
+           8,
+           9,
+           10,
+           11
+          ]],
+         [down,     [
+           2,
+           19,
+           20,
+           21,
+           22,
+           23,
+           24,
+           17
+          ]],
+         [ramp,     [
+           27,
+           28
+          ]],
+         [revisit,  [
+           0
+          ]],
+         [pressure, [
+           25,
+           11,
+           0,
+           17,
+           28,
+           2
+          ]]
+        ]
+       }]
+     ], {
+      frames: 19793,
+      presented: 19793,
+      acceptance: {
+       count: 19793,
+       min: 12498.1,
+       median: 16666.0,
+       "p95": 16811.0,
+       "p99": 16899.6,
+       max: 33371.6
+      },
+      completion: {
+       count: 19787,
+       min: 11919,
+       median: 16665,
+       "p95": 17055,
+       "p99": 17383,
+       max: 32857
+      },
+      call_interval: {
+       count: 19787,
+       min: 12499,
+       median: 16666,
+       "p95": 16810,
+       "p99": 16894,
+       max: 33375
+      },
+      grid: [
+       [periods, intervals];
+       [1,       19733],
+       [2,       1]
+      ],
+      off_grid: 53,
+      unknown_calls: 0,
+      submission_age: {
+       count: 19793,
+       min: 11667,
+       median: 16540,
+       "p95": 16963,
+       "p99": 17280,
+       max: 32759
+      },
+      critical: {
+       count: 19793,
+       min: 7292,
+       median: 10483,
+       "p95": 13321,
+       "p99": 14964,
+       max: 32935
+      },
+      draw: {
+       count: 19793,
+       min: 5370,
+       median: 8643,
+       "p95": 11364,
+       "p99": 13040,
+       max: 30735
+      },
+      wait: {
+       count: 19793,
+       min: 0,
+       median: 6158,
+       "p95": 7278,
+       "p99": 7821,
+       max: 9195
+      },
+      pacing: {
+       count: 19793,
+       min: 1,
+       median: 1,
+       "p95": 3,
+       "p99": 9,
+       max: 250
+      },
+      await: {
+       count: 19793,
+       min: 0,
+       median: 0,
+       "p95": 0,
+       "p99": 0,
+       max: 182
+      },
+      wakes: 270,
+      attempts: 19793,
+      refusals: 0,
+      flips_early: 0,
+      flips_failed: 0,
+      over: 193,
+      fast: 19754,
+      fast_waited: 19699,
+      catch_up: 0
+     }, [
+
+     ]]
+   ]]
+ ],
+ compared: [
+  [field,       diagnostic, table];
+  [critical_us, false,      [
+    [build,   leg,      route,                                                              selection, machine,                                                                                                                                                                                                                                                                                                                                                               probed, value_us,           half_spread_us,     batches, missing, standings];
+    [service, start,    "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 7,
+      ram_gib: 8,
+      spec: {
+       name: "1kb1",
+       cores: 7,
+       ram_gib: 8,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  11364.666666666666, 1115.5,             6,       0,       [
+      valid
+     ]],
+    [service, fight,    "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 7,
+      ram_gib: 8,
+      spec: {
+       name: "1kb1",
+       cores: 7,
+       ram_gib: 8,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  10609.781609195403, 853.2758620689647,  6,       0,       [
+      valid
+     ]],
+    [service, spawn,    "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 7,
+      ram_gib: 8,
+      spec: {
+       name: "1kb1",
+       cores: 7,
+       ram_gib: 8,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  10804.152777777777, 1028.833333333333,  6,       0,       [
+      valid
+     ]],
+    [service, yard,     "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 7,
+      ram_gib: 8,
+      spec: {
+       name: "1kb1",
+       cores: 7,
+       ram_gib: 8,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  10996.947368421053, 287.9210526315792,  6,       0,       [
+      valid
+     ]],
+    [service, up,       "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 7,
+      ram_gib: 8,
+      spec: {
+       name: "1kb1",
+       cores: 7,
+       ram_gib: 8,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  11360.416666666666, 408.60416666666697, 6,       0,       [
+      valid
+     ]],
+    [service, down,     "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 7,
+      ram_gib: 8,
+      spec: {
+       name: "1kb1",
+       cores: 7,
+       ram_gib: 8,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  10520.54,           957.5600000000004,  6,       0,       [
+      valid
+     ]],
+    [service, ramp,     "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 7,
+      ram_gib: 8,
+      spec: {
+       name: "1kb1",
+       cores: 7,
+       ram_gib: 8,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  10187.855555555556, 740.75,             6,       0,       [
+      valid
+     ]],
+    [service, revisit,  "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 7,
+      ram_gib: 8,
+      spec: {
+       name: "1kb1",
+       cores: 7,
+       ram_gib: 8,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  10490.138888888889, 560.7916666666661,  6,       0,       [
+      valid
+     ]],
+    [service, pressure, "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 7,
+      ram_gib: 8,
+      spec: {
+       name: "1kb1",
+       cores: 7,
+       ram_gib: 8,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  11714.75,           489.125,            6,       0,       [
+      valid
+     ]]
+   ]],
+  [draw_us,     false,      [
+    [build,   leg,      route,                                                              selection, machine,                                                                                                                                                                                                                                                                                                                                                               probed, value_us,          half_spread_us,     batches, missing, standings];
+    [service, start,    "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 7,
+      ram_gib: 8,
+      spec: {
+       name: "1kb1",
+       cores: 7,
+       ram_gib: 8,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  9539.333333333334, 1077.5,             6,       0,       [
+      valid
+     ]],
+    [service, fight,    "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 7,
+      ram_gib: 8,
+      spec: {
+       name: "1kb1",
+       cores: 7,
+       ram_gib: 8,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  8491.597701149425, 683.5344827586205,  6,       0,       [
+      valid
+     ]],
+    [service, spawn,    "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 7,
+      ram_gib: 8,
+      spec: {
+       name: "1kb1",
+       cores: 7,
+       ram_gib: 8,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  8995.111111111111, 801.041666666667,   6,       0,       [
+      valid
+     ]],
+    [service, yard,     "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 7,
+      ram_gib: 8,
+      spec: {
+       name: "1kb1",
+       cores: 7,
+       ram_gib: 8,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  9209.728070175437, 251.0526315789475,  6,       0,       [
+      valid
+     ]],
+    [service, up,       "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 7,
+      ram_gib: 8,
+      spec: {
+       name: "1kb1",
+       cores: 7,
+       ram_gib: 8,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  9592.270833333334, 318.39583333333303, 6,       0,       [
+      valid
+     ]],
+    [service, down,     "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 7,
+      ram_gib: 8,
+      spec: {
+       name: "1kb1",
+       cores: 7,
+       ram_gib: 8,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  8392.346666666666, 790.0,              6,       0,       [
+      valid
+     ]],
+    [service, ramp,     "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 7,
+      ram_gib: 8,
+      spec: {
+       name: "1kb1",
+       cores: 7,
+       ram_gib: 8,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  8339.75,           646.2333333333331,  6,       0,       [
+      valid
+     ]],
+    [service, revisit,  "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 7,
+      ram_gib: 8,
+      spec: {
+       name: "1kb1",
+       cores: 7,
+       ram_gib: 8,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  8738.375,          496.95833333333303, 6,       0,       [
+      valid
+     ]],
+    [service, pressure, "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 7,
+      ram_gib: 8,
+      spec: {
+       name: "1kb1",
+       cores: 7,
+       ram_gib: 8,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  9859.208333333334, 353.4375,           6,       0,       [
+      valid
+     ]]
+   ]]
+ ],
+ services: [
+  [label,       run, service];
+  ["service_1", 1,   {
+    frames: 3297,
+    running: 3296,
+    answers: [
+     [states, status, harts, generation, start];
+     [0,      0,      64,    1,          true],
+     [3296,   0,      64,    1,          false]
+    ],
+    started: true,
+    refusals: [
+
+    ],
+    windows: [
+     [generation, started, stopped, valid, forced, offered, applied, dropped, rejected, discarded, skipped, corrupted, last, published,           expected,            applied_chain,       gaps, frames, seconds,  per_frame, per_second,         apply,                                                                                                             age,                                                                                                                                depth_max, problems];
+     [1,          0,       3296,    true,  false,  6592,    6592,    0,       0,        0,         0,       0,         6591, 1393470391502494813, 1393470391502494813, 1393470391502494813, 0,    3296,   54.95224, 2.0,       119.95871323898716, {
+       count: 3296,
+       min: 2,
+       median: 6,
+       "p95": 10,
+       "p99": 12,
+       max: 69
+      }, {
+       count: 3295,
+       min: 13795,
+       median: 16618,
+       "p95": 17171,
+       "p99": 17575,
+       max: 32842
+      }, 0,         [
+
+      ]]
+    ],
+    skipped: 0,
+    reduced: false,
+    apply: {
+     count: 3297,
+     min: 2,
+     median: 6,
+     "p95": 10,
+     "p99": 12,
+     max: 109
+    },
+    problems: [
+
+    ]
+   }],
+  ["service_1", 2,   {
+    frames: 3300,
+    running: 3299,
+    answers: [
+     [states, status, harts, generation, start];
+     [0,      0,      64,    1,          true],
+     [3299,   0,      64,    1,          false]
+    ],
+    started: true,
+    refusals: [
+
+    ],
+    windows: [
+     [generation, started, stopped, valid, forced, offered, applied, dropped, rejected, discarded, skipped, corrupted, last, published,            expected,             applied_chain,        gaps, frames, seconds,   per_frame, per_second,         apply,                                                                                                            age,                                                                                                                                depth_max, problems];
+     [1,          0,       3299,    true,  false,  6598,    6598,    0,       0,        0,         0,       0,         6597, -8002681517266166509, -8002681517266166509, -8002681517266166509, 0,    3299,   54.983829, 2.0,       119.99891822739373, {
+       count: 3299,
+       min: 3,
+       median: 6,
+       "p95": 8,
+       "p99": 11,
+       max: 95
+      }, {
+       count: 3298,
+       min: 13114,
+       median: 16628,
+       "p95": 17005,
+       "p99": 17341,
+       max: 23667
+      }, 0,         [
+
+      ]]
+    ],
+    skipped: 0,
+    reduced: false,
+    apply: {
+     count: 3300,
+     min: 3,
+     median: 6,
+     "p95": 8,
+     "p99": 11,
+     max: 95
+    },
+    problems: [
+
+    ]
+   }],
+  ["service_1", 3,   {
+    frames: 3299,
+    running: 3298,
+    answers: [
+     [states, status, harts, generation, start];
+     [0,      0,      64,    1,          true],
+     [3298,   0,      64,    1,          false]
+    ],
+    started: true,
+    refusals: [
+
+    ],
+    windows: [
+     [generation, started, stopped, valid, forced, offered, applied, dropped, rejected, discarded, skipped, corrupted, last, published,            expected,             applied_chain,        gaps, frames, seconds,   per_frame, per_second,         apply,                                                                                                             age,                                                                                                                                depth_max, problems];
+     [1,          0,       3298,    true,  false,  6596,    6596,    0,       0,        0,         0,       0,         6595, -7326939573801241619, -7326939573801241619, -7326939573801241619, 0,    3298,   54.967415, 2.0,       119.99836630483715, {
+       count: 3298,
+       min: 2,
+       median: 5,
+       "p95": 9,
+       "p99": 11,
+       max: 392
+      }, {
+       count: 3297,
+       min: 11713,
+       median: 16610,
+       "p95": 17060,
+       "p99": 17412,
+       max: 23991
+      }, 0,         [
+
+      ]]
+    ],
+    skipped: 0,
+    reduced: false,
+    apply: {
+     count: 3299,
+     min: 2,
+     median: 5,
+     "p95": 9,
+     "p99": 11,
+     max: 392
+    },
+    problems: [
+
+    ]
+   }],
+  ["service_2", 1,   {
+    frames: 3300,
+    running: 3299,
+    answers: [
+     [states, status, harts, generation, start];
+     [0,      0,      64,    1,          true],
+     [3299,   0,      64,    1,          false]
+    ],
+    started: true,
+    refusals: [
+
+    ],
+    windows: [
+     [generation, started, stopped, valid, forced, offered, applied, dropped, rejected, discarded, skipped, corrupted, last, published,            expected,             applied_chain,        gaps, frames, seconds,   per_frame, per_second,         apply,                                                                                                             age,                                                                                                                                depth_max, problems];
+     [1,          0,       3299,    true,  false,  6598,    6598,    0,       0,        0,         0,       0,         6597, -2121509641232657523, -2121509641232657523, -2121509641232657523, 0,    3299,   54.983914, 2.0,       119.99873272026433, {
+       count: 3299,
+       min: 3,
+       median: 6,
+       "p95": 9,
+       "p99": 11,
+       max: 240
+      }, {
+       count: 3298,
+       min: 13600,
+       median: 16598,
+       "p95": 17078,
+       "p99": 17430,
+       max: 21563
+      }, 0,         [
+
+      ]]
+    ],
+    skipped: 0,
+    reduced: false,
+    apply: {
+     count: 3300,
+     min: 3,
+     median: 6,
+     "p95": 9,
+     "p99": 11,
+     max: 240
+    },
+    problems: [
+
+    ]
+   }],
+  ["service_2", 2,   {
+    frames: 3298,
+    running: 3297,
+    answers: [
+     [states, status, harts, generation, start];
+     [0,      0,      64,    1,          true],
+     [3297,   0,      64,    1,          false]
+    ],
+    started: true,
+    refusals: [
+
+    ],
+    windows: [
+     [generation, started, stopped, valid, forced, offered, applied, dropped, rejected, discarded, skipped, corrupted, last, published,            expected,             applied_chain,        gaps, frames, seconds,  per_frame, per_second,        apply,                                                                                                             age,                                                                                                                                depth_max, problems];
+     [1,          0,       3297,    true,  false,  6594,    6594,    0,       0,        0,         0,       0,         6593, -3616238524801954391, -3616238524801954391, -3616238524801954391, 0,    3297,   54.95049, 2.0,       119.9989299458476, {
+       count: 3297,
+       min: 2,
+       median: 5,
+       "p95": 8,
+       "p99": 11,
+       max: 307
+      }, {
+       count: 3296,
+       min: 13621,
+       median: 16641,
+       "p95": 17006,
+       "p99": 17314,
+       max: 19317
+      }, 0,         [
+
+      ]]
+    ],
+    skipped: 0,
+    reduced: false,
+    apply: {
+     count: 3298,
+     min: 2,
+     median: 5,
+     "p95": 8,
+     "p99": 11,
+     max: 307
+    },
+    problems: [
+
+    ]
+   }],
+  ["service_2", 3,   {
+    frames: 3299,
+    running: 3298,
+    answers: [
+     [states, status, harts, generation, start];
+     [0,      0,      64,    1,          true],
+     [3298,   0,      64,    1,          false]
+    ],
+    started: true,
+    refusals: [
+
+    ],
+    windows: [
+     [generation, started, stopped, valid, forced, offered, applied, dropped, rejected, discarded, skipped, corrupted, last, published,            expected,             applied_chain,        gaps, frames, seconds,   per_frame, per_second,         apply,                                                                                                             age,                                                                                                                                depth_max, problems];
+     [1,          0,       3298,    true,  false,  6596,    6596,    0,       0,        0,         0,       0,         6595, -4652802795914609984, -4652802795914609984, -4652802795914609984, 0,    3298,   54.967433, 2.0,       119.99832700937662, {
+       count: 3298,
+       min: 2,
+       median: 5,
+       "p95": 9,
+       "p99": 12,
+       max: 148
+      }, {
+       count: 3297,
+       min: 13258,
+       median: 16626,
+       "p95": 17076,
+       "p99": 17427,
+       max: 20731
+      }, 0,         [
+
+      ]]
+    ],
+    skipped: 0,
+    reduced: false,
+    apply: {
+     count: 3299,
+     min: 2,
+     median: 5,
+     "p95": 9,
+     "p99": 12,
+     max: 148
+    },
+    problems: [
+
+    ]
+   }]
+ ],
+ audio: [
+  [label, run, standing, reading];
+  [audio, 1,   unpaired, {
+    sent: 3750,
+    trace_listed: true,
+    queue_full: 0,
+    complaints: [
+
+    ],
+    status: 0,
+    faults: [
+
+    ],
+    pads: 1,
+    pad: {
+     accepted: 3750,
+     taken: 3750,
+     dropped: 0
+    },
+    sounds: 1,
+    sound: {
+     submitted: 822,
+     returned: 822,
+     failed: 0,
+     exhausted: 0
+    },
+    recorded: false,
+    windows: null,
+    problems: [
+
+    ]
+   }]
+ ]
+}

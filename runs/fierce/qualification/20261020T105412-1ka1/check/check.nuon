@@ -1,0 +1,315 @@
+{
+ checked: "/home/box/tmp/jab-stress/qual/20261020-service/record_1ka1/qualification.nuon",
+ "checked_sha256": "314621d8315a85fb57cdb6bf2e82082814cdd79840a006d06443a6315f3d40f7",
+ bench: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1ka1/20261020-105011",
+ record: "/home/box/tmp/jab-stress/qual/20261020-service/record_1ka1/check/qualification.nuon",
+ problems: [
+  "normal play: auto_1 run 1, seed 1, is missing",
+  "normal play: auto_1 run 2, seed 2, is missing",
+  "normal play: auto_1 run 3, seed 3, is missing",
+  "normal play: auto_2 run 1, seed 3, is missing",
+  "normal play: auto_2 run 2, seed 2, is missing",
+  "normal play: auto_2 run 3, seed 1, is missing",
+  "free play: free run 1, seed 1, is missing",
+  "presentation: probed_1 run 1 is missing",
+  "presentation: probed_1 run 2 is missing",
+  "presentation: probed_1 run 3 is missing",
+  "presentation: probed_2 run 1 is missing",
+  "presentation: probed_2 run 2 is missing",
+  "presentation: probed_2 run 3 is missing",
+  "presentation's shim control: probed_1 run 1 is missing",
+  "presentation's shim control: probed_1 run 2 is missing",
+  "presentation's shim control: probed_1 run 3 is missing",
+  "presentation's shim control: auto_3 run 1 is missing",
+  "presentation's shim control: auto_3 run 2 is missing",
+  "presentation's shim control: auto_3 run 3 is missing",
+  "presentation's shim control: auto_4 run 1 is missing",
+  "presentation's shim control: auto_4 run 2 is missing",
+  "presentation's shim control: auto_4 run 3 is missing",
+  "presentation's shim control: probed_2 run 1 is missing",
+  "presentation's shim control: probed_2 run 2 is missing",
+  "presentation's shim control: probed_2 run 3 is missing",
+  "presentation's shim control: the probed arm holds no run",
+  "presentation's shim control: the plain arm holds no run",
+  "worker scaling: forced1_1 run 1 is missing",
+  "worker scaling: forced1_1 run 2 is missing",
+  "worker scaling: forced1_1 run 3 is missing",
+  "worker scaling: auto_5 run 1 is missing",
+  "worker scaling: auto_5 run 2 is missing",
+  "worker scaling: auto_5 run 3 is missing",
+  "worker scaling: auto_6 run 1 is missing",
+  "worker scaling: auto_6 run 2 is missing",
+  "worker scaling: auto_6 run 3 is missing",
+  "worker scaling: forced1_2 run 1 is missing",
+  "worker scaling: forced1_2 run 2 is missing",
+  "worker scaling: forced1_2 run 3 is missing",
+  "first sight: no normal play route run to read",
+  "revisits and turns: no normal play route run to read",
+  "stairs: no normal play route run to read",
+  "masks: no normal play route run to read",
+  "actors and the fight: no normal play route run to read",
+  "cold and steady: no normal play route run to read",
+  "pressure and eviction: no normal play route run to read",
+  "worker balance: no normal play route run to read",
+  "the bench held to its definition: step auto_1 of the candidate's bench was not run",
+  "the bench held to its definition: step auto_2 of the candidate's bench was not run",
+  "the bench held to its definition: step free of the candidate's bench was not run",
+  "the bench held to its definition: step probed_1 of the candidate's bench was not run",
+  "the bench held to its definition: step auto_3 of the candidate's bench was not run",
+  "the bench held to its definition: step auto_4 of the candidate's bench was not run",
+  "the bench held to its definition: step probed_2 of the candidate's bench was not run",
+  "the bench held to its definition: step forced1_1 of the candidate's bench was not run",
+  "the bench held to its definition: step auto_5 of the candidate's bench was not run",
+  "the bench held to its definition: step auto_6 of the candidate's bench was not run",
+  "the bench held to its definition: step forced1_2 of the candidate's bench was not run",
+  "the bench held to its definition: the candidate's record was not reopened: the record's own copy of it stands in"
+ ],
+ ledger: [
+  [row,                                    kind,        carried, state,            evidence,                                  why,                                                                                                                                                                               problems];
+  ["normal play",                          acceptance,  true,    failed,           [
+
+   ],                                   "",                                                                                                                                                                                [
+    "auto_1 run 1, seed 1, is missing",
+    "auto_1 run 2, seed 2, is missing",
+    "auto_1 run 3, seed 3, is missing",
+    "auto_2 run 1, seed 3, is missing",
+    "auto_2 run 2, seed 2, is missing",
+    "auto_2 run 3, seed 1, is missing"
+   ]],
+  ["free play",                            acceptance,  true,    failed,           [
+
+   ],                                   "",                                                                                                                                                                                [
+    "free run 1, seed 1, is missing"
+   ]],
+  [presentation,                           diagnostic,  true,    failed,           [
+
+   ],                                   "",                                                                                                                                                                                [
+    "probed_1 run 1 is missing",
+    "probed_1 run 2 is missing",
+    "probed_1 run 3 is missing",
+    "probed_2 run 1 is missing",
+    "probed_2 run 2 is missing",
+    "probed_2 run 3 is missing"
+   ]],
+  ["presentation's shim control",          control,     true,    failed,           [
+
+   ],                                   "",                                                                                                                                                                                [
+    "probed_1 run 1 is missing",
+    "probed_1 run 2 is missing",
+    "probed_1 run 3 is missing",
+    "auto_3 run 1 is missing",
+    "auto_3 run 2 is missing",
+    "auto_3 run 3 is missing",
+    "auto_4 run 1 is missing",
+    "auto_4 run 2 is missing",
+    "auto_4 run 3 is missing",
+    "probed_2 run 1 is missing",
+    "probed_2 run 2 is missing",
+    "probed_2 run 3 is missing",
+    "the probed arm holds no run",
+    "the plain arm holds no run"
+   ]],
+  ["worker scaling",                       control,     true,    failed,           [
+
+   ],                                   "",                                                                                                                                                                                [
+    "forced1_1 run 1 is missing",
+    "forced1_1 run 2 is missing",
+    "forced1_1 run 3 is missing",
+    "auto_5 run 1 is missing",
+    "auto_5 run 2 is missing",
+    "auto_5 run 3 is missing",
+    "auto_6 run 1 is missing",
+    "auto_6 run 2 is missing",
+    "auto_6 run 3 is missing",
+    "forced1_2 run 1 is missing",
+    "forced1_2 run 2 is missing",
+    "forced1_2 run 3 is missing"
+   ]],
+  ["service active",                       acceptance,  true,    "not applicable", [
+
+   ],                                   "1KA1's three harts hold the main hart and the two reserved graphics harts, so no feature is admitted there (TheUser's spec model); its refusal is the feature unavailable's row", [
+
+   ]],
+  ["feature unavailable",                  control,     true,    met,              [
+    "unavailable run 1"
+   ],            "",                                                                                                                                                                                [
+
+   ]],
+  [audio,                                  control,     true,    met,              [
+    "audio run 1"
+   ],                  "",                                                                                                                                                                                [
+
+   ]],
+  ["first sight",                          diagnostic,  true,    failed,           [
+
+   ],                                   "",                                                                                                                                                                                [
+    "no normal play route run to read"
+   ]],
+  ["revisits and turns",                   diagnostic,  true,    failed,           [
+
+   ],                                   "",                                                                                                                                                                                [
+    "no normal play route run to read"
+   ]],
+  [stairs,                                 diagnostic,  true,    failed,           [
+
+   ],                                   "",                                                                                                                                                                                [
+    "no normal play route run to read"
+   ]],
+  [masks,                                  diagnostic,  true,    failed,           [
+
+   ],                                   "",                                                                                                                                                                                [
+    "no normal play route run to read"
+   ]],
+  ["actors and the fight",                 diagnostic,  true,    failed,           [
+
+   ],                                   "",                                                                                                                                                                                [
+    "no normal play route run to read"
+   ]],
+  ["cold and steady",                      diagnostic,  true,    failed,           [
+
+   ],                                   "",                                                                                                                                                                                [
+    "no normal play route run to read"
+   ]],
+  ["pressure and eviction",                diagnostic,  true,    failed,           [
+
+   ],                                   "",                                                                                                                                                                                [
+    "no normal play route run to read"
+   ]],
+  ["worker balance",                       diagnostic,  true,    failed,           [
+
+   ],                                   "",                                                                                                                                                                                [
+    "no normal play route run to read"
+   ]],
+  ["the bench held to its definition",     freeze,      true,    failed,           [
+    "the bench file at d4da91162b"
+   ], "",                                                                                                                                                                                [
+    "step auto_1 of the candidate's bench was not run",
+    "step auto_2 of the candidate's bench was not run",
+    "step free of the candidate's bench was not run",
+    "step probed_1 of the candidate's bench was not run",
+    "step auto_3 of the candidate's bench was not run",
+    "step auto_4 of the candidate's bench was not run",
+    "step probed_2 of the candidate's bench was not run",
+    "step forced1_1 of the candidate's bench was not run",
+    "step auto_5 of the candidate's bench was not run",
+    "step auto_6 of the candidate's bench was not run",
+    "step forced1_2 of the candidate's bench was not run",
+    "the candidate's record was not reopened: the record's own copy of it stands in"
+   ]],
+  ["the tagged candidate",                 freeze,      false,   pending,          [
+
+   ],                                   "the candidate carries no qual tag, so no freeze stands",                                                                                                                          [
+
+   ]],
+  ["the parity",                           correctness, false,   pending,          [
+
+   ],                                   "the parity tool on both maps' still copies at the freeze",                                                                                                                        [
+
+   ]],
+  ["the OWNER captures",                   correctness, false,   pending,          [
+
+   ],                                   "the OWNER captures at the freeze",                                                                                                                                                [
+
+   ]],
+  ["the fps suite on the target",          correctness, false,   pending,          [
+
+   ],                                   "the fps suite on 1KA1 at the freeze",                                                                                                                                             [
+
+   ]],
+  ["the freeze's fps suite",               freeze,      false,   pending,          [
+
+   ],                                   "the fps suite at the tagged candidate",                                                                                                                                           [
+
+   ]],
+  ["the freeze's root suite",              freeze,      false,   pending,          [
+
+   ],                                   "the root suite at the tagged candidate",                                                                                                                                          [
+
+   ]],
+  ["TheUser's Linux host",                 host,        false,   pending,          [
+
+   ],                                   "his host's bench on 1KA1, its probed runs bundled (U1)",                                                                                                                          [
+
+   ]],
+  ["the Windows runs",                     host,        false,   pending,          [
+
+   ],                                   "WindowsHost, PadWindows, and his host (U4)",                                                                                                                                      [
+
+   ]],
+  ["the reports and the evidence package", reports,     false,   pending,          [
+
+   ],                                   "the reports from the final records and the evidence package landed (EvidenceRetention)",                                                                                          [
+
+   ]]
+ ],
+ verdicts: {
+  subset: {
+   rows: [
+    "normal play",
+    "free play",
+    presentation,
+    "presentation's shim control",
+    "worker scaling",
+    "service active",
+    "feature unavailable",
+    audio,
+    "first sight",
+    "revisits and turns",
+    stairs,
+    masks,
+    "actors and the fight",
+    "cold and steady",
+    "pressure and eviction",
+    "worker balance",
+    "the bench held to its definition"
+   ],
+   passes: false,
+   verdict: "the preparation subset does not pass: normal play, free play, presentation, presentation's shim control, worker scaling, first sight, revisits and turns, stairs, masks, actors and the fight, cold and steady, pressure and eviction, worker balance, the bench held to its definition"
+  },
+  final: {
+   passes: false,
+   failed: [
+    "normal play",
+    "free play",
+    presentation,
+    "presentation's shim control",
+    "worker scaling",
+    "first sight",
+    "revisits and turns",
+    stairs,
+    masks,
+    "actors and the fight",
+    "cold and steady",
+    "pressure and eviction",
+    "worker balance",
+    "the bench held to its definition"
+   ],
+   pending: [
+    [row,                                    dependency];
+    ["the tagged candidate",                 "the candidate carries no qual tag, so no freeze stands"],
+    ["the parity",                           "the parity tool on both maps' still copies at the freeze"],
+    ["the OWNER captures",                   "the OWNER captures at the freeze"],
+    ["the fps suite on the target",          "the fps suite on 1KA1 at the freeze"],
+    ["the freeze's fps suite",               "the fps suite at the tagged candidate"],
+    ["the freeze's root suite",              "the root suite at the tagged candidate"],
+    ["TheUser's Linux host",                 "his host's bench on 1KA1, its probed runs bundled (U1)"],
+    ["the Windows runs",                     "WindowsHost, PadWindows, and his host (U4)"],
+    ["the reports and the evidence package", "the reports from the final records and the evidence package landed (EvidenceRetention)"]
+   ],
+   verdict: "qualification does not pass: normal play, free play, presentation, presentation's shim control, worker scaling, first sight, revisits and turns, stairs, masks, actors and the fight, cold and steady, pressure and eviction, worker balance, the bench held to its definition"
+  }
+ },
+ history: [
+
+ ],
+ reopened: {
+  inventory: null,
+  checked: 0,
+  problems: [
+
+  ]
+ },
+ rebundled: [
+
+ ]
+}
