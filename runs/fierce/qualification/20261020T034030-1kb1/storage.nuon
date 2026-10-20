@@ -1,0 +1,15 @@
+[
+ [object,             kind,      length, "sha256",                                                           holds];
+ ["check.log.nuonl",  container, 278042, "2eac827a32fae35748c5814b829dcf8b07012ab7e36c20b2d60bceaac33f2f48", [
+   "check.log"
+  ]],
+ ["check.nuon",       raw,       15073,  "0b1a7e78febc2153f8728d04e9f02a7382438ea1783abbb6aa6da594e2298b93", [
+   "check.nuon"
+  ]],
+ ["disks/disks.nuon", raw,       3102,   "0d2283ca2a97c2a8efd9c564be3dd62e6fa6b29a7886511c4dfec5f645176300", [
+   "disks/disks.nuon"
+  ]],
+ ["archive.tar.xz",   archive,   160236, "e25fc4ecca5eb0c75bcfb87bd953a9897448c36b354ec9f824b1443ee1105000", [
+   "qualification.nuon"
+  ]]
+]

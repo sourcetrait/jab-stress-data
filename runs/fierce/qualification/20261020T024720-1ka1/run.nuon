@@ -1,0 +1,36 @@
+{
+ schema: 2,
+ set: qualification,
+ stamp: "20261020T024720-1ka1",
+ task: EvidenceRetention,
+ scope: {
+  kind: targeted,
+  ran: 31,
+  of: 62,
+  names: [
+   "qual_1ka1"
+  ],
+  combined: {
+   runs: [
+    "20261020T024720-1ka1",
+    "20261020T034030-1kb1"
+   ],
+   kind: whole,
+   ran: 62,
+   of: 62
+  }
+ },
+ builds: [
+  [part,                build,                                      source,   record];
+  ["reader_7e0ff58",    "7e0ff5839abbb4a47cecf73e4e1041a3b936e341", checkout, "check.nuon"],
+  ["jab_0cfd59d",       "0cfd59d144cc119b83ea497f58c9927ae000d9d7", checkout, "check.nuon"],
+  ["disks_7f980a9",     "7f980a970ce7bdff10454eb7bd133c5a8852a79b", checkout, "disks/disks.nuon"],
+  ["disks_jab_c804ccb", "c804ccbc15a97e36016b9001b2e211b04431f3ed", checkout, "disks/disks.nuon"]
+ ],
+ kept: {
+  as: current,
+  why: "1KA1's preparation record derived again by RederivedChecks' check at jab-stress 7e0ff58 over jab 0cfd59d, the code loaded at the check's start and named by its record's readers, both clean: EvidenceRetention's removal gate for the bench run runs/fps/qual_1ka1/20261017T181257, the record and the bench restored afresh and the bench's original directory in the target renamed aside, so neither it nor its absolute path was there to read. 124 reopened inputs at their inventory's SHA-256, every step's report made again by the batch reread, the ledger and verdicts recomputed: the preparation subset passes; qualification incomplete, eleven rows pending; no problem; the problems, verdicts, history, and all 26 ledger rows those of RederivedChecks' check runs/fierce/qualification/20261019T231734-1ka1, now the set's last run. The bench's 11 disk copies made again by `qualification disks` at jab-stress 7f980a9 over jab c804ccb: render_0's tree compiled from today's content and rooted under game/fps/content as the bench's checkout compiled it, at the identities' digest 10b33d35, and its disk each copy's SHA-256, dc007ccc. The check's stdout then stderr, as the stress_bin runner logs them, land as check.log. The original record, runs/fps/qualification/20261017T181257-1ka1, stays beside it. Cited by the fps subiter's plan/agenda/FrameCeiling/EvidenceRetention.md."
+ },
+ inventory: "a03659af026eec91058568a259f9c8818845a856a6a2a9430ed16cdc74f390a2",
+ storage: "4303d955d7b0c8fc396337c953024f64a5922cdededa415c34094253b61ca034"
+}

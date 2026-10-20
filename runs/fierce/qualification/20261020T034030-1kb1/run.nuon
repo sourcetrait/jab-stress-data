@@ -1,0 +1,36 @@
+{
+ schema: 2,
+ set: qualification,
+ stamp: "20261020T034030-1kb1",
+ task: EvidenceRetention,
+ scope: {
+  kind: targeted,
+  ran: 31,
+  of: 62,
+  names: [
+   "qual_1kb1"
+  ],
+  combined: {
+   runs: [
+    "20261020T024720-1ka1",
+    "20261020T034030-1kb1"
+   ],
+   kind: whole,
+   ran: 62,
+   of: 62
+  }
+ },
+ builds: [
+  [part,                build,                                      source,   record];
+  ["reader_ffd2705",    "ffd27057b33695a43cd579933737f6ad354f6d7a", checkout, "check.nuon"],
+  ["jab_c804ccb",       "c804ccbc15a97e36016b9001b2e211b04431f3ed", checkout, "check.nuon"],
+  ["disks_7f980a9",     "7f980a970ce7bdff10454eb7bd133c5a8852a79b", checkout, "disks/disks.nuon"],
+  ["disks_jab_c804ccb", "c804ccbc15a97e36016b9001b2e211b04431f3ed", checkout, "disks/disks.nuon"]
+ ],
+ kept: {
+  as: current,
+  why: "1KB1's preparation record derived again by RederivedChecks' check at jab-stress ffd2705 over jab c804ccb, the code loaded at the check's start and named by its record's readers, both clean: EvidenceRetention's removal gate for the bench run runs/fps/qual_1kb1/20261017T192135, the record and the bench restored afresh and the bench's original directory in the target renamed aside, so neither it nor its absolute path was there to read. 124 reopened inputs at their inventory's SHA-256, every step's report made again by the batch reread, and probed_2 run 3, whose capture refused its bundle under the older render rule so that the bench keeps none, bundled again in the check's work by jab's bundler: its one problem probed_2's failed step; the problems, verdicts, all seven history items, and all 26 ledger rows those of RederivedChecks' check runs/fierce/qualification/20261019T232303-1kb1, now the set's last run. That check read a bundle of run 3 made by hand into its scratch restoration, which no run kept; a first gate check at jab-stress 7e0ff58, from the landed bench alone, named run 3 as holding no bundle, and the check bundles such a run itself from jab-stress 3cdb810, its bundle every file of the hand-made one but the manifest's reader. The bench's 11 disk copies made again by `qualification disks` at jab-stress 7f980a9 over jab c804ccb: render_0's tree compiled from today's content and rooted under game/fps/content as the bench's checkout compiled it, at the identities' digest 10b33d35, and its disk each copy's SHA-256, dc007ccc. The check's stdout then stderr, as the stress_bin runner logs them, land as check.log. The original record, runs/fps/qualification/20261017T192135-1kb1, stays beside it. Cited by the fps subiter's plan/agenda/FrameCeiling/EvidenceRetention.md."
+ },
+ inventory: "80bd0ca0603490e99a845dad67b1e72c967c1a15bc514261a5e80d8e272a4a03",
+ storage: "61c20a14fd3c75f40508fbcd98f8e26a06e312c70ed1c768ccf5414d70665c8f"
+}

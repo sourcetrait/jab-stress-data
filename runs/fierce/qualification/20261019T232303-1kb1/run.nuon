@@ -26,7 +26,7 @@
   ["jab_1ea98ee",    "1ea98ee1537d89d32411e330960d8edf4fa2e79a", checkout, "check.nuon"]
  ],
  kept: {
-  as: current,
+  as: last,
   why: "1KB1's preparation record derived again by RederivedChecks' check from its bench run restored out of runs/fps/qual_1kb1/20261017T192135, relocated, no original report or absolute path available: 124 reopened inputs at their inventory's SHA-256, every step's report made again by the batch reread (gauge read batch), the ledger and verdicts recomputed. One problem, the bench held to its definition: step probed_2 ended failed, exit 1, so the preparation subset does not pass and qualification does not pass, eleven rows pending beside it. Its history: the batch reread made probed_2's report from its kept runs, so its three runs read present where the old record read none, and the presentation and its shim control read met with no run missing where the old record read three missing. Read by jab-stress 262aadf over jab 1ea98ee, the code loaded at the check's start; the record's readers name jab-stress cad132c (dirty) and jab 43e4b41, taken as it was written, and no file either reader loads changed between them (the readers taken at a command's start from jab-stress af8b1f6). The check's stdout and stderr, captured by its job as check.out and check.err, land as check.stdout and check.stderr, the stderr the check's own error naming its one problem. The original record, runs/fps/qualification/20261017T192135-1kb1, stays beside it. Cited by FrameCeiling/Qualification.md."
  },
  inventory: "9bd7c445049d990fec75fec17e43a49784741851e35cb21cea13737b9e3c8a02",

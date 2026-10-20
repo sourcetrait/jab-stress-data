@@ -1,0 +1,45 @@
+{
+  bench: "/home/box/tmp/jab-stress/gate/qual_1kb1/bench/tree",
+  inventory: "/home/box/proj/sourcetrait/jab-stress-data/runs/fps/qual_1kb1/20261017T192135/inventory.nuon",
+  assets: [
+    [map,        digest,                                                             content,                                         again,                                                              rooted,                                                             held, disk];
+    ["render_0", "10b33d35c19a6501ea13c68a46d69dbf80a1631c9568e6386e9e4484b2ec668d", /home/box/proj/sourcetrait/jab/game/fps/content, "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f", "10b33d35c19a6501ea13c68a46d69dbf80a1631c9568e6386e9e4484b2ec668d", true, "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5"]
+  ],
+  copies: [
+    [path,                       "sha256",                                                           made,                                                               held, problems];
+    ["auto_1/render_0.romfs",    "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", true, [
+
+      ]],
+    ["auto_2/render_0.romfs",    "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", true, [
+
+      ]],
+    ["auto_3/render_0.romfs",    "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", true, [
+
+      ]],
+    ["auto_4/render_0.romfs",    "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", true, [
+
+      ]],
+    ["auto_5/render_0.romfs",    "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", true, [
+
+      ]],
+    ["auto_6/render_0.romfs",    "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", true, [
+
+      ]],
+    ["forced2_1/render_0.romfs", "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", true, [
+
+      ]],
+    ["forced2_2/render_0.romfs", "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", true, [
+
+      ]],
+    ["free/render_0.romfs",      "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", true, [
+
+      ]],
+    ["probed_1/render_0.romfs",  "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", true, [
+
+      ]],
+    ["probed_2/render_0.romfs",  "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", "dc007ccc4931bb6a15d8513ec1feded7c36615aa7a402ea3250f0b4b9405f5f5", true, [
+
+      ]]
+  ],
+  held: true
+}
