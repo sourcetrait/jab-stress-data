@@ -130,7 +130,7 @@ The landing classes each file by its name:
 
 | class | files | lands as |
 |---|---|---|
-| log | `.log`, `.stdout`, `.stderr`, `.txt`, `.nm`, `.disas` | a container |
+| log | `.log`, `.stdout`, `.stderr` and `.err`, `.txt`, `.nm`, `.disas` | a container |
 | stream | `.out`, `.in`, `.wrpl`, `.wav` | written |
 | record | `.nuon`, `.nuonl`, `.toml`, `flags`, a build's `home` | written |
 | picture | `.ppm`, `.png` | written |
