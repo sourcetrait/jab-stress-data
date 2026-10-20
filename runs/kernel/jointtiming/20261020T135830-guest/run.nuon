@@ -1,0 +1,100 @@
+{
+ schema: 2,
+ set: jointtiming,
+ stamp: "20261020T135830-guest",
+ task: JointTiming,
+ scope: {
+  kind: whole,
+  ran: 24,
+  of: 24
+ },
+ builds: [
+  [part,        build, source, record,                          export];
+  ["p0_1ka1_1", null,  export, "p0_1ka1_1/run_1/identity.nuon", {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec"
+   }],
+  ["p2_1ka1_1", null,  export, "p2_1ka1_1/run_1/identity.nuon", {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c"
+   }],
+  ["p2_1ka1_2", null,  export, "p2_1ka1_2/run_1/identity.nuon", {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c"
+   }],
+  ["p0_1ka1_2", null,  export, "p0_1ka1_2/run_1/identity.nuon", {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec"
+   }],
+  ["p0_1kb1_1", null,  export, "p0_1kb1_1/run_1/identity.nuon", {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec"
+   }],
+  ["p2_1kb1_1", null,  export, "p2_1kb1_1/run_1/identity.nuon", {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c"
+   }],
+  ["p2_1kb1_2", null,  export, "p2_1kb1_2/run_1/identity.nuon", {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c"
+   }],
+  ["p0_1kb1_2", null,  export, "p0_1kb1_2/run_1/identity.nuon", {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec"
+   }]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "JointTiming's guest battery, the comparison's step 2 on the box: fps's frozen release export export_c804ccb (image 264e7b7c) on P0's and P2's kernels exported at jab 73660a8 (ELF 36b8d8c4 and 8e9f09d6, landed as runs/kernel/export/20261020-jointtiming), the factory route at cadence 1, headless and unprobed, --eps 3700, through jab-stress's gauge_batches runner from 13:58 to 14:39: eight batches of three runs at seeds 1 to 3, 1KA1's P0, P2, P2, P0, then 1KB1's, six runs a condition. Read by the timing selector's readings assembler at jab-stress 1e956e7 over jab 8807a33: all 24 valid at eps 3,700; P0's K violations 1,785 to 3,307 a run, its catch-up, and P2's none; late wakes 17 to 29 a condition, no catch-ups. The batches' runs and pads archived; each step's gauge report derived by the batch reread; each disk copy and recording kept as its hash; fps's export's provenance in its landed run, runs/fierce/export/20261020-baselines. Decided with the other batteries by runs/kernel/jointtiming/20261020T211529-decision. Cited by the kernel subiter's plan/agenda/FourHarts/PresentationContract/JointTiming.md."
+ },
+ inventory: "e752f6013c7fc357d30d2878118a509263a9974200c0e37fb3bc9be57b335faa",
+ storage: "b21ad3e9ce2b507c28467822b642bc59778fe089b683ce47ab6a541f78e08767"
+}
