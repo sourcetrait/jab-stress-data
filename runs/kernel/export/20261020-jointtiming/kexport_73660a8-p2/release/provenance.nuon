@@ -1,0 +1,41 @@
+{
+  commit: "73660a8931241ffd8855a92398dcb476cd0e8340",
+  symbols: [
+    "P2"
+  ],
+  source: "kernel/src and kernel/kernel.jab.toml at 73660a8931241ffd8855a92398dcb476cd0e8340",
+  sdk: "sdk/src at 73660a8931241ffd8855a92398dcb476cd0e8340, the export's own",
+  build_tool: {
+    repos: [
+      [repo,                           commit,                                     dirty];
+      [/home/box/proj/sourcetrait/jab, "934db62276d254887c6bac6136e893edac239c21", false]
+    ],
+    runtime: [
+      [role,          version,   "sha256"];
+      [nu,            "0.115.1", "c343a927a2d4a45ebf9300d013b226bcdc2598ecb0178a8a79722ebffe71e56e"],
+      ["nu launched", "0.115.1", "c343a927a2d4a45ebf9300d013b226bcdc2598ecb0178a8a79722ebffe71e56e"]
+    ],
+    executables: [
+
+    ]
+  },
+  toolchain: {
+    prefix: "/home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+    version: "GNU assembler (GNU Binutils) 2.47.20260726",
+    assembler: {
+      path: "/home/box/.sys/adhoc/opt/riscv/bin/riscv64-unknown-linux-gnu-as",
+      "sha256": "594cf6297f02007cecb2f5900b90297902697db42e5bf57c730d7eed00647ef2"
+    },
+    linker: {
+      path: "/home/box/.sys/adhoc/opt/riscv/bin/riscv64-unknown-linux-gnu-ld",
+      "sha256": "b931cf6b8ff1b97d2b3bc0c060b59a2fb638d4d7893cbea9208fd7664c686bb6"
+    },
+    objcopy: {
+      path: "/home/box/.sys/adhoc/opt/riscv/bin/riscv64-unknown-linux-gnu-objcopy",
+      "sha256": "1aed841115bd72b9dfdc46b5509725223542d3b8f47ea15309912b8544cbd2ae"
+    }
+  },
+  flags: "-I src/include -I ../sdk/src --defsym P2=1 -march=rva23s64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+  "elf_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+  "loaded_sha256": "d4fec16321862e0f9e5736e9e4fc6d3074cea8413f97f0b2867e922054e74c5e"
+}
