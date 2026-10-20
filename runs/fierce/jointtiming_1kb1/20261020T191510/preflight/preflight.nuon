@@ -1,0 +1,118 @@
+{
+ package: "/home/box/tmp/jab-stress/jointtiming/package/extracted/jointtiming-a408b8b573",
+ "manifest_sha256": "063eef6436b85163fa97c11d2da9d37e0ead653aed682e3012b0f033d90e6a5a",
+ checked: {
+  artifacts: 153,
+  problems: [
+
+  ]
+ },
+ spec: {
+  name: "1KB1",
+  isa: RISC-V,
+  isa_profile: "RVA23",
+  cores: 7,
+  clock_ghz: 2,
+  ram: 8589934592b,
+  gpu: null,
+  vram: null,
+  display: {
+   width: 1920,
+   height: 1080
+  },
+  fps: 60
+ },
+ machine: {
+  harts: 7,
+  ram_gib: 8,
+  spec: {
+   name: "1kb1",
+   cores: 7,
+   ram_gib: 8,
+   display: {
+    width: 1920,
+    height: 1080
+   }
+  },
+  diagnostic: null,
+  machine: "virt,aia=aplic-imsic,aclint=on",
+  cpu: "rva23s64,pmp=true",
+  accel: "tcg,thread=multi",
+  overrides: [
+
+  ]
+ },
+ host: {
+  os: linux,
+  cores: 32,
+  memory: 67171835904b,
+  hostname: emptwo
+ },
+ launcher: {
+  repos: [
+   [repo,                           commit,                                     dirty];
+   [/home/box/proj/sourcetrait/jab, "a408b8b573257cd16dc5dceb7340e498a3079dd0", false]
+  ],
+  runtime: [
+   [role, version,   "sha256"];
+   [nu,   "0.115.1", "c343a927a2d4a45ebf9300d013b226bcdc2598ecb0178a8a79722ebffe71e56e"]
+  ],
+  executables: [
+
+  ]
+ },
+ launch: {
+  qemu: {
+   binary: "/home/box/proj/sourcetrait/jab/extern/qemu/bin/qemu-system-riscv64",
+   file: "/home/box/proj/sourcetrait/jab/extern/qemu/bin/qemu-system-riscv64",
+   version: "QEMU emulator version 11.1.2",
+   "sha256": "ccaecb8393dce3169e189f0437aed672290cfc661c8c27c1d8e7b292cfb9d6b8"
+  },
+  timeout: {
+   path: /usr/bin/timeout,
+   version: "timeout (GNU coreutils) 9.10",
+   override: ""
+  },
+  window: "sdl,gl=on",
+  audio: none,
+  env: {
+   SDL_VIDEODRIVER: offscreen,
+   JAB_DISPLAY: "sdl,gl=on",
+   JAB_AUDIO: none
+  },
+  machine: {
+   harts: 7,
+   ram_gib: 8,
+   spec: {
+    name: "1kb1",
+    cores: 7,
+    ram_gib: 8,
+    display: {
+     width: 1920,
+     height: 1080
+    }
+   },
+   diagnostic: null,
+   machine: "virt,aia=aplic-imsic,aclint=on",
+   cpu: "rva23s64,pmp=true",
+   accel: "tcg,thread=multi",
+   overrides: [
+
+   ]
+  }
+ },
+ capture: {
+  checked: true,
+  status: 0,
+  shim: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/shim/release/libjabshim_sdl.so",
+  "shim_sha256": "55fd901ba2814464e29122ef81cdd6863ec9ef7a079ff5211dd4e0b80519fd1f",
+  bundle: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/jointtiming_1kb1/20261020-191510/preflight/probe/bundle",
+  why: ""
+ },
+ rebuild: [
+
+ ],
+ refusals: [
+
+ ]
+}
