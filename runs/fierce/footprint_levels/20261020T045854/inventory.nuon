@@ -1351,7 +1351,7 @@
  ["r1_window/picture_candidate/serial.log",                                                        log,     11921,    "9e0fd17993a0ef800d06bca2cf5dd4225c2e4a85692acf284efcce4ae2cca38b", archived,    ""],
  ["r1_window/pose.nuon",                                                                           record,  6067,     "ac7d1a0ad65604909ceb718d8c1439b9b4b0ad8391955b807ecc5e4145cc59f3", kept,        ""],
  ["r1_window/rows.nuon",                                                                           record,  41925335, "7571d8d1697db2b66dd9c4887f31e53e557cf30e842d41d6b5e4c8192a5b0724", derived,     "the view's block table, made again from its LEVELS and OWNER screens, API streams, and span tables by the footprint reader at its revision"],
- ["reading.nuon",                                                                                  record,  32354,    "c6941f172eb79d583f941eaa25940aa8c38ff2d0163235dbadb0f9c98206aafd", kept,        ""],
+ ["reading.nuon",                                                                                  record,  31606,    "0731ca909d9afd24b42f82f2b4b86f8dcd64230d309e38272a5a9564da44ad44", kept,        ""],
  ["spawn/levels/api.out",                                                                          stream,  1187520,  "bda0cc8f0ff44d6d2088129a5410cbc5eb0a9bc427210d3c150f94f4c6b6a0c8", archived,    ""],
  ["spawn/levels/debug.log",                                                                        log,     50348,    "ece7b51b8a5f723226460c1b6eec08b8c146c842e980dee1ceb4f5e93811754f", archived,    ""],
  ["spawn/levels/launch.nuon",                                                                      record,  1800,     "d3c2080475d663c1a03bcf4b814acf203e4485d521f19c306ba186397b5878dd", kept,        ""],

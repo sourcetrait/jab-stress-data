@@ -20,6 +20,6 @@
   as: checkpoint,
   why: "the probed run 20261017T065433, refused by the pairing's P/2 rule at its capture, reread by ProbeRuns' reader at jab-stress bb171e4 over jab ce45dc5: the capture complete and valid at schema 7, its bundle admitted, its calls' bounds derived on the receipts' origin, the pairing admitted with both shifts infeasible, one stall at ordinal 160 (14.05 ms) and the load's two outer bounds named apart; 813 frames, 451 shown, 362 superseded, none repeated, renders every 30 ms; cited by PairBracket, the fps subiter's plan/agenda/FrameCeiling/FrameCadence/CadenceGauge/ProbeRuns/PairBracket.md"
  },
- inventory: "2c5644a52539cffdb1345b76073de5530cb3212ffbe05f3a3e46c2ecd7202b8e",
- storage: "ab9626fcc0c4cabc0ede6ed1cfd4d3fc6d3bdf9ac7f0ff236a41799e10aa172a"
+ inventory: "f537a81356c50606a64a7e9c07a960ff009a6732a1bedd28cd297ccee0e2498b",
+ storage: "0f346dea75b38e22ff34e1500c69cc87c1bb534ca4fcde6b5ca13f9597727b9e"
 }

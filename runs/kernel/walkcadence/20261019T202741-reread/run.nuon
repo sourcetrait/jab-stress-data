@@ -21,6 +21,6 @@
   as: checkpoint,
   why: "walk's baseline runs 20261017T211603-baselines reread guest-only through a restoration by `walk.nu guest-runs` at jab-stress 09f6284 over jab 3cfef40: both valid and deciding under the record semantics and the build identity their wrapper wrote, 1ka1's 7,199 frames and 1kb1's 7,197 over 120.01 s each, their guest figures the original readings' exactly, each reading now naming its build; cited by the kernel subiter's plan/agenda/WalkExample/WalkCadence/RecordSemantics.md"
  },
- inventory: "6e62d8d17621f99a5ec9aca471c55509eaa8fad53499eeb3728afa3b2025649b",
- storage: "0c53850a52e82d8c100a2b6d8a7b5175bcca779893deaca1256ac7d877f6c4f0"
+ inventory: "6874c575ced2b58d5c44fa867108b5a4210cf953bbd45b2c69c16a2b1ca15b99",
+ storage: "ca397708798bf3ab5c0340db226f2ad33bcab6daa51dce871d382ae0bb4078f3"
 }

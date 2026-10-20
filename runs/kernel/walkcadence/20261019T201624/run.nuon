@@ -20,6 +20,6 @@
   as: checkpoint,
   why: "walk's first paired capture past the 90-period trail, `nu/bin/nuance/probe.nu sdl example/walk --set cadence,timing --seconds 180 --trace` on jab 3cfef40's tree, sdl,gl=on offscreen, its identity carrying the probe's build fields; read paired by jab-stress 09f6284: valid and deciding, 6,039 frames over 120.01 s ended by the duration, the bundle admitted with its trace bracketed, the pairing admitted on recorded call bounds with both shifts infeasible (best drift -0.55 ppm, margin 6,385 ticks), 230 stalls named, 3,853 of 6,038 presents shown and 2,185 superseded; 74 slow stretches, every one locating the wait, P0's re-anchor after a late flip, the work beside it in 47 and the flip call in 9; its probe's logs, bundle, stream, and builds archived here; cited by WalkCadence and RecordSemantics, the kernel subiter's plan/agenda/WalkExample/WalkCadence.md"
  },
- inventory: "b3f5900b747bcb10ce448eca0da6c7ade1196e6984a29fea5c98337e989b1c06",
- storage: "34f5820816b0a37fffe4162a2059f3c54b4b1f6f98b0df983436358f5e3fb61c"
+ inventory: "35b945a3e5d72afd49e69894ca2e29f9292151c452aceba578eb6b87826c1de7",
+ storage: "b2163790692099178f9c39be42143ea8f7f608dfe68ebb538c41e76cb4165b99"
 }

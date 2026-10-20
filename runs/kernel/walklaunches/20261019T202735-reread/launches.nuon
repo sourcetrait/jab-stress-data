@@ -7,11 +7,6 @@
     reader: "walk cadence",
     mode: guest,
     guest_only: true,
-    limits: [
-     "rdtime is elapsed time: a host stall inside a phase reads as that phase",
-     "the guest's records give intervals between its own clock's readings, and nothing of when the host showed a frame",
-     "attribution is within a run, by a stretch's own frames against the run's steady medians, never by comparing runs"
-    ],
     complete: true,
     valid: true,
     faults: [
@@ -95,11 +90,6 @@
     reader: "walk cadence",
     mode: guest,
     guest_only: true,
-    limits: [
-     "rdtime is elapsed time: a host stall inside a phase reads as that phase",
-     "the guest's records give intervals between its own clock's readings, and nothing of when the host showed a frame",
-     "attribution is within a run, by a stretch's own frames against the run's steady medians, never by comparing runs"
-    ],
     complete: true,
     valid: true,
     faults: [
@@ -196,11 +186,6 @@
     reader: "walk cadence",
     mode: guest,
     guest_only: true,
-    limits: [
-     "rdtime is elapsed time: a host stall inside a phase reads as that phase",
-     "the guest's records give intervals between its own clock's readings, and nothing of when the host showed a frame",
-     "attribution is within a run, by a stretch's own frames against the run's steady medians, never by comparing runs"
-    ],
     complete: true,
     valid: true,
     faults: [
@@ -277,11 +262,6 @@
     reader: "walk cadence",
     mode: guest,
     guest_only: true,
-    limits: [
-     "rdtime is elapsed time: a host stall inside a phase reads as that phase",
-     "the guest's records give intervals between its own clock's readings, and nothing of when the host showed a frame",
-     "attribution is within a run, by a stretch's own frames against the run's steady medians, never by comparing runs"
-    ],
     complete: true,
     valid: true,
     faults: [
@@ -376,11 +356,6 @@
    reader: "walk cadence",
    mode: guest,
    guest_only: true,
-   limits: [
-    "rdtime is elapsed time: a host stall inside a phase reads as that phase",
-    "the guest's records give intervals between its own clock's readings, and nothing of when the host showed a frame",
-    "attribution is within a run, by a stretch's own frames against the run's steady medians, never by comparing runs"
-   ],
    complete: true,
    valid: true,
    faults: [
@@ -472,11 +447,6 @@
    reader: "walk cadence",
    mode: guest,
    guest_only: true,
-   limits: [
-    "rdtime is elapsed time: a host stall inside a phase reads as that phase",
-    "the guest's records give intervals between its own clock's readings, and nothing of when the host showed a frame",
-    "attribution is within a run, by a stretch's own frames against the run's steady medians, never by comparing runs"
-   ],
    complete: true,
    valid: true,
    faults: [

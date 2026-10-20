@@ -1,7 +1,7 @@
 [
  [path,              role,   length, "sha256",                                                           disposition, reason];
- ["1ka1.guest.nuon", record, 1830,   "0d1e4140777527e218797a15b1d77771568fd005b582452bb30edb193232e733", kept,        ""],
- ["1kb1.guest.nuon", record, 1827,   "d507197db2dd211472a2345e9092d1cc068ed927819f6087fa37a6fc774c34c0", kept,        ""],
+ ["1ka1.guest.nuon", record, 1503,   "a18e3630ac780e2724130a66f6f7f4a319eac2b8936af0457f9fcc80d695c6a7", kept,        ""],
+ ["1kb1.guest.nuon", record, 1500,   "b8ddfd255d96a1174c6e6c7d372f217c87e928af592c096d44a57a9608f11b9d", kept,        ""],
  ["reread.nuon",     record, 352,    "fa0e03ee5cead25faeedfdbb4a184d88b6a79d6f4c636c7ae8c1df4ec9cf0a3b", kept,        ""],
  ["reread.stderr",   log,    0,      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", kept,        ""],
  ["reread.stdout",   log,    1097,   "090ad081daed67a0495796422893b5b0fe1074e7d2d087f93fd37c8e17c9f28e", kept,        ""]

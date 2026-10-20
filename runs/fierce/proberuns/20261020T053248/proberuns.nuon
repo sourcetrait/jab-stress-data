@@ -1,6 +1,6 @@
 {
  runs: [
-  [label,       run, dir,                                                                       seed, cadence, identity_from, capture,                                                                                      bundle,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            flips,                                                                                              pairing,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               k,                                                                                                                                                                                                                                                                                                                                                                                                                                                             stage, refusals, renders, whole,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             legs];
+  [label,       run, dir,                                                                       seed, cadence, identity_from, capture,                                                                                      bundle,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            flips,                                                                                              pairing,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       k,                                                                                                                                                                                                                                                                                                                                                                                                                                                             stage, refusals, renders, whole,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             legs];
   ["probed0_1", 1,   "/home/box/tmp/jab-stress/proberuns/20261020T0532-matrix/probed0_1/run_1", 1,    0,       file,          {
     schema: 8,
     complete: true,
@@ -116,8 +116,7 @@
      outer: [
 
      ]
-    },
-    limits: "the pairing is exact under the run binding, which ties the guest's records to the log, and under the log's assumptions, that it records every upload once and that every flush the device accepted makes one upload. The bracket is a consistency check under a correspondence fitted from the same stream: it cannot in general prove the absence of compensating edits, it cannot uniquely reject every stream shift, and it does not establish that a loss and an addition fall inside one call; a host stamp is read as the closed microsecond after it, admitting the one point no instant logged there holds. A stall is reported, never refused. walk's TIMING-off arm pairs on a frame bracket alone. The fit is a diagnostic, giving intervals and jitter and no absolute guest-to-SDL latency."
+    }
    },                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           {
     eps: 10000,
     period: 166666,
@@ -772,8 +771,7 @@
      outer: [
 
      ]
-    },
-    limits: "the pairing is exact under the run binding, which ties the guest's records to the log, and under the log's assumptions, that it records every upload once and that every flush the device accepted makes one upload. The bracket is a consistency check under a correspondence fitted from the same stream: it cannot in general prove the absence of compensating edits, it cannot uniquely reject every stream shift, and it does not establish that a loss and an addition fall inside one call; a host stamp is read as the closed microsecond after it, admitting the one point no instant logged there holds. A stall is reported, never refused. walk's TIMING-off arm pairs on a frame bracket alone. The fit is a diagnostic, giving intervals and jitter and no absolute guest-to-SDL latency."
+    }
    },                                                                                                                                                                                                                                                                                    {
     eps: 10000,
     period: 166666,
@@ -1424,8 +1422,7 @@
      outer: [
 
      ]
-    },
-    limits: "the pairing is exact under the run binding, which ties the guest's records to the log, and under the log's assumptions, that it records every upload once and that every flush the device accepted makes one upload. The bracket is a consistency check under a correspondence fitted from the same stream: it cannot in general prove the absence of compensating edits, it cannot uniquely reject every stream shift, and it does not establish that a loss and an addition fall inside one call; a host stamp is read as the closed microsecond after it, admitting the one point no instant logged there holds. A stall is reported, never refused. walk's TIMING-off arm pairs on a frame bracket alone. The fit is a diagnostic, giving intervals and jitter and no absolute guest-to-SDL latency."
+    }
    },                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               {
     eps: 10000,
     period: 166666,
@@ -2076,8 +2073,7 @@
      outer: [
 
      ]
-    },
-    limits: "the pairing is exact under the run binding, which ties the guest's records to the log, and under the log's assumptions, that it records every upload once and that every flush the device accepted makes one upload. The bracket is a consistency check under a correspondence fitted from the same stream: it cannot in general prove the absence of compensating edits, it cannot uniquely reject every stream shift, and it does not establish that a loss and an addition fall inside one call; a host stamp is read as the closed microsecond after it, admitting the one point no instant logged there holds. A stall is reported, never refused. walk's TIMING-off arm pairs on a frame bracket alone. The fit is a diagnostic, giving intervals and jitter and no absolute guest-to-SDL latency."
+    }
    },                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                {
     eps: 10000,
     period: 166666,
@@ -2732,8 +2728,7 @@
      outer: [
 
      ]
-    },
-    limits: "the pairing is exact under the run binding, which ties the guest's records to the log, and under the log's assumptions, that it records every upload once and that every flush the device accepted makes one upload. The bracket is a consistency check under a correspondence fitted from the same stream: it cannot in general prove the absence of compensating edits, it cannot uniquely reject every stream shift, and it does not establish that a loss and an addition fall inside one call; a host stamp is read as the closed microsecond after it, admitting the one point no instant logged there holds. A stall is reported, never refused. walk's TIMING-off arm pairs on a frame bracket alone. The fit is a diagnostic, giving intervals and jitter and no absolute guest-to-SDL latency."
+    }
    },                                                                                                                                                                                                                                                                             {
     eps: 10000,
     period: 166666,
@@ -3384,8 +3379,7 @@
      outer: [
 
      ]
-    },
-    limits: "the pairing is exact under the run binding, which ties the guest's records to the log, and under the log's assumptions, that it records every upload once and that every flush the device accepted makes one upload. The bracket is a consistency check under a correspondence fitted from the same stream: it cannot in general prove the absence of compensating edits, it cannot uniquely reject every stream shift, and it does not establish that a loss and an addition fall inside one call; a host stamp is read as the closed microsecond after it, admitting the one point no instant logged there holds. A stall is reported, never refused. walk's TIMING-off arm pairs on a frame bracket alone. The fit is a diagnostic, giving intervals and jitter and no absolute guest-to-SDL latency."
+    }
    },                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            {
     eps: 10000,
     period: 166666,
@@ -4044,8 +4038,7 @@
      outer: [
 
      ]
-    },
-    limits: "the pairing is exact under the run binding, which ties the guest's records to the log, and under the log's assumptions, that it records every upload once and that every flush the device accepted makes one upload. The bracket is a consistency check under a correspondence fitted from the same stream: it cannot in general prove the absence of compensating edits, it cannot uniquely reject every stream shift, and it does not establish that a loss and an addition fall inside one call; a host stamp is read as the closed microsecond after it, admitting the one point no instant logged there holds. A stall is reported, never refused. walk's TIMING-off arm pairs on a frame bracket alone. The fit is a diagnostic, giving intervals and jitter and no absolute guest-to-SDL latency."
+    }
    },                                                                                                                                     {
     eps: 10000,
     period: 166666,
@@ -4692,8 +4685,7 @@
      outer: [
 
      ]
-    },
-    limits: "the pairing is exact under the run binding, which ties the guest's records to the log, and under the log's assumptions, that it records every upload once and that every flush the device accepted makes one upload. The bracket is a consistency check under a correspondence fitted from the same stream: it cannot in general prove the absence of compensating edits, it cannot uniquely reject every stream shift, and it does not establish that a loss and an addition fall inside one call; a host stamp is read as the closed microsecond after it, admitting the one point no instant logged there holds. A stall is reported, never refused. walk's TIMING-off arm pairs on a frame bracket alone. The fit is a diagnostic, giving intervals and jitter and no absolute guest-to-SDL latency."
+    }
    },                                                                                                                                                                                                                                                                        {
     eps: 10000,
     period: 166666,
@@ -5348,8 +5340,7 @@
      outer: [
 
      ]
-    },
-    limits: "the pairing is exact under the run binding, which ties the guest's records to the log, and under the log's assumptions, that it records every upload once and that every flush the device accepted makes one upload. The bracket is a consistency check under a correspondence fitted from the same stream: it cannot in general prove the absence of compensating edits, it cannot uniquely reject every stream shift, and it does not establish that a loss and an addition fall inside one call; a host stamp is read as the closed microsecond after it, admitting the one point no instant logged there holds. A stall is reported, never refused. walk's TIMING-off arm pairs on a frame bracket alone. The fit is a diagnostic, giving intervals and jitter and no absolute guest-to-SDL latency."
+    }
    }, {
     eps: 10000,
     period: 166666,
@@ -6000,8 +5991,7 @@
      outer: [
 
      ]
-    },
-    limits: "the pairing is exact under the run binding, which ties the guest's records to the log, and under the log's assumptions, that it records every upload once and that every flush the device accepted makes one upload. The bracket is a consistency check under a correspondence fitted from the same stream: it cannot in general prove the absence of compensating edits, it cannot uniquely reject every stream shift, and it does not establish that a loss and an addition fall inside one call; a host stamp is read as the closed microsecond after it, admitting the one point no instant logged there holds. A stall is reported, never refused. walk's TIMING-off arm pairs on a frame bracket alone. The fit is a diagnostic, giving intervals and jitter and no absolute guest-to-SDL latency."
+    }
    },                                                                                                                                        {
     eps: 10000,
     period: 166666,
@@ -6644,8 +6634,7 @@
      outer: [
 
      ]
-    },
-    limits: "the pairing is exact under the run binding, which ties the guest's records to the log, and under the log's assumptions, that it records every upload once and that every flush the device accepted makes one upload. The bracket is a consistency check under a correspondence fitted from the same stream: it cannot in general prove the absence of compensating edits, it cannot uniquely reject every stream shift, and it does not establish that a loss and an addition fall inside one call; a host stamp is read as the closed microsecond after it, admitting the one point no instant logged there holds. A stall is reported, never refused. walk's TIMING-off arm pairs on a frame bracket alone. The fit is a diagnostic, giving intervals and jitter and no absolute guest-to-SDL latency."
+    }
    },                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 {
     eps: 10000,
     period: 166666,
@@ -7296,8 +7285,7 @@
      outer: [
 
      ]
-    },
-    limits: "the pairing is exact under the run binding, which ties the guest's records to the log, and under the log's assumptions, that it records every upload once and that every flush the device accepted makes one upload. The bracket is a consistency check under a correspondence fitted from the same stream: it cannot in general prove the absence of compensating edits, it cannot uniquely reject every stream shift, and it does not establish that a loss and an addition fall inside one call; a host stamp is read as the closed microsecond after it, admitting the one point no instant logged there holds. A stall is reported, never refused. walk's TIMING-off arm pairs on a frame bracket alone. The fit is a diagnostic, giving intervals and jitter and no absolute guest-to-SDL latency."
+    }
    },                                                                                                                 {
     eps: 10000,
     period: 166666,
@@ -7940,8 +7928,7 @@
      outer: [
 
      ]
-    },
-    limits: "the pairing is exact under the run binding, which ties the guest's records to the log, and under the log's assumptions, that it records every upload once and that every flush the device accepted makes one upload. The bracket is a consistency check under a correspondence fitted from the same stream: it cannot in general prove the absence of compensating edits, it cannot uniquely reject every stream shift, and it does not establish that a loss and an addition fall inside one call; a host stamp is read as the closed microsecond after it, admitting the one point no instant logged there holds. A stall is reported, never refused. walk's TIMING-off arm pairs on a frame bracket alone. The fit is a diagnostic, giving intervals and jitter and no absolute guest-to-SDL latency."
+    }
    },                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                {
     eps: 10000,
     period: 166666,
@@ -8592,8 +8579,7 @@
      outer: [
 
      ]
-    },
-    limits: "the pairing is exact under the run binding, which ties the guest's records to the log, and under the log's assumptions, that it records every upload once and that every flush the device accepted makes one upload. The bracket is a consistency check under a correspondence fitted from the same stream: it cannot in general prove the absence of compensating edits, it cannot uniquely reject every stream shift, and it does not establish that a loss and an addition fall inside one call; a host stamp is read as the closed microsecond after it, admitting the one point no instant logged there holds. A stall is reported, never refused. walk's TIMING-off arm pairs on a frame bracket alone. The fit is a diagnostic, giving intervals and jitter and no absolute guest-to-SDL latency."
+    }
    },                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     {
     eps: 10000,
     period: 166666,
@@ -9244,8 +9230,7 @@
      outer: [
 
      ]
-    },
-    limits: "the pairing is exact under the run binding, which ties the guest's records to the log, and under the log's assumptions, that it records every upload once and that every flush the device accepted makes one upload. The bracket is a consistency check under a correspondence fitted from the same stream: it cannot in general prove the absence of compensating edits, it cannot uniquely reject every stream shift, and it does not establish that a loss and an addition fall inside one call; a host stamp is read as the closed microsecond after it, admitting the one point no instant logged there holds. A stall is reported, never refused. walk's TIMING-off arm pairs on a frame bracket alone. The fit is a diagnostic, giving intervals and jitter and no absolute guest-to-SDL latency."
+    }
    },                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               {
     eps: 10000,
     period: 166666,
@@ -9896,8 +9881,7 @@
      outer: [
 
      ]
-    },
-    limits: "the pairing is exact under the run binding, which ties the guest's records to the log, and under the log's assumptions, that it records every upload once and that every flush the device accepted makes one upload. The bracket is a consistency check under a correspondence fitted from the same stream: it cannot in general prove the absence of compensating edits, it cannot uniquely reject every stream shift, and it does not establish that a loss and an addition fall inside one call; a host stamp is read as the closed microsecond after it, admitting the one point no instant logged there holds. A stall is reported, never refused. walk's TIMING-off arm pairs on a frame bracket alone. The fit is a diagnostic, giving intervals and jitter and no absolute guest-to-SDL latency."
+    }
    },                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             {
     eps: 10000,
     period: 166666,
@@ -10548,8 +10532,7 @@
      outer: [
 
      ]
-    },
-    limits: "the pairing is exact under the run binding, which ties the guest's records to the log, and under the log's assumptions, that it records every upload once and that every flush the device accepted makes one upload. The bracket is a consistency check under a correspondence fitted from the same stream: it cannot in general prove the absence of compensating edits, it cannot uniquely reject every stream shift, and it does not establish that a loss and an addition fall inside one call; a host stamp is read as the closed microsecond after it, admitting the one point no instant logged there holds. A stall is reported, never refused. walk's TIMING-off arm pairs on a frame bracket alone. The fit is a diagnostic, giving intervals and jitter and no absolute guest-to-SDL latency."
+    }
    },                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              {
     eps: 10000,
     period: 166666,
@@ -11200,8 +11183,7 @@
      outer: [
 
      ]
-    },
-    limits: "the pairing is exact under the run binding, which ties the guest's records to the log, and under the log's assumptions, that it records every upload once and that every flush the device accepted makes one upload. The bracket is a consistency check under a correspondence fitted from the same stream: it cannot in general prove the absence of compensating edits, it cannot uniquely reject every stream shift, and it does not establish that a loss and an addition fall inside one call; a host stamp is read as the closed microsecond after it, admitting the one point no instant logged there holds. A stall is reported, never refused. walk's TIMING-off arm pairs on a frame bracket alone. The fit is a diagnostic, giving intervals and jitter and no absolute guest-to-SDL latency."
+    }
    },                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  {
     eps: 10000,
     period: 166666,
@@ -11864,8 +11846,7 @@
      outer: [
 
      ]
-    },
-    limits: "the pairing is exact under the run binding, which ties the guest's records to the log, and under the log's assumptions, that it records every upload once and that every flush the device accepted makes one upload. The bracket is a consistency check under a correspondence fitted from the same stream: it cannot in general prove the absence of compensating edits, it cannot uniquely reject every stream shift, and it does not establish that a loss and an addition fall inside one call; a host stamp is read as the closed microsecond after it, admitting the one point no instant logged there holds. A stall is reported, never refused. walk's TIMING-off arm pairs on a frame bracket alone. The fit is a diagnostic, giving intervals and jitter and no absolute guest-to-SDL latency."
+    }
    },                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        {
     eps: 10000,
     period: 166666,
@@ -12528,8 +12509,7 @@
      outer: [
 
      ]
-    },
-    limits: "the pairing is exact under the run binding, which ties the guest's records to the log, and under the log's assumptions, that it records every upload once and that every flush the device accepted makes one upload. The bracket is a consistency check under a correspondence fitted from the same stream: it cannot in general prove the absence of compensating edits, it cannot uniquely reject every stream shift, and it does not establish that a loss and an addition fall inside one call; a host stamp is read as the closed microsecond after it, admitting the one point no instant logged there holds. A stall is reported, never refused. walk's TIMING-off arm pairs on a frame bracket alone. The fit is a diagnostic, giving intervals and jitter and no absolute guest-to-SDL latency."
+    }
    },                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               {
     eps: 10000,
     period: 166666,
@@ -13192,8 +13172,7 @@
      outer: [
 
      ]
-    },
-    limits: "the pairing is exact under the run binding, which ties the guest's records to the log, and under the log's assumptions, that it records every upload once and that every flush the device accepted makes one upload. The bracket is a consistency check under a correspondence fitted from the same stream: it cannot in general prove the absence of compensating edits, it cannot uniquely reject every stream shift, and it does not establish that a loss and an addition fall inside one call; a host stamp is read as the closed microsecond after it, admitting the one point no instant logged there holds. A stall is reported, never refused. walk's TIMING-off arm pairs on a frame bracket alone. The fit is a diagnostic, giving intervals and jitter and no absolute guest-to-SDL latency."
+    }
    },                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  {
     eps: 10000,
     period: 166666,
@@ -15314,6 +15293,5 @@
  ],
  unread: [
 
- ],
- limits: "the pairing is exact under the run binding, which ties the guest's records to the log, and under the log's assumptions, that it records every upload once and that every flush the device accepted makes one upload. The bracket is a consistency check under a correspondence fitted from the same stream: it cannot in general prove the absence of compensating edits, it cannot uniquely reject every stream shift, and it does not establish that a loss and an addition fall inside one call; a host stamp is read as the closed microsecond after it, admitting the one point no instant logged there holds. A stall is reported, never refused. walk's TIMING-off arm pairs on a frame bracket alone. The fit is a diagnostic, giving intervals and jitter and no absolute guest-to-SDL latency."
+ ]
 }

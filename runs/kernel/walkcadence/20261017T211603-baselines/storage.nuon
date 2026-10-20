@@ -1,6 +1,6 @@
 [
  [object,               kind, length, "sha256",                                                           holds];
- ["1ka1.guest.nuon",    raw,  1516,   "bb50daeb3f5d3f2f0961f63af6a308d4e3de2cdcb9cf46db3c7b07d71d27e199", [
+ ["1ka1.guest.nuon",    raw,  1189,   "aab4ed26c21794eb1fe6708f705014661984180015466963251a5edd238717df", [
    "1ka1.guest.nuon"
   ]],
  ["1ka1/api.out",       raw,  577600, "e48007c3cba283177321d1af52fc24186638ea94696a978f909ba2b28700b938", [
@@ -18,7 +18,7 @@
  ["1ka1/serial.log",    raw,  0,      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", [
    "1ka1/serial.log"
   ]],
- ["1kb1.guest.nuon",    raw,  1513,   "3596f072cee59a129691c1f5c9c89e67471c3c815a420afaf0bf236e2a049104", [
+ ["1kb1.guest.nuon",    raw,  1186,   "a07aa76b575d75690f1b3151c576395780d7c801537b1c46d390cd1198548869", [
    "1kb1.guest.nuon"
   ]],
  ["1kb1/api.out",       raw,  577472, "4d139947ef41ce1b4f480413182cb01494c648183600369727736f77952edbec", [

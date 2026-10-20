@@ -17,5 +17,5 @@
  ["probe/sdl.log",                log,    1464034, "8ee3d668488656120e9be8c09ff0b5c975aa01c0509bb8323002282b47ec762b", archived,    ""],
  ["probe/trace.log",              log,    529117,  "ddc436e8c4833e5552854c1a01779d13c10a7cab6afbb3edb4b7afb8bb341970", archived,    ""],
  ["probe_record.nuon",            record, 4277,    "a71c6186cc00a69af370b8d3ef0827218268abca949c45e53d941caeb5136d5e", kept,        ""],
- ["walk.paired.nuon",             record, 89785,   "21a553c696c702a0f4e370c9ab439d7c9bdd3185f1ad43264b56b1d02fc021a5", kept,        ""]
+ ["walk.paired.nuon",             record, 88573,   "00c4c8247287956f31adfd45b65e64ad6327e28191b17ad89ab83bb6246391f5", kept,        ""]
 ]

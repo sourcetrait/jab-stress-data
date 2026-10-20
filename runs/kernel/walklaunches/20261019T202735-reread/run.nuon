@@ -25,6 +25,6 @@
   as: checkpoint,
   why: "walk's CADENCE_TEST launches 20261017T100002 reread through a restoration by the launches fixture's reread at jab-stress 09f6284 over jab 3cfef40, nothing launched: the four loop-order streams, the event room's, and the replay's as recorded, each admitted by the reader's record semantics and build identity, the replay bound to its stream await_on.wrpl, and each held as its launch held it (the stalls' medians 42.06, 42.02, 25.13, and 25.14 ms, frame 331 clamped, the event room closing at frame 60 with 8 events, the replay's workload and dt frame for frame); the four exit cases hold no stream; RecordSemantics' proof, cited by the kernel subiter's plan/agenda/WalkExample/WalkCadence/RecordSemantics.md"
  },
- inventory: "ec2f6c77a7cfd47491b6751cc75d13139416631c6b06f4156d514abb6392c683",
- storage: "b6b8089522818b70919ff6e764dd2f13f4a176aa20cb0f24d704b5b314481b8b"
+ inventory: "47da26d8151af3352e34ca4ca53ed079cbd6f081597fdd52ec70e5b12a35a7d8",
+ storage: "fdc72188d9a5801c72f78eb218ba75d7e715c9813884dd29d278c66594fcb54f"
 }

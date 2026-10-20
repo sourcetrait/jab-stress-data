@@ -1,6 +1,6 @@
 [
  [path,            role,   length, "sha256",                                                           disposition, reason];
- ["launches.nuon", record, 12734,  "38e80ab7e2eb2d6290d59e215a7f39e7a8be502aa96be0562009c7f41e996ce7", kept,        ""],
+ ["launches.nuon", record, 10692,  "0d73739c7c177098b5ba0edcfbdecbe276d21e4006f687aa95a22fcb186cc9b4", kept,        ""],
  ["reread.nuon",   record, 365,    "926a3cf16242d07d00c539adafd5b8ec9d7bcabe67644bb457760ad932d14d76", kept,        ""],
  ["reread.stderr", log,    0,      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", kept,        ""],
  ["reread.stdout", log,    958,    "e8d9eba5776dae6ecb073b2973f0084baf11dfc834c574ccf29408a80a66c8d8", kept,        ""]

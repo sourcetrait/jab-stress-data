@@ -3,5 +3,5 @@
  ["reread.nuon",      record, 346,    "3a5d07bfefc57533893d8e1015250517936c9d9b81f0ccb69390f69eb2400ada", kept,        ""],
  ["reread.stderr",    log,    0,      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", kept,        ""],
  ["reread.stdout",    log,    1116,   "f1be701ea37a6d348032ad79c5b62fcf44f1007f01c38e2d729ac0c83676dad7", kept,        ""],
- ["walk.paired.nuon", record, 19837,  "9b4d164b6a5edbdc4e54fa96442126ac1f2af91fe93ab0c7b43410e0de262e1e", kept,        ""]
+ ["walk.paired.nuon", record, 18625,  "125a3c1cf2130e54c64fee192b9351a6c5976b0d8ac04aa2e29fe97d54f8068a", kept,        ""]
 ]

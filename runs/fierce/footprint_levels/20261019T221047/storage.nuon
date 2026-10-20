@@ -75,7 +75,7 @@
  ["r1_window/pose.nuon",                           raw,     6015,     "f972ad715197b3df978d49651f0fa3ca98d85f13eaa17fa6aff6fa9192145f9b", [
    "r1_window/pose.nuon"
   ]],
- ["reading.nuon",                                  raw,     32130,    "def634d75db93725c45169273a909252bcd173e02be9797f8b24bea80cedd688", [
+ ["reading.nuon",                                  raw,     31606,    "0731ca909d9afd24b42f82f2b4b86f8dcd64230d309e38272a5a9564da44ad44", [
    "reading.nuon"
   ]],
  ["spawn/pose.nuon",                               raw,     7589,     "fc594b808ea6e66a2a74cdb926b7ca29f9539af7bb2761ef2baa2b3a81c8e5ee", [

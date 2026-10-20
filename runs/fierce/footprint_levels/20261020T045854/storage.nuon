@@ -642,7 +642,7 @@
  ["r1_window/pose.nuon",                                       raw,       6067,     "ac7d1a0ad65604909ceb718d8c1439b9b4b0ad8391955b807ecc5e4145cc59f3", [
    "r1_window/pose.nuon"
   ]],
- ["reading.nuon",                                              raw,       32354,    "c6941f172eb79d583f941eaa25940aa8c38ff2d0163235dbadb0f9c98206aafd", [
+ ["reading.nuon",                                              raw,       31606,    "0731ca909d9afd24b42f82f2b4b86f8dcd64230d309e38272a5a9564da44ad44", [
    "reading.nuon"
   ]],
  ["spawn/levels/launch.nuon",                                  raw,       1800,     "d3c2080475d663c1a03bcf4b814acf203e4485d521f19c306ba186397b5878dd", [

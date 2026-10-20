@@ -1,6 +1,6 @@
 [
  [object,                   kind,      length,  "sha256",                                                           holds];
- ["arms.nuon",              raw,       3671,    "adfde5e268ee87f3a17e90f0ac846abf8ce176a40d775e78343d34f95b522574", [
+ ["arms.nuon",              raw,       3473,    "d1ec6b91ae3eff9474a2b7d8eaf72c93e075f9a2998cd3323632a3d59467ea7b", [
    "arms.nuon"
   ]],
  ["batches.nuon",           raw,       3987,    "43e14fc273c3aa98e0c334f9f8311796b1540c87dde642458b47927eda5bbd23", [

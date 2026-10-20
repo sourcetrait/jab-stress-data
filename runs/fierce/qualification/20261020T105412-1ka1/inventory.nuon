@@ -7,6 +7,6 @@
  ["check/bench/unavailable/gauge.nuon", record, 2296597, "30e55a4ba007c3fec02c3a9c63255c1c3f5285ceabb336221038618f570dc853", kept,        ""],
  ["check/bench/watch.nuon",             record, 32538,   "69d254f3053e4412810c4f4fb6681fdc4ac3b37b0b473fba449ccaa41d13520d", kept,        ""],
  ["check/check.nuon",                   record, 17239,   "7abb74b226744c8fc6257318404c337e5ddbd137950260ac6481cc56509cae93", kept,        ""],
- ["check/qualification.nuon",           record, 241386,  "de041db552558fdee58d0933ff1fdf98b3724a1ed7fc6c04b44f7b94866a34c1", kept,        ""],
- ["qualification.nuon",                 record, 241445,  "314621d8315a85fb57cdb6bf2e82082814cdd79840a006d06443a6315f3d40f7", kept,        ""]
+ ["check/qualification.nuon",           record, 240312,  "f0669487ce4b93097d908c65e302ad97c5139e1060abf5fd0efcfe1577d90706", kept,        ""],
+ ["qualification.nuon",                 record, 240371,  "df806200e5a8afced47d086b0b999bd48b11f663969d9729be5a5db07b4343f5", kept,        ""]
 ]

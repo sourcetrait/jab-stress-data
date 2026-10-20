@@ -1530,6 +1530,5 @@
   secant_holds: true,
   departures_hold: true,
   revised_holds: true,
-  revision: "The criterion is revised after the first measurement (SecantCriterion): it now tests whether the candidate's row estimate gives the level a block's footprint asks when the along term is the engine's own step, the secant over the block's true length, and the down term the analytic derivative at the block's start on the mapping the engine uses there; it does not test whether the engine's along stepping matches the analytic derivative (AlongSpanFootprint). The declared criteria's result stands as recorded.",
   own_sharper: 0
 }

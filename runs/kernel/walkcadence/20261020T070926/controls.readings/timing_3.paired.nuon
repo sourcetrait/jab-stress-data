@@ -2,12 +2,6 @@
  reader: "walk cadence",
  mode: paired,
  guest_only: false,
- limits: [
-  "rdtime is elapsed time: a host stall inside a phase reads as that phase",
-  "the pairing gives intervals and no absolute guest-to-SDL latency; its own limits are the pairing core's, given with it",
-  "attribution is within a run, by a stretch's own frames against the run's steady medians, never by comparing runs",
-  "a TIMING-off run pairs on its frame's bracket, never a call's, and locates no phase"
- ],
  complete: true,
  valid: true,
  faults: [
@@ -1647,8 +1641,7 @@
    frame: [
 
    ]
-  },
-  limits: "the pairing is exact under the run binding, which ties the guest's records to the log, and under the log's assumptions, that it records every upload once and that every flush the device accepted makes one upload. The bracket is a consistency check under a correspondence fitted from the same stream: it cannot in general prove the absence of compensating edits, it cannot uniquely reject every stream shift, and it does not establish that a loss and an addition fall inside one call; a host stamp is read as the closed microsecond after it, admitting the one point no instant logged there holds. A stall is reported, never refused. walk's TIMING-off arm pairs on a frame bracket alone. The fit is a diagnostic, giving intervals and jitter and no absolute guest-to-SDL latency."
+  }
  },
  flips: {
   presents: 6221,

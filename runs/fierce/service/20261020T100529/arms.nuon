@@ -43,8 +43,5 @@
   ["service_2", "gauge:   run 1 service: window 1, frames 0 to 3308, a valid handoff: offered 6616, 2.0 a frame over 3308; applied 6616, dropped 0, rejected 0, discarded 0; quotas skipped 0; apply 5 us median, 65 us most; the oldest applied's age 16617 us median; held"],
   ["service_2", "gauge:   run 2 service: window 1, frames 0 to 3308, a valid handoff: offered 6616, 2.0 a frame over 3308; applied 6616, dropped 0, rejected 0, discarded 0; quotas skipped 0; apply 5 us median, 272 us most; the oldest applied's age 16612 us median; held"],
   ["service_2", "gauge:   run 3 service: window 1, frames 0 to 3307, a valid handoff: offered 6612, 2.0 a frame over 3307; applied 6612, dropped 0, rejected 0, discarded 0; quotas skipped 0; apply 5 us median, 272 us most; the oldest applied's age 16616 us median; held"]
- ],
- limits: [
-  "A run's statistic is its whole route's; an arm's the median of its six runs'; the noise half the larger arm's range; a diagnostic four-hart machine, its evidence the box's alone."
  ]
 }

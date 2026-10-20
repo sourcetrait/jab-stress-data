@@ -1,12 +1,12 @@
 [
  [path,                 role,   length, "sha256",                                                           disposition, reason];
- ["1ka1.guest.nuon",    record, 1516,   "bb50daeb3f5d3f2f0961f63af6a308d4e3de2cdcb9cf46db3c7b07d71d27e199", kept,        ""],
+ ["1ka1.guest.nuon",    record, 1189,   "aab4ed26c21794eb1fe6708f705014661984180015466963251a5edd238717df", kept,        ""],
  ["1ka1/api.out",       stream, 577600, "e48007c3cba283177321d1af52fc24186638ea94696a978f909ba2b28700b938", kept,        ""],
  ["1ka1/identity.nuon", record, 1897,   "cdad23a498c4121b641b68e3127a851202c0663412ddedd21d0f314ded68b3de", kept,        ""],
  ["1ka1/qemu.log",      log,    0,      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", kept,        ""],
  ["1ka1/run.nuon",      record, 3322,   "ef02503a8bf5b0deb224c0e4ed1cad8886028c6f4215c8d43b622983508d51d1", kept,        ""],
  ["1ka1/serial.log",    log,    0,      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", kept,        ""],
- ["1kb1.guest.nuon",    record, 1513,   "3596f072cee59a129691c1f5c9c89e67471c3c815a420afaf0bf236e2a049104", kept,        ""],
+ ["1kb1.guest.nuon",    record, 1186,   "a07aa76b575d75690f1b3151c576395780d7c801537b1c46d390cd1198548869", kept,        ""],
  ["1kb1/api.out",       stream, 577472, "4d139947ef41ce1b4f480413182cb01494c648183600369727736f77952edbec", kept,        ""],
  ["1kb1/identity.nuon", record, 1897,   "b5f00e7fde90daf40731d696796ab16db9d6f244dd4c0c6135fd2ce767106308", kept,        ""],
  ["1kb1/qemu.log",      log,    0,      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", kept,        ""],

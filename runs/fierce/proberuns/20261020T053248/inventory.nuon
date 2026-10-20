@@ -439,7 +439,7 @@
  ["probed2_2/run_3/run.nuon",                  record, 3002,    "87b28ae32ea5f5ea857721a43285dc4964eca1b289c39a661b9abb4987114de8", archived,    ""],
  ["probed2_2/run_3/sdl.log",                   log,    753400,  "8f9aadab2acdec41f8d5288adb8338ed968a7466372b3b7e060ade79fbf6c675", archived,    ""],
  ["probed2_2/run_3/serial.log",                log,    0,       "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", archived,    ""],
- ["proberuns.nuon",                            record, 371759,  "b4e27eae90175e34fa0429b8cc40ac30051aafa1b802def5fcfb0b1212bb0e33", kept,        ""],
+ ["proberuns.nuon",                            record, 353546,  "f665738543f4d0e5535edd05b9fc4844dc620aaff4d5144d5f9c81c2daf64e06", kept,        ""],
  ["shimplain_1.log",                           log,    13693,   "0e9d56e267ccb888998ec04a3de99fe477555291078af14729da2a00a4d4581e", kept,        ""],
  ["shimplain_1/gauge.nuon",                    record, 6671478, "1fa38eabc42e3debe20e9a3ae1e451972d178c75e44ed08f3c1bbed6ed2ba8d5", derived,     "the step's gauge report, made again from its runs' API streams, identities, and run records by the batch reread, its output versioned (RederivedChecks)"],
  ["shimplain_1/pad.nuon",                      record, 1660,    "71be4c0dc4e693988b3efa1e7a54e25b743ddda19dc6903ba1a1ed1d7e8488b1", archived,    ""],

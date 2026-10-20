@@ -206,10 +206,9 @@
     differences: [
 
     ],
-    limits: [
-      "levels: its capture carries no span table, so each block's end is read from its pixels",
-      "levels_candidate: its capture carries no span table, so each block's end is read from its pixels",
-      "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/game/fps/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_1/render_1_still.romfs, disk_render_1/tree/render_1_still/tile.nuon differ made again"
+    no_span_table: [
+      levels,
+      levels_candidate
     ],
     still: {
       first: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",

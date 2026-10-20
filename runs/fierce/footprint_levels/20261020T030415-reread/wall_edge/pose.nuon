@@ -267,8 +267,8 @@
     differences: [
 
     ],
-    limits: [
-      "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/kit/fierce/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_0/render_0_still.romfs, disk_render_0/tree/render_0_still/tile.nuon differ made again"
+    no_span_table: [
+
     ],
     still: {
       first: "91561f81c2d16eac928535f7c877c56e8daa0fcb363257599547a47703c0b432",
