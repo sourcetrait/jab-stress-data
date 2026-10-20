@@ -1,0 +1,79 @@
+{
+ schema: 2,
+ set: "jointtiming_1ka1",
+ stamp: "20261020T185356",
+ task: JointTiming,
+ scope: {
+  kind: targeted,
+  ran: 5,
+  of: 39,
+  names: [
+   preflight,
+   "p0_probed_1",
+   "p2_1",
+   "p2_prepare_on_1_1",
+   "p0_await_off_1_1"
+  ]
+ },
+ builds: [
+  [part,                build, source, record,                            export];
+  [preflight,           null,  export, "preflight/preflight.nuon",        {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec"
+   }],
+  ["p0_probed_1",       null,  export, "p0_probed_1/run_1/identity.nuon", {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec"
+   }],
+  ["p2_1",              null,  export, "p2_1/run_1/identity.nuon",        {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c"
+   }],
+  ["p2_prepare_on_1_1", null,  export, "p2_prepare_on_1_1/identity.nuon", {
+    name: "export_c804ccb-cadence-prepare-timing",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/kernel/export/20261020-baselines/export_c804ccb-cadence-prepare-timing/release/provenance.nuon",
+    symbols: [
+     CADENCE,
+     PREPARE,
+     TIMING
+    ],
+    "image_sha256": "088eff5d5cd15ce91acf8b48ab0d2cb43a27a8839e642b0e88588acd101e2f0d",
+    "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c"
+   }],
+  ["p0_await_off_1_1",  null,  export, "p0_await_off_1_1/identity.nuon",  {
+    name: "export_c804ccb-cadence",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/kernel/export/20261020-baselines/export_c804ccb-cadence/release/provenance.nuon",
+    symbols: [
+     CADENCE
+    ],
+    "image_sha256": "ad2f50b1142e80e2b263a10e76e0d54a8ca69d25b74126546bda25b61bf6d7ff",
+    "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec"
+   }]
+ ],
+ kept: {
+  as: targeted,
+  why: "TheUser's host bench for JointTiming on 1KA1, run on the box from its package jointtiming-a408b8b573 (SHA-256 1292d8f1f47764b3df7a6a36c0483299ee10d8f61ed669ade362e1020234e18b, laid by jab-stress's timing.nu package at jab a408b8b): ./do bench kit/fierce/jointtiming_1ka1 --package <its directory> --only preflight,p0_probed_1,p2_1,p2_prepare_on_1_1,p0_await_off_1_1, with JAB_DISPLAY sdl,gl=on, SDL_VIDEODRIVER offscreen, and JAB_AUDIO none. It is the package's proof, every kind of step the package carries, and never comparison evidence. The preflight held in 21 s, the capture path checked. fps's probed P0 batch and unprobed P2 batch ran three seeded runs each at cadence 1 on the package's image and kernels, every run status 0 and valid; K at eps 3,700 as each rule gives it, about 3,000 violations a P0 run and none on P2. walk's P2 prepare arm with TIMING and P0 await arm without it ran through walk's wrapper, each valid and deciding by walk's guest-only reading, 7,200 frames over 120 s. The bench and preflight records and the package's manifest are kept; the runs, bundles, pads, and logs archived; the gauge reports derived by the batch reread; the disk copies and the preflight's screen kept as hashes. Cited by the kernel subiter's plan/agenda/FourHarts/PresentationContract/JointTiming.md."
+ },
+ inventory: "6274b04272af40d25d4f3a2aa9e03f62bf2bb1b44061e236c71473394bac537d",
+ storage: "8006f08575ec06d623ca23e0afacb7d6474de3258cbbb93850e307df8ee31395"
+}
