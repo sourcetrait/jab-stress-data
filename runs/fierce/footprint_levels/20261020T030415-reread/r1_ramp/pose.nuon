@@ -1,0 +1,262 @@
+{
+  pose: {
+    name: "r1_ramp",
+    map: "render_1",
+    x: 12.0,
+    y: 6.5,
+    z: 3.975,
+    yaw: 90,
+    pitch: -30,
+    roll: 0
+  },
+  disk: {
+    name: "render_1_still",
+    tree: "/home/box/tmp/jab-stress/gate/20261019T221047-reread3/out/disk_render_1/tree/render_1_still",
+    disk: "/home/box/tmp/jab-stress/gate/20261019T221047-reread3/out/disk_render_1/render_1_still.romfs",
+    "sha256": "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+    map: "/home/box/tmp/jab-stress/gate/20261019T221047-reread3/out/disk_render_1/tree/render_1_still/map/render_1_still.jabfps.map"
+  },
+  export: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_46f969b",
+  commit: "46f969b957ed13df229c9d88a1ad44635e3f34a0",
+  tool: {
+    path: /home/box/proj/sourcetrait/jab/kit/fierce/rust/target/release/footprint,
+    "sha256": "b2cbfedd7c5027965debc22908a0f825bca825345c71cd97f407e80e502be1fe",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    dirty: false
+  },
+  launch: null,
+  rows: [
+    [label,             status, screen,                                                                                                        "screen_sha256",                                                    faults,     bake,                                                                   binding];
+    [owner,             124,    "/home/box/tmp/jab-stress/gate/20261019T221047-reread3/restoration/tree/r1_ramp/owner/screen.ppm",             "59f284d67b177f55c398e6aff9d3bf4f5f9cd2d41ca1b0a0a4823c61ecab7438", [
+
+      ], {
+        maps: 79,
+        lumels: 13194,
+        unmapped: 0
+      }, {
+        stamp: 435,
+        from: 381,
+        frame: 435,
+        state: {
+          x: 12.0,
+          y: 6.5,
+          z: 3.9749996662139893,
+          yaw: 90.0,
+          pitch: -30.000001907348633,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [levels,            124,    "/home/box/tmp/jab-stress/gate/20261019T221047-reread3/restoration/tree/r1_ramp/levels/screen.ppm",            "c5d7c66065fe44c1e586e5e4ec968b646c281e2906cd82ef8aa4ed1faeabfc1a", [
+
+      ], {
+        maps: 79,
+        lumels: 13194,
+        unmapped: 0
+      }, {
+        stamp: 428,
+        from: 378,
+        frame: 428,
+        state: {
+          x: 12.0,
+          y: 6.5,
+          z: 3.9749996662139893,
+          yaw: 90.0,
+          pitch: -30.000001907348633,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [levels_candidate,  124,    "/home/box/tmp/jab-stress/gate/20261019T221047-reread3/restoration/tree/r1_ramp/levels_candidate/screen.ppm",  "806d35021d86b53ad3b4189d135ee2d28cc984f87d4f8e9a37de79ce41f4e1ed", [
+
+      ], {
+        maps: 79,
+        lumels: 13194,
+        unmapped: 0
+      }, {
+        stamp: 396,
+        from: 349,
+        frame: 396,
+        state: {
+          x: 12.0,
+          y: 6.5,
+          z: 3.9749996662139893,
+          yaw: 90.0,
+          pitch: -30.000001907348633,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [picture,           124,    "/home/box/tmp/jab-stress/gate/20261019T221047-reread3/restoration/tree/r1_ramp/picture/screen.ppm",           "733ecb06b3872155d3bc682dc5a67b460d34b1a8be70500e8e3511375b27cd51", [
+
+      ], {
+        maps: 79,
+        lumels: 13194,
+        unmapped: 0
+      }, {
+        stamp: 463,
+        from: 407,
+        frame: 463,
+        state: {
+          x: 12.0,
+          y: 6.5,
+          z: 3.9749996662139893,
+          yaw: 90.0,
+          pitch: -30.000001907348633,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [picture_candidate, 124,    "/home/box/tmp/jab-stress/gate/20261019T221047-reread3/restoration/tree/r1_ramp/picture_candidate/screen.ppm", "98008c999dad4e160ca1a167b5c2b87522186715dfa0395a7dbf00f29e3dc452", [
+
+      ], {
+        maps: 79,
+        lumels: 13194,
+        unmapped: 0
+      }, {
+        stamp: 428,
+        from: 377,
+        frame: 428,
+        state: {
+          x: 12.0,
+          y: 6.5,
+          z: 3.9749996662139893,
+          yaw: 90.0,
+          pitch: -30.000001907348633,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }]
+  ],
+  reference: {
+    camera: {
+      x: 12.0,
+      y: 6.5,
+      z: 3.9749996662139893,
+      yaw: 90.0,
+      pitch: -30.000001907348633,
+      roll: 0.0
+    },
+    iz_min: 4096,
+    floor_depth: 16384.0,
+    rows: 131526,
+    lumels: {
+      maps: 79,
+      lumels: 13194,
+      unmapped: 0
+    },
+    unread_materials: [
+
+    ],
+    owner: {
+      frame: 435,
+      spans: 0,
+      actors: 0
+    },
+    population: {
+      blocks: 131526,
+      classes: {
+        judged: 131526,
+        sky: 0,
+        unknown: 0,
+        unread: 0,
+        actor: 0,
+        degenerate: 0,
+        no_end: 0,
+        unpaired: 0
+      },
+      unresolved: 0,
+      sensitive: 1475,
+      clamped: 0,
+      actors: 0
+    },
+    captures: [
+      [file,                                                                                                         blocks, judged, agree,  sharper, coarser, secant_agree, secant_sharper, secant_coarser, levels,                                                                                                                                                    snapshot];
+      ["/home/box/tmp/jab-stress/gate/20261019T221047-reread3/restoration/tree/r1_ramp/levels/screen.ppm",           131526, 131526, 131399, 127,     0,       131526,       0,              0,              [
+          123293,
+          4861,
+          3160,
+          212,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ], {
+          frame: 428,
+          spans: 3709,
+          actors: 0
+        }],
+      ["/home/box/tmp/jab-stress/gate/20261019T221047-reread3/restoration/tree/r1_ramp/levels_candidate/screen.ppm", 131526, 131526, 131399, 127,     0,       131526,       0,              0,              [
+          123293,
+          4861,
+          3106,
+          266,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ], {
+          frame: 396,
+          spans: 3709,
+          actors: 0
+        }]
+    ]
+  },
+  pictures: {
+    width: 1920,
+    height: 1080,
+    pixels: 375,
+    regions: [
+      ["x0", "y0", "x1", "y1", pixels, largest];
+      [273,  107,  333,  108,  30,     1],
+      [369,  107,  387,  108,  18,     6],
+      [433,  107,  446,  108,  13,     1],
+      [469,  107,  687,  108,  130,    6],
+      [712,  107,  975,  108,  133,    4],
+      [1004, 107,  1087, 108,  51,     1]
+    ]
+  },
+  problems: [
+
+  ],
+  reread: {
+    from: "/home/box/tmp/jab-stress/gate/20261019T221047-reread3/restoration/tree/r1_ramp/pose.nuon",
+    first_tool: {
+      path: /home/box/proj/sourcetrait/jab/kit/fierce/rust/target/release/footprint,
+      "sha256": "b2cbfedd7c5027965debc22908a0f825bca825345c71cd97f407e80e502be1fe",
+      commit: "46f969b957ed13df229c9d88a1ad44635e3f34a0",
+      dirty: false
+    },
+    differences: [
+
+    ],
+    limits: [
+      "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/kit/fierce/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_1/render_1_still.romfs, disk_render_1/tree/render_1_still/tile.nuon differ made again"
+    ],
+    still: {
+      first: "72b2ce96c3ea7c9fe21f6ca42ad63c03d62126a21f6d6898162216c4cc720c39",
+      again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+      remade: "72b2ce96c3ea7c9fe21f6ca42ad63c03d62126a21f6d6898162216c4cc720c39",
+      content: /home/box/proj/sourcetrait/jab/kit/fierce/content,
+      held: true
+    },
+    "rows_sha256": "5cbb582b31bbe153fa5af6e1db2f00b66e39f93299b37a21f63f7e0813a75b54",
+    "first_rows_sha256": "5cbb582b31bbe153fa5af6e1db2f00b66e39f93299b37a21f63f7e0813a75b54",
+    rows_same: true,
+    pictures_same: true
+  }
+}

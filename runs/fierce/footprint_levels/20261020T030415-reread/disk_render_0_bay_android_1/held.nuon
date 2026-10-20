@@ -1,0 +1,15 @@
+{
+  problems: [
+
+  ],
+  limits: [
+    "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/kit/fierce/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_0_bay_android_1/render_0_bay_android_1.romfs, disk_render_0_bay_android_1/tree/render_0_bay_android_1/tile.nuon differ made again"
+  ],
+  disk: {
+    first: "4d1444b879f5fdb93dfc23b5b9ff9e1141d7197654580f77c1f384b6da75f3b0",
+    again: "7a89ae1fdc39a70bd23007f3aaeea18f9fbfc995c23a5e21d002f9305c7164f9",
+    remade: "4d1444b879f5fdb93dfc23b5b9ff9e1141d7197654580f77c1f384b6da75f3b0",
+    content: /home/box/proj/sourcetrait/jab/kit/fierce/content,
+    held: true
+  }
+}

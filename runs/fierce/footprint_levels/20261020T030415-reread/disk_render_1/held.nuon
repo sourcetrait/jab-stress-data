@@ -1,0 +1,15 @@
+{
+  problems: [
+
+  ],
+  limits: [
+    "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/kit/fierce/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_1/render_1_still.romfs, disk_render_1/tree/render_1_still/tile.nuon differ made again"
+  ],
+  disk: {
+    first: "72b2ce96c3ea7c9fe21f6ca42ad63c03d62126a21f6d6898162216c4cc720c39",
+    again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+    remade: "72b2ce96c3ea7c9fe21f6ca42ad63c03d62126a21f6d6898162216c4cc720c39",
+    content: /home/box/proj/sourcetrait/jab/kit/fierce/content,
+    held: true
+  }
+}

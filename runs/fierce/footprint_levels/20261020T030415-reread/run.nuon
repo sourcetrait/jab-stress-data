@@ -1,0 +1,43 @@
+{
+ schema: 2,
+ set: footprint_levels,
+ stamp: "20261020T030415-reread",
+ task: EvidenceRetention,
+ scope: {
+  kind: targeted,
+  ran: 19,
+  of: 19,
+  names: [
+   android_near,
+   bay,
+   down,
+   garage,
+   garage_far,
+   garage_far_clamp,
+   "r1_door",
+   "r1_grate",
+   "r1_landing",
+   "r1_light",
+   "r1_ramp",
+   "r1_spawn",
+   "r1_window",
+   spawn,
+   spawn_rolled,
+   up,
+   wall_edge,
+   window,
+   yard
+  ]
+ },
+ builds: [
+  [part,             build,                                      source,   record];
+  ["reader_dce458a", "dce458ad918eb97d3d0d039e2eda4d0f214eb206", checkout, "reread.nuon"],
+  ["jab_c804ccb",    "c804ccbc15a97e36016b9001b2e211b04431f3ed", checkout, "reread.nuon"]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "The recapture runs/fierce/footprint_levels/20261019T221047 read again through a restoration by footprint's reread at jab-stress dce458a over jab c804ccb, EvidenceRetention's removal gate, the run's scratch original renamed aside so neither it nor its absolute path was there to read: 19 poses read again, every block table the first's byte for byte, every binding and UART fault the recorded and every picture's regions the recorded, the reading unchanged from the first in every view, whole, the declared criteria failing as recorded and the revised criterion holding. The three still copies made again from the map's content; their tile.nuon naming each source relative to the content since jab c804ccb, each was remade with its sources rooted under kit/fierce/content as the capture's checkout compiled it, and every file and each disk was then the recorded (91561f81, 72b2ce96, 4d1444b8). Cited by the fps subiter's plan/agenda/FrameCeiling/EvidenceRetention.md."
+ },
+ inventory: "1542911005f340b7bec8c922d06b0ef70b891ced6e1c6746b4efba58bb216456",
+ storage: "b9754a6859d91ebfad5d05acf2f3b0088f3afa67957a6c96ae242068d1811376"
+}

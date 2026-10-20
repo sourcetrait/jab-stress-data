@@ -1,0 +1,271 @@
+{
+  run: "/home/box/proj/sourcetrait/jab-stress-data/runs/fierce/footprint_levels/20261019T221047",
+  tool: {
+    path: /home/box/proj/sourcetrait/jab/kit/fierce/rust/target/release/footprint,
+    "sha256": "b2cbfedd7c5027965debc22908a0f825bca825345c71cd97f407e80e502be1fe",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    dirty: false
+  },
+  poses: [
+    [pose,             problems,   differences, limits,                                                                                                                                                                                                                                                                                                                                                                                still,                                                                                                                                                                                                                                                                                                                                                      rows_same, pictures_same];
+    [android_near,     [
+
+      ], [
+
+      ],  [
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/kit/fierce/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_0_bay_android_1/render_0_bay_android_1.romfs, disk_render_0_bay_android_1/tree/render_0_bay_android_1/tile.nuon differ made again"
+      ], {
+        first: "4d1444b879f5fdb93dfc23b5b9ff9e1141d7197654580f77c1f384b6da75f3b0",
+        again: "7a89ae1fdc39a70bd23007f3aaeea18f9fbfc995c23a5e21d002f9305c7164f9",
+        remade: "4d1444b879f5fdb93dfc23b5b9ff9e1141d7197654580f77c1f384b6da75f3b0",
+        content: /home/box/proj/sourcetrait/jab/kit/fierce/content,
+        held: true
+      }, true,      true],
+    [bay,              [
+
+      ], [
+
+      ],  [
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/kit/fierce/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_0/render_0_still.romfs, disk_render_0/tree/render_0_still/tile.nuon differ made again"
+      ],                                             {
+        first: "91561f81c2d16eac928535f7c877c56e8daa0fcb363257599547a47703c0b432",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: "91561f81c2d16eac928535f7c877c56e8daa0fcb363257599547a47703c0b432",
+        content: /home/box/proj/sourcetrait/jab/kit/fierce/content,
+        held: true
+      }, true,      true],
+    [down,             [
+
+      ], [
+
+      ],  [
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/kit/fierce/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_0/render_0_still.romfs, disk_render_0/tree/render_0_still/tile.nuon differ made again"
+      ],                                             {
+        first: "91561f81c2d16eac928535f7c877c56e8daa0fcb363257599547a47703c0b432",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: "91561f81c2d16eac928535f7c877c56e8daa0fcb363257599547a47703c0b432",
+        content: /home/box/proj/sourcetrait/jab/kit/fierce/content,
+        held: true
+      }, true,      true],
+    [garage,           [
+
+      ], [
+
+      ],  [
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/kit/fierce/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_0/render_0_still.romfs, disk_render_0/tree/render_0_still/tile.nuon differ made again"
+      ],                                             {
+        first: "91561f81c2d16eac928535f7c877c56e8daa0fcb363257599547a47703c0b432",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: "91561f81c2d16eac928535f7c877c56e8daa0fcb363257599547a47703c0b432",
+        content: /home/box/proj/sourcetrait/jab/kit/fierce/content,
+        held: true
+      }, true,      true],
+    [garage_far,       [
+
+      ], [
+
+      ],  [
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/kit/fierce/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_0/render_0_still.romfs, disk_render_0/tree/render_0_still/tile.nuon differ made again"
+      ],                                             {
+        first: "91561f81c2d16eac928535f7c877c56e8daa0fcb363257599547a47703c0b432",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: "91561f81c2d16eac928535f7c877c56e8daa0fcb363257599547a47703c0b432",
+        content: /home/box/proj/sourcetrait/jab/kit/fierce/content,
+        held: true
+      }, true,      true],
+    [garage_far_clamp, [
+
+      ], [
+
+      ],  [
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/kit/fierce/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_0/render_0_still.romfs, disk_render_0/tree/render_0_still/tile.nuon differ made again"
+      ],                                             {
+        first: "91561f81c2d16eac928535f7c877c56e8daa0fcb363257599547a47703c0b432",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: "91561f81c2d16eac928535f7c877c56e8daa0fcb363257599547a47703c0b432",
+        content: /home/box/proj/sourcetrait/jab/kit/fierce/content,
+        held: true
+      }, true,      null],
+    ["r1_door",        [
+
+      ], [
+
+      ],  [
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/kit/fierce/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_1/render_1_still.romfs, disk_render_1/tree/render_1_still/tile.nuon differ made again"
+      ],                                             {
+        first: "72b2ce96c3ea7c9fe21f6ca42ad63c03d62126a21f6d6898162216c4cc720c39",
+        again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        remade: "72b2ce96c3ea7c9fe21f6ca42ad63c03d62126a21f6d6898162216c4cc720c39",
+        content: /home/box/proj/sourcetrait/jab/kit/fierce/content,
+        held: true
+      }, true,      true],
+    ["r1_grate",       [
+
+      ], [
+
+      ],  [
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/kit/fierce/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_1/render_1_still.romfs, disk_render_1/tree/render_1_still/tile.nuon differ made again"
+      ],                                             {
+        first: "72b2ce96c3ea7c9fe21f6ca42ad63c03d62126a21f6d6898162216c4cc720c39",
+        again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        remade: "72b2ce96c3ea7c9fe21f6ca42ad63c03d62126a21f6d6898162216c4cc720c39",
+        content: /home/box/proj/sourcetrait/jab/kit/fierce/content,
+        held: true
+      }, true,      true],
+    ["r1_landing",     [
+
+      ], [
+
+      ],  [
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/kit/fierce/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_1/render_1_still.romfs, disk_render_1/tree/render_1_still/tile.nuon differ made again"
+      ],                                             {
+        first: "72b2ce96c3ea7c9fe21f6ca42ad63c03d62126a21f6d6898162216c4cc720c39",
+        again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        remade: "72b2ce96c3ea7c9fe21f6ca42ad63c03d62126a21f6d6898162216c4cc720c39",
+        content: /home/box/proj/sourcetrait/jab/kit/fierce/content,
+        held: true
+      }, true,      true],
+    ["r1_light",       [
+
+      ], [
+
+      ],  [
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/kit/fierce/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_1/render_1_still.romfs, disk_render_1/tree/render_1_still/tile.nuon differ made again"
+      ],                                             {
+        first: "72b2ce96c3ea7c9fe21f6ca42ad63c03d62126a21f6d6898162216c4cc720c39",
+        again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        remade: "72b2ce96c3ea7c9fe21f6ca42ad63c03d62126a21f6d6898162216c4cc720c39",
+        content: /home/box/proj/sourcetrait/jab/kit/fierce/content,
+        held: true
+      }, true,      true],
+    ["r1_ramp",        [
+
+      ], [
+
+      ],  [
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/kit/fierce/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_1/render_1_still.romfs, disk_render_1/tree/render_1_still/tile.nuon differ made again"
+      ],                                             {
+        first: "72b2ce96c3ea7c9fe21f6ca42ad63c03d62126a21f6d6898162216c4cc720c39",
+        again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        remade: "72b2ce96c3ea7c9fe21f6ca42ad63c03d62126a21f6d6898162216c4cc720c39",
+        content: /home/box/proj/sourcetrait/jab/kit/fierce/content,
+        held: true
+      }, true,      true],
+    ["r1_spawn",       [
+
+      ], [
+
+      ],  [
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/kit/fierce/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_1/render_1_still.romfs, disk_render_1/tree/render_1_still/tile.nuon differ made again"
+      ],                                             {
+        first: "72b2ce96c3ea7c9fe21f6ca42ad63c03d62126a21f6d6898162216c4cc720c39",
+        again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        remade: "72b2ce96c3ea7c9fe21f6ca42ad63c03d62126a21f6d6898162216c4cc720c39",
+        content: /home/box/proj/sourcetrait/jab/kit/fierce/content,
+        held: true
+      }, true,      true],
+    ["r1_window",      [
+
+      ], [
+
+      ],  [
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/kit/fierce/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_1/render_1_still.romfs, disk_render_1/tree/render_1_still/tile.nuon differ made again"
+      ],                                             {
+        first: "72b2ce96c3ea7c9fe21f6ca42ad63c03d62126a21f6d6898162216c4cc720c39",
+        again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        remade: "72b2ce96c3ea7c9fe21f6ca42ad63c03d62126a21f6d6898162216c4cc720c39",
+        content: /home/box/proj/sourcetrait/jab/kit/fierce/content,
+        held: true
+      }, true,      true],
+    [spawn,            [
+
+      ], [
+
+      ],  [
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/kit/fierce/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_0/render_0_still.romfs, disk_render_0/tree/render_0_still/tile.nuon differ made again"
+      ],                                             {
+        first: "91561f81c2d16eac928535f7c877c56e8daa0fcb363257599547a47703c0b432",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: "91561f81c2d16eac928535f7c877c56e8daa0fcb363257599547a47703c0b432",
+        content: /home/box/proj/sourcetrait/jab/kit/fierce/content,
+        held: true
+      }, true,      true],
+    [spawn_rolled,     [
+
+      ], [
+
+      ],  [
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/kit/fierce/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_0/render_0_still.romfs, disk_render_0/tree/render_0_still/tile.nuon differ made again"
+      ],                                             {
+        first: "91561f81c2d16eac928535f7c877c56e8daa0fcb363257599547a47703c0b432",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: "91561f81c2d16eac928535f7c877c56e8daa0fcb363257599547a47703c0b432",
+        content: /home/box/proj/sourcetrait/jab/kit/fierce/content,
+        held: true
+      }, true,      true],
+    [up,               [
+
+      ], [
+
+      ],  [
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/kit/fierce/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_0/render_0_still.romfs, disk_render_0/tree/render_0_still/tile.nuon differ made again"
+      ],                                             {
+        first: "91561f81c2d16eac928535f7c877c56e8daa0fcb363257599547a47703c0b432",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: "91561f81c2d16eac928535f7c877c56e8daa0fcb363257599547a47703c0b432",
+        content: /home/box/proj/sourcetrait/jab/kit/fierce/content,
+        held: true
+      }, true,      true],
+    [wall_edge,        [
+
+      ], [
+
+      ],  [
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/kit/fierce/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_0/render_0_still.romfs, disk_render_0/tree/render_0_still/tile.nuon differ made again"
+      ],                                             {
+        first: "91561f81c2d16eac928535f7c877c56e8daa0fcb363257599547a47703c0b432",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: "91561f81c2d16eac928535f7c877c56e8daa0fcb363257599547a47703c0b432",
+        content: /home/box/proj/sourcetrait/jab/kit/fierce/content,
+        held: true
+      }, true,      true],
+    [window,           [
+
+      ], [
+
+      ],  [
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/kit/fierce/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_0/render_0_still.romfs, disk_render_0/tree/render_0_still/tile.nuon differ made again"
+      ],                                             {
+        first: "91561f81c2d16eac928535f7c877c56e8daa0fcb363257599547a47703c0b432",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: "91561f81c2d16eac928535f7c877c56e8daa0fcb363257599547a47703c0b432",
+        content: /home/box/proj/sourcetrait/jab/kit/fierce/content,
+        held: true
+      }, true,      true],
+    [yard,             [
+
+      ], [
+
+      ],  [
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/kit/fierce/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_0/render_0_still.romfs, disk_render_0/tree/render_0_still/tile.nuon differ made again"
+      ],                                             {
+        first: "91561f81c2d16eac928535f7c877c56e8daa0fcb363257599547a47703c0b432",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: "91561f81c2d16eac928535f7c877c56e8daa0fcb363257599547a47703c0b432",
+        content: /home/box/proj/sourcetrait/jab/kit/fierce/content,
+        held: true
+      }, true,      true]
+  ],
+  reading_changed: [
+
+  ],
+  first: {
+    whole: true,
+    declared_holds: false
+  },
+  again: {
+    whole: true,
+    declared_holds: false,
+    revised_holds: true
+  }
+}

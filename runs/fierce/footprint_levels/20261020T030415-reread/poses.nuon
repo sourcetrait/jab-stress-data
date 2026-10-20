@@ -1,0 +1,201 @@
+[
+  {
+    name: android_near,
+    map: "render_0",
+    x: 28.0,
+    y: 4.5,
+    z: 1.6,
+    yaw: 90,
+    pitch: 0,
+    roll: 0,
+    keep: [
+      "bay_android_1"
+    ],
+    hold: true
+  },
+  {
+    name: bay,
+    map: "render_0",
+    x: 20.0,
+    y: 17.0,
+    z: 1.6,
+    yaw: 180,
+    pitch: 5,
+    roll: 0
+  },
+  {
+    name: down,
+    map: "render_0",
+    x: 1.5,
+    y: 3.5,
+    z: 1.6,
+    yaw: 90,
+    pitch: -15,
+    roll: 0
+  },
+  {
+    name: garage,
+    map: "render_0",
+    x: 16.0,
+    y: 14.0,
+    z: -1.4,
+    yaw: 0,
+    pitch: 0,
+    roll: 0
+  },
+  {
+    name: garage_far,
+    map: "render_0",
+    x: 1.5,
+    y: 17.0,
+    z: -1.4,
+    yaw: 0,
+    pitch: -5,
+    roll: 0
+  },
+  {
+    name: garage_far_clamp,
+    map: "render_0",
+    x: 1.5,
+    y: 17.0,
+    z: -1.4,
+    yaw: 0,
+    pitch: -5,
+    roll: 0,
+    images: clamp,
+    witness: {
+      row: 511,
+      "x0": 735
+    }
+  },
+  {
+    name: "r1_door",
+    map: "render_1",
+    x: 4.0,
+    y: 5.0,
+    z: 1.6,
+    yaw: 90,
+    pitch: 0,
+    roll: 0
+  },
+  {
+    name: "r1_grate",
+    map: "render_1",
+    x: 9.0,
+    y: 11.0,
+    z: 1.6,
+    yaw: 0,
+    pitch: 0,
+    roll: 0
+  },
+  {
+    name: "r1_landing",
+    map: "render_1",
+    x: 12.0,
+    y: 4.0,
+    z: 3.1,
+    yaw: 90,
+    pitch: 10,
+    roll: 0
+  },
+  {
+    name: "r1_light",
+    map: "render_1",
+    x: 4.0,
+    y: 4.0,
+    z: 1.6,
+    yaw: 180,
+    pitch: -45,
+    roll: 0
+  },
+  {
+    name: "r1_ramp",
+    map: "render_1",
+    x: 12.0,
+    y: 6.5,
+    z: 3.975,
+    yaw: 90,
+    pitch: -30,
+    roll: 0
+  },
+  {
+    name: "r1_spawn",
+    map: "render_1",
+    x: 4.0,
+    y: 4.0,
+    z: 1.6,
+    yaw: 0,
+    pitch: 0,
+    roll: 0
+  },
+  {
+    name: "r1_window",
+    map: "render_1",
+    x: 5.0,
+    y: 4.0,
+    z: 4.85,
+    yaw: 0,
+    pitch: -20,
+    roll: 0
+  },
+  {
+    name: spawn,
+    map: "render_0",
+    x: 29.0,
+    y: 2.5,
+    z: 1.6,
+    yaw: 150,
+    pitch: 0,
+    roll: 0
+  },
+  {
+    name: spawn_rolled,
+    map: "render_0",
+    x: 29.0,
+    y: 2.5,
+    z: 1.6,
+    yaw: 150,
+    pitch: 0,
+    roll: 30
+  },
+  {
+    name: up,
+    map: "render_0",
+    x: 8.75,
+    y: 3.5,
+    z: 1.6,
+    yaw: 90,
+    pitch: 15,
+    roll: 0
+  },
+  {
+    name: wall_edge,
+    map: "render_0",
+    x: 30.5,
+    y: 1.0,
+    z: 1.6,
+    yaw: 178,
+    pitch: 0,
+    roll: 0
+  },
+  {
+    name: window,
+    map: "render_0",
+    x: 8.75,
+    y: 17.0,
+    z: 4.6,
+    yaw: 0,
+    pitch: -15,
+    roll: 0
+  },
+  {
+    name: yard,
+    map: "render_0",
+    x: 40.0,
+    y: 6.0,
+    z: 1.6,
+    yaw: 90,
+    pitch: 10,
+    roll: 0
+  }
+]
