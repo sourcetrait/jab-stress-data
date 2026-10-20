@@ -1,0 +1,47 @@
+{
+ state: calibrated,
+ eps: 3700,
+ qualifying: {
+  "1ka1": 19445,
+  "1kb1": 19812
+ },
+ targets: [
+  [target, runs, qualifying, "p999", past_cap, problems];
+  ["1ka1", 6,    19445,      3655,   0,        [
+
+   ]],
+  ["1kb1", 6,    19812,      3559,   0,        [
+
+   ]]
+ ],
+ base: "/home/box/tmp/jab-stress/jointtiming/20261020-calibration",
+ runs: [
+  [id,                dir,                                                                         target];
+  ["p0_1ka1_1/run_1", "/home/box/tmp/jab-stress/jointtiming/20261020-calibration/p0_1ka1_1/run_1", "1ka1"],
+  ["p0_1ka1_1/run_2", "/home/box/tmp/jab-stress/jointtiming/20261020-calibration/p0_1ka1_1/run_2", "1ka1"],
+  ["p0_1ka1_1/run_3", "/home/box/tmp/jab-stress/jointtiming/20261020-calibration/p0_1ka1_1/run_3", "1ka1"],
+  ["p0_1kb1_1/run_1", "/home/box/tmp/jab-stress/jointtiming/20261020-calibration/p0_1kb1_1/run_1", "1kb1"],
+  ["p0_1kb1_1/run_2", "/home/box/tmp/jab-stress/jointtiming/20261020-calibration/p0_1kb1_1/run_2", "1kb1"],
+  ["p0_1kb1_1/run_3", "/home/box/tmp/jab-stress/jointtiming/20261020-calibration/p0_1kb1_1/run_3", "1kb1"],
+  ["p0_1kb1_2/run_1", "/home/box/tmp/jab-stress/jointtiming/20261020-calibration/p0_1kb1_2/run_1", "1kb1"],
+  ["p0_1kb1_2/run_2", "/home/box/tmp/jab-stress/jointtiming/20261020-calibration/p0_1kb1_2/run_2", "1kb1"],
+  ["p0_1kb1_2/run_3", "/home/box/tmp/jab-stress/jointtiming/20261020-calibration/p0_1kb1_2/run_3", "1kb1"],
+  ["p0_1ka1_2/run_1", "/home/box/tmp/jab-stress/jointtiming/20261020-calibration/p0_1ka1_2/run_1", "1ka1"],
+  ["p0_1ka1_2/run_2", "/home/box/tmp/jab-stress/jointtiming/20261020-calibration/p0_1ka1_2/run_2", "1ka1"],
+  ["p0_1ka1_2/run_3", "/home/box/tmp/jab-stress/jointtiming/20261020-calibration/p0_1ka1_2/run_3", "1ka1"]
+ ],
+ selector: {
+  repos: [
+   [repo,                                  commit,                                     dirty];
+   [/home/box/proj/sourcetrait/jab-stress, "39c8b1e22475e479d60736d0fafa36906c901efb", false],
+   [/home/box/proj/sourcetrait/jab,        "39e8da681be67e08216a9ad885f275411f874d12", false]
+  ],
+  runtime: [
+   [role, version,   "sha256"];
+   [nu,   "0.115.1", "c343a927a2d4a45ebf9300d013b226bcdc2598ecb0178a8a79722ebffe71e56e"]
+  ],
+  executables: [
+
+  ]
+ }
+}

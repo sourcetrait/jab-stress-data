@@ -1,0 +1,60 @@
+{
+ schema: 2,
+ set: jointtiming,
+ stamp: "20261020T124838",
+ task: JointTiming,
+ scope: {
+  kind: whole,
+  ran: 12,
+  of: 12
+ },
+ builds: [
+  [part,        build, source, record,                          export];
+  ["p0_1ka1_1", null,  export, "p0_1ka1_1/run_1/identity.nuon", {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "export/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec"
+   }],
+  ["p0_1kb1_1", null,  export, "p0_1kb1_1/run_1/identity.nuon", {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "export/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec"
+   }],
+  ["p0_1kb1_2", null,  export, "p0_1kb1_2/run_1/identity.nuon", {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "export/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec"
+   }],
+  ["p0_1ka1_2", null,  export, "p0_1ka1_2/run_1/identity.nuon", {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "export/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec"
+   }]
+ ],
+ kept: {
+  as: current,
+  why: "JointTiming's calibration capture, eps's own before any P2 run: fps's release export at jab c804ccb (image 264e7b7c) on P0's kernel exported at d83e192 (ELF 36b8d8c4, its loaded bytes 7fdccf8c, both byte for byte P0's export at 73660a8, the comparison's), the factory route at cadence 1, headless and unprobed, through jab-stress's gauge_batches runner from 12:48 to 13:09: two batches of three seeded runs a target, seeds 1 to 3 then 3 to 1, in the order 1KA1, 1KB1, 1KB1, 1KA1, every capture complete and valid, the critical path's median 11.6 ms on 1KA1 and 10.0 to 10.8 on 1KB1. Read by the timing selector's calibrate at jab-stress 39c8b1e over jab 39e8da6 into calibration.nuon: the wake delays of every frame at cadence 1 that waited and presented, its receipt's acceptance less its tick, 19,445 on 1KA1 and 19,812 on 1KB1, the 99.9th by nearest rank 3,655 and 3,559 ticks, none past the 10,000-tick cap, so eps 3,700 ticks, calibrated, the FRAME_EPS jab 73660a8 sets. The batches' runs and pads archived; each step's gauge report derived by the batch reread; each disk copy and recording kept as its hash; both exports' provenance kept. Cited by the kernel subiter's plan/agenda/FourHarts/PresentationContract/JointTiming.md."
+ },
+ inventory: "e2c0e8ad3bd9703e0acf3ff2887fe23d0d703026063e98a019aba0fcad7373e4",
+ storage: "5b333450f4e78cf6aa2f28e3caffd0235628809fc34be0e0269be9893ecceb81"
+}
