@@ -1,0 +1,34 @@
+{
+ schema: 2,
+ set: qualification,
+ stamp: "20261019T231734-1ka1",
+ task: RederivedChecks,
+ scope: {
+  kind: targeted,
+  ran: 31,
+  of: 62,
+  names: [
+   "qual_1ka1"
+  ],
+  combined: {
+   runs: [
+    "20261019T231734-1ka1",
+    "20261019T232303-1kb1"
+   ],
+   kind: whole,
+   ran: 62,
+   of: 62
+  }
+ },
+ builds: [
+  [part,             build,                                      source,   record];
+  ["reader_262aadf", "262aadfde559d9026c4e2b418bcbfba59ee0c25b", checkout, "check.nuon"],
+  ["jab_1ea98ee",    "1ea98ee1537d89d32411e330960d8edf4fa2e79a", checkout, "check.nuon"]
+ ],
+ kept: {
+  as: current,
+  why: "1KA1's preparation record derived again by RederivedChecks' check from its bench run restored out of runs/fps/qual_1ka1/20261017T181257, relocated, no original report or absolute path available: 124 reopened inputs at their inventory's SHA-256, every step's report made again by the batch reread (gauge read batch), the ledger and verdicts recomputed. The preparation subset passes; qualification incomplete, eleven rows pending, each with its dependency; no problem; no stored answer differing from the derived. Read by jab-stress 262aadf over jab 1ea98ee, the code loaded at the check's start; the record's readers name jab-stress cad132c (dirty) and jab 43e4b41, taken as it was written, and no file either reader loads changed between them (the readers taken at a command's start from jab-stress af8b1f6). The check's stdout and stderr, captured by its job as check.out and check.err, land as check.stdout and check.stderr. The original record, runs/fps/qualification/20261017T181257-1ka1, stays beside it. Cited by FrameCeiling/Qualification.md."
+ },
+ inventory: "97026fe21dc15ce4e8f2366aee2d8082f28837d7cc1c210be0f610ccefda860a",
+ storage: "68fd9f0f632c8927e3a6835d30e3ecdf3437b51488381f2351dd679bdbb65a8a"
+}

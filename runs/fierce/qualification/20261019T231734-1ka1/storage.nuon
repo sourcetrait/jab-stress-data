@@ -1,0 +1,15 @@
+[
+ [object,               kind,      length, "sha256",                                                           holds];
+ ["check.nuon",         raw,       16355,  "cca3ec602d4003f77179dd3b5480f9f5159d1c7c2e7f0f0dc873c947b7360cc5", [
+   "check.nuon"
+  ]],
+ ["check.stderr.nuonl", container, 240,    "e376558d38718c9d827c5d7702cd9f526aa87680cf74c6faa6695bd737d16f84", [
+   "check.stderr"
+  ]],
+ ["check.stdout.nuonl", container, 279372, "1ca4a13a9c84f644adcf7d76e505d30b65393a594380cdcda7e1068ad1eec4bf", [
+   "check.stdout"
+  ]],
+ ["archive.tar.xz",     archive,   152708, "d0dcdedaf02b2045eca3a5c5e4509e99459e71b0cc9f6a8daaefe85646294de5", [
+   "qualification.nuon"
+  ]]
+]
