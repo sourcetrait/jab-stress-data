@@ -1,0 +1,57 @@
+[
+ [object,                   kind,      length, "sha256",                                                           holds];
+ ["1ka1.guest.nuon",        raw,       1816,   "fb3bc3cb6840c857a03dc3696794719ae6e2fdf39190d8cbcfce0c619e3644b7", [
+   "1ka1.guest.nuon"
+  ]],
+ ["1ka1/api.out",           raw,       577712, "7140aaaf09ad30d2a3f72225038557b0ef07ff34c072ce76ec6d7270c7dc4c60", [
+   "1ka1/api.out"
+  ]],
+ ["1ka1/identity.nuon",     raw,       1885,   "e162c2352898d3416140df0b6c8b8e92eb80eb70c4617c4778374844eaa11a69", [
+   "1ka1/identity.nuon"
+  ]],
+ ["1ka1/launch.nuon",       raw,       1004,   "558b2905800d39ebe94ed06fb711764c1cdd866567406e6b2db5e6d9c0555215", [
+   "1ka1/launch.nuon"
+  ]],
+ ["1ka1/qemu.log.nuonl",    container, 229,    "657c4c798e3ad51dfb114bf60ea9b6fd357f885282e13898af97303e4621ed91", [
+   "1ka1/qemu.log"
+  ]],
+ ["1ka1/qemu.stderr.nuonl", container, 238,    "7c41a568313fb350ae5c819459e2ab0deec7ec88ba9e2bdb2a0be0fc6c8ae614", [
+   "1ka1/qemu.stderr"
+  ]],
+ ["1ka1/qemu.stdout.nuonl", container, 238,    "ba561d5c30ad58571f347dbd2e659211ef2aad8c429d937a0bb4d6dca9c8be25", [
+   "1ka1/qemu.stdout"
+  ]],
+ ["1ka1/run.nuon",          raw,       3397,   "61f03167be7c5e6c316bac0f960a4e7d8b8cae8727097bff2a3060c091923433", [
+   "1ka1/run.nuon"
+  ]],
+ ["1ka1/serial.log.nuonl",  container, 230,    "c6db2d881a3a5ae6ac1134e459b972d7c7cf6c419d1f38571c6d7017c06c48db", [
+   "1ka1/serial.log"
+  ]],
+ ["1kb1.guest.nuon",        raw,       1829,   "fa174658a33e6342685d091243aa419e84af8924c7fdf7c889a8fe9e0cf19f18", [
+   "1kb1.guest.nuon"
+  ]],
+ ["1kb1/api.out",           raw,       577712, "19cb40354f9e4bf35a8c9e33b4761f1387472ececf17aa6362ed9b710f077e01", [
+   "1kb1/api.out"
+  ]],
+ ["1kb1/identity.nuon",     raw,       1885,   "dd08a58bfa6ef6b566529ec13510c401aa3af12cd2f9b60f16cd1c8fbc55c75c", [
+   "1kb1/identity.nuon"
+  ]],
+ ["1kb1/launch.nuon",       raw,       1004,   "d2f05ecd802dd21498ca4a2b84229a86be1375c2719e92026186b0b4353ca3df", [
+   "1kb1/launch.nuon"
+  ]],
+ ["1kb1/qemu.log.nuonl",    container, 229,    "59c4febb7b01489c00e510a2b5dded93b9b69395261b6eed71bb279eaf4820bb", [
+   "1kb1/qemu.log"
+  ]],
+ ["1kb1/qemu.stderr.nuonl", container, 238,    "591d56e3ee79544f7e0722e8f9c1a935e3176783a9d1868ef082350cbe806d1c", [
+   "1kb1/qemu.stderr"
+  ]],
+ ["1kb1/qemu.stdout.nuonl", container, 238,    "5c49f98e7d6b1c5f483497a5e66ebb6d18f866f8b3aede5ea34c6f347ac52132", [
+   "1kb1/qemu.stdout"
+  ]],
+ ["1kb1/run.nuon",          raw,       3398,   "e72bec751d49fcfe0d8f0630a7ca35e59d526a38dcaf7d4965220b577be98682", [
+   "1kb1/run.nuon"
+  ]],
+ ["1kb1/serial.log.nuonl",  container, 230,    "93ab469f75fe88ff19c7bbbc96115a25aa63dd44c4b7944db52a1f7d5c7a178a", [
+   "1kb1/serial.log"
+  ]]
+]

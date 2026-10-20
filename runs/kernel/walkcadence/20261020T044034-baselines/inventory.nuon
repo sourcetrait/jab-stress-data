@@ -1,0 +1,21 @@
+[
+ [path,                 role,   length, "sha256",                                                           disposition, reason];
+ ["1ka1.guest.nuon",    record, 1816,   "fb3bc3cb6840c857a03dc3696794719ae6e2fdf39190d8cbcfce0c619e3644b7", kept,        ""],
+ ["1ka1/api.out",       stream, 577712, "7140aaaf09ad30d2a3f72225038557b0ef07ff34c072ce76ec6d7270c7dc4c60", kept,        ""],
+ ["1ka1/identity.nuon", record, 1885,   "e162c2352898d3416140df0b6c8b8e92eb80eb70c4617c4778374844eaa11a69", kept,        ""],
+ ["1ka1/launch.nuon",   record, 1004,   "558b2905800d39ebe94ed06fb711764c1cdd866567406e6b2db5e6d9c0555215", kept,        ""],
+ ["1ka1/qemu.log",      log,    0,      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", kept,        ""],
+ ["1ka1/qemu.stderr",   log,    0,      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", kept,        ""],
+ ["1ka1/qemu.stdout",   log,    0,      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", kept,        ""],
+ ["1ka1/run.nuon",      record, 3397,   "61f03167be7c5e6c316bac0f960a4e7d8b8cae8727097bff2a3060c091923433", kept,        ""],
+ ["1ka1/serial.log",    log,    0,      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", kept,        ""],
+ ["1kb1.guest.nuon",    record, 1829,   "fa174658a33e6342685d091243aa419e84af8924c7fdf7c889a8fe9e0cf19f18", kept,        ""],
+ ["1kb1/api.out",       stream, 577712, "19cb40354f9e4bf35a8c9e33b4761f1387472ececf17aa6362ed9b710f077e01", kept,        ""],
+ ["1kb1/identity.nuon", record, 1885,   "dd08a58bfa6ef6b566529ec13510c401aa3af12cd2f9b60f16cd1c8fbc55c75c", kept,        ""],
+ ["1kb1/launch.nuon",   record, 1004,   "d2f05ecd802dd21498ca4a2b84229a86be1375c2719e92026186b0b4353ca3df", kept,        ""],
+ ["1kb1/qemu.log",      log,    0,      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", kept,        ""],
+ ["1kb1/qemu.stderr",   log,    0,      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", kept,        ""],
+ ["1kb1/qemu.stdout",   log,    0,      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", kept,        ""],
+ ["1kb1/run.nuon",      record, 3398,   "e72bec751d49fcfe0d8f0630a7ca35e59d526a38dcaf7d4965220b577be98682", kept,        ""],
+ ["1kb1/serial.log",    log,    0,      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", kept,        ""]
+]

@@ -1,0 +1,44 @@
+{
+ schema: 2,
+ set: walkcadence,
+ stamp: "20261020T044034-baselines",
+ task: PresentationScope,
+ scope: {
+  kind: targeted,
+  ran: 2,
+  of: 2,
+  names: [
+   "export_c804ccb-cadence on 1ka1",
+   "export_c804ccb-cadence on 1kb1"
+  ]
+ },
+ builds: [
+  [part,   build, source, record,               export];
+  ["1ka1", null,  export, "1ka1/identity.nuon", {
+    name: "export_c804ccb-cadence",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/kernel/export/20261020-baselines/export_c804ccb-cadence/release/provenance.nuon",
+    symbols: [
+     CADENCE
+    ],
+    "image_sha256": "ad2f50b1142e80e2b263a10e76e0d54a8ca69d25b74126546bda25b61bf6d7ff",
+    "kernel_sha256": "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b"
+   }],
+  ["1kb1", null,  export, "1kb1/identity.nuon", {
+    name: "export_c804ccb-cadence",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/kernel/export/20261020-baselines/export_c804ccb-cadence/release/provenance.nuon",
+    symbols: [
+     CADENCE
+    ],
+    "image_sha256": "ad2f50b1142e80e2b263a10e76e0d54a8ca69d25b74126546bda25b61bf6d7ff",
+    "kernel_sha256": "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b"
+   }]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "PresentationScope's frozen baseline for walk on both targets at FrameCeiling's fix pass, step 5, its image changed by jab 3cfef40's 90-period trail since e21c5ae's: export_c804ccb-cadence (walk's CADENCE image at jab c804ccb, the await order, TIMING off, image ad2f50b1) on the kernel export kexport_c804ccb (ELF c12d64ac), one unprobed run through walk's wrapper, example/walk/test/cadence.nu, on each target under the supervisor, the freeze's launcher, each read guest-only by jab-stress 983a8f1's walk.nu guest complete, valid, and deciding: 7,200 frames on 1KA1 and on 1KB1 over 120.01 s, ended by the duration, the frame interval's median 16.67 ms, no fault; each run's directory's regular files byte for byte, its pipes left behind, beside its guest reading; cited by the fps subiter's plan/agenda/FrameCeiling.md, The baselines."
+ },
+ inventory: "faa4dcd10d87fc32985c5d098ce2d3e5592e4126b37e233e3fc0199d1407b2a5",
+ storage: "7073acd6e87a9f669cfff20c277e10546ca9350c12156b276d2b0545e12d0766"
+}

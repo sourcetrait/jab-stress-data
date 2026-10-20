@@ -1,0 +1,42 @@
+{
+  "schedule_sha256": "7f83c5bbb989d926131836f2c797d45f200a59d9402da20590dcf58242f2a5a9",
+  receipt: {
+    token: "58b36b99e0796b1c",
+    outcome: {
+      token: "58b36b99e0796b1c",
+      decision: go,
+      go_utc: "2026-10-20T04:40:34.997218Z"
+    },
+    header: null,
+    actions: [
+      [kind, index, due_ns,    length, accepted, state,    first_ns,  done_ns,   whole_ns, whole];
+      [send, 0,     200000000, 16,     16,       complete, 201036654, 201049730, null,     null]
+    ],
+    held: null,
+    readings: [
+
+    ],
+    relays: [
+
+    ],
+    helpers: [
+
+    ],
+    end_ns: 122623350319,
+    cpu_seconds: 62.79,
+    qemu_pid: 1530171,
+    status: 0,
+    signal: null,
+    stdout: "/home/box/tmp/jab-stress/walkbase/1ka1/qemu.stdout",
+    stderr: "/home/box/tmp/jab-stress/walkbase/1ka1/qemu.stderr",
+    failure: null,
+    cancelled_ns: null,
+    startup_ns: 17792904,
+    clock: {
+      origin: go,
+      unit: ns,
+      go_utc: "2026-10-20T04:40:34.997218Z"
+    }
+  },
+  incomplete: null
+}
