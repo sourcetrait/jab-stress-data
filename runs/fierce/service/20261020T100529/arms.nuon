@@ -1,0 +1,50 @@
+{
+ reader: "SceneOwnership's four-hart arms",
+ source: "each batch log's run lines, the gauge's own report of its measurements: a run's whole-route critical path at its median and 95th",
+ runs: [
+  [batch,        run, median_ms, "p95_ms", workers];
+  ["service_1",  1,   12.0,      15.4,     "2, 3"],
+  ["service_1",  2,   11.7,      14.9,     "2, 3"],
+  ["service_1",  3,   11.8,      15.1,     "2, 3"],
+  ["none_1",     1,   10.8,      12.8,     "3"],
+  ["none_1",     2,   10.9,      13.0,     "3"],
+  ["none_1",     3,   10.5,      12.5,     "3"],
+  ["workers2_1", 1,   11.7,      15.0,     "2"],
+  ["workers2_1", 2,   11.9,      15.4,     "2"],
+  ["workers2_1", 3,   11.6,      14.8,     "2"],
+  ["workers2_2", 1,   12.2,      15.7,     "2"],
+  ["workers2_2", 2,   11.7,      15.0,     "2"],
+  ["workers2_2", 3,   11.6,      14.8,     "2"],
+  ["none_2",     1,   10.4,      12.2,     "3"],
+  ["none_2",     2,   10.5,      12.3,     "3"],
+  ["none_2",     3,   10.4,      12.6,     "3"],
+  ["service_2",  1,   11.8,      14.9,     "2, 3"],
+  ["service_2",  2,   11.9,      15.1,     "2, 3"],
+  ["service_2",  3,   11.6,      14.9,     "2, 3"]
+ ],
+ arms: [
+  [arm,        median_ms, "p95_ms", range_median_ms,     "range_p95_ms"];
+  [service,    11.8,      15.0,     0.40000000000000036, 0.5],
+  [none,       10.5,      12.55,    0.5,                 0.8000000000000007],
+  ["workers2", 11.7,      15.0,     0.5999999999999996,  0.8999999999999986]
+ ],
+ effects: [
+  [first,   second,     statistic, effect_ms, noise_ms, within];
+  [service, "workers2", median_ms, 0.1,       0.3,      true],
+  [service, "workers2", "p95_ms",  0.0,       0.45,     true],
+  [service, none,       median_ms, 1.3,       0.25,     false],
+  [service, none,       "p95_ms",  2.45,      0.4,      false]
+ ],
+ service_windows: [
+  [batch,       line];
+  ["service_1", "gauge:   run 1 service: window 1, frames 0 to 3303, a valid handoff: offered 6606, 2.0 a frame over 3303; applied 6606, dropped 0, rejected 0, discarded 0; quotas skipped 0; apply 5 us median, 255 us most; the oldest applied's age 16628 us median; held"],
+  ["service_1", "gauge:   run 2 service: window 1, frames 0 to 3309, a valid handoff: offered 6618, 2.0 a frame over 3309; applied 6618, dropped 0, rejected 0, discarded 0; quotas skipped 0; apply 5 us median, 237 us most; the oldest applied's age 16624 us median; held"],
+  ["service_1", "gauge:   run 3 service: window 1, frames 0 to 3306, a valid handoff: offered 6612, 2.0 a frame over 3306; applied 6612, dropped 0, rejected 0, discarded 0; quotas skipped 0; apply 5 us median, 65 us most; the oldest applied's age 16618 us median; held"],
+  ["service_2", "gauge:   run 1 service: window 1, frames 0 to 3308, a valid handoff: offered 6616, 2.0 a frame over 3308; applied 6616, dropped 0, rejected 0, discarded 0; quotas skipped 0; apply 5 us median, 65 us most; the oldest applied's age 16617 us median; held"],
+  ["service_2", "gauge:   run 2 service: window 1, frames 0 to 3308, a valid handoff: offered 6616, 2.0 a frame over 3308; applied 6616, dropped 0, rejected 0, discarded 0; quotas skipped 0; apply 5 us median, 272 us most; the oldest applied's age 16612 us median; held"],
+  ["service_2", "gauge:   run 3 service: window 1, frames 0 to 3307, a valid handoff: offered 6612, 2.0 a frame over 3307; applied 6612, dropped 0, rejected 0, discarded 0; quotas skipped 0; apply 5 us median, 272 us most; the oldest applied's age 16616 us median; held"]
+ ],
+ limits: [
+  "A run's statistic is its whole route's; an arm's the median of its six runs'; the noise half the larger arm's range; a diagnostic four-hart machine, its evidence the box's alone."
+ ]
+}

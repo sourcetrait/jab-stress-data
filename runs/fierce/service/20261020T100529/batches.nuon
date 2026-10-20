@@ -1,0 +1,125 @@
+[
+  [label,        words,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        env];
+  ["service_1",  [
+      --tree,
+      release,
+      --image,
+      "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_d4da911-service/kit/fierce/release/fierce.jab",
+      --kernel,
+      "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kernel/kexport_c804ccb/kernel/release/jab.elf",
+      --route,
+      "/home/box/proj/sourcetrait/jab/kit/fierce/nu/nuon/route/route_render_0.nuon",
+      --harts,
+      "4",
+      --runs,
+      "3",
+      --cpu,
+      --seeds,
+      "[1 2 3]",
+      --service,
+      "2"
+    ], [
+
+    ]],
+  ["none_1",     [
+      --tree,
+      release,
+      --image,
+      "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_d4da911-service/kit/fierce/release/fierce.jab",
+      --kernel,
+      "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kernel/kexport_c804ccb/kernel/release/jab.elf",
+      --route,
+      "/home/box/proj/sourcetrait/jab/kit/fierce/nu/nuon/route/route_render_0.nuon",
+      --harts,
+      "4",
+      --runs,
+      "3",
+      --cpu,
+      --seeds,
+      "[1 2 3]"
+    ],                             [
+
+    ]],
+  ["workers2_1", [
+      --tree,
+      release,
+      --image,
+      "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_d4da911-service/kit/fierce/release/fierce.jab",
+      --kernel,
+      "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kernel/kexport_c804ccb/kernel/release/jab.elf",
+      --route,
+      "/home/box/proj/sourcetrait/jab/kit/fierce/nu/nuon/route/route_render_0.nuon",
+      --harts,
+      "4",
+      --runs,
+      "3",
+      --cpu,
+      --seeds,
+      "[1 2 3]",
+      --workers,
+      "2"
+    ], [
+
+    ]],
+  ["workers2_2", [
+      --tree,
+      release,
+      --image,
+      "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_d4da911-service/kit/fierce/release/fierce.jab",
+      --kernel,
+      "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kernel/kexport_c804ccb/kernel/release/jab.elf",
+      --route,
+      "/home/box/proj/sourcetrait/jab/kit/fierce/nu/nuon/route/route_render_0.nuon",
+      --harts,
+      "4",
+      --runs,
+      "3",
+      --cpu,
+      --seeds,
+      "[3 2 1]",
+      --workers,
+      "2"
+    ], [
+
+    ]],
+  ["none_2",     [
+      --tree,
+      release,
+      --image,
+      "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_d4da911-service/kit/fierce/release/fierce.jab",
+      --kernel,
+      "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kernel/kexport_c804ccb/kernel/release/jab.elf",
+      --route,
+      "/home/box/proj/sourcetrait/jab/kit/fierce/nu/nuon/route/route_render_0.nuon",
+      --harts,
+      "4",
+      --runs,
+      "3",
+      --cpu,
+      --seeds,
+      "[3 2 1]"
+    ],                             [
+
+    ]],
+  ["service_2",  [
+      --tree,
+      release,
+      --image,
+      "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_d4da911-service/kit/fierce/release/fierce.jab",
+      --kernel,
+      "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kernel/kexport_c804ccb/kernel/release/jab.elf",
+      --route,
+      "/home/box/proj/sourcetrait/jab/kit/fierce/nu/nuon/route/route_render_0.nuon",
+      --harts,
+      "4",
+      --runs,
+      "3",
+      --cpu,
+      --seeds,
+      "[3 2 1]",
+      --service,
+      "2"
+    ], [
+
+    ]]
+]
