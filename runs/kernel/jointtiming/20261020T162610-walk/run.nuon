@@ -1,0 +1,240 @@
+{
+ schema: 2,
+ set: jointtiming,
+ stamp: "20261020T162610-walk",
+ task: JointTiming,
+ scope: {
+  kind: whole,
+  ran: 60,
+  of: 60
+ },
+ builds: [
+  [part,                    build, source, record,                                      export];
+  ["p0_await_on_1ka1_1",    null,  export, "p0_await_on_1ka1_1/run_1/identity.nuon",    {
+    name: "export_c804ccb-cadence-timing",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/kernel/export/20261020-baselines/export_c804ccb-cadence-timing/release/provenance.nuon",
+    symbols: [
+     CADENCE,
+     TIMING
+    ],
+    "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+    "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec"
+   }],
+  ["p2_await_on_1ka1_1",    null,  export, "p2_await_on_1ka1_1/run_1/identity.nuon",    {
+    name: "export_c804ccb-cadence-timing",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/kernel/export/20261020-baselines/export_c804ccb-cadence-timing/release/provenance.nuon",
+    symbols: [
+     CADENCE,
+     TIMING
+    ],
+    "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+    "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c"
+   }],
+  ["p2_prepare_on_1ka1_1",  null,  export, "p2_prepare_on_1ka1_1/run_1/identity.nuon",  {
+    name: "export_c804ccb-cadence-prepare-timing",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/kernel/export/20261020-baselines/export_c804ccb-cadence-prepare-timing/release/provenance.nuon",
+    symbols: [
+     CADENCE,
+     PREPARE,
+     TIMING
+    ],
+    "image_sha256": "088eff5d5cd15ce91acf8b48ab0d2cb43a27a8839e642b0e88588acd101e2f0d",
+    "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c"
+   }],
+  ["p0_await_off_1ka1_1",   null,  export, "p0_await_off_1ka1_1/run_1/identity.nuon",   {
+    name: "export_c804ccb-cadence",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/kernel/export/20261020-baselines/export_c804ccb-cadence/release/provenance.nuon",
+    symbols: [
+     CADENCE
+    ],
+    "image_sha256": "ad2f50b1142e80e2b263a10e76e0d54a8ca69d25b74126546bda25b61bf6d7ff",
+    "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec"
+   }],
+  ["p2_prepare_off_1ka1_1", null,  export, "p2_prepare_off_1ka1_1/run_1/identity.nuon", {
+    name: "export_c804ccb-cadence-prepare",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/kernel/export/20261020-baselines/export_c804ccb-cadence-prepare/release/provenance.nuon",
+    symbols: [
+     CADENCE,
+     PREPARE
+    ],
+    "image_sha256": "32b2dcd195e392aada13943589af2a1c58c5fc7a0bfe56a87ec8dde600bdab3f",
+    "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c"
+   }],
+  ["p2_prepare_off_1ka1_2", null,  export, "p2_prepare_off_1ka1_2/run_1/identity.nuon", {
+    name: "export_c804ccb-cadence-prepare",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/kernel/export/20261020-baselines/export_c804ccb-cadence-prepare/release/provenance.nuon",
+    symbols: [
+     CADENCE,
+     PREPARE
+    ],
+    "image_sha256": "32b2dcd195e392aada13943589af2a1c58c5fc7a0bfe56a87ec8dde600bdab3f",
+    "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c"
+   }],
+  ["p0_await_off_1ka1_2",   null,  export, "p0_await_off_1ka1_2/run_1/identity.nuon",   {
+    name: "export_c804ccb-cadence",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/kernel/export/20261020-baselines/export_c804ccb-cadence/release/provenance.nuon",
+    symbols: [
+     CADENCE
+    ],
+    "image_sha256": "ad2f50b1142e80e2b263a10e76e0d54a8ca69d25b74126546bda25b61bf6d7ff",
+    "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec"
+   }],
+  ["p2_prepare_on_1ka1_2",  null,  export, "p2_prepare_on_1ka1_2/run_1/identity.nuon",  {
+    name: "export_c804ccb-cadence-prepare-timing",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/kernel/export/20261020-baselines/export_c804ccb-cadence-prepare-timing/release/provenance.nuon",
+    symbols: [
+     CADENCE,
+     PREPARE,
+     TIMING
+    ],
+    "image_sha256": "088eff5d5cd15ce91acf8b48ab0d2cb43a27a8839e642b0e88588acd101e2f0d",
+    "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c"
+   }],
+  ["p2_await_on_1ka1_2",    null,  export, "p2_await_on_1ka1_2/run_1/identity.nuon",    {
+    name: "export_c804ccb-cadence-timing",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/kernel/export/20261020-baselines/export_c804ccb-cadence-timing/release/provenance.nuon",
+    symbols: [
+     CADENCE,
+     TIMING
+    ],
+    "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+    "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c"
+   }],
+  ["p0_await_on_1ka1_2",    null,  export, "p0_await_on_1ka1_2/run_1/identity.nuon",    {
+    name: "export_c804ccb-cadence-timing",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/kernel/export/20261020-baselines/export_c804ccb-cadence-timing/release/provenance.nuon",
+    symbols: [
+     CADENCE,
+     TIMING
+    ],
+    "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+    "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec"
+   }],
+  ["p0_await_on_1kb1_1",    null,  export, "p0_await_on_1kb1_1/run_1/identity.nuon",    {
+    name: "export_c804ccb-cadence-timing",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/kernel/export/20261020-baselines/export_c804ccb-cadence-timing/release/provenance.nuon",
+    symbols: [
+     CADENCE,
+     TIMING
+    ],
+    "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+    "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec"
+   }],
+  ["p2_await_on_1kb1_1",    null,  export, "p2_await_on_1kb1_1/run_1/identity.nuon",    {
+    name: "export_c804ccb-cadence-timing",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/kernel/export/20261020-baselines/export_c804ccb-cadence-timing/release/provenance.nuon",
+    symbols: [
+     CADENCE,
+     TIMING
+    ],
+    "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+    "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c"
+   }],
+  ["p2_prepare_on_1kb1_1",  null,  export, "p2_prepare_on_1kb1_1/run_1/identity.nuon",  {
+    name: "export_c804ccb-cadence-prepare-timing",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/kernel/export/20261020-baselines/export_c804ccb-cadence-prepare-timing/release/provenance.nuon",
+    symbols: [
+     CADENCE,
+     PREPARE,
+     TIMING
+    ],
+    "image_sha256": "088eff5d5cd15ce91acf8b48ab0d2cb43a27a8839e642b0e88588acd101e2f0d",
+    "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c"
+   }],
+  ["p0_await_off_1kb1_1",   null,  export, "p0_await_off_1kb1_1/run_1/identity.nuon",   {
+    name: "export_c804ccb-cadence",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/kernel/export/20261020-baselines/export_c804ccb-cadence/release/provenance.nuon",
+    symbols: [
+     CADENCE
+    ],
+    "image_sha256": "ad2f50b1142e80e2b263a10e76e0d54a8ca69d25b74126546bda25b61bf6d7ff",
+    "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec"
+   }],
+  ["p2_prepare_off_1kb1_1", null,  export, "p2_prepare_off_1kb1_1/run_1/identity.nuon", {
+    name: "export_c804ccb-cadence-prepare",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/kernel/export/20261020-baselines/export_c804ccb-cadence-prepare/release/provenance.nuon",
+    symbols: [
+     CADENCE,
+     PREPARE
+    ],
+    "image_sha256": "32b2dcd195e392aada13943589af2a1c58c5fc7a0bfe56a87ec8dde600bdab3f",
+    "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c"
+   }],
+  ["p2_prepare_off_1kb1_2", null,  export, "p2_prepare_off_1kb1_2/run_1/identity.nuon", {
+    name: "export_c804ccb-cadence-prepare",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/kernel/export/20261020-baselines/export_c804ccb-cadence-prepare/release/provenance.nuon",
+    symbols: [
+     CADENCE,
+     PREPARE
+    ],
+    "image_sha256": "32b2dcd195e392aada13943589af2a1c58c5fc7a0bfe56a87ec8dde600bdab3f",
+    "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c"
+   }],
+  ["p0_await_off_1kb1_2",   null,  export, "p0_await_off_1kb1_2/run_1/identity.nuon",   {
+    name: "export_c804ccb-cadence",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/kernel/export/20261020-baselines/export_c804ccb-cadence/release/provenance.nuon",
+    symbols: [
+     CADENCE
+    ],
+    "image_sha256": "ad2f50b1142e80e2b263a10e76e0d54a8ca69d25b74126546bda25b61bf6d7ff",
+    "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec"
+   }],
+  ["p2_prepare_on_1kb1_2",  null,  export, "p2_prepare_on_1kb1_2/run_1/identity.nuon",  {
+    name: "export_c804ccb-cadence-prepare-timing",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/kernel/export/20261020-baselines/export_c804ccb-cadence-prepare-timing/release/provenance.nuon",
+    symbols: [
+     CADENCE,
+     PREPARE,
+     TIMING
+    ],
+    "image_sha256": "088eff5d5cd15ce91acf8b48ab0d2cb43a27a8839e642b0e88588acd101e2f0d",
+    "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c"
+   }],
+  ["p2_await_on_1kb1_2",    null,  export, "p2_await_on_1kb1_2/run_1/identity.nuon",    {
+    name: "export_c804ccb-cadence-timing",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/kernel/export/20261020-baselines/export_c804ccb-cadence-timing/release/provenance.nuon",
+    symbols: [
+     CADENCE,
+     TIMING
+    ],
+    "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+    "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c"
+   }],
+  ["p0_await_on_1kb1_2",    null,  export, "p0_await_on_1kb1_2/run_1/identity.nuon",    {
+    name: "export_c804ccb-cadence-timing",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/kernel/export/20261020-baselines/export_c804ccb-cadence-timing/release/provenance.nuon",
+    symbols: [
+     CADENCE,
+     TIMING
+    ],
+    "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+    "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec"
+   }]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "JointTiming's walk battery, the comparison's step 4 on the box: walk's four CADENCE exports at jab c804ccb (CADENCE ad2f50b1, with TIMING 1e1388b0, with PREPARE 32b2dcd1, with PREPARE and TIMING 088eff5d, landed in runs/kernel/export/20261020-baselines) on P0's and P2's kernels exported at jab 73660a8 (landed as runs/kernel/export/20261020-jointtiming), headless and unprobed through walk's wrapper, through jab-stress's walk_battery runner from 16:26 to 18:29: twenty batches of three runs at walk's fixed seed, each target's on conditions in arm order, P0 await, P2 await, P2 prepare, then the off conditions, P0 await and P2 prepare, the off reversed, and the on reversed, 1KA1 then 1KB1, six runs a condition. Read guest-only by the timing selector's readings assembler at jab-stress 1e956e7 over jab 8807a33: all 60 valid and deciding at eps 3,700; P0 await's K violations 6,983 to 7,188 a run and P2's none in either order; the presented interval's median 16.66 to 16.69 ms for P0 await and P2 prepare, TIMING on or off, and 27.3 to 28.7 ms for P2 await, the await order's P + w + D; its 95th 17.9 to 20.1 ms for P0 await, 16.73 to 16.79 ms for P2 prepare, and 30.1 to 30.9 ms for P2 await; the TIMING control passing for P2 prepare and failing for P0 await on both targets, so P0 await's phases read instrumented-only. The batches' runs archived; the exports' provenance in their landed runs. Decided with the other batteries by runs/kernel/jointtiming/20261020T211529-decision. Cited by the kernel subiter's plan/agenda/FourHarts/PresentationContract/JointTiming.md."
+ },
+ inventory: "a7da5b03d686ef412131d7339f72deb2183ac4d2320d8add00532e46750a94f5",
+ storage: "bc2cbf95528b9bfae2b1bbf748f5bea7a1b7a0ee8768050b19a089fd6fddca61"
+}
