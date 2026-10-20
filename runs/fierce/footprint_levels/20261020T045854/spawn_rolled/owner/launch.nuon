@@ -1,0 +1,49 @@
+{
+  "schedule_sha256": "4d790d52eaa5326932a1387e9c32a9fafce7cf8db81328f38f6751d430c79ca4",
+  receipt: {
+    token: "62da05d1028c81b5",
+    outcome: {
+      token: "62da05d1028c81b5",
+      decision: go,
+      go_utc: "2026-10-20T05:12:12.521834Z"
+    },
+    header: null,
+    actions: [
+      [kind,   index, due_ns,     length, accepted, state,    first_ns,   done_ns,    whole_ns,   whole];
+      [send,   0,     200000000,  64,     64,       complete, 200624082,  200634380,  null,       null],
+      [send,   1,     200000000,  64,     64,       complete, 200634455,  200635670,  null,       null],
+      [send,   2,     1900000000, 64,     64,       complete, 1900745007, 1900751447, null,       null],
+      [send,   3,     2000000000, 64,     64,       complete, 2000840237, 2000851402, null,       null],
+      [send,   4,     8000000000, 64,     64,       complete, 8000917194, 8000924501, null,       null],
+      [screen, 0,     9000000000, 92,     92,       complete, 9001145482, 9001156821, 9052728570, true],
+      [send,   5,     9000000000, 64,     64,       complete, 9052728697, 9052732681, null,       null],
+      [send,   6,     9000000000, 64,     64,       complete, 9052732724, 9052733827, null,       null]
+    ],
+    held: null,
+    readings: [
+
+    ],
+    relays: [
+
+    ],
+    helpers: [
+
+    ],
+    end_ns: 11016470955,
+    cpu_seconds: 10.97,
+    qemu_pid: 1543304,
+    status: 124,
+    signal: null,
+    stdout: "/home/box/tmp/jab-stress/footprint/20261020T0458/spawn_rolled/owner/qemu.stdout",
+    stderr: "/home/box/tmp/jab-stress/footprint/20261020T0458/spawn_rolled/owner/qemu.stderr",
+    failure: null,
+    cancelled_ns: null,
+    startup_ns: 28010716,
+    clock: {
+      origin: go,
+      unit: ns,
+      go_utc: "2026-10-20T05:12:12.521834Z"
+    }
+  },
+  incomplete: null
+}

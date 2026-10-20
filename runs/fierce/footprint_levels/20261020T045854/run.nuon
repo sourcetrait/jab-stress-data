@@ -1,0 +1,112 @@
+{
+ schema: 2,
+ set: footprint_levels,
+ stamp: "20261020T045854",
+ task: FootprintEstimate,
+ scope: {
+  kind: whole,
+  ran: 19,
+  of: 19
+ },
+ builds: [
+  [part,                   build, source, record,                         export];
+  [picture,                null,  export, "images/footprint_images.nuon", {
+    name: "export_c804ccb_picture",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "images/picture/provenance.nuon",
+    symbols: [
+     DEBUG
+    ],
+    "image_sha256": "46aad6adc813bfde6cd40e715a1ea7d3e1aaa0771422ec78074549a3b36baf37",
+    "kernel_sha256": "3ce2cd7819bdff2aa10c3dbbcaa4a073d24cc6963851044bef70a603d3cd18fd"
+   }],
+  [picture_candidate,      null,  export, "images/footprint_images.nuon", {
+    name: "export_c804ccb_picture_candidate",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "images/picture_candidate/provenance.nuon",
+    symbols: [
+     DEBUG,
+     FOOTPRINT
+    ],
+    "image_sha256": "480235b4a20eebdd67cdcddc995074067395934f278447127e521b6126b0fd0e",
+    "kernel_sha256": "bdaa8fafbe0b93b04d80d6529d865cbd3bee75f68ea00e50641a20ed9bb89283"
+   }],
+  [owner,                  null,  export, "images/footprint_images.nuon", {
+    name: "export_c804ccb_owner",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "images/owner/provenance.nuon",
+    symbols: [
+     DEBUG,
+     OWNER
+    ],
+    "image_sha256": "185f05693fed394b5cb4383912e0de4125614c7391dea87906735535409f24f1",
+    "kernel_sha256": "a656b8fb0e495fb72b40c8360927863b5aad2ef6d9ee04ccea737fd302b3c625"
+   }],
+  [levels,                 null,  export, "images/footprint_images.nuon", {
+    name: "export_c804ccb_levels",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "images/levels/provenance.nuon",
+    symbols: [
+     DEBUG,
+     LEVELS
+    ],
+    "image_sha256": "499556fd18ce354f50b0a5e922c0ae90698348a8a58c855bb188f625c0c13c32",
+    "kernel_sha256": "de0c82c41d7f204866f29ccfcb2da4629ea10a437669f1df3b3745b17cd2cab3"
+   }],
+  [levels_candidate,       null,  export, "images/footprint_images.nuon", {
+    name: "export_c804ccb_levels_candidate",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "images/levels_candidate/provenance.nuon",
+    symbols: [
+     DEBUG,
+     FOOTPRINT,
+     LEVELS
+    ],
+    "image_sha256": "50ff3092ec4fd42c366a18fde4bd7275aad7c0178bf59bbfe99623b7a1bcd7a1",
+    "kernel_sha256": "39fb9a2f23c2e85cac09ef508b84d9e46fdb174241480a6ac2738f1b2c48a126"
+   }],
+  [owner_clamp,            null,  export, "images/footprint_images.nuon", {
+    name: "export_c804ccb_owner_clamp",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "images/owner_clamp/provenance.nuon",
+    symbols: [
+     DEBUG,
+     IZ_TEST,
+     OWNER
+    ],
+    "image_sha256": "fcb3aff1fd5b25d6d299a71854284554032fa5946bc10cc13bc9f6a235ddc6c0",
+    "kernel_sha256": "f96a72b68a91fa7f42c61f66021127162cdb7dd78114e7e0b659ea0352b002e2"
+   }],
+  [levels_clamp,           null,  export, "images/footprint_images.nuon", {
+    name: "export_c804ccb_levels_clamp",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "images/levels_clamp/provenance.nuon",
+    symbols: [
+     DEBUG,
+     IZ_TEST,
+     LEVELS
+    ],
+    "image_sha256": "b0732285aae2db223ea9876a6b1ab96ce1ec2950438e9776be0c7a0eb372c32d",
+    "kernel_sha256": "db66e99da365334da1432e87d682413204b08a6e49b3b9b1c832e178402b7af4"
+   }],
+  [levels_candidate_clamp, null,  export, "images/footprint_images.nuon", {
+    name: "export_c804ccb_levels_candidate_clamp",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "images/levels_candidate_clamp/provenance.nuon",
+    symbols: [
+     DEBUG,
+     FOOTPRINT,
+     IZ_TEST,
+     LEVELS
+    ],
+    "image_sha256": "c50462c49aaa178fa0c790f614b614cba10257565e10e532bd8010871bb542b9",
+    "kernel_sha256": "0b0d3305fe23cabda34a5e633ca69b34edf07de936c7decf138cceeb212c3cfc"
+   }]
+ ],
+ kept: {
+  as: current,
+  why: "the set's run at FrameCeiling's fix pass, step 5, its latest whole: the nineteen views of footprint.nuon, the seventeen with garage_far_clamp and android_near, on export_c804ccb's eight debug images at jab c804ccb, the fixing commit, the images' bytes 46f969b's and their kernels the fixing commit's, every view read by the population rule against the declared and the secant references, with the span tables, the clamped reference at IZ_TEST, and the actor fixture; each launch with a sound device on QEMU's none backend and nothing recorded (jab-stress bae8b8f); its screens, API streams, and launch logs archived here with the nine c804ccb exports, its block tables and android_near's crops derived by the footprint reader, its monitor echoes and the still copies' trees and disks kept as hashes (EvidenceRetention); cited by the fps subiter's plan/agenda/FrameCeiling.md"
+ },
+ inventory: "e0fa1d2e9eae5bef0b7a8b7d633910e5755e7c72a585ac69d4a09cf8df991767",
+ storage: "a8185dbbedfa932626bb76a7bafb6622e882ae7871d05b93a6ca0ee60ff0d323"
+}

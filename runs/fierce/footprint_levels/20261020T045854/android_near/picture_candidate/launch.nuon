@@ -1,0 +1,50 @@
+{
+  "schedule_sha256": "4cbe2c737f3167388f59580021f498cf8f878e930d5776adc9812ceb4334bceb",
+  receipt: {
+    token: "794a178ff1892997",
+    outcome: {
+      token: "794a178ff1892997",
+      decision: go,
+      go_utc: "2026-10-20T05:24:35.255172Z"
+    },
+    header: null,
+    actions: [
+      [kind,   index, due_ns,     length, accepted, state,    first_ns,   done_ns,    whole_ns,   whole];
+      [send,   0,     200000000,  64,     64,       complete, 201599388,  201609038,  null,       null],
+      [send,   1,     200000000,  64,     64,       complete, 201609097,  201610255,  null,       null],
+      [send,   2,     200000000,  64,     64,       complete, 201610372,  201611441,  null,       null],
+      [send,   3,     1900000000, 64,     64,       complete, 1900789661, 1900797768, null,       null],
+      [send,   4,     2000000000, 64,     64,       complete, 2001065526, 2001074941, null,       null],
+      [send,   5,     8000000000, 64,     64,       complete, 8001725122, 8001731413, null,       null],
+      [screen, 0,     9000000000, 104,    104,      complete, 9000565816, 9000577613, 9052303502, true],
+      [send,   6,     9000000000, 64,     64,       complete, 9052303796, 9052311676, null,       null],
+      [send,   7,     9000000000, 64,     64,       complete, 9052311723, 9052313055, null,       null]
+    ],
+    held: null,
+    readings: [
+
+    ],
+    relays: [
+
+    ],
+    helpers: [
+
+    ],
+    end_ns: 11015624720,
+    cpu_seconds: 11.03,
+    qemu_pid: 1546311,
+    status: 124,
+    signal: null,
+    stdout: "/home/box/tmp/jab-stress/footprint/20261020T0458/android_near/picture_candidate/qemu.stdout",
+    stderr: "/home/box/tmp/jab-stress/footprint/20261020T0458/android_near/picture_candidate/qemu.stderr",
+    failure: null,
+    cancelled_ns: null,
+    startup_ns: 29537357,
+    clock: {
+      origin: go,
+      unit: ns,
+      go_utc: "2026-10-20T05:24:35.255172Z"
+    }
+  },
+  incomplete: null
+}

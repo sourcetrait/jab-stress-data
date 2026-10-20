@@ -1,0 +1,1753 @@
+[
+ [object,                                                      kind,      length,   "sha256",                                                           holds];
+ ["android_near/levels/launch.nuon",                           raw,       1919,     "49dfbf4a09b0bd95c47b5138d9cd14a018de101e84bda0f935e0a133f830ea7f", [
+   "android_near/levels/launch.nuon"
+  ]],
+ ["android_near/levels/qemu.stderr.nuonl",                     container, 429,      "def37367121ac8252cdb458097b9fefe3c04d6dc46bb8abc3e2763c65919bcef", [
+   "android_near/levels/qemu.stderr"
+  ]],
+ ["android_near/levels/qemu.stdout.nuonl",                     container, 243,      "5e1f455070226ac5d4a6b30a8e93b7bb8859efbedded0120db4c207fe91d1014", [
+   "android_near/levels/qemu.stdout"
+  ]],
+ ["android_near/levels_candidate/launch.nuon",                 raw,       1939,     "c34b269657101fc322e79f7935bb5b7732b93f8cc59d6ecdb01c6d8c2f873e17", [
+   "android_near/levels_candidate/launch.nuon"
+  ]],
+ ["android_near/levels_candidate/qemu.stderr.nuonl",           container, 429,      "6e34398b21cfda41f92ba70738c064a0fc6821997e62f709e503599d20b548cb", [
+   "android_near/levels_candidate/qemu.stderr"
+  ]],
+ ["android_near/levels_candidate/qemu.stdout.nuonl",           container, 243,      "9c8a989e63b0f7e02600a5c55cc39a25d8075001778bd532a6de6d0f8eee2ce7", [
+   "android_near/levels_candidate/qemu.stdout"
+  ]],
+ ["android_near/owner/launch.nuon",                            raw,       1917,     "24dafb508f4d507c0811ecbcd26f99e28705e75de971f9b60347d3481127ae2f", [
+   "android_near/owner/launch.nuon"
+  ]],
+ ["android_near/owner/qemu.stderr.nuonl",                      container, 429,      "63c025326dc083f80645fb8ada80280ca234d0ea28336273e39c60e01a6a2585", [
+   "android_near/owner/qemu.stderr"
+  ]],
+ ["android_near/owner/qemu.stdout.nuonl",                      container, 243,      "a9e33f43443ed5f65e92777e2286143d98e7a226dc6cdb0ffcf96d214db138ea", [
+   "android_near/owner/qemu.stdout"
+  ]],
+ ["android_near/picture/launch.nuon",                          raw,       1920,     "76a391074c51d5d1be482c52696de3122125a4c74332b462f75b62c90b819b78", [
+   "android_near/picture/launch.nuon"
+  ]],
+ ["android_near/picture/qemu.stderr.nuonl",                    container, 429,      "b62f68b1befcf738da52330d9405fdf55a12151b098bc89e1fea9c3d4bb4c558", [
+   "android_near/picture/qemu.stderr"
+  ]],
+ ["android_near/picture/qemu.stdout.nuonl",                    container, 243,      "b7041e75c0ce6b12a654e4d81ef8723348a01f1826d794fb9d13e9579fded5d4", [
+   "android_near/picture/qemu.stdout"
+  ]],
+ ["android_near/picture_candidate/launch.nuon",                raw,       1941,     "a1eb4210bae8b79d2e846f60f600e459b8778066c388539fb226feeb8c3c347a", [
+   "android_near/picture_candidate/launch.nuon"
+  ]],
+ ["android_near/picture_candidate/qemu.stderr.nuonl",          container, 429,      "92aa0067a26a11489cd295c66064f877f3ec768d747bf7614dd241709ef5991c", [
+   "android_near/picture_candidate/qemu.stderr"
+  ]],
+ ["android_near/picture_candidate/qemu.stdout.nuonl",          container, 243,      "2267eb26b3c16b486c453378edb74318b81e34ceb24618e2604803cd53ecf3c7", [
+   "android_near/picture_candidate/qemu.stdout"
+  ]],
+ ["android_near/pose.nuon",                                    raw,       10414,    "2e62e8d8217ddd5d661e0bb65ef0e0e49a5c91070da6a5955d51aed8a3044841", [
+   "android_near/pose.nuon"
+  ]],
+ ["bay/levels/launch.nuon",                                    raw,       1796,     "19e4676ca8a3d92a2aceaa4270788f48773e7a824ff37197c51e5c8d65974b07", [
+   "bay/levels/launch.nuon"
+  ]],
+ ["bay/levels/qemu.stderr.nuonl",                              container, 429,      "79c87c1a634c78fd07026ada09ef080ade23b90f9b3b2f7ac068d044a45d7741", [
+   "bay/levels/qemu.stderr"
+  ]],
+ ["bay/levels/qemu.stdout.nuonl",                              container, 243,      "1749f1b92e02deb5ad28c30fb13f0921dbfc0616d23262717339b88ca3968455", [
+   "bay/levels/qemu.stdout"
+  ]],
+ ["bay/levels_candidate/launch.nuon",                          raw,       1816,     "68b8df68f8374763bd9d19b9ea90f29bd19bbc3f6d9568f330a6c690dab6ebae", [
+   "bay/levels_candidate/launch.nuon"
+  ]],
+ ["bay/levels_candidate/qemu.stderr.nuonl",                    container, 429,      "a3a1983c32623e1af4352407cb042c8a9a4b2e2f8214d937dbc30c862a102d28", [
+   "bay/levels_candidate/qemu.stderr"
+  ]],
+ ["bay/levels_candidate/qemu.stdout.nuonl",                    container, 243,      "a873ac9c4c7e2a4ecd60046f941bd13b3ef8b9321719aff926b5545a2654d674", [
+   "bay/levels_candidate/qemu.stdout"
+  ]],
+ ["bay/owner/launch.nuon",                                     raw,       1794,     "d650705f369cbefd250e461df2187d6861a2847339a7429e7e9ac33c8461916f", [
+   "bay/owner/launch.nuon"
+  ]],
+ ["bay/owner/qemu.stderr.nuonl",                               container, 429,      "a313a38436aaeb0f5b5282a0e101f73fbc2408770893638e483dacd8f3812faa", [
+   "bay/owner/qemu.stderr"
+  ]],
+ ["bay/owner/qemu.stdout.nuonl",                               container, 243,      "50138c3d6311e5556eac218a6838126e5bb0c963a34c87fc2d928d18694c3fc2", [
+   "bay/owner/qemu.stdout"
+  ]],
+ ["bay/picture/launch.nuon",                                   raw,       1797,     "c1da46b9dd9272c8642b77cb3ba863000a596683d135581cbfb982433c14d775", [
+   "bay/picture/launch.nuon"
+  ]],
+ ["bay/picture/qemu.stderr.nuonl",                             container, 429,      "3846b105f7fd132888a1daa5644e28fe218d6e55d82ef1b71ff3993a74ac090b", [
+   "bay/picture/qemu.stderr"
+  ]],
+ ["bay/picture/qemu.stdout.nuonl",                             container, 243,      "30cdfb64ea58bfa976b8f397f8b8d70d291496af78277af7a22a00e8f8ce5491", [
+   "bay/picture/qemu.stdout"
+  ]],
+ ["bay/picture_candidate/launch.nuon",                         raw,       1818,     "acab0658d60a5ad0198eb44111b6464788c5f47eb0a9c209d7d26ed9cc5de619", [
+   "bay/picture_candidate/launch.nuon"
+  ]],
+ ["bay/picture_candidate/qemu.stderr.nuonl",                   container, 429,      "b90c271baa56e75489fee52c615177bf1bb8a6eaa22ada505c914b809e7453c3", [
+   "bay/picture_candidate/qemu.stderr"
+  ]],
+ ["bay/picture_candidate/qemu.stdout.nuonl",                   container, 243,      "9877862de07872d6fbf1ef7984bb6f1728056d4c2e546c1b7e603a7466f9c98a", [
+   "bay/picture_candidate/qemu.stdout"
+  ]],
+ ["bay/pose.nuon",                                             raw,       8479,     "68c6927467fba460ec594e7cd3ef3f1d0f9713f8f61fa83f50c7b20eeab4f938", [
+   "bay/pose.nuon"
+  ]],
+ ["disk_render_0/disk.nuon",                                   raw,       420,      "b77a087ac44cb0e39144c1a9a24372daec956f9dd4ce59e22d8f135aeeaf3886", [
+   "disk_render_0/disk.nuon"
+  ]],
+ ["disk_render_0_bay_android_1/disk.nuon",                     raw,       502,      "51d2a962c5ee249b35f420535cf5cd30810c44b76f4ca5e2549e9310fc94e37b", [
+   "disk_render_0_bay_android_1/disk.nuon"
+  ]],
+ ["disk_render_1/disk.nuon",                                   raw,       420,      "ba8904b6d3ee17c7a5f85adbc88c8c4f94b716f66518545c9a0713f3ae304461", [
+   "disk_render_1/disk.nuon"
+  ]],
+ ["down/levels/launch.nuon",                                   raw,       1798,     "7b711e95a9b349b38385147c7e37548967cdc43c44e3094c0e8cccc647b50ac8", [
+   "down/levels/launch.nuon"
+  ]],
+ ["down/levels/qemu.stderr.nuonl",                             container, 429,      "bb3cc5f2364fc9f8841ff34b2bf3789f24098e9a90323c8d571d3b71b1c54af9", [
+   "down/levels/qemu.stderr"
+  ]],
+ ["down/levels/qemu.stdout.nuonl",                             container, 243,      "609b145787b8872530a422bfa97511c2ec83cdf6cdac19e8b0f1d83e76a5ecfd", [
+   "down/levels/qemu.stdout"
+  ]],
+ ["down/levels_candidate/launch.nuon",                         raw,       1818,     "6b32aa6b07f84ef7daf01fde6924fdf268aa5bddb94bec102632815cb0d62435", [
+   "down/levels_candidate/launch.nuon"
+  ]],
+ ["down/levels_candidate/qemu.stderr.nuonl",                   container, 429,      "e65784b5f06f19a0ec2f3f0aa594a426a009bcc190d076a3a71137577bcd9b8c", [
+   "down/levels_candidate/qemu.stderr"
+  ]],
+ ["down/levels_candidate/qemu.stdout.nuonl",                   container, 243,      "ad045941d30cb9243c8045b019c94aea24f8cccbbde40309df96d25465af810c", [
+   "down/levels_candidate/qemu.stdout"
+  ]],
+ ["down/owner/launch.nuon",                                    raw,       1796,     "e184342171283911b9d7f03ca81cc5df4a7c785ad7544f3c1603015469580910", [
+   "down/owner/launch.nuon"
+  ]],
+ ["down/owner/qemu.stderr.nuonl",                              container, 429,      "cdb687c227c52458ba3ffc4ed167b801b91fa72cd5f55e5b4864a7a5638c08e4", [
+   "down/owner/qemu.stderr"
+  ]],
+ ["down/owner/qemu.stdout.nuonl",                              container, 243,      "fc9bd34d6ee1e47837af9276183a35d9e99055c792753a9b5c0634ee74798519", [
+   "down/owner/qemu.stdout"
+  ]],
+ ["down/picture/launch.nuon",                                  raw,       1800,     "b7bd5a696a97ba0d415d2ac4740eb1935c5ed431201385873ab9a2140389aad8", [
+   "down/picture/launch.nuon"
+  ]],
+ ["down/picture/qemu.stderr.nuonl",                            container, 429,      "b86767ff5ab81e1fd17c3f3ecc7df09fe701bc2c572d0dc474d497d8cc0488c4", [
+   "down/picture/qemu.stderr"
+  ]],
+ ["down/picture/qemu.stdout.nuonl",                            container, 243,      "6aa7e8099cf24cf4733d90090a390f0df17a31aba1cdd9e9ccb1d9705d3abdbc", [
+   "down/picture/qemu.stdout"
+  ]],
+ ["down/picture_candidate/launch.nuon",                        raw,       1820,     "2593df4b4bfff52b2c11668d64d9b0a1c1ad2cbd3f9a3fa5d544c149adaa5b0c", [
+   "down/picture_candidate/launch.nuon"
+  ]],
+ ["down/picture_candidate/qemu.stderr.nuonl",                  container, 429,      "215f7781e610aaa79cf0c875854de3ef19328c78c7b6a3412efd626cd0907079", [
+   "down/picture_candidate/qemu.stderr"
+  ]],
+ ["down/picture_candidate/qemu.stdout.nuonl",                  container, 243,      "9d7133116729dbe1c3b16e1d9c8e100d1a6b67b97284deb94499f411a3070531", [
+   "down/picture_candidate/qemu.stdout"
+  ]],
+ ["down/pose.nuon",                                            raw,       6468,     "a8868d3027ab6be3e860fa5717bfd1a40de5f4171122d5597f9d75601b4a2097", [
+   "down/pose.nuon"
+  ]],
+ ["garage/levels/launch.nuon",                                 raw,       1802,     "b8d431f942071ddc1753da68b33a5a40b1c8d72d05f5d9304385839b6cb7adb8", [
+   "garage/levels/launch.nuon"
+  ]],
+ ["garage/levels/qemu.stderr.nuonl",                           container, 429,      "5ae3aa95dd5696999443f67f286795f29d7dce74343947a9b5db32a7c0cbb9a3", [
+   "garage/levels/qemu.stderr"
+  ]],
+ ["garage/levels/qemu.stdout.nuonl",                           container, 243,      "be6c401b35e2179208d97ff0fefdf0fa41a5fb5bde0cb1e9b1e231ee0c65266e", [
+   "garage/levels/qemu.stdout"
+  ]],
+ ["garage/levels_candidate/launch.nuon",                       raw,       1822,     "3ea23a0f1f99d8ef437addf380c80c965890b594cfc95d84f76f69611c140eeb", [
+   "garage/levels_candidate/launch.nuon"
+  ]],
+ ["garage/levels_candidate/qemu.stderr.nuonl",                 container, 429,      "1c841f6fed0fe87e735ae4924a5895a4babfaf633044f4590edc35d688565605", [
+   "garage/levels_candidate/qemu.stderr"
+  ]],
+ ["garage/levels_candidate/qemu.stdout.nuonl",                 container, 243,      "25f0c1bd4e808557eb87e02d7cdea6a0db0427a6357b075c46efcadccad69031", [
+   "garage/levels_candidate/qemu.stdout"
+  ]],
+ ["garage/owner/launch.nuon",                                  raw,       1800,     "8fc16cc756485c4ed728f76316b1048115ed9ccf34a3b67aec03af41c46de5a0", [
+   "garage/owner/launch.nuon"
+  ]],
+ ["garage/owner/qemu.stderr.nuonl",                            container, 429,      "ee04d0ad5b71a400ce8a22be5da413a8f42160bad382e3f787a0eeb20830804c", [
+   "garage/owner/qemu.stderr"
+  ]],
+ ["garage/owner/qemu.stdout.nuonl",                            container, 243,      "0d78d3364ad654b2da24ba3614d612d38ac709b850fe40854c99a6c5c65ed30e", [
+   "garage/owner/qemu.stdout"
+  ]],
+ ["garage/picture/launch.nuon",                                raw,       1804,     "4b6491829ab7499b78d021416b4e807f93c6652f98343997c593a77ba7bfbb62", [
+   "garage/picture/launch.nuon"
+  ]],
+ ["garage/picture/qemu.stderr.nuonl",                          container, 429,      "6caeb0c228865034079643215349b722eb4d62791afdcac726459efd2d80c1d7", [
+   "garage/picture/qemu.stderr"
+  ]],
+ ["garage/picture/qemu.stdout.nuonl",                          container, 243,      "bb7d338c4afaf908905125b5d84d282ee711be5a23e79febbc194699af527d9b", [
+   "garage/picture/qemu.stdout"
+  ]],
+ ["garage/picture_candidate/launch.nuon",                      raw,       1824,     "6b58b46c4dbdc72d07e5d794d5f85737f9db52282c8aab03830f2663a11e7f3d", [
+   "garage/picture_candidate/launch.nuon"
+  ]],
+ ["garage/picture_candidate/qemu.stderr.nuonl",                container, 429,      "24bda3eb2b6221da9a649d71b78b6306518a648559a03877b0326ee2e8dc2a0d", [
+   "garage/picture_candidate/qemu.stderr"
+  ]],
+ ["garage/picture_candidate/qemu.stdout.nuonl",                container, 243,      "281475488f42fb4f56eb31254740b995d9b5e8876d5cc88388ec4e6126d75fd9", [
+   "garage/picture_candidate/qemu.stdout"
+  ]],
+ ["garage/pose.nuon",                                          raw,       7664,     "f3c67080d37135a6fbad95706d7ad9901c28c3a5164395b8b5ec3f54ec9e303a", [
+   "garage/pose.nuon"
+  ]],
+ ["garage_far/levels/launch.nuon",                             raw,       1810,     "93b68cfcae0b8a932f017de6e30bcc136f2aea6643c88f996b794d91556e30e0", [
+   "garage_far/levels/launch.nuon"
+  ]],
+ ["garage_far/levels/qemu.stderr.nuonl",                       container, 429,      "ca2e27812f1d86a921ff858fc42245d7e77698ad28703873803accdbf99ed1fb", [
+   "garage_far/levels/qemu.stderr"
+  ]],
+ ["garage_far/levels/qemu.stdout.nuonl",                       container, 243,      "c1557b5994f1ecb454ed155548724537ce2c0e6964ff6ae67b795ae9bae18d8f", [
+   "garage_far/levels/qemu.stdout"
+  ]],
+ ["garage_far/levels_candidate/launch.nuon",                   raw,       1830,     "13d395facaa415c71559e921a21e056431c400d041f5568f9bc8a87403813322", [
+   "garage_far/levels_candidate/launch.nuon"
+  ]],
+ ["garage_far/levels_candidate/qemu.stderr.nuonl",             container, 429,      "7faf498f16b1a24dfeeb37c909b7128cb370ebc2b6e738062c53db14bcd49c76", [
+   "garage_far/levels_candidate/qemu.stderr"
+  ]],
+ ["garage_far/levels_candidate/qemu.stdout.nuonl",             container, 243,      "180e5947b89ec8a40bca009958e3b805b9c288ee5f999539aa03d3b7850e364c", [
+   "garage_far/levels_candidate/qemu.stdout"
+  ]],
+ ["garage_far/owner/launch.nuon",                              raw,       1808,     "6eba28209fd12b5a4f501133838906bfdfd235471b228409e7f41003a5e48aec", [
+   "garage_far/owner/launch.nuon"
+  ]],
+ ["garage_far/owner/qemu.stderr.nuonl",                        container, 429,      "1024bd658d014592df3b06af3804d3ece78b5ff991532492b054ed04e4af6b08", [
+   "garage_far/owner/qemu.stderr"
+  ]],
+ ["garage_far/owner/qemu.stdout.nuonl",                        container, 243,      "96f23ba860c7290434d520229eee6146422520b5579acb119c4be327639d0771", [
+   "garage_far/owner/qemu.stdout"
+  ]],
+ ["garage_far/picture/launch.nuon",                            raw,       1812,     "1f976e55b7ccc808bfc7a8d7fd145c6646054e46012893e8626bbe13a9d36c65", [
+   "garage_far/picture/launch.nuon"
+  ]],
+ ["garage_far/picture/qemu.stderr.nuonl",                      container, 429,      "0b65ca73b45a27c30c6229634a850d842bbc711d263ea36cf41854e7a6d5e258", [
+   "garage_far/picture/qemu.stderr"
+  ]],
+ ["garage_far/picture/qemu.stdout.nuonl",                      container, 243,      "6ff180efcc8c230b32a05791d5db52008f8e1d3f808c7d497993d5f2d5943b02", [
+   "garage_far/picture/qemu.stdout"
+  ]],
+ ["garage_far/picture_candidate/launch.nuon",                  raw,       1832,     "f31ea8239ea95bec5a5e7973f5bdad66568c0d2c5ddac362b1fa5c964a2a09f0", [
+   "garage_far/picture_candidate/launch.nuon"
+  ]],
+ ["garage_far/picture_candidate/qemu.stderr.nuonl",            container, 429,      "523c1a83a9e4b7ca23b6e039bdc38798d1563795431ccaed9d7c52f09e60beb2", [
+   "garage_far/picture_candidate/qemu.stderr"
+  ]],
+ ["garage_far/picture_candidate/qemu.stdout.nuonl",            container, 243,      "5ff7e5eeef3560486280bd66efdb2b0916bc392a7e1fde5060422743807533f4", [
+   "garage_far/picture_candidate/qemu.stdout"
+  ]],
+ ["garage_far/pose.nuon",                                      raw,       8284,     "871a6c82e69550a619b1a070d166feffa94b0a313f6e133868e753d88ca78fd1", [
+   "garage_far/pose.nuon"
+  ]],
+ ["garage_far_clamp/levels_candidate_clamp/launch.nuon",       raw,       1854,     "7c2ccb823c8830f67d76e037dddc294ce3d16d08857002cd5035c513ce50a52f", [
+   "garage_far_clamp/levels_candidate_clamp/launch.nuon"
+  ]],
+ ["garage_far_clamp/levels_candidate_clamp/qemu.stderr.nuonl", container, 429,      "aa843ba572a6a7ba7a71137f6939f8c71ba2d4a9b5f49d6a9736493d875eaabc", [
+   "garage_far_clamp/levels_candidate_clamp/qemu.stderr"
+  ]],
+ ["garage_far_clamp/levels_candidate_clamp/qemu.stdout.nuonl", container, 243,      "52265f2ce4f94caf2854ab3cb4e13751b495ed3fa841f6887fda8de802b855ef", [
+   "garage_far_clamp/levels_candidate_clamp/qemu.stdout"
+  ]],
+ ["garage_far_clamp/levels_clamp/launch.nuon",                 raw,       1834,     "a84c216bdea60ee0100601900256e4c3885c181664eaeaf3106ea81f6f91b2a8", [
+   "garage_far_clamp/levels_clamp/launch.nuon"
+  ]],
+ ["garage_far_clamp/levels_clamp/qemu.stderr.nuonl",           container, 429,      "499817d69c7b54f35e747230d14dd90142885163420b86e206c6abc7f7d818fa", [
+   "garage_far_clamp/levels_clamp/qemu.stderr"
+  ]],
+ ["garage_far_clamp/levels_clamp/qemu.stdout.nuonl",           container, 243,      "3f5232cc119bc4806b9d0695c941e2946e7bfd337c9e5c88ab8c95b77303a146", [
+   "garage_far_clamp/levels_clamp/qemu.stdout"
+  ]],
+ ["garage_far_clamp/owner_clamp/launch.nuon",                  raw,       1832,     "e0fa26088a12dc0332cde4c4cdd0f69511f8fb848c94e57027fbc0cc061eec02", [
+   "garage_far_clamp/owner_clamp/launch.nuon"
+  ]],
+ ["garage_far_clamp/owner_clamp/qemu.stderr.nuonl",            container, 429,      "08e742bfbb704e1926fc110cd5ca188b9753ac05fda95bfe900cd9df9232a88d", [
+   "garage_far_clamp/owner_clamp/qemu.stderr"
+  ]],
+ ["garage_far_clamp/owner_clamp/qemu.stdout.nuonl",            container, 243,      "340bc36cb44707b0a41ff2fbd0194071783f430257faaf4065d6eacb06539c05", [
+   "garage_far_clamp/owner_clamp/qemu.stdout"
+  ]],
+ ["garage_far_clamp/pose.nuon",                                raw,       5132,     "1bb8b2618d3cf20c165a783da38239187aeeea3cdfdb792fbbbd4181cb555807", [
+   "garage_far_clamp/pose.nuon"
+  ]],
+ ["images/footprint_images.nuon",                              raw,       9795,     "8be60962343efac1941a306a457a0c52a96a0b0272de4ecf6b55d99639bf8710", [
+   "images/footprint_images.nuon"
+  ]],
+ ["images/levels/provenance.nuon",                             raw,       2048,     "a38008a143ed218edf98f77e527e4866e7f11aecb217db48a95bad18813fbc68", [
+   "images/levels/provenance.nuon"
+  ]],
+ ["images/levels_candidate/provenance.nuon",                   raw,       2094,     "d7494f70ad4df729b1381b88a8039f12ac742c09fb5e46e7598a8c391d3d82a7", [
+   "images/levels_candidate/provenance.nuon"
+  ]],
+ ["images/levels_candidate_clamp/provenance.nuon",             raw,       2132,     "6b38a0972ed906bc6791faa529b5ec47f93beecc0805e40ee54b43e9820fd870", [
+   "images/levels_candidate_clamp/provenance.nuon"
+  ]],
+ ["images/levels_clamp/provenance.nuon",                       raw,       2086,     "57c2ad001b78b7eeaf9bb6642157bc62657a80dec7c4462d70569e8fdcecb22d", [
+   "images/levels_clamp/provenance.nuon"
+  ]],
+ ["images/owner/provenance.nuon",                              raw,       2045,     "4aa96d7b02c70770e788bae254f18920e017ed6fe0d8c4b6a9fb374ff7870f9b", [
+   "images/owner/provenance.nuon"
+  ]],
+ ["images/owner_clamp/provenance.nuon",                        raw,       2083,     "47d2991d70253445e8d412d1c1e94d6e2aa0a9532b222d5f850ea97e3f4657d3", [
+   "images/owner_clamp/provenance.nuon"
+  ]],
+ ["images/picture/provenance.nuon",                            raw,       2019,     "5ce91bdc68d76461d5b1dd055ad30383c85c01a968fc45e203625d197374c268", [
+   "images/picture/provenance.nuon"
+  ]],
+ ["images/picture_candidate/provenance.nuon",                  raw,       2065,     "d80aab824c9eb1e7a9fef124b7f7a439aad4777231df49d309f53174c5eab6bb", [
+   "images/picture_candidate/provenance.nuon"
+  ]],
+ ["r1_door/levels/launch.nuon",                                raw,       1804,     "142950e2a1081a031a7c03ef246f7b8b0df2ec88eeef7295a04814722bee7eb9", [
+   "r1_door/levels/launch.nuon"
+  ]],
+ ["r1_door/levels/qemu.stderr.nuonl",                          container, 429,      "dfeca8f6a393fb7d7adb1f4ee0b83113ffa250ee7dd18408ee086d0ec3979631", [
+   "r1_door/levels/qemu.stderr"
+  ]],
+ ["r1_door/levels/qemu.stdout.nuonl",                          container, 243,      "c325795c3f5ae8e9b831a7432fd5cc3d00eb5f0c5eb4ed765cb56dafcb47a389", [
+   "r1_door/levels/qemu.stdout"
+  ]],
+ ["r1_door/levels_candidate/launch.nuon",                      raw,       1824,     "9957bf23bc0e9d0f235480daf17dbc1e7f4cb5eb66c60a355e5187a2a62366cd", [
+   "r1_door/levels_candidate/launch.nuon"
+  ]],
+ ["r1_door/levels_candidate/qemu.stderr.nuonl",                container, 429,      "f485a2225750f36523ff2d6cc617c4b72e042c1035ff61aa2a9fecc5f328c678", [
+   "r1_door/levels_candidate/qemu.stderr"
+  ]],
+ ["r1_door/levels_candidate/qemu.stdout.nuonl",                container, 243,      "8e937a7b0a69fb147bef2c8ad546479c0cc9c73ba562bcd8b426efd33be72772", [
+   "r1_door/levels_candidate/qemu.stdout"
+  ]],
+ ["r1_door/owner/launch.nuon",                                 raw,       1802,     "ec0cd1122f22bb894e4e72be9fa3ee23d8b8a5292308fa07f74a5b5bcf15b01a", [
+   "r1_door/owner/launch.nuon"
+  ]],
+ ["r1_door/owner/qemu.stderr.nuonl",                           container, 429,      "c07368a9a5c63ef78776d4b4b47cea0e4322acfbd71705f57188276348e41cc2", [
+   "r1_door/owner/qemu.stderr"
+  ]],
+ ["r1_door/owner/qemu.stdout.nuonl",                           container, 243,      "41e22cdb44c4f0bebf533e14ac477f85fd856e26331368b2ca2c2587de01dcd6", [
+   "r1_door/owner/qemu.stdout"
+  ]],
+ ["r1_door/picture/launch.nuon",                               raw,       1806,     "9da47a9f7427688a09fe4a715405542cd8e91fdee9abfd89f3152a503c6b01dd", [
+   "r1_door/picture/launch.nuon"
+  ]],
+ ["r1_door/picture/qemu.stderr.nuonl",                         container, 429,      "64b193727f6a180486acd772b64d1fd4077c752b98429a26fdbec5ee32cb23ed", [
+   "r1_door/picture/qemu.stderr"
+  ]],
+ ["r1_door/picture/qemu.stdout.nuonl",                         container, 243,      "7f5a9ee23ff307820336ea42ed34d22747cb286ac95e08771d8a104e9f636e35", [
+   "r1_door/picture/qemu.stdout"
+  ]],
+ ["r1_door/picture_candidate/launch.nuon",                     raw,       1826,     "0994c3bbce1a833b652bc8afafe4627afd6fc3beb636237ab843cfebc650798b", [
+   "r1_door/picture_candidate/launch.nuon"
+  ]],
+ ["r1_door/picture_candidate/qemu.stderr.nuonl",               container, 429,      "e6145dbbe7da93647d6d132c875ba46ecbb4a21694d6d4ce0ba2620663af08cf", [
+   "r1_door/picture_candidate/qemu.stderr"
+  ]],
+ ["r1_door/picture_candidate/qemu.stdout.nuonl",               container, 243,      "6a4e058c7ac4770b624b34995f09ca71d350405375c4077af8c80d652c7b35b1", [
+   "r1_door/picture_candidate/qemu.stdout"
+  ]],
+ ["r1_door/pose.nuon",                                         raw,       6685,     "9b276e11931e0617e9235b47f3fbf438ce207d40af14e65b9d2af2b8663a615e", [
+   "r1_door/pose.nuon"
+  ]],
+ ["r1_grate/levels/launch.nuon",                               raw,       1806,     "c59019742962a4ca72b6b52853d829bef19375aa7699d400470693b4a548096c", [
+   "r1_grate/levels/launch.nuon"
+  ]],
+ ["r1_grate/levels/qemu.stderr.nuonl",                         container, 429,      "b13ee877413b525727c3ffa81185d98727ced047347d418b3288845c6d1ec755", [
+   "r1_grate/levels/qemu.stderr"
+  ]],
+ ["r1_grate/levels/qemu.stdout.nuonl",                         container, 243,      "285950bfd2954b445f77ac8e763381a0409bba7e9e8e7af215611ad91fc0bc3f", [
+   "r1_grate/levels/qemu.stdout"
+  ]],
+ ["r1_grate/levels_candidate/launch.nuon",                     raw,       1826,     "34263047feeeb4072264864f5f3e3de2a76da8b21c2522908b849b5e744c6359", [
+   "r1_grate/levels_candidate/launch.nuon"
+  ]],
+ ["r1_grate/levels_candidate/qemu.stderr.nuonl",               container, 429,      "e559cf9f18b03c8e982a4fabb5caf5dd5bd963fe88dd844127f4fc4559241c68", [
+   "r1_grate/levels_candidate/qemu.stderr"
+  ]],
+ ["r1_grate/levels_candidate/qemu.stdout.nuonl",               container, 243,      "ab4055d02de1800856283eaeb227c1295ccf830e5356d7174021bbc19d3d2756", [
+   "r1_grate/levels_candidate/qemu.stdout"
+  ]],
+ ["r1_grate/owner/launch.nuon",                                raw,       1804,     "3e0402626e511bcdb8eb58319c1e578975f21d6e208e3e5aa40bbf4e4ab033c5", [
+   "r1_grate/owner/launch.nuon"
+  ]],
+ ["r1_grate/owner/qemu.stderr.nuonl",                          container, 429,      "fdfc07f1e246fac57b5f2c73614d6bad4d7c4cdde4eb9337658520578d9067bd", [
+   "r1_grate/owner/qemu.stderr"
+  ]],
+ ["r1_grate/owner/qemu.stdout.nuonl",                          container, 243,      "fd2c1f5c0ea89adf17cd3ab4bb3b2d7f08aa77efb424338be85e8f5bdfe886ca", [
+   "r1_grate/owner/qemu.stdout"
+  ]],
+ ["r1_grate/picture/launch.nuon",                              raw,       1808,     "7eb83cd783f4cf6adb08cb29d1904e01115fb326a3ae9ba44e2bbdb8b86b8519", [
+   "r1_grate/picture/launch.nuon"
+  ]],
+ ["r1_grate/picture/qemu.stderr.nuonl",                        container, 429,      "037f25a5e46d2c74c360125b5ed0b83264f430946ac80cd3a62eb513b73a3007", [
+   "r1_grate/picture/qemu.stderr"
+  ]],
+ ["r1_grate/picture/qemu.stdout.nuonl",                        container, 243,      "46ec0a51ce8d255ef79b9ecd63c947b1d7b0480505685905f2c8567df8073515", [
+   "r1_grate/picture/qemu.stdout"
+  ]],
+ ["r1_grate/picture_candidate/launch.nuon",                    raw,       1828,     "0dea01770eb0b816d98f60c5a7333a9f058ae108852c024e4f30be22470cc4b4", [
+   "r1_grate/picture_candidate/launch.nuon"
+  ]],
+ ["r1_grate/picture_candidate/qemu.stderr.nuonl",              container, 429,      "514dd0e34d0874082b3b3cb7f28e92894ce3eee2ee41f624b98dd2be4aa4c0e3", [
+   "r1_grate/picture_candidate/qemu.stderr"
+  ]],
+ ["r1_grate/picture_candidate/qemu.stdout.nuonl",              container, 243,      "c381292e037a35a683bdf762a61a8c815077118d930ffe18c83790030df9ef60", [
+   "r1_grate/picture_candidate/qemu.stdout"
+  ]],
+ ["r1_grate/pose.nuon",                                        raw,       6433,     "dfa55bb2fbdc2c613314e222683747ed6be4e6592b4df87613fceee779bde00f", [
+   "r1_grate/pose.nuon"
+  ]],
+ ["r1_landing/levels/launch.nuon",                             raw,       1810,     "a5bcf3b56fbcd1bede0fefd8ac95170a85e8c6c45a264a7b0439c9b68479deb4", [
+   "r1_landing/levels/launch.nuon"
+  ]],
+ ["r1_landing/levels/qemu.stderr.nuonl",                       container, 429,      "f94d7509220bf2a6752b7c8a04c907772b315f594d3cc0a2a9c0ec119119b93f", [
+   "r1_landing/levels/qemu.stderr"
+  ]],
+ ["r1_landing/levels/qemu.stdout.nuonl",                       container, 243,      "d1b1912333599ea3df8db193eb193ae310314d05d4ecc7e138a5eaff0cbf22f1", [
+   "r1_landing/levels/qemu.stdout"
+  ]],
+ ["r1_landing/levels_candidate/launch.nuon",                   raw,       1830,     "9182e4143a329eac6cf04191665ad44f72b54d94b4f8e77418965270be9fe05e", [
+   "r1_landing/levels_candidate/launch.nuon"
+  ]],
+ ["r1_landing/levels_candidate/qemu.stderr.nuonl",             container, 429,      "8435f96cb1d8ada5b2c9efe1e22ae6d1bba285c8006ecb48967345bf61e3b37d", [
+   "r1_landing/levels_candidate/qemu.stderr"
+  ]],
+ ["r1_landing/levels_candidate/qemu.stdout.nuonl",             container, 243,      "e3dea8db74aff39227f380739379885f445496372e490a87c190b5c54d823e90", [
+   "r1_landing/levels_candidate/qemu.stdout"
+  ]],
+ ["r1_landing/owner/launch.nuon",                              raw,       1808,     "4f849cb951a7fffce17b21d3fbd6bf018a68bc48938290cc99c42a1eb6b43a8d", [
+   "r1_landing/owner/launch.nuon"
+  ]],
+ ["r1_landing/owner/qemu.stderr.nuonl",                        container, 429,      "9e7de49d6cf457aafabb333e8d3a60c68f2c06a516bc70cac7cd3280cd667773", [
+   "r1_landing/owner/qemu.stderr"
+  ]],
+ ["r1_landing/owner/qemu.stdout.nuonl",                        container, 243,      "98d51150a521f0fe935ccb4b96e8d6d3d0f303bb5dd89f7a76504635c4beb9f4", [
+   "r1_landing/owner/qemu.stdout"
+  ]],
+ ["r1_landing/picture/launch.nuon",                            raw,       1812,     "eaceeab31f64c5774e3908f8ba9090965ddf7fd72e2a60e8686f509c6d3e602e", [
+   "r1_landing/picture/launch.nuon"
+  ]],
+ ["r1_landing/picture/qemu.stderr.nuonl",                      container, 429,      "397dce9a6e956fdd0b4f73051fce023d66d2ac1e4bf871746d72cf3fa667036b", [
+   "r1_landing/picture/qemu.stderr"
+  ]],
+ ["r1_landing/picture/qemu.stdout.nuonl",                      container, 243,      "846b9f8f7d74c924c179370f6edbe4b8805cc6aace283c6d364508e1330e47f4", [
+   "r1_landing/picture/qemu.stdout"
+  ]],
+ ["r1_landing/picture_candidate/launch.nuon",                  raw,       1831,     "7cf6b864f5b507e6f1d223745294e32caf90fcddfa2daf9344dfa001c1ad0886", [
+   "r1_landing/picture_candidate/launch.nuon"
+  ]],
+ ["r1_landing/picture_candidate/qemu.stderr.nuonl",            container, 429,      "dc3cf18c13da6949b5d4b3d2dd647e1c0b9bdf41df998ec759bfe6ac5dd9aeac", [
+   "r1_landing/picture_candidate/qemu.stderr"
+  ]],
+ ["r1_landing/picture_candidate/qemu.stdout.nuonl",            container, 243,      "1ae71f8d52abd7a49af6d378107e0ce5b11373a3236ea953c974ee9c9adfcfbe", [
+   "r1_landing/picture_candidate/qemu.stdout"
+  ]],
+ ["r1_landing/pose.nuon",                                      raw,       6395,     "900890da678b02ab64bdb4b945861be8f4d64a980694e36229f9f2cdeadea028", [
+   "r1_landing/pose.nuon"
+  ]],
+ ["r1_light/levels/launch.nuon",                               raw,       1806,     "9945817e072add778aa0c21de6ae9ea47db511d9e957194516f74270ad1ef68c", [
+   "r1_light/levels/launch.nuon"
+  ]],
+ ["r1_light/levels/qemu.stderr.nuonl",                         container, 429,      "6e27ebcaf3cd5a1bdd3011ee84d0480414e612cbebe79ca8eaf239bd9c92fb22", [
+   "r1_light/levels/qemu.stderr"
+  ]],
+ ["r1_light/levels/qemu.stdout.nuonl",                         container, 243,      "985feb019ad192f64cf3ccdd295eedc604ef315fb291c3aaaaae87dd0a750c9b", [
+   "r1_light/levels/qemu.stdout"
+  ]],
+ ["r1_light/levels_candidate/launch.nuon",                     raw,       1826,     "47ed6e07c9d29d7274397f3db45a2d909881353f6a2a98ea3874035c0e558769", [
+   "r1_light/levels_candidate/launch.nuon"
+  ]],
+ ["r1_light/levels_candidate/qemu.stderr.nuonl",               container, 429,      "c616bf206bef6c03f82c5cb5c41ac664d50939264e793a9d457e8345f4bf1b4a", [
+   "r1_light/levels_candidate/qemu.stderr"
+  ]],
+ ["r1_light/levels_candidate/qemu.stdout.nuonl",               container, 243,      "c7e6c963f3a5c6a7b4e3446849ff606bc9d2bae969ce17f669d074e52c2b13d4", [
+   "r1_light/levels_candidate/qemu.stdout"
+  ]],
+ ["r1_light/owner/launch.nuon",                                raw,       1804,     "670ef3b82810253d534b082682b3681e39fefaf092c032ff190d6c1aa41f6aee", [
+   "r1_light/owner/launch.nuon"
+  ]],
+ ["r1_light/owner/qemu.stderr.nuonl",                          container, 429,      "6657058659946f869a26fc7ab57103d17e68003e3a2a45f957b7861938eabb71", [
+   "r1_light/owner/qemu.stderr"
+  ]],
+ ["r1_light/owner/qemu.stdout.nuonl",                          container, 243,      "531c84813ac1c5981b6b084fbb3010c2a159d836c4ed715e9fd8a168f390782e", [
+   "r1_light/owner/qemu.stdout"
+  ]],
+ ["r1_light/picture/launch.nuon",                              raw,       1808,     "f79d8a1c82cf50faa4f6d6f4366119e54d6d99963b048a5c0823400e8b05d983", [
+   "r1_light/picture/launch.nuon"
+  ]],
+ ["r1_light/picture/qemu.stderr.nuonl",                        container, 429,      "6fdd0e0f371fffe9630afe8751642720ad57c44359da36a6f9e322610e769741", [
+   "r1_light/picture/qemu.stderr"
+  ]],
+ ["r1_light/picture/qemu.stdout.nuonl",                        container, 243,      "346bbba0a99b7f464f44ce3c8f9bc0a32eb9bf187bf9f7e62e2ca221f7460623", [
+   "r1_light/picture/qemu.stdout"
+  ]],
+ ["r1_light/picture_candidate/launch.nuon",                    raw,       1828,     "b6889b025bcc80cfc068d7db8e526a0cc347ac0998866b3ae467d8983f168914", [
+   "r1_light/picture_candidate/launch.nuon"
+  ]],
+ ["r1_light/picture_candidate/qemu.stderr.nuonl",              container, 429,      "3b01717d60936e239b7a8237f3c4884fedb8bfa59a4b79406ca2f2980c0b51f2", [
+   "r1_light/picture_candidate/qemu.stderr"
+  ]],
+ ["r1_light/picture_candidate/qemu.stdout.nuonl",              container, 243,      "02875972a3c8c4e0325c9f9ae7703bf917c6770e9677006fb3556fda91bfdafc", [
+   "r1_light/picture_candidate/qemu.stdout"
+  ]],
+ ["r1_light/pose.nuon",                                        raw,       6043,     "723b883f77f5ea2be5522423296f28934af486442cea7c40b9434e7abc6b221a", [
+   "r1_light/pose.nuon"
+  ]],
+ ["r1_ramp/levels/launch.nuon",                                raw,       1804,     "4ee088dc0a8651ffb4f9ef7aff5b9ba55e5f77362f921a80b2c3b41b3dd256d1", [
+   "r1_ramp/levels/launch.nuon"
+  ]],
+ ["r1_ramp/levels/qemu.stderr.nuonl",                          container, 429,      "870aa1f0e1022be14e9b89f91a705839f219b5f4a7fe65038e810663e721a2c7", [
+   "r1_ramp/levels/qemu.stderr"
+  ]],
+ ["r1_ramp/levels/qemu.stdout.nuonl",                          container, 243,      "f9a50583a94e41efb30bad79bcfdf6b8df278e588ce7905e6d572511eea95fce", [
+   "r1_ramp/levels/qemu.stdout"
+  ]],
+ ["r1_ramp/levels_candidate/launch.nuon",                      raw,       1824,     "e2d608dfe71406f0331631e006131e20ec32d5727eff8219eefe9223e08188e5", [
+   "r1_ramp/levels_candidate/launch.nuon"
+  ]],
+ ["r1_ramp/levels_candidate/qemu.stderr.nuonl",                container, 429,      "451f43c872f9789ce2e71ef14abfbc938edae4b826c52b10e8809846e2efa52a", [
+   "r1_ramp/levels_candidate/qemu.stderr"
+  ]],
+ ["r1_ramp/levels_candidate/qemu.stdout.nuonl",                container, 243,      "dd001f2475c058c993421613973ca58d6e423a95b781afa624eac29a9de298b2", [
+   "r1_ramp/levels_candidate/qemu.stdout"
+  ]],
+ ["r1_ramp/owner/launch.nuon",                                 raw,       1802,     "eb937e39dde32a9652dfd0ffe1f98ce19c64ae1a9d83e5c41e3091806a7a6bbf", [
+   "r1_ramp/owner/launch.nuon"
+  ]],
+ ["r1_ramp/owner/qemu.stderr.nuonl",                           container, 429,      "9232cc88ec6a7b35eace111f909644a9b5c43dfbb6d1883b8d4cf56ac0718d20", [
+   "r1_ramp/owner/qemu.stderr"
+  ]],
+ ["r1_ramp/owner/qemu.stdout.nuonl",                           container, 243,      "bb96a399194ef90ae8c8ed7322cdff5543d808fd2f3bfed0f59790af03514b54", [
+   "r1_ramp/owner/qemu.stdout"
+  ]],
+ ["r1_ramp/picture/launch.nuon",                               raw,       1806,     "59f9e838ba54b12fe4e0f857469f4d5c591b7f0aa6c426ab0bcd23234c963fbe", [
+   "r1_ramp/picture/launch.nuon"
+  ]],
+ ["r1_ramp/picture/qemu.stderr.nuonl",                         container, 429,      "4e6c03df5b69da3e1a7caeda4ac12e1657001ca4a75863eade7e7b0950b22b71", [
+   "r1_ramp/picture/qemu.stderr"
+  ]],
+ ["r1_ramp/picture/qemu.stdout.nuonl",                         container, 243,      "1a3754c087ab20a77ce00d7fbe2e9d337d8a24239fc51770180fb7b81da71fe6", [
+   "r1_ramp/picture/qemu.stdout"
+  ]],
+ ["r1_ramp/picture_candidate/launch.nuon",                     raw,       1826,     "741001cfdbfa62bc4456ae444a5e35ce7224e9f707d54ad788d133232a9326e7", [
+   "r1_ramp/picture_candidate/launch.nuon"
+  ]],
+ ["r1_ramp/picture_candidate/qemu.stderr.nuonl",               container, 429,      "9f183b8e01ca70b269a7a7c37298191bb22a8b20dc13844c9834c327284df09c", [
+   "r1_ramp/picture_candidate/qemu.stderr"
+  ]],
+ ["r1_ramp/picture_candidate/qemu.stdout.nuonl",               container, 243,      "bd1d89c779bc31eb553c23ac844d041438450d4ea7a7abcd83aff9bd0a0221bd", [
+   "r1_ramp/picture_candidate/qemu.stdout"
+  ]],
+ ["r1_ramp/pose.nuon",                                         raw,       6459,     "f307dee29231620a13e1805b25dbb9565941236c3c3052607a2dbcc89ee1b70a", [
+   "r1_ramp/pose.nuon"
+  ]],
+ ["r1_spawn/levels/launch.nuon",                               raw,       1806,     "2ae0a2a8b3a3e5768123beea048269b8cd490b50538c0e0ff04a015d9caf9904", [
+   "r1_spawn/levels/launch.nuon"
+  ]],
+ ["r1_spawn/levels/qemu.stderr.nuonl",                         container, 429,      "e7293462fcfcd358556513c58b6f352896215b638ff6a38d742e443fef6eb9bb", [
+   "r1_spawn/levels/qemu.stderr"
+  ]],
+ ["r1_spawn/levels/qemu.stdout.nuonl",                         container, 243,      "c21bb9c42509263a05735815d9f0acf6bece2f5e3b916e2707950dac9cd6f368", [
+   "r1_spawn/levels/qemu.stdout"
+  ]],
+ ["r1_spawn/levels_candidate/launch.nuon",                     raw,       1826,     "514f30bf880e3fb18f74791af72ab2a655222ada02025b32f14c3e0e52760b96", [
+   "r1_spawn/levels_candidate/launch.nuon"
+  ]],
+ ["r1_spawn/levels_candidate/qemu.stderr.nuonl",               container, 429,      "4d6c5cccfd1daa14ca8492bbef640265528428da1e01556a705a60f3559a1fa4", [
+   "r1_spawn/levels_candidate/qemu.stderr"
+  ]],
+ ["r1_spawn/levels_candidate/qemu.stdout.nuonl",               container, 243,      "2380b404936d1d41bf595e122fc507d03d3fb2e1adc50898c8c6a9f7186fad43", [
+   "r1_spawn/levels_candidate/qemu.stdout"
+  ]],
+ ["r1_spawn/owner/launch.nuon",                                raw,       1804,     "b13990780d95c867f313b01626de968736a4228996db0bf78261fe3128529aa1", [
+   "r1_spawn/owner/launch.nuon"
+  ]],
+ ["r1_spawn/owner/qemu.stderr.nuonl",                          container, 429,      "4400264a6dc8cf0b898f036995ea4a7a9edf67932389c809db0cc49180ca2f8f", [
+   "r1_spawn/owner/qemu.stderr"
+  ]],
+ ["r1_spawn/owner/qemu.stdout.nuonl",                          container, 243,      "277524815452843e457fd0092085d993fc3f0ab30e7aca5a7ddaa79ff320d4b9", [
+   "r1_spawn/owner/qemu.stdout"
+  ]],
+ ["r1_spawn/picture/launch.nuon",                              raw,       1808,     "166e211eb18527402217b96cbfa72087ad56b929c3ac4f5718169b5a436f4795", [
+   "r1_spawn/picture/launch.nuon"
+  ]],
+ ["r1_spawn/picture/qemu.stderr.nuonl",                        container, 429,      "d65786fe5e9be92428954947011f2671cb835872e2d517ebdb266b86bd6e6b82", [
+   "r1_spawn/picture/qemu.stderr"
+  ]],
+ ["r1_spawn/picture/qemu.stdout.nuonl",                        container, 243,      "86a349e5d728607eb2fd2b3287f5853d500d3a6c85506e6031ed55a239c9a047", [
+   "r1_spawn/picture/qemu.stdout"
+  ]],
+ ["r1_spawn/picture_candidate/launch.nuon",                    raw,       1828,     "d38a59e4cfad327b50135fe2ed63ddbfa632139cd83505d951bc4c0af1dbe570", [
+   "r1_spawn/picture_candidate/launch.nuon"
+  ]],
+ ["r1_spawn/picture_candidate/qemu.stderr.nuonl",              container, 429,      "25dc376951251da3e124fd7ae29b4645363cf34f475ff7996a5cec50c1b49447", [
+   "r1_spawn/picture_candidate/qemu.stderr"
+  ]],
+ ["r1_spawn/picture_candidate/qemu.stdout.nuonl",              container, 243,      "ed2f3d85c6af86d1a8a276966cc8adff13fc2b7229f5b850ca53f2d7241fb0d4", [
+   "r1_spawn/picture_candidate/qemu.stdout"
+  ]],
+ ["r1_spawn/pose.nuon",                                        raw,       6357,     "bd5913faac881c84b4abcc5f02685b12bcb4f8fa14dc98d6df793e34eceac3d5", [
+   "r1_spawn/pose.nuon"
+  ]],
+ ["r1_window/levels/launch.nuon",                              raw,       1808,     "0fd3b8eb72a465834af1ad928643c36badfffb4492223956a6d1fc98356a05ba", [
+   "r1_window/levels/launch.nuon"
+  ]],
+ ["r1_window/levels/qemu.stderr.nuonl",                        container, 429,      "0716930b32d1574d14962cf84483008bfac579b359ed24eebf23af1cba79f88f", [
+   "r1_window/levels/qemu.stderr"
+  ]],
+ ["r1_window/levels/qemu.stdout.nuonl",                        container, 243,      "c0b91c65b1de7cf44bde27c72a6643736f201de190bf6ec5f69c170ae790f668", [
+   "r1_window/levels/qemu.stdout"
+  ]],
+ ["r1_window/levels_candidate/launch.nuon",                    raw,       1828,     "f2a33454360eb8db93676963f2990ac98a8059774318a168aa87e91404e3f1c4", [
+   "r1_window/levels_candidate/launch.nuon"
+  ]],
+ ["r1_window/levels_candidate/qemu.stderr.nuonl",              container, 429,      "14ebfccd1abe69e94eb3ad3f79434aee6ed7dea4f0dec6e7391bd3b8e14f301b", [
+   "r1_window/levels_candidate/qemu.stderr"
+  ]],
+ ["r1_window/levels_candidate/qemu.stdout.nuonl",              container, 243,      "3b4503a6c0df4fc61a65e0385be9f4bb311d99875a85e20fbdf6fce5f277d74d", [
+   "r1_window/levels_candidate/qemu.stdout"
+  ]],
+ ["r1_window/owner/launch.nuon",                               raw,       1806,     "c587403ea1237d6257d9ea2a52a6c5ea461f11e2733757819462b3bd5054d446", [
+   "r1_window/owner/launch.nuon"
+  ]],
+ ["r1_window/owner/qemu.stderr.nuonl",                         container, 429,      "06f6c088d56f2c030cddac8b7d880d388c18b9e580a3fbfdd449d827a2d91f80", [
+   "r1_window/owner/qemu.stderr"
+  ]],
+ ["r1_window/owner/qemu.stdout.nuonl",                         container, 243,      "36c20736a9ea89854c763d29bcc7b28e2348aca34b10a26ca622a6f75615eae6", [
+   "r1_window/owner/qemu.stdout"
+  ]],
+ ["r1_window/picture/launch.nuon",                             raw,       1810,     "a5dd122257fc23586b2d5183edd6c7680e69b4c31074b3c2de0f543786f4d13f", [
+   "r1_window/picture/launch.nuon"
+  ]],
+ ["r1_window/picture/qemu.stderr.nuonl",                       container, 429,      "78f9e64f00c400ed5c72005481a9b03b3ad6104127b65454b24b1136df0443a2", [
+   "r1_window/picture/qemu.stderr"
+  ]],
+ ["r1_window/picture/qemu.stdout.nuonl",                       container, 243,      "c6ed68b78e01642af642244b0218da78c92a8268f9600185bfa84cc2f14c3619", [
+   "r1_window/picture/qemu.stdout"
+  ]],
+ ["r1_window/picture_candidate/launch.nuon",                   raw,       1830,     "0a5882dfc3514d2405d341370b2e7035ea32d742fcd276d89f78323927d9e84c", [
+   "r1_window/picture_candidate/launch.nuon"
+  ]],
+ ["r1_window/picture_candidate/qemu.stderr.nuonl",             container, 429,      "4d39797641e138325e79758fac3e604326a7db79a32e7cb8ddb3cfa36fec9d85", [
+   "r1_window/picture_candidate/qemu.stderr"
+  ]],
+ ["r1_window/picture_candidate/qemu.stdout.nuonl",             container, 243,      "8e1ea70f81dd31ec4ae5a6a3c9cf70fe09059c420f18503a84bdbc52157c60c6", [
+   "r1_window/picture_candidate/qemu.stdout"
+  ]],
+ ["r1_window/pose.nuon",                                       raw,       6067,     "ac7d1a0ad65604909ceb718d8c1439b9b4b0ad8391955b807ecc5e4145cc59f3", [
+   "r1_window/pose.nuon"
+  ]],
+ ["reading.nuon",                                              raw,       32354,    "c6941f172eb79d583f941eaa25940aa8c38ff2d0163235dbadb0f9c98206aafd", [
+   "reading.nuon"
+  ]],
+ ["spawn/levels/launch.nuon",                                  raw,       1800,     "d3c2080475d663c1a03bcf4b814acf203e4485d521f19c306ba186397b5878dd", [
+   "spawn/levels/launch.nuon"
+  ]],
+ ["spawn/levels/qemu.stderr.nuonl",                            container, 429,      "a26df1adfa4f06681f4be8ed558ce1eb78dd98bfd994f6191516196d056d330c", [
+   "spawn/levels/qemu.stderr"
+  ]],
+ ["spawn/levels/qemu.stdout.nuonl",                            container, 243,      "d868cc1096f8166d1d1a0c396439ab31428d355a7d6e5dd577107a30d3c9e219", [
+   "spawn/levels/qemu.stdout"
+  ]],
+ ["spawn/levels_candidate/launch.nuon",                        raw,       1819,     "40449f1c97557da54600c4bb78a49aed37653d85345ac263b1642b305c63058f", [
+   "spawn/levels_candidate/launch.nuon"
+  ]],
+ ["spawn/levels_candidate/qemu.stderr.nuonl",                  container, 429,      "93b37f97847b1ac58250416e2af5ace52509d6840f7a33cfad4da36aabd32a46", [
+   "spawn/levels_candidate/qemu.stderr"
+  ]],
+ ["spawn/levels_candidate/qemu.stdout.nuonl",                  container, 243,      "041f4328cc911eccb28fb532e50a8f5ef72e35fa8d49c0e056b9a990eaa7fff6", [
+   "spawn/levels_candidate/qemu.stdout"
+  ]],
+ ["spawn/owner/launch.nuon",                                   raw,       1798,     "bc7dcd358e42c7c89afa049d1a277c4e475e581c2f55825e5bc53cf7849470bc", [
+   "spawn/owner/launch.nuon"
+  ]],
+ ["spawn/owner/qemu.stderr.nuonl",                             container, 429,      "d48d617fb379c8c0e75beeec86bbdcb3be5756f11a1f1bd03e9694feaaf43f6b", [
+   "spawn/owner/qemu.stderr"
+  ]],
+ ["spawn/owner/qemu.stdout.nuonl",                             container, 243,      "0cfe61ff72a750af9b6577f85f37e11efa3d57956a77a740c780a6882f2240a3", [
+   "spawn/owner/qemu.stdout"
+  ]],
+ ["spawn/picture/launch.nuon",                                 raw,       1802,     "634e81aadd9dd337bcc6963ec05cbe8191ef7a7e9e73fe208ee2bed040b2878f", [
+   "spawn/picture/launch.nuon"
+  ]],
+ ["spawn/picture/qemu.stderr.nuonl",                           container, 429,      "8290321b38183568a7dedeebb39595cd5ea064234b5c221fb81cda9d76c9f1fe", [
+   "spawn/picture/qemu.stderr"
+  ]],
+ ["spawn/picture/qemu.stdout.nuonl",                           container, 243,      "b0ce41b230049d516d48ed5bee71ac6d7f3cf323f5e9fc7e31e2c0d106328c2b", [
+   "spawn/picture/qemu.stdout"
+  ]],
+ ["spawn/picture_candidate/launch.nuon",                       raw,       1822,     "8cce63eda7749de8145ea38ecc11ec5e094ca23671f7895c5cb6df345e3a01d4", [
+   "spawn/picture_candidate/launch.nuon"
+  ]],
+ ["spawn/picture_candidate/qemu.stderr.nuonl",                 container, 429,      "e700c3cebe6dd6085245503f691115f4642a02caa2233b331c489ec0217cd836", [
+   "spawn/picture_candidate/qemu.stderr"
+  ]],
+ ["spawn/picture_candidate/qemu.stdout.nuonl",                 container, 243,      "f9c4da17a11f42c5b784042ad9096e0ffb0c2d1b17328dea3f2511a8cb03024b", [
+   "spawn/picture_candidate/qemu.stdout"
+  ]],
+ ["spawn/pose.nuon",                                           raw,       7641,     "9afbcf1a87c97b46447def39425e51b9bc95a0fd779b90768170f8f9139848d9", [
+   "spawn/pose.nuon"
+  ]],
+ ["spawn_rolled/levels/launch.nuon",                           raw,       1814,     "0a9fcf6a3baf68236be17b2a2a90ad1df2df063aa172b489e5b4e9aec4fd3958", [
+   "spawn_rolled/levels/launch.nuon"
+  ]],
+ ["spawn_rolled/levels/qemu.stderr.nuonl",                     container, 429,      "ffed6dce3731b55f4aeff0a23ef0f324ac832a9a0d56f9d691372abc1351bf79", [
+   "spawn_rolled/levels/qemu.stderr"
+  ]],
+ ["spawn_rolled/levels/qemu.stdout.nuonl",                     container, 243,      "be1e0c72a7fbce09b9c98fa25880e27f7250064c04d960b26e638bb3f193ce73", [
+   "spawn_rolled/levels/qemu.stdout"
+  ]],
+ ["spawn_rolled/levels_candidate/launch.nuon",                 raw,       1834,     "23efca467a8157e9a65c3291cebe50d4762122c40d4cf0a304d1cc6f3df921c8", [
+   "spawn_rolled/levels_candidate/launch.nuon"
+  ]],
+ ["spawn_rolled/levels_candidate/qemu.stderr.nuonl",           container, 429,      "ef54030612c361c36d0ca28d5a777713120536fec6a62c730c1d479ee17c2916", [
+   "spawn_rolled/levels_candidate/qemu.stderr"
+  ]],
+ ["spawn_rolled/levels_candidate/qemu.stdout.nuonl",           container, 243,      "7f3e66bc0f180ef0369c4246840ee3f14a7eb4a3cf5749b346316a623cb8e5fd", [
+   "spawn_rolled/levels_candidate/qemu.stdout"
+  ]],
+ ["spawn_rolled/owner/launch.nuon",                            raw,       1812,     "eca15d38e43729b81477c11299c8ae21a2ef01f5b6a02fc3edbd1e86ab3d08b4", [
+   "spawn_rolled/owner/launch.nuon"
+  ]],
+ ["spawn_rolled/owner/qemu.stderr.nuonl",                      container, 429,      "73eda2f20dbf602de9b95380fa442a69e849d9d7bc0adc4729ece84c09228567", [
+   "spawn_rolled/owner/qemu.stderr"
+  ]],
+ ["spawn_rolled/owner/qemu.stdout.nuonl",                      container, 243,      "f150736ce140e31990faf5564a1ec4581e796562de4ffb15384e2d406d88d559", [
+   "spawn_rolled/owner/qemu.stdout"
+  ]],
+ ["spawn_rolled/picture/launch.nuon",                          raw,       1816,     "81a1b0c318b26b7f49dea68917c62902ed0db93ea201f7c064ed435565760411", [
+   "spawn_rolled/picture/launch.nuon"
+  ]],
+ ["spawn_rolled/picture/qemu.stderr.nuonl",                    container, 429,      "f4c1779fd92c744e5ced1f3d959472caa9448f5aa119c2519278739c0a1333ef", [
+   "spawn_rolled/picture/qemu.stderr"
+  ]],
+ ["spawn_rolled/picture/qemu.stdout.nuonl",                    container, 243,      "f409b8d0aa3f35bb6bd4c984f6ef2d37e8b999e1c0d401088cd94eef698b5d45", [
+   "spawn_rolled/picture/qemu.stdout"
+  ]],
+ ["spawn_rolled/picture_candidate/launch.nuon",                raw,       1835,     "f7d3aada21ae0124558f90610bd1dc3b355e28af377eeeeee6243f96c888470d", [
+   "spawn_rolled/picture_candidate/launch.nuon"
+  ]],
+ ["spawn_rolled/picture_candidate/qemu.stderr.nuonl",          container, 429,      "dad33d7d64c4b6dbe060c6d3e5e53592ed79738047d5a38fa607b67cc4b3cde6", [
+   "spawn_rolled/picture_candidate/qemu.stderr"
+  ]],
+ ["spawn_rolled/picture_candidate/qemu.stdout.nuonl",          container, 243,      "386fabec5c69dc705b0208a4a5fa7f2f67c3c91746ab5c2a178fda39cf844c36", [
+   "spawn_rolled/picture_candidate/qemu.stdout"
+  ]],
+ ["spawn_rolled/pose.nuon",                                    raw,       6768,     "5cfe114b9afb2df89a064e417ffa86230ff5233935058845836e62085994f0f6", [
+   "spawn_rolled/pose.nuon"
+  ]],
+ ["up/levels/launch.nuon",                                     raw,       1794,     "3d39460047c918e8b2900f820d9fd51caab9de8ecf0b8638c3859de8118ebb42", [
+   "up/levels/launch.nuon"
+  ]],
+ ["up/levels/qemu.stderr.nuonl",                               container, 429,      "0451799f7855953f86859b234ff12471ef531881cb68ef70b27f75da821d29ad", [
+   "up/levels/qemu.stderr"
+  ]],
+ ["up/levels/qemu.stdout.nuonl",                               container, 243,      "f53a169df419fbc728f7f6ecebd3d87ed49846d7ac77528d5f5499a0311f131b", [
+   "up/levels/qemu.stdout"
+  ]],
+ ["up/levels_candidate/launch.nuon",                           raw,       1814,     "6f5415fa15b288da365fee631132494579222b1eaa8c84d18fba854952059a1e", [
+   "up/levels_candidate/launch.nuon"
+  ]],
+ ["up/levels_candidate/qemu.stderr.nuonl",                     container, 429,      "1e4bb4314938b62c2e576caa7c53a2de9dc966bb2b32d5420b9e745a3731e6ca", [
+   "up/levels_candidate/qemu.stderr"
+  ]],
+ ["up/levels_candidate/qemu.stdout.nuonl",                     container, 243,      "4e859efbfcf89dab421346d977d033a0a90b4d768056f7cc4756a33c7508d902", [
+   "up/levels_candidate/qemu.stdout"
+  ]],
+ ["up/owner/launch.nuon",                                      raw,       1792,     "8eca98bd3ebeac6a4ee74b55087dcb506db554bc5becfa8340f220fd6217ad55", [
+   "up/owner/launch.nuon"
+  ]],
+ ["up/owner/qemu.stderr.nuonl",                                container, 429,      "c9555fe53a2134dc3e5f55e177d011422d906c485c3a60fd0b6f05b47980b46e", [
+   "up/owner/qemu.stderr"
+  ]],
+ ["up/owner/qemu.stdout.nuonl",                                container, 243,      "0981937ec21b05b4e6f35d8b5e376411730d2a06a22a64122e70f5edb0576b3f", [
+   "up/owner/qemu.stdout"
+  ]],
+ ["up/picture/launch.nuon",                                    raw,       1796,     "28c4b1d76abc29fe8343c2605d6550f2d462d00a3632877cccb36a598b1b4fe6", [
+   "up/picture/launch.nuon"
+  ]],
+ ["up/picture/qemu.stderr.nuonl",                              container, 429,      "ce63d9b094f40a04ee8fbc0e7672e9be93b1ea4adbec7e89862eac2c5a1a75c9", [
+   "up/picture/qemu.stderr"
+  ]],
+ ["up/picture/qemu.stdout.nuonl",                              container, 243,      "ccf180d22b1a526d25a7da34e7d578414eba9b5440510582e21a73a4e3da7d48", [
+   "up/picture/qemu.stdout"
+  ]],
+ ["up/picture_candidate/launch.nuon",                          raw,       1816,     "c2fcd5e3029ac10fa1486c3753acf093f6c7a2ec5fd8ade87894118194ff78e3", [
+   "up/picture_candidate/launch.nuon"
+  ]],
+ ["up/picture_candidate/qemu.stderr.nuonl",                    container, 429,      "46fdf1b8dd05cedf8e0c0612779f5234fef8c3bd0b1271fe663f744d2442ed2c", [
+   "up/picture_candidate/qemu.stderr"
+  ]],
+ ["up/picture_candidate/qemu.stdout.nuonl",                    container, 243,      "a7bc6f217e3ed7085b6c204689b524012d63b3d67e93acec619af3efecf86bb1", [
+   "up/picture_candidate/qemu.stdout"
+  ]],
+ ["up/pose.nuon",                                              raw,       6333,     "b06d411f2c980658896c7edb521b28afb706ffbcfca5da674084b4f89c452099", [
+   "up/pose.nuon"
+  ]],
+ ["wall_edge/levels/launch.nuon",                              raw,       1808,     "7dbcb3785e438d890cfd780a931c8ea30994e1f2f8cb6148e5476a1f3d8d6f1a", [
+   "wall_edge/levels/launch.nuon"
+  ]],
+ ["wall_edge/levels/qemu.stderr.nuonl",                        container, 429,      "de0cf640ef60fc71ac350a04a8eec8f83e992633cc9e4dfe358bee310d2fe1bd", [
+   "wall_edge/levels/qemu.stderr"
+  ]],
+ ["wall_edge/levels/qemu.stdout.nuonl",                        container, 243,      "6b2c6cf92b8d4c11250926555765544640133b9383c8f4283e89d41fc4c41d55", [
+   "wall_edge/levels/qemu.stdout"
+  ]],
+ ["wall_edge/levels_candidate/launch.nuon",                    raw,       1828,     "f9f4ba55c5a218c0d0c91a7a12c810b2acc76ec6fd88954184eb8c591b2ec2e7", [
+   "wall_edge/levels_candidate/launch.nuon"
+  ]],
+ ["wall_edge/levels_candidate/qemu.stderr.nuonl",              container, 429,      "1c3736ee44028ce54a352771ac467d51d5a0a7b3d92adcaa96c67fa02343c030", [
+   "wall_edge/levels_candidate/qemu.stderr"
+  ]],
+ ["wall_edge/levels_candidate/qemu.stdout.nuonl",              container, 243,      "c763dba02251bbd5af63aff9876550d9a1ac8e366a581c1de714d33205255e6d", [
+   "wall_edge/levels_candidate/qemu.stdout"
+  ]],
+ ["wall_edge/owner/launch.nuon",                               raw,       1806,     "27e487bf044a291c3c341f094e57951dcba72f831ab68bce978d556321826243", [
+   "wall_edge/owner/launch.nuon"
+  ]],
+ ["wall_edge/owner/qemu.stderr.nuonl",                         container, 429,      "53b74a59d315355683b8c943d4ed9f8cc620b80a6cda2a2b58c420a5cd8e989d", [
+   "wall_edge/owner/qemu.stderr"
+  ]],
+ ["wall_edge/owner/qemu.stdout.nuonl",                         container, 243,      "64f454231d5a4076cb85593ef666eb8f48f56193a82cb94a4a2dd470a13fa0ce", [
+   "wall_edge/owner/qemu.stdout"
+  ]],
+ ["wall_edge/picture/launch.nuon",                             raw,       1810,     "99d3db002bca0533628b7a5c8b624d3eb2d2c1d0d33cd44ef3ac3c68fe78383e", [
+   "wall_edge/picture/launch.nuon"
+  ]],
+ ["wall_edge/picture/qemu.stderr.nuonl",                       container, 429,      "7dd7a3c84b5020656be52545a7dfc76b37745d5d6b146bd20ec0884a29ab9047", [
+   "wall_edge/picture/qemu.stderr"
+  ]],
+ ["wall_edge/picture/qemu.stdout.nuonl",                       container, 243,      "18d1a64b6abc69d86b09820e7f01fadb7396a8009f39d99d7627a9efa0f6e9e4", [
+   "wall_edge/picture/qemu.stdout"
+  ]],
+ ["wall_edge/picture_candidate/launch.nuon",                   raw,       1830,     "d5d133c6037791d26018e0ab144e399885051db6b14b29554eeeb4c97e12e456", [
+   "wall_edge/picture_candidate/launch.nuon"
+  ]],
+ ["wall_edge/picture_candidate/qemu.stderr.nuonl",             container, 429,      "681fb14157650ef52a06c725f2cd13d0db13c5f5a01ae950ca9b302ccde2e1e0", [
+   "wall_edge/picture_candidate/qemu.stderr"
+  ]],
+ ["wall_edge/picture_candidate/qemu.stdout.nuonl",             container, 243,      "f57fd24014b5ea1b7228c38516fc4434311fa9f4fd51b151358c1ed90a9d2465", [
+   "wall_edge/picture_candidate/qemu.stdout"
+  ]],
+ ["wall_edge/pose.nuon",                                       raw,       7419,     "47b12097404d4624dadb26dc25795e49cc650c9b044ebeb49952f3b6fce27ac1", [
+   "wall_edge/pose.nuon"
+  ]],
+ ["window/levels/launch.nuon",                                 raw,       1802,     "83127cd8f776a50a764dda63c440b0d500ef7c30d9956b3fd1f14572ebc6d694", [
+   "window/levels/launch.nuon"
+  ]],
+ ["window/levels/qemu.stderr.nuonl",                           container, 429,      "98f6b5838b405ae3daeb797d3c2c69699a8d12279292f647cdd0f8b34a47f8a7", [
+   "window/levels/qemu.stderr"
+  ]],
+ ["window/levels/qemu.stdout.nuonl",                           container, 243,      "e8090466f769aa30e061043161d1741ce068e4029b6bf27fef3388fc8d0c98b2", [
+   "window/levels/qemu.stdout"
+  ]],
+ ["window/levels_candidate/launch.nuon",                       raw,       1822,     "048a839658db1fcbbf73b497b8c73e9b8e2052f34bc32c5cd6df6cce2d3475e1", [
+   "window/levels_candidate/launch.nuon"
+  ]],
+ ["window/levels_candidate/qemu.stderr.nuonl",                 container, 429,      "62e0d5919d05d000b943ec88252f01a584060359b45a8b92a0b09fa28ba01a5a", [
+   "window/levels_candidate/qemu.stderr"
+  ]],
+ ["window/levels_candidate/qemu.stdout.nuonl",                 container, 243,      "bc93ec70c7bea77aa062b2e30d134f58c328cba143179c6a7d6cdeda7598164d", [
+   "window/levels_candidate/qemu.stdout"
+  ]],
+ ["window/owner/launch.nuon",                                  raw,       1800,     "0e17078d44cdffeca28cfe7a65e0d83841ad4033f448d8c9632c01350f7b7115", [
+   "window/owner/launch.nuon"
+  ]],
+ ["window/owner/qemu.stderr.nuonl",                            container, 429,      "c2cad29f86047d8bc56aa19c9899fa38bd96f2bf74c5eb65ff1fb658f3539b15", [
+   "window/owner/qemu.stderr"
+  ]],
+ ["window/owner/qemu.stdout.nuonl",                            container, 243,      "72228745bab2010f814b32ddbf5b992e7b7857ebafee57ebc577d119b998b779", [
+   "window/owner/qemu.stdout"
+  ]],
+ ["window/picture/launch.nuon",                                raw,       1804,     "a71bf2eebbe3564f173d8ad281ee70971944fd6e42f9a32e1493ba50f33da03b", [
+   "window/picture/launch.nuon"
+  ]],
+ ["window/picture/qemu.stderr.nuonl",                          container, 429,      "facfb0ae7d10734f632cd0202b8e7824b2faa400f9551fc921d4d6fdbf5e03fb", [
+   "window/picture/qemu.stderr"
+  ]],
+ ["window/picture/qemu.stdout.nuonl",                          container, 243,      "c2890f583a0cbb195e471cc6cb99e7f9ff5ffb9b574239b892225945855dc6da", [
+   "window/picture/qemu.stdout"
+  ]],
+ ["window/picture_candidate/launch.nuon",                      raw,       1824,     "baa70578aeb5c86e4995050e8bc8f90d8a0edcb60dbf0a14cf01d706cfc38df7", [
+   "window/picture_candidate/launch.nuon"
+  ]],
+ ["window/picture_candidate/qemu.stderr.nuonl",                container, 429,      "ebe967cd4b74ca88303cf9e2cbdee2b1880cbb936aca3a7d88558f731e200dd9", [
+   "window/picture_candidate/qemu.stderr"
+  ]],
+ ["window/picture_candidate/qemu.stdout.nuonl",                container, 243,      "1be25530c1f25c416c02eda289903b70deae743e79823a218533e52c9b18d4bd", [
+   "window/picture_candidate/qemu.stdout"
+  ]],
+ ["window/pose.nuon",                                          raw,       7641,     "1c01a6639cf1d4dc5cae9944c2b6c052924feb6b1176c2a6d33fd730832e2306", [
+   "window/pose.nuon"
+  ]],
+ ["yard/levels/launch.nuon",                                   raw,       1798,     "be68f28eca098d89324d49d54444df042de00fa3ae2aaffdfcda8f6c8ed692a2", [
+   "yard/levels/launch.nuon"
+  ]],
+ ["yard/levels/qemu.stderr.nuonl",                             container, 429,      "71c8ac3fc4fd173b9f7e6c42c1fa13e7a3f30d3467aea2d0b98a5f3a46b6c900", [
+   "yard/levels/qemu.stderr"
+  ]],
+ ["yard/levels/qemu.stdout.nuonl",                             container, 243,      "dc6917f9ce4827a26328d96ebd8db4d7fd12c6c266e7a75172faad204495a783", [
+   "yard/levels/qemu.stdout"
+  ]],
+ ["yard/levels_candidate/launch.nuon",                         raw,       1818,     "735bd062804f6da449b0fafc6f0198e56a016b4913b785c79c7ff81f01fe4af5", [
+   "yard/levels_candidate/launch.nuon"
+  ]],
+ ["yard/levels_candidate/qemu.stderr.nuonl",                   container, 429,      "2953690935aae4564d4c947340634884851b0d9fb25205b1bcfb0cfb75233bd1", [
+   "yard/levels_candidate/qemu.stderr"
+  ]],
+ ["yard/levels_candidate/qemu.stdout.nuonl",                   container, 243,      "18f40c585f6293f161ce6951a132688a208a5e34e3ae4364fcf470a7a5792706", [
+   "yard/levels_candidate/qemu.stdout"
+  ]],
+ ["yard/owner/launch.nuon",                                    raw,       1796,     "925a406ddf52f7d27966a3e667f0c7c4434e45ff8189ebed193a707e841c788f", [
+   "yard/owner/launch.nuon"
+  ]],
+ ["yard/owner/qemu.stderr.nuonl",                              container, 429,      "a8e86804af373a1cfefea9a083ce76425b6d85f8686852bfc0337f0ad0666fe4", [
+   "yard/owner/qemu.stderr"
+  ]],
+ ["yard/owner/qemu.stdout.nuonl",                              container, 243,      "a537bb6cf5cee4150e8f8c3f37f1010e763c8f04a137267e22ceebce192f6fe5", [
+   "yard/owner/qemu.stdout"
+  ]],
+ ["yard/picture/launch.nuon",                                  raw,       1800,     "d2df9b15ff144c079934a6af2f5d572b1015f2a974a2d2bc733182a653ab452f", [
+   "yard/picture/launch.nuon"
+  ]],
+ ["yard/picture/qemu.stderr.nuonl",                            container, 429,      "fbd6d851181f980e81deb8a5652447b540674314b48b86e1fd3b41b950feedb8", [
+   "yard/picture/qemu.stderr"
+  ]],
+ ["yard/picture/qemu.stdout.nuonl",                            container, 243,      "29961f257c2dc47255713daa1f0a532b5cb40e7dc4ddff11cb41cac45a279730", [
+   "yard/picture/qemu.stdout"
+  ]],
+ ["yard/picture_candidate/launch.nuon",                        raw,       1820,     "bacc5606c1413564384b8f497fa0d14aafe69796e6f23a489f0a4c79eb52e6ff", [
+   "yard/picture_candidate/launch.nuon"
+  ]],
+ ["yard/picture_candidate/qemu.stderr.nuonl",                  container, 429,      "e995d53b8e9249a4485755403fffb1f59905b733d3fc7bce0cca470ddf4629d4", [
+   "yard/picture_candidate/qemu.stderr"
+  ]],
+ ["yard/picture_candidate/qemu.stdout.nuonl",                  container, 243,      "e4dee003ddb8387f61a144b3af0d20a4eff2c8a348000508ccceeb50f4dc2af5", [
+   "yard/picture_candidate/qemu.stdout"
+  ]],
+ ["yard/pose.nuon",                                            raw,       9086,     "8339add89666d94328afab2309228c8ab34820ea6bb0fa2067f8daa8a9fac8b2", [
+   "yard/pose.nuon"
+  ]],
+ ["archive.tar.xz",                                            archive,   18438600, "e1e08f01fc1249b184dcd0b9ccc8a7f297a7fe799880b419d2f6b1559b439136", [
+   "android_near/levels/api.out",
+   "android_near/levels/debug.log",
+   "android_near/levels/qemu.log",
+   "android_near/levels/screen.ppm",
+   "android_near/levels/serial.log",
+   "android_near/levels_candidate/api.out",
+   "android_near/levels_candidate/debug.log",
+   "android_near/levels_candidate/qemu.log",
+   "android_near/levels_candidate/screen.ppm",
+   "android_near/levels_candidate/serial.log",
+   "android_near/owner/api.out",
+   "android_near/owner/debug.log",
+   "android_near/owner/qemu.log",
+   "android_near/owner/screen.ppm",
+   "android_near/owner/serial.log",
+   "android_near/picture/api.out",
+   "android_near/picture/debug.log",
+   "android_near/picture/qemu.log",
+   "android_near/picture/screen.ppm",
+   "android_near/picture/serial.log",
+   "android_near/picture_candidate/api.out",
+   "android_near/picture_candidate/debug.log",
+   "android_near/picture_candidate/qemu.log",
+   "android_near/picture_candidate/screen.ppm",
+   "android_near/picture_candidate/serial.log",
+   "bay/levels/api.out",
+   "bay/levels/debug.log",
+   "bay/levels/qemu.log",
+   "bay/levels/screen.ppm",
+   "bay/levels/serial.log",
+   "bay/levels_candidate/api.out",
+   "bay/levels_candidate/debug.log",
+   "bay/levels_candidate/qemu.log",
+   "bay/levels_candidate/screen.ppm",
+   "bay/levels_candidate/serial.log",
+   "bay/owner/api.out",
+   "bay/owner/debug.log",
+   "bay/owner/qemu.log",
+   "bay/owner/screen.ppm",
+   "bay/owner/serial.log",
+   "bay/picture/api.out",
+   "bay/picture/debug.log",
+   "bay/picture/qemu.log",
+   "bay/picture/screen.ppm",
+   "bay/picture/serial.log",
+   "bay/picture_candidate/api.out",
+   "bay/picture_candidate/debug.log",
+   "bay/picture_candidate/qemu.log",
+   "bay/picture_candidate/screen.ppm",
+   "bay/picture_candidate/serial.log",
+   "down/levels/api.out",
+   "down/levels/debug.log",
+   "down/levels/qemu.log",
+   "down/levels/screen.ppm",
+   "down/levels/serial.log",
+   "down/levels_candidate/api.out",
+   "down/levels_candidate/debug.log",
+   "down/levels_candidate/qemu.log",
+   "down/levels_candidate/screen.ppm",
+   "down/levels_candidate/serial.log",
+   "down/owner/api.out",
+   "down/owner/debug.log",
+   "down/owner/qemu.log",
+   "down/owner/screen.ppm",
+   "down/owner/serial.log",
+   "down/picture/api.out",
+   "down/picture/debug.log",
+   "down/picture/qemu.log",
+   "down/picture/screen.ppm",
+   "down/picture/serial.log",
+   "down/picture_candidate/api.out",
+   "down/picture_candidate/debug.log",
+   "down/picture_candidate/qemu.log",
+   "down/picture_candidate/screen.ppm",
+   "down/picture_candidate/serial.log",
+   "exports/export_c804ccb/export.tar",
+   "exports/export_c804ccb/footprint_images.nuon",
+   "exports/export_c804ccb/kit/fierce/program.jab.toml",
+   "exports/export_c804ccb/kit/fierce/release/demand.nuon",
+   "exports/export_c804ccb/kit/fierce/release/fierce.elf",
+   "exports/export_c804ccb/kit/fierce/release/fierce.jab",
+   "exports/export_c804ccb/kit/fierce/release/fierce.o",
+   "exports/export_c804ccb/kit/fierce/release/flags",
+   "exports/export_c804ccb/kit/fierce/release/home",
+   "exports/export_c804ccb/kit/fierce/release/jab_header.S",
+   "exports/export_c804ccb/kit/fierce/release/jab_header.o",
+   "exports/export_c804ccb/kit/fierce/release/jab_manifest.inc",
+   "exports/export_c804ccb/kit/fierce/release/march/march.S",
+   "exports/export_c804ccb/kit/fierce/release/march/march.o",
+   "exports/export_c804ccb/kit/fierce/release/provenance.nuon",
+   "exports/export_c804ccb/kit/fierce/source.nuon",
+   "exports/export_c804ccb/kit/fierce/src/actor.S",
+   "exports/export_c804ccb/kit/fierce/src/body.S",
+   "exports/export_c804ccb/kit/fierce/src/camera.S",
+   "exports/export_c804ccb/kit/fierce/src/census.S",
+   "exports/export_c804ccb/kit/fierce/src/console.S",
+   "exports/export_c804ccb/kit/fierce/src/hud.S",
+   "exports/export_c804ccb/kit/fierce/src/light.S",
+   "exports/export_c804ccb/kit/fierce/src/load.S",
+   "exports/export_c804ccb/kit/fierce/src/main.S",
+   "exports/export_c804ccb/kit/fierce/src/map.inc",
+   "exports/export_c804ccb/kit/fierce/src/mip.S",
+   "exports/export_c804ccb/kit/fierce/src/mixer.S",
+   "exports/export_c804ccb/kit/fierce/src/player.S",
+   "exports/export_c804ccb/kit/fierce/src/raster.S",
+   "exports/export_c804ccb/kit/fierce/src/render.inc",
+   "exports/export_c804ccb/kit/fierce/src/sector.S",
+   "exports/export_c804ccb/kit/fierce/src/snapshot.S",
+   "exports/export_c804ccb/kit/fierce/src/sprite.S",
+   "exports/export_c804ccb/kit/fierce/src/tile.S",
+   "exports/export_c804ccb/kit/fierce/src/trace.S",
+   "exports/export_c804ccb/kit/fierce/src/workers.S",
+   "exports/export_c804ccb/kit/fierce/src/world.S",
+   "exports/export_c804ccb/sdk/src/jab.inc",
+   "exports/export_c804ccb/sdk/src/jab_f32.inc",
+   "exports/export_c804ccb/sdk/src/jab_f64.inc",
+   "exports/export_c804ccb/sdk/src/jab_jobs.inc",
+   "exports/export_c804ccb/sdk/src/jab_keys.inc",
+   "exports/export_c804ccb/sdk/src/jab_pad.inc",
+   "exports/export_c804ccb/sdk/src/jab_rng.inc",
+   "exports/export_c804ccb/sdk/src/program.ld",
+   "exports/export_c804ccb_levels/kit/fierce/debug/demand.nuon",
+   "exports/export_c804ccb_levels/kit/fierce/debug/fierce.elf",
+   "exports/export_c804ccb_levels/kit/fierce/debug/fierce.jab",
+   "exports/export_c804ccb_levels/kit/fierce/debug/fierce.o",
+   "exports/export_c804ccb_levels/kit/fierce/debug/flags",
+   "exports/export_c804ccb_levels/kit/fierce/debug/home",
+   "exports/export_c804ccb_levels/kit/fierce/debug/jab_header.S",
+   "exports/export_c804ccb_levels/kit/fierce/debug/jab_header.o",
+   "exports/export_c804ccb_levels/kit/fierce/debug/jab_manifest.inc",
+   "exports/export_c804ccb_levels/kit/fierce/debug/kernel.bin",
+   "exports/export_c804ccb_levels/kit/fierce/debug/kernel.elf",
+   "exports/export_c804ccb_levels/kit/fierce/debug/march/march.S",
+   "exports/export_c804ccb_levels/kit/fierce/debug/march/march.o",
+   "exports/export_c804ccb_levels/kit/fierce/debug/provenance.nuon",
+   "exports/export_c804ccb_levels/kit/fierce/program.jab.toml",
+   "exports/export_c804ccb_levels/kit/fierce/source.nuon",
+   "exports/export_c804ccb_levels/kit/fierce/src/actor.S",
+   "exports/export_c804ccb_levels/kit/fierce/src/body.S",
+   "exports/export_c804ccb_levels/kit/fierce/src/camera.S",
+   "exports/export_c804ccb_levels/kit/fierce/src/census.S",
+   "exports/export_c804ccb_levels/kit/fierce/src/console.S",
+   "exports/export_c804ccb_levels/kit/fierce/src/hud.S",
+   "exports/export_c804ccb_levels/kit/fierce/src/light.S",
+   "exports/export_c804ccb_levels/kit/fierce/src/load.S",
+   "exports/export_c804ccb_levels/kit/fierce/src/main.S",
+   "exports/export_c804ccb_levels/kit/fierce/src/map.inc",
+   "exports/export_c804ccb_levels/kit/fierce/src/mip.S",
+   "exports/export_c804ccb_levels/kit/fierce/src/mixer.S",
+   "exports/export_c804ccb_levels/kit/fierce/src/player.S",
+   "exports/export_c804ccb_levels/kit/fierce/src/raster.S",
+   "exports/export_c804ccb_levels/kit/fierce/src/render.inc",
+   "exports/export_c804ccb_levels/kit/fierce/src/sector.S",
+   "exports/export_c804ccb_levels/kit/fierce/src/snapshot.S",
+   "exports/export_c804ccb_levels/kit/fierce/src/sprite.S",
+   "exports/export_c804ccb_levels/kit/fierce/src/tile.S",
+   "exports/export_c804ccb_levels/kit/fierce/src/trace.S",
+   "exports/export_c804ccb_levels/kit/fierce/src/workers.S",
+   "exports/export_c804ccb_levels/kit/fierce/src/world.S",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/debug/demand.nuon",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/debug/fierce.elf",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/debug/fierce.jab",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/debug/fierce.o",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/debug/flags",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/debug/home",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/debug/jab_header.S",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/debug/jab_header.o",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/debug/jab_manifest.inc",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/debug/kernel.bin",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/debug/kernel.elf",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/debug/march/march.S",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/debug/march/march.o",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/debug/provenance.nuon",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/program.jab.toml",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/source.nuon",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/src/actor.S",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/src/body.S",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/src/camera.S",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/src/census.S",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/src/console.S",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/src/hud.S",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/src/light.S",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/src/load.S",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/src/main.S",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/src/map.inc",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/src/mip.S",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/src/mixer.S",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/src/player.S",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/src/raster.S",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/src/render.inc",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/src/sector.S",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/src/snapshot.S",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/src/sprite.S",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/src/tile.S",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/src/trace.S",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/src/workers.S",
+   "exports/export_c804ccb_levels_candidate/kit/fierce/src/world.S",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/debug/demand.nuon",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/debug/fierce.elf",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/debug/fierce.jab",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/debug/fierce.o",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/debug/flags",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/debug/home",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/debug/jab_header.S",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/debug/jab_header.o",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/debug/jab_manifest.inc",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/debug/kernel.bin",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/debug/kernel.elf",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/debug/march/march.S",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/debug/march/march.o",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/debug/provenance.nuon",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/program.jab.toml",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/source.nuon",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/src/actor.S",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/src/body.S",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/src/camera.S",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/src/census.S",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/src/console.S",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/src/hud.S",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/src/light.S",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/src/load.S",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/src/main.S",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/src/map.inc",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/src/mip.S",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/src/mixer.S",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/src/player.S",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/src/raster.S",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/src/render.inc",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/src/sector.S",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/src/snapshot.S",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/src/sprite.S",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/src/tile.S",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/src/trace.S",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/src/workers.S",
+   "exports/export_c804ccb_levels_candidate_clamp/kit/fierce/src/world.S",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/debug/demand.nuon",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/debug/fierce.elf",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/debug/fierce.jab",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/debug/fierce.o",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/debug/flags",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/debug/home",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/debug/jab_header.S",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/debug/jab_header.o",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/debug/jab_manifest.inc",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/debug/kernel.bin",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/debug/kernel.elf",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/debug/march/march.S",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/debug/march/march.o",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/debug/provenance.nuon",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/program.jab.toml",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/source.nuon",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/src/actor.S",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/src/body.S",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/src/camera.S",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/src/census.S",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/src/console.S",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/src/hud.S",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/src/light.S",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/src/load.S",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/src/main.S",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/src/map.inc",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/src/mip.S",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/src/mixer.S",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/src/player.S",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/src/raster.S",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/src/render.inc",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/src/sector.S",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/src/snapshot.S",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/src/sprite.S",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/src/tile.S",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/src/trace.S",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/src/workers.S",
+   "exports/export_c804ccb_levels_clamp/kit/fierce/src/world.S",
+   "exports/export_c804ccb_owner/kit/fierce/debug/demand.nuon",
+   "exports/export_c804ccb_owner/kit/fierce/debug/fierce.elf",
+   "exports/export_c804ccb_owner/kit/fierce/debug/fierce.jab",
+   "exports/export_c804ccb_owner/kit/fierce/debug/fierce.o",
+   "exports/export_c804ccb_owner/kit/fierce/debug/flags",
+   "exports/export_c804ccb_owner/kit/fierce/debug/home",
+   "exports/export_c804ccb_owner/kit/fierce/debug/jab_header.S",
+   "exports/export_c804ccb_owner/kit/fierce/debug/jab_header.o",
+   "exports/export_c804ccb_owner/kit/fierce/debug/jab_manifest.inc",
+   "exports/export_c804ccb_owner/kit/fierce/debug/kernel.bin",
+   "exports/export_c804ccb_owner/kit/fierce/debug/kernel.elf",
+   "exports/export_c804ccb_owner/kit/fierce/debug/march/march.S",
+   "exports/export_c804ccb_owner/kit/fierce/debug/march/march.o",
+   "exports/export_c804ccb_owner/kit/fierce/debug/provenance.nuon",
+   "exports/export_c804ccb_owner/kit/fierce/program.jab.toml",
+   "exports/export_c804ccb_owner/kit/fierce/source.nuon",
+   "exports/export_c804ccb_owner/kit/fierce/src/actor.S",
+   "exports/export_c804ccb_owner/kit/fierce/src/body.S",
+   "exports/export_c804ccb_owner/kit/fierce/src/camera.S",
+   "exports/export_c804ccb_owner/kit/fierce/src/census.S",
+   "exports/export_c804ccb_owner/kit/fierce/src/console.S",
+   "exports/export_c804ccb_owner/kit/fierce/src/hud.S",
+   "exports/export_c804ccb_owner/kit/fierce/src/light.S",
+   "exports/export_c804ccb_owner/kit/fierce/src/load.S",
+   "exports/export_c804ccb_owner/kit/fierce/src/main.S",
+   "exports/export_c804ccb_owner/kit/fierce/src/map.inc",
+   "exports/export_c804ccb_owner/kit/fierce/src/mip.S",
+   "exports/export_c804ccb_owner/kit/fierce/src/mixer.S",
+   "exports/export_c804ccb_owner/kit/fierce/src/player.S",
+   "exports/export_c804ccb_owner/kit/fierce/src/raster.S",
+   "exports/export_c804ccb_owner/kit/fierce/src/render.inc",
+   "exports/export_c804ccb_owner/kit/fierce/src/sector.S",
+   "exports/export_c804ccb_owner/kit/fierce/src/snapshot.S",
+   "exports/export_c804ccb_owner/kit/fierce/src/sprite.S",
+   "exports/export_c804ccb_owner/kit/fierce/src/tile.S",
+   "exports/export_c804ccb_owner/kit/fierce/src/trace.S",
+   "exports/export_c804ccb_owner/kit/fierce/src/workers.S",
+   "exports/export_c804ccb_owner/kit/fierce/src/world.S",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/debug/demand.nuon",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/debug/fierce.elf",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/debug/fierce.jab",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/debug/fierce.o",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/debug/flags",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/debug/home",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/debug/jab_header.S",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/debug/jab_header.o",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/debug/jab_manifest.inc",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/debug/kernel.bin",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/debug/kernel.elf",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/debug/march/march.S",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/debug/march/march.o",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/debug/provenance.nuon",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/program.jab.toml",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/source.nuon",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/src/actor.S",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/src/body.S",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/src/camera.S",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/src/census.S",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/src/console.S",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/src/hud.S",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/src/light.S",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/src/load.S",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/src/main.S",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/src/map.inc",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/src/mip.S",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/src/mixer.S",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/src/player.S",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/src/raster.S",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/src/render.inc",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/src/sector.S",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/src/snapshot.S",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/src/sprite.S",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/src/tile.S",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/src/trace.S",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/src/workers.S",
+   "exports/export_c804ccb_owner_clamp/kit/fierce/src/world.S",
+   "exports/export_c804ccb_picture/kit/fierce/debug/demand.nuon",
+   "exports/export_c804ccb_picture/kit/fierce/debug/fierce.elf",
+   "exports/export_c804ccb_picture/kit/fierce/debug/fierce.jab",
+   "exports/export_c804ccb_picture/kit/fierce/debug/fierce.o",
+   "exports/export_c804ccb_picture/kit/fierce/debug/flags",
+   "exports/export_c804ccb_picture/kit/fierce/debug/home",
+   "exports/export_c804ccb_picture/kit/fierce/debug/jab_header.S",
+   "exports/export_c804ccb_picture/kit/fierce/debug/jab_header.o",
+   "exports/export_c804ccb_picture/kit/fierce/debug/jab_manifest.inc",
+   "exports/export_c804ccb_picture/kit/fierce/debug/kernel.bin",
+   "exports/export_c804ccb_picture/kit/fierce/debug/kernel.elf",
+   "exports/export_c804ccb_picture/kit/fierce/debug/march/march.S",
+   "exports/export_c804ccb_picture/kit/fierce/debug/march/march.o",
+   "exports/export_c804ccb_picture/kit/fierce/debug/provenance.nuon",
+   "exports/export_c804ccb_picture/kit/fierce/program.jab.toml",
+   "exports/export_c804ccb_picture/kit/fierce/source.nuon",
+   "exports/export_c804ccb_picture/kit/fierce/src/actor.S",
+   "exports/export_c804ccb_picture/kit/fierce/src/body.S",
+   "exports/export_c804ccb_picture/kit/fierce/src/camera.S",
+   "exports/export_c804ccb_picture/kit/fierce/src/census.S",
+   "exports/export_c804ccb_picture/kit/fierce/src/console.S",
+   "exports/export_c804ccb_picture/kit/fierce/src/hud.S",
+   "exports/export_c804ccb_picture/kit/fierce/src/light.S",
+   "exports/export_c804ccb_picture/kit/fierce/src/load.S",
+   "exports/export_c804ccb_picture/kit/fierce/src/main.S",
+   "exports/export_c804ccb_picture/kit/fierce/src/map.inc",
+   "exports/export_c804ccb_picture/kit/fierce/src/mip.S",
+   "exports/export_c804ccb_picture/kit/fierce/src/mixer.S",
+   "exports/export_c804ccb_picture/kit/fierce/src/player.S",
+   "exports/export_c804ccb_picture/kit/fierce/src/raster.S",
+   "exports/export_c804ccb_picture/kit/fierce/src/render.inc",
+   "exports/export_c804ccb_picture/kit/fierce/src/sector.S",
+   "exports/export_c804ccb_picture/kit/fierce/src/snapshot.S",
+   "exports/export_c804ccb_picture/kit/fierce/src/sprite.S",
+   "exports/export_c804ccb_picture/kit/fierce/src/tile.S",
+   "exports/export_c804ccb_picture/kit/fierce/src/trace.S",
+   "exports/export_c804ccb_picture/kit/fierce/src/workers.S",
+   "exports/export_c804ccb_picture/kit/fierce/src/world.S",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/debug/demand.nuon",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/debug/fierce.elf",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/debug/fierce.jab",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/debug/fierce.o",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/debug/flags",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/debug/home",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/debug/jab_header.S",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/debug/jab_header.o",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/debug/jab_manifest.inc",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/debug/kernel.bin",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/debug/kernel.elf",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/debug/march/march.S",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/debug/march/march.o",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/debug/provenance.nuon",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/program.jab.toml",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/source.nuon",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/src/actor.S",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/src/body.S",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/src/camera.S",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/src/census.S",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/src/console.S",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/src/hud.S",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/src/light.S",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/src/load.S",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/src/main.S",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/src/map.inc",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/src/mip.S",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/src/mixer.S",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/src/player.S",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/src/raster.S",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/src/render.inc",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/src/sector.S",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/src/snapshot.S",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/src/sprite.S",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/src/tile.S",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/src/trace.S",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/src/workers.S",
+   "exports/export_c804ccb_picture_candidate/kit/fierce/src/world.S",
+   "garage/levels/api.out",
+   "garage/levels/debug.log",
+   "garage/levels/qemu.log",
+   "garage/levels/screen.ppm",
+   "garage/levels/serial.log",
+   "garage/levels_candidate/api.out",
+   "garage/levels_candidate/debug.log",
+   "garage/levels_candidate/qemu.log",
+   "garage/levels_candidate/screen.ppm",
+   "garage/levels_candidate/serial.log",
+   "garage/owner/api.out",
+   "garage/owner/debug.log",
+   "garage/owner/qemu.log",
+   "garage/owner/screen.ppm",
+   "garage/owner/serial.log",
+   "garage/picture/api.out",
+   "garage/picture/debug.log",
+   "garage/picture/qemu.log",
+   "garage/picture/screen.ppm",
+   "garage/picture/serial.log",
+   "garage/picture_candidate/api.out",
+   "garage/picture_candidate/debug.log",
+   "garage/picture_candidate/qemu.log",
+   "garage/picture_candidate/screen.ppm",
+   "garage/picture_candidate/serial.log",
+   "garage_far/levels/api.out",
+   "garage_far/levels/debug.log",
+   "garage_far/levels/qemu.log",
+   "garage_far/levels/screen.ppm",
+   "garage_far/levels/serial.log",
+   "garage_far/levels_candidate/api.out",
+   "garage_far/levels_candidate/debug.log",
+   "garage_far/levels_candidate/qemu.log",
+   "garage_far/levels_candidate/screen.ppm",
+   "garage_far/levels_candidate/serial.log",
+   "garage_far/owner/api.out",
+   "garage_far/owner/debug.log",
+   "garage_far/owner/qemu.log",
+   "garage_far/owner/screen.ppm",
+   "garage_far/owner/serial.log",
+   "garage_far/picture/api.out",
+   "garage_far/picture/debug.log",
+   "garage_far/picture/qemu.log",
+   "garage_far/picture/screen.ppm",
+   "garage_far/picture/serial.log",
+   "garage_far/picture_candidate/api.out",
+   "garage_far/picture_candidate/debug.log",
+   "garage_far/picture_candidate/qemu.log",
+   "garage_far/picture_candidate/screen.ppm",
+   "garage_far/picture_candidate/serial.log",
+   "garage_far_clamp/levels_candidate_clamp/api.out",
+   "garage_far_clamp/levels_candidate_clamp/debug.log",
+   "garage_far_clamp/levels_candidate_clamp/qemu.log",
+   "garage_far_clamp/levels_candidate_clamp/screen.ppm",
+   "garage_far_clamp/levels_candidate_clamp/serial.log",
+   "garage_far_clamp/levels_clamp/api.out",
+   "garage_far_clamp/levels_clamp/debug.log",
+   "garage_far_clamp/levels_clamp/qemu.log",
+   "garage_far_clamp/levels_clamp/screen.ppm",
+   "garage_far_clamp/levels_clamp/serial.log",
+   "garage_far_clamp/owner_clamp/api.out",
+   "garage_far_clamp/owner_clamp/debug.log",
+   "garage_far_clamp/owner_clamp/qemu.log",
+   "garage_far_clamp/owner_clamp/screen.ppm",
+   "garage_far_clamp/owner_clamp/serial.log",
+   "r1_door/levels/api.out",
+   "r1_door/levels/debug.log",
+   "r1_door/levels/qemu.log",
+   "r1_door/levels/screen.ppm",
+   "r1_door/levels/serial.log",
+   "r1_door/levels_candidate/api.out",
+   "r1_door/levels_candidate/debug.log",
+   "r1_door/levels_candidate/qemu.log",
+   "r1_door/levels_candidate/screen.ppm",
+   "r1_door/levels_candidate/serial.log",
+   "r1_door/owner/api.out",
+   "r1_door/owner/debug.log",
+   "r1_door/owner/qemu.log",
+   "r1_door/owner/screen.ppm",
+   "r1_door/owner/serial.log",
+   "r1_door/picture/api.out",
+   "r1_door/picture/debug.log",
+   "r1_door/picture/qemu.log",
+   "r1_door/picture/screen.ppm",
+   "r1_door/picture/serial.log",
+   "r1_door/picture_candidate/api.out",
+   "r1_door/picture_candidate/debug.log",
+   "r1_door/picture_candidate/qemu.log",
+   "r1_door/picture_candidate/screen.ppm",
+   "r1_door/picture_candidate/serial.log",
+   "r1_grate/levels/api.out",
+   "r1_grate/levels/debug.log",
+   "r1_grate/levels/qemu.log",
+   "r1_grate/levels/screen.ppm",
+   "r1_grate/levels/serial.log",
+   "r1_grate/levels_candidate/api.out",
+   "r1_grate/levels_candidate/debug.log",
+   "r1_grate/levels_candidate/qemu.log",
+   "r1_grate/levels_candidate/screen.ppm",
+   "r1_grate/levels_candidate/serial.log",
+   "r1_grate/owner/api.out",
+   "r1_grate/owner/debug.log",
+   "r1_grate/owner/qemu.log",
+   "r1_grate/owner/screen.ppm",
+   "r1_grate/owner/serial.log",
+   "r1_grate/picture/api.out",
+   "r1_grate/picture/debug.log",
+   "r1_grate/picture/qemu.log",
+   "r1_grate/picture/screen.ppm",
+   "r1_grate/picture/serial.log",
+   "r1_grate/picture_candidate/api.out",
+   "r1_grate/picture_candidate/debug.log",
+   "r1_grate/picture_candidate/qemu.log",
+   "r1_grate/picture_candidate/screen.ppm",
+   "r1_grate/picture_candidate/serial.log",
+   "r1_landing/levels/api.out",
+   "r1_landing/levels/debug.log",
+   "r1_landing/levels/qemu.log",
+   "r1_landing/levels/screen.ppm",
+   "r1_landing/levels/serial.log",
+   "r1_landing/levels_candidate/api.out",
+   "r1_landing/levels_candidate/debug.log",
+   "r1_landing/levels_candidate/qemu.log",
+   "r1_landing/levels_candidate/screen.ppm",
+   "r1_landing/levels_candidate/serial.log",
+   "r1_landing/owner/api.out",
+   "r1_landing/owner/debug.log",
+   "r1_landing/owner/qemu.log",
+   "r1_landing/owner/screen.ppm",
+   "r1_landing/owner/serial.log",
+   "r1_landing/picture/api.out",
+   "r1_landing/picture/debug.log",
+   "r1_landing/picture/qemu.log",
+   "r1_landing/picture/screen.ppm",
+   "r1_landing/picture/serial.log",
+   "r1_landing/picture_candidate/api.out",
+   "r1_landing/picture_candidate/debug.log",
+   "r1_landing/picture_candidate/qemu.log",
+   "r1_landing/picture_candidate/screen.ppm",
+   "r1_landing/picture_candidate/serial.log",
+   "r1_light/levels/api.out",
+   "r1_light/levels/debug.log",
+   "r1_light/levels/qemu.log",
+   "r1_light/levels/screen.ppm",
+   "r1_light/levels/serial.log",
+   "r1_light/levels_candidate/api.out",
+   "r1_light/levels_candidate/debug.log",
+   "r1_light/levels_candidate/qemu.log",
+   "r1_light/levels_candidate/screen.ppm",
+   "r1_light/levels_candidate/serial.log",
+   "r1_light/owner/api.out",
+   "r1_light/owner/debug.log",
+   "r1_light/owner/qemu.log",
+   "r1_light/owner/screen.ppm",
+   "r1_light/owner/serial.log",
+   "r1_light/picture/api.out",
+   "r1_light/picture/debug.log",
+   "r1_light/picture/qemu.log",
+   "r1_light/picture/screen.ppm",
+   "r1_light/picture/serial.log",
+   "r1_light/picture_candidate/api.out",
+   "r1_light/picture_candidate/debug.log",
+   "r1_light/picture_candidate/qemu.log",
+   "r1_light/picture_candidate/screen.ppm",
+   "r1_light/picture_candidate/serial.log",
+   "r1_ramp/levels/api.out",
+   "r1_ramp/levels/debug.log",
+   "r1_ramp/levels/qemu.log",
+   "r1_ramp/levels/screen.ppm",
+   "r1_ramp/levels/serial.log",
+   "r1_ramp/levels_candidate/api.out",
+   "r1_ramp/levels_candidate/debug.log",
+   "r1_ramp/levels_candidate/qemu.log",
+   "r1_ramp/levels_candidate/screen.ppm",
+   "r1_ramp/levels_candidate/serial.log",
+   "r1_ramp/owner/api.out",
+   "r1_ramp/owner/debug.log",
+   "r1_ramp/owner/qemu.log",
+   "r1_ramp/owner/screen.ppm",
+   "r1_ramp/owner/serial.log",
+   "r1_ramp/picture/api.out",
+   "r1_ramp/picture/debug.log",
+   "r1_ramp/picture/qemu.log",
+   "r1_ramp/picture/screen.ppm",
+   "r1_ramp/picture/serial.log",
+   "r1_ramp/picture_candidate/api.out",
+   "r1_ramp/picture_candidate/debug.log",
+   "r1_ramp/picture_candidate/qemu.log",
+   "r1_ramp/picture_candidate/screen.ppm",
+   "r1_ramp/picture_candidate/serial.log",
+   "r1_spawn/levels/api.out",
+   "r1_spawn/levels/debug.log",
+   "r1_spawn/levels/qemu.log",
+   "r1_spawn/levels/screen.ppm",
+   "r1_spawn/levels/serial.log",
+   "r1_spawn/levels_candidate/api.out",
+   "r1_spawn/levels_candidate/debug.log",
+   "r1_spawn/levels_candidate/qemu.log",
+   "r1_spawn/levels_candidate/screen.ppm",
+   "r1_spawn/levels_candidate/serial.log",
+   "r1_spawn/owner/api.out",
+   "r1_spawn/owner/debug.log",
+   "r1_spawn/owner/qemu.log",
+   "r1_spawn/owner/screen.ppm",
+   "r1_spawn/owner/serial.log",
+   "r1_spawn/picture/api.out",
+   "r1_spawn/picture/debug.log",
+   "r1_spawn/picture/qemu.log",
+   "r1_spawn/picture/screen.ppm",
+   "r1_spawn/picture/serial.log",
+   "r1_spawn/picture_candidate/api.out",
+   "r1_spawn/picture_candidate/debug.log",
+   "r1_spawn/picture_candidate/qemu.log",
+   "r1_spawn/picture_candidate/screen.ppm",
+   "r1_spawn/picture_candidate/serial.log",
+   "r1_window/levels/api.out",
+   "r1_window/levels/debug.log",
+   "r1_window/levels/qemu.log",
+   "r1_window/levels/screen.ppm",
+   "r1_window/levels/serial.log",
+   "r1_window/levels_candidate/api.out",
+   "r1_window/levels_candidate/debug.log",
+   "r1_window/levels_candidate/qemu.log",
+   "r1_window/levels_candidate/screen.ppm",
+   "r1_window/levels_candidate/serial.log",
+   "r1_window/owner/api.out",
+   "r1_window/owner/debug.log",
+   "r1_window/owner/qemu.log",
+   "r1_window/owner/screen.ppm",
+   "r1_window/owner/serial.log",
+   "r1_window/picture/api.out",
+   "r1_window/picture/debug.log",
+   "r1_window/picture/qemu.log",
+   "r1_window/picture/screen.ppm",
+   "r1_window/picture/serial.log",
+   "r1_window/picture_candidate/api.out",
+   "r1_window/picture_candidate/debug.log",
+   "r1_window/picture_candidate/qemu.log",
+   "r1_window/picture_candidate/screen.ppm",
+   "r1_window/picture_candidate/serial.log",
+   "spawn/levels/api.out",
+   "spawn/levels/debug.log",
+   "spawn/levels/qemu.log",
+   "spawn/levels/screen.ppm",
+   "spawn/levels/serial.log",
+   "spawn/levels_candidate/api.out",
+   "spawn/levels_candidate/debug.log",
+   "spawn/levels_candidate/qemu.log",
+   "spawn/levels_candidate/screen.ppm",
+   "spawn/levels_candidate/serial.log",
+   "spawn/owner/api.out",
+   "spawn/owner/debug.log",
+   "spawn/owner/qemu.log",
+   "spawn/owner/screen.ppm",
+   "spawn/owner/serial.log",
+   "spawn/picture/api.out",
+   "spawn/picture/debug.log",
+   "spawn/picture/qemu.log",
+   "spawn/picture/screen.ppm",
+   "spawn/picture/serial.log",
+   "spawn/picture_candidate/api.out",
+   "spawn/picture_candidate/debug.log",
+   "spawn/picture_candidate/qemu.log",
+   "spawn/picture_candidate/screen.ppm",
+   "spawn/picture_candidate/serial.log",
+   "spawn_rolled/levels/api.out",
+   "spawn_rolled/levels/debug.log",
+   "spawn_rolled/levels/qemu.log",
+   "spawn_rolled/levels/screen.ppm",
+   "spawn_rolled/levels/serial.log",
+   "spawn_rolled/levels_candidate/api.out",
+   "spawn_rolled/levels_candidate/debug.log",
+   "spawn_rolled/levels_candidate/qemu.log",
+   "spawn_rolled/levels_candidate/screen.ppm",
+   "spawn_rolled/levels_candidate/serial.log",
+   "spawn_rolled/owner/api.out",
+   "spawn_rolled/owner/debug.log",
+   "spawn_rolled/owner/qemu.log",
+   "spawn_rolled/owner/screen.ppm",
+   "spawn_rolled/owner/serial.log",
+   "spawn_rolled/picture/api.out",
+   "spawn_rolled/picture/debug.log",
+   "spawn_rolled/picture/qemu.log",
+   "spawn_rolled/picture/screen.ppm",
+   "spawn_rolled/picture/serial.log",
+   "spawn_rolled/picture_candidate/api.out",
+   "spawn_rolled/picture_candidate/debug.log",
+   "spawn_rolled/picture_candidate/qemu.log",
+   "spawn_rolled/picture_candidate/screen.ppm",
+   "spawn_rolled/picture_candidate/serial.log",
+   "up/levels/api.out",
+   "up/levels/debug.log",
+   "up/levels/qemu.log",
+   "up/levels/screen.ppm",
+   "up/levels/serial.log",
+   "up/levels_candidate/api.out",
+   "up/levels_candidate/debug.log",
+   "up/levels_candidate/qemu.log",
+   "up/levels_candidate/screen.ppm",
+   "up/levels_candidate/serial.log",
+   "up/owner/api.out",
+   "up/owner/debug.log",
+   "up/owner/qemu.log",
+   "up/owner/screen.ppm",
+   "up/owner/serial.log",
+   "up/picture/api.out",
+   "up/picture/debug.log",
+   "up/picture/qemu.log",
+   "up/picture/screen.ppm",
+   "up/picture/serial.log",
+   "up/picture_candidate/api.out",
+   "up/picture_candidate/debug.log",
+   "up/picture_candidate/qemu.log",
+   "up/picture_candidate/screen.ppm",
+   "up/picture_candidate/serial.log",
+   "wall_edge/levels/api.out",
+   "wall_edge/levels/debug.log",
+   "wall_edge/levels/qemu.log",
+   "wall_edge/levels/screen.ppm",
+   "wall_edge/levels/serial.log",
+   "wall_edge/levels_candidate/api.out",
+   "wall_edge/levels_candidate/debug.log",
+   "wall_edge/levels_candidate/qemu.log",
+   "wall_edge/levels_candidate/screen.ppm",
+   "wall_edge/levels_candidate/serial.log",
+   "wall_edge/owner/api.out",
+   "wall_edge/owner/debug.log",
+   "wall_edge/owner/qemu.log",
+   "wall_edge/owner/screen.ppm",
+   "wall_edge/owner/serial.log",
+   "wall_edge/picture/api.out",
+   "wall_edge/picture/debug.log",
+   "wall_edge/picture/qemu.log",
+   "wall_edge/picture/screen.ppm",
+   "wall_edge/picture/serial.log",
+   "wall_edge/picture_candidate/api.out",
+   "wall_edge/picture_candidate/debug.log",
+   "wall_edge/picture_candidate/qemu.log",
+   "wall_edge/picture_candidate/screen.ppm",
+   "wall_edge/picture_candidate/serial.log",
+   "window/levels/api.out",
+   "window/levels/debug.log",
+   "window/levels/qemu.log",
+   "window/levels/screen.ppm",
+   "window/levels/serial.log",
+   "window/levels_candidate/api.out",
+   "window/levels_candidate/debug.log",
+   "window/levels_candidate/qemu.log",
+   "window/levels_candidate/screen.ppm",
+   "window/levels_candidate/serial.log",
+   "window/owner/api.out",
+   "window/owner/debug.log",
+   "window/owner/qemu.log",
+   "window/owner/screen.ppm",
+   "window/owner/serial.log",
+   "window/picture/api.out",
+   "window/picture/debug.log",
+   "window/picture/qemu.log",
+   "window/picture/screen.ppm",
+   "window/picture/serial.log",
+   "window/picture_candidate/api.out",
+   "window/picture_candidate/debug.log",
+   "window/picture_candidate/qemu.log",
+   "window/picture_candidate/screen.ppm",
+   "window/picture_candidate/serial.log",
+   "yard/levels/api.out",
+   "yard/levels/debug.log",
+   "yard/levels/qemu.log",
+   "yard/levels/screen.ppm",
+   "yard/levels/serial.log",
+   "yard/levels_candidate/api.out",
+   "yard/levels_candidate/debug.log",
+   "yard/levels_candidate/qemu.log",
+   "yard/levels_candidate/screen.ppm",
+   "yard/levels_candidate/serial.log",
+   "yard/owner/api.out",
+   "yard/owner/debug.log",
+   "yard/owner/qemu.log",
+   "yard/owner/screen.ppm",
+   "yard/owner/serial.log",
+   "yard/picture/api.out",
+   "yard/picture/debug.log",
+   "yard/picture/qemu.log",
+   "yard/picture/screen.ppm",
+   "yard/picture/serial.log",
+   "yard/picture_candidate/api.out",
+   "yard/picture_candidate/debug.log",
+   "yard/picture_candidate/qemu.log",
+   "yard/picture_candidate/screen.ppm",
+   "yard/picture_candidate/serial.log"
+  ]]
+]
