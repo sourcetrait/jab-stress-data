@@ -1,0 +1,298 @@
+{
+  run: "/home/box/proj/sourcetrait/jab-stress-data/runs/fps/footprint_levels/20261017T153736",
+  tool: {
+    path: /home/box/proj/sourcetrait/jab/kit/fierce/rust/target/release/footprint,
+    "sha256": "b2cbfedd7c5027965debc22908a0f825bca825345c71cd97f407e80e502be1fe",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    dirty: false
+  },
+  poses: [
+    [pose,         problems,   differences, limits,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                still,                                                                                                                                                                                                                                                                                                                                                    rows_same, pictures_same];
+    [bay,          [
+
+      ], [
+
+      ],  [
+        "levels: its capture carries no span table, so each block's end is read from its pixels",
+        "levels_candidate: its capture carries no span table, so each block's end is read from its pixels",
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/game/fps/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_0/render_0_still.romfs, disk_render_0/tree/render_0_still/tile.nuon differ made again"
+      ], {
+        first: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    [down,         [
+
+      ], [
+
+      ],  [
+        "levels: its capture carries no span table, so each block's end is read from its pixels",
+        "levels_candidate: its capture carries no span table, so each block's end is read from its pixels",
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/game/fps/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_0/render_0_still.romfs, disk_render_0/tree/render_0_still/tile.nuon differ made again"
+      ], {
+        first: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    [garage,       [
+
+      ], [
+
+      ],  [
+        "levels: its capture carries no span table, so each block's end is read from its pixels",
+        "levels_candidate: its capture carries no span table, so each block's end is read from its pixels",
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/game/fps/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_0/render_0_still.romfs, disk_render_0/tree/render_0_still/tile.nuon differ made again"
+      ], {
+        first: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    [garage_far,   [
+
+      ], [
+
+      ],  [
+        "levels: its capture carries no span table, so each block's end is read from its pixels",
+        "levels_candidate: its capture carries no span table, so each block's end is read from its pixels",
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/game/fps/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_0/render_0_still.romfs, disk_render_0/tree/render_0_still/tile.nuon differ made again"
+      ], {
+        first: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    ["r1_door",    [
+
+      ], [
+
+      ],  [
+        "levels: its capture carries no span table, so each block's end is read from its pixels",
+        "levels_candidate: its capture carries no span table, so each block's end is read from its pixels",
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/game/fps/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_1/render_1_still.romfs, disk_render_1/tree/render_1_still/tile.nuon differ made again"
+      ], {
+        first: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+        again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        remade: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    ["r1_grate",   [
+
+      ], [
+
+      ],  [
+        "levels: its capture carries no span table, so each block's end is read from its pixels",
+        "levels_candidate: its capture carries no span table, so each block's end is read from its pixels",
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/game/fps/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_1/render_1_still.romfs, disk_render_1/tree/render_1_still/tile.nuon differ made again"
+      ], {
+        first: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+        again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        remade: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    ["r1_landing", [
+
+      ], [
+
+      ],  [
+        "levels: its capture carries no span table, so each block's end is read from its pixels",
+        "levels_candidate: its capture carries no span table, so each block's end is read from its pixels",
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/game/fps/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_1/render_1_still.romfs, disk_render_1/tree/render_1_still/tile.nuon differ made again"
+      ], {
+        first: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+        again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        remade: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    ["r1_light",   [
+
+      ], [
+
+      ],  [
+        "levels: its capture carries no span table, so each block's end is read from its pixels",
+        "levels_candidate: its capture carries no span table, so each block's end is read from its pixels",
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/game/fps/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_1/render_1_still.romfs, disk_render_1/tree/render_1_still/tile.nuon differ made again"
+      ], {
+        first: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+        again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        remade: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    ["r1_ramp",    [
+
+      ], [
+
+      ],  [
+        "levels: its capture carries no span table, so each block's end is read from its pixels",
+        "levels_candidate: its capture carries no span table, so each block's end is read from its pixels",
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/game/fps/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_1/render_1_still.romfs, disk_render_1/tree/render_1_still/tile.nuon differ made again"
+      ], {
+        first: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+        again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        remade: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    ["r1_spawn",   [
+
+      ], [
+
+      ],  [
+        "levels: its capture carries no span table, so each block's end is read from its pixels",
+        "levels_candidate: its capture carries no span table, so each block's end is read from its pixels",
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/game/fps/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_1/render_1_still.romfs, disk_render_1/tree/render_1_still/tile.nuon differ made again"
+      ], {
+        first: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+        again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        remade: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    ["r1_window",  [
+
+      ], [
+
+      ],  [
+        "levels: its capture carries no span table, so each block's end is read from its pixels",
+        "levels_candidate: its capture carries no span table, so each block's end is read from its pixels",
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/game/fps/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_1/render_1_still.romfs, disk_render_1/tree/render_1_still/tile.nuon differ made again"
+      ], {
+        first: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+        again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        remade: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    [spawn,        [
+
+      ], [
+
+      ],  [
+        "levels: its capture carries no span table, so each block's end is read from its pixels",
+        "levels_candidate: its capture carries no span table, so each block's end is read from its pixels",
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/game/fps/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_0/render_0_still.romfs, disk_render_0/tree/render_0_still/tile.nuon differ made again"
+      ], {
+        first: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    [spawn_rolled, [
+
+      ], [
+
+      ],  [
+        "levels: its capture carries no span table, so each block's end is read from its pixels",
+        "levels_candidate: its capture carries no span table, so each block's end is read from its pixels",
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/game/fps/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_0/render_0_still.romfs, disk_render_0/tree/render_0_still/tile.nuon differ made again"
+      ], {
+        first: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    [up,           [
+
+      ], [
+
+      ],  [
+        "levels: its capture carries no span table, so each block's end is read from its pixels",
+        "levels_candidate: its capture carries no span table, so each block's end is read from its pixels",
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/game/fps/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_0/render_0_still.romfs, disk_render_0/tree/render_0_still/tile.nuon differ made again"
+      ], {
+        first: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    [wall_edge,    [
+
+      ], [
+
+      ],  [
+        "levels: its capture carries no span table, so each block's end is read from its pixels",
+        "levels_candidate: its capture carries no span table, so each block's end is read from its pixels",
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/game/fps/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_0/render_0_still.romfs, disk_render_0/tree/render_0_still/tile.nuon differ made again"
+      ], {
+        first: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    [window,       [
+
+      ], [
+
+      ],  [
+        "levels: its capture carries no span table, so each block's end is read from its pixels",
+        "levels_candidate: its capture carries no span table, so each block's end is read from its pixels",
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/game/fps/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_0/render_0_still.romfs, disk_render_0/tree/render_0_still/tile.nuon differ made again"
+      ], {
+        first: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    [yard,         [
+
+      ], [
+
+      ],  [
+        "levels: its capture carries no span table, so each block's end is read from its pixels",
+        "levels_candidate: its capture carries no span table, so each block's end is read from its pixels",
+        "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/game/fps/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_0/render_0_still.romfs, disk_render_0/tree/render_0_still/tile.nuon differ made again"
+      ], {
+        first: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true]
+  ],
+  reading_changed: [
+
+  ],
+  compared: [
+    judged,
+    sensitive,
+    clamped,
+    declared,
+    secant,
+    today_levels,
+    candidate_levels
+  ],
+  first_lacks: [
+    departure
+  ],
+  first: {
+    whole: null,
+    declared_holds: false,
+    secant_holds: true,
+    departures_hold: null,
+    revised_holds: null,
+    own_sharper: 0
+  },
+  again: {
+    whole: true,
+    declared_holds: false,
+    secant_holds: true,
+    departures_hold: true,
+    revised_holds: true,
+    own_sharper: 0
+  }
+}

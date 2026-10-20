@@ -1,0 +1,234 @@
+{
+  pose: {
+    name: "r1_grate",
+    map: "render_1",
+    x: 9.0,
+    y: 11.0,
+    z: 1.6,
+    yaw: 0,
+    pitch: 0,
+    roll: 0
+  },
+  disk: {
+    name: "render_1_still",
+    tree: "/home/box/tmp/jab-stress/gate/20261017T153736-reread5/out/disk_render_1/tree/render_1_still",
+    disk: "/home/box/tmp/jab-stress/gate/20261017T153736-reread5/out/disk_render_1/render_1_still.romfs",
+    "sha256": "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+    map: "/home/box/tmp/jab-stress/gate/20261017T153736-reread5/out/disk_render_1/tree/render_1_still/map/render_1_still.jabfps.map"
+  },
+  export: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_5631b65",
+  commit: "5631b65372e691904a4f16086174998bb5e6d494",
+  tool: {
+    path: /home/box/proj/sourcetrait/jab/kit/fierce/rust/target/release/footprint,
+    "sha256": "b2cbfedd7c5027965debc22908a0f825bca825345c71cd97f407e80e502be1fe",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    dirty: false
+  },
+  launch: null,
+  rows: [
+    [label,             status, screen,                                                                                                         "screen_sha256",                                                    faults,     binding];
+    [owner,             124,    "/home/box/tmp/jab-stress/gate/20261017T153736-reread5/restoration/tree/r1_grate/owner/screen.ppm",             "a6f125573eec5e1bffde0751be5fb98e12a3e93b4444f4523cc7bee367f4d25b", [
+
+      ], {
+        stamp: 388,
+        from: 349,
+        frame: 388,
+        state: {
+          x: 9.0,
+          y: 11.0,
+          z: 1.600000023841858,
+          yaw: 0.0,
+          pitch: 0.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [levels,            124,    "/home/box/tmp/jab-stress/gate/20261017T153736-reread5/restoration/tree/r1_grate/levels/screen.ppm",            "f973141f6d914d23df59c4e3505a1221d3f0a8c19bd953af07e69c7dd58e106d", [
+
+      ], {
+        stamp: 381,
+        from: 342,
+        frame: 381,
+        state: {
+          x: 9.0,
+          y: 11.0,
+          z: 1.600000023841858,
+          yaw: 0.0,
+          pitch: 0.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [levels_candidate,  124,    "/home/box/tmp/jab-stress/gate/20261017T153736-reread5/restoration/tree/r1_grate/levels_candidate/screen.ppm",  "9acc4b467410243bfe1d940fc9c0bc3e87db7f5093c8c882b50b4022777af536", [
+
+      ], {
+        stamp: 362,
+        from: 326,
+        frame: 362,
+        state: {
+          x: 9.0,
+          y: 11.0,
+          z: 1.600000023841858,
+          yaw: 0.0,
+          pitch: 0.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [picture,           124,    "/home/box/tmp/jab-stress/gate/20261017T153736-reread5/restoration/tree/r1_grate/picture/screen.ppm",           "a40296961409ea4bd438f1ff635d357fc7405a0be6463eda6acf5906c6b6f552", [
+
+      ], {
+        stamp: 410,
+        from: 369,
+        frame: 410,
+        state: {
+          x: 9.0,
+          y: 11.0,
+          z: 1.600000023841858,
+          yaw: 0.0,
+          pitch: 0.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [picture_candidate, 124,    "/home/box/tmp/jab-stress/gate/20261017T153736-reread5/restoration/tree/r1_grate/picture_candidate/screen.ppm", "c01b70c70386773e26763ff0d747380674ff0e35a7e856a1f2587d1751187775", [
+
+      ], {
+        stamp: 388,
+        from: 349,
+        frame: 388,
+        state: {
+          x: 9.0,
+          y: 11.0,
+          z: 1.600000023841858,
+          yaw: 0.0,
+          pitch: 0.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }]
+  ],
+  reference: {
+    camera: {
+      x: 9.0,
+      y: 11.0,
+      z: 1.600000023841858,
+      yaw: 0.0,
+      pitch: 0.0,
+      roll: 0.0
+    },
+    iz_min: 4096,
+    floor_depth: 16384.0,
+    rows: 136355,
+    lumels: {
+      maps: 79,
+      lumels: 13194,
+      unmapped: 0
+    },
+    unread_materials: [
+
+    ],
+    owner: null,
+    population: {
+      blocks: 136355,
+      classes: {
+        judged: 136355,
+        sky: 0,
+        unknown: 0,
+        unread: 0,
+        actor: 0,
+        degenerate: 0,
+        no_end: 0,
+        unpaired: 0
+      },
+      unresolved: 0,
+      sensitive: 1237,
+      clamped: 0,
+      actors: 0
+    },
+    captures: [
+      [file,                                                                                                          blocks, judged, agree,  sharper, coarser, secant_agree, secant_sharper, secant_coarser, levels,                                                                                                                                                 snapshot];
+      ["/home/box/tmp/jab-stress/gate/20261017T153736-reread5/restoration/tree/r1_grate/levels/screen.ppm",           136355, 136355, 136348, 7,       0,       136355,       0,              0,              [
+          131671,
+          4354,
+          330,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ], null],
+      ["/home/box/tmp/jab-stress/gate/20261017T153736-reread5/restoration/tree/r1_grate/levels_candidate/screen.ppm", 136355, 136355, 136348, 7,       0,       136355,       0,              0,              [
+          131673,
+          4352,
+          330,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ], null]
+    ]
+  },
+  pictures: {
+    width: 1920,
+    height: 1080,
+    pixels: 42,
+    regions: [
+      ["x0", "y0", "x1", "y1", pixels, largest];
+      [750,  246,  754,  247,  4,      2],
+      [852,  246,  858,  247,  6,      2],
+      [960,  246,  963,  247,  3,      2],
+      [1166, 246,  1170, 247,  4,      1],
+      [807,  853,  818,  854,  5,      6],
+      [902,  853,  929,  854,  12,     6],
+      [972,  853,  974,  854,  2,      1],
+      [1150, 853,  1156, 854,  6,      12]
+    ]
+  },
+  problems: [
+
+  ],
+  reread: {
+    from: "/home/box/tmp/jab-stress/gate/20261017T153736-reread5/restoration/tree/r1_grate/pose.nuon",
+    first_tool: {
+      path: /home/box/proj/sourcetrait/jab/game/fps/rust/target/release/footprint,
+      "sha256": "17032cdffab40d0929e9f8d9bbd14bf9fec66190ce31092f72679ae0325c9f9d",
+      commit: "42cf49f3d4bf33a8575583759956d825bc8edf93",
+      dirty: false
+    },
+    differences: [
+
+    ],
+    limits: [
+      "levels: its capture carries no span table, so each block's end is read from its pixels",
+      "levels_candidate: its capture carries no span table, so each block's end is read from its pixels",
+      "the copy names its sources relative to the content; remade naming them under /home/box/proj/sourcetrait/jab/game/fps/content, as the capture's checkout did, its every file and its disk are the capture's, where disk_render_1/render_1_still.romfs, disk_render_1/tree/render_1_still/tile.nuon differ made again"
+    ],
+    still: {
+      first: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+      again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+      remade: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+      content: /home/box/proj/sourcetrait/jab/game/fps/content,
+      held: true
+    },
+    "rows_sha256": "fae0a42ff3aeb1e295e166f2f977066eea296bb0dd9a394697dd7ce221d8e1bd",
+    "first_rows_sha256": "358adc22f96509cf1c5a0a1b9b1f63fd979fbb1325488644a1ea7b8be4206e17",
+    rows_same: false,
+    pictures_same: true
+  }
+}

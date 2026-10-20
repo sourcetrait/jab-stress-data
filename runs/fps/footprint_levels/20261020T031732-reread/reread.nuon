@@ -1,0 +1,12 @@
+{
+ run: "/home/box/proj/sourcetrait/jab-stress-data/runs/fps/footprint_levels/20261017T153736",
+ reader: "fps footprint",
+ bin: "/home/box/proj/sourcetrait/jab-stress/nu/bin/nuance/fierce/footprint.nu",
+ words: [
+  reread,
+  "{tree}",
+  "{out}"
+ ],
+ restoration: "e113974082ee6f9d45561856c718d692d2a9b862182aa2c445253800b0b98df0",
+ exit: 0
+}

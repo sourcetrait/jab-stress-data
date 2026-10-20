@@ -1,0 +1,41 @@
+{
+ schema: 2,
+ set: footprint_levels,
+ stamp: "20261020T031732-reread",
+ task: EvidenceRetention,
+ scope: {
+  kind: targeted,
+  ran: 17,
+  of: 17,
+  names: [
+   bay,
+   down,
+   garage,
+   garage_far,
+   "r1_door",
+   "r1_grate",
+   "r1_landing",
+   "r1_light",
+   "r1_ramp",
+   "r1_spawn",
+   "r1_window",
+   spawn,
+   spawn_rolled,
+   up,
+   wall_edge,
+   window,
+   yard
+  ]
+ },
+ builds: [
+  [part,             build,                                      source,   record];
+  ["reader_14ae177", "14ae1779470ce33c46c5cfe2c065450dee7ce99d", checkout, "reread.nuon"],
+  ["jab_c804ccb",    "c804ccbc15a97e36016b9001b2e211b04431f3ed", checkout, "reread.nuon"]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "The first comparison runs/fps/footprint_levels/20261017T153736 read again through a restoration by footprint's reread at jab-stress 14ae177 over jab c804ccb, EvidenceRetention's removal gate, the run's scratch original renamed aside so neither it nor its absolute path was there to read: 17 poses read again, every binding and UART fault the recorded and every picture's regions the recorded; the reading the first's in every field the first reader held (judged, sensitive, clamped, declared, secant, and both captures' levels), the departure, which it held none of, named; whole, the declared criteria failing as recorded, the secant's holding, and the revised criterion holding. Each block table made again by today's reference, which adds class, depth, clamped, and length; checked against the scratch original before it went, 16 equal the first's row for row in every column it held, and yard's, the one view with sky, holds as many blocks, 148,807, ordered and numbered otherwise from its first sky block, its view's reading the first's. The captures carry no span tables, so each block's end is read from its pixels, as at the capture. The two still copies made again from the map's content; their tile.nuon naming each source relative to the content since jab c804ccb, each was remade with its sources rooted under game/fps/content as the capture's checkout compiled it, and every file and each disk was then the recorded (68fad4e6, a25db6de). Cited by the fps subiter's plan/agenda/FrameCeiling/EvidenceRetention.md."
+ },
+ inventory: "4caa9db91e46604f806716696d900c7d42aa3acaf885a372618361041c707e75",
+ storage: "45bcea20dda225273ead96aaa30fba293565a448ff3b588582cd90ac1003de47"
+}
