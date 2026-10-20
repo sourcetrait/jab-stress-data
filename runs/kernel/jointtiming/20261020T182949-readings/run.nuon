@@ -1,0 +1,22 @@
+{
+ schema: 2,
+ set: jointtiming,
+ stamp: "20261020T182949-readings",
+ task: JointTiming,
+ scope: {
+  kind: whole,
+  ran: 144,
+  of: 144
+ },
+ builds: [
+  [part,             build,                                      source,   record];
+  ["reader_1e956e7", "1e956e75da4857454f75d9c290bee8b29d804740", checkout, "readings.nuon"],
+  ["jab_8807a33",    "8807a33159c60f9a2aacb484a7628f473b16c2ba", checkout, "readings.nuon"]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "JointTiming's readings record, made by the timing selector's readings verb, timing.nu readings <spec> <out>, on the long engine from 18:29 to 21:15, over the spec naming the calibration and the guest, display, and walk batteries with the frozen exports by role: every run read anew at the calibrated eps 3,700 from its own records, fps's through jab's gauge, a probed run's shown frames through ProbeRuns' reader, walk's through its guest-only reading. 144 runs, the calibration's 12 and the batteries' 132, all valid. Eight controls: the four shim controls passing; walk's TIMING control passing for P2 prepare and failing for P0 await on both targets, so P0 await's phases read instrumented-only. A host limit admissible on each target, SDL's render interval's median past the guest's presented interval's median by more than half a period on every probed run of both kernels, about 30.0 ms against 16.67. The assembler's identity names jab-stress 1e956e7, its tree dirty with the package verb committed four minutes after the start as b91b9d7, which adds that verb, its module, its srcdoc, and a note line alone, and jab 8807a33 clean. Read by the selector into runs/kernel/jointtiming/20261020T211529-decision. Cited by the kernel subiter's plan/agenda/FourHarts/PresentationContract/JointTiming.md."
+ },
+ inventory: "b0ca33f3978846d78a425d5485c663f81263aeb0e93d6943fdb6d282b88eb0be",
+ storage: "e2c674505095e4f953f1b4e5ff34fb879c1e1a80b6922e2e391c5afa224e809e"
+}

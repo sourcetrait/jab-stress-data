@@ -1,0 +1,5 @@
+[
+ [path,            role,   length, "sha256",                                                           disposition, reason];
+ ["decision.log",  log,    48,     "c65cf86c524c7b07785d4b8bfcb5883d4097da201193e84b3c15a116d19196c8", kept,        ""],
+ ["decision.nuon", record, 12162,  "d730c371fcc5900c89af946f1e07204d501b79a68be87f41937e480261738432", kept,        ""]
+]
