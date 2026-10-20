@@ -1,0 +1,55 @@
+{
+  "schedule_sha256": "8174807d85008d416b65f192d94d1dcd86ede76b84b03fa1b8103f77fe446088",
+  receipt: {
+    token: "395876e2830b898b",
+    outcome: {
+      token: "395876e2830b898b",
+      decision: go,
+      go_utc: "2026-10-20T04:46:51.979000Z"
+    },
+    header: null,
+    actions: [
+      [kind, index, due_ns,      length, accepted, state,    first_ns,    done_ns,     whole_ns, whole];
+      [send, 0,     200000000,   64,     64,       complete, 201586417,   201599605,   null,     null],
+      [send, 1,     200000000,   64,     64,       complete, 201599762,   201602176,   null,     null],
+      [send, 2,     200000000,   64,     64,       complete, 201602306,   201604109,   null,     null],
+      [send, 3,     1500000000,  64,     64,       complete, 1501778299,  1501785051,  null,     null],
+      [pad,  0,     2000000000,  48,     48,       complete, 2001385553,  2001394583,  null,     null],
+      [pad,  1,     5000000000,  48,     48,       complete, 5001090175,  5001096774,  null,     null],
+      [send, 4,     5500000000,  64,     64,       complete, 5500088108,  5500097035,  null,     null],
+      [pad,  2,     6000000000,  48,     48,       complete, 6001293239,  6001298870,  null,     null],
+      [pad,  3,     9000000000,  48,     48,       complete, 9001591822,  9001598406,  null,     null],
+      [send, 5,     9500000000,  64,     64,       complete, 9500985726,  9500992822,  null,     null],
+      [pad,  4,     10000000000, 48,     48,       complete, 10001851091, 10001856826, null,     null],
+      [send, 6,     14400000000, 64,     64,       complete, 14400930607, 14400936314, null,     null],
+      [pad,  5,     14400000000, 48,     48,       complete, 14400936365, 14400938313, null,     null],
+      [quit, 0,     16400000000, 5,      5,        complete, 16401150501, 16401160522, null,     null]
+    ],
+    held: null,
+    readings: [
+
+    ],
+    relays: [
+
+    ],
+    helpers: [
+
+    ],
+    end_ns: 16456948757,
+    cpu_seconds: 22.06,
+    qemu_pid: 1530773,
+    status: 0,
+    signal: null,
+    stdout: "/home/box/tmp/jab-stress/proberuns/20261020-walks/batch/run_1/qemu.stdout",
+    stderr: "/home/box/tmp/jab-stress/proberuns/20261020-walks/batch/run_1/qemu.stderr",
+    failure: null,
+    cancelled_ns: null,
+    startup_ns: 28464680,
+    clock: {
+      origin: go,
+      unit: ns,
+      go_utc: "2026-10-20T04:46:51.979000Z"
+    }
+  },
+  incomplete: null
+}

@@ -1,0 +1,25 @@
+[
+ [path,                           role,   length,  "sha256",                                                           disposition, reason];
+ ["gauge.log",                    log,    2267,    "547fc4f8e63fa6f13db6861152ebcbf472859d880ae0fa4abd22449ec2d06766", kept,        ""],
+ ["gauge.nuon",                   record, 548538,  "99911db2fff8bd0b046199c4ce1b5d82b9f4f6e2b6d5986f1de1ddcb63b4aa9d", kept,        ""],
+ ["pad.nuon",                     record, 183,     "1bc420f3a080a35bc3ee50f4eb680708399d279a1a263c25989ce439f978fada", kept,        ""],
+ ["proberuns.nuon",               record, 23551,   "289f74637626e938e48447c1cd0adf133f169ff5f14cb8d5f1c4b59c96873b8d", kept,        ""],
+ ["render_0.romfs",               build,  2121728, "b851409318428c0e66f8b8e123b0d12433fc7d35682f282e96bfd6bd059aafe3", hash-only,   "the run's disk copy, rebuilt from the map's assets, whose digest the run's identity records (EvidenceRetention)"],
+ ["run_1/api.out",                stream, 534144,  "fe20b128209bea8909ab4e0438a5efc66d87eceb4d19fba17f44db95d9174e27", kept,        ""],
+ ["run_1/bundle/api.out",         stream, 534144,  "fe20b128209bea8909ab4e0438a5efc66d87eceb4d19fba17f44db95d9174e27", kept,        ""],
+ ["run_1/bundle/bundle.nuon",     record, 76040,   "b3def3d3b137a2f5c14a3505361447bdbd99c7ade0348a8c4da75b5f4406aff0", kept,        ""],
+ ["run_1/bundle/classified.nuon", record, 1038703, "5a40a3a642c3e2247d06c122cb84f9bc20435a8ebf5fc286fe89ca06ccce8e0d", kept,        ""],
+ ["run_1/bundle/identity.nuon",   record, 6796,    "d8e8e9411b05097930e3a3519f71b51fbab03a9b568c0469b6ef15cfa568b942", kept,        ""],
+ ["run_1/bundle/sdl.log",         log,    231355,  "7b26d2a113196d3e6e4cf55ff42e92c924c4ae564827d22f7dea3b83f432191e", kept,        ""],
+ ["run_1/bundle/tables/0.nm",     log,    2102803, "674ff798e61990120039408a1b7ca2e006e5812bbb71d6411e9839ae987d821c", kept,        ""],
+ ["run_1/identity.nuon",          record, 6796,    "d8e8e9411b05097930e3a3519f71b51fbab03a9b568c0469b6ef15cfa568b942", kept,        ""],
+ ["run_1/launch.nuon",            record, 2413,    "0dc62ddf8338f78a7135d4b1565b6da9e48342f2f45fd7d5657574dd1101045d", kept,        ""],
+ ["run_1/qemu.log",               log,    0,       "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", kept,        ""],
+ ["run_1/qemu.stderr",            log,    0,       "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", kept,        ""],
+ ["run_1/qemu.stdout",            log,    0,       "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", kept,        ""],
+ ["run_1/route.nuon",             record, 1488,    "6c9fbc625a55ab72476f6405b0e52b69d0b6f69ed97e760ec583dccbf7a39217", kept,        ""],
+ ["run_1/run.nuon",               record, 3076,    "7f4ad74de2356d6ccd8973da19f189235d158857f11fa68d9318da30b54bc40c", kept,        ""],
+ ["run_1/sdl.log",                log,    231355,  "7b26d2a113196d3e6e4cf55ff42e92c924c4ae564827d22f7dea3b83f432191e", kept,        ""],
+ ["run_1/serial.log",             log,    0,       "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", kept,        ""],
+ ["run_1/sound.wav",              stream, 3109248, "4c804671f55ff90ba1d1f544d564d1e23267c146c07692ee9548b18d15f04766", hash-only,   "the run's recording, which no consumer reads (EvidenceRetention)"]
+]

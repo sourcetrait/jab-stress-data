@@ -1,0 +1,30 @@
+{
+ schema: 2,
+ set: proberuns,
+ stamp: "20261020T044651",
+ task: PairBracket,
+ scope: {
+  kind: whole,
+  ran: 1,
+  of: 1
+ },
+ builds: [
+  [part,    build, source, record,                export];
+  ["run_1", null,  export, "run_1/identity.nuon", {
+    name: "export_c804ccb",
+    commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+    provenance: "runs/fierce/export/20261020-baselines/export_c804ccb/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c12d64ac6b47e8c7d90bcf73c4843fedd9464a7e1662ad51d69c79ed42797f9b"
+   }]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "The first probed run at schema 8, `gauge run --sdl-probe` on route_walks on fierce's frozen baseline, export_c804ccb (image 264e7b7c) on kexport_c804ccb (ELF c12d64ac), under the sdl shim, sdl,gl=on offscreen, and under the supervisor, the freeze's launcher: complete and valid at schema 8, 807 frames; its bundle the paired profile's, QEMU's pid and the capture nonce bound and echoed. Read by ProbeRuns' reader at jab-stress 983a8f1 over jab c804ccb, the first pairing on recorded bounds: admitted, 809 presents of 928 uploads, ordinals 2 to 810, the bracket feasible at its best drift -0.43 ppm with a margin of 12,874 ticks, both shifts infeasible; one stall, ordinal 147, an 11.41 ms call against a 1.60 ms median, its upload 0.07 to 1.37 ms into it, on its recorded bound; 448 of 807 frames shown, 55.5 percent, 359 superseded, none repeated, SDL's renders every 30.0 ms. The reading, proberuns.nuon, and the run's gauge log beside the batch. Cited by the fps subiter's plan/agenda/FrameCeiling/FrameCadence/CadenceGauge/ProbeRuns/PairBracket.md."
+ },
+ inventory: "81a1412773f9966d59b17a7e949d9c290b874b178c7f602ed92b98fb8393ab30",
+ storage: "f4c348edce7116f9dd372e908c1443200d842935ed41aefc15e1c156ed724a98"
+}
