@@ -198,6 +198,38 @@ disposition before a run of it lands:
 - `qemu.stdout` and `qemu.stderr`, the child's streams: logs, landed as
   containers where a consumer reads them.
 
+## A reader's outputs
+
+A reader's output is the record a reader writes over a run's originals.
+Each has a model of its own, beside the module that writes it, and a
+landing holds the output to that model before it writes anything. The
+workbench's output table, `nu/nuon/runner/record/outputs.nuon`, names
+each output by its path in a run, the sets it lands in, and its model. A
+problem refuses the landing, and the refusal names it. The outputs held:
+
+- `decision.nuon` and `readings.nuon`, JointTiming's decision and its
+  readings, in `kernel/jointtiming`.
+- `reading.nuon`, the level comparison's reading, in
+  `fierce/footprint_levels`.
+- `qualification.nuon`, a target's qualification record, in
+  `fierce/qualification`.
+- `manifest.nuon` and `compare.nuon`, a fresh build's manifest and its
+  comparison, in `jab/justtonu`.
+- `report.nuon`, the import-map check's report, in `jab/importmap`.
+- `gauge.nuon`, the gauge's report of a batch, in any set: at a run's top,
+  in a battery's step, and in a qualification's `bench/` step.
+
+Some outputs copy another file's record whole, such as a run's identity or
+its measurement. A model states such a copy as its writer writes it now,
+so an output made over records older than its writer's changes would not
+hold. Those outputs are kept as written: a qualification check's
+re-derivation, `check/qualification.nuon`, and the batch reports its
+reread makes under `check/bench/`. Every other record lands as written as
+well, with no model: a build's `flags`, `home`, and sources, and the
+evidence's own records and bytes, such as the launch records and the runs'
+identities. A run that landed before its output had a model keeps that
+output as written.
+
 ## Assets
 
 `assets/<subject>/<purpose>/` holds data that a workbench test or recipe
@@ -260,11 +292,12 @@ repository's history still holds the run.
    the originals: each a `match`, a regular expression over the
    run-relative path, a `disposition`, and a `reason`, the first that
    matches deciding and an original no rule matches kept. The landing
-   writes the run to `runs/<subject>/<set>/<stamp>/`, wrapping each kept
-   log, copying each other kept file, archiving the archived, checks every
-   file against its source's SHA-256, writes the inventory, the storage,
-   and `run.nuon`, and holds the whole run to its record. A landing that
-   fails leaves nothing behind.
+   first holds each reader output to its model (A reader's outputs,
+   above), then writes the run to `runs/<subject>/<set>/<stamp>/`,
+   wrapping each kept log, copying each other kept file, archiving the
+   archived, checks every file against its source's SHA-256, writes the
+   inventory, the storage, and `run.nuon`, and holds the whole run to its
+   record. A landing that fails leaves nothing behind.
 2. Apply the rule to the run's set again. A new whole run becomes
    current, the current run becomes last, and the former last run is
    pruned unless it is cited or is still the latest run of a slice that
