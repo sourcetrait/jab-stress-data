@@ -1,19 +1,19 @@
 {
  contract: {
   file: "/home/box/proj/sourcetrait/jab-stress-data/assets/jab/importmap/contract.nuon",
-  "sha256": "70059256f9103e2429321fff57eb91ea7b8d330fdedef6cd18f904bf846e8090",
+  "sha256": "b82737b95340382f79d7393d2edec03a73f51c42c0d66e63ab0af00885b30f09",
   commits: {
-   jab: "1fb01695b15715a01624a0ecdfd1642c9b4ce543",
-   stress: "674bbbc141c177c4dabdc906fc25ba73830f121f"
+   jab: "e5851a3c70e622f418ef2722cf4286ab2cf20178",
+   stress: "9eff933bdbe2d9be19ef74fa15dfab19a9388ef6"
   }
  },
  trees: {
   jab: {
-   commit: "921d7a9e3a5c035890db3f9e263c77f51d21ba77",
+   commit: "e5851a3c70e622f418ef2722cf4286ab2cf20178",
    dirty: false
   },
   jab-stress: {
-   commit: "91f5955f00046b2c37afe64d73bf255568aa58f6",
+   commit: "9eff933bdbe2d9be19ef74fa15dfab19a9388ef6",
    dirty: false
   }
  },
@@ -32,14 +32,16 @@
   DataModels,
   StressLayout,
   RunnerHooks,
-  JustRetired
+  JustRetired,
+  FrameCeiling,
+  NuLayout
  ],
  checked: {
-  sources: 283,
-  declarations: 2354,
-  contract_defs: 418,
-  imports: 652,
-  consumer_calls: 269
+  sources: 339,
+  declarations: 2821,
+  contract_defs: 419,
+  imports: 827,
+  consumer_calls: 288
  },
  refusals: [
 

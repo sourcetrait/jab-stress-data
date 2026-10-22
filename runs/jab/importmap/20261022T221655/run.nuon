@@ -1,0 +1,21 @@
+{
+ schema: 2,
+ set: importmap,
+ stamp: "20261022T221655",
+ task: JustToNu,
+ scope: {
+  kind: whole,
+  ran: 1,
+  of: 1
+ },
+ builds: [
+  [part, build,                                      source,   record];
+  [run,  "e5851a3c70e622f418ef2722cf4286ab2cf20178", checkout, "report.nuon"]
+ ],
+ kept: {
+  as: current,
+  why: "The import-map checker after the fixes FrameCeiling's step 4 found: jab e5851a3c and jab-stress 9eff933b, both clean, held to the contract re-based for them (jab-stress-data 888c3c1, SHA-256 b82737b9) by jab-stress's `nu/bin/nuance/importmap.nu check`, every group landed: 339 sources, 2821 declarations, 419 contract defs, 827 import edges, and 288 consumer calls, no refusal. The contract was re-based from a check over the same code, its six refusals the fixes' drift owned under FrameCeiling: the SDK's `audio live-backend`, an API call fierce's gauge audio step asks in place of the SDK's internal discovery and audio plan, which the first check over jab 0f33ed1 refused, with its two edges; spec read's and spec data's outputs typed `table`; and test/sound's PERIOD."
+ },
+ inventory: "200ff08871e299fc11f95973c515dcbe9ecea4ab0169f731b8e8385c2f13366f",
+ storage: "6537b8be74217c5dcee1d6239d83ad2e30459835c8dd17729c30e92b473fa0d3"
+}
