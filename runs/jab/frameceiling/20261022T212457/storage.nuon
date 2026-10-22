@@ -1,0 +1,95 @@
+[
+ [object,                                          kind,      length, "sha256",                                                           holds];
+ [fierce_footprint/build/kernel/flags,             raw,       3700,   "34c55abc8745a4de990e21a5e1e4a15651ea06a1b41a672be55ba5bd0a5f0710", [
+   fierce_footprint/build/kernel/flags
+  ]],
+ [fierce_footprint/build/kit/fierce/flags,         raw,       2352,   "9d9dbd8967178af42a78da6dfaf580787d55e73f44c282c77174d21d790c8e5e", [
+   fierce_footprint/build/kit/fierce/flags
+  ]],
+ ["fierce_footprint/run.stderr.nuonl",             container, 239,    "0e1629a808c764d84c7bb895f1dbde1f35bddb1b64d504b1ec8da867c9840251", [
+   "fierce_footprint/run.stderr"
+  ]],
+ ["fierce_footprint/run.stdout.nuonl",             container, 19285,  "cc2d47774769bfbfb67eb797e3d7f5b988fe8040dd4685ffae7d2ae8566824ac", [
+   "fierce_footprint/run.stdout"
+  ]],
+ ["fierce_footprint/step.nuon",                    raw,       3449,   "06bf89d33b963599c9d123a6e9fea2bc77aed4bd12c3c776eb3545ca60fa8d7f", [
+   "fierce_footprint/step.nuon"
+  ]],
+ [fierce_handoff/build/kernel/flags,               raw,       3715,   "7625ddc2c3af325610bd457afebf28216d3a60e94af070f2862f91767a80b3b7", [
+   fierce_handoff/build/kernel/flags
+  ]],
+ [fierce_handoff/build/kit/fierce/flags,           raw,       2367,   "5a79459532c48583a45243021c751ba3ccf166592d9aca856e9166d03327e338", [
+   fierce_handoff/build/kit/fierce/flags
+  ]],
+ ["fierce_handoff/run.stderr.nuonl",               container, 239,    "d5c6785680659bea677b844a2473e0ef31cfb54d575491889d2c8e6ea21680bd", [
+   "fierce_handoff/run.stderr"
+  ]],
+ ["fierce_handoff/run.stdout.nuonl",               container, 23434,  "8852af48fc5d1359ab0324dcfb441c1f3c17cbb669cf364e45ad6801eb4cab83", [
+   "fierce_handoff/run.stdout"
+  ]],
+ ["fierce_handoff/step.nuon",                      raw,       3568,   "a1fe40a2ed42b22b29e65a249b31c391ed4d47c51df59b73c973c76c180f2004", [
+   "fierce_handoff/step.nuon"
+  ]],
+ [fierce_handoff_footprint/build/kernel/flags,     raw,       3736,   "68b38c7956071f1da5d23d399a771444e4035fb0d0e9704de88a0ea8c20cd70d", [
+   fierce_handoff_footprint/build/kernel/flags
+  ]],
+ [fierce_handoff_footprint/build/kit/fierce/flags, raw,       2388,   "29e52c9e33a8a4ac289aa9ae8f3cf19cf5efa610aefa21ed6e6e0bd0b1bec26e", [
+   fierce_handoff_footprint/build/kit/fierce/flags
+  ]],
+ ["fierce_handoff_footprint/run.stderr.nuonl",     container, 239,    "b6524463b0c34c0011016c92ba9a2a6e7d4cd08586cb1931def206464f5b0bbd", [
+   "fierce_handoff_footprint/run.stderr"
+  ]],
+ ["fierce_handoff_footprint/run.stdout.nuonl",     container, 23432,  "364c415a911e089a7c4d108ced0e77338be712dad17a26117d8c719f9009f296", [
+   "fierce_handoff_footprint/run.stdout"
+  ]],
+ ["fierce_handoff_footprint/step.nuon",            raw,       3721,   "bbc0e53885752b21acbe48647baa877935cb124195aa0d5dc2d47bf0cf68055e", [
+   "fierce_handoff_footprint/step.nuon"
+  ]],
+ [fierce_service/build/kernel/flags,               raw,       3698,   "6f61d1624e6fad12187461454c8e04e447a89fed9abcf4958cb3091255aaa2c8", [
+   fierce_service/build/kernel/flags
+  ]],
+ [fierce_service/build/kit/fierce/flags,           raw,       2350,   "360082ba348b388b12df817a5ad5968a056f3a5f6f650325c7342c0a95498fd9", [
+   fierce_service/build/kit/fierce/flags
+  ]],
+ ["fierce_service/run.stderr.nuonl",               container, 239,    "8b4a66e9aa9a987a145749e6390113ca94abd0ff373a9e8d3d63708f6d9f33ba", [
+   "fierce_service/run.stderr"
+  ]],
+ ["fierce_service/run.stdout.nuonl",               container, 6595,   "016c801145de0013ebf0254094cca1fb64583222cb4c3e6e4aca4996e99703fa", [
+   "fierce_service/run.stdout"
+  ]],
+ ["fierce_service/step.nuon",                      raw,       3436,   "47a6af611341dc6234d91c879628bc4db61d0a6d0e21a3326cb5fdfbe4d36568", [
+   "fierce_service/step.nuon"
+  ]],
+ [suite/build/kernel/flags,                        raw,       3679,   "13cb22af6a30ed4181a57be5fe482da3b67b32a9c4b3c5a501715858bc1b01a9", [
+   suite/build/kernel/flags
+  ]],
+ ["suite/run.stderr.nuonl",                        container, 239,    "987b260b2e2557f99f8363d19b6857880032c1318b23ebbccf8fd8025c723473", [
+   "suite/run.stderr"
+  ]],
+ ["suite/run.stdout.nuonl",                        container, 42064,  "ee04b46ef0ad8fec5db84e64b44979131e5d4873d591a1c9b468d3a0a1644349", [
+   "suite/run.stdout"
+  ]],
+ ["suite/step.nuon",                               raw,       1339,   "91c3ba266d3245c92e4f63afecaa4c11724edb2684e13d3bfc436c4108551894", [
+   "suite/step.nuon"
+  ]],
+ ["archive.tar.xz",                                archive,   134576, "85a2599064f6f2cc654d439a451fc2c8b358e073e791d3e3ce530eee00050518", [
+   "fierce_footprint/build/kernel/jab.bin",
+   "fierce_footprint/build/kernel/jab.elf",
+   "fierce_footprint/build/kit/fierce/fierce.elf",
+   "fierce_footprint/build/kit/fierce/fierce.jab",
+   "fierce_handoff/build/kernel/jab.bin",
+   "fierce_handoff/build/kernel/jab.elf",
+   "fierce_handoff/build/kit/fierce/fierce.elf",
+   "fierce_handoff/build/kit/fierce/fierce.jab",
+   "fierce_handoff_footprint/build/kernel/jab.bin",
+   "fierce_handoff_footprint/build/kernel/jab.elf",
+   "fierce_handoff_footprint/build/kit/fierce/fierce.elf",
+   "fierce_handoff_footprint/build/kit/fierce/fierce.jab",
+   "fierce_service/build/kernel/jab.bin",
+   "fierce_service/build/kernel/jab.elf",
+   "fierce_service/build/kit/fierce/fierce.elf",
+   "fierce_service/build/kit/fierce/fierce.jab",
+   "suite/build/kernel/jab.bin",
+   "suite/build/kernel/jab.elf"
+  ]]
+]

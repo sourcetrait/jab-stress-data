@@ -1,0 +1,79 @@
+{
+  name: fierce_service,
+  repo: jab,
+  bin: do,
+  words: [
+    test,
+    kit/fierce,
+    --set,
+    service
+  ],
+  symbols: [
+    DEBUG,
+    SERVICE
+  ],
+  started: "2026-10-22T21:34:57.395090878+00:00",
+  ended: "2026-10-22T21:36:26.241184756+00:00",
+  seconds: 88.845999371,
+  exit: 0,
+  ok: true,
+  checkouts: {
+    jab: {
+      commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+      clean: true
+    },
+    stress: {
+      commit: "d6f3f6a650295ed684de19b9616d330727949cac",
+      clean: true
+    }
+  },
+  kernel_source: {
+    asked: null,
+    last: "51a4956971391cfd45ef6cf6a2fa4aa3223a1b37",
+    equal: null
+  },
+  fixtures: [
+    [repo, path,                                     commit,                                     blob,                                       "sha256"];
+    [jab,  "kit/fierce/nu/mod/suite/mod.nu",         "27c9462bd744f99573e8d72545a14acc16fd8ab0", "67ff5c76b9b71c0f8455e139f22a338ea1184789", "676fa9c68e7c38ed59db0c52f386d6371fff272f2dbded4ca1849630ce31ec70"],
+    [jab,  "kit/fierce/nu/mod/suite/service/mod.nu", "efd615920bdb3f659f745415cbaef99f92634394", "2104c1c3a2187fe2b58c6a81709fd3624feacb4b", "4095747d809ad28b25f5c38cd0925931684fad2a38ca12b3d78049a1992ead4d"]
+  ],
+  kernel: {
+    tree: debug,
+    out: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel",
+    elf: {
+      from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel/jab.elf",
+      kept: "build/kernel/jab.elf",
+      "sha256": "c0e3c7aa5408922cf47b02806a61cae4bce304054627bed5c1c8e8ee3be19339"
+    },
+    flags: "-I src/include -I ../sdk/src --defsym DEBUG=1 --defsym SERVICE=1 -march=rva23s64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+    defined: [
+      DEBUG,
+      SERVICE
+    ],
+    held: true,
+    loaded: {
+      kept: "build/kernel/jab.bin",
+      "sha256": "9cf8934541552bb9c6f75a2d2f1e9b368c70d25bba2536fefefa1188a0d3aaa9"
+    }
+  },
+  programs: [
+    [tree,  out,                                                                  elf,                                                                                                                                                                                                                                        flags,                                                                                                                                                                                                                   defined,                                  held, program,    image];
+    [debug, "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kit/fierce", {
+        from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kit/fierce/fierce.elf",
+        kept: "build/kit/fierce/fierce.elf",
+        "sha256": "f34a7d1689fc0230fbfe7ab20075920e56e343aae9fb437d182d6408065cb292"
+      }, "-I ../../sdk/src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kit/fierce --defsym DEBUG=1 --defsym SERVICE=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-", [
+        DEBUG,
+        SERVICE
+      ], true, kit/fierce, {
+        from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kit/fierce/fierce.jab",
+        kept: "build/kit/fierce/fierce.jab",
+        "sha256": "4321f3b6b11b678de9ee2bc909d774b564fd266946dc53a3d264190d861df5a2"
+      }]
+  ],
+  outs: [
+
+  ],
+  stdout: "run.stdout",
+  stderr: "run.stderr"
+}

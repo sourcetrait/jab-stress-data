@@ -1,0 +1,32 @@
+{
+ schema: 2,
+ set: frameceiling,
+ stamp: "20261022T212457",
+ task: FrameCeiling,
+ scope: {
+  kind: targeted,
+  ran: 5,
+  of: 5,
+  names: [
+   suite,
+   fierce_service,
+   fierce_footprint,
+   fierce_handoff_footprint,
+   fierce_handoff
+  ]
+ },
+ builds: [
+  [part,                     build,                                      source,   record];
+  [suite,                    "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4", checkout, "suite/step.nuon"],
+  [fierce_service,           "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4", checkout, "fierce_service/step.nuon"],
+  [fierce_footprint,         "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4", checkout, "fierce_footprint/step.nuon"],
+  [fierce_handoff_footprint, "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4", checkout, "fierce_handoff_footprint/step.nuon"],
+  [fierce_handoff,           "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4", checkout, "fierce_handoff/step.nuon"]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "FrameCeiling's step 4 evidence at jab d297a6b, P2's landing commit, through jab-stress d6f3f6a's recorded runner on the long engine from 21:24 to 22:07, both checkouts clean at every step, each step its own directory and its step.nuon naming both commits, the symbols each artifact's flags line defines held to the step's, and the kernel's and programs' builds with their SHA-256, every debug kernel's loaded bytes 9cf89345. The root suite through ./do test, JointTiming's followup 5: 45 of 48 programs passed and three failed. test/spectable, the ruled exception: 1KA1's RAM as SPEC.md has it, 3 GiB against asset/spec.nuon's 4, SpecRamCarry's. test/demand: the coreless fixture's refusal raised a type mismatch first, NuLayout's N4 having typed spec read's and spec data's outputs with the spec model's columns, which nushell 0.115.1 enforces where a let binds the value; fixed at jab 10d7faa. kit/fierce: CadenceSchedule at cadence 2 took no trigger press in a wait, its ten triggers 400 ms apart, 24 whole periods, so P2's re-anchoring could leave every press outside the waits; the triggers 410 ms apart at jab 310fc07; the rest of fierce's default suite not run past it. fierce's sets each alone: service, the scene owner's ring fixtures; footprint, the default suite under FOOTPRINT, every case passed, the cadence fixtures at cadence 2 and the regression case's 3,750 of 3,750 pad events and 830 sound periods among them; handoff,count,footprint and handoff,count, the handoff's launches and fixtures within their limits, each of 53 screens a frame of its settled window. All four exit 0. Builds archived; logs and records kept. Cited by the fps subiter's plan/agenda/FrameCeiling.md and its Qualification.md, and the kernel subiter's plan/agenda/FourHarts/PresentationContract/JointTiming.md."
+ },
+ inventory: "ac6ac8d4191de2ddd912fbef7eac5047c3749b87c7445bac645fb2c8e01bfd9b",
+ storage: "3b446e6ea0e3d81df2a56aa9b351acbc78907e550cee3ef92714d0b2b5a01955"
+}
