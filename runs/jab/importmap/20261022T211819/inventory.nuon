@@ -1,0 +1,4 @@
+[
+ [path,          role,   length, "sha256",                                                           disposition, reason];
+ ["report.nuon", record, 926,    "b1338138e74dd59a4ace89f1a3569af92b164587b0057bc274c67cec77ce4ac5", kept,        ""]
+]

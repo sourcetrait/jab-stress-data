@@ -1,0 +1,21 @@
+{
+ schema: 2,
+ set: importmap,
+ stamp: "20261022T211819",
+ task: JustToNu,
+ scope: {
+  kind: whole,
+  ran: 1,
+  of: 1
+ },
+ builds: [
+  [part, build,                                      source,   record];
+  [run,  "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4", checkout, "report.nuon"]
+ ],
+ kept: {
+  as: current,
+  why: "JustToNu's N11: the import-map checker at FrameCeiling's batch, after its fixes and P2's landing, jab d297a6bf and jab-stress d6f3f6a6, both clean, held to the contract re-based for the batch (jab-stress-data dae5f60, SHA-256 99dfbddf) by jab-stress's `nu/bin/nuance/importmap.nu check`, every group landed: 339 sources, 2819 declarations, 418 contract defs, 825 import edges, and 287 consumer calls, no refusal. The contract was re-based from a check over the same code, its 46 refusals the batch's drift owned under FrameCeiling: E9's, F2's, and N1's new declarations, the frame rule's fixture renamed, framecap's deadline model retired, and 29 signatures, N4's typing among them."
+ },
+ inventory: "cb2cb1da24c122475294dfe642f205948cef3b75fa959fa03fdf6680644f3d58",
+ storage: "cd98c5209ca016bd1be134a8f7588b5e20f43b4ceec5058091def07e04981d90"
+}
