@@ -1,0 +1,84 @@
+[
+ [object,                                                kind,      length,  "sha256",                                                           holds];
+ [build/kernel/flags,                                    raw,       3662,    "47dce9d2899fbf6c0a063ba49e799fc48ba67882fe913c1c656216094a9cab38", [
+   build/kernel/flags
+  ]],
+ ["out_0/20261022-230504/audio/run_1/audio.nuon",        raw,       879,     "1b4531fc78d890dc8ed460fe0ef03df4b5f077af2e58534838bd6530685878d9", [
+   "out_0/20261022-230504/audio/run_1/audio.nuon"
+  ]],
+ ["out_0/20261022-230504/audio/run_1/debug.log.nuonl",   container, 162841,  "b733b2f5be74c0fee7d79b372410de971256aca4798f8a502292fd244597cbe0", [
+   "out_0/20261022-230504/audio/run_1/debug.log"
+  ]],
+ ["out_0/20261022-230504/audio/run_1/identity.nuon",     raw,       3871,    "3ecdd26ac65a28edf5866dba13a6b641d964e08d3ba3a013c03aac8fa8513349", [
+   "out_0/20261022-230504/audio/run_1/identity.nuon"
+  ]],
+ ["out_0/20261022-230504/audio/run_1/qemu.log.nuonl",    container, 229,     "3151b654ee06fb15e5a89fd3aff45c8b18f77feb29255df3694897b52be107cd", [
+   "out_0/20261022-230504/audio/run_1/qemu.log"
+  ]],
+ ["out_0/20261022-230504/audio/run_1/qemu.stderr.nuonl", container, 238,     "6e9a69319bec789ec684359c9db711737904aef14045a15262247104ae433b50", [
+   "out_0/20261022-230504/audio/run_1/qemu.stderr"
+  ]],
+ ["out_0/20261022-230504/audio/run_1/qemu.stdout.nuonl", container, 238,     "32660d114dc3c026bf619099d174f60a1c7fc6993550a1dffcea310b428cc956", [
+   "out_0/20261022-230504/audio/run_1/qemu.stdout"
+  ]],
+ ["out_0/20261022-230504/audio/run_1/run.nuon",          raw,       4153,    "ea1c318404e206273223517d07ab49e6248fdbaf1c991a274ba6b1c8b76cc3c3", [
+   "out_0/20261022-230504/audio/run_1/run.nuon"
+  ]],
+ ["out_0/20261022-230504/audio/run_1/serial.log.nuonl",  container, 24555,   "e45b9b795715fecdf714c94db18a5283496d26cc44cfdef61e0039a7e0abb19c", [
+   "out_0/20261022-230504/audio/run_1/serial.log"
+  ]],
+ ["out_0/20261022-230504/bench.nuon",                    raw,       2799,    "379da021f065b3678163892966907dea30b7f71614263d78ea6a87b1e693a18f", [
+   "out_0/20261022-230504/bench.nuon"
+  ]],
+ ["out_0/20261022-230504/build/debug/demand.nuon",       raw,       189,     "eaab221fc39ee2a943770537e8589f0d053ed294f17a04097193d577d93882a1", [
+   "out_0/20261022-230504/build/debug/demand.nuon"
+  ]],
+ ["out_0/20261022-230504/build/debug/flags",             raw,       2403,    "cfdadbf35873c7caca28357e1a1692bf8247c546c8bb998dd24dc23e5fae4b1a", [
+   "out_0/20261022-230504/build/debug/flags"
+  ]],
+ ["out_0/20261022-230504/build/debug/home",              raw,       41,      "17ed821ff9f09104de4525e0737e3aeb637068ded5dc8d7cbb3347701f86fc27", [
+   "out_0/20261022-230504/build/debug/home"
+  ]],
+ ["out_0/20261022-230504/build/service/demand.nuon",     raw,       189,     "f846eb430d8fc65a1fbe3f53fc252a853234c28c4c99d9e00c8feb4ac51e539c", [
+   "out_0/20261022-230504/build/service/demand.nuon"
+  ]],
+ ["out_0/20261022-230504/build/service/flags",           raw,       2411,    "adb2efd6ef4c3a0ca95d10d3bb3530a8faf624f6608cd5a7e3594908676cab8c", [
+   "out_0/20261022-230504/build/service/flags"
+  ]],
+ ["out_0/20261022-230504/build/service/home",            raw,       41,      "17ed821ff9f09104de4525e0737e3aeb637068ded5dc8d7cbb3347701f86fc27", [
+   "out_0/20261022-230504/build/service/home"
+  ]],
+ ["out_0/20261022-230504/report.nuon",                   raw,       2593,    "a069371647818dcdc1b93fee50c6b5a2c6de5f1963e37fda88248a080b16e2ed", [
+   "out_0/20261022-230504/report.nuon"
+  ]],
+ ["out_0/20261022-230504/report.txt.nuonl",              container, 1479,    "082a8bd2fe97ac1d9cd21bf40fcb3f57575f0d4dd8563e6a922c1b7886cdbc1a", [
+   "out_0/20261022-230504/report.txt"
+  ]],
+ ["out_0/state.nuon",                                    raw,       270,     "f7f32a25411d85d88a1412df8f75b97d16bb9757604d705c347ba338efbd4b0c", [
+   "out_0/state.nuon"
+  ]],
+ ["run.stderr.nuonl",                                    container, 238,     "c4b83cb90c3b3142811e4d5777309cc29cc52e66f409d6c434d444fabfe82642", [
+   "run.stderr"
+  ]],
+ ["run.stdout.nuonl",                                    container, 8636,    "dcd9e05212cce4a88b45324bd93e02a44c5c942e6db974506eae62e4e9b5ef48", [
+   "run.stdout"
+  ]],
+ ["step.nuon",                                           raw,       1900,    "ff64388a57986b85848f8340345a16c2d5a3a7d5aa6b8646995c9351fb72f848", [
+   "step.nuon"
+  ]],
+ ["archive.tar.xz",                                      archive,   1859944, "b42c020611ea334bbcda406e9afa9df52d234d68cb72db5d0ad6a7eea2ff4168", [
+   "build/kernel/jab.bin",
+   "build/kernel/jab.elf",
+   "out_0/20261022-230504/audio/gauge.nuon",
+   "out_0/20261022-230504/audio/run_1/api.out",
+   "out_0/20261022-230504/audio/run_1/launch.nuon",
+   "out_0/20261022-230504/audio/run_1/sound.wav",
+   "out_0/20261022-230504/audio/run_1/table.nuon",
+   "out_0/20261022-230504/build/debug/fierce.elf",
+   "out_0/20261022-230504/build/debug/fierce.jab",
+   "out_0/20261022-230504/build/debug/jab.elf",
+   "out_0/20261022-230504/build/service/fierce.elf",
+   "out_0/20261022-230504/build/service/fierce.jab",
+   "out_0/20261022-230504/build/service/jab.elf"
+  ]]
+]

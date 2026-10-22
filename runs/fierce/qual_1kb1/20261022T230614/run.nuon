@@ -1,0 +1,24 @@
+{
+ schema: 2,
+ set: "qual_1kb1",
+ stamp: "20261022T230614",
+ task: Qualification,
+ scope: {
+  kind: targeted,
+  ran: 1,
+  of: 14,
+  names: [
+   audio
+  ]
+ },
+ builds: [
+  [part,  build,                                      source,   record];
+  [audio, "e5851a3c70e622f418ef2722cf4286ab2cf20178", checkout, "step.nuon"]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "Qualification's F5 fix shown on the box: ./do bench kit/fierce/qual_1kb1 --only audio at jab e5851a3 through jab-stress 9eff933's recorded runner, both checkouts clean, kernel/ and sdk/src equal to d297a6b's, run alone with XDG_CACHE_HOME a fresh directory, JAB_DISPLAY sdl,gl=on and SDL_VIDEODRIVER offscreen. The audio step's debug run under --host found no output through the SDK's audio live-backend and recorded with --sound, the matrix's row on the box. Its reading held: the pad's 3,750 events accepted and taken, none dropped; the sound's 825 periods submitted and returned, none failed, none exhausted; QEMU dropped no report; 201 windows of 50 ms read from 0.95 s to 11.0 s, none quiet. Cited by the fps subiter's plan/agenda/FrameCeiling/Qualification.md."
+ },
+ inventory: "9e4931d906dabafd9582f3646d7249437589b44b72ae2c47841ea1ac6290d444",
+ storage: "c6b7e076f151d0d3b418600a05a5310e1c9b97707d89cc9ed269eea994d65a5b"
+}

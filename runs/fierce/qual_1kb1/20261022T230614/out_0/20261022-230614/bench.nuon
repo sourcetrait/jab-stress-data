@@ -1,0 +1,36 @@
+{
+  bench: "kit/fierce/qual_1kb1",
+  summary: "the qualification on 1KB1: the factory route twice, your play, the probed batches and their shim control, two workers against the automatic choice, the service active, the audio's debug run",
+  tree: release,
+  stamp: "20261022-230614",
+  started: "2026-10-22T23:06:14",
+  file: "/home/box/proj/sourcetrait/jab/kit/fierce/bench/qual_1kb1.nuon",
+  "file_sha256": "0ba396916eeb55673a547c7fd64ce05661a7b2f8ccc73eed73ef57c15dd39c58",
+  build: tree,
+  package: null,
+  build_root: "/home/box/tmp/jab-stress/frameceiling/audio_cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1kb1/20261022-230614/build",
+  builds: [
+    [name,    set,     dir,                                                                                                                                  "image_sha256",                                                     "elf_sha256",                                                       "kernel_sha256"];
+    [service, service, "/home/box/tmp/jab-stress/frameceiling/audio_cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1kb1/20261022-230614/build/service", "55762a95a1cd5372f9d6ee673657f9b1ec6e16ca049c285dad67fd99793ebce9", "c93d1d53db1d37b9419f807f8a19583574afff3c81482cc5ffcd9a8804253b4b", "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"],
+    [debug,   debug,   "/home/box/tmp/jab-stress/frameceiling/audio_cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1kb1/20261022-230614/build/debug",   "899d98270cbea2d09e14dbcf04ab34b58ad1bf1c988cf10008619058c8975498", "0b1b196e3c35ea2018d4a52b6d989cd29d4c10086cc1872541829cb0edd0af93", "dbf39b5c9ddb8464774c6d0f648bd5f29931752da19503a8455f1c2f34c591ef"]
+  ],
+  steps: [
+    [label, attend, gate,  run,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             state, exit, seconds];
+    [audio, null,   false, [
+        "nu/bin/nuance.nu",
+        gauge,
+        audio,
+        --tree,
+        debug,
+        --image,
+        "/home/box/tmp/jab-stress/frameceiling/audio_cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1kb1/20261022-230614/build/debug/fierce.jab",
+        --kernel,
+        "/home/box/tmp/jab-stress/frameceiling/audio_cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1kb1/20261022-230614/build/debug/jab.elf",
+        --host,
+        --spec,
+        "1kb1"
+      ], done,  0,    48.0]
+  ],
+  report: 0,
+  state: done
+}

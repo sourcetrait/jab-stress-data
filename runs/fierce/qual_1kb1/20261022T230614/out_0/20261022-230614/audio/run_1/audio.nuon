@@ -1,0 +1,81 @@
+{
+  sent: 3750,
+  trace_listed: true,
+  queue_full: 0,
+  complaints: [
+
+  ],
+  status: 0,
+  faults: [
+
+  ],
+  pads: 1,
+  pad: {
+    accepted: 3750,
+    taken: 3750,
+    dropped: 0
+  },
+  sounds: 1,
+  sound: {
+    submitted: 825,
+    returned: 825,
+    failed: 0,
+    exhausted: 0
+  },
+  recorded: true,
+  windows: {
+    windows: 329,
+    first: 19,
+    heard_from: 0.9500000000000001,
+    reached: true,
+    read: 201,
+    quiet: [
+
+    ],
+    first_peaks: [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6859,
+      5257,
+      286,
+      92,
+      125,
+      175,
+      255,
+      282,
+      318,
+      6302,
+      3080,
+      547,
+      585,
+      593,
+      655,
+      639,
+      606,
+      6102,
+      3721,
+      745,
+      926
+    ]
+  },
+  problems: [
+
+  ]
+}

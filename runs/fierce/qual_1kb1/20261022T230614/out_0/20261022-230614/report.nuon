@@ -1,0 +1,130 @@
+{
+ bench: "kit/fierce/qual_1kb1",
+ stamp: "20261022-230614",
+ dir: "/home/box/tmp/jab-stress/frameceiling/audio_cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1kb1/20261022-230614",
+ steps: [
+  [label, state, file];
+  [audio, done,  "/home/box/tmp/jab-stress/frameceiling/audio_cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1kb1/20261022-230614/audio/gauge.nuon"]
+ ],
+ runs: [
+  [label, run, seed, kind,  selection, cadence, workers, grain, period_us,          machine,                                                                                                                                                                                                                                                                                                                                                                    qemu,                           standing, reasons];
+  [audio, 1,   null, audio, automatic, null,    null,    null,  16666.666666666668, {
+    harts: 7,
+    ram_gib: 8,
+    spec: {
+     name: "1kb1",
+     cores: 7,
+     ram_gib: 8,
+     display: {
+      width: 1920,
+      height: 1080
+     }
+    },
+    diagnostic: null,
+    machine: "virt,aia=aplic-imsic,aclint=on",
+    cpu: "rva23s64,pmp=true",
+    accel: "tcg,thread=multi",
+    overrides: [
+     -trace,
+     virtio_input_queue_full
+    ]
+   }, "QEMU emulator version 11.1.2", unpaired, [
+    "unseeded: no seed answered before the first frame",
+    "no cadence asked before the first frame",
+    "the identity asks no cadence"
+   ]]
+ ],
+ groups: [
+
+ ],
+ compared: [
+
+ ],
+ services: [
+
+ ],
+ audio: [
+  [label, run, standing, reading];
+  [audio, 1,   unpaired, {
+    sent: 3750,
+    trace_listed: true,
+    queue_full: 0,
+    complaints: [
+
+    ],
+    status: 0,
+    faults: [
+
+    ],
+    pads: 1,
+    pad: {
+     accepted: 3750,
+     taken: 3750,
+     dropped: 0
+    },
+    sounds: 1,
+    sound: {
+     submitted: 825,
+     returned: 825,
+     failed: 0,
+     exhausted: 0
+    },
+    recorded: true,
+    windows: {
+     windows: 329,
+     first: 19,
+     heard_from: 0.9500000000000001,
+     reached: true,
+     read: 201,
+     quiet: [
+
+     ],
+     first_peaks: [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6859,
+      5257,
+      286,
+      92,
+      125,
+      175,
+      255,
+      282,
+      318,
+      6302,
+      3080,
+      547,
+      585,
+      593,
+      655,
+      639,
+      606,
+      6102,
+      3721,
+      745,
+      926
+     ]
+    },
+    problems: [
+
+    ]
+   }]
+ ]
+}
