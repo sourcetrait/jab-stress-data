@@ -1,0 +1,43 @@
+{
+ schema: 2,
+ set: footprint_levels,
+ stamp: "20261022T180520-reread",
+ task: ClampedReference,
+ scope: {
+  kind: targeted,
+  ran: 19,
+  of: 19,
+  names: [
+   android_near,
+   bay,
+   down,
+   garage,
+   garage_far,
+   garage_far_clamp,
+   "r1_door",
+   "r1_grate",
+   "r1_landing",
+   "r1_light",
+   "r1_ramp",
+   "r1_spawn",
+   "r1_window",
+   spawn,
+   spawn_rolled,
+   up,
+   wall_edge,
+   window,
+   yard
+  ]
+ },
+ builds: [
+  [part,             build,                                      source,   record];
+  ["reader_b6a8ea2", "b6a8ea2f94edca117ab31936f0f9204b3c206dbe", checkout, "reread.nuon"],
+  ["jab_bff4e02",    "bff4e028ca12e3b58e2771dab9e82f66fadf3f31", checkout, "again.nuon"]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "The current capture runs/fierce/footprint_levels/20261020T045854 read again through a restoration by footprint's reread at jab-stress b6a8ea2 over jab bff4e02's footprint crate, against the pose set at jab-stress-data d018095, under ClampedReference's F2 fix: every view's witnesses read from the pose set, the clamp pose's derivative witness, row 656 at x0 485 with the held down term 2.5568997033302754, among them, and each view's floor recorded. 19 poses read again, every block table the first's byte for byte, every still copy the capture's, and no binding or UART fault differing; the reading unchanged from the first in every view's judged, band, clamped, resolved, verdict, departure, and level fields, the first lacking the floors; whole, the declared criteria failing as recorded and the revised criterion holding; garage_far_clamp resolved, 55,710 blocks clamped at IZ_MIN 12,201,612, 5.5 m deep, with both witnesses held, and every other view at IZ_MIN 4096, 16,384 m deep, none clamped. reread.nuon's identity was taken as the reread ended, its checkouts then holding later uncommitted work, so it names jab-stress b6a8ea2 and jab bff4e02 dirty; the reader that ran is b6a8ea2's, and the crate's identity in again.nuon was taken as the reread started; runner reread takes its identity first since jab-stress 0136e0c. Cited by the fps subiter's plan/agenda/FrameCeiling/FootprintEstimate/ClampedReference.md."
+ },
+ inventory: "7784a7b095a64021614a7cc21ede2304c028a823270caf545522d45740a2fd60",
+ storage: "d37cf14d247368ef5876cb1270dd2d8546572c5f1a8c0487c26914a4de21fcf9"
+}

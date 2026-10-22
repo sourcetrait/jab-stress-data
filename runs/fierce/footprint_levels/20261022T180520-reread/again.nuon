@@ -1,0 +1,293 @@
+{
+  run: "/home/box/proj/sourcetrait/jab-stress-data/runs/fierce/footprint_levels/20261020T045854",
+  tool: {
+    path: /home/box/proj/sourcetrait/jab/kit/fierce/rust/target/release/footprint,
+    "sha256": "b2cbfedd7c5027965debc22908a0f825bca825345c71cd97f407e80e502be1fe",
+    commit: "bff4e028ca12e3b58e2771dab9e82f66fadf3f31",
+    dirty: false
+  },
+  poses: [
+    [pose,             problems,   differences, no_span_table, still,                                                                                                                                                                                                                                           rows_same, pictures_same];
+    [android_near,     [
+
+      ], [
+
+      ],  [
+
+      ],    {
+        first: "7a89ae1fdc39a70bd23007f3aaeea18f9fbfc995c23a5e21d002f9305c7164f9",
+        again: "7a89ae1fdc39a70bd23007f3aaeea18f9fbfc995c23a5e21d002f9305c7164f9",
+        remade: null,
+        content: null,
+        held: true
+      }, true,      true],
+    [bay,              [
+
+      ], [
+
+      ],  [
+
+      ],    {
+        first: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: null,
+        content: null,
+        held: true
+      }, true,      true],
+    [down,             [
+
+      ], [
+
+      ],  [
+
+      ],    {
+        first: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: null,
+        content: null,
+        held: true
+      }, true,      true],
+    [garage,           [
+
+      ], [
+
+      ],  [
+
+      ],    {
+        first: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: null,
+        content: null,
+        held: true
+      }, true,      true],
+    [garage_far,       [
+
+      ], [
+
+      ],  [
+
+      ],    {
+        first: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: null,
+        content: null,
+        held: true
+      }, true,      true],
+    [garage_far_clamp, [
+
+      ], [
+
+      ],  [
+
+      ],    {
+        first: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: null,
+        content: null,
+        held: true
+      }, true,      null],
+    ["r1_door",        [
+
+      ], [
+
+      ],  [
+
+      ],    {
+        first: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        remade: null,
+        content: null,
+        held: true
+      }, true,      true],
+    ["r1_grate",       [
+
+      ], [
+
+      ],  [
+
+      ],    {
+        first: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        remade: null,
+        content: null,
+        held: true
+      }, true,      true],
+    ["r1_landing",     [
+
+      ], [
+
+      ],  [
+
+      ],    {
+        first: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        remade: null,
+        content: null,
+        held: true
+      }, true,      true],
+    ["r1_light",       [
+
+      ], [
+
+      ],  [
+
+      ],    {
+        first: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        remade: null,
+        content: null,
+        held: true
+      }, true,      true],
+    ["r1_ramp",        [
+
+      ], [
+
+      ],  [
+
+      ],    {
+        first: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        remade: null,
+        content: null,
+        held: true
+      }, true,      true],
+    ["r1_spawn",       [
+
+      ], [
+
+      ],  [
+
+      ],    {
+        first: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        remade: null,
+        content: null,
+        held: true
+      }, true,      true],
+    ["r1_window",      [
+
+      ], [
+
+      ],  [
+
+      ],    {
+        first: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        remade: null,
+        content: null,
+        held: true
+      }, true,      true],
+    [spawn,            [
+
+      ], [
+
+      ],  [
+
+      ],    {
+        first: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: null,
+        content: null,
+        held: true
+      }, true,      true],
+    [spawn_rolled,     [
+
+      ], [
+
+      ],  [
+
+      ],    {
+        first: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: null,
+        content: null,
+        held: true
+      }, true,      true],
+    [up,               [
+
+      ], [
+
+      ],  [
+
+      ],    {
+        first: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: null,
+        content: null,
+        held: true
+      }, true,      true],
+    [wall_edge,        [
+
+      ], [
+
+      ],  [
+
+      ],    {
+        first: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: null,
+        content: null,
+        held: true
+      }, true,      true],
+    [window,           [
+
+      ], [
+
+      ],  [
+
+      ],    {
+        first: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: null,
+        content: null,
+        held: true
+      }, true,      true],
+    [yard,             [
+
+      ], [
+
+      ],  [
+
+      ],    {
+        first: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: null,
+        content: null,
+        held: true
+      }, true,      true]
+  ],
+  reading_changed: [
+
+  ],
+  compared: [
+    judged,
+    sensitive,
+    clamped,
+    resolved,
+    declared,
+    secant,
+    departure,
+    today_levels,
+    candidate_levels
+  ],
+  first_lacks: [
+    iz_min,
+    floor_depth
+  ],
+  first: {
+    whole: true,
+    declared_holds: false,
+    secant_holds: true,
+    departures_hold: true,
+    revised_holds: true,
+    own_sharper: 0
+  },
+  again: {
+    whole: true,
+    declared_holds: false,
+    secant_holds: true,
+    departures_hold: true,
+    revised_holds: true,
+    own_sharper: 0
+  }
+}
