@@ -1,0 +1,165 @@
+{
+  launched: true,
+  schemas: [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  clock: "the guest's time counter, JAB_TIME_HZ ticks a second, as microseconds; a start and a flip's end since the program's start",
+  written: "2026-10-22T22:55:39+0000",
+  workspace: {
+    dir: /home/box/proj/sourcetrait/jab,
+    commit: "e5851a3",
+    dirty: false
+  },
+  program: {
+    dir: "/home/box/tmp/jab-stress/frameceiling/hostpackage_fresh/pkg/qual_1ka1-e5851a3c70/fierce",
+    commit: "e5851a3c70e622f418ef2722cf4286ab2cf20178",
+    dirty: null,
+    from: "source.nuon"
+  },
+  build: {
+    tree: release,
+    set: "",
+    flags: "-I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e5851a3/sdk/src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e5851a3/kit/fierce/release --defsym RELEASE=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+    image: "/home/box/tmp/jab-stress/frameceiling/hostpackage_fresh/pkg/qual_1ka1-e5851a3c70/fierce/fierce.jab",
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "elf_sha256": "5cf683cc1ca7566f3be91dc44bb9415401c02fa7d1838cb14d6176de8b71952a",
+    kernel: "/home/box/tmp/jab-stress/frameceiling/hostpackage_fresh/pkg/qual_1ka1-e5851a3c70/kernel/jab.elf",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae",
+    provenance: {
+      commit: "e5851a3c70e622f418ef2722cf4286ab2cf20178",
+      symbols: [
+
+      ],
+      source: "the program's src/ and manifest at e5851a3c70e622f418ef2722cf4286ab2cf20178",
+      sdk: "sdk/src at e5851a3c70e622f418ef2722cf4286ab2cf20178, the export's own",
+      build_tool: {
+        repos: [
+          [repo,                           commit,                                     dirty];
+          [/home/box/proj/sourcetrait/jab, "e5851a3c70e622f418ef2722cf4286ab2cf20178", false]
+        ],
+        runtime: [
+          [role,          version,   "sha256"];
+          [nu,            "0.115.1", "c343a927a2d4a45ebf9300d013b226bcdc2598ecb0178a8a79722ebffe71e56e"],
+          ["nu launched", "0.115.1", "c343a927a2d4a45ebf9300d013b226bcdc2598ecb0178a8a79722ebffe71e56e"]
+        ],
+        executables: [
+
+        ]
+      },
+      toolchain: {
+        prefix: "/home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+        version: "GNU assembler (GNU Binutils) 2.47.20260726",
+        assembler: {
+          path: "/home/box/.sys/adhoc/opt/riscv/bin/riscv64-unknown-linux-gnu-as",
+          "sha256": "594cf6297f02007cecb2f5900b90297902697db42e5bf57c730d7eed00647ef2"
+        },
+        linker: {
+          path: "/home/box/.sys/adhoc/opt/riscv/bin/riscv64-unknown-linux-gnu-ld",
+          "sha256": "b931cf6b8ff1b97d2b3bc0c060b59a2fb638d4d7893cbea9208fd7664c686bb6"
+        },
+        objcopy: {
+          path: "/home/box/.sys/adhoc/opt/riscv/bin/riscv64-unknown-linux-gnu-objcopy",
+          "sha256": "1aed841115bd72b9dfdc46b5509725223542d3b8f47ea15309912b8544cbd2ae"
+        }
+      },
+      flags: "-I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e5851a3/sdk/src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e5851a3/kit/fierce/release --defsym RELEASE=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+      "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+      "elf_sha256": "5cf683cc1ca7566f3be91dc44bb9415401c02fa7d1838cb14d6176de8b71952a"
+    }
+  },
+  assets: {
+    map: "render_0",
+    tree: "/home/box/tmp/jab-stress/frameceiling/hostpackage_fresh/pkg/qual_1ka1-e5851a3c70/asset/render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+  },
+  route: null,
+  cap: 60,
+  machine: {
+    harts: 3,
+    ram_gib: 4,
+    spec: {
+      name: "1ka1",
+      cores: 3,
+      ram_gib: 4,
+      display: {
+        width: 1920,
+        height: 1080
+      }
+    },
+    diagnostic: null,
+    machine: "virt,aia=aplic-imsic,aclint=on",
+    cpu: "rva23s64,pmp=true",
+    accel: "tcg,thread=multi",
+    overrides: [
+
+    ]
+  },
+  overrides: [
+
+  ],
+  qemu: {
+    binary: "/home/box/proj/sourcetrait/jab/extern/qemu/bin/qemu-system-riscv64",
+    version: "QEMU emulator version 11.1.2",
+    "sha256": "ccaecb8393dce3169e189f0437aed672290cfc661c8c27c1d8e7b292cfb9d6b8"
+  },
+  host: {
+    os: linux,
+    name: "Fedora Linux",
+    os_version: "44",
+    kernel_version: "7.2.6-76070206-generic",
+    hostname: emptwo,
+    cpu: "Intel(R) Core(TM) i9-14900K",
+    cores: 32,
+    memory: 67171557376b
+  },
+  toolchain: {
+    prefix: "/home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+    assembler: "GNU assembler (GNU Binutils) 2.47.20260726",
+    link: "/home/box/.sys/adhoc/opt/riscv",
+    tools: {
+      as: {
+        path: "/home/box/.sys/adhoc/opt/riscv/bin/riscv64-unknown-linux-gnu-as",
+        "sha256": "594cf6297f02007cecb2f5900b90297902697db42e5bf57c730d7eed00647ef2"
+      },
+      ld: {
+        path: "/home/box/.sys/adhoc/opt/riscv/bin/riscv64-unknown-linux-gnu-ld",
+        "sha256": "b931cf6b8ff1b97d2b3bc0c060b59a2fb638d4d7893cbea9208fd7664c686bb6"
+      },
+      objcopy: {
+        path: "/home/box/.sys/adhoc/opt/riscv/bin/riscv64-unknown-linux-gnu-objcopy",
+        "sha256": "1aed841115bd72b9dfdc46b5509725223542d3b8f47ea15309912b8544cbd2ae"
+      }
+    }
+  },
+  mode: {
+    window: true,
+    sound: host,
+    pad: host,
+    seed: 1,
+    cadence: 1,
+    workers: null,
+    grain: null,
+    end: 60000000000ns,
+    capture: 62000000000ns
+  },
+  profile: "",
+  capture_nonce: null,
+  qemu_pid: 164204,
+  sdl_log: "",
+  shim: "",
+  window: "sdl,gl=on",
+  api: true,
+  sends: [
+    [at,   length, "sha256"];
+    [0.2,  64,     "9778499aaa41a86bdae199d5605fb6611f57ad0ae468f80ca0f865d1a2e9cded"],
+    [0.2,  64,     "506c012c400c6c628e077b6093b6a31ba44787d6df45ef9268d2bced502cf31e"],
+    [60.0, 64,     "a2ef1f714afe34337e8a58bc583fc5b51876838a85bce8697fe7e1daa961b0b2"]
+  ]
+}

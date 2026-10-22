@@ -1,0 +1,7 @@
+{
+  commit: "e5851a3c70e622f418ef2722cf4286ab2cf20178",
+  symbols: [
+    SERVICE
+  ],
+  exported_from: "git archive of sdk/src and the program's src/ and manifest at e5851a3c70e622f418ef2722cf4286ab2cf20178, the manifest's sdk, includes, and link redirected into the export and its workspace the checkout's for the kernel and the target, its declaration and run shape kept, specs, reserved, feature, and its fields naming the program's own tree dropped"
+}

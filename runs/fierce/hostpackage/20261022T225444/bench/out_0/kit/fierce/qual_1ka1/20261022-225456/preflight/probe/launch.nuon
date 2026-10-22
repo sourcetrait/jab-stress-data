@@ -1,0 +1,43 @@
+{
+  "schedule_sha256": "b73e6c99c50bfccf6458c55f4a41601df44e797744ede9b82d56605c1cbbd5df",
+  receipt: {
+    token: "79e7396544e6ecf2",
+    outcome: {
+      token: "79e7396544e6ecf2",
+      decision: go,
+      go_utc: "2026-10-22T22:55:09.353489Z"
+    },
+    header: null,
+    actions: [
+      [kind,   index, due_ns,     length, accepted, state,    first_ns,   done_ns,    whole_ns,   whole];
+      [screen, 0,     8000000000, 169,    169,      complete, 8001482898, 8001493181, 8053053314, true],
+      [quit,   0,     8000000000, 5,      5,        complete, 8053053447, 8053057824, null,       null]
+    ],
+    held: null,
+    readings: [
+
+    ],
+    relays: [
+
+    ],
+    helpers: [
+
+    ],
+    end_ns: 8097681842,
+    cpu_seconds: 10.46,
+    qemu_pid: 163954,
+    status: 0,
+    signal: null,
+    stdout: "/home/box/tmp/jab-stress/frameceiling/hostpackage_fresh/cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1ka1/20261022-225456/preflight/probe/qemu.stdout",
+    stderr: "/home/box/tmp/jab-stress/frameceiling/hostpackage_fresh/cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1ka1/20261022-225456/preflight/probe/qemu.stderr",
+    failure: null,
+    cancelled_ns: null,
+    startup_ns: 17635336,
+    clock: {
+      origin: go,
+      unit: ns,
+      go_utc: "2026-10-22T22:55:09.353489Z"
+    }
+  },
+  incomplete: null
+}

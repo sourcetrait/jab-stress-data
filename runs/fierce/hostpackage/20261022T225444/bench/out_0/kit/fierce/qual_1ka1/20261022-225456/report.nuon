@@ -1,0 +1,177 @@
+{
+ bench: "kit/fierce/qual_1ka1",
+ stamp: "20261022-225456",
+ dir: "/home/box/tmp/jab-stress/frameceiling/hostpackage_fresh/cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1ka1/20261022-225456",
+ steps: [
+  [label,     state, file];
+  [preflight, done,  null],
+  [free,      done,  "/home/box/tmp/jab-stress/frameceiling/hostpackage_fresh/cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1ka1/20261022-225456/free/gauge.nuon"]
+ ],
+ runs: [
+  [label, run, seed, kind, selection, cadence, workers, grain, period_us,          machine,                                                                                                                                                                                                                                                                                                                           qemu,                           standing, reasons];
+  [free,  1,   1,    play, automatic, 1,       null,    null,  16666.666666666668, {
+    harts: 3,
+    ram_gib: 4,
+    spec: {
+     name: "1ka1",
+     cores: 3,
+     ram_gib: 4,
+     display: {
+      width: 1920,
+      height: 1080
+     }
+    },
+    diagnostic: null,
+    machine: "virt,aia=aplic-imsic,aclint=on",
+    cpu: "rva23s64,pmp=true",
+    accel: "tcg,thread=multi",
+    overrides: [
+
+    ]
+   }, "QEMU emulator version 11.1.2", valid,    [
+
+   ]]
+ ],
+ groups: [
+  [kind, cadences];
+  [play, [
+    [cadence, period_us,          steps,               runs, valid, standings,                                                                                 cpu_over_wall,                     cpu_left,  outcomes,                                                                                                                                                                                                                                                                                                                                                                          frames,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    apart];
+    [1,       16666.666666666668, [
+      free
+     ], 1,    1,     [
+      [label, run, standing, reasons];
+      [free,  1,   valid,    [
+
+       ]]
+     ], [
+      1.4162966966764743
+     ], [
+
+     ], [
+      [label, run, outcomes];
+      [free,  1,   {
+        rounds: [
+
+        ],
+        androids: [
+         [event,    count];
+         [waypoint, 8],
+         [roused,   3],
+         [fired,    103]
+        ],
+        struck: 2,
+        pickups: 0,
+        sectors: [
+         [leg,  sectors];
+         [play, [
+           0
+          ]]
+        ]
+       }]
+     ], {
+      frames: 3515,
+      presented: 3515,
+      acceptance: {
+       count: 3515,
+       min: 16341.4,
+       median: 16666.9,
+       "p95": 16749.5,
+       "p99": 18381.6,
+       max: 63795.9
+      },
+      completion: {
+       count: 3514,
+       min: 14765,
+       median: 16662,
+       "p95": 17339,
+       "p99": 18896,
+       max: 58068
+      },
+      call_interval: {
+       count: 3514,
+       min: 16340,
+       median: 16667,
+       "p95": 16749,
+       "p99": 18360,
+       max: 63796
+      },
+      grid: [
+       [periods, intervals];
+       [1,       3469],
+       [2,       2],
+       [3,       1]
+      ],
+      off_grid: 42,
+      unknown_calls: 0,
+      submission_age: {
+       count: 3515,
+       min: 14584,
+       median: 16592,
+       "p95": 17253,
+       "p99": 18883,
+       max: 57351
+      },
+      critical: {
+       count: 3515,
+       min: 12340,
+       median: 13477,
+       "p95": 15699,
+       "p99": 18763,
+       max: 57739
+      },
+      draw: {
+       count: 3515,
+       min: 10845,
+       median: 11534,
+       "p95": 13389,
+       "p99": 15576,
+       max: 53975
+      },
+      wait: {
+       count: 3515,
+       min: 0,
+       median: 3199,
+       "p95": 3891,
+       "p99": 4076,
+       max: 4391
+      },
+      pacing: {
+       count: 3515,
+       min: 1,
+       median: 2,
+       "p95": 4,
+       "p99": 5,
+       max: 48
+      },
+      await: {
+       count: 3515,
+       min: 0,
+       median: 0,
+       "p95": 0,
+       "p99": 0,
+       max: 7
+      },
+      wakes: 0,
+      attempts: 3515,
+      refusals: 0,
+      flips_early: 0,
+      flips_failed: 0,
+      over: 369,
+      fast: 3442,
+      fast_waited: 3422,
+      catch_up: 0
+     }, [
+
+     ]]
+   ]]
+ ],
+ compared: [
+
+ ],
+ services: [
+
+ ],
+ audio: [
+
+ ]
+}

@@ -1,0 +1,618 @@
+{
+ schema: 1,
+ name: "qual_1ka1-e5851a3c70",
+ made: "2026-10-22T22:54:55+0000",
+ maker: {
+  repos: [
+   [repo,                           commit,                                     dirty];
+   [/home/box/proj/sourcetrait/jab, "e5851a3c70e622f418ef2722cf4286ab2cf20178", false]
+  ],
+  runtime: [
+   [role, version,   "sha256"];
+   [nu,   "0.115.1", "c343a927a2d4a45ebf9300d013b226bcdc2598ecb0178a8a79722ebffe71e56e"]
+  ],
+  executables: [
+
+  ]
+ },
+ artifacts: [
+  [role,                 path,                                           meta,                                                                                                                                                                                                                                                                                                                                                                                                                                                                           bytes,  "sha256"];
+  [image,                "fierce/fierce.jab",                            {
+    commit: "e5851a3c70e622f418ef2722cf4286ab2cf20178",
+    symbols: [
+
+    ],
+    flags: "-I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e5851a3/sdk/src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e5851a3/kit/fierce/release --defsym RELEASE=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-"
+   },                                                65743,  "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483"],
+  [elf,                  "fierce/fierce.elf",                            null,                                                                                                                                                                                                                                                                                                                                                                                                                                                                           141640, "5cf683cc1ca7566f3be91dc44bb9415401c02fa7d1838cb14d6176de8b71952a"],
+  [flags,                fierce/flags,                                   null,                                                                                                                                                                                                                                                                                                                                                                                                                                                                           4268,   "19de22655984493089ad8bafcc1f6739e73385c507bc33b81bb46cc1436c30ac"],
+  [demand,               "fierce/demand.nuon",                           null,                                                                                                                                                                                                                                                                                                                                                                                                                                                                           189,    "43f59d2ac695d8bd99ae0ea97304d95c20f202ca8fa516ea34f35af99bfb0bdb"],
+  [provenance,           "fierce/provenance.nuon",                       null,                                                                                                                                                                                                                                                                                                                                                                                                                                                                           1986,   "2ad6a4c14680ac8d1be79f771753a550982704b8c4aed3a8b91508d2a095b409"],
+  [source,               "fierce/source.nuon",                           null,                                                                                                                                                                                                                                                                                                                                                                                                                                                                           444,    "d0f245e9eb71d12a330a3846d0f4c892f50c27394a0ee89b51189292952f0be7"],
+  [kernel,               "kernel/jab.elf",                               {
+    "elf_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae",
+    "loaded_sha256": "efe12507e089683b9d5011a84b4511da9f1e0861e3c01ece4949e11ad474c606"
+   },                                                                                                                                                                                                                                                                                           531376, "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"],
+  [assets,               "asset/render_0/ambient/floor.mid",             {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     553,    "32b31b006c87b92db5bbec11c7c91b5ba88e1bf1b68e622178145bc8f4ebe5b6"],
+  [assets,               "asset/render_0/ambient/garage.mid",            {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     222,    "90693eeef5e1247141c1663ec0498e6d10d33a844b039b6e41c0a3638757d2ec"],
+  [assets,               "asset/render_0/ambient/office.mid",            {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     144,    "f9d18a1ba075540bc638a8e234f064dd183ba2341ff9c9783e6f470e7630d823"],
+  [assets,               "asset/render_0/ambient/stairwell.mid",         {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     213,    "83c5842d9577fc151909fe4e83d6152158deebceda1d50ceb415e53ab85efc91"],
+  [assets,               "asset/render_0/ambient/yard.mid",              {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     240,    "25685d93522316333b7334f4844e09b5ccfde0feedbd2b7928251bca7719e6ac"],
+  [assets,               "asset/render_0/map.nuon",                      {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     265,    "9f8c30db7bb613e3291510b683bdb7134eafa3044b597509608fea2e14b783e5"],
+  [assets,               "asset/render_0/map/name",                      {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     8,      "968e9f048b0a27dfd07aea3266d794ae4dae642b2cfadc7187994e63b29eb216"],
+  [assets,               "asset/render_0/map/render_0.jabfps.map",       {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     19316,  "11bc8edf9744eba2cc8c72588741ce96afe3c83b80b2efbfedf9203e393676f1"],
+  [assets,               "asset/render_0/map/title",                     {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     11,     "d630455b9e23115e60d739a1a5f682306df6d4e96acad45d4ebe74e0ec6bde5e"],
+  [assets,               "asset/render_0/plan/garage.svg",               {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     64370,  "1add04d83c7352729ae39dbf18c6c42fde0ca02d15a5bcc6358d2b55353f0536"],
+  [assets,               "asset/render_0/plan/ground.svg",               {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     74824,  "e8ff1b5808ee83f993cab1b0ad9901a9b271c2fb59e34efe6c848600558c9080"],
+  [assets,               "asset/render_0/plan/office.svg",               {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     42290,  "c043bafb373cea025ee867be81d91706ec0d95c3a394058cc97960228b77f505"],
+  [assets,               "asset/render_0/plan/outside.svg",              {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     43179,  "9a12e565b7ff2b1af964fc586a6055579bfd57f8a2b134516267c3b32b89f463"],
+  [assets,               "asset/render_0/sound/alert.pcm",               {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     48000,  "824334fd8d6f833c0620befa0c2b2ea345c235495b74f517b93435e116a05a9f"],
+  [assets,               "asset/render_0/sound/destroy.pcm",             {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     134400, "9ec25fbf74d19d88aba2e3169fd9640498096f8f9944cc74d24573379684c87b"],
+  [assets,               "asset/render_0/sound/door_close.pcm",          {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     86400,  "09c8b87c14a6fc8b850f6bb9faa799c8637b93cc9ff55a0fa2484cb13e644f11"],
+  [assets,               "asset/render_0/sound/door_open.pcm",           {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     86400,  "5fe0c5cc5144772b10f960cf2232e279288b6ad2ebd942ff16b2d60191d4b339"],
+  [assets,               "asset/render_0/sound/footstep1.pcm",           {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     17280,  "106494cb6033a22cc50aeb8d9d6b1d040144b1e9d51cb114ad6dc7d247283493"],
+  [assets,               "asset/render_0/sound/footstep2.pcm",           {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     17280,  "ddce4846122958f73aeff25f31d05aa01230072d70c84a38bb390fd9e9f8ee4e"],
+  [assets,               "asset/render_0/sound/g1_bolt.pcm",             {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     28800,  "c39048efb9dbcbfcdcd3098544d5e670c900181dad5257a76686937b1b189a24"],
+  [assets,               "asset/render_0/sound/g1_empty.pcm",            {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     11520,  "36d82f61a8966ae5acebc00fea4e03898e79b021ae336969b0bc56036381f8ef"],
+  [assets,               "asset/render_0/sound/g1_reload.pcm",           {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     86400,  "6c519394034c5f56c54ef336dde0cf8f7b2d6b0e27fa2935db48b2b92b34dad5"],
+  [assets,               "asset/render_0/sound/g1_shot.pcm",             {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     33600,  "192dc1fc26db8fde614d09e57b2541153ce10fc6444ec2103fc15ebfb827b875"],
+  [assets,               "asset/render_0/sound/gate.pcm",                {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     57600,  "5c2a3a0598bae786121cb2e5028d74a6f36cc79668d01a084a27aa6feebd77bd"],
+  [assets,               "asset/render_0/sound/pickup.pcm",              {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     28800,  "df345c58445307de51d56078f2346a9eb4c9db71182cb5ea2af2dc2fb63f0eb9"],
+  [assets,               "asset/render_0/sound/respawn.pcm",             {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     96000,  "dcacc90e1ffd74cb561f1d65d93204b49acf2a50113d9a93286bbfd8d377bda4"],
+  [assets,               "asset/render_0/sound/servo.pcm",               {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     33600,  "ca7178bfd40eca222b284524f9aeda6b1ad2641287946a8a268888bddfcd1b8e"],
+  [assets,               "asset/render_0/sound/spark.pcm",               {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     24000,  "24613ec424fcd1446fa58b3c4f045f6b9ec11bfc063ed700ed877af03b5fed7c"],
+  [assets,               "asset/render_0/sound/struck.pcm",              {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     28800,  "fbd7f00b056494c5aa704390707a6b58da5d5f492fc29b1fcdd4d5e1cf758811"],
+  [assets,               "asset/render_0/sprite/android/aim_0.png",      {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     12062,  "c8ce22d12c6502381d71903b9d18ef8240891e57ec76d78016d341ca70e90539"],
+  [assets,               "asset/render_0/sprite/android/aim_1.png",      {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     12899,  "7f78436b44503727e10785a45a0582dee6220e30a82d1d88f450f0f3dce57a4a"],
+  [assets,               "asset/render_0/sprite/android/aim_2.png",      {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     12477,  "bcf4bc928b7f1ea136a62b9e26fed308e4f9995fe1a65467467fa1f5808e432e"],
+  [assets,               "asset/render_0/sprite/android/aim_3.png",      {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     12333,  "8410ba1e709c01e9b91d8612029c660cebe961b78197c209f6fb1f3f3007746c"],
+  [assets,               "asset/render_0/sprite/android/aim_4.png",      {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     11496,  "03cdb1783f0554ded845f87b9691fa3fa2643e59a9e37c21e354e4ead9cda234"],
+  [assets,               "asset/render_0/sprite/android/aim_5.png",      {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     12237,  "c08f1ca60a4eea5805461cc2a1b72fc849d25b9cfcd399e9906a9052b50de2f3"],
+  [assets,               "asset/render_0/sprite/android/aim_6.png",      {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     12544,  "c62565e56afd0d8b9ea45213e6930c64bee720fb2ebcd15fe46511c5e2e31bec"],
+  [assets,               "asset/render_0/sprite/android/aim_7.png",      {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     11611,  "1dfd73bccc2e57d4263465a9e849f8f927d364252afdb5f2f0e3a6e1aaee6bb4"],
+  [assets,               "asset/render_0/sprite/android/fallen.png",     {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     6838,   "3af536843d5bfa9c88b7144084dda24869c2f2098a14a3850915e7b48310462c"],
+  [assets,               "asset/render_0/sprite/android/fire_0.png",     {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     12592,  "95483779ff3de8b7d26a7f3ee51f646483e331d44898d9ab7d76454b2b3d8686"],
+  [assets,               "asset/render_0/sprite/android/fire_1.png",     {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     14332,  "bbd9c0c550ec4c9f9ad9fb6444667a3542558182edeb91aa4571b7bea0de521f"],
+  [assets,               "asset/render_0/sprite/android/fire_2.png",     {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     13603,  "a43f84008fcb264d31936bef35f238034fcb4ade4edc17c9e5ef2c43bde71951"],
+  [assets,               "asset/render_0/sprite/android/fire_3.png",     {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     13980,  "5423f2f0814e4ff7b89b880f6fbef3e2e40d0bffd9b22962bee0d175302a55ef"],
+  [assets,               "asset/render_0/sprite/android/fire_4.png",     {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     11304,  "edeb73c32d89b802f9ee1a2679df88394f7ef7f4a301d93923aba07b85da4026"],
+  [assets,               "asset/render_0/sprite/android/fire_5.png",     {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     13891,  "57ea3d7b7217b2b1028bafcc2ee44e8ce969bff9143642bdd00b3405403af3ef"],
+  [assets,               "asset/render_0/sprite/android/fire_6.png",     {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     14139,  "92ae78ca06bd596745e7175d230add0dc3b53268f9fd6c1e71fb3a40826b0a7c"],
+  [assets,               "asset/render_0/sprite/android/fire_7.png",     {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     13726,  "97a2e4f42a02ebb203b27e6d03c70e40308d029e4e5a60722b9eb9ce498e8686"],
+  [assets,               "asset/render_0/sprite/android/spark1.png",     {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     1372,   "3e03f7f5261c2c3cf084a99dd02b3c5aea9fb1b7fbf3fe2d01a559bff19cf40c"],
+  [assets,               "asset/render_0/sprite/android/spark2.png",     {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     4655,   "1ed74399e49329d9f13b3956168ba152f4d96d0f5fbb8f5d202eec18fc3f7fc2"],
+  [assets,               "asset/render_0/sprite/android/spark3.png",     {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     1456,   "acf2aca1da32684db86220f9f5fd27b3fc51b5f43056b9d3e6a122836aa1c67f"],
+  [assets,               "asset/render_0/sprite/android/stand_0.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     13070,  "ff3c3f2140bc23b3b1ddcc0debcd9dbb9f1105bbb7127160ce938190cb03e8de"],
+  [assets,               "asset/render_0/sprite/android/stand_1.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     14070,  "956bb4fa0980b594fd955af8efdb248976bda8a34cb734ba08d4f6ad49b81391"],
+  [assets,               "asset/render_0/sprite/android/stand_2.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     9921,   "9ef91ec7b2ede1311698e5b5b559bb08662bfa64c8b6b3a58276ebf3d85b2151"],
+  [assets,               "asset/render_0/sprite/android/stand_3.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     11490,  "e8767ebccc10eadfab7208b8e2431841b89387cd6c764b96dd098739f3540dc1"],
+  [assets,               "asset/render_0/sprite/android/stand_4.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     11459,  "6b3ae6643f499afc34bb10af819fdf019f8f6ba31f79248ac42e8df2f68a898c"],
+  [assets,               "asset/render_0/sprite/android/stand_5.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     12039,  "16d781b095ae7593bc9582af377a6f9b0383e53b7e772d83ba911b7f407aafbc"],
+  [assets,               "asset/render_0/sprite/android/stand_6.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     9321,   "baf61b0a7d3f633c4cd924f4f5a38ecdd2191d84fa82a099c884b3e534c055ea"],
+  [assets,               "asset/render_0/sprite/android/stand_7.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     12437,  "3c40f7248b455369e15fe551c96d5d403046acda0273d2f49fbb47c19ca38701"],
+  [assets,               "asset/render_0/sprite/android/struck_0.png",   {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     14562,  "9cc471c16d1226cc0fc581d07623e54c883a80847c1438badbd9d3b7db6fbc27"],
+  [assets,               "asset/render_0/sprite/android/struck_1.png",   {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     16337,  "f1045f679d0d4d47ba90e2c252227bf262674a4c656b4243bd29037e7c709fc5"],
+  [assets,               "asset/render_0/sprite/android/struck_2.png",   {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     15446,  "01b0bd7c745f521db1ac296d56926752591fc373a3d9cd455fbd8608fe7d9355"],
+  [assets,               "asset/render_0/sprite/android/struck_3.png",   {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     14206,  "70982ea39985148e29d03fe57a2019edf2ebc8e3d9322c8a2ecf9c97b51770bc"],
+  [assets,               "asset/render_0/sprite/android/struck_4.png",   {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     12645,  "bd3892ef0ed7fd9f92f36436be6d8c8a920f7f3636daa49ab73819543c313708"],
+  [assets,               "asset/render_0/sprite/android/struck_5.png",   {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     12924,  "6891afa5a044f380001c1a802305d92759d77ad2d103f82efa9c6d35f5cbec05"],
+  [assets,               "asset/render_0/sprite/android/struck_6.png",   {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     14254,  "a3090e32632a886f9093bfee4dffd7b23703ab9d595ca7b4b449b936b54f9b8a"],
+  [assets,               "asset/render_0/sprite/android/struck_7.png",   {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     14389,  "a9a9891abb645d6fab54d5edad1ab229afe5961b8b2fb0a49310b345fb02900c"],
+  [assets,               "asset/render_0/sprite/android/walk1_0.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     14347,  "ce225ad768e8cf71092872ecea9f43fe3cd2072896d3012a690f56b745ab900b"],
+  [assets,               "asset/render_0/sprite/android/walk1_1.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     15295,  "efe160a7b9e82785da05cb3913d0c020dbd5a4802e4cabe729ec6a45ae7f7b1a"],
+  [assets,               "asset/render_0/sprite/android/walk1_2.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     12949,  "42178a0d26a282171a464cee9e2084f80341d1c7f051c3d9f6ec982e2d39d589"],
+  [assets,               "asset/render_0/sprite/android/walk1_3.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     12298,  "492eb4703a83ff5d3aa464cc0c3926df4194f677b3ebe3df0f21d7fc7d1e9e02"],
+  [assets,               "asset/render_0/sprite/android/walk1_4.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     12227,  "5814006e4ae882d4e1c08976333390280d4a44693d5648131b82c4e41af8f5ba"],
+  [assets,               "asset/render_0/sprite/android/walk1_5.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     13377,  "1a0fb59e2a8a3fd7359e21d05408a3e2ccf0f618003155991318fd173cc41d26"],
+  [assets,               "asset/render_0/sprite/android/walk1_6.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     12360,  "ea8190bd34484c0042d356c717817571425e960c602ee47dea1e1a4a61b633b4"],
+  [assets,               "asset/render_0/sprite/android/walk1_7.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     13210,  "88ce324db63e80d1ecac6ab56c6918945ecd6e7c357bf2ba397d4749f8eaef0e"],
+  [assets,               "asset/render_0/sprite/android/walk2_0.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     13730,  "c8c46b53c21986c0e675bc468bff15fc68c296f619f389dd2c40102e10eea577"],
+  [assets,               "asset/render_0/sprite/android/walk2_1.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     13780,  "b6802aa96a0590af0e63d8f310996844b73212c50cc5d6c329c702a0244d7f43"],
+  [assets,               "asset/render_0/sprite/android/walk2_2.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     12269,  "4021b7b6d707b4096d5e0fbd348805e7792bcccc1150edde56f1e76be549def5"],
+  [assets,               "asset/render_0/sprite/android/walk2_3.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     12431,  "2774700ab0e27c56b74dca1bbaf640c0c2901f5ba48584c521e9c66aa5628640"],
+  [assets,               "asset/render_0/sprite/android/walk2_4.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     11518,  "0271f77e4062f0420b86e6e06f7dffcef6ba10364ac31db3cb7952f1a6c5cc41"],
+  [assets,               "asset/render_0/sprite/android/walk2_5.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     11722,  "9753cd0328cd2ac8a4a452b3b9aceed4d47fbaa890fa51dab0d53963f5d520f8"],
+  [assets,               "asset/render_0/sprite/android/walk2_6.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     11141,  "cf052f88e8c2300fac16f815e97b6e8eb0f576f4fa18b8cb3d67656cf20aba96"],
+  [assets,               "asset/render_0/sprite/android/walk2_7.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     13177,  "0f43008dd451ba2262a5ab1799d6f7df17c86ace96911df370a035c2c3202ad0"],
+  [assets,               "asset/render_0/sprite/android/walk3_0.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     14350,  "d7c5aa6cd2f60462adab704ec4e1de5bb159bfb559f6d977c20f4b762921d8d3"],
+  [assets,               "asset/render_0/sprite/android/walk3_1.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     14792,  "65cef464d70eb95213631b3c2d88f6ca774d15a96bae35f47eee7a6f88135423"],
+  [assets,               "asset/render_0/sprite/android/walk3_2.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     13671,  "7efe5c9fb4c08a94e6a0c3c61f566ca3bbc26723b5bc577d6af35a0dda4041ec"],
+  [assets,               "asset/render_0/sprite/android/walk3_3.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     12951,  "f305efc909119977ff6b8a577507df870c7d90b2fe106463e07a6a7ad3103e15"],
+  [assets,               "asset/render_0/sprite/android/walk3_4.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     11984,  "35a31d65568c02cc58ba91ba414b4a3f01e05a626329ce5ab98c37ec742be756"],
+  [assets,               "asset/render_0/sprite/android/walk3_5.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     13031,  "e77dd17ff3e548c5cef84215de6d138014771602f4fed77d83a7853b6d433ad0"],
+  [assets,               "asset/render_0/sprite/android/walk3_6.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     12712,  "663b744f6c96f3632d45202d6499eb720d6effb6c8a443c76fc6cfc578bf45bd"],
+  [assets,               "asset/render_0/sprite/android/walk3_7.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     13441,  "4ad38120c2afb1eb1617083c1fa817d5bb51e4fee6c8d852c08d3953389e7111"],
+  [assets,               "asset/render_0/sprite/android/walk4_0.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     13648,  "20aef1d3b0be793048df22f8c29009de61b47337500460acb493cfafe15ea417"],
+  [assets,               "asset/render_0/sprite/android/walk4_1.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     14637,  "e7f09c103de2f94478a9e9946f5732dfe9453159c89c49e67c066169a8b45a30"],
+  [assets,               "asset/render_0/sprite/android/walk4_2.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     11594,  "05def0c7f0922580f59d6b9098986f938ba9e7f071db50fa0020bb17ca1a9d3b"],
+  [assets,               "asset/render_0/sprite/android/walk4_3.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     11270,  "4e4df4952aadff348ef716e92d66d99ee5d3d947db181ec3bdfb49166315917c"],
+  [assets,               "asset/render_0/sprite/android/walk4_4.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     11670,  "4c63145f74f407129414e8ff832444d74c4e12e251d3c006e8422b48d3d6cc9d"],
+  [assets,               "asset/render_0/sprite/android/walk4_5.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     12766,  "679ec5fa562d87ec4fabd2cb7fcf596fdca2c32a2f29e56d5cbf679b7a2ba3cc"],
+  [assets,               "asset/render_0/sprite/android/walk4_6.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     11576,  "f8189f3d651835338e1d3461225e91659c78d6f37a4ca0ac2aae69be0146020d"],
+  [assets,               "asset/render_0/sprite/android/walk4_7.png",    {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     12346,  "f52ee6ba5cce218f4485a89ee68b1f6b55a404b5b3561a61465e68e0742558fb"],
+  [assets,               "asset/render_0/sprite/gun/magazine.png",       {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     3274,   "2c232cf91b21ba1c7ab61d10583a14daf6a12f4b28eade0bf248bd99172d79ec"],
+  [assets,               "asset/render_0/sprite/gun/magazine_hud.png",   {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     854,    "f57af317dbbcab68f5a663b96b9a5cd21fdb77b0a5dcbd17c837139429e33c84"],
+  [assets,               "asset/render_0/sprite/sign.png",               {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     891,    "d198cf63ea262d89d2d36d0ad46d50c2a3b406b7ae19ce7314f59582378084e2"],
+  [assets,               "asset/render_0/sprite/sign_bay.png",           {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     1915,   "310bf6187e2047dc313d239dd5c2ee97c981d107ca403494dd0bd40ab08b600d"],
+  [assets,               "asset/render_0/sprite/sign_exit.png",          {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     1260,   "2eea34e2f5c491a8c9aa0634aa1d66373c794ee9e401ae3136135583792e8856"],
+  [assets,               "asset/render_0/sprite/sign_fpstech.png",       {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     5622,   "afd2e9575795735ddc3fadf77746a61f1ad3ec74285cfdebbb63140a2fb6d300"],
+  [assets,               "asset/render_0/sprite/sign_fpstech_small.png", {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     3087,   "890a1ee40dddaae374bd38cc2a54ac232a038e13e8f12ab82b9107428f526df0"],
+  [assets,               "asset/render_0/sprite/sign_garage.png",        {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     2752,   "3319b0e6e50891cc70c1462a282b6a83e40fa5243bd19889a6631d22375e2cbd"],
+  [assets,               "asset/render_0/sprite/sign_hazard.png",        {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     2531,   "27143c878b68345680ddfcc2e5bf78914e45fe7f977c48b66cfc1032ebf6a866"],
+  [assets,               "asset/render_0/sprite/sign_office.png",        {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     910,    "6ab98828dc7896941e64a3a3d6fb29e8440d6efe58d7e99fcf20f08e85d8627c"],
+  [assets,               "asset/render_0/sprite/sign_p1.png",            {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     1167,   "07e78636006d92123e965d3f99a22a84956a581bcaa91a9eefd9baa01ccd6882"],
+  [assets,               "asset/render_0/sprite/sign_stairs.png",        {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     2178,   "d3ac5b48289cb3148ecfd205cfe13126142718a39be184a8f3d3a7f2642e9ff8"],
+  [assets,               "asset/render_0/texture/asphalt.png",           {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     14042,  "76bdef59bd6e5da88adc4df48d4c2ca110df92377682c5aca18b47aaf1df5818"],
+  [assets,               "asset/render_0/texture/block.png",             {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     3949,   "39fac6a1a3fa11bab3304f28db65f09d0974165ad44cbdbea00e31fdec302b03"],
+  [assets,               "asset/render_0/texture/carpet.png",            {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     2671,   "eab58cc77032e642635e504591c6e28e40b90b0aeb2b620dbf7d625812ea2555"],
+  [assets,               "asset/render_0/texture/concrete.png",          {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     10957,  "107d1380e7775f869e9a63a62942bc419aeea0b882fc880c2e6b44bed706ef27"],
+  [assets,               "asset/render_0/texture/deck.png",              {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     2169,   "c1e75e6006bb93dc144d9e892f58922c8e510db56591d30f9412902bc49224dc"],
+  [assets,               "asset/render_0/texture/facade.png",            {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     3967,   "0db8691049fd10024b3dde614a94379c0535a0714014ed30dd3d11b69736b01a"],
+  [assets,               "asset/render_0/texture/fence.png",             {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     7075,   "a28cec6a15e676fe6d45ce1a1d9871aa4429a3c4caa21f426c0949d1aa9650af"],
+  [assets,               "asset/render_0/texture/parking.png",           {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     16606,  "3a6c7db5af4acfec6ff1d1504badb7221c741e94a652f7aad37a756d19742ac8"],
+  [assets,               "asset/render_0/texture/plaster.png",           {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     9932,   "f964aac4485d0a38cbadb423a65d868f45268c35584915893e3e6901dab0b335"],
+  [assets,               "asset/render_0/texture/plinth.png",            {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     5254,   "3edbf90e15bf8f089ab0a4084f7ebd60654e14732299d9c16e8e0d2f6e227b3c"],
+  [assets,               "asset/render_0/texture/sky.png",               {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     87376,  "12c2a9c1a8e43a52e4c40d5c56449099f7c197e5dff4e41b5a0755704a1ecbd7"],
+  [assets,               "asset/render_0/texture/steel.png",             {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     2503,   "a23e46c1dbcb4dadd36cddf1a989578f898ffefa636c532d3a8277f0219ad7d8"],
+  [assets,               "asset/render_0/texture/tile.png",              {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     5952,   "03680a8689a705f01bc735ef9a4aba240696e10a9878930934c51a6d52ee09e8"],
+  [assets,               "asset/render_0/texture/tread.png",             {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     9475,   "baee75359485baadd44e79c0ef45f04a0217ef4234ab04dc91c576380f9dd45f"],
+  [assets,               "asset/render_0/tile.nuon",                     {
+    map: "render_0",
+    digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+   },                                                                                                                                                                                                                                                                                                                                                                     1649,   "6567ce7680d156ad7f178b6af12a5f5667e421f62aef0ecaced26ad0749fbc0e"],
+  [route,                "route/route_render_0.nuon",                    null,                                                                                                                                                                                                                                                                                                                                                                                                                                                                           5884,   "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8"],
+  [bench,                "bench/qual_1ka1.nuon",                         null,                                                                                                                                                                                                                                                                                                                                                                                                                                                                           6856,   "e1c2a97d67ebc1c91c0ead9f443404f461f91f4717517a2644f8070178d04bfe"],
+  ["service image",      "build/service/fierce.jab",                     {
+    commit: "e5851a3c70e622f418ef2722cf4286ab2cf20178",
+    symbols: [
+     SERVICE
+    ],
+    flags: "-I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e5851a3-service/sdk/src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e5851a3-service/kit/fierce/release --defsym RELEASE=1 --defsym SERVICE=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-"
+   }, 69639,  "55762a95a1cd5372f9d6ee673657f9b1ec6e16ca049c285dad67fd99793ebce9"],
+  ["service elf",        "build/service/fierce.elf",                     null,                                                                                                                                                                                                                                                                                                                                                                                                                                                                           150600, "234f6e5d4163b08be841d327e0508340f22c9d95a9f381f38379624674d4b45a"],
+  ["service flags",      build/service/flags,                            null,                                                                                                                                                                                                                                                                                                                                                                                                                                                                           4583,   "e2941a0b3d9b89e2b852110a392d1f475207774cff68eee519e146633f03d8d6"],
+  ["service demand",     "build/service/demand.nuon",                    null,                                                                                                                                                                                                                                                                                                                                                                                                                                                                           189,    "f846eb430d8fc65a1fbe3f53fc252a853234c28c4c99d9e00c8feb4ac51e539c"],
+  ["service provenance", "build/service/provenance.nuon",                null,                                                                                                                                                                                                                                                                                                                                                                                                                                                                           2032,   "2f5a3e8ad29507375828bedba2aa78a38bd44f7f10b70a7662f0174fcffa72f9"],
+  ["service source",     "build/service/source.nuon",                    null,                                                                                                                                                                                                                                                                                                                                                                                                                                                                           455,    "eaada96a8b561b709551c0c55b3d34abaa51ef195d497c72d29ade9ee5ed8ddd"],
+  ["service kernel",     "build/service/jab.elf",                        {
+    "elf_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   },                                                                                                                                                                                                                                                                                                                                                                                    531376, "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"],
+  ["debug image",        "build/debug/fierce.jab",                       {
+    commit: "e5851a3c70e622f418ef2722cf4286ab2cf20178",
+    symbols: [
+
+    ],
+    flags: "-I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e5851a3-debug/sdk/src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e5851a3-debug/kit/fierce/debug --defsym DEBUG=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-"
+   },                                        80518,  "899d98270cbea2d09e14dbcf04ab34b58ad1bf1c988cf10008619058c8975498"],
+  ["debug elf",          "build/debug/fierce.elf",                       null,                                                                                                                                                                                                                                                                                                                                                                                                                                                                           162560, "0b1b196e3c35ea2018d4a52b6d989cd29d4c10086cc1872541829cb0edd0af93"],
+  ["debug flags",        build/debug/flags,                              null,                                                                                                                                                                                                                                                                                                                                                                                                                                                                           4482,   "0f83a3a75b3bb667e88a73e7302a8d81c4fd39f8d28788791882564c4f573d57"],
+  ["debug demand",       "build/debug/demand.nuon",                      null,                                                                                                                                                                                                                                                                                                                                                                                                                                                                           189,    "eaab221fc39ee2a943770537e8589f0d053ed294f17a04097193d577d93882a1"],
+  ["debug provenance",   "build/debug/provenance.nuon",                  null,                                                                                                                                                                                                                                                                                                                                                                                                                                                                           2003,   "868ee0ad067209154f69a757029bc597e36d07c345322d7719ebac1f4866e78c"],
+  ["debug source",       "build/debug/source.nuon",                      null,                                                                                                                                                                                                                                                                                                                                                                                                                                                                           444,    "d0f245e9eb71d12a330a3846d0f4c892f50c27394a0ee89b51189292952f0be7"],
+  ["debug kernel",       "build/debug/jab.elf",                          {
+    "elf_sha256": "dbf39b5c9ddb8464774c6d0f648bd5f29931752da19503a8455f1c2f34c591ef"
+   },                                                                                                                                                                                                                                                                                                                                                                                    540872, "dbf39b5c9ddb8464774c6d0f648bd5f29931752da19503a8455f1c2f34c591ef"]
+ ],
+ identities: {
+  candidate: {
+   jab: "e5851a3c70e622f418ef2722cf4286ab2cf20178",
+   tag: null,
+   "file_sha256": "1a666bc6c3e4199ee73ef905f14cbdaacd13ee8cbb891641cafe300fdeb1945d"
+  },
+  kernel: {
+   "elf_sha256": {
+    value: "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae",
+    checks: "every run's identity, held to the candidate's kernel"
+   },
+   "loaded_sha256": {
+    value: "efe12507e089683b9d5011a84b4511da9f1e0861e3c01ece4949e11ad474c606",
+    checks: "the kernel's release bytes against a baseline's, the loaded flat image alone"
+   }
+  },
+  image: {
+   "sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "elf_sha256": "5cf683cc1ca7566f3be91dc44bb9415401c02fa7d1838cb14d6176de8b71952a",
+   "tree_elf_sha256": "65774439c3f462111ff49f6b89cb4bffc7be13926252ada0eaa2f81d41e6006d",
+   checks: "the image's bytes the candidate's; the ELF the export's, its symbol table carrying RELEASE where the candidate's tree build's does not"
+  },
+  builds: {
+   service: {
+    set: service,
+    tree: release,
+    "sha256": "55762a95a1cd5372f9d6ee673657f9b1ec6e16ca049c285dad67fd99793ebce9",
+    "elf_sha256": "234f6e5d4163b08be841d327e0508340f22c9d95a9f381f38379624674d4b45a",
+    "tree_elf_sha256": "c93d1d53db1d37b9419f807f8a19583574afff3c81482cc5ffcd9a8804253b4b",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae",
+    at: build/service,
+    checks: "a step's {build:<name>} runs, held to the candidate's build of that name: its image's bytes, the ELF its export's, the kernel its tree's"
+   },
+   debug: {
+    set: debug,
+    tree: debug,
+    "sha256": "899d98270cbea2d09e14dbcf04ab34b58ad1bf1c988cf10008619058c8975498",
+    "elf_sha256": "0b1b196e3c35ea2018d4a52b6d989cd29d4c10086cc1872541829cb0edd0af93",
+    "tree_elf_sha256": "0b1b196e3c35ea2018d4a52b6d989cd29d4c10086cc1872541829cb0edd0af93",
+    "kernel_sha256": "dbf39b5c9ddb8464774c6d0f648bd5f29931752da19503a8455f1c2f34c591ef",
+    at: build/debug,
+    checks: "a step's {build:<name>} runs, held to the candidate's build of that name: its image's bytes, the ELF its export's, the kernel its tree's"
+   }
+  },
+  assets: {
+   map: "render_0",
+   digest: "7049f793976bc92185b4b06abd5137ff965a50f67059668581a3b1255a35685f"
+  },
+  bench: {
+   target: "1ka1",
+   source: "kit/fierce/bench/qual_1ka1.nuon at e5851a3c70e622f418ef2722cf4286ab2cf20178"
+  }
+ }
+}

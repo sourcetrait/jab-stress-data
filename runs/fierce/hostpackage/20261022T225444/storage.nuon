@@ -1,0 +1,516 @@
+[
+ [object,                                                                               kind,      length,  "sha256",                                                           holds];
+ [bench/build/kernel/flags,                                                             raw,       3662,    "47dce9d2899fbf6c0a063ba49e799fc48ba67882fe913c1c656216094a9cab38", [
+   bench/build/kernel/flags
+  ]],
+ ["bench/out_0/kit/fierce/qual_1ka1/20261022-225456/bench.nuon",                        raw,       3652,    "8dc4672350229f2fdd68b92b323993b758cb4a8b5f62da10f5671f99d278d091", [
+   "bench/out_0/kit/fierce/qual_1ka1/20261022-225456/bench.nuon"
+  ]],
+ ["bench/out_0/kit/fierce/qual_1ka1/20261022-225456/free/run_1/identity.nuon",          raw,       6082,    "820182e326c6576ad03679cb15cec536e9a6403eafc82b88e461acd1f1348dcd", [
+   "bench/out_0/kit/fierce/qual_1ka1/20261022-225456/free/run_1/identity.nuon"
+  ]],
+ ["bench/out_0/kit/fierce/qual_1ka1/20261022-225456/free/run_1/launch.nuon",            raw,       1528,    "4c6809e33ecc1e13ef54b0fff5dbbd2f65e6642b54bdefb49aba2497243bc121", [
+   "bench/out_0/kit/fierce/qual_1ka1/20261022-225456/free/run_1/launch.nuon"
+  ]],
+ ["bench/out_0/kit/fierce/qual_1ka1/20261022-225456/free/run_1/qemu.log.nuonl",         container, 229,     "8eefa2788c2687739e7ba345bf580dc3bf09c41e519a5cc32b72253d537d6d44", [
+   "bench/out_0/kit/fierce/qual_1ka1/20261022-225456/free/run_1/qemu.log"
+  ]],
+ ["bench/out_0/kit/fierce/qual_1ka1/20261022-225456/free/run_1/qemu.stderr.nuonl",      container, 238,     "29010ac198aecba6eb272912d35f87496661b5e42beddf52ed09212ead9497ff", [
+   "bench/out_0/kit/fierce/qual_1ka1/20261022-225456/free/run_1/qemu.stderr"
+  ]],
+ ["bench/out_0/kit/fierce/qual_1ka1/20261022-225456/free/run_1/qemu.stdout.nuonl",      container, 238,     "ccc196c6681c809b11d798dfc0a2278b712c46ecbd2ae932ad41e4c6f72ec3b5", [
+   "bench/out_0/kit/fierce/qual_1ka1/20261022-225456/free/run_1/qemu.stdout"
+  ]],
+ ["bench/out_0/kit/fierce/qual_1ka1/20261022-225456/free/run_1/run.nuon",               raw,       3358,    "2055fd4c5d63e1610f561c3f0a4aba51218fc8b9e32357510cb90c35072e995a", [
+   "bench/out_0/kit/fierce/qual_1ka1/20261022-225456/free/run_1/run.nuon"
+  ]],
+ ["bench/out_0/kit/fierce/qual_1ka1/20261022-225456/free/run_1/serial.log.nuonl",       container, 230,     "a9a0ea09d1b6295d2e80671629ad37364c6f8599363b28eec31d468a267e670f", [
+   "bench/out_0/kit/fierce/qual_1ka1/20261022-225456/free/run_1/serial.log"
+  ]],
+ ["bench/out_0/kit/fierce/qual_1ka1/20261022-225456/preflight/package.nuon",            raw,       93676,   "be0611a85b81502837cc9b9491d053c91209c0cd6017b944184b64c0742d7425", [
+   "bench/out_0/kit/fierce/qual_1ka1/20261022-225456/preflight/package.nuon"
+  ]],
+ ["bench/out_0/kit/fierce/qual_1ka1/20261022-225456/preflight/preflight.nuon",          raw,       2522,    "93721aa785a2180b4ff4ede649b5ccf1fc150d5caeefcf9cd66dc6560899cfe1", [
+   "bench/out_0/kit/fierce/qual_1ka1/20261022-225456/preflight/preflight.nuon"
+  ]],
+ ["bench/out_0/kit/fierce/qual_1ka1/20261022-225456/preflight/probe/launch.nuon",       raw,       1332,    "f533ff01136af2162c3b3f4f79298efb671dd1fb969623d49346efcd5f3a75c5", [
+   "bench/out_0/kit/fierce/qual_1ka1/20261022-225456/preflight/probe/launch.nuon"
+  ]],
+ ["bench/out_0/kit/fierce/qual_1ka1/20261022-225456/preflight/probe/qemu.log.nuonl",    container, 229,     "1fee332613a6efbbae61441f8f09264a26712c19352604c93416cddbde2ec6e6", [
+   "bench/out_0/kit/fierce/qual_1ka1/20261022-225456/preflight/probe/qemu.log"
+  ]],
+ ["bench/out_0/kit/fierce/qual_1ka1/20261022-225456/preflight/probe/qemu.stderr.nuonl", container, 238,     "74853366c0eb8eed71c8cf1dd843ef9388362f5cf354e212b66c95847a2e8d4d", [
+   "bench/out_0/kit/fierce/qual_1ka1/20261022-225456/preflight/probe/qemu.stderr"
+  ]],
+ ["bench/out_0/kit/fierce/qual_1ka1/20261022-225456/preflight/probe/qemu.stdout.nuonl", container, 238,     "7171579e311fc51981d15328d8d333269152e801266cb07522b47c1be7e7f46a", [
+   "bench/out_0/kit/fierce/qual_1ka1/20261022-225456/preflight/probe/qemu.stdout"
+  ]],
+ ["bench/out_0/kit/fierce/qual_1ka1/20261022-225456/preflight/probe/serial.log.nuonl",  container, 230,     "4077d8f8bd0713e69fa8f0a8f4aa0a9a152e3b4c247173f980b5aec5d37417d6", [
+   "bench/out_0/kit/fierce/qual_1ka1/20261022-225456/preflight/probe/serial.log"
+  ]],
+ ["bench/out_0/kit/fierce/qual_1ka1/20261022-225456/report.nuon",                       raw,       6022,    "eea875bae8574adb4cd1749031c023f8e4e941d8dde025b8777a013809f82cee", [
+   "bench/out_0/kit/fierce/qual_1ka1/20261022-225456/report.nuon"
+  ]],
+ ["bench/out_0/kit/fierce/qual_1ka1/20261022-225456/report.txt.nuonl",                  container, 2704,    "6d06be131b07e5f70b6c1331eddb7b29490dbb1c9eb3c58157b2e824baf6b83e", [
+   "bench/out_0/kit/fierce/qual_1ka1/20261022-225456/report.txt"
+  ]],
+ ["bench/out_0/kit/fierce/qual_1ka1/state.nuon",                                        raw,       282,     "2957c122b1008577b567d7dfab80956097c3336f7b3c9637e635213ed837d143", [
+   "bench/out_0/kit/fierce/qual_1ka1/state.nuon"
+  ]],
+ ["bench/run.stderr.nuonl",                                                             container, 238,     "ef0e8d3ff50792a3e15b4c4169ce52f2c630e320e1a4aee3115ece78269e2a38", [
+   "bench/run.stderr"
+  ]],
+ ["bench/run.stdout.nuonl",                                                             container, 7866,    "1bde89f81a117cb3a99bfec086057cca9f25ae3c69619c0b4470d23870e29f7b", [
+   "bench/run.stdout"
+  ]],
+ ["bench/step.nuon",                                                                    raw,       2031,    "9849e7982b7dbadda254034687f62029f50682839dfd62af741c10071539eafa", [
+   "bench/step.nuon"
+  ]],
+ [candidate/build/kernel/flags,                                                         raw,       3662,    "47dce9d2899fbf6c0a063ba49e799fc48ba67882fe913c1c656216094a9cab38", [
+   candidate/build/kernel/flags
+  ]],
+ [candidate/build/kit/fierce/flags,                                                     raw,       2320,    "a602d66cfd08e5502536e725aa5083e9d673cd7d33ec4c04531791d6d0714cdf", [
+   candidate/build/kit/fierce/flags
+  ]],
+ ["candidate/candidate.nuon",                                                           raw,       2642,    "1a666bc6c3e4199ee73ef905f14cbdaacd13ee8cbb891641cafe300fdeb1945d", [
+   "candidate/candidate.nuon"
+  ]],
+ ["candidate/run.stderr.nuonl",                                                         container, 238,     "4a80e67786069d86f856492376064b06dba7165d7fa7f82cde7038405cd849c1", [
+   "candidate/run.stderr"
+  ]],
+ ["candidate/run.stdout.nuonl",                                                         container, 2812,    "2c1a0643c3ae8da982746e8d5a45b8579076d6a4c057afcf0c7ae686121b49bd", [
+   "candidate/run.stdout"
+  ]],
+ ["candidate/step.nuon",                                                                raw,       2793,    "4c2bb79821149e13a2e8cbf087155094e32bd04407691d796da9f30a9a85aa32", [
+   "candidate/step.nuon"
+  ]],
+ [extract/build/kernel/flags,                                                           raw,       3662,    "47dce9d2899fbf6c0a063ba49e799fc48ba67882fe913c1c656216094a9cab38", [
+   extract/build/kernel/flags
+  ]],
+ ["extract/run.stderr.nuonl",                                                           container, 238,     "27e6107011212c2423235b713780ddef825295e06dc0247d15a1c08db91dd8fe", [
+   "extract/run.stderr"
+  ]],
+ ["extract/run.stdout.nuonl",                                                           container, 238,     "801d58e73940c2dce7e7a76d4514ad23a92141fdfbf8434c53d014c84e4aad76", [
+   "extract/run.stdout"
+  ]],
+ ["extract/step.nuon",                                                                  raw,       1509,    "a81d9946e4324832ad7ff3d76e1781453e23f8f8056745aed3429909e5fd096b", [
+   "extract/step.nuon"
+  ]],
+ [fexport/build/kernel/flags,                                                           raw,       3662,    "47dce9d2899fbf6c0a063ba49e799fc48ba67882fe913c1c656216094a9cab38", [
+   fexport/build/kernel/flags
+  ]],
+ ["fexport/out_0/kit/fierce/program.jab.toml",                                          raw,       479,     "126bffb037b22e0f95f7e914b027f75590d86e5fd73c9fc0f6f2fe056be5535f", [
+   "fexport/out_0/kit/fierce/program.jab.toml"
+  ]],
+ ["fexport/out_0/kit/fierce/release/demand.nuon",                                       raw,       189,     "43f59d2ac695d8bd99ae0ea97304d95c20f202ca8fa516ea34f35af99bfb0bdb", [
+   "fexport/out_0/kit/fierce/release/demand.nuon"
+  ]],
+ ["fexport/out_0/kit/fierce/release/flags",                                             raw,       4268,    "19de22655984493089ad8bafcc1f6739e73385c507bc33b81bb46cc1436c30ac", [
+   "fexport/out_0/kit/fierce/release/flags"
+  ]],
+ ["fexport/out_0/kit/fierce/release/home",                                              raw,       97,      "18ee513c28fd0d93580142f68a24178de8bd87a8993337f2bc26ab694a5739e8", [
+   "fexport/out_0/kit/fierce/release/home"
+  ]],
+ ["fexport/out_0/kit/fierce/release/provenance.nuon",                                   raw,       1986,    "2ad6a4c14680ac8d1be79f771753a550982704b8c4aed3a8b91508d2a095b409", [
+   "fexport/out_0/kit/fierce/release/provenance.nuon"
+  ]],
+ ["fexport/out_0/kit/fierce/source.nuon",                                               raw,       444,     "d0f245e9eb71d12a330a3846d0f4c892f50c27394a0ee89b51189292952f0be7", [
+   "fexport/out_0/kit/fierce/source.nuon"
+  ]],
+ ["fexport/run.stderr.nuonl",                                                           container, 238,     "f31be15968c9ba6525c939ac6ab16019864576f75bc3383a96af95c9fa21a195", [
+   "fexport/run.stderr"
+  ]],
+ ["fexport/run.stdout.nuonl",                                                           container, 685,     "6e9842d1eb42c13c622b06fae3efc3c16bb3ff838f969528c4d1db7f31af12fd", [
+   "fexport/run.stdout"
+  ]],
+ ["fexport/step.nuon",                                                                  raw,       1808,    "d4d246f10c03667666ded681282808d4b941d076827dc159762e0316b11a8dc0", [
+   "fexport/step.nuon"
+  ]],
+ [fexport_debug/build/kernel/flags,                                                     raw,       3662,    "47dce9d2899fbf6c0a063ba49e799fc48ba67882fe913c1c656216094a9cab38", [
+   fexport_debug/build/kernel/flags
+  ]],
+ ["fexport_debug/out_0/kit/fierce/debug/demand.nuon",                                   raw,       189,     "eaab221fc39ee2a943770537e8589f0d053ed294f17a04097193d577d93882a1", [
+   "fexport_debug/out_0/kit/fierce/debug/demand.nuon"
+  ]],
+ ["fexport_debug/out_0/kit/fierce/debug/flags",                                         raw,       4482,    "0f83a3a75b3bb667e88a73e7302a8d81c4fd39f8d28788791882564c4f573d57", [
+   "fexport_debug/out_0/kit/fierce/debug/flags"
+  ]],
+ ["fexport_debug/out_0/kit/fierce/debug/home",                                          raw,       103,     "6fb7dc289b897d46795c5cd68318f1b8af42b9af4860c34ae7b8895d6d0590f1", [
+   "fexport_debug/out_0/kit/fierce/debug/home"
+  ]],
+ ["fexport_debug/out_0/kit/fierce/debug/provenance.nuon",                               raw,       2003,    "868ee0ad067209154f69a757029bc597e36d07c345322d7719ebac1f4866e78c", [
+   "fexport_debug/out_0/kit/fierce/debug/provenance.nuon"
+  ]],
+ ["fexport_debug/out_0/kit/fierce/program.jab.toml",                                    raw,       497,     "f375a3c1e0385769bfc3f5c4bf64334760a8009a376a191ed4743152188a65c8", [
+   "fexport_debug/out_0/kit/fierce/program.jab.toml"
+  ]],
+ ["fexport_debug/out_0/kit/fierce/source.nuon",                                         raw,       444,     "d0f245e9eb71d12a330a3846d0f4c892f50c27394a0ee89b51189292952f0be7", [
+   "fexport_debug/out_0/kit/fierce/source.nuon"
+  ]],
+ ["fexport_debug/run.stderr.nuonl",                                                     container, 238,     "1638978231eb9c086a381666ad90291d71fccc12295e362ed8b02150c90e5c5e", [
+   "fexport_debug/run.stderr"
+  ]],
+ ["fexport_debug/run.stdout.nuonl",                                                     container, 667,     "b464b1b3e855a6ebfe2ed500f4fc8c8bc892b37909aed1d28b757124df35946c", [
+   "fexport_debug/run.stdout"
+  ]],
+ ["fexport_debug/step.nuon",                                                            raw,       1775,    "a1de4b2ca2d5f8b2004a6321dfdd631181afdb2b2b0be6dadb0472563e170ce6", [
+   "fexport_debug/step.nuon"
+  ]],
+ [fexport_service/build/kernel/flags,                                                   raw,       3662,    "47dce9d2899fbf6c0a063ba49e799fc48ba67882fe913c1c656216094a9cab38", [
+   fexport_service/build/kernel/flags
+  ]],
+ ["fexport_service/out_0/kit/fierce/program.jab.toml",                                  raw,       503,     "aa3dc4a78cb6f5e68b8b1e270e5771d694c218f60b833b4e83a4511b69273932", [
+   "fexport_service/out_0/kit/fierce/program.jab.toml"
+  ]],
+ ["fexport_service/out_0/kit/fierce/release/demand.nuon",                               raw,       189,     "f846eb430d8fc65a1fbe3f53fc252a853234c28c4c99d9e00c8feb4ac51e539c", [
+   "fexport_service/out_0/kit/fierce/release/demand.nuon"
+  ]],
+ ["fexport_service/out_0/kit/fierce/release/flags",                                     raw,       4583,    "e2941a0b3d9b89e2b852110a392d1f475207774cff68eee519e146633f03d8d6", [
+   "fexport_service/out_0/kit/fierce/release/flags"
+  ]],
+ ["fexport_service/out_0/kit/fierce/release/home",                                      raw,       105,     "15c6dff2c294bbab699d70d6349958734586a050cb574c68f79930764f17ebd0", [
+   "fexport_service/out_0/kit/fierce/release/home"
+  ]],
+ ["fexport_service/out_0/kit/fierce/release/provenance.nuon",                           raw,       2032,    "2f5a3e8ad29507375828bedba2aa78a38bd44f7f10b70a7662f0174fcffa72f9", [
+   "fexport_service/out_0/kit/fierce/release/provenance.nuon"
+  ]],
+ ["fexport_service/out_0/kit/fierce/source.nuon",                                       raw,       455,     "eaada96a8b561b709551c0c55b3d34abaa51ef195d497c72d29ade9ee5ed8ddd", [
+   "fexport_service/out_0/kit/fierce/source.nuon"
+  ]],
+ ["fexport_service/run.stderr.nuonl",                                                   container, 238,     "9f8067716e10161877cdf19713c40854775323e639ace67448c05baf2f6d14e3", [
+   "fexport_service/run.stderr"
+  ]],
+ ["fexport_service/run.stdout.nuonl",                                                   container, 675,     "dea36b7661dbedfc26b6aed8c1f070b4d9b1ae196284b11353215f0563afe48b", [
+   "fexport_service/run.stdout"
+  ]],
+ ["fexport_service/step.nuon",                                                          raw,       1792,    "d98348338ab9e17fee05b110b6a9961e96680bcd7fa070a215e7dc1aa3f94afe", [
+   "fexport_service/step.nuon"
+  ]],
+ [fresh/build/kernel/flags,                                                             raw,       3662,    "47dce9d2899fbf6c0a063ba49e799fc48ba67882fe913c1c656216094a9cab38", [
+   fresh/build/kernel/flags
+  ]],
+ ["fresh/run.stderr.nuonl",                                                             container, 238,     "03ba4a784a10c01dd09f982b92822f6662be5f64945b1932116de62c5a3af1b6", [
+   "fresh/run.stderr"
+  ]],
+ ["fresh/run.stdout.nuonl",                                                             container, 238,     "658ae0a4a09cc92ffbbdbb7cfff3c1282f29f8236c4e294bc50e3bb71f91ddcd", [
+   "fresh/run.stdout"
+  ]],
+ ["fresh/step.nuon",                                                                    raw,       1606,    "ed430dc90aeebbbad16d87accd8d64fe787c388af6e7a5d24477a88b2497ad49", [
+   "fresh/step.nuon"
+  ]],
+ [package/build/kernel/flags,                                                           raw,       3662,    "47dce9d2899fbf6c0a063ba49e799fc48ba67882fe913c1c656216094a9cab38", [
+   package/build/kernel/flags
+  ]],
+ ["package/run.stderr.nuonl",                                                           container, 238,     "41ded76bc0d0f816eb47895694c19852ef207ecdaf55de1b6d7f1a8104b23b43", [
+   "package/run.stderr"
+  ]],
+ ["package/run.stdout.nuonl",                                                           container, 3394,    "1d4ea4457ad015533a4137475a54638123f7bf8249a7f1ed130f64025e7c9512", [
+   "package/run.stdout"
+  ]],
+ ["package/step.nuon",                                                                  raw,       1892,    "d2c768bbe6e571d586d92e2f533389b9624eef464e738838b565245f9e73f536", [
+   "package/step.nuon"
+  ]],
+ ["archive.tar.xz",                                                                     archive,   3630464, "47f4f9eea0537c25253f9c4e2d52540caab90d3dc649fb553ff2b85bb43c5c3e", [
+   "bench/build/kernel/jab.bin",
+   "bench/build/kernel/jab.elf",
+   "bench/out_0/kit/fierce/qual_1ka1/20261022-225456/free/gauge.nuon",
+   "bench/out_0/kit/fierce/qual_1ka1/20261022-225456/free/run_1/api.out",
+   "bench/out_0/kit/fierce/qual_1ka1/20261022-225456/preflight/plan/api.out",
+   "bench/out_0/kit/fierce/qual_1ka1/20261022-225456/preflight/probe/api.out",
+   "bench/out_0/kit/fierce/qual_1ka1/20261022-225456/preflight/probe/bundle/api.out",
+   "bench/out_0/kit/fierce/qual_1ka1/20261022-225456/preflight/probe/bundle/bundle.nuon",
+   "bench/out_0/kit/fierce/qual_1ka1/20261022-225456/preflight/probe/bundle/classified.nuon",
+   "bench/out_0/kit/fierce/qual_1ka1/20261022-225456/preflight/probe/bundle/sdl.log",
+   "bench/out_0/kit/fierce/qual_1ka1/20261022-225456/preflight/probe/bundle/tables/0.nm",
+   "bench/out_0/kit/fierce/qual_1ka1/20261022-225456/preflight/probe/sdl.log",
+   "candidate/build/kernel/jab.bin",
+   "candidate/build/kernel/jab.elf",
+   "candidate/build/kit/fierce/fierce.elf",
+   "candidate/build/kit/fierce/fierce.jab",
+   "extract/build/kernel/jab.bin",
+   "extract/build/kernel/jab.elf",
+   "fexport/build/kernel/jab.bin",
+   "fexport/build/kernel/jab.elf",
+   "fexport/out_0/export.tar",
+   "fexport/out_0/kit/fierce/release/fierce.elf",
+   "fexport/out_0/kit/fierce/release/fierce.jab",
+   "fexport/out_0/kit/fierce/release/fierce.o",
+   "fexport/out_0/kit/fierce/release/jab_header.S",
+   "fexport/out_0/kit/fierce/release/jab_header.o",
+   "fexport/out_0/kit/fierce/release/jab_manifest.inc",
+   "fexport/out_0/kit/fierce/release/march/march.S",
+   "fexport/out_0/kit/fierce/release/march/march.o",
+   "fexport/out_0/kit/fierce/src/actor.S",
+   "fexport/out_0/kit/fierce/src/body.S",
+   "fexport/out_0/kit/fierce/src/camera.S",
+   "fexport/out_0/kit/fierce/src/census.S",
+   "fexport/out_0/kit/fierce/src/console.S",
+   "fexport/out_0/kit/fierce/src/hud.S",
+   "fexport/out_0/kit/fierce/src/light.S",
+   "fexport/out_0/kit/fierce/src/load.S",
+   "fexport/out_0/kit/fierce/src/main.S",
+   "fexport/out_0/kit/fierce/src/map.inc",
+   "fexport/out_0/kit/fierce/src/mip.S",
+   "fexport/out_0/kit/fierce/src/mixer.S",
+   "fexport/out_0/kit/fierce/src/player.S",
+   "fexport/out_0/kit/fierce/src/raster.S",
+   "fexport/out_0/kit/fierce/src/render.inc",
+   "fexport/out_0/kit/fierce/src/sector.S",
+   "fexport/out_0/kit/fierce/src/service.S",
+   "fexport/out_0/kit/fierce/src/snapshot.S",
+   "fexport/out_0/kit/fierce/src/sprite.S",
+   "fexport/out_0/kit/fierce/src/tile.S",
+   "fexport/out_0/kit/fierce/src/trace.S",
+   "fexport/out_0/kit/fierce/src/workers.S",
+   "fexport/out_0/kit/fierce/src/world.S",
+   "fexport/out_0/sdk/src/jab.inc",
+   "fexport/out_0/sdk/src/jab_f32.inc",
+   "fexport/out_0/sdk/src/jab_f64.inc",
+   "fexport/out_0/sdk/src/jab_jobs.inc",
+   "fexport/out_0/sdk/src/jab_keys.inc",
+   "fexport/out_0/sdk/src/jab_pad.inc",
+   "fexport/out_0/sdk/src/jab_rng.inc",
+   "fexport/out_0/sdk/src/program.ld",
+   "fexport_debug/build/kernel/jab.bin",
+   "fexport_debug/build/kernel/jab.elf",
+   "fexport_debug/out_0/export.tar",
+   "fexport_debug/out_0/kit/fierce/debug/fierce.elf",
+   "fexport_debug/out_0/kit/fierce/debug/fierce.jab",
+   "fexport_debug/out_0/kit/fierce/debug/fierce.o",
+   "fexport_debug/out_0/kit/fierce/debug/jab_header.S",
+   "fexport_debug/out_0/kit/fierce/debug/jab_header.o",
+   "fexport_debug/out_0/kit/fierce/debug/jab_manifest.inc",
+   "fexport_debug/out_0/kit/fierce/debug/march/march.S",
+   "fexport_debug/out_0/kit/fierce/debug/march/march.o",
+   "fexport_debug/out_0/kit/fierce/src/actor.S",
+   "fexport_debug/out_0/kit/fierce/src/body.S",
+   "fexport_debug/out_0/kit/fierce/src/camera.S",
+   "fexport_debug/out_0/kit/fierce/src/census.S",
+   "fexport_debug/out_0/kit/fierce/src/console.S",
+   "fexport_debug/out_0/kit/fierce/src/hud.S",
+   "fexport_debug/out_0/kit/fierce/src/light.S",
+   "fexport_debug/out_0/kit/fierce/src/load.S",
+   "fexport_debug/out_0/kit/fierce/src/main.S",
+   "fexport_debug/out_0/kit/fierce/src/map.inc",
+   "fexport_debug/out_0/kit/fierce/src/mip.S",
+   "fexport_debug/out_0/kit/fierce/src/mixer.S",
+   "fexport_debug/out_0/kit/fierce/src/player.S",
+   "fexport_debug/out_0/kit/fierce/src/raster.S",
+   "fexport_debug/out_0/kit/fierce/src/render.inc",
+   "fexport_debug/out_0/kit/fierce/src/sector.S",
+   "fexport_debug/out_0/kit/fierce/src/service.S",
+   "fexport_debug/out_0/kit/fierce/src/snapshot.S",
+   "fexport_debug/out_0/kit/fierce/src/sprite.S",
+   "fexport_debug/out_0/kit/fierce/src/tile.S",
+   "fexport_debug/out_0/kit/fierce/src/trace.S",
+   "fexport_debug/out_0/kit/fierce/src/workers.S",
+   "fexport_debug/out_0/kit/fierce/src/world.S",
+   "fexport_debug/out_0/sdk/src/jab.inc",
+   "fexport_debug/out_0/sdk/src/jab_f32.inc",
+   "fexport_debug/out_0/sdk/src/jab_f64.inc",
+   "fexport_debug/out_0/sdk/src/jab_jobs.inc",
+   "fexport_debug/out_0/sdk/src/jab_keys.inc",
+   "fexport_debug/out_0/sdk/src/jab_pad.inc",
+   "fexport_debug/out_0/sdk/src/jab_rng.inc",
+   "fexport_debug/out_0/sdk/src/program.ld",
+   "fexport_service/build/kernel/jab.bin",
+   "fexport_service/build/kernel/jab.elf",
+   "fexport_service/out_0/export.tar",
+   "fexport_service/out_0/kit/fierce/release/fierce.elf",
+   "fexport_service/out_0/kit/fierce/release/fierce.jab",
+   "fexport_service/out_0/kit/fierce/release/fierce.o",
+   "fexport_service/out_0/kit/fierce/release/jab_header.S",
+   "fexport_service/out_0/kit/fierce/release/jab_header.o",
+   "fexport_service/out_0/kit/fierce/release/jab_manifest.inc",
+   "fexport_service/out_0/kit/fierce/release/march/march.S",
+   "fexport_service/out_0/kit/fierce/release/march/march.o",
+   "fexport_service/out_0/kit/fierce/src/actor.S",
+   "fexport_service/out_0/kit/fierce/src/body.S",
+   "fexport_service/out_0/kit/fierce/src/camera.S",
+   "fexport_service/out_0/kit/fierce/src/census.S",
+   "fexport_service/out_0/kit/fierce/src/console.S",
+   "fexport_service/out_0/kit/fierce/src/hud.S",
+   "fexport_service/out_0/kit/fierce/src/light.S",
+   "fexport_service/out_0/kit/fierce/src/load.S",
+   "fexport_service/out_0/kit/fierce/src/main.S",
+   "fexport_service/out_0/kit/fierce/src/map.inc",
+   "fexport_service/out_0/kit/fierce/src/mip.S",
+   "fexport_service/out_0/kit/fierce/src/mixer.S",
+   "fexport_service/out_0/kit/fierce/src/player.S",
+   "fexport_service/out_0/kit/fierce/src/raster.S",
+   "fexport_service/out_0/kit/fierce/src/render.inc",
+   "fexport_service/out_0/kit/fierce/src/sector.S",
+   "fexport_service/out_0/kit/fierce/src/service.S",
+   "fexport_service/out_0/kit/fierce/src/snapshot.S",
+   "fexport_service/out_0/kit/fierce/src/sprite.S",
+   "fexport_service/out_0/kit/fierce/src/tile.S",
+   "fexport_service/out_0/kit/fierce/src/trace.S",
+   "fexport_service/out_0/kit/fierce/src/workers.S",
+   "fexport_service/out_0/kit/fierce/src/world.S",
+   "fexport_service/out_0/sdk/src/jab.inc",
+   "fexport_service/out_0/sdk/src/jab_f32.inc",
+   "fexport_service/out_0/sdk/src/jab_f64.inc",
+   "fexport_service/out_0/sdk/src/jab_jobs.inc",
+   "fexport_service/out_0/sdk/src/jab_keys.inc",
+   "fexport_service/out_0/sdk/src/jab_pad.inc",
+   "fexport_service/out_0/sdk/src/jab_rng.inc",
+   "fexport_service/out_0/sdk/src/program.ld",
+   "fresh/build/kernel/jab.bin",
+   "fresh/build/kernel/jab.elf",
+   "package/build/kernel/jab.bin",
+   "package/build/kernel/jab.elf",
+   "package/qual_1ka1-e5851a3c70.inputs/kernel.bin",
+   "package/qual_1ka1-e5851a3c70.inputs/qual_1ka1.nuon",
+   "package/qual_1ka1-e5851a3c70.inputs/route_render_0.nuon",
+   "package/qual_1ka1-e5851a3c70.inputs/spec.nuon",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/ambient/floor.mid",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/ambient/garage.mid",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/ambient/office.mid",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/ambient/stairwell.mid",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/ambient/yard.mid",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/map.nuon",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/map/name",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/map/render_0.jabfps.map",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/map/title",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/plan/garage.svg",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/plan/ground.svg",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/plan/office.svg",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/plan/outside.svg",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sound/alert.pcm",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sound/destroy.pcm",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sound/door_close.pcm",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sound/door_open.pcm",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sound/footstep1.pcm",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sound/footstep2.pcm",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sound/g1_bolt.pcm",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sound/g1_empty.pcm",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sound/g1_reload.pcm",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sound/g1_shot.pcm",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sound/gate.pcm",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sound/pickup.pcm",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sound/respawn.pcm",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sound/servo.pcm",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sound/spark.pcm",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sound/struck.pcm",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/aim_0.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/aim_1.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/aim_2.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/aim_3.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/aim_4.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/aim_5.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/aim_6.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/aim_7.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/fallen.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/fire_0.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/fire_1.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/fire_2.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/fire_3.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/fire_4.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/fire_5.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/fire_6.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/fire_7.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/spark1.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/spark2.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/spark3.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/stand_0.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/stand_1.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/stand_2.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/stand_3.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/stand_4.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/stand_5.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/stand_6.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/stand_7.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/struck_0.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/struck_1.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/struck_2.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/struck_3.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/struck_4.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/struck_5.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/struck_6.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/struck_7.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk1_0.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk1_1.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk1_2.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk1_3.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk1_4.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk1_5.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk1_6.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk1_7.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk2_0.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk2_1.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk2_2.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk2_3.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk2_4.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk2_5.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk2_6.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk2_7.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk3_0.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk3_1.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk3_2.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk3_3.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk3_4.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk3_5.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk3_6.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk3_7.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk4_0.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk4_1.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk4_2.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk4_3.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk4_4.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk4_5.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk4_6.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/android/walk4_7.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/gun/magazine.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/gun/magazine_hud.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/sign.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/sign_bay.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/sign_exit.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/sign_fpstech.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/sign_fpstech_small.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/sign_garage.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/sign_hazard.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/sign_office.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/sign_p1.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/sprite/sign_stairs.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/texture/asphalt.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/texture/block.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/texture/carpet.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/texture/concrete.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/texture/deck.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/texture/facade.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/texture/fence.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/texture/parking.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/texture/plaster.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/texture/plinth.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/texture/sky.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/texture/steel.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/texture/tile.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/texture/tread.png",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/asset/render_0/tile.nuon",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/bench/qual_1ka1.nuon",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/build/debug/demand.nuon",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/build/debug/fierce.elf",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/build/debug/fierce.jab",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/build/debug/flags",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/build/debug/jab.elf",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/build/debug/provenance.nuon",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/build/debug/source.nuon",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/build/service/demand.nuon",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/build/service/fierce.elf",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/build/service/fierce.jab",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/build/service/flags",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/build/service/jab.elf",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/build/service/provenance.nuon",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/build/service/source.nuon",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/fierce/demand.nuon",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/fierce/fierce.elf",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/fierce/fierce.jab",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/fierce/flags",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/fierce/provenance.nuon",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/fierce/source.nuon",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/kernel/jab.elf",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/package.nuon",
+   "package/qual_1ka1-e5851a3c70.stage/qual_1ka1-e5851a3c70/route/route_render_0.nuon",
+   "package/qual_1ka1.tar"
+  ]]
+]

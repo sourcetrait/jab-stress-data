@@ -1,0 +1,56 @@
+{
+  bench: "kit/fierce/qual_1ka1",
+  summary: "the qualification on 1KA1: the factory route twice, your play, the probed batches and their shim control, one worker against the automatic two, the service refused, the audio's debug run",
+  tree: release,
+  stamp: "20261022-225456",
+  started: "2026-10-22T22:54:56",
+  file: "/home/box/tmp/jab-stress/frameceiling/hostpackage_fresh/pkg/qual_1ka1-e5851a3c70/bench/qual_1ka1.nuon",
+  "file_sha256": "e1c2a97d67ebc1c91c0ead9f443404f461f91f4717517a2644f8070178d04bfe",
+  build: none,
+  package: "/home/box/tmp/jab-stress/frameceiling/hostpackage_fresh/pkg/qual_1ka1-e5851a3c70",
+  build_root: "/home/box/tmp/jab-stress/frameceiling/hostpackage_fresh/pkg/qual_1ka1-e5851a3c70/build",
+  builds: [
+    [name,    set,     dir,                                                                                              "image_sha256",                                                     "elf_sha256",                                                       "kernel_sha256"];
+    [service, service, "/home/box/tmp/jab-stress/frameceiling/hostpackage_fresh/pkg/qual_1ka1-e5851a3c70/build/service", "55762a95a1cd5372f9d6ee673657f9b1ec6e16ca049c285dad67fd99793ebce9", "234f6e5d4163b08be841d327e0508340f22c9d95a9f381f38379624674d4b45a", "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"],
+    [debug,   debug,   "/home/box/tmp/jab-stress/frameceiling/hostpackage_fresh/pkg/qual_1ka1-e5851a3c70/build/debug",   "899d98270cbea2d09e14dbcf04ab34b58ad1bf1c988cf10008619058c8975498", "0b1b196e3c35ea2018d4a52b6d989cd29d4c10086cc1872541829cb0edd0af93", "dbf39b5c9ddb8464774c6d0f648bd5f29931752da19503a8455f1c2f34c591ef"]
+  ],
+  steps: [
+    [label,     attend,                                                     gate,  run,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          state, exit, seconds];
+    [preflight, null,                                                       true,  [
+        "../../nu/bin/nuance/package.nu",
+        preflight,
+        "/home/box/tmp/jab-stress/frameceiling/hostpackage_fresh/pkg/qual_1ka1-e5851a3c70",
+        --spec,
+        "1ka1",
+        --image,
+        "fierce/fierce.jab",
+        --kernel,
+        "kernel/jab.elf",
+        --tree,
+        "asset/render_0",
+        --serial,
+        fps,
+        --bench,
+        "bench/qual_1ka1.nuon"
+      ],                                                                                                                                        done,  0,    33.1],
+    [free,      "your turn: play Render Zero with your pad for 60 seconds", false, [
+        "nu/bin/nuance.nu",
+        gauge,
+        play,
+        --tree,
+        release,
+        --seconds,
+        "60",
+        --spec,
+        "1ka1",
+        --image,
+        "/home/box/tmp/jab-stress/frameceiling/hostpackage_fresh/pkg/qual_1ka1-e5851a3c70/fierce/fierce.jab",
+        --kernel,
+        "/home/box/tmp/jab-stress/frameceiling/hostpackage_fresh/pkg/qual_1ka1-e5851a3c70/kernel/jab.elf",
+        --assets,
+        "/home/box/tmp/jab-stress/frameceiling/hostpackage_fresh/pkg/qual_1ka1-e5851a3c70/asset/render_0"
+      ], done,  0,    113.6]
+  ],
+  report: 0,
+  state: done
+}

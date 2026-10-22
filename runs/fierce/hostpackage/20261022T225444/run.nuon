@@ -1,0 +1,81 @@
+{
+ schema: 2,
+ set: hostpackage,
+ stamp: "20261022T225444",
+ task: HostPackage,
+ scope: {
+  kind: targeted,
+  ran: 2,
+  of: 14,
+  names: [
+   preflight,
+   free
+  ]
+ },
+ builds: [
+  {
+   part: candidate,
+   build: "e5851a3c70e622f418ef2722cf4286ab2cf20178",
+   source: checkout,
+   record: "candidate/step.nuon"
+  },
+  {
+   part: fexport,
+   build: "e5851a3c70e622f418ef2722cf4286ab2cf20178",
+   source: checkout,
+   record: "fexport/step.nuon"
+  },
+  {
+   part: fexport_debug,
+   build: "e5851a3c70e622f418ef2722cf4286ab2cf20178",
+   source: checkout,
+   record: "fexport_debug/step.nuon"
+  },
+  {
+   part: fexport_service,
+   build: "e5851a3c70e622f418ef2722cf4286ab2cf20178",
+   source: checkout,
+   record: "fexport_service/step.nuon"
+  },
+  {
+   part: package,
+   build: "e5851a3c70e622f418ef2722cf4286ab2cf20178",
+   source: checkout,
+   record: "package/step.nuon"
+  },
+  {
+   part: fresh,
+   build: null,
+   source: synthetic,
+   record: "fresh/step.nuon"
+  },
+  {
+   part: extract,
+   build: null,
+   source: synthetic,
+   record: "extract/step.nuon"
+  },
+  {
+   part: bench,
+   build: null,
+   source: export,
+   record: "bench/out_0/kit/fierce/qual_1ka1/20261022-225456/bench.nuon",
+   export: {
+    name: "export_e5851a3",
+    commit: "e5851a3c70e622f418ef2722cf4286ab2cf20178",
+    provenance: "fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  }
+ ],
+ kept: {
+  as: checkpoint,
+  why: "HostPackage's relocated proof made again with XDG_CACHE_HOME a fresh directory, its audit's first finding, through jab-stress 9eff933's recorded runner at jab e5851a3, both checkouts clean, kernel/ and sdk/src equal to d297a6b's. The candidate at e5851a3 (image 264e7b7c, the tree's release build); fierce exported at e5851a3 as export_e5851a3, gated on that image, its ELF 5cf683cc with RELEASE, beside its debug (899d9827) and service (55762a95) named builds; the package laid by qualification package, qual_1ka1-e5851a3c70, 147 artifacts, 4,423,248 bytes, its tar's SHA-256 f7751341f69c13cfff1d940e23970cea36b155de77cb87ed2110c4652fbeb5e1; the tar extracted into a fresh directory and ./do bench kit/fierce/qual_1ka1 --package <it> --only preflight,free run from a fresh working directory with XDG_CACHE_HOME a fresh directory, so the checkout's target, its exports, and its asset cache lay out of the run's reach, under JAB_DISPLAY sdl,gl=on and SDL_VIDEODRIVER offscreen. The preflight held: 147 artifacts by SHA-256, 1KA1 on the host's 32 cores, QEMU 11.1.2, GNU timeout 9.10, audio none, the capture path probed and bundle-checked, no rebuild and no refusal. The free play ran 60 s on the packaged image, kernel (c8285900), and asset tree (digest 7049f793), its disk made from that tree, the program's source identity read from the package's source.nuon; the fresh target held the bench, the fetched generic disk, and the shim alone, no guest build. A proof of the package, never qualification evidence. Cited by the fps subiter's plan/agenda/FrameCeiling/Qualification/HostPackage.md."
+ },
+ inventory: "3471d0d6d750c9a729e332a5644c88c36227e7c3c433d5b32dd74f4ab01de17f",
+ storage: "64ff4a1fb2810d283867f85414fc981f3db5cc514b863998868a99e6cea4f94d"
+}
