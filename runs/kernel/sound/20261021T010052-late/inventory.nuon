@@ -1,0 +1,10 @@
+[
+ [path,          role,   length, "sha256",                                                           disposition, reason];
+ ["debug.log",   log,    379,    "12f61338e3306dedf9ad0ade7866d0c4faefedc6d69c44ce4656c0a569eb6563", kept,        ""],
+ ["launch.nuon", record, 872,    "7aac33b5f304b9a425baa001bf17c00d39ef1c3a5905e95ad63783d6486ed491", kept,        ""],
+ ["qemu.log",    log,    0,      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", kept,        ""],
+ ["qemu.stderr", log,    0,      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", kept,        ""],
+ ["qemu.stdout", log,    0,      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", kept,        ""],
+ ["serial.log",  log,    0,      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", kept,        ""],
+ ["sound.wav",   stream, 321452, "7e0f91c5c9b4ef862f5283fb542cab81616f5fc8f534010e905d492096c1e4bd", archived,    "the late run's recording, the finding's evidence, kept compactly"]
+]

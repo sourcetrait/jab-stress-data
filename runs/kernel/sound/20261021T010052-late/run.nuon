@@ -1,0 +1,24 @@
+{
+ schema: 2,
+ set: sound,
+ stamp: "20261021T010052-late",
+ task: ServiceQuotas,
+ scope: {
+  kind: targeted,
+  ran: 1,
+  of: 2,
+  names: [
+   late
+  ]
+ },
+ builds: [
+  [part,          build,                                      source,   record];
+  ["jab_7d9d49e", "7d9d49e285b1442c8eb532194cafd8e8682af27b", checkout, "launch.nuon"]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "ServiceQuotas' O8 evidence: test/sound's late run under jab.soundlate=300 in the suite at jab 7d9d49e, run beside the audit's six sweeps, its launch's go at 01:00:52 on 2026-10-21, copied out of the target as the test left it. The program had written six periods when the delayed service refilled all eight, so the recording's tone, frames 7,680 to 57,599, holds two whole periods of exact zeros, frames 13,440 to 15,359, the stream's periods 14 and 15, and no other silence: read over the whole stretch it lasts 1.040 s and its crossings count 423.6 Hz, which the test's 440 within 2 refused; with those periods set aside, 1.000 s at 439.5 Hz, its peak 16,000. A fixture race the kernel's design allows, no live-audio result; the test now sets such periods aside and counts them. The recording archived, the logs and the launch's record kept. Cited by the kernel subiter's plan/agenda/FourHarts/DeviceOwners/ServiceQuotas.md."
+ },
+ inventory: "124f670df3afe538e79f5dbba4e7869eedc264e8082cd5748b5a9e851b287396",
+ storage: "d28731b2a303660d5437613c67e6fdfd72f9dcc7a786820b6997347dfbd96a8b"
+}

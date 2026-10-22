@@ -1,0 +1,24 @@
+[
+ [object,              kind,      length, "sha256",                                                           holds];
+ ["debug.log.nuonl",   container, 1011,   "a5032247bb7dd5348326fac799b8614194caf73dac755d21cf18072988afdcf6", [
+   "debug.log"
+  ]],
+ ["launch.nuon",       raw,       872,    "7aac33b5f304b9a425baa001bf17c00d39ef1c3a5905e95ad63783d6486ed491", [
+   "launch.nuon"
+  ]],
+ ["qemu.log.nuonl",    container, 229,    "3acc00c06cb97dcdb7b36288e4ed0a33002ffddad0872d042514a672cb10e5f0", [
+   "qemu.log"
+  ]],
+ ["qemu.stderr.nuonl", container, 232,    "5d39d7c575b6f58906a171aae3d72b4eba1333b959bc929779755bb6c900f0cb", [
+   "qemu.stderr"
+  ]],
+ ["qemu.stdout.nuonl", container, 232,    "21e7d1eb7db669c474c4926a104032d8e0e0202b7b61a715a906549c2fc0a202", [
+   "qemu.stdout"
+  ]],
+ ["serial.log.nuonl",  container, 230,    "c2092f3f1e1fdaf680f2116d4b389e66df04fa5cb9e611e3cc211d6d479c212a", [
+   "serial.log"
+  ]],
+ ["archive.tar.xz",    archive,   900,    "3f505f672b205b1b2d3cc6f12b17fece7ead17a63b22be6674460fe754507d7e", [
+   "sound.wav"
+  ]]
+]
