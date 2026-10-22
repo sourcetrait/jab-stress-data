@@ -1,0 +1,12 @@
+[
+ [object,          kind,      length, "sha256",                                                           holds];
+ ["build.nuon",    raw,       891,    "f7ccd6b2771aecbc146c6ca9bf6f212f027bfd6a0b9325e36dc9e1a790386c05", [
+   "build.nuon"
+  ]],
+ ["cmdline.nuon",  raw,       1394,   "762a8302578c9f88c9d0ad025114720659a4de2eee31c84160ce0584dcf4584d", [
+   "cmdline.nuon"
+  ]],
+ ["run.log.nuonl", container, 1853,   "55861d819f6016d9e9ed07c392a8dc0bcc239b110d3309742604bd7a1b5c8af3", [
+   "run.log"
+  ]]
+]

@@ -1,0 +1,24 @@
+{
+ schema: 2,
+ set: specselection,
+ stamp: "20261022T224335",
+ task: SpecSelection,
+ scope: {
+  kind: targeted,
+  ran: 1,
+  of: 1,
+  names: [
+   "run_1kb1"
+  ]
+ },
+ builds: [
+  [part,       build,                                      source,   record];
+  ["run_1kb1", "e5851a3c70e622f418ef2722cf4286ab2cf20178", checkout, "build.nuon"]
+ ],
+ kept: {
+  as: current,
+  why: "SpecSelection's S2, its done-when read at the batch's commit: jab e5851a3, clean, `./do run fierce -s 1kb1` from the checkout's root, the release kernel c8285900 and fierce's release image 264e7b7c. The QEMU it launched read from its process's command line: -smp 7, -m 8G, virtio-gpu-device at xres 1920 and yres 1080, -append jab.spec=1kb1, -accel tcg,thread=multi, the audio backend none and no pad on this box. The machine still ran 8 s after the line was read, past the kernel's startup check, which ends a machine off its spec at once with status 1; QEMU then ended by TERM. Cited by the kernel subiter's plan/agenda/FourHarts/SpecTopology/SpecSelection.md."
+ },
+ inventory: "27447f66a30fe466ffc86f12cf657c5d417fffcb746156e4756a8488441ed11b",
+ storage: "109ceca5b4bfe42643f7a2e55ffe98db8a0ef060f1f5707f0b308b1e442b895f"
+}

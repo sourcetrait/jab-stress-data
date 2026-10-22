@@ -1,0 +1,18 @@
+{
+ jab: "e5851a3c70e622f418ef2722cf4286ab2cf20178",
+ clean: true,
+ kernel: {
+  path: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/kernel/jab.elf",
+  "sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae",
+  flags: "-I src/include -I ../sdk/src -march=rva23s64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-"
+ },
+ image: {
+  path: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/kit/fierce/fierce.jab",
+  "sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+  flags: "-I ../../sdk/src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/kit/fierce -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-"
+ },
+ command: "./do run fierce -s 1kb1",
+ read: "/proc/<pid>/cmdline of the QEMU the run launched",
+ alive_after_s: 8,
+ ended: "TERM to QEMU"
+}

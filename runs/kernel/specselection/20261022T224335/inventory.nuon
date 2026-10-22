@@ -1,0 +1,6 @@
+[
+ [path,           role,   length, "sha256",                                                           disposition, reason];
+ ["build.nuon",   record, 891,    "f7ccd6b2771aecbc146c6ca9bf6f212f027bfd6a0b9325e36dc9e1a790386c05", kept,        ""],
+ ["cmdline.nuon", record, 1394,   "762a8302578c9f88c9d0ad025114720659a4de2eee31c84160ce0584dcf4584d", kept,        ""],
+ ["run.log",      log,    796,    "38479dc3df216fa31c0cd1afef6379aeb9e6e9fd4f728e287f072bfef91cd441", kept,        ""]
+]
