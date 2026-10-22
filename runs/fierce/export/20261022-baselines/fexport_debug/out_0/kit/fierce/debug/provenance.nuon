@@ -1,0 +1,41 @@
+{
+  commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+  symbols: [
+    DEBUG
+  ],
+  source: "the program's src/ and manifest at d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+  sdk: "sdk/src at d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4, the export's own",
+  build_tool: {
+    repos: [
+      [repo,                           commit,                                     dirty];
+      [/home/box/proj/sourcetrait/jab, "e5851a3c70e622f418ef2722cf4286ab2cf20178", false]
+    ],
+    runtime: [
+      [role,          version,   "sha256"];
+      [nu,            "0.115.1", "c343a927a2d4a45ebf9300d013b226bcdc2598ecb0178a8a79722ebffe71e56e"],
+      ["nu launched", "0.115.1", "c343a927a2d4a45ebf9300d013b226bcdc2598ecb0178a8a79722ebffe71e56e"]
+    ],
+    executables: [
+
+    ]
+  },
+  toolchain: {
+    prefix: "/home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+    version: "GNU assembler (GNU Binutils) 2.47.20260726",
+    assembler: {
+      path: "/home/box/.sys/adhoc/opt/riscv/bin/riscv64-unknown-linux-gnu-as",
+      "sha256": "594cf6297f02007cecb2f5900b90297902697db42e5bf57c730d7eed00647ef2"
+    },
+    linker: {
+      path: "/home/box/.sys/adhoc/opt/riscv/bin/riscv64-unknown-linux-gnu-ld",
+      "sha256": "b931cf6b8ff1b97d2b3bc0c060b59a2fb638d4d7893cbea9208fd7664c686bb6"
+    },
+    objcopy: {
+      path: "/home/box/.sys/adhoc/opt/riscv/bin/riscv64-unknown-linux-gnu-objcopy",
+      "sha256": "1aed841115bd72b9dfdc46b5509725223542d3b8f47ea15309912b8544cbd2ae"
+    }
+  },
+  flags: "-I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_d297a6b-debug/sdk/src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_d297a6b-debug/kit/fierce/debug --defsym DEBUG=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+  "image_sha256": "899d98270cbea2d09e14dbcf04ab34b58ad1bf1c988cf10008619058c8975498",
+  "elf_sha256": "0b1b196e3c35ea2018d4a52b6d989cd29d4c10086cc1872541829cb0edd0af93"
+}

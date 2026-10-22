@@ -1,0 +1,36 @@
+{
+ schema: 2,
+ set: export,
+ stamp: "20261022-baselines",
+ task: FrameCeiling,
+ scope: {
+  kind: targeted,
+  ran: 7,
+  of: 7,
+  names: [
+   fierce_release,
+   fexport,
+   launcher,
+   fexport_debug,
+   fexport_service,
+   fierce_release_footprint,
+   fexport_footprint
+  ]
+ },
+ builds: [
+  [part,                     build,                                      source,   record];
+  [fierce_release,           "e5851a3c70e622f418ef2722cf4286ab2cf20178", checkout, "fierce_release/step.nuon"],
+  [fexport,                  "e5851a3c70e622f418ef2722cf4286ab2cf20178", checkout, "fexport/step.nuon"],
+  [launcher,                 "e5851a3c70e622f418ef2722cf4286ab2cf20178", checkout, "launcher/step.nuon"],
+  [fexport_debug,            "e5851a3c70e622f418ef2722cf4286ab2cf20178", checkout, "fexport_debug/step.nuon"],
+  [fexport_service,          "e5851a3c70e622f418ef2722cf4286ab2cf20178", checkout, "fexport_service/step.nuon"],
+  [fierce_release_footprint, "e5851a3c70e622f418ef2722cf4286ab2cf20178", checkout, "fierce_release_footprint/step.nuon"],
+  [fexport_footprint,        "e5851a3c70e622f418ef2722cf4286ab2cf20178", checkout, "fexport_footprint/step.nuon"]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "The decision's baseline, FrameCeiling's step 5, named before any capture against it: fierce exported at d297a6b, P2's landing commit, through jab-stress 9eff933's recorded runner at jab e5851a3, both checkouts clean, kernel/ and sdk/src equal to d297a6b's. export_d297a6b, release, image 264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483, gated on the tree's own release image built the step before, its ELF 5cf683cc where the tree's is 65774439 by the RELEASE symbol alone; export_d297a6b-footprint, FootprintEstimate's candidate, image 4ae9d5e2ab20d4bbbf17ecb512d5ab35cfdf412de62570f9fe675cb5ecce0949, the tree's own --set footprint image, its ELF c471bb14; export_d297a6b-debug, image 899d9827, and export_d297a6b-service, image 55762a95, the qualification bench's named builds for the host package. The launcher its measurements run under, launcher.nuon: jabpipe f14f64cd built from jab e5851a3, the supervisor's go the origin of every receipt time. The kernel beside it is runs/kernel/export/20261022-baselines' kexport_d297a6b. Each export's whole tree copied into its step, its provenance among it, the sources and builds archived. Cited by the fps subiter's plan/agenda/FrameCeiling.md, its FootprintEstimate.md and Qualification/HostPackage.md, and the kernel subiter's SubmitWait.md."
+ },
+ inventory: "be62326c30aa78175037e508ec052b9da6731d2af935627aeb1c24d3f4fa0113",
+ storage: "5f13b9679cf212c42e801261f96e234db822f14597cefdb0c96f1bc8536893c3"
+}

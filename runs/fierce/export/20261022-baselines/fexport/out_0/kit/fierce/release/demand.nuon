@@ -1,0 +1,1 @@
+{image: "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483", demand: {specs: ["1KA1", "1KB1"], reserved: {gfx_harts: 2}, features: [[name, io_harts]; [service, 1]], base: 3}}
