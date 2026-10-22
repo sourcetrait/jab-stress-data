@@ -1,0 +1,5 @@
+[
+ [path,            role,   length, "sha256",                                                           disposition, reason];
+ ["readings.log",  log,    9504,   "7c3e8598e0ab717a518f45703ecb9d99a1da82a54e54afb15ab49b291ecfc3f0", kept,        ""],
+ ["readings.nuon", record, 177128, "6e6ab923bdfb26169111a0081e5e4c681f2a1d44f5874ba516ee78ef1b74e5b9", kept,        ""]
+]

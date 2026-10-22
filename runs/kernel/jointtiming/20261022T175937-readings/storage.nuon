@@ -1,0 +1,9 @@
+[
+ [object,               kind,      length, "sha256",                                                           holds];
+ ["readings.log.nuonl", container, 19268,  "e5eaca99f79a64f0b4a589064003e9a5d826ea5d4ff1e6d43c02d291370cb963", [
+   "readings.log"
+  ]],
+ ["readings.nuon",      raw,       177128, "6e6ab923bdfb26169111a0081e5e4c681f2a1d44f5874ba516ee78ef1b74e5b9", [
+   "readings.nuon"
+  ]]
+]

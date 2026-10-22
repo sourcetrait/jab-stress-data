@@ -1,0 +1,6299 @@
+{
+ strategy: reordered,
+ checks: [
+  [check,            run,                                                                                         "run_sha256",                                                       step];
+  [function_cases,   "/home/box/proj/sourcetrait/jab-stress-data/runs/kernel/jointtiming/20261022T153407-checks", "cf53ef94fdfe0b9fec76ca8cd2607739d3cccaec12bda1a374b27a33a43f0d00", "framecap_p2"],
+  [cadence_fixtures, "/home/box/proj/sourcetrait/jab-stress-data/runs/kernel/jointtiming/20261022T153407-checks", "cf53ef94fdfe0b9fec76ca8cd2607739d3cccaec12bda1a374b27a33a43f0d00", "fierce_cadence_p2"]
+ ],
+ calibration: {
+  state: calibrated,
+  eps: 3700,
+  qualifying: {
+   "1ka1": 19445,
+   "1kb1": 19812
+  }
+ },
+ freeze: {
+  images: [
+   [role,                "sha256"];
+   [fps,                 "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483"],
+   [walk_await,          "ad2f50b1142e80e2b263a10e76e0d54a8ca69d25b74126546bda25b61bf6d7ff"],
+   [walk_await_timing,   "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d"],
+   [walk_prepare,        "32b2dcd195e392aada13943589af2a1c58c5fc7a0bfe56a87ec8dde600bdab3f"],
+   [walk_prepare_timing, "088eff5d5cd15ce91acf8b48ab0d2cb43a27a8839e642b0e88588acd101e2f0d"]
+  ],
+  kernels: [
+   [role, "sha256"];
+   ["P0", "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec"],
+   ["P2", "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c"]
+  ]
+ },
+ runs: [
+  {
+   id: "box/calibration/p0_1ka1_1/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T124838/tree/p0_1ka1_1/run_1",
+   nonce: 5572012925781737614,
+   host: box,
+   target: "1ka1",
+   battery: calibration,
+   workload: fps,
+   backend: headless,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 1,
+   seed: 1,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3294,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.647,             16.8547],
+    [fight,    11.139,             16.8048],
+    [spawn,    11.646,             16.792900000000003],
+    [yard,     13.269,             16.8077],
+    [up,       11.951,             17.1455],
+    [down,     10.027,             16.8298],
+    [ramp,     11.565,             16.8558],
+    [revisit,  11.584,             16.809900000000003],
+    [pressure, 12.691,             16.9597]
+   ],
+   submission_age_median_ms: 16.56,
+   late_wakes: 4,
+   catch_ups: 0
+  },
+  {
+   id: "box/calibration/p0_1ka1_1/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T124838/tree/p0_1ka1_1/run_2",
+   nonce: 138134943200860127,
+   host: box,
+   target: "1ka1",
+   battery: calibration,
+   workload: fps,
+   backend: headless,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 2,
+   seed: 2,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3244,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.786,             16.7367],
+    [fight,    11.101,             16.808400000000002],
+    [spawn,    11.664,             16.7757],
+    [yard,     13.308,             16.7811],
+    [up,       12.132,             17.3782],
+    [down,     10.529,             16.8541],
+    [ramp,     11.528,             16.8052],
+    [revisit,  11.566,             16.8215],
+    [pressure, 12.875,             16.990099999999998]
+   ],
+   submission_age_median_ms: 16.559,
+   late_wakes: 6,
+   catch_ups: 0
+  },
+  {
+   id: "box/calibration/p0_1ka1_1/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T124838/tree/p0_1ka1_1/run_3",
+   nonce: 1743844875130397200,
+   host: box,
+   target: "1ka1",
+   battery: calibration,
+   workload: fps,
+   backend: headless,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 3,
+   seed: 3,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3286,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.74,              16.8038],
+    [fight,    11.047,             16.826],
+    [spawn,    11.627,             16.7835],
+    [yard,     13.222,             16.7766],
+    [up,       11.892,             17.17],
+    [down,     10.653,             16.778],
+    [ramp,     11.757,             16.7625],
+    [revisit,  11.532,             16.8036],
+    [pressure, 12.986,             17.002299999999998]
+   ],
+   submission_age_median_ms: 16.558,
+   late_wakes: 1,
+   catch_ups: 0
+  },
+  {
+   id: "box/calibration/p0_1kb1_1/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T124838/tree/p0_1kb1_1/run_1",
+   nonce: 8240018713968525061,
+   host: box,
+   target: "1kb1",
+   battery: calibration,
+   workload: fps,
+   backend: headless,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 1,
+   seed: 1,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 2656,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    9.203,              16.823],
+    [fight,    10.013,             16.737],
+    [spawn,    10.635,             16.7694],
+    [yard,     10.596,             16.8235],
+    [up,       11.113,             16.8093],
+    [down,     10.405,             16.858],
+    [ramp,     9.857,              16.8003],
+    [revisit,  10.825,             16.781],
+    [pressure, 10.929,             16.745900000000002]
+   ],
+   submission_age_median_ms: 16.569,
+   late_wakes: 5,
+   catch_ups: 0
+  },
+  {
+   id: "box/calibration/p0_1kb1_1/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T124838/tree/p0_1kb1_1/run_2",
+   nonce: 7335484332993591064,
+   host: box,
+   target: "1kb1",
+   battery: calibration,
+   workload: fps,
+   backend: headless,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 2,
+   seed: 2,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3039,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.155,             16.904799999999998],
+    [fight,    10.903,             16.7615],
+    [spawn,    10.312,             16.7596],
+    [yard,     11.053,             16.7669],
+    [up,       11.228,             16.7621],
+    [down,     10.595,             16.7649],
+    [ramp,     10.177,             16.794700000000002],
+    [revisit,  10.928,             16.7662],
+    [pressure, 10.933,             16.8018]
+   ],
+   submission_age_median_ms: 16.573,
+   late_wakes: 2,
+   catch_ups: 0
+  },
+  {
+   id: "box/calibration/p0_1kb1_1/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T124838/tree/p0_1kb1_1/run_3",
+   nonce: 3685998468368557738,
+   host: box,
+   target: "1kb1",
+   battery: calibration,
+   workload: fps,
+   backend: headless,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 3,
+   seed: 3,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3307,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.253,             16.8198],
+    [fight,    10.584,             16.751099999999997],
+    [spawn,    10.966,             16.787599999999998],
+    [yard,     10.746,             16.7795],
+    [up,       11.367,             16.797400000000003],
+    [down,     10.279,             16.785],
+    [ramp,     9.322,              16.7577],
+    [revisit,  10.773,             16.7769],
+    [pressure, 11.52,              16.817400000000003]
+   ],
+   submission_age_median_ms: 16.563,
+   late_wakes: 2,
+   catch_ups: 0
+  },
+  {
+   id: "box/calibration/p0_1kb1_2/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T124838/tree/p0_1kb1_2/run_1",
+   nonce: 1181701527594597039,
+   host: box,
+   target: "1kb1",
+   battery: calibration,
+   workload: fps,
+   backend: headless,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 4,
+   seed: 3,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 121,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.127,             16.8376],
+    [fight,    10.032,             16.7364],
+    [spawn,    9.907,              16.7316],
+    [yard,     10.27,              16.7185],
+    [up,       10.927,             16.7407],
+    [down,     10.287,             16.741],
+    [ramp,     9.54,               16.7472],
+    [revisit,  10.532,             16.784299999999998],
+    [pressure, 10.977,             16.8172]
+   ],
+   submission_age_median_ms: 16.564,
+   late_wakes: 1,
+   catch_ups: 0
+  },
+  {
+   id: "box/calibration/p0_1kb1_2/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T124838/tree/p0_1kb1_2/run_2",
+   nonce: 3648103652737016948,
+   host: box,
+   target: "1kb1",
+   battery: calibration,
+   workload: fps,
+   backend: headless,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 5,
+   seed: 2,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3305,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    9.102,              16.7952],
+    [fight,    9.636,              16.7351],
+    [spawn,    10.507,             16.7811],
+    [yard,     10.665,             16.7851],
+    [up,       11.053,             16.762900000000002],
+    [down,     9.076,              16.7875],
+    [ramp,     9.332,              16.722],
+    [revisit,  9.335,              16.759],
+    [pressure, 11.421,             16.778599999999997]
+   ],
+   submission_age_median_ms: 16.56,
+   late_wakes: 3,
+   catch_ups: 0
+  },
+  {
+   id: "box/calibration/p0_1kb1_2/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T124838/tree/p0_1kb1_2/run_3",
+   nonce: 6335103497931427399,
+   host: box,
+   target: "1kb1",
+   battery: calibration,
+   workload: fps,
+   backend: headless,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 6,
+   seed: 1,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 2917,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    9.186,              16.7353],
+    [fight,    9.049,              16.7675],
+    [spawn,    10.11,              16.7852],
+    [yard,     10.584,             16.7548],
+    [up,       11.068,             16.7795],
+    [down,     9.623,              16.7565],
+    [ramp,     9.48,               16.745900000000002],
+    [revisit,  10.596,             16.7338],
+    [pressure, 10.017,             16.7177]
+   ],
+   submission_age_median_ms: 16.558,
+   late_wakes: 1,
+   catch_ups: 0
+  },
+  {
+   id: "box/calibration/p0_1ka1_2/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T124838/tree/p0_1ka1_2/run_1",
+   nonce: 2856717594514243688,
+   host: box,
+   target: "1ka1",
+   battery: calibration,
+   workload: fps,
+   backend: headless,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 4,
+   seed: 3,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3163,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.546,             16.724],
+    [fight,    11.067,             16.7305],
+    [spawn,    11.694,             16.7438],
+    [yard,     13.431,             16.725],
+    [up,       12.099,             16.9254],
+    [down,     10.446,             16.8142],
+    [ramp,     11.589,             16.7679],
+    [revisit,  11.576,             16.7279],
+    [pressure, 12.9,               17.9522]
+   ],
+   submission_age_median_ms: 16.582,
+   late_wakes: 0,
+   catch_ups: 0
+  },
+  {
+   id: "box/calibration/p0_1ka1_2/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T124838/tree/p0_1ka1_2/run_2",
+   nonce: 7779699210593536143,
+   host: box,
+   target: "1ka1",
+   battery: calibration,
+   workload: fps,
+   backend: headless,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 5,
+   seed: 2,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3289,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.613,             16.7224],
+    [fight,    11.158,             16.7743],
+    [spawn,    11.614,             16.7473],
+    [yard,     13.374,             16.7675],
+    [up,       11.941,             17.273400000000002],
+    [down,     10.219,             16.784200000000002],
+    [ramp,     11.616,             16.8109],
+    [revisit,  11.567,             16.7978],
+    [pressure, 12.792,             17.0013]
+   ],
+   submission_age_median_ms: 16.561,
+   late_wakes: 1,
+   catch_ups: 0
+  },
+  {
+   id: "box/calibration/p0_1ka1_2/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T124838/tree/p0_1ka1_2/run_3",
+   nonce: 4138836288044832759,
+   host: box,
+   target: "1ka1",
+   battery: calibration,
+   workload: fps,
+   backend: headless,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 6,
+   seed: 1,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3290,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.593,             16.8749],
+    [fight,    11.04,              16.7591],
+    [spawn,    11.59,              16.766299999999998],
+    [yard,     13.301,             16.8246],
+    [up,       12.065,             17.1388],
+    [down,     10.345,             16.841099999999997],
+    [ramp,     11.513,             16.7836],
+    [revisit,  11.566,             16.746],
+    [pressure, 12.895,             17.4366]
+   ],
+   submission_age_median_ms: 16.57,
+   late_wakes: 5,
+   catch_ups: 0
+  },
+  {
+   id: "box/guest/p0_1ka1_1/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T135830-guest/tree/p0_1ka1_1/run_1",
+   nonce: 2055915205706162021,
+   host: box,
+   target: "1ka1",
+   battery: guest,
+   workload: fps,
+   backend: headless,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 1,
+   seed: 1,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3293,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.63,              16.8618],
+    [fight,    10.986,             16.796],
+    [spawn,    11.602,             16.8195],
+    [yard,     13.233,             16.828799999999998],
+    [up,       12.094,             17.2126],
+    [down,     10.173,             16.8096],
+    [ramp,     11.514,             16.7811],
+    [revisit,  11.606,             16.750400000000003],
+    [pressure, 12.853,             18.0477]
+   ],
+   submission_age_median_ms: 16.569,
+   late_wakes: 3,
+   catch_ups: 0
+  },
+  {
+   id: "box/guest/p0_1ka1_1/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T135830-guest/tree/p0_1ka1_1/run_2",
+   nonce: 3843435557791270407,
+   host: box,
+   target: "1ka1",
+   battery: guest,
+   workload: fps,
+   backend: headless,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 2,
+   seed: 2,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3275,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.622,             18.3734],
+    [fight,    11.187,             16.7935],
+    [spawn,    11.646,             16.7759],
+    [yard,     13.297,             16.7822],
+    [up,       12.107,             16.9862],
+    [down,     10.71,              16.7491],
+    [ramp,     11.539,             16.768099999999997],
+    [revisit,  11.585,             16.7785],
+    [pressure, 12.901,             17.564400000000003]
+   ],
+   submission_age_median_ms: 16.557,
+   late_wakes: 5,
+   catch_ups: 0
+  },
+  {
+   id: "box/guest/p0_1ka1_1/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T135830-guest/tree/p0_1ka1_1/run_3",
+   nonce: 8943668502441932412,
+   host: box,
+   target: "1ka1",
+   battery: guest,
+   workload: fps,
+   backend: headless,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 3,
+   seed: 3,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3284,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.652,             16.7486],
+    [fight,    11.188,             16.748],
+    [spawn,    11.559,             16.762400000000003],
+    [yard,     13.24,              16.764200000000002],
+    [up,       11.891,             17.220200000000002],
+    [down,     10.477,             16.808799999999998],
+    [ramp,     11.464,             16.7766],
+    [revisit,  11.586,             16.8067],
+    [pressure, 12.744,             17.322599999999998]
+   ],
+   submission_age_median_ms: 16.564,
+   late_wakes: 1,
+   catch_ups: 0
+  },
+  {
+   id: "box/guest/p2_1ka1_1/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T135830-guest/tree/p2_1ka1_1/run_1",
+   nonce: 7814009000759502706,
+   host: box,
+   target: "1ka1",
+   battery: guest,
+   workload: fps,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 4,
+   seed: 1,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.686,             16.8454],
+    [fight,    11.109,             16.7953],
+    [spawn,    11.599,             16.7754],
+    [yard,     13.311,             16.8128],
+    [up,       12.026,             17.5385],
+    [down,     10.316,             16.7255],
+    [ramp,     11.519,             16.7347],
+    [revisit,  11.58,              16.721],
+    [pressure, 12.88,              17.1026]
+   ],
+   submission_age_median_ms: 16.56,
+   late_wakes: 2,
+   catch_ups: 0
+  },
+  {
+   id: "box/guest/p2_1ka1_1/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T135830-guest/tree/p2_1ka1_1/run_2",
+   nonce: 5301763766688563439,
+   host: box,
+   target: "1ka1",
+   battery: guest,
+   workload: fps,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 5,
+   seed: 2,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.621,             16.8357],
+    [fight,    11.048,             16.812],
+    [spawn,    11.601,             16.7787],
+    [yard,     13.267,             16.7841],
+    [up,       11.748,             17.179599999999997],
+    [down,     9.896,              16.7464],
+    [ramp,     11.49,              16.7577],
+    [revisit,  11.571,             16.7647],
+    [pressure, 12.838,             16.9013]
+   ],
+   submission_age_median_ms: 16.563,
+   late_wakes: 2,
+   catch_ups: 0
+  },
+  {
+   id: "box/guest/p2_1ka1_1/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T135830-guest/tree/p2_1ka1_1/run_3",
+   nonce: 8604105566545326406,
+   host: box,
+   target: "1ka1",
+   battery: guest,
+   workload: fps,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 6,
+   seed: 3,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.642,             16.7602],
+    [fight,    11.102,             16.7955],
+    [spawn,    11.534,             16.718700000000002],
+    [yard,     13.266,             16.7596],
+    [up,       12.11,              17.252599999999997],
+    [down,     10.193,             16.771099999999997],
+    [ramp,     11.519,             16.8025],
+    [revisit,  11.498,             16.7718],
+    [pressure, 12.765,             17.799599999999998]
+   ],
+   submission_age_median_ms: 16.572,
+   late_wakes: 9,
+   catch_ups: 0
+  },
+  {
+   id: "box/guest/p2_1ka1_2/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T135830-guest/tree/p2_1ka1_2/run_1",
+   nonce: 4884897916005691495,
+   host: box,
+   target: "1ka1",
+   battery: guest,
+   workload: fps,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 7,
+   seed: 1,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.724,             16.732400000000002],
+    [fight,    11.032,             16.7133],
+    [spawn,    11.503,             16.729400000000002],
+    [yard,     13.272,             16.8021],
+    [up,       12.084,             17.0463],
+    [down,     10.346,             16.763],
+    [ramp,     11.532,             16.8143],
+    [revisit,  11.615,             16.8238],
+    [pressure, 12.715,             17.418599999999998]
+   ],
+   submission_age_median_ms: 16.56,
+   late_wakes: 1,
+   catch_ups: 0
+  },
+  {
+   id: "box/guest/p2_1ka1_2/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T135830-guest/tree/p2_1ka1_2/run_2",
+   nonce: 5364478918181639171,
+   host: box,
+   target: "1ka1",
+   battery: guest,
+   workload: fps,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 8,
+   seed: 2,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.583,             16.826400000000003],
+    [fight,    11.105,             16.774900000000002],
+    [spawn,    11.575,             16.7461],
+    [yard,     13.205,             16.7305],
+    [up,       12.079,             17.021],
+    [down,     10.76,              16.7363],
+    [ramp,     11.564,             16.7775],
+    [revisit,  11.574,             16.743599999999997],
+    [pressure, 12.817,             17.6241]
+   ],
+   submission_age_median_ms: 16.556,
+   late_wakes: 4,
+   catch_ups: 0
+  },
+  {
+   id: "box/guest/p2_1ka1_2/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T135830-guest/tree/p2_1ka1_2/run_3",
+   nonce: 1722792578356009769,
+   host: box,
+   target: "1ka1",
+   battery: guest,
+   workload: fps,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 9,
+   seed: 3,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.74,              16.8322],
+    [fight,    11.141,             16.7878],
+    [spawn,    11.614,             16.745900000000002],
+    [yard,     13.197,             16.7335],
+    [up,       11.826,             17.172099999999997],
+    [down,     10.408,             16.7329],
+    [ramp,     11.468,             16.8055],
+    [revisit,  11.526,             16.765099999999997],
+    [pressure, 12.699,             16.9335]
+   ],
+   submission_age_median_ms: 16.565,
+   late_wakes: 2,
+   catch_ups: 0
+  },
+  {
+   id: "box/guest/p0_1ka1_2/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T135830-guest/tree/p0_1ka1_2/run_1",
+   nonce: 2116132942835579804,
+   host: box,
+   target: "1ka1",
+   battery: guest,
+   workload: fps,
+   backend: headless,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 10,
+   seed: 1,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3271,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.675,             16.8221],
+    [fight,    11.018,             16.813],
+    [spawn,    11.578,             16.818900000000003],
+    [yard,     13.212,             16.7757],
+    [up,       12.082,             17.2799],
+    [down,     10.636,             16.846],
+    [ramp,     11.877,             16.7645],
+    [revisit,  11.701,             16.7587],
+    [pressure, 12.739,             17.3908]
+   ],
+   submission_age_median_ms: 16.555,
+   late_wakes: 2,
+   catch_ups: 0
+  },
+  {
+   id: "box/guest/p0_1ka1_2/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T135830-guest/tree/p0_1ka1_2/run_2",
+   nonce: 5453210067747955921,
+   host: box,
+   target: "1ka1",
+   battery: guest,
+   workload: fps,
+   backend: headless,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 11,
+   seed: 2,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3286,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.702,             16.765],
+    [fight,    10.979,             16.7181],
+    [spawn,    11.552,             16.7166],
+    [yard,     13.362,             16.7546],
+    [up,       11.881,             17.212400000000002],
+    [down,     9.866,              16.719900000000003],
+    [ramp,     11.54,              16.7528],
+    [revisit,  11.533,             16.7733],
+    [pressure, 12.872,             17.011400000000002]
+   ],
+   submission_age_median_ms: 16.553,
+   late_wakes: 3,
+   catch_ups: 0
+  },
+  {
+   id: "box/guest/p0_1ka1_2/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T135830-guest/tree/p0_1ka1_2/run_3",
+   nonce: 4661186394892575516,
+   host: box,
+   target: "1ka1",
+   battery: guest,
+   workload: fps,
+   backend: headless,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 12,
+   seed: 3,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3276,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.625,             16.8238],
+    [fight,    11.143,             16.759],
+    [spawn,    11.571,             16.8138],
+    [yard,     13.255,             16.771],
+    [up,       12.03,              17.2198],
+    [down,     10.577,             16.7435],
+    [ramp,     11.591,             16.8141],
+    [revisit,  11.596,             16.8182],
+    [pressure, 13.035,             17.2528]
+   ],
+   submission_age_median_ms: 16.573,
+   late_wakes: 3,
+   catch_ups: 0
+  },
+  {
+   id: "box/guest/p0_1kb1_1/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T135830-guest/tree/p0_1kb1_1/run_1",
+   nonce: 5443624245015627972,
+   host: box,
+   target: "1kb1",
+   battery: guest,
+   workload: fps,
+   backend: headless,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 1,
+   seed: 1,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3307,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.225,             16.8936],
+    [fight,    10.212,             16.7717],
+    [spawn,    9.419,              16.7853],
+    [yard,     10.839,             16.7396],
+    [up,       10.928,             16.7722],
+    [down,     10.189,             16.747700000000002],
+    [ramp,     9.256,              16.734299999999998],
+    [revisit,  10.713,             16.808799999999998],
+    [pressure, 11.134,             16.7937]
+   ],
+   submission_age_median_ms: 16.567,
+   late_wakes: 3,
+   catch_ups: 0
+  },
+  {
+   id: "box/guest/p0_1kb1_1/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T135830-guest/tree/p0_1kb1_1/run_2",
+   nonce: 3008267863036769856,
+   host: box,
+   target: "1kb1",
+   battery: guest,
+   workload: fps,
+   backend: headless,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 2,
+   seed: 2,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 2505,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.583,             16.8828],
+    [fight,    9.291,              16.7819],
+    [spawn,    10.866,             16.7747],
+    [yard,     10.64,              16.8096],
+    [up,       10.555,             16.743],
+    [down,     9.166,              16.7438],
+    [ramp,     9.799,              16.795],
+    [revisit,  10.4,               16.757099999999998],
+    [pressure, 10.867,             16.7765]
+   ],
+   submission_age_median_ms: 16.55,
+   late_wakes: 10,
+   catch_ups: 0
+  },
+  {
+   id: "box/guest/p0_1kb1_1/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T135830-guest/tree/p0_1kb1_1/run_3",
+   nonce: 7943720824207005376,
+   host: box,
+   target: "1kb1",
+   battery: guest,
+   workload: fps,
+   backend: headless,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 3,
+   seed: 3,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3029,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    10.706,             16.747700000000002],
+    [fight,    9.235,              16.766099999999998],
+    [spawn,    9.421,              16.7438],
+    [yard,     10.77,              16.737299999999998],
+    [up,       11.082,             16.738599999999998],
+    [down,     11.031,             16.7791],
+    [ramp,     9.49,               16.7515],
+    [revisit,  10.409,             16.746299999999998],
+    [pressure, 10.1,               16.7325]
+   ],
+   submission_age_median_ms: 16.56,
+   late_wakes: 0,
+   catch_ups: 0
+  },
+  {
+   id: "box/guest/p2_1kb1_1/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T135830-guest/tree/p2_1kb1_1/run_1",
+   nonce: 4171324413725100961,
+   host: box,
+   target: "1kb1",
+   battery: guest,
+   workload: fps,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 4,
+   seed: 1,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    10.1,               16.7498],
+    [fight,    9.167,              16.7628],
+    [spawn,    9.318,              16.7606],
+    [yard,     10.057,             16.7402],
+    [up,       10.068,             16.728099999999998],
+    [down,     9.976,              16.723599999999998],
+    [ramp,     9.471,              16.7505],
+    [revisit,  11.089,             16.7503],
+    [pressure, 11.273,             16.7775]
+   ],
+   submission_age_median_ms: 16.566,
+   late_wakes: 1,
+   catch_ups: 0
+  },
+  {
+   id: "box/guest/p2_1kb1_1/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T135830-guest/tree/p2_1kb1_1/run_2",
+   nonce: 2334185638204242330,
+   host: box,
+   target: "1kb1",
+   battery: guest,
+   workload: fps,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 5,
+   seed: 2,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.262,             16.766299999999998],
+    [fight,    10.773,             16.765400000000003],
+    [spawn,    9.754,              16.765],
+    [yard,     10.331,             16.741400000000002],
+    [up,       10.725,             16.742099999999997],
+    [down,     10.965,             16.7475],
+    [ramp,     10.288,             16.768],
+    [revisit,  9.364,              16.7679],
+    [pressure, 10.772,             16.7656]
+   ],
+   submission_age_median_ms: 16.558,
+   late_wakes: 2,
+   catch_ups: 0
+  },
+  {
+   id: "box/guest/p2_1kb1_1/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T135830-guest/tree/p2_1kb1_1/run_3",
+   nonce: 9193096019827818990,
+   host: box,
+   target: "1kb1",
+   battery: guest,
+   workload: fps,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 6,
+   seed: 3,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.29,              16.851],
+    [fight,    9.677,              16.742099999999997],
+    [spawn,    10.876,             16.7924],
+    [yard,     10.027,             16.8055],
+    [up,       10.179,             16.7464],
+    [down,     9.046,              16.735400000000002],
+    [ramp,     9.577,              16.738400000000002],
+    [revisit,  11.124,             16.7933],
+    [pressure, 11.109,             16.7886]
+   ],
+   submission_age_median_ms: 16.559,
+   late_wakes: 6,
+   catch_ups: 0
+  },
+  {
+   id: "box/guest/p2_1kb1_2/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T135830-guest/tree/p2_1kb1_2/run_1",
+   nonce: 3616093321992829767,
+   host: box,
+   target: "1kb1",
+   battery: guest,
+   workload: fps,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 7,
+   seed: 1,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    10.861,             16.742900000000002],
+    [fight,    9.492,              16.7576],
+    [spawn,    10.934,             16.809900000000003],
+    [yard,     10.925,             16.811700000000002],
+    [up,       10.799,             16.773],
+    [down,     10.508,             16.752200000000002],
+    [ramp,     10.12,              16.7941],
+    [revisit,  11.073,             16.778599999999997],
+    [pressure, 10.578,             16.817400000000003]
+   ],
+   submission_age_median_ms: 16.563,
+   late_wakes: 3,
+   catch_ups: 0
+  },
+  {
+   id: "box/guest/p2_1kb1_2/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T135830-guest/tree/p2_1kb1_2/run_2",
+   nonce: 1194767266911428411,
+   host: box,
+   target: "1kb1",
+   battery: guest,
+   workload: fps,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 8,
+   seed: 2,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.039,             16.761],
+    [fight,    10.316,             16.741],
+    [spawn,    10.958,             16.733700000000002],
+    [yard,     10.676,             16.732200000000002],
+    [up,       11.188,             16.7396],
+    [down,     10.32,              16.814700000000002],
+    [ramp,     9.25,               16.7717],
+    [revisit,  9.192,              16.7976],
+    [pressure, 9.927,              16.8235]
+   ],
+   submission_age_median_ms: 16.563,
+   late_wakes: 4,
+   catch_ups: 0
+  },
+  {
+   id: "box/guest/p2_1kb1_2/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T135830-guest/tree/p2_1kb1_2/run_3",
+   nonce: 8089132646427374323,
+   host: box,
+   target: "1kb1",
+   battery: guest,
+   workload: fps,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 9,
+   seed: 3,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.041,             16.8055],
+    [fight,    10.655,             16.7575],
+    [spawn,    9.337,              16.7606],
+    [yard,     10.592,             16.756700000000002],
+    [up,       10.687,             16.8116],
+    [down,     9.073,              16.7866],
+    [ramp,     9.495,              16.7321],
+    [revisit,  10.599,             16.7551],
+    [pressure, 10.233,             16.8113]
+   ],
+   submission_age_median_ms: 16.56,
+   late_wakes: 4,
+   catch_ups: 0
+  },
+  {
+   id: "box/guest/p0_1kb1_2/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T135830-guest/tree/p0_1kb1_2/run_1",
+   nonce: 2716897392053338152,
+   host: box,
+   target: "1kb1",
+   battery: guest,
+   workload: fps,
+   backend: headless,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 10,
+   seed: 1,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 2585,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    9.255,              16.8936],
+    [fight,    10.548,             16.8041],
+    [spawn,    10.673,             16.776799999999998],
+    [yard,     10.572,             16.739],
+    [up,       10.791,             16.7877],
+    [down,     9.115,              16.747400000000003],
+    [ramp,     9.178,              16.769299999999998],
+    [revisit,  9.935,              16.7671],
+    [pressure, 11.134,             16.7664]
+   ],
+   submission_age_median_ms: 16.57,
+   late_wakes: 6,
+   catch_ups: 0
+  },
+  {
+   id: "box/guest/p0_1kb1_2/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T135830-guest/tree/p0_1kb1_2/run_2",
+   nonce: 4407137548205603335,
+   host: box,
+   target: "1kb1",
+   battery: guest,
+   workload: fps,
+   backend: headless,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 11,
+   seed: 2,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 2494,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.403,             16.889599999999998],
+    [fight,    10.302,             16.7736],
+    [spawn,    10.941,             16.7898],
+    [yard,     11.007,             16.752599999999997],
+    [up,       10.857,             16.7219],
+    [down,     10.401,             16.7338],
+    [ramp,     10.352,             16.742900000000002],
+    [revisit,  9.981,              16.7287],
+    [pressure, 11.44,              16.759]
+   ],
+   submission_age_median_ms: 16.572,
+   late_wakes: 5,
+   catch_ups: 0
+  },
+  {
+   id: "box/guest/p0_1kb1_2/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T135830-guest/tree/p0_1kb1_2/run_3",
+   nonce: 1916956810206142343,
+   host: box,
+   target: "1kb1",
+   battery: guest,
+   workload: fps,
+   backend: headless,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 12,
+   seed: 3,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 1785,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.302,             16.7517],
+    [fight,    10.412,             16.7952],
+    [spawn,    10.388,             16.7686],
+    [yard,     11.141,             16.8126],
+    [up,       10.342,             16.8002],
+    [down,     10.871,             16.7592],
+    [ramp,     10.257,             16.7995],
+    [revisit,  11.021,             16.7621],
+    [pressure, 10.716,             16.7652]
+   ],
+   submission_age_median_ms: 16.559,
+   late_wakes: 5,
+   catch_ups: 0
+  },
+  {
+   id: "box/display/p0_probed_1ka1_1/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p0_probed_1ka1_1/run_1",
+   nonce: 4981301152439323294,
+   host: box,
+   target: "1ka1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: true,
+   position: 1,
+   seed: 1,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3142,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.917,             19.526799999999998],
+    [fight,    12.117,             16.753700000000002],
+    [spawn,    12.704,             16.737099999999998],
+    [yard,     14.511,             16.8765],
+    [up,       13.25,              17.6101],
+    [down,     11.431,             16.734],
+    [ramp,     12.789,             16.7476],
+    [revisit,  12.679,             16.771],
+    [pressure, 14.285,             18.646900000000002]
+   ],
+   submission_age_median_ms: 16.562,
+   late_wakes: 2,
+   catch_ups: 0,
+   "shown_p95_ms": 30.127
+  },
+  {
+   id: "box/display/p0_probed_1ka1_1/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p0_probed_1ka1_1/run_2",
+   nonce: 48184678214185954,
+   host: box,
+   target: "1ka1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: true,
+   position: 2,
+   seed: 2,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 2917,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.834,             16.8734],
+    [fight,    12.256,             16.7665],
+    [spawn,    12.8,               16.794900000000002],
+    [yard,     14.656,             16.8298],
+    [up,       13.256,             18.5137],
+    [down,     11.107,             16.7626],
+    [ramp,     12.891,             16.7767],
+    [revisit,  12.733,             16.780900000000003],
+    [pressure, 14.241,             18.8382]
+   ],
+   submission_age_median_ms: 16.56,
+   late_wakes: 4,
+   catch_ups: 0,
+   "shown_p95_ms": 30.112
+  },
+  {
+   id: "box/display/p0_probed_1ka1_1/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p0_probed_1ka1_1/run_3",
+   nonce: 6373207859109808465,
+   host: box,
+   target: "1ka1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: true,
+   position: 3,
+   seed: 3,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 1961,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.824,             17.049799999999998],
+    [fight,    12.232,             16.7427],
+    [spawn,    12.625,             16.7211],
+    [yard,     14.442,             16.7235],
+    [up,       12.86,              17.9752],
+    [down,     10.925,             16.823400000000003],
+    [ramp,     12.545,             16.764400000000002],
+    [revisit,  12.694,             16.7308],
+    [pressure, 14.106,             18.688299999999998]
+   ],
+   submission_age_median_ms: 16.555,
+   late_wakes: 3,
+   catch_ups: 0,
+   "shown_p95_ms": 30.138
+  },
+  {
+   id: "box/display/p2_probed_1ka1_1/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p2_probed_1ka1_1/run_1",
+   nonce: 176018016693553836,
+   host: box,
+   target: "1ka1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: true,
+   position: 4,
+   seed: 1,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.603,             16.7265],
+    [fight,    12.035,             16.819599999999998],
+    [spawn,    12.713,             16.7803],
+    [yard,     14.488,             16.7838],
+    [up,       13.291,             18.2212],
+    [down,     11.346,             16.8201],
+    [ramp,     12.647,             16.805],
+    [revisit,  12.763,             16.7615],
+    [pressure, 14.078,             18.4722]
+   ],
+   submission_age_median_ms: 16.577,
+   late_wakes: 3,
+   catch_ups: 0,
+   "shown_p95_ms": 30.206
+  },
+  {
+   id: "box/display/p2_probed_1ka1_1/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p2_probed_1ka1_1/run_2",
+   nonce: 6556020613408260503,
+   host: box,
+   target: "1ka1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: true,
+   position: 5,
+   seed: 2,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.999,             16.7916],
+    [fight,    12.235,             16.7728],
+    [spawn,    12.768,             16.798099999999998],
+    [yard,     14.591,             16.8375],
+    [up,       13.29,              18.1051],
+    [down,     11.597,             16.8044],
+    [ramp,     12.948,             16.781200000000002],
+    [revisit,  12.602,             16.7626],
+    [pressure, 14.063,             18.266299999999998]
+   ],
+   submission_age_median_ms: 16.574,
+   late_wakes: 8,
+   catch_ups: 0,
+   "shown_p95_ms": 30.151
+  },
+  {
+   id: "box/display/p2_probed_1ka1_1/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p2_probed_1ka1_1/run_3",
+   nonce: 638075238537631745,
+   host: box,
+   target: "1ka1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: true,
+   position: 6,
+   seed: 3,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.757,             19.428],
+    [fight,    12.103,             16.7762],
+    [spawn,    12.589,             16.7605],
+    [yard,     14.423,             16.849700000000002],
+    [up,       12.946,             18.3876],
+    [down,     11.106,             16.8379],
+    [ramp,     12.632,             16.767799999999998],
+    [revisit,  12.756,             16.7439],
+    [pressure, 14.182,             18.826900000000002]
+   ],
+   submission_age_median_ms: 16.56,
+   late_wakes: 8,
+   catch_ups: 0,
+   "shown_p95_ms": 30.168
+  },
+  {
+   id: "box/display/p0_1ka1_1/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p0_1ka1_1/run_1",
+   nonce: 5079776016844885213,
+   host: box,
+   target: "1ka1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 7,
+   seed: 1,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 2148,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.82,              16.748],
+    [fight,    12.231,             16.7739],
+    [spawn,    12.677,             16.742900000000002],
+    [yard,     14.459,             16.7758],
+    [up,       13.21,              18.2457],
+    [down,     10.952,             16.828599999999998],
+    [ramp,     12.671,             16.7862],
+    [revisit,  12.603,             16.766299999999998],
+    [pressure, 14.153,             18.4046]
+   ],
+   submission_age_median_ms: 16.548,
+   late_wakes: 4,
+   catch_ups: 0
+  },
+  {
+   id: "box/display/p0_1ka1_1/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p0_1ka1_1/run_2",
+   nonce: 887159731773489297,
+   host: box,
+   target: "1ka1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 8,
+   seed: 2,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 1877,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.679,             16.8182],
+    [fight,    12.282,             16.7992],
+    [spawn,    12.675,             16.796599999999998],
+    [yard,     14.525,             16.8355],
+    [up,       13.002,             17.9864],
+    [down,     10.874,             16.7194],
+    [ramp,     12.598,             16.716099999999997],
+    [revisit,  12.612,             16.720599999999997],
+    [pressure, 14.009,             18.262700000000002]
+   ],
+   submission_age_median_ms: 16.556,
+   late_wakes: 4,
+   catch_ups: 0
+  },
+  {
+   id: "box/display/p0_1ka1_1/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p0_1ka1_1/run_3",
+   nonce: 6609347443301306579,
+   host: box,
+   target: "1ka1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 9,
+   seed: 3,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3244,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.791,             19.7598],
+    [fight,    12.181,             16.7896],
+    [spawn,    12.674,             16.7808],
+    [yard,     14.608,             16.9067],
+    [up,       13.368,             18.7222],
+    [down,     11.238,             16.7713],
+    [ramp,     13.019,             16.784599999999998],
+    [revisit,  12.778,             16.755200000000002],
+    [pressure, 14.092,             18.4605]
+   ],
+   submission_age_median_ms: 16.551,
+   late_wakes: 4,
+   catch_ups: 0
+  },
+  {
+   id: "box/display/p2_1ka1_1/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p2_1ka1_1/run_1",
+   nonce: 7741506762228316164,
+   host: box,
+   target: "1ka1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 10,
+   seed: 1,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.901,             18.533900000000003],
+    [fight,    12.176,             16.8168],
+    [spawn,    12.621,             16.796400000000002],
+    [yard,     14.538,             16.8175],
+    [up,       13.219,             18.0657],
+    [down,     11.683,             16.7988],
+    [ramp,     12.792,             16.753700000000002],
+    [revisit,  12.711,             16.7591],
+    [pressure, 14.013,             18.6199]
+   ],
+   submission_age_median_ms: 16.552,
+   late_wakes: 3,
+   catch_ups: 0
+  },
+  {
+   id: "box/display/p2_1ka1_1/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p2_1ka1_1/run_2",
+   nonce: 2760108530760538813,
+   host: box,
+   target: "1ka1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 11,
+   seed: 2,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.814,             16.7982],
+    [fight,    12.101,             16.7608],
+    [spawn,    12.712,             16.772599999999997],
+    [yard,     14.554,             16.7967],
+    [up,       13.162,             17.861900000000002],
+    [down,     10.968,             16.819],
+    [ramp,     12.774,             16.861900000000002],
+    [revisit,  12.596,             16.829900000000002],
+    [pressure, 13.795,             18.1163]
+   ],
+   submission_age_median_ms: 16.563,
+   late_wakes: 4,
+   catch_ups: 0
+  },
+  {
+   id: "box/display/p2_1ka1_1/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p2_1ka1_1/run_3",
+   nonce: 6430469391423922459,
+   host: box,
+   target: "1ka1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 12,
+   seed: 3,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.773,             16.9776],
+    [fight,    12.171,             16.7686],
+    [spawn,    12.671,             16.7829],
+    [yard,     14.497,             16.8289],
+    [up,       12.977,             19.9187],
+    [down,     10.861,             16.775599999999997],
+    [ramp,     12.493,             16.7298],
+    [revisit,  12.568,             16.7396],
+    [pressure, 13.917,             18.125700000000002]
+   ],
+   submission_age_median_ms: 16.549,
+   late_wakes: 2,
+   catch_ups: 0
+  },
+  {
+   id: "box/display/p2_1ka1_2/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p2_1ka1_2/run_1",
+   nonce: 465447284154683766,
+   host: box,
+   target: "1ka1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 13,
+   seed: 1,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.958,             16.7889],
+    [fight,    12.107,             16.7699],
+    [spawn,    12.628,             16.7588],
+    [yard,     14.417,             16.821900000000003],
+    [up,       13.044,             17.863400000000002],
+    [down,     10.971,             16.757900000000003],
+    [ramp,     12.62,              16.712],
+    [revisit,  12.614,             16.786099999999998],
+    [pressure, 14.174,             18.4282]
+   ],
+   submission_age_median_ms: 16.572,
+   late_wakes: 2,
+   catch_ups: 0
+  },
+  {
+   id: "box/display/p2_1ka1_2/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p2_1ka1_2/run_2",
+   nonce: 8376284774164057902,
+   host: box,
+   target: "1ka1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 14,
+   seed: 2,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.673,             18.7315],
+    [fight,    12.134,             16.7531],
+    [spawn,    12.565,             16.776],
+    [yard,     14.351,             16.8766],
+    [up,       13.173,             18.0119],
+    [down,     11.056,             16.8277],
+    [ramp,     12.901,             16.8258],
+    [revisit,  12.587,             16.809900000000003],
+    [pressure, 13.97,              18.2717]
+   ],
+   submission_age_median_ms: 16.564,
+   late_wakes: 5,
+   catch_ups: 0
+  },
+  {
+   id: "box/display/p2_1ka1_2/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p2_1ka1_2/run_3",
+   nonce: 2699697302368488043,
+   host: box,
+   target: "1ka1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 15,
+   seed: 3,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.86,              16.8202],
+    [fight,    12.162,             16.7732],
+    [spawn,    12.541,             16.8029],
+    [yard,     14.424,             16.7885],
+    [up,       13.195,             18.2452],
+    [down,     10.961,             16.8259],
+    [ramp,     12.556,             16.7728],
+    [revisit,  12.647,             16.752299999999998],
+    [pressure, 14.115,             18.4802]
+   ],
+   submission_age_median_ms: 16.556,
+   late_wakes: 4,
+   catch_ups: 0
+  },
+  {
+   id: "box/display/p0_1ka1_2/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p0_1ka1_2/run_1",
+   nonce: 5821259340015956319,
+   host: box,
+   target: "1ka1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 16,
+   seed: 1,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3257,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.581,             16.7235],
+    [fight,    12.071,             16.770799999999998],
+    [spawn,    12.712,             16.7742],
+    [yard,     14.505,             16.7577],
+    [up,       13.011,             18.409299999999998],
+    [down,     10.886,             16.8244],
+    [ramp,     12.803,             16.7462],
+    [revisit,  12.59,              16.7744],
+    [pressure, 13.977,             18.1279]
+   ],
+   submission_age_median_ms: 16.553,
+   late_wakes: 4,
+   catch_ups: 0
+  },
+  {
+   id: "box/display/p0_1ka1_2/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p0_1ka1_2/run_2",
+   nonce: 2933578757308181185,
+   host: box,
+   target: "1ka1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 17,
+   seed: 2,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3036,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.811,             16.8796],
+    [fight,    12.181,             16.8033],
+    [spawn,    12.653,             16.8223],
+    [yard,     14.508,             16.7991],
+    [up,       13.033,             17.7617],
+    [down,     11.099,             16.742],
+    [ramp,     12.749,             16.7547],
+    [revisit,  12.701,             16.797900000000002],
+    [pressure, 14.015,             18.2977]
+   ],
+   submission_age_median_ms: 16.555,
+   late_wakes: 5,
+   catch_ups: 0
+  },
+  {
+   id: "box/display/p0_1ka1_2/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p0_1ka1_2/run_3",
+   nonce: 3381065877886028248,
+   host: box,
+   target: "1ka1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 18,
+   seed: 3,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3265,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.772,             16.9173],
+    [fight,    12.082,             16.8035],
+    [spawn,    12.688,             16.8553],
+    [yard,     14.523,             16.8644],
+    [up,       13.13,              18.4342],
+    [down,     10.925,             16.8325],
+    [ramp,     12.879,             16.8176],
+    [revisit,  12.604,             16.83],
+    [pressure, 14.068,             18.0765]
+   ],
+   submission_age_median_ms: 16.557,
+   late_wakes: 5,
+   catch_ups: 0
+  },
+  {
+   id: "box/display/p2_probed_1ka1_2/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p2_probed_1ka1_2/run_1",
+   nonce: 8918371383673310019,
+   host: box,
+   target: "1ka1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: true,
+   position: 19,
+   seed: 1,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.769,             16.9426],
+    [fight,    12.099,             16.7178],
+    [spawn,    12.557,             16.719099999999997],
+    [yard,     14.449,             16.823],
+    [up,       12.994,             17.816200000000002],
+    [down,     10.957,             16.8216],
+    [ramp,     12.841,             16.7501],
+    [revisit,  12.686,             16.7808],
+    [pressure, 13.987,             18.411099999999998]
+   ],
+   submission_age_median_ms: 16.555,
+   late_wakes: 4,
+   catch_ups: 0,
+   "shown_p95_ms": 30.118
+  },
+  {
+   id: "box/display/p2_probed_1ka1_2/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p2_probed_1ka1_2/run_2",
+   nonce: 8442133823618058523,
+   host: box,
+   target: "1ka1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: true,
+   position: 20,
+   seed: 2,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.956,             16.8035],
+    [fight,    12.137,             16.743],
+    [spawn,    12.606,             16.737099999999998],
+    [yard,     14.126,             16.764],
+    [up,       13.01,              18.0217],
+    [down,     10.873,             16.711],
+    [ramp,     12.828,             16.7245],
+    [revisit,  12.539,             16.718700000000002],
+    [pressure, 13.98,              18.3104]
+   ],
+   submission_age_median_ms: 16.555,
+   late_wakes: 1,
+   catch_ups: 0,
+   "shown_p95_ms": 30.181
+  },
+  {
+   id: "box/display/p2_probed_1ka1_2/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p2_probed_1ka1_2/run_3",
+   nonce: 744296683948135579,
+   host: box,
+   target: "1ka1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: true,
+   position: 21,
+   seed: 3,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.635,             16.867],
+    [fight,    12.102,             16.8072],
+    [spawn,    12.684,             16.7608],
+    [yard,     14.441,             16.751],
+    [up,       13.022,             17.861099999999997],
+    [down,     11.432,             16.732400000000002],
+    [ramp,     12.545,             16.7301],
+    [revisit,  12.679,             16.7544],
+    [pressure, 13.964,             18.4329]
+   ],
+   submission_age_median_ms: 16.561,
+   late_wakes: 2,
+   catch_ups: 0,
+   "shown_p95_ms": 30.106
+  },
+  {
+   id: "box/display/p0_probed_1ka1_2/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p0_probed_1ka1_2/run_1",
+   nonce: 8187843197550035686,
+   host: box,
+   target: "1ka1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: true,
+   position: 22,
+   seed: 1,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 2812,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.769,             16.8183],
+    [fight,    12.174,             16.823400000000003],
+    [spawn,    12.649,             16.8313],
+    [yard,     14.481,             16.8932],
+    [up,       13.159,             18.2096],
+    [down,     11.402,             16.7695],
+    [ramp,     12.749,             16.7868],
+    [revisit,  12.519,             16.7978],
+    [pressure, 14.362,             20.0656]
+   ],
+   submission_age_median_ms: 16.552,
+   late_wakes: 13,
+   catch_ups: 0,
+   "shown_p95_ms": 30.16
+  },
+  {
+   id: "box/display/p0_probed_1ka1_2/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p0_probed_1ka1_2/run_2",
+   nonce: 6819047764561223806,
+   host: box,
+   target: "1ka1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: true,
+   position: 23,
+   seed: 2,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3256,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.675,             17.118599999999997],
+    [fight,    12.292,             16.819200000000002],
+    [spawn,    12.887,             16.8522],
+    [yard,     14.493,             16.8134],
+    [up,       13.204,             17.8233],
+    [down,     10.902,             16.7288],
+    [ramp,     12.634,             16.7323],
+    [revisit,  12.552,             16.7904],
+    [pressure, 14.144,             18.5311]
+   ],
+   submission_age_median_ms: 16.554,
+   late_wakes: 3,
+   catch_ups: 0,
+   "shown_p95_ms": 30.108
+  },
+  {
+   id: "box/display/p0_probed_1ka1_2/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p0_probed_1ka1_2/run_3",
+   nonce: 5439951765961387147,
+   host: box,
+   target: "1ka1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: true,
+   position: 24,
+   seed: 3,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3249,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.731,             17.2845],
+    [fight,    12.307,             16.796599999999998],
+    [spawn,    12.679,             16.791400000000003],
+    [yard,     14.6,               16.8447],
+    [up,       13.161,             17.6595],
+    [down,     10.953,             16.7626],
+    [ramp,     12.943,             16.7561],
+    [revisit,  12.634,             16.742099999999997],
+    [pressure, 14.314,             18.426099999999998]
+   ],
+   submission_age_median_ms: 16.553,
+   late_wakes: 2,
+   catch_ups: 0,
+   "shown_p95_ms": 30.128
+  },
+  {
+   id: "box/display/p0_probed_1kb1_1/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p0_probed_1kb1_1/run_1",
+   nonce: 8147977921812196325,
+   host: box,
+   target: "1kb1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: true,
+   position: 1,
+   seed: 1,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3280,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.207,             16.7727],
+    [fight,    10.002,             16.742099999999997],
+    [spawn,    10.28,              16.796599999999998],
+    [yard,     10.885,             16.7367],
+    [up,       11.678,             16.7694],
+    [down,     11.202,             16.7924],
+    [ramp,     10.401,             16.7677],
+    [revisit,  10.548,             16.740299999999998],
+    [pressure, 12.676,             17.9418]
+   ],
+   submission_age_median_ms: 16.582,
+   late_wakes: 2,
+   catch_ups: 0,
+   "shown_p95_ms": 30.12
+  },
+  {
+   id: "box/display/p0_probed_1kb1_1/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p0_probed_1kb1_1/run_2",
+   nonce: 518050476637583749,
+   host: box,
+   target: "1kb1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: true,
+   position: 2,
+   seed: 2,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3298,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.575,             17.6502],
+    [fight,    11.926,             16.801599999999997],
+    [spawn,    10.482,             16.8075],
+    [yard,     11.086,             16.8002],
+    [up,       10.522,             16.8208],
+    [down,     9.989,              16.8283],
+    [ramp,     9.906,              16.826700000000002],
+    [revisit,  10.174,             16.8157],
+    [pressure, 11.371,             16.7841]
+   ],
+   submission_age_median_ms: 16.541,
+   late_wakes: 7,
+   catch_ups: 0,
+   "shown_p95_ms": 30.254
+  },
+  {
+   id: "box/display/p0_probed_1kb1_1/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p0_probed_1kb1_1/run_3",
+   nonce: 8479690970245233809,
+   host: box,
+   target: "1kb1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: true,
+   position: 3,
+   seed: 3,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 923,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    10.868,             16.7731],
+    [fight,    10.178,             16.7602],
+    [spawn,    10.202,             16.7893],
+    [yard,     11.032,             16.8176],
+    [up,       10.517,             16.8253],
+    [down,     10.345,             16.792099999999998],
+    [ramp,     9.998,              16.8176],
+    [revisit,  10.564,             16.7803],
+    [pressure, 12.517,             16.8003]
+   ],
+   submission_age_median_ms: 16.551,
+   late_wakes: 8,
+   catch_ups: 0,
+   "shown_p95_ms": 30.132
+  },
+  {
+   id: "box/display/p2_probed_1kb1_1/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p2_probed_1kb1_1/run_1",
+   nonce: 5132762507130707412,
+   host: box,
+   target: "1kb1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: true,
+   position: 4,
+   seed: 1,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.324,             16.8748],
+    [fight,    10.422,             16.798299999999998],
+    [spawn,    10.184,             16.7607],
+    [yard,     11.332,             16.7673],
+    [up,       10.723,             16.7918],
+    [down,     11.494,             16.816200000000002],
+    [ramp,     10.202,             16.764],
+    [revisit,  11.862,             16.801099999999998],
+    [pressure, 12.417,             16.8568]
+   ],
+   submission_age_median_ms: 16.564,
+   late_wakes: 7,
+   catch_ups: 0,
+   "shown_p95_ms": 30.15
+  },
+  {
+   id: "box/display/p2_probed_1kb1_1/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p2_probed_1kb1_1/run_2",
+   nonce: 9122804544858362975,
+   host: box,
+   target: "1kb1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: true,
+   position: 5,
+   seed: 2,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.813,             16.761200000000002],
+    [fight,    10.117,             16.7871],
+    [spawn,    10.294,             16.786099999999998],
+    [yard,     11.544,             16.7531],
+    [up,       10.581,             16.7647],
+    [down,     10.796,             16.751099999999997],
+    [ramp,     10.181,             16.7585],
+    [revisit,  10.231,             16.8338],
+    [pressure, 11.947,             16.8319]
+   ],
+   submission_age_median_ms: 16.565,
+   late_wakes: 8,
+   catch_ups: 0,
+   "shown_p95_ms": 30.144
+  },
+  {
+   id: "box/display/p2_probed_1kb1_1/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p2_probed_1kb1_1/run_3",
+   nonce: 3193489755899699911,
+   host: box,
+   target: "1kb1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: true,
+   position: 6,
+   seed: 3,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.336,             17.1264],
+    [fight,    10.161,             16.8002],
+    [spawn,    10.896,             16.7889],
+    [yard,     10.921,             16.7766],
+    [up,       10.775,             16.763],
+    [down,     10.092,             16.8227],
+    [ramp,     9.933,              16.8425],
+    [revisit,  11.639,             16.8209],
+    [pressure, 10.936,             16.8203]
+   ],
+   submission_age_median_ms: 16.556,
+   late_wakes: 14,
+   catch_ups: 0,
+   "shown_p95_ms": 30.175
+  },
+  {
+   id: "box/display/p0_1kb1_1/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p0_1kb1_1/run_1",
+   nonce: 3323858969341656229,
+   host: box,
+   target: "1kb1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 7,
+   seed: 1,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3180,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    10.717,             16.921],
+    [fight,    11.741,             16.8157],
+    [spawn,    10.579,             16.7613],
+    [yard,     11.636,             16.779799999999998],
+    [up,       12.295,             16.778599999999997],
+    [down,     10.255,             16.780900000000003],
+    [ramp,     10.64,              16.7301],
+    [revisit,  10.498,             16.8327],
+    [pressure, 11.365,             16.810299999999998]
+   ],
+   submission_age_median_ms: 16.558,
+   late_wakes: 11,
+   catch_ups: 0
+  },
+  {
+   id: "box/display/p0_1kb1_1/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p0_1kb1_1/run_2",
+   nonce: 2132835433183393010,
+   host: box,
+   target: "1kb1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 8,
+   seed: 2,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3297,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.558,             19.5988],
+    [fight,    11.748,             16.8086],
+    [spawn,    10.326,             16.809099999999997],
+    [yard,     10.984,             16.798099999999998],
+    [up,       11.968,             16.823700000000002],
+    [down,     12.123,             16.7871],
+    [ramp,     11.477,             16.8295],
+    [revisit,  12.257,             16.8485],
+    [pressure, 12.578,             16.842200000000002]
+   ],
+   submission_age_median_ms: 16.541,
+   late_wakes: 12,
+   catch_ups: 0
+  },
+  {
+   id: "box/display/p0_1kb1_1/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p0_1kb1_1/run_3",
+   nonce: 5077887520399975573,
+   host: box,
+   target: "1kb1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 9,
+   seed: 3,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 1744,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.13,              16.7692],
+    [fight,    10.394,             16.795099999999998],
+    [spawn,    10.719,             16.7359],
+    [yard,     11.174,             16.732400000000002],
+    [up,       10.862,             16.7441],
+    [down,     10.345,             16.7437],
+    [ramp,     9.921,              16.732],
+    [revisit,  10.379,             16.7467],
+    [pressure, 11.375,             16.746599999999997]
+   ],
+   submission_age_median_ms: 16.558,
+   late_wakes: 6,
+   catch_ups: 0
+  },
+  {
+   id: "box/display/p2_1kb1_1/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p2_1kb1_1/run_1",
+   nonce: 1644709395228948521,
+   host: box,
+   target: "1kb1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 10,
+   seed: 1,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.262,             17.5556],
+    [fight,    11.778,             16.773799999999998],
+    [spawn,    10.776,             16.747799999999998],
+    [yard,     11.962,             16.7484],
+    [up,       12.353,             16.7268],
+    [down,     11.019,             16.7379],
+    [ramp,     11.396,             16.741400000000002],
+    [revisit,  12.025,             16.7497],
+    [pressure, 12.164,             16.7777]
+   ],
+   submission_age_median_ms: 16.578,
+   late_wakes: 3,
+   catch_ups: 0
+  },
+  {
+   id: "box/display/p2_1kb1_1/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p2_1kb1_1/run_2",
+   nonce: 4106609377164965594,
+   host: box,
+   target: "1kb1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 11,
+   seed: 2,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    10.811,             16.7941],
+    [fight,    10.426,             16.754099999999998],
+    [spawn,    11.26,              16.7331],
+    [yard,     11.424,             16.739],
+    [up,       11.24,              16.7714],
+    [down,     10.561,             16.7626],
+    [ramp,     9.863,              16.7814],
+    [revisit,  10.178,             16.7724],
+    [pressure, 11.072,             16.822200000000002]
+   ],
+   submission_age_median_ms: 16.569,
+   late_wakes: 5,
+   catch_ups: 0
+  },
+  {
+   id: "box/display/p2_1kb1_1/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p2_1kb1_1/run_3",
+   nonce: 1471874483498044558,
+   host: box,
+   target: "1kb1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 12,
+   seed: 3,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.657,             16.7301],
+    [fight,    10.659,             16.772599999999997],
+    [spawn,    11.828,             16.7317],
+    [yard,     11.108,             16.7686],
+    [up,       10.312,             16.819200000000002],
+    [down,     10.003,             16.8285],
+    [ramp,     10.0,               16.7931],
+    [revisit,  10.326,             16.7987],
+    [pressure, 11.96,              16.8021]
+   ],
+   submission_age_median_ms: 16.559,
+   late_wakes: 6,
+   catch_ups: 0
+  },
+  {
+   id: "box/display/p2_1kb1_2/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p2_1kb1_2/run_1",
+   nonce: 2893810161124011152,
+   host: box,
+   target: "1kb1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 13,
+   seed: 1,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    10.667,             16.9752],
+    [fight,    10.113,             16.8325],
+    [spawn,    10.169,             16.809099999999997],
+    [yard,     11.137,             16.7603],
+    [up,       11.489,             16.8169],
+    [down,     11.473,             16.7808],
+    [ramp,     11.311,             16.7653],
+    [revisit,  11.905,             16.797400000000003],
+    [pressure, 11.251,             16.76]
+   ],
+   submission_age_median_ms: 16.555,
+   late_wakes: 5,
+   catch_ups: 0
+  },
+  {
+   id: "box/display/p2_1kb1_2/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p2_1kb1_2/run_2",
+   nonce: 250953498981607893,
+   host: box,
+   target: "1kb1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 14,
+   seed: 2,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.781,             16.8774],
+    [fight,    10.212,             16.806],
+    [spawn,    10.214,             16.799799999999998],
+    [yard,     10.804,             16.78],
+    [up,       11.775,             16.739],
+    [down,     10.678,             16.802599999999998],
+    [ramp,     10.038,             16.8313],
+    [revisit,  10.64,              16.8041],
+    [pressure, 12.18,              16.8223]
+   ],
+   submission_age_median_ms: 16.554,
+   late_wakes: 8,
+   catch_ups: 0
+  },
+  {
+   id: "box/display/p2_1kb1_2/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p2_1kb1_2/run_3",
+   nonce: 3825370651890903261,
+   host: box,
+   target: "1kb1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 15,
+   seed: 3,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.529,             16.8179],
+    [fight,    10.125,             16.833],
+    [spawn,    10.331,             16.79],
+    [yard,     11.129,             16.7222],
+    [up,       10.734,             16.771099999999997],
+    [down,     10.318,             16.7649],
+    [ramp,     10.002,             16.7672],
+    [revisit,  10.346,             16.799799999999998],
+    [pressure, 10.842,             16.771099999999997]
+   ],
+   submission_age_median_ms: 16.55,
+   late_wakes: 1,
+   catch_ups: 0
+  },
+  {
+   id: "box/display/p0_1kb1_2/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p0_1kb1_2/run_1",
+   nonce: 3077241752198744667,
+   host: box,
+   target: "1kb1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 16,
+   seed: 1,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3301,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    10.315,             16.865],
+    [fight,    10.136,             16.8023],
+    [spawn,    10.944,             16.8083],
+    [yard,     11.775,             16.7739],
+    [up,       11.434,             16.7686],
+    [down,     11.86,              16.7532],
+    [ramp,     9.856,              16.8032],
+    [revisit,  11.768,             16.7853],
+    [pressure, 11.063,             16.7784]
+   ],
+   submission_age_median_ms: 16.556,
+   late_wakes: 7,
+   catch_ups: 0
+  },
+  {
+   id: "box/display/p0_1kb1_2/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p0_1kb1_2/run_2",
+   nonce: 6892099950996082506,
+   host: box,
+   target: "1kb1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 17,
+   seed: 2,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3186,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.829,             16.8418],
+    [fight,    10.219,             16.7761],
+    [spawn,    11.996,             16.796400000000002],
+    [yard,     11.079,             16.7961],
+    [up,       10.443,             16.7904],
+    [down,     10.018,             16.8268],
+    [ramp,     10.26,              16.7948],
+    [revisit,  10.587,             16.8292],
+    [pressure, 10.974,             16.804299999999998]
+   ],
+   submission_age_median_ms: 16.557,
+   late_wakes: 7,
+   catch_ups: 0
+  },
+  {
+   id: "box/display/p0_1kb1_2/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p0_1kb1_2/run_3",
+   nonce: 4247499025192536436,
+   host: box,
+   target: "1kb1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 18,
+   seed: 3,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3298,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.556,             16.9438],
+    [fight,    10.247,             16.810599999999997],
+    [spawn,    10.369,             16.785700000000002],
+    [yard,     10.983,             16.8294],
+    [up,       10.656,             16.7939],
+    [down,     10.192,             16.818],
+    [ramp,     9.912,              16.790200000000002],
+    [revisit,  10.814,             16.8202],
+    [pressure, 12.178,             16.8413]
+   ],
+   submission_age_median_ms: 16.556,
+   late_wakes: 8,
+   catch_ups: 0
+  },
+  {
+   id: "box/display/p2_probed_1kb1_2/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p2_probed_1kb1_2/run_1",
+   nonce: 1974689239938159155,
+   host: box,
+   target: "1kb1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: true,
+   position: 19,
+   seed: 1,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.901,             16.835099999999997],
+    [fight,    11.533,             16.7707],
+    [spawn,    10.687,             16.7881],
+    [yard,     10.96,              16.7405],
+    [up,       10.789,             16.750700000000002],
+    [down,     10.103,             16.7703],
+    [ramp,     9.991,              16.771900000000002],
+    [revisit,  11.278,             16.772],
+    [pressure, 11.386,             16.8035]
+   ],
+   submission_age_median_ms: 16.566,
+   late_wakes: 5,
+   catch_ups: 0,
+   "shown_p95_ms": 30.161
+  },
+  {
+   id: "box/display/p2_probed_1kb1_2/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p2_probed_1kb1_2/run_2",
+   nonce: 3825233588878277185,
+   host: box,
+   target: "1kb1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: true,
+   position: 20,
+   seed: 2,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    10.437,             16.9095],
+    [fight,    10.162,             16.763],
+    [spawn,    10.862,             16.7655],
+    [yard,     11.03,              16.7924],
+    [up,       10.604,             16.7572],
+    [down,     10.052,             16.7858],
+    [ramp,     10.354,             16.7848],
+    [revisit,  10.6,               16.796200000000002],
+    [pressure, 11.462,             16.7912]
+   ],
+   submission_age_median_ms: 16.567,
+   late_wakes: 6,
+   catch_ups: 0,
+   "shown_p95_ms": 30.201
+  },
+  {
+   id: "box/display/p2_probed_1kb1_2/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p2_probed_1kb1_2/run_3",
+   nonce: 828478270069331168,
+   host: box,
+   target: "1kb1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: true,
+   position: 21,
+   seed: 3,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    10.419,             16.7305],
+    [fight,    10.383,             16.773799999999998],
+    [spawn,    10.336,             16.769],
+    [yard,     11.421,             16.7515],
+    [up,       12.163,             16.807599999999997],
+    [down,     10.157,             16.8182],
+    [ramp,     10.032,             16.796799999999998],
+    [revisit,  10.236,             16.793400000000002],
+    [pressure, 11.019,             16.8223]
+   ],
+   submission_age_median_ms: 16.576,
+   late_wakes: 6,
+   catch_ups: 0,
+   "shown_p95_ms": 30.176
+  },
+  {
+   id: "box/display/p0_probed_1kb1_2/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p0_probed_1kb1_2/run_1",
+   nonce: 3791837970135987849,
+   host: box,
+   target: "1kb1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: true,
+   position: 22,
+   seed: 1,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3292,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    10.158,             16.823900000000002],
+    [fight,    10.057,             16.7858],
+    [spawn,    11.55,              16.798299999999998],
+    [yard,     11.746,             16.8214],
+    [up,       11.143,             16.8012],
+    [down,     10.4,               16.7512],
+    [ramp,     10.053,             16.7494],
+    [revisit,  10.4,               16.7926],
+    [pressure, 11.98,              16.7898]
+   ],
+   submission_age_median_ms: 16.566,
+   late_wakes: 3,
+   catch_ups: 0,
+   "shown_p95_ms": 30.106
+  },
+  {
+   id: "box/display/p0_probed_1kb1_2/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p0_probed_1kb1_2/run_2",
+   nonce: 5217848913204193908,
+   host: box,
+   target: "1kb1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: true,
+   position: 23,
+   seed: 2,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 3295,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    11.537,             16.737],
+    [fight,    11.586,             16.7351],
+    [spawn,    10.96,              16.7669],
+    [yard,     11.055,             16.8048],
+    [up,       10.557,             16.7811],
+    [down,     10.641,             16.7722],
+    [ramp,     10.606,             16.7977],
+    [revisit,  10.476,             16.7649],
+    [pressure, 11.067,             16.739]
+   ],
+   submission_age_median_ms: 16.566,
+   late_wakes: 5,
+   catch_ups: 0,
+   "shown_p95_ms": 30.172
+  },
+  {
+   id: "box/display/p0_probed_1kb1_2/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T144043-display/tree/p0_probed_1kb1_2/run_3",
+   nonce: 8323546134074773796,
+   host: box,
+   target: "1kb1",
+   battery: display,
+   workload: fps,
+   backend: offscreen,
+   kernel: "P0",
+   order: prepare,
+   timing: false,
+   probed: true,
+   position: 24,
+   seed: 3,
+   "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 2106,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   legs: [
+    [leg,      critical_median_ms, "presented_p95_ms"];
+    [start,    12.791,             16.797],
+    [fight,    10.186,             16.787],
+    [spawn,    10.228,             16.772299999999998],
+    [yard,     11.26,              16.8101],
+    [up,       12.565,             16.8412],
+    [down,     10.496,             16.7972],
+    [ramp,     10.559,             16.8418],
+    [revisit,  10.268,             16.8042],
+    [pressure, 12.694,             16.8401]
+   ],
+   submission_age_median_ms: 16.564,
+   late_wakes: 7,
+   catch_ups: 0,
+   "shown_p95_ms": 30.15
+  },
+  {
+   id: "box/walk/p0_await_on_1ka1_1/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p0_await_on_1ka1_1/run_1",
+   nonce: 6026283683106142161,
+   host: box,
+   target: "1ka1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P0",
+   order: await,
+   timing: true,
+   probed: false,
+   position: 1,
+   seed: 2685821657736338717,
+   "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 7161,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6666,
+   "presented_p95_ms": 19.4006,
+   d_median_ms: 7.9738,
+   phases: {
+    work: {
+     median_ms: 7.9738,
+     "p95_ms": 10.5765,
+     count: 7199
+    },
+    wait: {
+     median_ms: 8.3513,
+     "p95_ms": 12.3381,
+     count: 7199
+    },
+    call: {
+     median_ms: 0.333,
+     "p95_ms": 0.6044,
+     count: 7198
+    }
+   }
+  },
+  {
+   id: "box/walk/p0_await_on_1ka1_1/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p0_await_on_1ka1_1/run_2",
+   nonce: 8825946991410800247,
+   host: box,
+   target: "1ka1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P0",
+   order: await,
+   timing: true,
+   probed: false,
+   position: 2,
+   seed: 2685821657736338717,
+   "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 6983,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6613,
+   "presented_p95_ms": 19.5235,
+   d_median_ms: 7.9915,
+   phases: {
+    work: {
+     median_ms: 7.9915,
+     "p95_ms": 10.9817,
+     count: 7199
+    },
+    wait: {
+     median_ms: 8.3226,
+     "p95_ms": 10.9777,
+     count: 7199
+    },
+    call: {
+     median_ms: 0.3481,
+     "p95_ms": 0.6174,
+     count: 7198
+    }
+   }
+  },
+  {
+   id: "box/walk/p0_await_on_1ka1_1/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p0_await_on_1ka1_1/run_3",
+   nonce: 8308297956034861086,
+   host: box,
+   target: "1ka1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P0",
+   order: await,
+   timing: true,
+   probed: false,
+   position: 3,
+   seed: 2685821657736338717,
+   "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 7112,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6689,
+   "presented_p95_ms": 19.1654,
+   d_median_ms: 7.9677,
+   phases: {
+    work: {
+     median_ms: 7.9677,
+     "p95_ms": 10.6596,
+     count: 7200
+    },
+    wait: {
+     median_ms: 8.3627,
+     "p95_ms": 10.2234,
+     count: 7200
+    },
+    call: {
+     median_ms: 0.3295,
+     "p95_ms": 0.5878,
+     count: 7199
+    }
+   }
+  },
+  {
+   id: "box/walk/p2_await_on_1ka1_1/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_await_on_1ka1_1/run_1",
+   nonce: 8288212364902125278,
+   host: box,
+   target: "1ka1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: await,
+   timing: true,
+   probed: false,
+   position: 4,
+   seed: 2685821657736338717,
+   "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 28.3716,
+   "presented_p95_ms": 30.7738,
+   d_median_ms: 11.5001,
+   phases: {
+    work: {
+     median_ms: 11.5001,
+     "p95_ms": 13.8955,
+     count: 4305
+    },
+    wait: {
+     median_ms: 16.3597,
+     "p95_ms": 16.6307,
+     count: 4305
+    },
+    call: {
+     median_ms: 0.516,
+     "p95_ms": 0.7561,
+     count: 4304
+    }
+   }
+  },
+  {
+   id: "box/walk/p2_await_on_1ka1_1/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_await_on_1ka1_1/run_2",
+   nonce: 3678081863484074455,
+   host: box,
+   target: "1ka1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: await,
+   timing: true,
+   probed: false,
+   position: 5,
+   seed: 2685821657736338717,
+   "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 28.2754,
+   "presented_p95_ms": 30.7221,
+   d_median_ms: 11.4006,
+   phases: {
+    work: {
+     median_ms: 11.4006,
+     "p95_ms": 13.8706,
+     count: 4342
+    },
+    wait: {
+     median_ms: 16.3531,
+     "p95_ms": 16.6498,
+     count: 4342
+    },
+    call: {
+     median_ms: 0.5226,
+     "p95_ms": 0.8024,
+     count: 4341
+    }
+   }
+  },
+  {
+   id: "box/walk/p2_await_on_1ka1_1/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_await_on_1ka1_1/run_3",
+   nonce: 8923779916310879004,
+   host: box,
+   target: "1ka1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: await,
+   timing: true,
+   probed: false,
+   position: 6,
+   seed: 2685821657736338717,
+   "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 28.6191,
+   "presented_p95_ms": 30.8916,
+   d_median_ms: 11.7504,
+   phases: {
+    work: {
+     median_ms: 11.7504,
+     "p95_ms": 14.0066,
+     count: 4295
+    },
+    wait: {
+     median_ms: 16.354,
+     "p95_ms": 16.6446,
+     count: 4295
+    },
+    call: {
+     median_ms: 0.5171,
+     "p95_ms": 0.7962,
+     count: 4294
+    }
+   }
+  },
+  {
+   id: "box/walk/p2_prepare_on_1ka1_1/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_prepare_on_1ka1_1/run_1",
+   nonce: 4267491366210921156,
+   host: box,
+   target: "1ka1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: true,
+   probed: false,
+   position: 7,
+   seed: 2685821657736338717,
+   "image_sha256": "088eff5d5cd15ce91acf8b48ab0d2cb43a27a8839e642b0e88588acd101e2f0d",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6656,
+   "presented_p95_ms": 16.7576,
+   d_median_ms: 7.8674,
+   phases: {
+    work: {
+     median_ms: 7.8674,
+     "p95_ms": 11.3807,
+     count: 7200
+    },
+    wait: {
+     median_ms: 8.2081,
+     "p95_ms": 10.4105,
+     count: 7200
+    },
+    call: {
+     median_ms: 0.5591,
+     "p95_ms": 0.8051,
+     count: 7199
+    }
+   }
+  },
+  {
+   id: "box/walk/p2_prepare_on_1ka1_1/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_prepare_on_1ka1_1/run_2",
+   nonce: 1713008900561786288,
+   host: box,
+   target: "1ka1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: true,
+   probed: false,
+   position: 8,
+   seed: 2685821657736338717,
+   "image_sha256": "088eff5d5cd15ce91acf8b48ab0d2cb43a27a8839e642b0e88588acd101e2f0d",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6662,
+   "presented_p95_ms": 16.7609,
+   d_median_ms: 7.8446,
+   phases: {
+    work: {
+     median_ms: 7.8446,
+     "p95_ms": 11.2329,
+     count: 7200
+    },
+    wait: {
+     median_ms: 8.2473,
+     "p95_ms": 10.166,
+     count: 7200
+    },
+    call: {
+     median_ms: 0.5557,
+     "p95_ms": 0.7898,
+     count: 7199
+    }
+   }
+  },
+  {
+   id: "box/walk/p2_prepare_on_1ka1_1/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_prepare_on_1ka1_1/run_3",
+   nonce: 2506020552658876122,
+   host: box,
+   target: "1ka1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: true,
+   probed: false,
+   position: 9,
+   seed: 2685821657736338717,
+   "image_sha256": "088eff5d5cd15ce91acf8b48ab0d2cb43a27a8839e642b0e88588acd101e2f0d",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6659,
+   "presented_p95_ms": 16.7591,
+   d_median_ms: 7.8769,
+   phases: {
+    work: {
+     median_ms: 7.8769,
+     "p95_ms": 11.1165,
+     count: 7200
+    },
+    wait: {
+     median_ms: 8.206,
+     "p95_ms": 10.0317,
+     count: 7200
+    },
+    call: {
+     median_ms: 0.5618,
+     "p95_ms": 0.7875,
+     count: 7199
+    }
+   }
+  },
+  {
+   id: "box/walk/p0_await_off_1ka1_1/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p0_await_off_1ka1_1/run_1",
+   nonce: 6887704490063347414,
+   host: box,
+   target: "1ka1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P0",
+   order: await,
+   timing: false,
+   probed: false,
+   position: 10,
+   seed: 2685821657736338717,
+   "image_sha256": "ad2f50b1142e80e2b263a10e76e0d54a8ca69d25b74126546bda25b61bf6d7ff",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 7115,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6784,
+   "presented_p95_ms": 20.0922
+  },
+  {
+   id: "box/walk/p0_await_off_1ka1_1/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p0_await_off_1ka1_1/run_2",
+   nonce: 2140396351863386674,
+   host: box,
+   target: "1ka1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P0",
+   order: await,
+   timing: false,
+   probed: false,
+   position: 11,
+   seed: 2685821657736338717,
+   "image_sha256": "ad2f50b1142e80e2b263a10e76e0d54a8ca69d25b74126546bda25b61bf6d7ff",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 7134,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6799,
+   "presented_p95_ms": 19.3573
+  },
+  {
+   id: "box/walk/p0_await_off_1ka1_1/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p0_await_off_1ka1_1/run_3",
+   nonce: 4388737389331786857,
+   host: box,
+   target: "1ka1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P0",
+   order: await,
+   timing: false,
+   probed: false,
+   position: 12,
+   seed: 2685821657736338717,
+   "image_sha256": "ad2f50b1142e80e2b263a10e76e0d54a8ca69d25b74126546bda25b61bf6d7ff",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 7161,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6887,
+   "presented_p95_ms": 19.6579
+  },
+  {
+   id: "box/walk/p2_prepare_off_1ka1_1/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_prepare_off_1ka1_1/run_1",
+   nonce: 8418162990522083960,
+   host: box,
+   target: "1ka1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 13,
+   seed: 2685821657736338717,
+   "image_sha256": "32b2dcd195e392aada13943589af2a1c58c5fc7a0bfe56a87ec8dde600bdab3f",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6663,
+   "presented_p95_ms": 16.7602
+  },
+  {
+   id: "box/walk/p2_prepare_off_1ka1_1/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_prepare_off_1ka1_1/run_2",
+   nonce: 3081061789773503802,
+   host: box,
+   target: "1ka1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 14,
+   seed: 2685821657736338717,
+   "image_sha256": "32b2dcd195e392aada13943589af2a1c58c5fc7a0bfe56a87ec8dde600bdab3f",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6667,
+   "presented_p95_ms": 16.7693
+  },
+  {
+   id: "box/walk/p2_prepare_off_1ka1_1/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_prepare_off_1ka1_1/run_3",
+   nonce: 3983197500593050029,
+   host: box,
+   target: "1ka1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 15,
+   seed: 2685821657736338717,
+   "image_sha256": "32b2dcd195e392aada13943589af2a1c58c5fc7a0bfe56a87ec8dde600bdab3f",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6666,
+   "presented_p95_ms": 16.7723
+  },
+  {
+   id: "box/walk/p2_prepare_off_1ka1_2/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_prepare_off_1ka1_2/run_1",
+   nonce: 4819543587802292496,
+   host: box,
+   target: "1ka1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 16,
+   seed: 2685821657736338717,
+   "image_sha256": "32b2dcd195e392aada13943589af2a1c58c5fc7a0bfe56a87ec8dde600bdab3f",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6666,
+   "presented_p95_ms": 16.7654
+  },
+  {
+   id: "box/walk/p2_prepare_off_1ka1_2/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_prepare_off_1ka1_2/run_2",
+   nonce: 2737014724699085774,
+   host: box,
+   target: "1ka1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 17,
+   seed: 2685821657736338717,
+   "image_sha256": "32b2dcd195e392aada13943589af2a1c58c5fc7a0bfe56a87ec8dde600bdab3f",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6668,
+   "presented_p95_ms": 16.7647
+  },
+  {
+   id: "box/walk/p2_prepare_off_1ka1_2/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_prepare_off_1ka1_2/run_3",
+   nonce: 3360487989730352151,
+   host: box,
+   target: "1ka1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 18,
+   seed: 2685821657736338717,
+   "image_sha256": "32b2dcd195e392aada13943589af2a1c58c5fc7a0bfe56a87ec8dde600bdab3f",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6669,
+   "presented_p95_ms": 16.7661
+  },
+  {
+   id: "box/walk/p0_await_off_1ka1_2/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p0_await_off_1ka1_2/run_1",
+   nonce: 6134297458059490377,
+   host: box,
+   target: "1ka1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P0",
+   order: await,
+   timing: false,
+   probed: false,
+   position: 19,
+   seed: 2685821657736338717,
+   "image_sha256": "ad2f50b1142e80e2b263a10e76e0d54a8ca69d25b74126546bda25b61bf6d7ff",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 7093,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6663,
+   "presented_p95_ms": 19.1874
+  },
+  {
+   id: "box/walk/p0_await_off_1ka1_2/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p0_await_off_1ka1_2/run_2",
+   nonce: 8377989534366413168,
+   host: box,
+   target: "1ka1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P0",
+   order: await,
+   timing: false,
+   probed: false,
+   position: 20,
+   seed: 2685821657736338717,
+   "image_sha256": "ad2f50b1142e80e2b263a10e76e0d54a8ca69d25b74126546bda25b61bf6d7ff",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 7068,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6683,
+   "presented_p95_ms": 19.483
+  },
+  {
+   id: "box/walk/p0_await_off_1ka1_2/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p0_await_off_1ka1_2/run_3",
+   nonce: 9057822384699408873,
+   host: box,
+   target: "1ka1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P0",
+   order: await,
+   timing: false,
+   probed: false,
+   position: 21,
+   seed: 2685821657736338717,
+   "image_sha256": "ad2f50b1142e80e2b263a10e76e0d54a8ca69d25b74126546bda25b61bf6d7ff",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 7177,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6803,
+   "presented_p95_ms": 19.29
+  },
+  {
+   id: "box/walk/p2_prepare_on_1ka1_2/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_prepare_on_1ka1_2/run_1",
+   nonce: 2894328750728269961,
+   host: box,
+   target: "1ka1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: true,
+   probed: false,
+   position: 22,
+   seed: 2685821657736338717,
+   "image_sha256": "088eff5d5cd15ce91acf8b48ab0d2cb43a27a8839e642b0e88588acd101e2f0d",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6673,
+   "presented_p95_ms": 16.7846,
+   d_median_ms: 7.8768,
+   phases: {
+    work: {
+     median_ms: 7.8768,
+     "p95_ms": 10.8931,
+     count: 7198
+    },
+    wait: {
+     median_ms: 8.1896,
+     "p95_ms": 9.5332,
+     count: 7198
+    },
+    call: {
+     median_ms: 0.5936,
+     "p95_ms": 0.8516,
+     count: 7197
+    }
+   }
+  },
+  {
+   id: "box/walk/p2_prepare_on_1ka1_2/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_prepare_on_1ka1_2/run_2",
+   nonce: 8495171110248186211,
+   host: box,
+   target: "1ka1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: true,
+   probed: false,
+   position: 23,
+   seed: 2685821657736338717,
+   "image_sha256": "088eff5d5cd15ce91acf8b48ab0d2cb43a27a8839e642b0e88588acd101e2f0d",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6674,
+   "presented_p95_ms": 16.7866,
+   d_median_ms: 7.8725,
+   phases: {
+    work: {
+     median_ms: 7.8725,
+     "p95_ms": 10.3215,
+     count: 7198
+    },
+    wait: {
+     median_ms: 8.1895,
+     "p95_ms": 9.9586,
+     count: 7198
+    },
+    call: {
+     median_ms: 0.5948,
+     "p95_ms": 0.8246,
+     count: 7197
+    }
+   }
+  },
+  {
+   id: "box/walk/p2_prepare_on_1ka1_2/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_prepare_on_1ka1_2/run_3",
+   nonce: 7204077618835569241,
+   host: box,
+   target: "1ka1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: true,
+   probed: false,
+   position: 24,
+   seed: 2685821657736338717,
+   "image_sha256": "088eff5d5cd15ce91acf8b48ab0d2cb43a27a8839e642b0e88588acd101e2f0d",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6662,
+   "presented_p95_ms": 16.7636,
+   d_median_ms: 7.7749,
+   phases: {
+    work: {
+     median_ms: 7.7749,
+     "p95_ms": 10.5748,
+     count: 7200
+    },
+    wait: {
+     median_ms: 8.3014,
+     "p95_ms": 13.8383,
+     count: 7200
+    },
+    call: {
+     median_ms: 0.5654,
+     "p95_ms": 0.804,
+     count: 7199
+    }
+   }
+  },
+  {
+   id: "box/walk/p2_await_on_1ka1_2/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_await_on_1ka1_2/run_1",
+   nonce: 7504720424906515068,
+   host: box,
+   target: "1ka1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: await,
+   timing: true,
+   probed: false,
+   position: 25,
+   seed: 2685821657736338717,
+   "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 28.0356,
+   "presented_p95_ms": 30.2931,
+   d_median_ms: 11.137,
+   phases: {
+    work: {
+     median_ms: 11.137,
+     "p95_ms": 13.3809,
+     count: 4431
+    },
+    wait: {
+     median_ms: 16.3673,
+     "p95_ms": 16.665,
+     count: 4431
+    },
+    call: {
+     median_ms: 0.5355,
+     "p95_ms": 0.7986,
+     count: 4430
+    }
+   }
+  },
+  {
+   id: "box/walk/p2_await_on_1ka1_2/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_await_on_1ka1_2/run_2",
+   nonce: 3808833349750147960,
+   host: box,
+   target: "1ka1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: await,
+   timing: true,
+   probed: false,
+   position: 26,
+   seed: 2685821657736338717,
+   "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 28.5997,
+   "presented_p95_ms": 30.4471,
+   d_median_ms: 11.6983,
+   phases: {
+    work: {
+     median_ms: 11.6983,
+     "p95_ms": 13.5116,
+     count: 4312
+    },
+    wait: {
+     median_ms: 16.363,
+     "p95_ms": 16.6714,
+     count: 4312
+    },
+    call: {
+     median_ms: 0.5445,
+     "p95_ms": 0.7905,
+     count: 4311
+    }
+   }
+  },
+  {
+   id: "box/walk/p2_await_on_1ka1_2/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_await_on_1ka1_2/run_3",
+   nonce: 6107797560092801946,
+   host: box,
+   target: "1ka1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: await,
+   timing: true,
+   probed: false,
+   position: 27,
+   seed: 2685821657736338717,
+   "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 28.6632,
+   "presented_p95_ms": 30.0597,
+   d_median_ms: 11.7303,
+   phases: {
+    work: {
+     median_ms: 11.7303,
+     "p95_ms": 13.1363,
+     count: 4273
+    },
+    wait: {
+     median_ms: 16.3625,
+     "p95_ms": 16.6204,
+     count: 4273
+    },
+    call: {
+     median_ms: 0.5524,
+     "p95_ms": 0.7769,
+     count: 4272
+    }
+   }
+  },
+  {
+   id: "box/walk/p0_await_on_1ka1_2/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p0_await_on_1ka1_2/run_1",
+   nonce: 2337378597043060027,
+   host: box,
+   target: "1ka1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P0",
+   order: await,
+   timing: true,
+   probed: false,
+   position: 28,
+   seed: 2685821657736338717,
+   "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 7121,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.665,
+   "presented_p95_ms": 17.8973,
+   d_median_ms: 7.9983,
+   phases: {
+    work: {
+     median_ms: 7.9983,
+     "p95_ms": 8.8995,
+     count: 7200
+    },
+    wait: {
+     median_ms: 8.3193,
+     "p95_ms": 9.4135,
+     count: 7200
+    },
+    call: {
+     median_ms: 0.3381,
+     "p95_ms": 0.5604,
+     count: 7199
+    }
+   }
+  },
+  {
+   id: "box/walk/p0_await_on_1ka1_2/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p0_await_on_1ka1_2/run_2",
+   nonce: 6387745149715645972,
+   host: box,
+   target: "1ka1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P0",
+   order: await,
+   timing: true,
+   probed: false,
+   position: 29,
+   seed: 2685821657736338717,
+   "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 7048,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6658,
+   "presented_p95_ms": 18.0789,
+   d_median_ms: 8.0084,
+   phases: {
+    work: {
+     median_ms: 8.0084,
+     "p95_ms": 9.5866,
+     count: 7200
+    },
+    wait: {
+     median_ms: 8.3067,
+     "p95_ms": 9.2834,
+     count: 7200
+    },
+    call: {
+     median_ms: 0.3417,
+     "p95_ms": 0.5594,
+     count: 7199
+    }
+   }
+  },
+  {
+   id: "box/walk/p0_await_on_1ka1_2/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p0_await_on_1ka1_2/run_3",
+   nonce: 1902731783291220784,
+   host: box,
+   target: "1ka1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P0",
+   order: await,
+   timing: true,
+   probed: false,
+   position: 30,
+   seed: 2685821657736338717,
+   "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 7040,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6731,
+   "presented_p95_ms": 17.9601,
+   d_median_ms: 8.001,
+   phases: {
+    work: {
+     median_ms: 8.001,
+     "p95_ms": 9.0808,
+     count: 7200
+    },
+    wait: {
+     median_ms: 8.3236,
+     "p95_ms": 9.6424,
+     count: 7200
+    },
+    call: {
+     median_ms: 0.3307,
+     "p95_ms": 0.5619,
+     count: 7199
+    }
+   }
+  },
+  {
+   id: "box/walk/p0_await_on_1kb1_1/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p0_await_on_1kb1_1/run_1",
+   nonce: 2361728494223073547,
+   host: box,
+   target: "1kb1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P0",
+   order: await,
+   timing: true,
+   probed: false,
+   position: 1,
+   seed: 2685821657736338717,
+   "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 7009,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6664,
+   "presented_p95_ms": 19.3604,
+   d_median_ms: 7.965,
+   phases: {
+    work: {
+     median_ms: 7.965,
+     "p95_ms": 10.4168,
+     count: 7196
+    },
+    wait: {
+     median_ms: 8.3613,
+     "p95_ms": 12.0332,
+     count: 7196
+    },
+    call: {
+     median_ms: 0.3382,
+     "p95_ms": 0.5986,
+     count: 7195
+    }
+   }
+  },
+  {
+   id: "box/walk/p0_await_on_1kb1_1/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p0_await_on_1kb1_1/run_2",
+   nonce: 3874249020514860797,
+   host: box,
+   target: "1kb1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P0",
+   order: await,
+   timing: true,
+   probed: false,
+   position: 2,
+   seed: 2685821657736338717,
+   "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 7064,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6646,
+   "presented_p95_ms": 19.0283,
+   d_median_ms: 8.0055,
+   phases: {
+    work: {
+     median_ms: 8.0055,
+     "p95_ms": 10.3699,
+     count: 7198
+    },
+    wait: {
+     median_ms: 8.3111,
+     "p95_ms": 10.0766,
+     count: 7198
+    },
+    call: {
+     median_ms: 0.3473,
+     "p95_ms": 0.5666,
+     count: 7197
+    }
+   }
+  },
+  {
+   id: "box/walk/p0_await_on_1kb1_1/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p0_await_on_1kb1_1/run_3",
+   nonce: 3654758931690031136,
+   host: box,
+   target: "1kb1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P0",
+   order: await,
+   timing: true,
+   probed: false,
+   position: 3,
+   seed: 2685821657736338717,
+   "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 7075,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6682,
+   "presented_p95_ms": 19.1417,
+   d_median_ms: 8.0469,
+   phases: {
+    work: {
+     median_ms: 8.0469,
+     "p95_ms": 10.725,
+     count: 7199
+    },
+    wait: {
+     median_ms: 8.2672,
+     "p95_ms": 9.8229,
+     count: 7199
+    },
+    call: {
+     median_ms: 0.3475,
+     "p95_ms": 0.5933,
+     count: 7198
+    }
+   }
+  },
+  {
+   id: "box/walk/p2_await_on_1kb1_1/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_await_on_1kb1_1/run_1",
+   nonce: 1346700873275299202,
+   host: box,
+   target: "1kb1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: await,
+   timing: true,
+   probed: false,
+   position: 4,
+   seed: 2685821657736338717,
+   "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 28.5477,
+   "presented_p95_ms": 30.3243,
+   d_median_ms: 11.6535,
+   phases: {
+    work: {
+     median_ms: 11.6535,
+     "p95_ms": 13.3854,
+     count: 4318
+    },
+    wait: {
+     median_ms: 16.3711,
+     "p95_ms": 16.6648,
+     count: 4318
+    },
+    call: {
+     median_ms: 0.5162,
+     "p95_ms": 0.7782,
+     count: 4317
+    }
+   }
+  },
+  {
+   id: "box/walk/p2_await_on_1kb1_1/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_await_on_1kb1_1/run_2",
+   nonce: 7760694748829428629,
+   host: box,
+   target: "1kb1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: await,
+   timing: true,
+   probed: false,
+   position: 5,
+   seed: 2685821657736338717,
+   "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 28.7248,
+   "presented_p95_ms": 30.1962,
+   d_median_ms: 11.8047,
+   phases: {
+    work: {
+     median_ms: 11.8047,
+     "p95_ms": 13.2858,
+     count: 4329
+    },
+    wait: {
+     median_ms: 16.3722,
+     "p95_ms": 16.6239,
+     count: 4329
+    },
+    call: {
+     median_ms: 0.5396,
+     "p95_ms": 0.7883,
+     count: 4328
+    }
+   }
+  },
+  {
+   id: "box/walk/p2_await_on_1kb1_1/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_await_on_1kb1_1/run_3",
+   nonce: 6916998438111325624,
+   host: box,
+   target: "1kb1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: await,
+   timing: true,
+   probed: false,
+   position: 6,
+   seed: 2685821657736338717,
+   "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 28.7045,
+   "presented_p95_ms": 30.6127,
+   d_median_ms: 11.8176,
+   phases: {
+    work: {
+     median_ms: 11.8176,
+     "p95_ms": 13.7333,
+     count: 4301
+    },
+    wait: {
+     median_ms: 16.376,
+     "p95_ms": 16.6735,
+     count: 4301
+    },
+    call: {
+     median_ms: 0.5119,
+     "p95_ms": 0.7817,
+     count: 4300
+    }
+   }
+  },
+  {
+   id: "box/walk/p2_prepare_on_1kb1_1/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_prepare_on_1kb1_1/run_1",
+   nonce: 4806201456308179281,
+   host: box,
+   target: "1kb1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: true,
+   probed: false,
+   position: 7,
+   seed: 2685821657736338717,
+   "image_sha256": "088eff5d5cd15ce91acf8b48ab0d2cb43a27a8839e642b0e88588acd101e2f0d",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.667,
+   "presented_p95_ms": 16.765,
+   d_median_ms: 7.89,
+   phases: {
+    work: {
+     median_ms: 7.89,
+     "p95_ms": 10.3761,
+     count: 7199
+    },
+    wait: {
+     median_ms: 8.1804,
+     "p95_ms": 9.1289,
+     count: 7199
+    },
+    call: {
+     median_ms: 0.5752,
+     "p95_ms": 0.8288,
+     count: 7198
+    }
+   }
+  },
+  {
+   id: "box/walk/p2_prepare_on_1kb1_1/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_prepare_on_1kb1_1/run_2",
+   nonce: 8127723938646571230,
+   host: box,
+   target: "1kb1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: true,
+   probed: false,
+   position: 8,
+   seed: 2685821657736338717,
+   "image_sha256": "088eff5d5cd15ce91acf8b48ab0d2cb43a27a8839e642b0e88588acd101e2f0d",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6668,
+   "presented_p95_ms": 16.7606,
+   d_median_ms: 7.871,
+   phases: {
+    work: {
+     median_ms: 7.871,
+     "p95_ms": 10.5657,
+     count: 7200
+    },
+    wait: {
+     median_ms: 8.2201,
+     "p95_ms": 9.3565,
+     count: 7200
+    },
+    call: {
+     median_ms: 0.5597,
+     "p95_ms": 0.7841,
+     count: 7199
+    }
+   }
+  },
+  {
+   id: "box/walk/p2_prepare_on_1kb1_1/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_prepare_on_1kb1_1/run_3",
+   nonce: 2747766351529462332,
+   host: box,
+   target: "1kb1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: true,
+   probed: false,
+   position: 9,
+   seed: 2685821657736338717,
+   "image_sha256": "088eff5d5cd15ce91acf8b48ab0d2cb43a27a8839e642b0e88588acd101e2f0d",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6664,
+   "presented_p95_ms": 16.7706,
+   d_median_ms: 7.8573,
+   phases: {
+    work: {
+     median_ms: 7.8573,
+     "p95_ms": 11.4016,
+     count: 7200
+    },
+    wait: {
+     median_ms: 8.2266,
+     "p95_ms": 10.7239,
+     count: 7200
+    },
+    call: {
+     median_ms: 0.5673,
+     "p95_ms": 0.8266,
+     count: 7199
+    }
+   }
+  },
+  {
+   id: "box/walk/p0_await_off_1kb1_1/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p0_await_off_1kb1_1/run_1",
+   nonce: 6513711999912815364,
+   host: box,
+   target: "1kb1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P0",
+   order: await,
+   timing: false,
+   probed: false,
+   position: 10,
+   seed: 2685821657736338717,
+   "image_sha256": "ad2f50b1142e80e2b263a10e76e0d54a8ca69d25b74126546bda25b61bf6d7ff",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 7188,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6688,
+   "presented_p95_ms": 19.5253
+  },
+  {
+   id: "box/walk/p0_await_off_1kb1_1/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p0_await_off_1kb1_1/run_2",
+   nonce: 3647072171607506378,
+   host: box,
+   target: "1kb1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P0",
+   order: await,
+   timing: false,
+   probed: false,
+   position: 11,
+   seed: 2685821657736338717,
+   "image_sha256": "ad2f50b1142e80e2b263a10e76e0d54a8ca69d25b74126546bda25b61bf6d7ff",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 7018,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6713,
+   "presented_p95_ms": 19.8318
+  },
+  {
+   id: "box/walk/p0_await_off_1kb1_1/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p0_await_off_1kb1_1/run_3",
+   nonce: 3891437553362259805,
+   host: box,
+   target: "1kb1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P0",
+   order: await,
+   timing: false,
+   probed: false,
+   position: 12,
+   seed: 2685821657736338717,
+   "image_sha256": "ad2f50b1142e80e2b263a10e76e0d54a8ca69d25b74126546bda25b61bf6d7ff",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 7174,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6675,
+   "presented_p95_ms": 18.7927
+  },
+  {
+   id: "box/walk/p2_prepare_off_1kb1_1/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_prepare_off_1kb1_1/run_1",
+   nonce: 3647679671713831449,
+   host: box,
+   target: "1kb1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 13,
+   seed: 2685821657736338717,
+   "image_sha256": "32b2dcd195e392aada13943589af2a1c58c5fc7a0bfe56a87ec8dde600bdab3f",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6674,
+   "presented_p95_ms": 16.7721
+  },
+  {
+   id: "box/walk/p2_prepare_off_1kb1_1/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_prepare_off_1kb1_1/run_2",
+   nonce: 5958927380039125219,
+   host: box,
+   target: "1kb1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 14,
+   seed: 2685821657736338717,
+   "image_sha256": "32b2dcd195e392aada13943589af2a1c58c5fc7a0bfe56a87ec8dde600bdab3f",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6675,
+   "presented_p95_ms": 16.7818
+  },
+  {
+   id: "box/walk/p2_prepare_off_1kb1_1/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_prepare_off_1kb1_1/run_3",
+   nonce: 516665560890537398,
+   host: box,
+   target: "1kb1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 15,
+   seed: 2685821657736338717,
+   "image_sha256": "32b2dcd195e392aada13943589af2a1c58c5fc7a0bfe56a87ec8dde600bdab3f",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6678,
+   "presented_p95_ms": 16.7695
+  },
+  {
+   id: "box/walk/p2_prepare_off_1kb1_2/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_prepare_off_1kb1_2/run_1",
+   nonce: 919693666343636906,
+   host: box,
+   target: "1kb1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 16,
+   seed: 2685821657736338717,
+   "image_sha256": "32b2dcd195e392aada13943589af2a1c58c5fc7a0bfe56a87ec8dde600bdab3f",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6668,
+   "presented_p95_ms": 16.7571
+  },
+  {
+   id: "box/walk/p2_prepare_off_1kb1_2/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_prepare_off_1kb1_2/run_2",
+   nonce: 2363512477570380925,
+   host: box,
+   target: "1kb1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 17,
+   seed: 2685821657736338717,
+   "image_sha256": "32b2dcd195e392aada13943589af2a1c58c5fc7a0bfe56a87ec8dde600bdab3f",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6662,
+   "presented_p95_ms": 16.7575
+  },
+  {
+   id: "box/walk/p2_prepare_off_1kb1_2/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_prepare_off_1kb1_2/run_3",
+   nonce: 2757552447113016120,
+   host: box,
+   target: "1kb1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: false,
+   probed: false,
+   position: 18,
+   seed: 2685821657736338717,
+   "image_sha256": "32b2dcd195e392aada13943589af2a1c58c5fc7a0bfe56a87ec8dde600bdab3f",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6664,
+   "presented_p95_ms": 16.7333
+  },
+  {
+   id: "box/walk/p0_await_off_1kb1_2/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p0_await_off_1kb1_2/run_1",
+   nonce: 7446045763860913070,
+   host: box,
+   target: "1kb1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P0",
+   order: await,
+   timing: false,
+   probed: false,
+   position: 19,
+   seed: 2685821657736338717,
+   "image_sha256": "ad2f50b1142e80e2b263a10e76e0d54a8ca69d25b74126546bda25b61bf6d7ff",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 7090,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6712,
+   "presented_p95_ms": 18.3752
+  },
+  {
+   id: "box/walk/p0_await_off_1kb1_2/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p0_await_off_1kb1_2/run_2",
+   nonce: 955372356292879480,
+   host: box,
+   target: "1kb1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P0",
+   order: await,
+   timing: false,
+   probed: false,
+   position: 20,
+   seed: 2685821657736338717,
+   "image_sha256": "ad2f50b1142e80e2b263a10e76e0d54a8ca69d25b74126546bda25b61bf6d7ff",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 7178,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6697,
+   "presented_p95_ms": 18.7508
+  },
+  {
+   id: "box/walk/p0_await_off_1kb1_2/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p0_await_off_1kb1_2/run_3",
+   nonce: 5522357094147741038,
+   host: box,
+   target: "1kb1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P0",
+   order: await,
+   timing: false,
+   probed: false,
+   position: 21,
+   seed: 2685821657736338717,
+   "image_sha256": "ad2f50b1142e80e2b263a10e76e0d54a8ca69d25b74126546bda25b61bf6d7ff",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 7106,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6707,
+   "presented_p95_ms": 18.6082
+  },
+  {
+   id: "box/walk/p2_prepare_on_1kb1_2/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_prepare_on_1kb1_2/run_1",
+   nonce: 4166614908729971502,
+   host: box,
+   target: "1kb1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: true,
+   probed: false,
+   position: 22,
+   seed: 2685821657736338717,
+   "image_sha256": "088eff5d5cd15ce91acf8b48ab0d2cb43a27a8839e642b0e88588acd101e2f0d",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.667,
+   "presented_p95_ms": 16.7326,
+   d_median_ms: 7.8521,
+   phases: {
+    work: {
+     median_ms: 7.8521,
+     "p95_ms": 10.4334,
+     count: 7200
+    },
+    wait: {
+     median_ms: 8.2499,
+     "p95_ms": 9.8805,
+     count: 7200
+    },
+    call: {
+     median_ms: 0.5484,
+     "p95_ms": 0.7344,
+     count: 7199
+    }
+   }
+  },
+  {
+   id: "box/walk/p2_prepare_on_1kb1_2/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_prepare_on_1kb1_2/run_2",
+   nonce: 3605362162915598830,
+   host: box,
+   target: "1kb1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: true,
+   probed: false,
+   position: 23,
+   seed: 2685821657736338717,
+   "image_sha256": "088eff5d5cd15ce91acf8b48ab0d2cb43a27a8839e642b0e88588acd101e2f0d",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6666,
+   "presented_p95_ms": 16.7507,
+   d_median_ms: 7.8345,
+   phases: {
+    work: {
+     median_ms: 7.8345,
+     "p95_ms": 10.1769,
+     count: 7200
+    },
+    wait: {
+     median_ms: 8.2626,
+     "p95_ms": 12.7924,
+     count: 7200
+    },
+    call: {
+     median_ms: 0.5486,
+     "p95_ms": 0.7664,
+     count: 7199
+    }
+   }
+  },
+  {
+   id: "box/walk/p2_prepare_on_1kb1_2/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_prepare_on_1kb1_2/run_3",
+   nonce: 6821033176299180805,
+   host: box,
+   target: "1kb1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: prepare,
+   timing: true,
+   probed: false,
+   position: 24,
+   seed: 2685821657736338717,
+   "image_sha256": "088eff5d5cd15ce91acf8b48ab0d2cb43a27a8839e642b0e88588acd101e2f0d",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6663,
+   "presented_p95_ms": 16.7636,
+   d_median_ms: 7.8735,
+   phases: {
+    work: {
+     median_ms: 7.8735,
+     "p95_ms": 11.4672,
+     count: 7200
+    },
+    wait: {
+     median_ms: 8.2049,
+     "p95_ms": 13.4985,
+     count: 7200
+    },
+    call: {
+     median_ms: 0.5626,
+     "p95_ms": 0.8229,
+     count: 7199
+    }
+   }
+  },
+  {
+   id: "box/walk/p2_await_on_1kb1_2/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_await_on_1kb1_2/run_1",
+   nonce: 810915823600972665,
+   host: box,
+   target: "1kb1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: await,
+   timing: true,
+   probed: false,
+   position: 25,
+   seed: 2685821657736338717,
+   "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 27.462,
+   "presented_p95_ms": 30.3552,
+   d_median_ms: 10.5694,
+   phases: {
+    work: {
+     median_ms: 10.5694,
+     "p95_ms": 13.4313,
+     count: 4581
+    },
+    wait: {
+     median_ms: 16.3745,
+     "p95_ms": 16.6215,
+     count: 4581
+    },
+    call: {
+     median_ms: 0.491,
+     "p95_ms": 0.7877,
+     count: 4580
+    }
+   }
+  },
+  {
+   id: "box/walk/p2_await_on_1kb1_2/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_await_on_1kb1_2/run_2",
+   nonce: 951638564872010639,
+   host: box,
+   target: "1kb1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: await,
+   timing: true,
+   probed: false,
+   position: 26,
+   seed: 2685821657736338717,
+   "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 28.0389,
+   "presented_p95_ms": 30.3068,
+   d_median_ms: 11.1637,
+   phases: {
+    work: {
+     median_ms: 11.1637,
+     "p95_ms": 13.415,
+     count: 4506
+    },
+    wait: {
+     median_ms: 16.3692,
+     "p95_ms": 16.6152,
+     count: 4506
+    },
+    call: {
+     median_ms: 0.4947,
+     "p95_ms": 0.7795,
+     count: 4505
+    }
+   }
+  },
+  {
+   id: "box/walk/p2_await_on_1kb1_2/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p2_await_on_1kb1_2/run_3",
+   nonce: 8711070284366536716,
+   host: box,
+   target: "1kb1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P2",
+   order: await,
+   timing: true,
+   probed: false,
+   position: 27,
+   seed: 2685821657736338717,
+   "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+   "kernel_sha256": "8e9f09d63f02d065c98a7ac969f3a396555d8cc9fdab191f059e4336f5f6de0c",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 0,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 27.3118,
+   "presented_p95_ms": 30.4317,
+   d_median_ms: 10.4395,
+   phases: {
+    work: {
+     median_ms: 10.4395,
+     "p95_ms": 13.5059,
+     count: 4594
+    },
+    wait: {
+     median_ms: 16.3935,
+     "p95_ms": 16.6136,
+     count: 4594
+    },
+    call: {
+     median_ms: 0.4681,
+     "p95_ms": 0.7582,
+     count: 4593
+    }
+   }
+  },
+  {
+   id: "box/walk/p0_await_on_1kb1_2/run_1",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p0_await_on_1kb1_2/run_1",
+   nonce: 7063935951698801065,
+   host: box,
+   target: "1kb1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P0",
+   order: await,
+   timing: true,
+   probed: false,
+   position: 28,
+   seed: 2685821657736338717,
+   "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 7061,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6704,
+   "presented_p95_ms": 19.8211,
+   d_median_ms: 7.9354,
+   phases: {
+    work: {
+     median_ms: 7.9354,
+     "p95_ms": 10.759,
+     count: 7200
+    },
+    wait: {
+     median_ms: 8.3747,
+     "p95_ms": 13.5527,
+     count: 7200
+    },
+    call: {
+     median_ms: 0.34,
+     "p95_ms": 0.6156,
+     count: 7199
+    }
+   }
+  },
+  {
+   id: "box/walk/p0_await_on_1kb1_2/run_2",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p0_await_on_1kb1_2/run_2",
+   nonce: 174626500697174567,
+   host: box,
+   target: "1kb1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P0",
+   order: await,
+   timing: true,
+   probed: false,
+   position: 29,
+   seed: 2685821657736338717,
+   "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 7103,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.67,
+   "presented_p95_ms": 18.735,
+   d_median_ms: 7.997,
+   phases: {
+    work: {
+     median_ms: 7.997,
+     "p95_ms": 10.3404,
+     count: 7198
+    },
+    wait: {
+     median_ms: 8.3211,
+     "p95_ms": 10.0646,
+     count: 7198
+    },
+    call: {
+     median_ms: 0.3449,
+     "p95_ms": 0.5631,
+     count: 7197
+    }
+   }
+  },
+  {
+   id: "box/walk/p0_await_on_1kb1_2/run_3",
+   dir: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/batteries/20261020T162610-walk/tree/p0_await_on_1kb1_2/run_3",
+   nonce: 8979900250969026602,
+   host: box,
+   target: "1kb1",
+   battery: walk,
+   workload: walk,
+   backend: headless,
+   kernel: "P0",
+   order: await,
+   timing: true,
+   probed: false,
+   position: 30,
+   seed: 2685821657736338717,
+   "image_sha256": "1e1388b0a0209f799520586ff31c1398c6b68ed32a6111787707d527bbc2327d",
+   "kernel_sha256": "36b8d8c4bb9362ef678aa488202358a223c715bd43728454f08d75edf44da7ec",
+   valid: true,
+   invalid: [
+
+   ],
+   k_violations: 7040,
+   contract: {
+    available: true,
+    reason: ""
+   },
+   presented_median_ms: 16.6652,
+   "presented_p95_ms": 17.9542,
+   d_median_ms: 8.0348,
+   phases: {
+    work: {
+     median_ms: 8.0348,
+     "p95_ms": 9.4467,
+     count: 7200
+    },
+    wait: {
+     median_ms: 8.279,
+     "p95_ms": 9.1826,
+     count: 7200
+    },
+    call: {
+     median_ms: 0.3563,
+     "p95_ms": 0.6135,
+     count: 7199
+    }
+   }
+  }
+ ],
+ controls: [
+  {
+   kind: shim,
+   host: box,
+   target: "1ka1",
+   kernel: "P0",
+   runs: [
+    "box/display/p0_probed_1ka1_1/run_1",
+    "box/display/p0_probed_1ka1_1/run_2",
+    "box/display/p0_probed_1ka1_1/run_3",
+    "box/display/p0_1ka1_1/run_1",
+    "box/display/p0_1ka1_1/run_2",
+    "box/display/p0_1ka1_1/run_3",
+    "box/display/p0_1ka1_2/run_1",
+    "box/display/p0_1ka1_2/run_2",
+    "box/display/p0_1ka1_2/run_3",
+    "box/display/p0_probed_1ka1_2/run_1",
+    "box/display/p0_probed_1ka1_2/run_2",
+    "box/display/p0_probed_1ka1_2/run_3"
+   ],
+   passing: true,
+   effects: [
+    [measure,                      probed,  plain,   effect,            noise,              within];
+    ["critical path median",       12660,   12646,   14,                82.0,               true],
+    ["drawing median",             10948,   10958,   -10,               58.5,               true],
+    ["flip median",                1596,    1571,    25,                27.0,               true],
+    ["acceptance interval median", 16666.4, 16666.4, 0.0,               0.3999999999996362, true],
+    ["acceptance interval 95th",   16824.3, 16814.6, 9.700000000000728, 35.150000000001455, true],
+    ["completion interval median", 16662,   16663,   -1,                3.0,                true],
+    ["completion interval 95th",   17018,   17014,   4,                 65.0,               true]
+   ],
+   problems: [
+
+   ]
+  },
+  {
+   kind: shim,
+   host: box,
+   target: "1ka1",
+   kernel: "P2",
+   runs: [
+    "box/display/p2_probed_1ka1_1/run_1",
+    "box/display/p2_probed_1ka1_1/run_2",
+    "box/display/p2_probed_1ka1_1/run_3",
+    "box/display/p2_1ka1_1/run_1",
+    "box/display/p2_1ka1_1/run_2",
+    "box/display/p2_1ka1_1/run_3",
+    "box/display/p2_1ka1_2/run_1",
+    "box/display/p2_1ka1_2/run_2",
+    "box/display/p2_1ka1_2/run_3",
+    "box/display/p2_probed_1ka1_2/run_1",
+    "box/display/p2_probed_1ka1_2/run_2",
+    "box/display/p2_probed_1ka1_2/run_3"
+   ],
+   passing: true,
+   effects: [
+    [measure,                      probed,  plain,   effect,              noise,             within];
+    ["critical path median",       12619,   12616,   3,                   60.0,              true],
+    ["drawing median",             10921,   10938,   -17,                 36.0,              true],
+    ["flip median",                1586,    1567,    19,                  32.0,              true],
+    ["acceptance interval median", 16666.8, 16666.7, 0.09999999999854481, 0.25,              true],
+    ["acceptance interval 95th",   16796.4, 16820.2, -23.799999999999272, 31.30000000000109, true],
+    ["completion interval median", 16666,   16668,   -2,                  2.0,               true],
+    ["completion interval 95th",   16996,   17012,   -16,                 42.0,              true]
+   ],
+   problems: [
+
+   ]
+  },
+  {
+   kind: shim,
+   host: box,
+   target: "1kb1",
+   kernel: "P0",
+   runs: [
+    "box/display/p0_probed_1kb1_1/run_1",
+    "box/display/p0_probed_1kb1_1/run_2",
+    "box/display/p0_probed_1kb1_1/run_3",
+    "box/display/p0_1kb1_1/run_1",
+    "box/display/p0_1kb1_1/run_2",
+    "box/display/p0_1kb1_1/run_3",
+    "box/display/p0_1kb1_2/run_1",
+    "box/display/p0_1kb1_2/run_2",
+    "box/display/p0_1kb1_2/run_3",
+    "box/display/p0_probed_1kb1_2/run_1",
+    "box/display/p0_probed_1kb1_2/run_2",
+    "box/display/p0_probed_1kb1_2/run_3"
+   ],
+   passing: true,
+   effects: [
+    [measure,                      probed,  plain,   effect,              noise,              within];
+    ["critical path median",       10559,   10664,   -105,                467.0,              true],
+    ["drawing median",             8655,    8808,    -153,                405.5,              true],
+    ["flip median",                1710,    1696,    14,                  39.0,               true],
+    ["acceptance interval median", 16666.1, 16666.0, 0.09999999999854481, 0.4499999999989086, true],
+    ["acceptance interval 95th",   16791.3, 16796.5, -5.200000000000728,  38.05000000000109,  true],
+    ["completion interval median", 16664,   16664,   0,                   2.5,                true],
+    ["completion interval 95th",   17103,   17087,   16,                  51.0,               true]
+   ],
+   problems: [
+
+   ]
+  },
+  {
+   kind: shim,
+   host: box,
+   target: "1kb1",
+   kernel: "P2",
+   runs: [
+    "box/display/p2_probed_1kb1_1/run_1",
+    "box/display/p2_probed_1kb1_1/run_2",
+    "box/display/p2_probed_1kb1_1/run_3",
+    "box/display/p2_1kb1_1/run_1",
+    "box/display/p2_1kb1_1/run_2",
+    "box/display/p2_1kb1_1/run_3",
+    "box/display/p2_1kb1_2/run_1",
+    "box/display/p2_1kb1_2/run_2",
+    "box/display/p2_1kb1_2/run_3",
+    "box/display/p2_probed_1kb1_2/run_1",
+    "box/display/p2_probed_1kb1_2/run_2",
+    "box/display/p2_probed_1kb1_2/run_3"
+   ],
+   passing: true,
+   effects: [
+    [measure,                      probed,  plain,   effect,             noise,              within];
+    ["critical path median",       10593,   10544,   49,                 677.0,              true],
+    ["drawing median",             8688,    8687,    1,                  610.5,              true],
+    ["flip median",                1723,    1689,    34,                 64.0,               true],
+    ["acceptance interval median", 16666.3, 16666.3, 0.0,                0.3500000000003638, true],
+    ["acceptance interval 95th",   16784.7, 16787.6, -2.899999999997817, 25.80000000000109,  true],
+    ["completion interval median", 16665,   16666,   -1,                 3.0,                true],
+    ["completion interval 95th",   17108,   17078,   30,                 66.0,               true]
+   ],
+   problems: [
+
+   ]
+  },
+  {
+   kind: timing,
+   host: box,
+   target: "1ka1",
+   kernel: "P0",
+   order: await,
+   runs: [
+    "box/walk/p0_await_on_1ka1_1/run_1",
+    "box/walk/p0_await_on_1ka1_1/run_2",
+    "box/walk/p0_await_on_1ka1_1/run_3",
+    "box/walk/p0_await_off_1ka1_1/run_1",
+    "box/walk/p0_await_off_1ka1_1/run_2",
+    "box/walk/p0_await_off_1ka1_1/run_3",
+    "box/walk/p0_await_off_1ka1_2/run_1",
+    "box/walk/p0_await_off_1ka1_2/run_2",
+    "box/walk/p0_await_off_1ka1_2/run_3",
+    "box/walk/p0_await_on_1ka1_2/run_1",
+    "box/walk/p0_await_on_1ka1_2/run_2",
+    "box/walk/p0_await_on_1ka1_2/run_3"
+   ],
+   passing: false,
+   effects: [
+    [measure,                     on,      off,     effect,                noise,                within];
+    ["presented interval median", 16.6658, 16.6784, -0.012599999999999056, 0.011200000000000543, false],
+    ["presented interval 95th",   18.0789, 19.3573, -1.2783999999999978,   0.8130999999999986,   false]
+   ]
+  },
+  {
+   kind: timing,
+   host: box,
+   target: "1ka1",
+   kernel: "P2",
+   order: prepare,
+   runs: [
+    "box/walk/p2_prepare_on_1ka1_1/run_1",
+    "box/walk/p2_prepare_on_1ka1_1/run_2",
+    "box/walk/p2_prepare_on_1ka1_1/run_3",
+    "box/walk/p2_prepare_off_1ka1_1/run_1",
+    "box/walk/p2_prepare_off_1ka1_1/run_2",
+    "box/walk/p2_prepare_off_1ka1_1/run_3",
+    "box/walk/p2_prepare_off_1ka1_2/run_1",
+    "box/walk/p2_prepare_off_1ka1_2/run_2",
+    "box/walk/p2_prepare_off_1ka1_2/run_3",
+    "box/walk/p2_prepare_on_1ka1_2/run_1",
+    "box/walk/p2_prepare_on_1ka1_2/run_2",
+    "box/walk/p2_prepare_on_1ka1_2/run_3"
+   ],
+   passing: true,
+   effects: [
+    [measure,                     on,      off,     effect,                  noise,                 within];
+    ["presented interval median", 16.6662, 16.6666, -0.00039999999999906777, 0.0008999999999996788, true],
+    ["presented interval 95th",   16.7609, 16.7654, -0.0045000000000001705,  0.014499999999999957,  true]
+   ]
+  },
+  {
+   kind: timing,
+   host: box,
+   target: "1kb1",
+   kernel: "P0",
+   order: await,
+   runs: [
+    "box/walk/p0_await_on_1kb1_1/run_1",
+    "box/walk/p0_await_on_1kb1_1/run_2",
+    "box/walk/p0_await_on_1kb1_1/run_3",
+    "box/walk/p0_await_off_1kb1_1/run_1",
+    "box/walk/p0_await_off_1kb1_1/run_2",
+    "box/walk/p0_await_off_1kb1_1/run_3",
+    "box/walk/p0_await_off_1kb1_2/run_1",
+    "box/walk/p0_await_off_1kb1_2/run_2",
+    "box/walk/p0_await_off_1kb1_2/run_3",
+    "box/walk/p0_await_on_1kb1_2/run_1",
+    "box/walk/p0_await_on_1kb1_2/run_2",
+    "box/walk/p0_await_on_1kb1_2/run_3"
+   ],
+   passing: false,
+   effects: [
+    [measure,                     on,      off,     effect,                 noise,                 within];
+    ["presented interval median", 16.6664, 16.6697, -0.0032999999999994145, 0.0029000000000003467, false],
+    ["presented interval 95th",   19.0283, 18.7508, 0.27749999999999986,    0.9334500000000006,    true]
+   ]
+  },
+  {
+   kind: timing,
+   host: box,
+   target: "1kb1",
+   kernel: "P2",
+   order: prepare,
+   runs: [
+    "box/walk/p2_prepare_on_1kb1_1/run_1",
+    "box/walk/p2_prepare_on_1kb1_1/run_2",
+    "box/walk/p2_prepare_on_1kb1_1/run_3",
+    "box/walk/p2_prepare_off_1kb1_1/run_1",
+    "box/walk/p2_prepare_off_1kb1_1/run_2",
+    "box/walk/p2_prepare_off_1kb1_1/run_3",
+    "box/walk/p2_prepare_off_1kb1_2/run_1",
+    "box/walk/p2_prepare_off_1kb1_2/run_2",
+    "box/walk/p2_prepare_off_1kb1_2/run_3",
+    "box/walk/p2_prepare_on_1kb1_2/run_1",
+    "box/walk/p2_prepare_on_1kb1_2/run_2",
+    "box/walk/p2_prepare_on_1kb1_2/run_3"
+   ],
+   passing: true,
+   effects: [
+    [measure,                     on,      off,     effect,                  noise,                 within];
+    ["presented interval median", 16.6666, 16.6668, -0.00019999999999953388, 0.0007999999999999119, true],
+    ["presented interval 95th",   16.7606, 16.7575, 0.0030999999999998806,   0.024250000000000327,  true]
+   ]
+  }
+ ],
+ host_limits: [
+  [host, target, admissible, limit,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          runs];
+  [box,  "1ka1", true,       {
+    rule: "SDL's render interval's median past the guest's presented interval's median by more than half a period on every probed run",
+    figures: [
+     [run,                                  kernel, render_median_us, presented_median_us];
+     ["box/display/p0_probed_1ka1_1/run_1", "P0",   29998,            16666.4],
+     ["box/display/p0_probed_1ka1_1/run_2", "P0",   29999,            16666.3],
+     ["box/display/p0_probed_1ka1_1/run_3", "P0",   29999,            16666.5],
+     ["box/display/p2_probed_1ka1_1/run_1", "P2",   29999,            16666.8],
+     ["box/display/p2_probed_1ka1_1/run_2", "P2",   29999,            16666.8],
+     ["box/display/p2_probed_1ka1_1/run_3", "P2",   29999,            16667.0],
+     ["box/display/p2_probed_1ka1_2/run_1", "P2",   29999,            16666.6],
+     ["box/display/p2_probed_1ka1_2/run_2", "P2",   29999,            16666.5],
+     ["box/display/p2_probed_1ka1_2/run_3", "P2",   29999,            16666.9],
+     ["box/display/p0_probed_1ka1_2/run_1", "P0",   29999,            16666.4],
+     ["box/display/p0_probed_1ka1_2/run_2", "P0",   29999,            16666.7],
+     ["box/display/p0_probed_1ka1_2/run_3", "P0",   29998,            16666.5]
+    ]
+   }, [
+    "box/display/p0_probed_1ka1_1/run_1",
+    "box/display/p0_probed_1ka1_1/run_2",
+    "box/display/p0_probed_1ka1_1/run_3",
+    "box/display/p2_probed_1ka1_1/run_1",
+    "box/display/p2_probed_1ka1_1/run_2",
+    "box/display/p2_probed_1ka1_1/run_3",
+    "box/display/p2_probed_1ka1_2/run_1",
+    "box/display/p2_probed_1ka1_2/run_2",
+    "box/display/p2_probed_1ka1_2/run_3",
+    "box/display/p0_probed_1ka1_2/run_1",
+    "box/display/p0_probed_1ka1_2/run_2",
+    "box/display/p0_probed_1ka1_2/run_3"
+   ]],
+  [box,  "1kb1", true,       {
+    rule: "SDL's render interval's median past the guest's presented interval's median by more than half a period on every probed run",
+    figures: [
+     [run,                                  kernel, render_median_us, presented_median_us];
+     ["box/display/p0_probed_1kb1_1/run_1", "P0",   29999,            16666.1],
+     ["box/display/p0_probed_1kb1_1/run_2", "P0",   30000,            16666.3],
+     ["box/display/p0_probed_1kb1_1/run_3", "P0",   29999,            16665.9],
+     ["box/display/p2_probed_1kb1_1/run_1", "P2",   29999,            16666.1],
+     ["box/display/p2_probed_1kb1_1/run_2", "P2",   30000,            16666.6],
+     ["box/display/p2_probed_1kb1_1/run_3", "P2",   30000,            16666.4],
+     ["box/display/p2_probed_1kb1_2/run_1", "P2",   29999,            16666.5],
+     ["box/display/p2_probed_1kb1_2/run_2", "P2",   30000,            16666.1],
+     ["box/display/p2_probed_1kb1_2/run_3", "P2",   29999,            16666.3],
+     ["box/display/p0_probed_1kb1_2/run_1", "P0",   29999,            16665.4],
+     ["box/display/p0_probed_1kb1_2/run_2", "P0",   29999,            16666.1],
+     ["box/display/p0_probed_1kb1_2/run_3", "P0",   29999,            16666.3]
+    ]
+   }, [
+    "box/display/p0_probed_1kb1_1/run_1",
+    "box/display/p0_probed_1kb1_1/run_2",
+    "box/display/p0_probed_1kb1_1/run_3",
+    "box/display/p2_probed_1kb1_1/run_1",
+    "box/display/p2_probed_1kb1_1/run_2",
+    "box/display/p2_probed_1kb1_1/run_3",
+    "box/display/p2_probed_1kb1_2/run_1",
+    "box/display/p2_probed_1kb1_2/run_2",
+    "box/display/p2_probed_1kb1_2/run_3",
+    "box/display/p0_probed_1kb1_2/run_1",
+    "box/display/p0_probed_1kb1_2/run_2",
+    "box/display/p0_probed_1kb1_2/run_3"
+   ]]
+ ],
+ spec: "/home/box/tmp/ai/two/kOKXYczn1YH/e9/spec.nuon",
+ assembler: {
+  repos: [
+   [repo,                                  commit,                                     dirty];
+   [/home/box/proj/sourcetrait/jab-stress, "1a86c613936a17f4726c1215a361efe1f97e82fe", false],
+   [/home/box/proj/sourcetrait/jab,        "bff4e028ca12e3b58e2771dab9e82f66fadf3f31", false]
+  ],
+  runtime: [
+   [role, version,   "sha256"];
+   [nu,   "0.115.1", "c343a927a2d4a45ebf9300d013b226bcdc2598ecb0178a8a79722ebffe71e56e"]
+  ],
+  executables: [
+
+  ]
+ }
+}
