@@ -1,0 +1,38 @@
+{
+ migration: renderanchorline,
+ stamp: "20261022T231046",
+ complete: true,
+ run: "runs/fps/proberuns/20261017T192135-render",
+ revision: "kept.why",
+ sources: [
+  [repository,      commit,                                     paths];
+  [jab-stress-data, "31ca3107d353c887b0989752390c5435967d5427", [
+    "runs/fps/proberuns/20261017T192135-render/run.nuon"
+   ]]
+ ],
+ phases: [
+  [phase,   done];
+  [Revised, true],
+  [Held,    true]
+ ],
+ checks: [
+  [phase,   check,                                                                  ok];
+  [Revised, "every field of run.nuon but kept.why equal to the committed record's", true],
+  [Held,    "the revised run held to its record by runner record stored",           true]
+ ],
+ source_files: [
+  [repository,      path,                                                 "sha256",                                                           bytes, fate];
+  [jab-stress-data, "runs/fps/proberuns/20261017T192135-render/run.nuon", "c9c72440bd8c0ff9604251ca55e86fde00fb78081457d3cd1a2086c7cf97f9aa", 1167,  {
+    kind: revised,
+    as: "run.nuon",
+    to: "run.nuon"
+   }]
+ ],
+ destination_files: [
+  [repository,      path,                                                 "sha256",                                                           bytes, origin];
+  [jab-stress-data, "runs/fps/proberuns/20261017T192135-render/run.nuon", "04d3a1f41c6f12634b2e9a9a965cad108e4b6dbfd8ae81adb3bfbea801935ace", 1187,  {
+    kind: record,
+    phase: Revised
+   }]
+ ]
+}

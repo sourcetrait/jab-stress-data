@@ -17,7 +17,7 @@
  ],
  kept: {
   as: checkpoint,
-  why: "A probed gauge run of the qual_1kb1 bench, step probed_2, run 3, at jab e21c5ae's release on 1KB1, sdl,gl=on offscreen under the shim, its directory's regular files byte for byte, its four pipes left behind: its bundle refused, the sdl probe calling one render's make_current an unmodelled front end's because its window-size call came 3.049 ms after it (sdl.log line 3934) where the probe's render rule allows 2 ms; all 1,908 renders at 0+37acf5 (sdl2_gl_render_surface) called from 0+37c03e (sdl2_gl_refresh), their gaps 0.013 ms at the median. Cited as evidence by CaptureBundle's fix plan RenderAnchor."
+  why: "A probed gauge run of the qual_1kb1 bench, step probed_2, run 3, at jab e21c5ae's release on 1KB1, sdl,gl=on offscreen under the shim, its directory's regular files byte for byte, its four pipes left behind: its bundle refused, the sdl probe calling one render's make_current an unmodelled front end's because its window-size call came 3.049 ms after it (sdl.log line 3935, the size call 3936) where the probe's render rule allows 2 ms; all 1,908 renders at 0+37acf5 (sdl2_gl_render_surface) called from 0+37c03e (sdl2_gl_refresh), their gaps 0.013 ms at the median. Cited as evidence by CaptureBundle's fix plan RenderAnchor."
  },
  inventory: "c774f6362fed0f636b577e5b0dab28911a2ac14b5c58b2aafc65ed3a9467577a",
  storage: "a8041f1c2a26f136f226a913d30975a5ff69a2dd5b75d95ee8f255a89827b65e"
