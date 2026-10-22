@@ -1,0 +1,7 @@
+{
+  commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+  symbols: [
+    FLIP_BATCH
+  ],
+  exported_from: "git archive of kernel/src, kernel/kernel.jab.toml, and sdk/src at d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4, the manifest's workspace the checkout's for the toolchain and the target, its do dropped"
+}

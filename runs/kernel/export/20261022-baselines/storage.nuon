@@ -1,0 +1,311 @@
+[
+ [object,                                                    kind,      length, "sha256",                                                           holds];
+ [framecap/build/kernel/flags,                               raw,       3679,   "13cb22af6a30ed4181a57be5fe482da3b67b32a9c4b3c5a501715858bc1b01a9", [
+   framecap/build/kernel/flags
+  ]],
+ [framecap/build/test/framecap/flags,                        raw,       915,    "14d508d92fe31b5077925bcf6d6d911197ec56f66024cc6225f6d17d8d031f65", [
+   framecap/build/test/framecap/flags
+  ]],
+ ["framecap/run.stderr.nuonl",                               container, 233,    "93eb2b6e8852958843ff0e6a1f8217ec5eb766014bb0ab1eb0b4adea6c059c30", [
+   "framecap/run.stderr"
+  ]],
+ ["framecap/run.stdout.nuonl",                               container, 1684,   "55ab5dab26b7dc724bb1ea9791890c28b4123dc6870bb95afa19f56857d08bd5", [
+   "framecap/run.stdout"
+  ]],
+ ["framecap/step.nuon",                                      raw,       2996,   "c9ccfe2020b22db3f15794ed9d850de99416edb74698470f8ce77444f6027bed", [
+   "framecap/step.nuon"
+  ]],
+ [framecap_flip_batch/build/kernel/flags,                    raw,       3701,   "76533566f410d78d3bd16b94fc5ed72b74f904bb40c6e0c2ae7799ee00cf2ebf", [
+   framecap_flip_batch/build/kernel/flags
+  ]],
+ [framecap_flip_batch/build/test/framecap/flags,             raw,       937,    "13b32a1a6ebbd752b232ae3f2379acfffeb6e84f399df619ba4f3b016870d07a", [
+   framecap_flip_batch/build/test/framecap/flags
+  ]],
+ ["framecap_flip_batch/run.stderr.nuonl",                    container, 233,    "eaa4dd19e97fb600d1f59da3aaee7ac5f5396928008f09f1ad69fa6407ba8547", [
+   "framecap_flip_batch/run.stderr"
+  ]],
+ ["framecap_flip_batch/run.stdout.nuonl",                    container, 1700,   "654b25825296d038ca5c1b52a7bf478601b6791d05522fa9b1524ed0e39c68b0", [
+   "framecap_flip_batch/run.stdout"
+  ]],
+ ["framecap_flip_batch/step.nuon",                           raw,       3174,   "29486d8308ab7560cb1d8577813069601da3836d5fb7d33c94bd081ef3612a47", [
+   "framecap_flip_batch/step.nuon"
+  ]],
+ [kernel_release/build/kernel/flags,                         raw,       3662,   "47dce9d2899fbf6c0a063ba49e799fc48ba67882fe913c1c656216094a9cab38", [
+   kernel_release/build/kernel/flags
+  ]],
+ ["kernel_release/run.stderr.nuonl",                         container, 233,    "ea7c545502f903a8f9d338672252cd96856d9174d7b1b762859f6a9566d3ae1a", [
+   "kernel_release/run.stderr"
+  ]],
+ ["kernel_release/run.stdout.nuonl",                         container, 233,    "1b52e4aaa10e8342bf4509ae67c2e4a51856a2a6d89c619bd4c61df3e6a7c44c", [
+   "kernel_release/run.stdout"
+  ]],
+ ["kernel_release/step.nuon",                                raw,       1410,   "108363e7b49072e5a3004a90b7e543d500c72f2308b3620e85885cd7c7d1bbc8", [
+   "kernel_release/step.nuon"
+  ]],
+ [kernel_release_flip_batch/build/kernel/flags,              raw,       3684,   "f27a4c3a3edb1f74a302d72809770925d7408ff1d4466253047b32e36b646aa3", [
+   kernel_release_flip_batch/build/kernel/flags
+  ]],
+ ["kernel_release_flip_batch/run.stderr.nuonl",              container, 233,    "742a3551601a1765e3e7366e842901abca77027f35c55899e345d15ac913c20a", [
+   "kernel_release_flip_batch/run.stderr"
+  ]],
+ ["kernel_release_flip_batch/run.stdout.nuonl",              container, 233,    "3fbc1022d3c61cc132ff321edad7ee63ad88e33674db96d34d7bc592ae33472f", [
+   "kernel_release_flip_batch/run.stdout"
+  ]],
+ ["kernel_release_flip_batch/step.nuon",                     raw,       1500,   "b26d6f62b99d3852695c581e2a66d457a52ecd6053c44abcda33414e76fe0bf1", [
+   "kernel_release_flip_batch/step.nuon"
+  ]],
+ [kexport/build/kernel/flags,                                raw,       3662,   "47dce9d2899fbf6c0a063ba49e799fc48ba67882fe913c1c656216094a9cab38", [
+   kexport/build/kernel/flags
+  ]],
+ ["kexport/out_0/kernel/kernel.jab.toml",                    raw,       146,    "139128ca39fa2d725079c621b87ae98aaea29bd1615ec8391f769c2838f8b818", [
+   "kexport/out_0/kernel/kernel.jab.toml"
+  ]],
+ ["kexport/out_0/kernel/release/flags",                      raw,       7107,   "150cc760293ea84bfae6e6407f9828cc021097373fabc989b06b36f0bde54822", [
+   "kexport/out_0/kernel/release/flags"
+  ]],
+ ["kexport/out_0/kernel/release/provenance.nuon",            raw,       1796,   "541ab4e2a48c38e04cea9ac3c9eb5f449892ad85462232bf7a95047ade178469", [
+   "kexport/out_0/kernel/release/provenance.nuon"
+  ]],
+ ["kexport/out_0/kernel/source.nuon",                        raw,       292,    "dcaad360c4d1ab2051c78b07af7e8109b6049a01440bab8ba2eb4d769cf6be18", [
+   "kexport/out_0/kernel/source.nuon"
+  ]],
+ ["kexport/run.stderr.nuonl",                                container, 233,    "330d2431a427b9c2c801f9fafb3f77017d25f8641989214d7ddac304aeee67ba", [
+   "kexport/run.stderr"
+  ]],
+ ["kexport/run.stdout.nuonl",                                container, 780,    "9e20fe3fa6422124c3612b4b6a332ae24e6eca679b4256787e81a0b252b28fc9", [
+   "kexport/run.stdout"
+  ]],
+ ["kexport/step.nuon",                                       raw,       1742,   "2dbd99a0e32099a6942e95ec210f6e82d25a6eb6385603dbe86d88729b818a40", [
+   "kexport/step.nuon"
+  ]],
+ [kexport_flip_batch/build/kernel/flags,                     raw,       3684,   "f27a4c3a3edb1f74a302d72809770925d7408ff1d4466253047b32e36b646aa3", [
+   kexport_flip_batch/build/kernel/flags
+  ]],
+ ["kexport_flip_batch/out_0/kernel/kernel.jab.toml",         raw,       146,    "139128ca39fa2d725079c621b87ae98aaea29bd1615ec8391f769c2838f8b818", [
+   "kexport_flip_batch/out_0/kernel/kernel.jab.toml"
+  ]],
+ ["kexport_flip_batch/out_0/kernel/release/flags",           raw,       7844,   "8868c21197ce2b305d1f67501fa8d89a5c357bc208aa5d60c123fec2372d45e0", [
+   "kexport_flip_batch/out_0/kernel/release/flags"
+  ]],
+ ["kexport_flip_batch/out_0/kernel/release/provenance.nuon", raw,       1832,   "eb507d7dbc9e7ec42e416b85beb5db2b57643a166d22ecb472601ad12f2c32d8", [
+   "kexport_flip_batch/out_0/kernel/release/provenance.nuon"
+  ]],
+ ["kexport_flip_batch/out_0/kernel/source.nuon",             raw,       306,    "1fbb67a612ea1d5bc799029283811591e468fda38465709d3aa659e1055fa2e0", [
+   "kexport_flip_batch/out_0/kernel/source.nuon"
+  ]],
+ ["kexport_flip_batch/run.stderr.nuonl",                     container, 233,    "8eb05a0b9803cfc826ff147bb706eb2350c643749b66c85b8c40bb68e3e81fe4", [
+   "kexport_flip_batch/run.stderr"
+  ]],
+ ["kexport_flip_batch/run.stdout.nuonl",                     container, 802,    "e90bc02732c6752b3d6f11891ae0f4dbea1aa57b56e8ca12767ef956a2d1a40e", [
+   "kexport_flip_batch/run.stdout"
+  ]],
+ ["kexport_flip_batch/step.nuon",                            raw,       1835,   "9ffb2eb0fc36bc6feed7d6fa9f16fb2a7dfbb2ab8ada32e72aca94f736fa8169", [
+   "kexport_flip_batch/step.nuon"
+  ]],
+ ["archive.tar.xz",                                          archive,   237916, "5f4ce42ee358252914f8c5ea6fb4cf04c2e61bcade7ed8025bc09aa449d4ffe8", [
+   "framecap/build/kernel/jab.bin",
+   "framecap/build/kernel/jab.elf",
+   "framecap/build/test/framecap/framecap.elf",
+   "framecap/build/test/framecap/framecap.jab",
+   "framecap_flip_batch/build/kernel/jab.bin",
+   "framecap_flip_batch/build/kernel/jab.elf",
+   "framecap_flip_batch/build/test/framecap/framecap.elf",
+   "framecap_flip_batch/build/test/framecap/framecap.jab",
+   "kernel_release/build/kernel/jab.bin",
+   "kernel_release/build/kernel/jab.elf",
+   "kernel_release_flip_batch/build/kernel/jab.bin",
+   "kernel_release_flip_batch/build/kernel/jab.elf",
+   "kexport/build/kernel/jab.bin",
+   "kexport/build/kernel/jab.elf",
+   "kexport/out_0/export.tar",
+   "kexport/out_0/kernel/release/aia.o",
+   "kexport/out_0/kernel/release/block.o",
+   "kexport/out_0/kernel/release/boot.o",
+   "kexport/out_0/kernel/release/deflate.o",
+   "kexport/out_0/kernel/release/display.o",
+   "kexport/out_0/kernel/release/dtb.o",
+   "kexport/out_0/kernel/release/font.o",
+   "kexport/out_0/kernel/release/gz.o",
+   "kexport/out_0/kernel/release/harts.o",
+   "kexport/out_0/kernel/release/jab.bin",
+   "kexport/out_0/kernel/release/jab.elf",
+   "kexport/out_0/kernel/release/kernel.o",
+   "kexport/out_0/kernel/release/keyboard.o",
+   "kexport/out_0/kernel/release/march/march.S",
+   "kexport/out_0/kernel/release/march/march.o",
+   "kexport/out_0/kernel/release/owners.o",
+   "kexport/out_0/kernel/release/pad.o",
+   "kexport/out_0/kernel/release/page.o",
+   "kexport/out_0/kernel/release/pci.o",
+   "kexport/out_0/kernel/release/png.o",
+   "kexport/out_0/kernel/release/ram.o",
+   "kexport/out_0/kernel/release/random.o",
+   "kexport/out_0/kernel/release/romfs.o",
+   "kexport/out_0/kernel/release/serial.o",
+   "kexport/out_0/kernel/release/sha3.o",
+   "kexport/out_0/kernel/release/smf.o",
+   "kexport/out_0/kernel/release/sound.o",
+   "kexport/out_0/kernel/release/soundfont.o",
+   "kexport/out_0/kernel/release/sprite.o",
+   "kexport/out_0/kernel/release/start.o",
+   "kexport/out_0/kernel/release/synth.o",
+   "kexport/out_0/kernel/release/tar.o",
+   "kexport/out_0/kernel/release/timer.o",
+   "kexport/out_0/kernel/release/trap.o",
+   "kexport/out_0/kernel/release/uart.o",
+   "kexport/out_0/kernel/release/virtio.o",
+   "kexport/out_0/kernel/release/virtio_pci.o",
+   "kexport/out_0/kernel/release/workers.o",
+   "kexport/out_0/kernel/release/xxh3.o",
+   "kexport/out_0/kernel/src/aia.S",
+   "kexport/out_0/kernel/src/block.S",
+   "kexport/out_0/kernel/src/boot.S",
+   "kexport/out_0/kernel/src/deflate.S",
+   "kexport/out_0/kernel/src/display.S",
+   "kexport/out_0/kernel/src/dtb.S",
+   "kexport/out_0/kernel/src/font.S",
+   "kexport/out_0/kernel/src/gz.S",
+   "kexport/out_0/kernel/src/harts.S",
+   "kexport/out_0/kernel/src/include/aia.inc",
+   "kexport/out_0/kernel/src/include/cents.inc",
+   "kexport/out_0/kernel/src/include/dtb.inc",
+   "kexport/out_0/kernel/src/include/hart.inc",
+   "kexport/out_0/kernel/src/include/pci.inc",
+   "kexport/out_0/kernel/src/include/qemu_virt.inc",
+   "kexport/out_0/kernel/src/include/riscv.inc",
+   "kexport/out_0/kernel/src/include/sine.inc",
+   "kexport/out_0/kernel/src/include/synth.inc",
+   "kexport/out_0/kernel/src/include/virtio.inc",
+   "kexport/out_0/kernel/src/kernel.S",
+   "kexport/out_0/kernel/src/keyboard.S",
+   "kexport/out_0/kernel/src/link.ld",
+   "kexport/out_0/kernel/src/owners.S",
+   "kexport/out_0/kernel/src/pad.S",
+   "kexport/out_0/kernel/src/page.S",
+   "kexport/out_0/kernel/src/pci.S",
+   "kexport/out_0/kernel/src/png.S",
+   "kexport/out_0/kernel/src/ram.S",
+   "kexport/out_0/kernel/src/random.S",
+   "kexport/out_0/kernel/src/romfs.S",
+   "kexport/out_0/kernel/src/serial.S",
+   "kexport/out_0/kernel/src/sha3.S",
+   "kexport/out_0/kernel/src/smf.S",
+   "kexport/out_0/kernel/src/sound.S",
+   "kexport/out_0/kernel/src/soundfont.S",
+   "kexport/out_0/kernel/src/sprite.S",
+   "kexport/out_0/kernel/src/start.S",
+   "kexport/out_0/kernel/src/synth.S",
+   "kexport/out_0/kernel/src/tar.S",
+   "kexport/out_0/kernel/src/timer.S",
+   "kexport/out_0/kernel/src/trap.S",
+   "kexport/out_0/kernel/src/uart.S",
+   "kexport/out_0/kernel/src/virtio.S",
+   "kexport/out_0/kernel/src/virtio_pci.S",
+   "kexport/out_0/kernel/src/workers.S",
+   "kexport/out_0/kernel/src/xxh3.S",
+   "kexport/out_0/sdk/src/jab.inc",
+   "kexport/out_0/sdk/src/jab_f32.inc",
+   "kexport/out_0/sdk/src/jab_f64.inc",
+   "kexport/out_0/sdk/src/jab_jobs.inc",
+   "kexport/out_0/sdk/src/jab_keys.inc",
+   "kexport/out_0/sdk/src/jab_pad.inc",
+   "kexport/out_0/sdk/src/jab_rng.inc",
+   "kexport/out_0/sdk/src/program.ld",
+   "kexport_flip_batch/build/kernel/jab.bin",
+   "kexport_flip_batch/build/kernel/jab.elf",
+   "kexport_flip_batch/out_0/export.tar",
+   "kexport_flip_batch/out_0/kernel/release/aia.o",
+   "kexport_flip_batch/out_0/kernel/release/block.o",
+   "kexport_flip_batch/out_0/kernel/release/boot.o",
+   "kexport_flip_batch/out_0/kernel/release/deflate.o",
+   "kexport_flip_batch/out_0/kernel/release/display.o",
+   "kexport_flip_batch/out_0/kernel/release/dtb.o",
+   "kexport_flip_batch/out_0/kernel/release/font.o",
+   "kexport_flip_batch/out_0/kernel/release/gz.o",
+   "kexport_flip_batch/out_0/kernel/release/harts.o",
+   "kexport_flip_batch/out_0/kernel/release/jab.bin",
+   "kexport_flip_batch/out_0/kernel/release/jab.elf",
+   "kexport_flip_batch/out_0/kernel/release/kernel.o",
+   "kexport_flip_batch/out_0/kernel/release/keyboard.o",
+   "kexport_flip_batch/out_0/kernel/release/march/march.S",
+   "kexport_flip_batch/out_0/kernel/release/march/march.o",
+   "kexport_flip_batch/out_0/kernel/release/owners.o",
+   "kexport_flip_batch/out_0/kernel/release/pad.o",
+   "kexport_flip_batch/out_0/kernel/release/page.o",
+   "kexport_flip_batch/out_0/kernel/release/pci.o",
+   "kexport_flip_batch/out_0/kernel/release/png.o",
+   "kexport_flip_batch/out_0/kernel/release/ram.o",
+   "kexport_flip_batch/out_0/kernel/release/random.o",
+   "kexport_flip_batch/out_0/kernel/release/romfs.o",
+   "kexport_flip_batch/out_0/kernel/release/serial.o",
+   "kexport_flip_batch/out_0/kernel/release/sha3.o",
+   "kexport_flip_batch/out_0/kernel/release/smf.o",
+   "kexport_flip_batch/out_0/kernel/release/sound.o",
+   "kexport_flip_batch/out_0/kernel/release/soundfont.o",
+   "kexport_flip_batch/out_0/kernel/release/sprite.o",
+   "kexport_flip_batch/out_0/kernel/release/start.o",
+   "kexport_flip_batch/out_0/kernel/release/synth.o",
+   "kexport_flip_batch/out_0/kernel/release/tar.o",
+   "kexport_flip_batch/out_0/kernel/release/timer.o",
+   "kexport_flip_batch/out_0/kernel/release/trap.o",
+   "kexport_flip_batch/out_0/kernel/release/uart.o",
+   "kexport_flip_batch/out_0/kernel/release/virtio.o",
+   "kexport_flip_batch/out_0/kernel/release/virtio_pci.o",
+   "kexport_flip_batch/out_0/kernel/release/workers.o",
+   "kexport_flip_batch/out_0/kernel/release/xxh3.o",
+   "kexport_flip_batch/out_0/kernel/src/aia.S",
+   "kexport_flip_batch/out_0/kernel/src/block.S",
+   "kexport_flip_batch/out_0/kernel/src/boot.S",
+   "kexport_flip_batch/out_0/kernel/src/deflate.S",
+   "kexport_flip_batch/out_0/kernel/src/display.S",
+   "kexport_flip_batch/out_0/kernel/src/dtb.S",
+   "kexport_flip_batch/out_0/kernel/src/font.S",
+   "kexport_flip_batch/out_0/kernel/src/gz.S",
+   "kexport_flip_batch/out_0/kernel/src/harts.S",
+   "kexport_flip_batch/out_0/kernel/src/include/aia.inc",
+   "kexport_flip_batch/out_0/kernel/src/include/cents.inc",
+   "kexport_flip_batch/out_0/kernel/src/include/dtb.inc",
+   "kexport_flip_batch/out_0/kernel/src/include/hart.inc",
+   "kexport_flip_batch/out_0/kernel/src/include/pci.inc",
+   "kexport_flip_batch/out_0/kernel/src/include/qemu_virt.inc",
+   "kexport_flip_batch/out_0/kernel/src/include/riscv.inc",
+   "kexport_flip_batch/out_0/kernel/src/include/sine.inc",
+   "kexport_flip_batch/out_0/kernel/src/include/synth.inc",
+   "kexport_flip_batch/out_0/kernel/src/include/virtio.inc",
+   "kexport_flip_batch/out_0/kernel/src/kernel.S",
+   "kexport_flip_batch/out_0/kernel/src/keyboard.S",
+   "kexport_flip_batch/out_0/kernel/src/link.ld",
+   "kexport_flip_batch/out_0/kernel/src/owners.S",
+   "kexport_flip_batch/out_0/kernel/src/pad.S",
+   "kexport_flip_batch/out_0/kernel/src/page.S",
+   "kexport_flip_batch/out_0/kernel/src/pci.S",
+   "kexport_flip_batch/out_0/kernel/src/png.S",
+   "kexport_flip_batch/out_0/kernel/src/ram.S",
+   "kexport_flip_batch/out_0/kernel/src/random.S",
+   "kexport_flip_batch/out_0/kernel/src/romfs.S",
+   "kexport_flip_batch/out_0/kernel/src/serial.S",
+   "kexport_flip_batch/out_0/kernel/src/sha3.S",
+   "kexport_flip_batch/out_0/kernel/src/smf.S",
+   "kexport_flip_batch/out_0/kernel/src/sound.S",
+   "kexport_flip_batch/out_0/kernel/src/soundfont.S",
+   "kexport_flip_batch/out_0/kernel/src/sprite.S",
+   "kexport_flip_batch/out_0/kernel/src/start.S",
+   "kexport_flip_batch/out_0/kernel/src/synth.S",
+   "kexport_flip_batch/out_0/kernel/src/tar.S",
+   "kexport_flip_batch/out_0/kernel/src/timer.S",
+   "kexport_flip_batch/out_0/kernel/src/trap.S",
+   "kexport_flip_batch/out_0/kernel/src/uart.S",
+   "kexport_flip_batch/out_0/kernel/src/virtio.S",
+   "kexport_flip_batch/out_0/kernel/src/virtio_pci.S",
+   "kexport_flip_batch/out_0/kernel/src/workers.S",
+   "kexport_flip_batch/out_0/kernel/src/xxh3.S",
+   "kexport_flip_batch/out_0/sdk/src/jab.inc",
+   "kexport_flip_batch/out_0/sdk/src/jab_f32.inc",
+   "kexport_flip_batch/out_0/sdk/src/jab_f64.inc",
+   "kexport_flip_batch/out_0/sdk/src/jab_jobs.inc",
+   "kexport_flip_batch/out_0/sdk/src/jab_keys.inc",
+   "kexport_flip_batch/out_0/sdk/src/jab_pad.inc",
+   "kexport_flip_batch/out_0/sdk/src/jab_rng.inc",
+   "kexport_flip_batch/out_0/sdk/src/program.ld"
+  ]]
+]

@@ -1,0 +1,78 @@
+{
+  name: framecap_flip_batch,
+  repo: jab,
+  bin: do,
+  words: [
+    test,
+    test/framecap,
+    --set,
+    flip_batch
+  ],
+  symbols: [
+    DEBUG,
+    FLIP_BATCH
+  ],
+  started: "2026-10-22T22:47:20.077622571+00:00",
+  ended: "2026-10-22T22:47:36.403643361+00:00",
+  seconds: 16.325930013,
+  exit: 0,
+  ok: true,
+  checkouts: {
+    jab: {
+      commit: "e5851a3c70e622f418ef2722cf4286ab2cf20178",
+      clean: true
+    },
+    stress: {
+      commit: "9eff933bdbe2d9be19ef74fa15dfab19a9388ef6",
+      clean: true
+    }
+  },
+  kernel_source: {
+    asked: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    last: "51a4956971391cfd45ef6cf6a2fa4aa3223a1b37",
+    equal: true
+  },
+  fixtures: [
+    [repo, path,                         commit,                                     blob,                                       "sha256"];
+    [jab,  "test/framecap/test/test.nu", "51a4956971391cfd45ef6cf6a2fa4aa3223a1b37", "9ea315e1a30cbc41382f4f7a04ee1f2ae8a68326", "02a5c818027ccd501e1c539c8857f5da5d9680346fcbeb2ecba7c7577f8afe71"]
+  ],
+  kernel: {
+    tree: debug,
+    out: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel",
+    elf: {
+      from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel/jab.elf",
+      kept: "build/kernel/jab.elf",
+      "sha256": "fb3b9bd07b8bad28c9ebdfd3325aa0b7cca562869b4ee9cfbbad316872e67208"
+    },
+    flags: "-I src/include -I ../sdk/src --defsym DEBUG=1 --defsym FLIP_BATCH=1 -march=rva23s64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+    defined: [
+      DEBUG,
+      FLIP_BATCH
+    ],
+    held: true,
+    loaded: {
+      kept: "build/kernel/jab.bin",
+      "sha256": "d5f6200e4f91e30a5e7633777d01acd60f6de7290749f2d2feebaed00d195083"
+    }
+  },
+  programs: [
+    [tree,  out,                                                                     elf,                                                                                                                                                                                                                                                  flags,                                                                                                                                                defined,                                     held, program,       image];
+    [debug, "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/test/framecap", {
+        from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/test/framecap/framecap.elf",
+        kept: "build/test/framecap/framecap.elf",
+        "sha256": "d04af0379ebb26c3b628e35830fd832a7f97979e08565ead736d9dd5a50d87cf"
+      }, "-I ../../sdk/src --defsym DEBUG=1 --defsym FLIP_BATCH=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-", [
+        DEBUG,
+        FLIP_BATCH
+      ], true, test/framecap, {
+        from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/test/framecap/framecap.jab",
+        kept: "build/test/framecap/framecap.jab",
+        "sha256": "d74839c4d105f2890ea3d19e21defcb3b18ecaec0bfc6104083aed936af6d2e1"
+      }]
+  ],
+  outs: [
+
+  ],
+  stdout: "run.stdout",
+  stderr: "run.stderr"
+}

@@ -1,0 +1,64 @@
+{
+  name: kernel_release_flip_batch,
+  repo: jab,
+  bin: do,
+  words: [
+    build,
+    --kernel,
+    /home/box/proj/sourcetrait/jab/kernel,
+    --set,
+    flip_batch
+  ],
+  symbols: [
+    FLIP_BATCH
+  ],
+  started: "2026-10-22T22:47:18.927191950+00:00",
+  ended: "2026-10-22T22:47:19.416202078+00:00",
+  seconds: 0.488964991,
+  exit: 0,
+  ok: true,
+  checkouts: {
+    jab: {
+      commit: "e5851a3c70e622f418ef2722cf4286ab2cf20178",
+      clean: true
+    },
+    stress: {
+      commit: "9eff933bdbe2d9be19ef74fa15dfab19a9388ef6",
+      clean: true
+    }
+  },
+  kernel_source: {
+    asked: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    last: "51a4956971391cfd45ef6cf6a2fa4aa3223a1b37",
+    equal: true
+  },
+  fixtures: [
+
+  ],
+  kernel: {
+    tree: release,
+    out: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/kernel",
+    elf: {
+      from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/kernel/jab.elf",
+      kept: "build/kernel/jab.elf",
+      "sha256": "16cf3d8e11a9998d4e33416abd33a1950b45db4b3a6ce75bf53f793c0511b64f"
+    },
+    flags: "-I src/include -I ../sdk/src --defsym FLIP_BATCH=1 -march=rva23s64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+    defined: [
+      FLIP_BATCH
+    ],
+    held: true,
+    loaded: {
+      kept: "build/kernel/jab.bin",
+      "sha256": "8721ca2ac073e3ccb19051a22d7cefb0c418c35c8fb88831da413e0d325479fb"
+    }
+  },
+  programs: [
+
+  ],
+  outs: [
+
+  ],
+  stdout: "run.stdout",
+  stderr: "run.stderr"
+}

@@ -1,0 +1,34 @@
+{
+ schema: 2,
+ set: export,
+ stamp: "20261022-baselines",
+ task: SubmitWait,
+ scope: {
+  kind: targeted,
+  ran: 6,
+  of: 6,
+  names: [
+   kernel_release,
+   kexport,
+   kernel_release_flip_batch,
+   kexport_flip_batch,
+   framecap_flip_batch,
+   framecap
+  ]
+ },
+ builds: [
+  [part,                      build,                                      source,   record];
+  [kernel_release,            "e5851a3c70e622f418ef2722cf4286ab2cf20178", checkout, "kernel_release/step.nuon"],
+  [kexport,                   "e5851a3c70e622f418ef2722cf4286ab2cf20178", checkout, "kexport/step.nuon"],
+  [kernel_release_flip_batch, "e5851a3c70e622f418ef2722cf4286ab2cf20178", checkout, "kernel_release_flip_batch/step.nuon"],
+  [kexport_flip_batch,        "e5851a3c70e622f418ef2722cf4286ab2cf20178", checkout, "kexport_flip_batch/step.nuon"],
+  [framecap_flip_batch,       "e5851a3c70e622f418ef2722cf4286ab2cf20178", checkout, "framecap_flip_batch/step.nuon"],
+  [framecap,                  "e5851a3c70e622f418ef2722cf4286ab2cf20178", checkout, "framecap/step.nuon"]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "The decision's kernel baselines, FrameCeiling's step 5, through jab-stress 9eff933's recorded runner at jab e5851a3, both checkouts clean, its kernel/ and sdk/src equal to d297a6b's, P2's landing commit, every step's record saying so. kexport_d297a6b, the release kernel without symbols, ELF c8285900 and loaded bytes efe12507; kexport_d297a6b-flip_batch, SubmitWait's candidate, ELF 16cf3d8e and loaded 8721ca2a; each the bytes, ELF and loaded alike, of the checkout's own release build of its set, built by the step before it (SubmitWait's E11). The candidate's cases at the decision's kernel source before its first capture: test/framecap under --set flip_batch, exit 0, its debug kernel's loaded bytes d5f6200e, and today's path, exit 0, 9cf89345. Each export's whole tree copied into its step, its provenance among it, the sources and builds archived, the disassembly kept as its hash. Cited by the kernel subiter's plan/agenda/FourHarts/PresentationContract/SubmitWait.md and the fps subiter's plan/agenda/FrameCeiling.md."
+ },
+ inventory: "ef0f51be187524d6502768e3190d305fca43ed1fd50a33c1b1aa685136b866cc",
+ storage: "8be287a82713545f5c31b6db8a4374ca349df777212f741e99fabaaef4b77746"
+}
