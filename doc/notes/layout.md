@@ -286,6 +286,16 @@ further original at a path the run holds must equal it. The new run is
 held to its record and restored whole before it replaces the old, and the
 receipt is written; the commit carries the run and its receipt together.
 
+A run already at schema 2 whose reason for keeping a later finding
+qualifies has its `kept.why` alone revised by the same command, its
+manifest holding `migration` and `why` alone. The originals, the
+inventory, the storage, and every other field of `run.nuon` stay as
+committed. The rewritten `run.nuon` is held to the committed record past
+its `why`, and the run to its record, before the receipt is written; a
+failure puts the committed bytes back. The receipt names the commit the
+run left and `run.nuon`'s SHA-256 and size before and after, and the
+commit carries the run and its receipt together.
+
 ## Reading a run
 
 A run is read through a restoration, never in place. From the
