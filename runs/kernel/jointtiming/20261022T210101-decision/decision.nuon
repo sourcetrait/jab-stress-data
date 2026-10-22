@@ -1,0 +1,403 @@
+{
+ strategy: reordered,
+ hosts: [
+  box
+ ],
+ validation: {
+  refused: [
+
+  ],
+  insufficient: [
+
+  ],
+  complete: [
+   "box/1ka1/calibration/p0",
+   "box/1kb1/calibration/p0",
+   "box/1ka1/guest/p0",
+   "box/1kb1/guest/p0",
+   "box/1ka1/guest/p2",
+   "box/1kb1/guest/p2",
+   "box/1ka1/display/p0_probed",
+   "box/1kb1/display/p0_probed",
+   "box/1ka1/display/p2_probed",
+   "box/1kb1/display/p2_probed",
+   "box/1ka1/display/p0",
+   "box/1kb1/display/p0",
+   "box/1ka1/display/p2",
+   "box/1kb1/display/p2",
+   "box/1ka1/walk/p0_await_on",
+   "box/1kb1/walk/p0_await_on",
+   "box/1ka1/walk/p2_await_on",
+   "box/1kb1/walk/p2_await_on",
+   "box/1ka1/walk/p2_prepare_on",
+   "box/1kb1/walk/p2_prepare_on",
+   "box/1ka1/walk/p0_await_off",
+   "box/1kb1/walk/p0_await_off",
+   "box/1ka1/walk/p2_prepare_off",
+   "box/1kb1/walk/p2_prepare_off"
+  ],
+  controls: [
+   [kind,   host, target, on,                            off,                            passing, complete];
+   [shim,   box,  "1ka1", "box/1ka1/display/p0_probed",  "box/1ka1/display/p0",          true,    true],
+   [shim,   box,  "1ka1", "box/1ka1/display/p2_probed",  "box/1ka1/display/p2",          true,    true],
+   [shim,   box,  "1kb1", "box/1kb1/display/p0_probed",  "box/1kb1/display/p0",          true,    true],
+   [shim,   box,  "1kb1", "box/1kb1/display/p2_probed",  "box/1kb1/display/p2",          true,    true],
+   [timing, box,  "1ka1", "box/1ka1/walk/p0_await_on",   "box/1ka1/walk/p0_await_off",   false,   true],
+   [timing, box,  "1ka1", "box/1ka1/walk/p2_prepare_on", "box/1ka1/walk/p2_prepare_off", true,    true],
+   [timing, box,  "1kb1", "box/1kb1/walk/p0_await_on",   "box/1kb1/walk/p0_await_off",   false,   true],
+   [timing, box,  "1kb1", "box/1kb1/walk/p2_prepare_on", "box/1kb1/walk/p2_prepare_off", true,    true]
+  ],
+  limits: [
+   [host, target, admissible, limit];
+   [box,  "1ka1", true,       {
+     rule: "SDL's render interval's median past the guest's presented interval's median by more than half a period on every probed run",
+     figures: [
+      [run,                                  kernel, render_median_us, presented_median_us];
+      ["box/display/p0_probed_1ka1_1/run_1", "P0",   29998,            16666.4],
+      ["box/display/p0_probed_1ka1_1/run_2", "P0",   29999,            16666.3],
+      ["box/display/p0_probed_1ka1_1/run_3", "P0",   29999,            16666.5],
+      ["box/display/p2_probed_1ka1_1/run_1", "P2",   29999,            16666.8],
+      ["box/display/p2_probed_1ka1_1/run_2", "P2",   29999,            16666.8],
+      ["box/display/p2_probed_1ka1_1/run_3", "P2",   29999,            16667.0],
+      ["box/display/p2_probed_1ka1_2/run_1", "P2",   29999,            16666.6],
+      ["box/display/p2_probed_1ka1_2/run_2", "P2",   29999,            16666.5],
+      ["box/display/p2_probed_1ka1_2/run_3", "P2",   29999,            16666.9],
+      ["box/display/p0_probed_1ka1_2/run_1", "P0",   29999,            16666.4],
+      ["box/display/p0_probed_1ka1_2/run_2", "P0",   29999,            16666.7],
+      ["box/display/p0_probed_1ka1_2/run_3", "P0",   29998,            16666.5]
+     ]
+    }],
+   [box,  "1kb1", true,       {
+     rule: "SDL's render interval's median past the guest's presented interval's median by more than half a period on every probed run",
+     figures: [
+      [run,                                  kernel, render_median_us, presented_median_us];
+      ["box/display/p0_probed_1kb1_1/run_1", "P0",   29999,            16666.1],
+      ["box/display/p0_probed_1kb1_1/run_2", "P0",   30000,            16666.3],
+      ["box/display/p0_probed_1kb1_1/run_3", "P0",   29999,            16665.9],
+      ["box/display/p2_probed_1kb1_1/run_1", "P2",   29999,            16666.1],
+      ["box/display/p2_probed_1kb1_1/run_2", "P2",   30000,            16666.6],
+      ["box/display/p2_probed_1kb1_1/run_3", "P2",   30000,            16666.4],
+      ["box/display/p2_probed_1kb1_2/run_1", "P2",   29999,            16666.5],
+      ["box/display/p2_probed_1kb1_2/run_2", "P2",   30000,            16666.1],
+      ["box/display/p2_probed_1kb1_2/run_3", "P2",   29999,            16666.3],
+      ["box/display/p0_probed_1kb1_2/run_1", "P0",   29999,            16665.4],
+      ["box/display/p0_probed_1kb1_2/run_2", "P0",   29999,            16666.1],
+      ["box/display/p0_probed_1kb1_2/run_3", "P0",   29999,            16666.3]
+     ]
+    }]
+  ]
+ },
+ calibration: {
+  declared: {
+   state: calibrated,
+   eps: 3700,
+   qualifying: {
+    "1ka1": 19445,
+    "1kb1": 19812
+   }
+  },
+  recomputed: {
+   state: calibrated,
+   eps: 3700,
+   complete: true,
+   targets: [
+    [target, runs, qualifying, "p999", past_cap, problems,  complete];
+    ["1ka1", 6,    19445,      3655,   0,        [
+
+     ], true],
+    ["1kb1", 6,    19812,      3559,   0,        [
+
+     ], true]
+   ]
+  },
+  calibrated: true
+ },
+ eligibility: {
+  state: demonstrated,
+  checks: [
+   [check,            state,        why];
+   [function_cases,   demonstrated, ""],
+   [cadence_fixtures, demonstrated, ""]
+  ],
+  runs: [
+   [key,                            position, run,                                    state,        k, why];
+   ["box/1ka1/guest/p2",            4,        "box/guest/p2_1ka1_1/run_1",            demonstrated, 0, ""],
+   ["box/1ka1/guest/p2",            5,        "box/guest/p2_1ka1_1/run_2",            demonstrated, 0, ""],
+   ["box/1ka1/guest/p2",            6,        "box/guest/p2_1ka1_1/run_3",            demonstrated, 0, ""],
+   ["box/1ka1/guest/p2",            7,        "box/guest/p2_1ka1_2/run_1",            demonstrated, 0, ""],
+   ["box/1ka1/guest/p2",            8,        "box/guest/p2_1ka1_2/run_2",            demonstrated, 0, ""],
+   ["box/1ka1/guest/p2",            9,        "box/guest/p2_1ka1_2/run_3",            demonstrated, 0, ""],
+   ["box/1kb1/guest/p2",            4,        "box/guest/p2_1kb1_1/run_1",            demonstrated, 0, ""],
+   ["box/1kb1/guest/p2",            5,        "box/guest/p2_1kb1_1/run_2",            demonstrated, 0, ""],
+   ["box/1kb1/guest/p2",            6,        "box/guest/p2_1kb1_1/run_3",            demonstrated, 0, ""],
+   ["box/1kb1/guest/p2",            7,        "box/guest/p2_1kb1_2/run_1",            demonstrated, 0, ""],
+   ["box/1kb1/guest/p2",            8,        "box/guest/p2_1kb1_2/run_2",            demonstrated, 0, ""],
+   ["box/1kb1/guest/p2",            9,        "box/guest/p2_1kb1_2/run_3",            demonstrated, 0, ""],
+   ["box/1ka1/display/p2_probed",   4,        "box/display/p2_probed_1ka1_1/run_1",   demonstrated, 0, ""],
+   ["box/1ka1/display/p2_probed",   5,        "box/display/p2_probed_1ka1_1/run_2",   demonstrated, 0, ""],
+   ["box/1ka1/display/p2_probed",   6,        "box/display/p2_probed_1ka1_1/run_3",   demonstrated, 0, ""],
+   ["box/1ka1/display/p2_probed",   19,       "box/display/p2_probed_1ka1_2/run_1",   demonstrated, 0, ""],
+   ["box/1ka1/display/p2_probed",   20,       "box/display/p2_probed_1ka1_2/run_2",   demonstrated, 0, ""],
+   ["box/1ka1/display/p2_probed",   21,       "box/display/p2_probed_1ka1_2/run_3",   demonstrated, 0, ""],
+   ["box/1kb1/display/p2_probed",   4,        "box/display/p2_probed_1kb1_1/run_1",   demonstrated, 0, ""],
+   ["box/1kb1/display/p2_probed",   5,        "box/display/p2_probed_1kb1_1/run_2",   demonstrated, 0, ""],
+   ["box/1kb1/display/p2_probed",   6,        "box/display/p2_probed_1kb1_1/run_3",   demonstrated, 0, ""],
+   ["box/1kb1/display/p2_probed",   19,       "box/display/p2_probed_1kb1_2/run_1",   demonstrated, 0, ""],
+   ["box/1kb1/display/p2_probed",   20,       "box/display/p2_probed_1kb1_2/run_2",   demonstrated, 0, ""],
+   ["box/1kb1/display/p2_probed",   21,       "box/display/p2_probed_1kb1_2/run_3",   demonstrated, 0, ""],
+   ["box/1ka1/display/p2",          10,       "box/display/p2_1ka1_1/run_1",          demonstrated, 0, ""],
+   ["box/1ka1/display/p2",          11,       "box/display/p2_1ka1_1/run_2",          demonstrated, 0, ""],
+   ["box/1ka1/display/p2",          12,       "box/display/p2_1ka1_1/run_3",          demonstrated, 0, ""],
+   ["box/1ka1/display/p2",          13,       "box/display/p2_1ka1_2/run_1",          demonstrated, 0, ""],
+   ["box/1ka1/display/p2",          14,       "box/display/p2_1ka1_2/run_2",          demonstrated, 0, ""],
+   ["box/1ka1/display/p2",          15,       "box/display/p2_1ka1_2/run_3",          demonstrated, 0, ""],
+   ["box/1kb1/display/p2",          10,       "box/display/p2_1kb1_1/run_1",          demonstrated, 0, ""],
+   ["box/1kb1/display/p2",          11,       "box/display/p2_1kb1_1/run_2",          demonstrated, 0, ""],
+   ["box/1kb1/display/p2",          12,       "box/display/p2_1kb1_1/run_3",          demonstrated, 0, ""],
+   ["box/1kb1/display/p2",          13,       "box/display/p2_1kb1_2/run_1",          demonstrated, 0, ""],
+   ["box/1kb1/display/p2",          14,       "box/display/p2_1kb1_2/run_2",          demonstrated, 0, ""],
+   ["box/1kb1/display/p2",          15,       "box/display/p2_1kb1_2/run_3",          demonstrated, 0, ""],
+   ["box/1ka1/walk/p2_await_on",    4,        "box/walk/p2_await_on_1ka1_1/run_1",    demonstrated, 0, ""],
+   ["box/1ka1/walk/p2_await_on",    5,        "box/walk/p2_await_on_1ka1_1/run_2",    demonstrated, 0, ""],
+   ["box/1ka1/walk/p2_await_on",    6,        "box/walk/p2_await_on_1ka1_1/run_3",    demonstrated, 0, ""],
+   ["box/1ka1/walk/p2_await_on",    25,       "box/walk/p2_await_on_1ka1_2/run_1",    demonstrated, 0, ""],
+   ["box/1ka1/walk/p2_await_on",    26,       "box/walk/p2_await_on_1ka1_2/run_2",    demonstrated, 0, ""],
+   ["box/1ka1/walk/p2_await_on",    27,       "box/walk/p2_await_on_1ka1_2/run_3",    demonstrated, 0, ""],
+   ["box/1kb1/walk/p2_await_on",    4,        "box/walk/p2_await_on_1kb1_1/run_1",    demonstrated, 0, ""],
+   ["box/1kb1/walk/p2_await_on",    5,        "box/walk/p2_await_on_1kb1_1/run_2",    demonstrated, 0, ""],
+   ["box/1kb1/walk/p2_await_on",    6,        "box/walk/p2_await_on_1kb1_1/run_3",    demonstrated, 0, ""],
+   ["box/1kb1/walk/p2_await_on",    25,       "box/walk/p2_await_on_1kb1_2/run_1",    demonstrated, 0, ""],
+   ["box/1kb1/walk/p2_await_on",    26,       "box/walk/p2_await_on_1kb1_2/run_2",    demonstrated, 0, ""],
+   ["box/1kb1/walk/p2_await_on",    27,       "box/walk/p2_await_on_1kb1_2/run_3",    demonstrated, 0, ""],
+   ["box/1ka1/walk/p2_prepare_on",  7,        "box/walk/p2_prepare_on_1ka1_1/run_1",  demonstrated, 0, ""],
+   ["box/1ka1/walk/p2_prepare_on",  8,        "box/walk/p2_prepare_on_1ka1_1/run_2",  demonstrated, 0, ""],
+   ["box/1ka1/walk/p2_prepare_on",  9,        "box/walk/p2_prepare_on_1ka1_1/run_3",  demonstrated, 0, ""],
+   ["box/1ka1/walk/p2_prepare_on",  22,       "box/walk/p2_prepare_on_1ka1_2/run_1",  demonstrated, 0, ""],
+   ["box/1ka1/walk/p2_prepare_on",  23,       "box/walk/p2_prepare_on_1ka1_2/run_2",  demonstrated, 0, ""],
+   ["box/1ka1/walk/p2_prepare_on",  24,       "box/walk/p2_prepare_on_1ka1_2/run_3",  demonstrated, 0, ""],
+   ["box/1kb1/walk/p2_prepare_on",  7,        "box/walk/p2_prepare_on_1kb1_1/run_1",  demonstrated, 0, ""],
+   ["box/1kb1/walk/p2_prepare_on",  8,        "box/walk/p2_prepare_on_1kb1_1/run_2",  demonstrated, 0, ""],
+   ["box/1kb1/walk/p2_prepare_on",  9,        "box/walk/p2_prepare_on_1kb1_1/run_3",  demonstrated, 0, ""],
+   ["box/1kb1/walk/p2_prepare_on",  22,       "box/walk/p2_prepare_on_1kb1_2/run_1",  demonstrated, 0, ""],
+   ["box/1kb1/walk/p2_prepare_on",  23,       "box/walk/p2_prepare_on_1kb1_2/run_2",  demonstrated, 0, ""],
+   ["box/1kb1/walk/p2_prepare_on",  24,       "box/walk/p2_prepare_on_1kb1_2/run_3",  demonstrated, 0, ""],
+   ["box/1ka1/walk/p2_prepare_off", 13,       "box/walk/p2_prepare_off_1ka1_1/run_1", demonstrated, 0, ""],
+   ["box/1ka1/walk/p2_prepare_off", 14,       "box/walk/p2_prepare_off_1ka1_1/run_2", demonstrated, 0, ""],
+   ["box/1ka1/walk/p2_prepare_off", 15,       "box/walk/p2_prepare_off_1ka1_1/run_3", demonstrated, 0, ""],
+   ["box/1ka1/walk/p2_prepare_off", 16,       "box/walk/p2_prepare_off_1ka1_2/run_1", demonstrated, 0, ""],
+   ["box/1ka1/walk/p2_prepare_off", 17,       "box/walk/p2_prepare_off_1ka1_2/run_2", demonstrated, 0, ""],
+   ["box/1ka1/walk/p2_prepare_off", 18,       "box/walk/p2_prepare_off_1ka1_2/run_3", demonstrated, 0, ""],
+   ["box/1kb1/walk/p2_prepare_off", 13,       "box/walk/p2_prepare_off_1kb1_1/run_1", demonstrated, 0, ""],
+   ["box/1kb1/walk/p2_prepare_off", 14,       "box/walk/p2_prepare_off_1kb1_1/run_2", demonstrated, 0, ""],
+   ["box/1kb1/walk/p2_prepare_off", 15,       "box/walk/p2_prepare_off_1kb1_1/run_3", demonstrated, 0, ""],
+   ["box/1kb1/walk/p2_prepare_off", 16,       "box/walk/p2_prepare_off_1kb1_2/run_1", demonstrated, 0, ""],
+   ["box/1kb1/walk/p2_prepare_off", 17,       "box/walk/p2_prepare_off_1kb1_2/run_2", demonstrated, 0, ""],
+   ["box/1kb1/walk/p2_prepare_off", 18,       "box/walk/p2_prepare_off_1kb1_2/run_3", demonstrated, 0, ""]
+  ],
+  why: [
+
+  ]
+ },
+ regression: [
+  [base,               compared,           d,                      n,                   runs,                host, target, leg,      state,      regressing];
+  [11.641,             11.664,             0.022999999999999687,   0.07850000000000001, [
+    6,
+    6
+   ], box,  "1ka1", start,    admissible, false],
+  [11.0805,            11.1035,            0.022999999999999687,   0.1045000000000007,  [
+    6,
+    6
+   ], box,  "1ka1", fight,    admissible, false],
+  [11.5745,            11.587,             0.01249999999999929,    0.05550000000000033, [
+    6,
+    6
+   ], box,  "1ka1", spawn,    admissible, false],
+  [13.2475,            13.2665,            0.019000000000000128,   0.07500000000000018, [
+    6,
+    6
+   ], box,  "1ka1", yard,     admissible, false],
+  [12.056000000000001, 12.0525,            -0.0035000000000007248, 0.18100000000000005, [
+    6,
+    6
+   ], box,  "1ka1", up,       admissible, false],
+  [10.527000000000001, 10.331,             -0.1960000000000015,    0.4319999999999995,  [
+    6,
+    6
+   ], box,  "1ka1", down,     admissible, false],
+  [11.5395,            11.519,             -0.020500000000000185,  0.20650000000000013, [
+    6,
+    6
+   ], box,  "1ka1", ramp,     admissible, false],
+  [11.591000000000001, 11.5725,            -0.018500000000001293,  0.08400000000000052, [
+    6,
+    6
+   ], box,  "1ka1", revisit,  admissible, false],
+  [12.8625,            12.791,             -0.07150000000000034,   0.1479999999999997,  [
+    6,
+    6
+   ], box,  "1ka1", pressure, admissible, false],
+  [11.2635,            11.04,              -0.22350000000000136,   1.1639999999999997,  [
+    6,
+    6
+   ], box,  "1kb1", start,    admissible, false],
+  [10.257,             9.996500000000001,  -0.2604999999999986,    0.8029999999999999,  [
+    6,
+    6
+   ], box,  "1kb1", fight,    admissible, false],
+  [10.5305,            10.315,             -0.21550000000000047,   0.8200000000000003,  [
+    6,
+    6
+   ], box,  "1kb1", spawn,    admissible, false],
+  [10.8045,            10.461500000000001, -0.34299999999999997,   0.44900000000000073, [
+    6,
+    6
+   ], box,  "1kb1", yard,     admissible, false],
+  [10.824,             10.706,             -0.11800000000000033,   0.5600000000000005,  [
+    6,
+    6
+   ], box,  "1kb1", up,       admissible, false],
+  [10.295,             10.148,             -0.14700000000000024,   0.9595000000000002,  [
+    6,
+    6
+   ], box,  "1kb1", down,     admissible, false],
+  [9.6445,             9.536,              -0.10850000000000115,   0.5869999999999997,  [
+    6,
+    6
+   ], box,  "1kb1", ramp,     admissible, false],
+  [10.4045,            10.836,             0.4314999999999998,     0.9660000000000002,  [
+    6,
+    6
+   ], box,  "1kb1", revisit,  admissible, false],
+  [11.0005,            10.675,             -0.3254999999999999,    0.673,               [
+    6,
+    6
+   ], box,  "1kb1", pressure, admissible, false]
+ ],
+ presentation: {
+  guest: [
+   [base,               compared,           d,                      n,                   runs,                   host, target, leg,      state,      worse];
+   [16.82295,           16.829300000000003, 0.006350000000004741,   0.8124000000000002,  [
+     6,
+     6
+    ], box,  "1ka1", start,    admissible, false],
+   [17.2162,            17.175849999999997, -0.04035000000000366,   0.25874999999999915, [
+     6,
+     6
+    ], box,  "1ka1", up,       admissible, false],
+   [16.77335,           16.77185,           -0.0015000000000000568, 0.04115000000000002, [
+     6,
+     6
+    ], box,  "1ka1", yard,     admissible, false],
+   [17.356699999999996, 17.260599999999997, -0.09609999999999985,   0.5181499999999986,  [
+     6,
+     6
+    ], box,  "1ka1", pressure, admissible, false],
+   [16.8862,            16.76365,           -0.12255000000000038,   0.07294999999999874, [
+     6,
+     6
+    ], box,  "1kb1", start,    admissible, false],
+   [16.7576,            16.74425,           -0.013349999999999085,  0.0417500000000004,  [
+     6,
+     6
+    ], box,  "1kb1", up,       admissible, false],
+   [16.7461,            16.749050000000004, 0.0029500000000055593,  0.03974999999999973, [
+     6,
+     6
+    ], box,  "1kb1", yard,     admissible, false],
+   [16.7658,            16.79995,           0.03415000000000035,    0.03059999999999974, [
+     6,
+     6
+    ], box,  "1kb1", pressure, admissible, true]
+  ],
+  display: [
+   [host, target, base, compared, d,    n,    worse, state, why];
+   [box,  "1ka1", null, null,     null, null, false, out,   "a host limit on admissible runs: the decision guest-side"],
+   [box,  "1kb1", null, null,     null, null, false, out,   "a host limit on admissible runs: the decision guest-side"]
+  ]
+ },
+ walk: {
+  gate: [
+   [host, target, order,   median,                                                                                                                                                             "p95",                                                                                                                                              fails, state,      why];
+   [box,  "1ka1", prepare, {
+     base: 16.67915,
+     compared: 16.666649999999997,
+     d: -0.012500000000002842,
+     n: 0.011200000000000543,
+     runs: [
+      6,
+      6
+     ]
+    },  {
+     base: 19.42015,
+     compared: 16.76575,
+     d: -2.654399999999999,
+     n: 0.452399999999999,
+     runs: [
+      6,
+      6
+     ]
+    },  false, admissible, ""],
+   [box,  "1kb1", prepare, {
+     base: 16.6702,
+     compared: 16.667099999999998,
+     d: -0.0031000000000034333,
+     n: 0.0018999999999991246,
+     runs: [
+      6,
+      6
+     ]
+    }, {
+     base: 18.77175,
+     compared: 16.7635,
+     d: -2.0082500000000003,
+     n: 0.7283000000000008,
+     runs: [
+      6,
+      6
+     ]
+    }, false, admissible, ""]
+  ],
+  phases: [
+   [host, target, kernel, order,   d_ms,              evidence];
+   [box,  "1ka1", "P0",   await,   7.9949,            instrumented-only],
+   [box,  "1ka1", "P2",   await,   11.5992,           instrumented-only],
+   [box,  "1ka1", "P2",   prepare, 7.869949999999999, admissible],
+   [box,  "1kb1", "P0",   await,   8.001249999999999, instrumented-only],
+   [box,  "1kb1", "P2",   await,   11.4086,           instrumented-only],
+   [box,  "1kb1", "P2",   prepare, 7.86415,           admissible]
+  ]
+ },
+ noise: {
+  passed: false,
+  over: [
+   [what,                   host, target, n];
+   ["critical path, start", box,  "1kb1", 1.1639999999999997]
+  ]
+ },
+ blockers: [
+
+ ],
+ outcome: insufficient,
+ scope: null,
+ box: {
+  outcome: insufficient,
+  standing: null
+ },
+ contract: unmet,
+ "readings_sha256": "6e6ab923bdfb26169111a0081e5e4c681f2a1d44f5874ba516ee78ef1b74e5b9",
+ "matrix_sha256": "6aff45fa5528e52b94f5c22b5f84b46a3ff7c6db06c7e883a1ba481cccf37c34",
+ selector: {
+  repos: [
+   [repo,                                  commit,                                     dirty];
+   [/home/box/proj/sourcetrait/jab-stress, "a5003e3eb63961e62e29d5a1031afe3f27eea400", false],
+   [/home/box/proj/sourcetrait/jab,        "efd615920bdb3f659f745415cbaef99f92634394", false]
+  ],
+  runtime: [
+   [role, version,   "sha256"];
+   [nu,   "0.115.1", "c343a927a2d4a45ebf9300d013b226bcdc2598ecb0178a8a79722ebffe71e56e"]
+  ],
+  executables: [
+
+  ]
+ }
+}

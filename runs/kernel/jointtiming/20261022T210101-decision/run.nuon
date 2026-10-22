@@ -1,0 +1,22 @@
+{
+ schema: 2,
+ set: jointtiming,
+ stamp: "20261022T210101-decision",
+ task: TimingSelector,
+ scope: {
+  kind: whole,
+  ran: 1,
+  of: 1
+ },
+ builds: [
+  [part,               build,                                      source,   record];
+  ["selector_a5003e3", "a5003e3eb63961e62e29d5a1031afe3f27eea400", checkout, "decision.nuon"],
+  ["jab_efd6159",      "efd615920bdb3f659f745415cbaef99f92634394", checkout, "decision.nuon"]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "JointTiming's decision made again for TimingSelector's E9, the timing selector, timing.nu <readings> <out>, at jab-stress a5003e3 over jab efd6159, both clean, on the long engine from 21:01 to 21:13 over the readings record runs/kernel/jointtiming/20261022T175937-readings (SHA-256 6e6ab923) and the declared matrix: insufficient, the contract unmet, its record equal to runs/kernel/jointtiming/20261020T211529-decision's in every field but eligibility. Eligibility in E9's three states, demonstrated: P2's step cases and the cadence fixtures each bound to E1's landed record, runs/kernel/jointtiming/20261022T153407-checks, their steps framecap_p2 and fierce_cadence_p2 read from it complete with every assertion passed; and each of the 72 P2 slots the matrix declares filled, its contract available, its kernel the frozen P2 export by SHA-256, K 0. The noise gate fails as before on 1KB1's start leg's critical-path median, its N 1.164 ms. 1KA1's walk comparison stays superseded by WalkIsolation's correction: computed admissible here as before, it is contaminated by concurrent work on the box and decides nothing. The selector restored E1's run beneath checks/ to read it; those copies are kept as hashes, the run whole in its own record. Cited by the kernel subiter's plan/agenda/FourHarts/PresentationContract/JointTiming/TimingSelector.md."
+ },
+ inventory: "de28b04a2a4ab8ec0059215855acdaf499fee3f70d190f50b32030fc5ea072f9",
+ storage: "f97a15e1f770a3d83dd0241a271174706bb64190411b1f249b184ad02d0ec9d9"
+}
