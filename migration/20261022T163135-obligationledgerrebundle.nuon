@@ -1,0 +1,38 @@
+{
+ migration: ObligationLedgerRebundle,
+ stamp: "20261022T163135",
+ complete: true,
+ run: "runs/fierce/qualification/20261019T232303-1kb1",
+ revision: "kept.why",
+ sources: [
+  [repository,      commit,                                     paths];
+  [jab-stress-data, "6a18a6ab3884ae18771a989f48fdeba62b57618b", [
+    "runs/fierce/qualification/20261019T232303-1kb1/run.nuon"
+   ]]
+ ],
+ phases: [
+  [phase,   done];
+  [Revised, true],
+  [Held,    true]
+ ],
+ checks: [
+  [phase,   check,                                                                  ok];
+  [Revised, "every field of run.nuon but kept.why equal to the committed record's", true],
+  [Held,    "the revised run held to its record by runner record stored",           true]
+ ],
+ source_files: [
+  [repository,      path,                                                      "sha256",                                                           bytes, fate];
+  [jab-stress-data, "runs/fierce/qualification/20261019T232303-1kb1/run.nuon", "303594e3da9eabaaaee6cd10fd4134f571892612eaa96b0d052fe6d4e9a7ee50", 2155,  {
+    kind: revised,
+    as: "run.nuon",
+    to: "run.nuon"
+   }]
+ ],
+ destination_files: [
+  [repository,      path,                                                      "sha256",                                                           bytes, origin];
+  [jab-stress-data, "runs/fierce/qualification/20261019T232303-1kb1/run.nuon", "00af07a09893643805e70ea7e07890aa601906db8c861425e7b82769f8805b57", 2636,  {
+    kind: record,
+    phase: Revised
+   }]
+ ]
+}
