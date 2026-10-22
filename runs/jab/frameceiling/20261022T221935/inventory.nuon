@@ -1,0 +1,9 @@
+[
+ [path,                         role,   length, "sha256",                                                           disposition, reason];
+ [suite/build/kernel/flags,     record, 3679,   "13cb22af6a30ed4181a57be5fe482da3b67b32a9c4b3c5a501715858bc1b01a9", kept,        ""],
+ ["suite/build/kernel/jab.bin", build,  65604,  "9cf8934541552bb9c6f75a2d2f1e9b368c70d25bba2536fefefa1188a0d3aaa9", archived,    "a build, kept compactly so a later run is compared by its bytes"],
+ ["suite/build/kernel/jab.elf", build,  540872, "dbf39b5c9ddb8464774c6d0f648bd5f29931752da19503a8455f1c2f34c591ef", archived,    "a build, kept compactly so a later run is compared by its bytes"],
+ ["suite/run.stderr",           log,    0,      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", kept,        ""],
+ ["suite/run.stdout",           log,    26530,  "1e93eaf7e8fb976e80dd3659ef6df0522169dcea7c691d711e693f2ac4ede386", kept,        ""],
+ ["suite/step.nuon",            record, 1340,   "10185ee2b54c964e37945d9f209b29067254f5bb926f2a6f388baf66d0c84fd0", kept,        ""]
+]

@@ -1,0 +1,60 @@
+{
+  name: suite,
+  repo: jab,
+  bin: do,
+  words: [
+    test
+  ],
+  symbols: [
+    DEBUG
+  ],
+  started: "2026-10-22T22:19:35.019163389+00:00",
+  ended: "2026-10-22T22:38:10.240897412+00:00",
+  seconds: 1115.221636767,
+  exit: 1,
+  ok: false,
+  checkouts: {
+    jab: {
+      commit: "e5851a3c70e622f418ef2722cf4286ab2cf20178",
+      clean: true
+    },
+    stress: {
+      commit: "9eff933bdbe2d9be19ef74fa15dfab19a9388ef6",
+      clean: true
+    }
+  },
+  kernel_source: {
+    asked: null,
+    last: "51a4956971391cfd45ef6cf6a2fa4aa3223a1b37",
+    equal: null
+  },
+  fixtures: [
+
+  ],
+  kernel: {
+    tree: debug,
+    out: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel",
+    elf: {
+      from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel/jab.elf",
+      kept: "build/kernel/jab.elf",
+      "sha256": "dbf39b5c9ddb8464774c6d0f648bd5f29931752da19503a8455f1c2f34c591ef"
+    },
+    flags: "-I src/include -I ../sdk/src --defsym DEBUG=1 -march=rva23s64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+    defined: [
+      DEBUG
+    ],
+    held: true,
+    loaded: {
+      kept: "build/kernel/jab.bin",
+      "sha256": "9cf8934541552bb9c6f75a2d2f1e9b368c70d25bba2536fefefa1188a0d3aaa9"
+    }
+  },
+  programs: [
+
+  ],
+  outs: [
+
+  ],
+  stdout: "run.stdout",
+  stderr: "run.stderr"
+}

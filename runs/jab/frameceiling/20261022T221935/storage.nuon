@@ -1,0 +1,19 @@
+[
+ [object,                   kind,      length, "sha256",                                                           holds];
+ [suite/build/kernel/flags, raw,       3679,   "13cb22af6a30ed4181a57be5fe482da3b67b32a9c4b3c5a501715858bc1b01a9", [
+   suite/build/kernel/flags
+  ]],
+ ["suite/run.stderr.nuonl", container, 239,    "81a5aab75f0c45e8e11e72600444589e9546cb2d24eba40cb7901b1173468d52", [
+   "suite/run.stderr"
+  ]],
+ ["suite/run.stdout.nuonl", container, 53324,  "71c4da8b5974b4abdb246c899cb577dfbeccc08a6be1f1b10708a7b3b6bfe57c", [
+   "suite/run.stdout"
+  ]],
+ ["suite/step.nuon",        raw,       1340,   "10185ee2b54c964e37945d9f209b29067254f5bb926f2a6f388baf66d0c84fd0", [
+   "suite/step.nuon"
+  ]],
+ ["archive.tar.xz",         archive,   53004,  "8d8fb96dea7a99649fcb26bfb14058c1954a78da60aaadfdb0da816f749ed90f", [
+   "suite/build/kernel/jab.bin",
+   "suite/build/kernel/jab.elf"
+  ]]
+]

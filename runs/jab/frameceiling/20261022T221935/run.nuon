@@ -1,0 +1,24 @@
+{
+ schema: 2,
+ set: frameceiling,
+ stamp: "20261022T221935",
+ task: FrameCeiling,
+ scope: {
+  kind: targeted,
+  ran: 1,
+  of: 1,
+  names: [
+   suite
+  ]
+ },
+ builds: [
+  [part,  build,                                      source,   record];
+  [suite, "e5851a3c70e622f418ef2722cf4286ab2cf20178", checkout, "suite/step.nuon"]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "FrameCeiling's step 4 suite again at jab e5851a3, after the three defects the evidence run at d297a6b found were fixed: test/demand's spec typing at 10d7faa, fierce's cadence-2 triggers 410 ms apart at 310fc07, and F5's audio step through the SDK's audio live-backend at 0f33ed1 and e5851a3. Through jab-stress 9eff933's recorded runner on the long engine from 22:19:35 to 22:38:10, both checkouts clean, the step's directory and its step.nuon naming both commits, the debug kernel's symbols held to DEBUG, its loaded bytes 9cf89345, the evidence run's. The root suite through ./do test: 47 of 48 programs passed, fierce's default suite whole among them. test/spectable failed as ruled: 1KA1's RAM as SPEC.md has it, 3 GiB against asset/spec.nuon's 4, SpecRamCarry's, the closure's one exception. Logs and records kept, builds archived. Cited by the fps subiter's plan/agenda/FrameCeiling.md and the tasks that cite the suite at the batch's commit."
+ },
+ inventory: "5f916bc1d63b428a920f23d344fe7d2a4388147f7c1d342a2878e45a7825e982",
+ storage: "309ec0f754611c539f9e2c7356ca3da6327dd585fdbb20aff447a3aceaac71b6"
+}
