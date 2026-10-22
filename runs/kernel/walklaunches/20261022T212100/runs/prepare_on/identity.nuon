@@ -1,0 +1,66 @@
+{
+  written: "2026-10-22T21:21:46+0000",
+  label: prepare_on,
+  workload: {
+    program: example/walk,
+    order: prepare
+  },
+  target: "1ka1",
+  machine: {
+    harts: 3,
+    ram_gib: 4,
+    spec: {
+      name: "1ka1",
+      cores: 3,
+      ram_gib: 4,
+      display: {
+        width: 1920,
+        height: 1080
+      }
+    },
+    diagnostic: null,
+    machine: "virt,aia=aplic-imsic,aclint=on",
+    cpu: "rva23s64,pmp=true",
+    accel: "tcg,thread=multi",
+    overrides: [
+
+    ]
+  },
+  image: {
+    file: "/home/box/tmp/jab-stress/walklaunches/20261022T212100/builds/prepare_on/walk.jab",
+    "sha256": "e1ca5a56fe1192b663b0e693f2b98339695f3d5c9e3c13bbc63abe8bad5bf404"
+  },
+  kernel: {
+    file: "/home/box/tmp/jab-stress/walklaunches/20261022T212100/builds/prepare_on/jab.elf",
+    "sha256": "ba691c2c182dbf4140cedfc869a70cc8b25898191a36424874cb51209f1651af"
+  },
+  assets: {
+    file: "/home/box/tmp/jab-stress/walklaunches/20261022T212100/builds/prepare_on/walk.romfs",
+    "sha256": "0f7ba7d79b1028bbd72f9324a3a9ce022ae1d7e34c93984da694c44bf7a0dc08"
+  },
+  flags: "-I ../../sdk/src --defsym CADENCE=1 --defsym CADENCE_TEST=1 --defsym PREPARE=1 --defsym TIMING=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+  cadence: [
+    CADENCE,
+    TIMING,
+    PREPARE,
+    CADENCE_TEST
+  ],
+  replay: null,
+  mode: {
+    window: false,
+    sound: none,
+    seconds: 180
+  },
+  profile: paired,
+  capture_nonce: 2477885984315775156,
+  qemu_binary: "/home/box/proj/sourcetrait/jab/extern/qemu/bin/qemu-system-riscv64",
+  qemu_pid: 89644,
+  sdl_log: "",
+  shim: "",
+  window: none,
+  api: true,
+  sends: [
+    [at,  length, "sha256"];
+    [0.2, 16,     "513b90ba16f540a6e4740345ddd0a2117a19d9389e3e71730c217935e37a0d33"]
+  ]
+}

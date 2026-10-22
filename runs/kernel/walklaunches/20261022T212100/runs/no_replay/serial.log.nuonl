@@ -1,0 +1,3 @@
+{schema: 1, kind: log, source: guest, stream: file, captured: 2026-10-22T21:22:51.675422724+00:00}
+{seq: 0, bytes: 0x[77616C6B3A206E6F207265706C61792073747265616D2063616D652077697468696E2074686520776169740A]}
+{end: true, chunks: 1, length: 44, "sha256": "5d9abb61126a8af5c6fc3ffcdc3cb73593867455e2a64a78ef481a6ad0887539", terminated: true}

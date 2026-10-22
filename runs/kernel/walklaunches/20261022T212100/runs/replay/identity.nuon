@@ -1,0 +1,73 @@
+{
+  written: "2026-10-22T21:22:05+0000",
+  label: replay,
+  workload: {
+    program: example/walk,
+    order: await
+  },
+  target: "1ka1",
+  machine: {
+    harts: 3,
+    ram_gib: 4,
+    spec: {
+      name: "1ka1",
+      cores: 3,
+      ram_gib: 4,
+      display: {
+        width: 1920,
+        height: 1080
+      }
+    },
+    diagnostic: null,
+    machine: "virt,aia=aplic-imsic,aclint=on",
+    cpu: "rva23s64,pmp=true",
+    accel: "tcg,thread=multi",
+    overrides: [
+
+    ]
+  },
+  image: {
+    file: "/home/box/tmp/jab-stress/walklaunches/20261022T212100/builds/replay/walk.jab",
+    "sha256": "1b6f2eb25244d632bb7cb3fd78fcd698843949820138f7b8f2a024a49d902c2e"
+  },
+  kernel: {
+    file: "/home/box/tmp/jab-stress/walklaunches/20261022T212100/builds/replay/jab.elf",
+    "sha256": "40bc99bb8f64c882ce6b869120135562c2472956e20d81f5a539e38a7646a37a"
+  },
+  assets: {
+    file: "/home/box/tmp/jab-stress/walklaunches/20261022T212100/builds/replay/walk.romfs",
+    "sha256": "0f7ba7d79b1028bbd72f9324a3a9ce022ae1d7e34c93984da694c44bf7a0dc08"
+  },
+  flags: "-I ../../sdk/src --defsym CADENCE=1 --defsym CADENCE_TEST=1 --defsym REPLAY=1 --defsym TIMING=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+  cadence: [
+    CADENCE,
+    TIMING,
+    REPLAY,
+    CADENCE_TEST
+  ],
+  replay: {
+    file: "/home/box/tmp/jab-stress/walklaunches/20261022T212100/await_on.wrpl",
+    "sha256": "78e8aae68ff780655d2c00d60e105add04c2e02eeafce05ee101225eb99295a8",
+    frames: 381,
+    window_s: 9.9393381,
+    bound: 80
+  },
+  mode: {
+    window: false,
+    sound: none,
+    seconds: 80
+  },
+  profile: paired,
+  capture_nonce: 1839362670982606198,
+  qemu_binary: "/home/box/proj/sourcetrait/jab/extern/qemu/bin/qemu-system-riscv64",
+  qemu_pid: 89836,
+  sdl_log: "",
+  shim: "",
+  window: none,
+  api: true,
+  sends: [
+    [at,  length, "sha256"];
+    [0.2, 16,     "78b1aa85d6a47d4f4697b37b8910f07688d284a8de9f3a41532342346e53fc26"],
+    [0.2, 1588,   "78e8aae68ff780655d2c00d60e105add04c2e02eeafce05ee101225eb99295a8"]
+  ]
+}

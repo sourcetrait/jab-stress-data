@@ -1,0 +1,22 @@
+{
+ schema: 2,
+ set: walklaunches,
+ stamp: "20261022T212100",
+ task: RecordSemantics,
+ scope: {
+  kind: whole,
+  ran: 10,
+  of: 10
+ },
+ builds: [
+  [part,               build,                                      source,   record];
+  ["launches_d6f3f6a", "d6f3f6a650295ed684de19b9616d330727949cac", checkout, "launches.log"],
+  ["jab_d297a6b",      "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4", checkout, "launches.log"]
+ ],
+ kept: {
+  as: current,
+  why: "walk's CADENCE_TEST launches run whole for RecordSemantics' finding, at jab d297a6b, the batch's P2 landing, and jab-stress d6f3f6a, both clean, by jab-stress's nu/bin/nuance/kernel/walk/launches.nu alone on the box from 21:21 for 122 s: each loop order with TIMING on and off, await_off and await_on 382 and 381 frames with the stall's median interval 41.76 and 41.77 ms, prepare_off and prepare_on 562 frames each at 25.15 and 25.16 ms; the event room closed at frame 60 with 8 events and none omitted; the replay of await_on's stream frame for frame; the bounded waits' four exits, no_nonce and nonce_cut status 6 and no_replay and replay_cut status 5, at 10.59 to 10.64 s; every case held. launches.log is the bin's output as it printed it. The six variants' builds and the guest's API streams archived, the romfs disks kept as their hashes, the launches' pipes left out. Cited by the kernel subiter's plan/agenda/WalkExample/WalkCadence/RecordSemantics.md."
+ },
+ inventory: "98a10a1d744e1e246e34f5dbcc0f13287bf0b0a555beeedad6b4c32dd2a89538",
+ storage: "95a178d5324019cdcfa2ae614358276fbba24c6128c87e1f91b85d8d74f10941"
+}

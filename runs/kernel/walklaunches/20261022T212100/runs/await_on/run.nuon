@@ -1,0 +1,139 @@
+{
+  status: 0,
+  serial: "",
+  debug: "",
+  screen: "",
+  qemu_log: "/home/box/tmp/jab-stress/walklaunches/20261022T212100/runs/await_on/qemu.log",
+  stderr: "",
+  cpu_seconds: 4.39,
+  wall_seconds: 12.597534774,
+  sound: "",
+  qemu_binary: "/home/box/proj/sourcetrait/jab/extern/qemu/bin/qemu-system-riscv64",
+  timeout_binary: /usr/bin/timeout,
+  timeout_version: "timeout (GNU coreutils) 9.10",
+  timeout_override: "",
+  qemu: [
+    -machine,
+    "virt,aia=aplic-imsic,aclint=on",
+    -cpu,
+    "rva23s64,pmp=true",
+    -accel,
+    "tcg,thread=multi",
+    -smp,
+    "3",
+    -global,
+    "virtio-mmio.force-legacy=false",
+    -parallel,
+    none,
+    -name,
+    "jab walk,process=jab,debug-threads=on",
+    -m,
+    "4G",
+    -device,
+    "virtio-gpu-device,xres=1920,yres=1080",
+    -device,
+    virtio-keyboard-device,
+    -device,
+    virtio-tablet-device,
+    -device,
+    virtio-rng-device,
+    -device,
+    virtio-serial-device,
+    -chardev,
+    "pipe,id=jabapi,path=/home/box/tmp/jab-stress/walklaunches/20261022T212100/runs/await_on/api",
+    -device,
+    "virtserialport,chardev=jabapi,nr=2,name=jab.api",
+    -bios,
+    none,
+    -kernel,
+    "/home/box/tmp/jab-stress/walklaunches/20261022T212100/builds/await_on/jab.elf",
+    -device,
+    "loader,file=/home/box/tmp/jab-stress/walklaunches/20261022T212100/builds/await_on/walk.jab,addr=0x80a00000,force-raw=on",
+    -display,
+    none,
+    -monitor,
+    "pipe:/home/box/tmp/jab-stress/walklaunches/20261022T212100/runs/await_on/monitor",
+    -serial,
+    "file:/home/box/tmp/jab-stress/walklaunches/20261022T212100/runs/await_on/serial.log",
+    -pidfile,
+    "/home/box/tmp/jab-stress/walklaunches/20261022T212100/runs/await_on/qemu.pid",
+    -d,
+    guest_errors,
+    -D,
+    "/home/box/tmp/jab-stress/walklaunches/20261022T212100/runs/await_on/qemu.log",
+    -append,
+    "jab.spec=1ka1",
+    -drive,
+    "if=none,id=disk0,file=/home/box/tmp/jab-stress/walklaunches/20261022T212100/builds/await_on/walk.romfs,format=raw,readonly=on",
+    -device,
+    "virtio-blk-pci,disable-legacy=on,vectors=0,drive=disk0,serial=walk",
+    -drive,
+    "if=none,id=mix,file=/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/mix.romfs,format=raw,readonly=on",
+    -device,
+    "virtio-blk-pci,disable-legacy=on,vectors=0,drive=mix,serial=mix"
+  ],
+  overrides: [
+
+  ],
+  window: none,
+  audio: "",
+  machine: {
+    harts: 3,
+    ram_gib: 4,
+    spec: {
+      name: "1ka1",
+      cores: 3,
+      ram_gib: 4,
+      display: {
+        width: 1920,
+        height: 1080
+      }
+    },
+    diagnostic: null,
+    machine: "virt,aia=aplic-imsic,aclint=on",
+    cpu: "rva23s64,pmp=true",
+    accel: "tcg,thread=multi",
+    overrides: [
+
+    ]
+  },
+  threads: [
+
+  ],
+  threads_span: null,
+  thread_readings: [
+
+  ],
+  screen_started: null,
+  screen_completed: null,
+  send_seconds: [
+    0.200874471
+  ],
+  quit_seconds: null,
+  unfinished: [
+
+  ],
+  incomplete: null,
+  launch: "/home/box/tmp/jab-stress/walklaunches/20261022T212100/runs/await_on/launch.nuon",
+  declared: false,
+  diagnostic: true,
+  qemu_pid: 89416,
+  sdl_log: "",
+  shim: "",
+  capture_nonce: 4656971652083133313,
+  profile: paired,
+  capture: {
+    profile: paired,
+    capture_nonce: 4656971652083133313,
+    qemu_pid: 89416,
+    sdl_log: "",
+    shim: "",
+    window: none,
+    api: true,
+    sends: [
+      [at,  length, "sha256"];
+      [0.2, 16,     "c5f734c109d591cfece85968a54f8d81598c6afbb317e01d872811e611b756fe"]
+    ]
+  },
+  api_bytes: 30816
+}
