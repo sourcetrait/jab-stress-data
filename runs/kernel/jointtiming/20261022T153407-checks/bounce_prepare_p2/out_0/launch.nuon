@@ -1,0 +1,43 @@
+{
+  "schedule_sha256": "62815eacd5a6572237c2535915ff464294e2bddd03c282ca10ab7f880f17e479",
+  receipt: {
+    token: "6e2a6c531eb48012",
+    outcome: {
+      token: "6e2a6c531eb48012",
+      decision: go,
+      go_utc: "2026-10-22T15:36:02.262169Z"
+    },
+    header: null,
+    actions: [
+      [kind,   index, due_ns,     length, accepted, state,    first_ns,   done_ns,    whole_ns,   whole];
+      [screen, 0,     3000000000, 95,     95,       complete, 3001019961, 3001055021, 3051476683, true],
+      [quit,   0,     3000000000, 5,      5,        complete, 3051477280, 3051496800, null,       null]
+    ],
+    held: null,
+    readings: [
+
+    ],
+    relays: [
+
+    ],
+    helpers: [
+
+    ],
+    end_ns: 3073319731,
+    cpu_seconds: 0.3,
+    qemu_pid: 3857,
+    status: 0,
+    signal: null,
+    stdout: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/example/bounce/qemu.stdout",
+    stderr: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/example/bounce/qemu.stderr",
+    failure: null,
+    cancelled_ns: null,
+    startup_ns: 17489844,
+    clock: {
+      origin: go,
+      unit: ns,
+      go_utc: "2026-10-22T15:36:02.262169Z"
+    }
+  },
+  incomplete: null
+}

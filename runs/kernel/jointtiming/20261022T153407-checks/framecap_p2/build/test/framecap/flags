@@ -1,0 +1,13 @@
+-I ../../sdk/src --defsym DEBUG=1 --defsym P2=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-
+../../sdk/src/program.ld
+/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/test/framecap/jab_header.S
+/home/box/proj/sourcetrait/jab/test/framecap/../../sdk/src/jab.inc
+/home/box/proj/sourcetrait/jab/test/framecap/../../sdk/src/jab_f32.inc
+/home/box/proj/sourcetrait/jab/test/framecap/../../sdk/src/jab_f64.inc
+/home/box/proj/sourcetrait/jab/test/framecap/../../sdk/src/jab_jobs.inc
+/home/box/proj/sourcetrait/jab/test/framecap/../../sdk/src/jab_keys.inc
+/home/box/proj/sourcetrait/jab/test/framecap/../../sdk/src/jab_pad.inc
+/home/box/proj/sourcetrait/jab/test/framecap/../../sdk/src/jab_rng.inc
+/home/box/proj/sourcetrait/jab/test/framecap/../../sdk/src/program.ld
+/home/box/proj/sourcetrait/jab/test/framecap/program.jab.toml
+/home/box/proj/sourcetrait/jab/test/framecap/src/main.S

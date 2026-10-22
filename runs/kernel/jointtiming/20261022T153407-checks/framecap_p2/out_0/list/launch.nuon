@@ -1,0 +1,44 @@
+{
+  "schedule_sha256": "fb9784968be88bdea4e43944dc5fd3710bd924cad0f71c5c03461833a1384c61",
+  receipt: {
+    token: "2b75e4ea07843552",
+    outcome: {
+      token: "2b75e4ea07843552",
+      decision: go,
+      go_utc: "2026-10-22T15:34:31.073774Z"
+    },
+    header: null,
+    actions: [
+      [kind,   index, due_ns,     length, accepted, state,    first_ns,   done_ns,    whole_ns,   whole];
+      [send,   0,     500000000,  1,      1,        complete, 501753412,  501798292,  null,       null],
+      [screen, 0,     3000000000, 99,     99,       complete, 3001944363, 3001991304, 3053346278, true],
+      [quit,   0,     3000000000, 5,      5,        complete, 3053346746, 3053366651, null,       null]
+    ],
+    held: null,
+    readings: [
+
+    ],
+    relays: [
+
+    ],
+    helpers: [
+
+    ],
+    end_ns: 3076198449,
+    cpu_seconds: 0.14,
+    qemu_pid: 2575,
+    status: 0,
+    signal: null,
+    stdout: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/test/framecap/list/qemu.stdout",
+    stderr: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/test/framecap/list/qemu.stderr",
+    failure: null,
+    cancelled_ns: null,
+    startup_ns: 29536853,
+    clock: {
+      origin: go,
+      unit: ns,
+      go_utc: "2026-10-22T15:34:31.073774Z"
+    }
+  },
+  incomplete: null
+}

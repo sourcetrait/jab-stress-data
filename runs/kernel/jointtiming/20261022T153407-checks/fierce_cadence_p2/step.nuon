@@ -1,0 +1,81 @@
+{
+  name: "fierce_cadence_p2",
+  repo: stress,
+  bin: "nu/bin/nuance/fierce/stress/cadence.nu",
+  words: [
+    "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel/jab.elf",
+    "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kit/fierce/fierce.jab",
+    "/home/box/tmp/jab-stress/jointtiming/20261022T153407-checks/fierce_cadence_p2/fixtures",
+    --set,
+    "DEBUG,P2"
+  ],
+  symbols: [
+    DEBUG,
+    "P2"
+  ],
+  started: "2026-10-22T15:34:44.162061675+00:00",
+  ended: "2026-10-22T15:36:01.416334872+00:00",
+  seconds: 77.2541979,
+  exit: 0,
+  ok: true,
+  checkouts: {
+    jab: {
+      commit: "7d9d49e285b1442c8eb532194cafd8e8682af27b",
+      clean: true
+    },
+    stress: {
+      commit: "7aa2af2720562e687ef498049afe7f090f594808",
+      clean: true
+    }
+  },
+  kernel_source: {
+    asked: "73660a8931241ffd8855a92398dcb476cd0e8340",
+    last: "73660a8931241ffd8855a92398dcb476cd0e8340",
+    equal: true
+  },
+  fixtures: [
+    [repo,   path,                                     commit,                                     blob,                                       "sha256"];
+    [jab,    "kit/fierce/nu/mod/suite/clock/mod.nu",   "934db62276d254887c6bac6136e893edac239c21", "562970cd4b1c429f024566b73979fce4fdbbbd10", "616511f8e7c20eb7f596307e62766e52b0526ee535210612b87f97b1dba9c43e"],
+    [stress, "nu/mod/fierce/stress/cadence/mod.nu",    "7aa2af2720562e687ef498049afe7f090f594808", "ad3351723de77545fc5e31fad82fcbfad580be36", "addc72db087195bd7c82641f62a5d9f87b7c771c5acb1a17a01da6b69917c614"],
+    [stress, "nu/bin/nuance/fierce/stress/cadence.nu", "7aa2af2720562e687ef498049afe7f090f594808", "c156f5c64aa538e0a4dc2ca5880a8e86f9a87084", "393671e59e44edc677b107202f4d01bb20ac2a0a519542e665c4545c0a036094"]
+  ],
+  kernel: {
+    tree: debug,
+    out: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel",
+    elf: {
+      from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel/jab.elf",
+      kept: "build/kernel/jab.elf",
+      "sha256": "63c68ce8833645642fd09dd82c56bf7b7fc68e6a830f6477d52f6dd448598327"
+    },
+    flags: "-I src/include -I ../sdk/src --defsym DEBUG=1 --defsym P2=1 -march=rva23s64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+    defined: [
+      DEBUG,
+      "P2"
+    ],
+    held: true,
+    loaded: {
+      kept: "build/kernel/jab.bin",
+      "sha256": "7f602bf0e86e5f3dbfc4ffdfd339fb6b4b0ff0a615ee3f6ca55a17d5af2ace1d"
+    }
+  },
+  programs: [
+    [tree,  out,                                                                  elf,                                                                                                                                                                                                                                        flags,                                                                                                                                                                                                              defined,                               held, program,    image];
+    [debug, "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kit/fierce", {
+        from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kit/fierce/fierce.elf",
+        kept: "build/kit/fierce/fierce.elf",
+        "sha256": "5c7d744a338af584ac840a7d7b3cc70d9a3efa3bccaf5942fba986608387e7c3"
+      }, "-I ../../sdk/src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kit/fierce --defsym DEBUG=1 --defsym P2=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-", [
+        DEBUG,
+        "P2"
+      ], true, kit/fierce, {
+        from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kit/fierce/fierce.jab",
+        kept: "build/kit/fierce/fierce.jab",
+        "sha256": "899d98270cbea2d09e14dbcf04ab34b58ad1bf1c988cf10008619058c8975498"
+      }]
+  ],
+  outs: [
+
+  ],
+  stdout: "run.stdout",
+  stderr: "run.stderr"
+}

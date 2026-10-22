@@ -1,0 +1,60 @@
+{
+  "schedule_sha256": "e2232b3293d29b5561b41dd0dd4cea01ca4ee41d3369a10e3860df83b1cae96f",
+  receipt: {
+    token: "13d00059ba72267f",
+    outcome: {
+      token: "13d00059ba72267f",
+      decision: go,
+      go_utc: "2026-10-22T15:35:01.135551Z"
+    },
+    header: null,
+    actions: [
+      [kind,   index, due_ns,      length, accepted, state,    first_ns,    done_ns,     whole_ns,    whole];
+      [send,   0,     200000000,   64,     64,       complete, 201238934,   201247325,   null,        null],
+      [send,   1,     200000000,   64,     64,       complete, 201247396,   201248697,   null,        null],
+      [send,   2,     1500000000,  64,     64,       complete, 1501478877,  1501487071,  null,        null],
+      [pad,    0,     1800000000,  72,     72,       complete, 1800882270,  1800900559,  null,        null],
+      [pad,    1,     2200000000,  72,     72,       complete, 2201218862,  2201239095,  null,        null],
+      [pad,    2,     2600000000,  72,     72,       complete, 2600765958,  2600793263,  null,        null],
+      [pad,    3,     3000000000,  72,     72,       complete, 3001142260,  3001164568,  null,        null],
+      [pad,    4,     3400000000,  72,     72,       complete, 3401646739,  3401675634,  null,        null],
+      [pad,    5,     3800000000,  72,     72,       complete, 3800708035,  3800730690,  null,        null],
+      [pad,    6,     4200000000,  72,     72,       complete, 4201548217,  4201570420,  null,        null],
+      [pad,    7,     4600000000,  72,     72,       complete, 4601163283,  4601192135,  null,        null],
+      [pad,    8,     5000000000,  72,     72,       complete, 5001434949,  5001452428,  null,        null],
+      [pad,    9,     5400000000,  72,     72,       complete, 5400623063,  5400655459,  null,        null],
+      [send,   3,     5900000000,  64,     64,       complete, 5901544879,  5901572748,  null,        null],
+      [send,   4,     6300000000,  64,     64,       complete, 6301293395,  6301324431,  null,        null],
+      [send,   5,     7000000000,  64,     64,       complete, 7000981626,  7001002836,  null,        null],
+      [send,   6,     9000000000,  64,     64,       complete, 9000874984,  9000880210,  null,        null],
+      [screen, 0,     10000000000, 130,    130,      complete, 10001380651, 10001389975, 10053082028, true],
+      [quit,   0,     10000000000, 5,      5,        complete, 10053082186, 10053086227, null,        null]
+    ],
+    held: null,
+    readings: [
+
+    ],
+    relays: [
+
+    ],
+    helpers: [
+
+    ],
+    end_ns: 10064288952,
+    cpu_seconds: 6.81,
+    qemu_pid: 3211,
+    status: 0,
+    signal: null,
+    stdout: "/home/box/tmp/jab-stress/jointtiming/20261022T153407-checks/fierce_cadence_p2/fixtures/cadence/schedule_1/qemu.stdout",
+    stderr: "/home/box/tmp/jab-stress/jointtiming/20261022T153407-checks/fierce_cadence_p2/fixtures/cadence/schedule_1/qemu.stderr",
+    failure: null,
+    cancelled_ns: null,
+    startup_ns: 27620714,
+    clock: {
+      origin: go,
+      unit: ns,
+      go_utc: "2026-10-22T15:35:01.135551Z"
+    }
+  },
+  incomplete: null
+}

@@ -1,0 +1,82 @@
+{
+  name: "wasd_prepare_p2",
+  repo: jab,
+  bin: do,
+  words: [
+    test,
+    example/wasd,
+    --set,
+    "prepare,p2"
+  ],
+  symbols: [
+    DEBUG,
+    "P2",
+    PREPARE
+  ],
+  started: "2026-10-22T15:36:42.311986885+00:00",
+  ended: "2026-10-22T15:36:46.867660308+00:00",
+  seconds: 4.555578306,
+  exit: 0,
+  ok: true,
+  checkouts: {
+    jab: {
+      commit: "7d9d49e285b1442c8eb532194cafd8e8682af27b",
+      clean: true
+    },
+    stress: {
+      commit: "7aa2af2720562e687ef498049afe7f090f594808",
+      clean: true
+    }
+  },
+  kernel_source: {
+    asked: "73660a8931241ffd8855a92398dcb476cd0e8340",
+    last: "73660a8931241ffd8855a92398dcb476cd0e8340",
+    equal: true
+  },
+  fixtures: [
+    [repo, path,                        commit,                                     blob,                                       "sha256"];
+    [jab,  "example/wasd/test/test.nu", "52ea5e2c02ad6cf663fd65645a92c8f5f4f8d166", "090c068364b27682852d4a7fcfb4fc230ad4bc44", "8f3e5fc3a47c02ff820c2e9615a65b543255132675d92ff01b0de94a670a4ae5"]
+  ],
+  kernel: {
+    tree: debug,
+    out: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel",
+    elf: {
+      from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel/jab.elf",
+      kept: "build/kernel/jab.elf",
+      "sha256": "a9eb33a7a01c1b698223bdeb18fad662f287dff1326618357ed7d5dbb0bf9355"
+    },
+    flags: "-I src/include -I ../sdk/src --defsym DEBUG=1 --defsym P2=1 --defsym PREPARE=1 -march=rva23s64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+    defined: [
+      DEBUG,
+      "P2",
+      PREPARE
+    ],
+    held: true,
+    loaded: {
+      kept: "build/kernel/jab.bin",
+      "sha256": "7f602bf0e86e5f3dbfc4ffdfd339fb6b4b0ff0a615ee3f6ca55a17d5af2ace1d"
+    }
+  },
+  programs: [
+    [tree,  out,                                                                    elf,                                                                                                                                                                                                                                        flags,                                                                                                                                                           defined,                                                held, program,      image];
+    [debug, "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/example/wasd", {
+        from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/example/wasd/wasd.elf",
+        kept: "build/example/wasd/wasd.elf",
+        "sha256": "2773db67e6f94cf4705828c9b81db92bddaf7ff771a579a870ad28f0a7f36502"
+      }, "-I ../../sdk/src --defsym DEBUG=1 --defsym P2=1 --defsym PREPARE=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-", [
+        DEBUG,
+        "P2",
+        PREPARE
+      ], true, example/wasd, {
+        from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/example/wasd/wasd.jab",
+        kept: "build/example/wasd/wasd.jab",
+        "sha256": "0a24e2eb39eacf6146b1a691bd8e2c6318894f7c62b5d11958891f1ef4868465"
+      }]
+  ],
+  outs: [
+    [dir,                                                                    as,      files, bytes];
+    ["/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/example/wasd", "out_0", 18,    6339297]
+  ],
+  stdout: "run.stdout",
+  stderr: "run.stderr"
+}

@@ -1,0 +1,83 @@
+{
+  name: "pad_prepare_p2",
+  repo: jab,
+  bin: do,
+  words: [
+    test,
+    example/pad,
+    --set,
+    "prepare,p2"
+  ],
+  symbols: [
+    DEBUG,
+    "P2",
+    PREPARE
+  ],
+  started: "2026-10-22T15:36:46.934615089+00:00",
+  ended: "2026-10-22T15:36:55.803778973+00:00",
+  seconds: 8.869103788,
+  exit: 0,
+  ok: true,
+  checkouts: {
+    jab: {
+      commit: "7d9d49e285b1442c8eb532194cafd8e8682af27b",
+      clean: true
+    },
+    stress: {
+      commit: "7aa2af2720562e687ef498049afe7f090f594808",
+      clean: true
+    }
+  },
+  kernel_source: {
+    asked: "73660a8931241ffd8855a92398dcb476cd0e8340",
+    last: "73660a8931241ffd8855a92398dcb476cd0e8340",
+    equal: true
+  },
+  fixtures: [
+    [repo, path,                          commit,                                     blob,                                       "sha256"];
+    [jab,  "example/pad/test/test.nu",    "268bfde6cd3eff72568bb95a9d03c801cde6b973", "d6f7dee2178e0763faec12e4f2ca3913e4af924f", "0a55d0d0e273473cf386c45f888513c96bc44b4e04444d00f08333b0dab70462"],
+    [jab,  "example/pad/test/table.nuon", "c70467363e87a92c78b3d131b631593035b68d23", "79472bc357f5306ccd95f3644cabe5f8950de705", "0252465599c5cb133a47d42290df8b04a9b31fe5d8d96487dda01e2d612f260f"]
+  ],
+  kernel: {
+    tree: debug,
+    out: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel",
+    elf: {
+      from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel/jab.elf",
+      kept: "build/kernel/jab.elf",
+      "sha256": "a9eb33a7a01c1b698223bdeb18fad662f287dff1326618357ed7d5dbb0bf9355"
+    },
+    flags: "-I src/include -I ../sdk/src --defsym DEBUG=1 --defsym P2=1 --defsym PREPARE=1 -march=rva23s64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+    defined: [
+      DEBUG,
+      "P2",
+      PREPARE
+    ],
+    held: true,
+    loaded: {
+      kept: "build/kernel/jab.bin",
+      "sha256": "7f602bf0e86e5f3dbfc4ffdfd339fb6b4b0ff0a615ee3f6ca55a17d5af2ace1d"
+    }
+  },
+  programs: [
+    [tree,  out,                                                                   elf,                                                                                                                                                                                                                                    flags,                                                                                                                                                           defined,                                                held, program,     image];
+    [debug, "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/example/pad", {
+        from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/example/pad/pad.elf",
+        kept: "build/example/pad/pad.elf",
+        "sha256": "7914e1439e68a28a920ce309684f9225c837fa867854851b4abf1053f3b098f6"
+      }, "-I ../../sdk/src --defsym DEBUG=1 --defsym P2=1 --defsym PREPARE=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-", [
+        DEBUG,
+        "P2",
+        PREPARE
+      ], true, example/pad, {
+        from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/example/pad/pad.jab",
+        kept: "build/example/pad/pad.jab",
+        "sha256": "ce50bdf1a75f8cc0b5e1d764520c5cb7a37233c58b94e8d2eed1872dee3a6ff4"
+      }]
+  ],
+  outs: [
+    [dir,                                                                   as,      files, bytes];
+    ["/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/example/pad", "out_0", 17,    6358177]
+  ],
+  stdout: "run.stdout",
+  stderr: "run.stderr"
+}

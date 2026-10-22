@@ -1,0 +1,79 @@
+{
+  name: "framecap_p2",
+  repo: jab,
+  bin: do,
+  words: [
+    test,
+    test/framecap,
+    --set,
+    "p2"
+  ],
+  symbols: [
+    DEBUG,
+    "P2"
+  ],
+  started: "2026-10-22T15:34:24.047887530+00:00",
+  ended: "2026-10-22T15:34:41.821479499+00:00",
+  seconds: 17.773483812,
+  exit: 0,
+  ok: true,
+  checkouts: {
+    jab: {
+      commit: "7d9d49e285b1442c8eb532194cafd8e8682af27b",
+      clean: true
+    },
+    stress: {
+      commit: "7aa2af2720562e687ef498049afe7f090f594808",
+      clean: true
+    }
+  },
+  kernel_source: {
+    asked: "73660a8931241ffd8855a92398dcb476cd0e8340",
+    last: "73660a8931241ffd8855a92398dcb476cd0e8340",
+    equal: true
+  },
+  fixtures: [
+    [repo, path,                         commit,                                     blob,                                       "sha256"];
+    [jab,  "test/framecap/test/test.nu", "633e691e2e6badd702be3dc6ce42f944c6e55442", "859526817955b7dc2b61f05637f3380d57b85ea5", "10943bc7d0e82395b76f05060cdbfd5511f5ff86a2bf54f5688e438032b4f1c5"]
+  ],
+  kernel: {
+    tree: debug,
+    out: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel",
+    elf: {
+      from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel/jab.elf",
+      kept: "build/kernel/jab.elf",
+      "sha256": "63c68ce8833645642fd09dd82c56bf7b7fc68e6a830f6477d52f6dd448598327"
+    },
+    flags: "-I src/include -I ../sdk/src --defsym DEBUG=1 --defsym P2=1 -march=rva23s64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+    defined: [
+      DEBUG,
+      "P2"
+    ],
+    held: true,
+    loaded: {
+      kept: "build/kernel/jab.bin",
+      "sha256": "7f602bf0e86e5f3dbfc4ffdfd339fb6b4b0ff0a615ee3f6ca55a17d5af2ace1d"
+    }
+  },
+  programs: [
+    [tree,  out,                                                                     elf,                                                                                                                                                                                                                                                  flags,                                                                                                                                        defined,                               held, program,       image];
+    [debug, "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/test/framecap", {
+        from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/test/framecap/framecap.elf",
+        kept: "build/test/framecap/framecap.elf",
+        "sha256": "c88174a28eaedc75e6d84b93861f0b8a11a1266e1942b88ffb7a94b9efc92224"
+      }, "-I ../../sdk/src --defsym DEBUG=1 --defsym P2=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-", [
+        DEBUG,
+        "P2"
+      ], true, test/framecap, {
+        from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/test/framecap/framecap.jab",
+        kept: "build/test/framecap/framecap.jab",
+        "sha256": "d74839c4d105f2890ea3d19e21defcb3b18ecaec0bfc6104083aed936af6d2e1"
+      }]
+  ],
+  outs: [
+    [dir,                                                                     as,      files, bytes];
+    ["/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/test/framecap", "out_0", 58,    12554785]
+  ],
+  stdout: "run.stdout",
+  stderr: "run.stderr"
+}

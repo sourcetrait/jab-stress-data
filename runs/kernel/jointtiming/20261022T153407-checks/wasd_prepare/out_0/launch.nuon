@@ -1,0 +1,47 @@
+{
+  "schedule_sha256": "f54d931c5d8b39fbd08b9db968845fb495e90e421d0b8af6e64134b1cd714153",
+  receipt: {
+    token: "283edfbc5560e849",
+    outcome: {
+      token: "283edfbc5560e849",
+      decision: go,
+      go_utc: "2026-10-22T15:37:39.432688Z"
+    },
+    header: null,
+    actions: [
+      [kind,   index, due_ns,     length, accepted, state,    first_ns,   done_ns,    whole_ns,   whole];
+      [pad,    0,     500000000,  48,     48,       complete, 501566554,  501598391,  null,       null],
+      [pad,    1,     510000000,  48,     48,       complete, 511752078,  511767939,  null,       null],
+      [send,   0,     1000000000, 4,      4,        complete, 1001420718, 1001454136, null,       null],
+      [send,   1,     1800000000, 4,      4,        complete, 1800888570, 1800911014, null,       null],
+      [screen, 0,     3500000000, 93,     93,       complete, 3501795489, 3501833682, 3553476670, true],
+      [quit,   0,     3500000000, 5,      5,        complete, 3553477104, 3553495225, null,       null]
+    ],
+    held: null,
+    readings: [
+
+    ],
+    relays: [
+
+    ],
+    helpers: [
+
+    ],
+    end_ns: 3575700717,
+    cpu_seconds: 0.57,
+    qemu_pid: 5810,
+    status: 0,
+    signal: null,
+    stdout: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/example/wasd/qemu.stdout",
+    stderr: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/example/wasd/qemu.stderr",
+    failure: null,
+    cancelled_ns: null,
+    startup_ns: 27381914,
+    clock: {
+      origin: go,
+      unit: ns,
+      go_utc: "2026-10-22T15:37:39.432688Z"
+    }
+  },
+  incomplete: null
+}

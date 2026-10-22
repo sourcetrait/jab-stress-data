@@ -1,0 +1,44 @@
+{
+ schema: 2,
+ set: jointtiming,
+ stamp: "20261022T153407-checks",
+ task: JointTiming,
+ scope: {
+  kind: targeted,
+  ran: 11,
+  of: 11,
+  names: [
+   "framecap_p2",
+   "fierce_build_p2",
+   "fierce_cadence_p2",
+   "bounce_prepare_p2",
+   "walk_prepare_p2",
+   "wasd_prepare_p2",
+   "pad_prepare_p2",
+   bounce_prepare,
+   walk_prepare,
+   wasd_prepare,
+   pad_prepare
+  ]
+ },
+ builds: [
+  [part,                build,                                      source,   record];
+  ["framecap_p2",       "7d9d49e285b1442c8eb532194cafd8e8682af27b", checkout, "framecap_p2/step.nuon"],
+  ["fierce_build_p2",   "7d9d49e285b1442c8eb532194cafd8e8682af27b", checkout, "fierce_build_p2/step.nuon"],
+  ["fierce_cadence_p2", "7d9d49e285b1442c8eb532194cafd8e8682af27b", checkout, "fierce_cadence_p2/step.nuon"],
+  ["bounce_prepare_p2", "7d9d49e285b1442c8eb532194cafd8e8682af27b", checkout, "bounce_prepare_p2/step.nuon"],
+  ["walk_prepare_p2",   "7d9d49e285b1442c8eb532194cafd8e8682af27b", checkout, "walk_prepare_p2/step.nuon"],
+  ["wasd_prepare_p2",   "7d9d49e285b1442c8eb532194cafd8e8682af27b", checkout, "wasd_prepare_p2/step.nuon"],
+  ["pad_prepare_p2",    "7d9d49e285b1442c8eb532194cafd8e8682af27b", checkout, "pad_prepare_p2/step.nuon"],
+  [bounce_prepare,      "7d9d49e285b1442c8eb532194cafd8e8682af27b", checkout, "bounce_prepare/step.nuon"],
+  [walk_prepare,        "7d9d49e285b1442c8eb532194cafd8e8682af27b", checkout, "walk_prepare/step.nuon"],
+  [wasd_prepare,        "7d9d49e285b1442c8eb532194cafd8e8682af27b", checkout, "wasd_prepare/step.nuon"],
+  [pad_prepare,         "7d9d49e285b1442c8eb532194cafd8e8682af27b", checkout, "pad_prepare/step.nuon"]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "JointTiming's E1, the batch's first runs, before any kernel change: on jab 7d9d49e, whose kernel/ and sdk/src equal 73660a8's, the comparison's kernel source (git diff --quiet, each step's kernel_source equal), through jab-stress 7aa2af2's recorded runner on the long engine from 15:34 to 15:38, each step its own directory and its step.nuon naming both checkouts' commits and cleanliness, each fixture file's last commit, blob, and SHA-256, the symbols each artifact's flags line defines held to the step's, and the kernel's and programs' builds with their SHA-256, the kernel's loaded bytes beside its ELF. framecap's cases under --set p2 (P2's step held on 9 cases at eps 3,700, the deadline model's table, steady rates, catch-up shape, and generated set held, the receipts on 135 flips); fierce's debug build and its cadence fixtures under DEBUG,P2 (the schedule and the walk at cadences 0 to 2, fixtures jab 934db62's suite/clock and jab-stress 7aa2af2's cadence bin and module); LoopReorder's four tests, bounce, walk, wasd, and pad, under --set prepare on P2's kernel and on P0's. All eleven exit 0, every artifact's symbols held; the debug kernel's loaded bytes 7f602bf0 under P2 and 0012b1f9 under P0. Screens, recordings, disk copies, and the still map's compiled tree kept as their hashes; builds and the guest's API streams archived; logs and records kept. Cited by the kernel subiter's plan/agenda/FourHarts/PresentationContract/JointTiming.md, JointTiming/TimingSelector.md, and JointTiming/LoopReorder.md."
+ },
+ inventory: "21c1c5107ed2344c4f8aa683246a9f27a70bbccd4e5ccbe06da702db848e9ce6",
+ storage: "4a13ec712f237669810bb10af37005c832167455ba8b3ee6517d94b4d9e7e70f"
+}

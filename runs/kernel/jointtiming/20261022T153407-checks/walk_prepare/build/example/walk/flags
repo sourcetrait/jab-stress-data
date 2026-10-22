@@ -1,0 +1,13 @@
+-I ../../sdk/src --defsym DEBUG=1 --defsym PREPARE=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-
+../../sdk/src/program.ld
+/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/example/walk/jab_header.S
+/home/box/proj/sourcetrait/jab/example/walk/../../sdk/src/jab.inc
+/home/box/proj/sourcetrait/jab/example/walk/../../sdk/src/jab_f32.inc
+/home/box/proj/sourcetrait/jab/example/walk/../../sdk/src/jab_f64.inc
+/home/box/proj/sourcetrait/jab/example/walk/../../sdk/src/jab_jobs.inc
+/home/box/proj/sourcetrait/jab/example/walk/../../sdk/src/jab_keys.inc
+/home/box/proj/sourcetrait/jab/example/walk/../../sdk/src/jab_pad.inc
+/home/box/proj/sourcetrait/jab/example/walk/../../sdk/src/jab_rng.inc
+/home/box/proj/sourcetrait/jab/example/walk/../../sdk/src/program.ld
+/home/box/proj/sourcetrait/jab/example/walk/program.jab.toml
+/home/box/proj/sourcetrait/jab/example/walk/src/main.S

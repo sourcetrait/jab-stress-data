@@ -1,0 +1,50 @@
+{
+  "schedule_sha256": "f9be88dbd9dd5ea97e7ec7aa6571c9a1ab8bc61bdb8d19ff4a06d355fffcfac5",
+  receipt: {
+    token: "039f3d95d5e96dc9",
+    outcome: {
+      token: "039f3d95d5e96dc9",
+      decision: go,
+      go_utc: "2026-10-22T15:35:42.901711Z"
+    },
+    header: null,
+    actions: [
+      [kind,   index, due_ns,     length, accepted, state,    first_ns,   done_ns,    whole_ns,   whole];
+      [send,   0,     200000000,  64,     64,       complete, 201137308,  201149875,  null,       null],
+      [send,   1,     200000000,  64,     64,       complete, 201150045,  201152823,  null,       null],
+      [send,   2,     1500000000, 64,     64,       complete, 1500462767, 1500467192, null,       null],
+      [send,   3,     1500000000, 64,     64,       complete, 1500467333, 1500468462, null,       null],
+      [pad,    0,     2000000000, 48,     48,       complete, 2000351923, 2000360052, null,       null],
+      [pad,    1,     5000000000, 48,     48,       complete, 5001102617, 5001109325, null,       null],
+      [send,   4,     5500000000, 64,     64,       complete, 5500955687, 5500961986, null,       null],
+      [screen, 0,     6500000000, 128,    128,      complete, 6501039400, 6501046147, 6552615027, true],
+      [quit,   0,     6500000000, 5,      5,        complete, 6552615299, 6552619816, null,       null]
+    ],
+    held: null,
+    readings: [
+
+    ],
+    relays: [
+
+    ],
+    helpers: [
+
+    ],
+    end_ns: 6563833409,
+    cpu_seconds: 6.72,
+    qemu_pid: 3499,
+    status: 0,
+    signal: null,
+    stdout: "/home/box/tmp/jab-stress/jointtiming/20261022T153407-checks/fierce_cadence_p2/fixtures/cadence/motion_1/qemu.stdout",
+    stderr: "/home/box/tmp/jab-stress/jointtiming/20261022T153407-checks/fierce_cadence_p2/fixtures/cadence/motion_1/qemu.stderr",
+    failure: null,
+    cancelled_ns: null,
+    startup_ns: 26881321,
+    clock: {
+      origin: go,
+      unit: ns,
+      go_utc: "2026-10-22T15:35:42.901711Z"
+    }
+  },
+  incomplete: null
+}
