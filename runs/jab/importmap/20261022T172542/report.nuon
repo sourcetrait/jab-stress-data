@@ -1,19 +1,19 @@
 {
  contract: {
   file: "/home/box/proj/sourcetrait/jab-stress-data/assets/jab/importmap/contract.nuon",
-  "sha256": "202573101b1163cdf4cfe2b60c8d87385e6fd736ab0e3499fb19c1a97e3c5e77",
+  "sha256": "e24998d64154486a3ce2f393328224b8691a1c4440f68d2c4ffa0c79fb42a8fa",
   commits: {
-   jab: "1fb01695b15715a01624a0ecdfd1642c9b4ce543",
-   stress: "674bbbc141c177c4dabdc906fc25ba73830f121f"
+   jab: "c7bf9ada67265f1bc93956a8dbb333191425a0f4",
+   stress: "545fbe3bd3cba36d0aac7fb1b2f01aad2b38a1b2"
   }
  },
  trees: {
   jab: {
-   commit: "75b516c782b2919c7cff9a66b5ddb7bcaa200fb3",
+   commit: "c7bf9ada67265f1bc93956a8dbb333191425a0f4",
    dirty: false
   },
   jab-stress: {
-   commit: "bccb8932ffd45792afd0d60762ec857e0d11a5e0",
+   commit: "545fbe3bd3cba36d0aac7fb1b2f01aad2b38a1b2",
    dirty: false
   }
  },
@@ -31,14 +31,17 @@
   WorkspaceDrivers,
   DataModels,
   StressLayout,
-  RunnerHooks
+  RunnerHooks,
+  JustRetired,
+  FrameCeiling,
+  NuLayout
  ],
  checked: {
-  sources: 362,
-  declarations: 2368,
+  sources: 339,
+  declarations: 2808,
   contract_defs: 418,
-  imports: 652,
-  consumer_calls: 269
+  imports: 824,
+  consumer_calls: 288
  },
  refusals: [
 

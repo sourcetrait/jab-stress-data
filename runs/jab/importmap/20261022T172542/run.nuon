@@ -1,0 +1,21 @@
+{
+ schema: 2,
+ set: importmap,
+ stamp: "20261022T172542",
+ task: NuLayout,
+ scope: {
+  kind: whole,
+  ran: 1,
+  of: 1
+ },
+ builds: [
+  [part, build,                                      source,   record];
+  [run,  "c7bf9ada67265f1bc93956a8dbb333191425a0f4", checkout, "report.nuon"]
+ ],
+ kept: {
+  as: current,
+  why: "The import-map checker after NuLayout's splits, FrameCeiling and NuLayout landed with every earlier group: jab c7bf9ada and jab-stress 545fbe3b, both clean, held to the contract (SHA-256 e24998d6) by jab-stress's `nu/bin/nuance/importmap.nu check`: 339 sources, 2808 declarations, 418 contract defs, 824 import edges, and 288 consumer calls, no refusal; the contract re-based for the fix pass's drift and the splits"
+ },
+ inventory: "1b973151f7ce9ca99175feedf7cd02fbea11a43331a3fced95a2092dd5431b73",
+ storage: "afd8380cfae3650b784191a0cf80acfb7deff4506a754bb3fbc14cd770dc4880"
+}
