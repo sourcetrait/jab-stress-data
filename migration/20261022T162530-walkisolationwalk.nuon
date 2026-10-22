@@ -1,0 +1,38 @@
+{
+ migration: WalkIsolationWalk,
+ stamp: "20261022T162530",
+ complete: true,
+ run: "runs/kernel/jointtiming/20261020T162610-walk",
+ revision: "kept.why",
+ sources: [
+  [repository,      commit,                                     paths];
+  [jab-stress-data, "32ed6752f53d31bfbe103243a05cb681402b8eb3", [
+    "runs/kernel/jointtiming/20261020T162610-walk/run.nuon"
+   ]]
+ ],
+ phases: [
+  [phase,   done];
+  [Revised, true],
+  [Held,    true]
+ ],
+ checks: [
+  [phase,   check,                                                                  ok];
+  [Revised, "every field of run.nuon but kept.why equal to the committed record's", true],
+  [Held,    "the revised run held to its record by runner record stored",           true]
+ ],
+ source_files: [
+  [repository,      path,                                                    "sha256",                                                           bytes, fate];
+  [jab-stress-data, "runs/kernel/jointtiming/20261020T162610-walk/run.nuon", "33244c891641f0ea74f3ec716bad2fea935925338559591ac0744c85601121b1", 12664, {
+    kind: revised,
+    as: "run.nuon",
+    to: "run.nuon"
+   }]
+ ],
+ destination_files: [
+  [repository,      path,                                                    "sha256",                                                           bytes, origin];
+  [jab-stress-data, "runs/kernel/jointtiming/20261020T162610-walk/run.nuon", "deaae269caa8f91d5356891e12475f6acf0ee40c71440b0750e9f33326a53790", 13464, {
+    kind: record,
+    phase: Revised
+   }]
+ ]
+}
