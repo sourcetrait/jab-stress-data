@@ -1,0 +1,247 @@
+{
+  status: 0,
+  fault: null,
+  cpu_seconds: 74.05,
+  wall_seconds: 58.011901249,
+  quit_seconds: 58.000549362,
+  unfinished: [
+
+  ],
+  incomplete: null,
+  launch: "/home/box/tmp/jab-stress/frameceiling/footprint/f_base_2/f_base_2/run_3/launch.nuon",
+  threads: [
+
+  ],
+  threads_span: null,
+  thread_readings: [
+    [requested, at,           threads];
+    [1.5,       1.500797262,  [
+        [id,       name,        cpu];
+        ["199466", jab,         0.17],
+        ["199468", call_rcu,    0.0],
+        ["199469", "CPU 0/TCG", 0.77],
+        ["199470", "CPU 1/TCG", 0.36],
+        ["199471", "CPU 2/TCG", 0.36],
+        ["199472", worker,      0.02]
+      ]],
+    [5.0,       5.00033172,   [
+        [id,       name,        cpu];
+        ["199466", jab,         0.28],
+        ["199468", call_rcu,    0.0],
+        ["199469", "CPU 0/TCG", 1.13],
+        ["199470", "CPU 1/TCG", 2.24],
+        ["199471", "CPU 2/TCG", 2.25],
+        ["199472", worker,      0.02]
+      ]],
+    [10.5,      10.50021324,  [
+        [id,       name,        cpu];
+        ["199466", jab,         0.45],
+        ["199468", call_rcu,    0.0],
+        ["199469", "CPU 0/TCG", 1.7],
+        ["199470", "CPU 1/TCG", 5.1],
+        ["199471", "CPU 2/TCG", 5.11],
+        ["199472", worker,      0.02]
+      ]],
+    [20.0,      20.000969024, [
+        [id,       name,        cpu];
+        ["199466", jab,         0.77],
+        ["199468", call_rcu,    0.0],
+        ["199469", "CPU 0/TCG", 2.78],
+        ["199470", "CPU 1/TCG", 10.27],
+        ["199471", "CPU 2/TCG", 10.27]
+      ]],
+    [26.5,      26.500823787, [
+        [id,       name,        cpu];
+        ["199466", jab,         1.0],
+        ["199468", call_rcu,    0.0],
+        ["199469", "CPU 0/TCG", 3.54],
+        ["199470", "CPU 1/TCG", 14.35],
+        ["199471", "CPU 2/TCG", 14.36]
+      ]],
+    [32.0,      32.00021443,  [
+        [id,       name,        cpu];
+        ["199466", jab,         1.17],
+        ["199468", call_rcu,    0.0],
+        ["199469", "CPU 0/TCG", 4.27],
+        ["199470", "CPU 1/TCG", 17.61],
+        ["199471", "CPU 2/TCG", 17.61]
+      ]],
+    [36.0,      36.000623201, [
+        [id,       name,        cpu];
+        ["199466", jab,         1.3],
+        ["199468", call_rcu,    0.0],
+        ["199469", "CPU 0/TCG", 4.67],
+        ["199470", "CPU 1/TCG", 19.7],
+        ["199471", "CPU 2/TCG", 19.7]
+      ]],
+    [41.5,      41.500616061, [
+        [id,       name,        cpu];
+        ["199466", jab,         1.47],
+        ["199468", call_rcu,    0.0],
+        ["199469", "CPU 0/TCG", 5.12],
+        ["199470", "CPU 1/TCG", 23.02],
+        ["199471", "CPU 2/TCG", 23.03]
+      ]],
+    [51.5,      51.500613525, [
+        [id,       name,        cpu];
+        ["199466", jab,         1.8],
+        ["199468", call_rcu,    0.0],
+        ["199469", "CPU 0/TCG", 6.28],
+        ["199470", "CPU 1/TCG", 28.46],
+        ["199471", "CPU 2/TCG", 28.48]
+      ]],
+    [52.0,      52.001129226, [
+        [id,       name,        cpu];
+        ["199466", jab,         1.82],
+        ["199468", call_rcu,    0.0],
+        ["199469", "CPU 0/TCG", 6.33],
+        ["199470", "CPU 1/TCG", 28.83],
+        ["199471", "CPU 2/TCG", 28.85]
+      ]],
+    [52.5,      52.500455633, [
+        [id,       name,        cpu];
+        ["199466", jab,         1.83],
+        ["199468", call_rcu,    0.0],
+        ["199469", "CPU 0/TCG", 6.43],
+        ["199470", "CPU 1/TCG", 29.16],
+        ["199471", "CPU 2/TCG", 29.19]
+      ]],
+    [53.0,      53.00076961,  [
+        [id,       name,        cpu];
+        ["199466", jab,         1.85],
+        ["199468", call_rcu,    0.0],
+        ["199469", "CPU 0/TCG", 6.5],
+        ["199470", "CPU 1/TCG", 29.44],
+        ["199471", "CPU 2/TCG", 29.47]
+      ]],
+    [53.5,      53.500490083, [
+        [id,       name,        cpu];
+        ["199466", jab,         1.86],
+        ["199468", call_rcu,    0.0],
+        ["199469", "CPU 0/TCG", 6.54],
+        ["199470", "CPU 1/TCG", 29.69],
+        ["199471", "CPU 2/TCG", 29.71]
+      ]],
+    [54.0,      54.000221802, [
+        [id,       name,        cpu];
+        ["199466", jab,         1.88],
+        ["199468", call_rcu,    0.0],
+        ["199469", "CPU 0/TCG", 6.58],
+        ["199470", "CPU 1/TCG", 30.0],
+        ["199471", "CPU 2/TCG", 30.02]
+      ]],
+    [54.5,      54.500557316, [
+        [id,       name,        cpu];
+        ["199466", jab,         1.89],
+        ["199468", call_rcu,    0.0],
+        ["199469", "CPU 0/TCG", 6.68],
+        ["199470", "CPU 1/TCG", 30.33],
+        ["199471", "CPU 2/TCG", 30.35]
+      ]],
+    [55.0,      55.000895508, [
+        [id,       name,        cpu];
+        ["199466", jab,         1.92],
+        ["199468", call_rcu,    0.0],
+        ["199469", "CPU 0/TCG", 6.77],
+        ["199470", "CPU 1/TCG", 30.68],
+        ["199471", "CPU 2/TCG", 30.7]
+      ]],
+    [56.0,      56.001934216, [
+        [id,       name,        cpu];
+        ["199466", jab,         1.95],
+        ["199468", call_rcu,    0.0],
+        ["199469", "CPU 0/TCG", 6.92],
+        ["199470", "CPU 1/TCG", 31.25],
+        ["199471", "CPU 2/TCG", 31.27]
+      ]]
+  ],
+  qemu_binary: "/home/box/proj/sourcetrait/jab/extern/qemu/bin/qemu-system-riscv64",
+  qemu: [
+    -machine,
+    "virt,aia=aplic-imsic,aclint=on",
+    -cpu,
+    "rva23s64,pmp=true",
+    -accel,
+    "tcg,thread=multi",
+    -smp,
+    "3",
+    -global,
+    "virtio-mmio.force-legacy=false",
+    -parallel,
+    none,
+    -name,
+    "jab fierce,process=jab,debug-threads=on",
+    -m,
+    "4G",
+    -device,
+    "virtio-gpu-device,xres=1920,yres=1080",
+    -device,
+    virtio-keyboard-device,
+    -device,
+    virtio-tablet-device,
+    -device,
+    virtio-rng-device,
+    -audiodev,
+    "wav,path=/home/box/tmp/jab-stress/frameceiling/footprint/f_base_2/f_base_2/run_3/sound.wav,id=snd0,out.frequency=48000",
+    -device,
+    "virtio-sound-device,audiodev=snd0,streams=1",
+    -device,
+    virtio-serial-device,
+    -chardev,
+    "pipe,id=jabapi,path=/home/box/tmp/jab-stress/frameceiling/footprint/f_base_2/f_base_2/run_3/api",
+    -device,
+    "virtserialport,chardev=jabapi,nr=2,name=jab.api",
+    -device,
+    "virtio-input-host-device,evdev=/home/box/tmp/jab-stress/frameceiling/footprint/f_base_2/f_base_2/run_3/pad",
+    -bios,
+    none,
+    -kernel,
+    "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kernel/kexport_d297a6b/kernel/release/jab.elf",
+    -device,
+    "loader,file=/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_d297a6b/kit/fierce/release/fierce.jab,addr=0x80a00000,force-raw=on",
+    -display,
+    none,
+    -monitor,
+    "pipe:/home/box/tmp/jab-stress/frameceiling/footprint/f_base_2/f_base_2/run_3/monitor",
+    -serial,
+    "file:/home/box/tmp/jab-stress/frameceiling/footprint/f_base_2/f_base_2/run_3/serial.log",
+    -pidfile,
+    "/home/box/tmp/jab-stress/frameceiling/footprint/f_base_2/f_base_2/run_3/qemu.pid",
+    -d,
+    guest_errors,
+    -D,
+    "/home/box/tmp/jab-stress/frameceiling/footprint/f_base_2/f_base_2/run_3/qemu.log",
+    -append,
+    "jab.spec=1ka1",
+    -drive,
+    "if=none,id=disk0,file=/home/box/tmp/jab-stress/frameceiling/footprint/f_base_2/f_base_2/render_0.romfs,format=raw,readonly=on",
+    -device,
+    "virtio-blk-pci,disable-legacy=on,vectors=0,drive=disk0,serial=fps",
+    -drive,
+    "if=none,id=mix,file=/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/mix.romfs,format=raw,readonly=on",
+    -device,
+    "virtio-blk-pci,disable-legacy=on,vectors=0,drive=mix,serial=mix"
+  ],
+  machine: {
+    harts: 3,
+    ram_gib: 4,
+    spec: {
+      name: "1ka1",
+      cores: 3,
+      ram_gib: 4,
+      display: {
+        width: 1920,
+        height: 1080
+      }
+    },
+    diagnostic: null,
+    machine: "virt,aia=aplic-imsic,aclint=on",
+    cpu: "rva23s64,pmp=true",
+    accel: "tcg,thread=multi",
+    overrides: [
+
+    ]
+  },
+  window: none,
+  audio: "wav,path=/home/box/tmp/jab-stress/frameceiling/footprint/f_base_2/f_base_2/run_3/sound.wav"
+}

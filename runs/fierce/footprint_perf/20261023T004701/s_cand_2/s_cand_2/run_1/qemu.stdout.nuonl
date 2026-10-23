@@ -1,0 +1,2 @@
+{schema: 1, kind: log, source: footprint_perf, stream: stdout, captured: 2026-10-23T00:53:12.010036471+00:00}
+{end: true, chunks: 0, length: 0, "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", terminated: false}

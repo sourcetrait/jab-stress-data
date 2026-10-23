@@ -1,0 +1,259 @@
+{
+ schema: 2,
+ set: footprint_perf,
+ stamp: "20261023T004701",
+ task: FootprintEstimate,
+ scope: {
+  kind: whole,
+  ran: 16,
+  of: 16,
+  names: [
+   "s_base_1",
+   "s_cand_1",
+   "s_cand_2",
+   "s_base_2",
+   "f_base_1",
+   "f_cand_1",
+   "f_cand_2",
+   "f_base_2",
+   compare_s_critical,
+   compare_s_raster,
+   compare_f_critical,
+   compare_f_raster,
+   count_s_base,
+   count_s_cand,
+   count_f_base,
+   count_f_cand
+  ]
+ },
+ builds: [
+  {
+   part: "s_base_1",
+   build: null,
+   source: export,
+   record: "s_base_1/step.nuon",
+   export: {
+    name: "export_d297a6b",
+    commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    provenance: "runs/fierce/export/20261022-baselines/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: "s_cand_1",
+   build: null,
+   source: export,
+   record: "s_cand_1/step.nuon",
+   export: {
+    name: "export_d297a6b-footprint",
+    commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    provenance: "runs/fierce/export/20261022-baselines/fexport_footprint/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+     FOOTPRINT
+    ],
+    "image_sha256": "4ae9d5e2ab20d4bbbf17ecb512d5ab35cfdf412de62570f9fe675cb5ecce0949",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: "s_cand_2",
+   build: null,
+   source: export,
+   record: "s_cand_2/step.nuon",
+   export: {
+    name: "export_d297a6b-footprint",
+    commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    provenance: "runs/fierce/export/20261022-baselines/fexport_footprint/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+     FOOTPRINT
+    ],
+    "image_sha256": "4ae9d5e2ab20d4bbbf17ecb512d5ab35cfdf412de62570f9fe675cb5ecce0949",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: "s_base_2",
+   build: null,
+   source: export,
+   record: "s_base_2/step.nuon",
+   export: {
+    name: "export_d297a6b",
+    commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    provenance: "runs/fierce/export/20261022-baselines/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: "f_base_1",
+   build: null,
+   source: export,
+   record: "f_base_1/step.nuon",
+   export: {
+    name: "export_d297a6b",
+    commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    provenance: "runs/fierce/export/20261022-baselines/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: "f_cand_1",
+   build: null,
+   source: export,
+   record: "f_cand_1/step.nuon",
+   export: {
+    name: "export_d297a6b-footprint",
+    commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    provenance: "runs/fierce/export/20261022-baselines/fexport_footprint/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+     FOOTPRINT
+    ],
+    "image_sha256": "4ae9d5e2ab20d4bbbf17ecb512d5ab35cfdf412de62570f9fe675cb5ecce0949",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: "f_cand_2",
+   build: null,
+   source: export,
+   record: "f_cand_2/step.nuon",
+   export: {
+    name: "export_d297a6b-footprint",
+    commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    provenance: "runs/fierce/export/20261022-baselines/fexport_footprint/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+     FOOTPRINT
+    ],
+    "image_sha256": "4ae9d5e2ab20d4bbbf17ecb512d5ab35cfdf412de62570f9fe675cb5ecce0949",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: "f_base_2",
+   build: null,
+   source: export,
+   record: "f_base_2/step.nuon",
+   export: {
+    name: "export_d297a6b",
+    commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    provenance: "runs/fierce/export/20261022-baselines/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: compare_s_critical,
+   build: "b6edc08cdc7fa9d934a94063d43fb1ae30af60ba",
+   source: checkout,
+   record: "compare_s_critical/step.nuon"
+  },
+  {
+   part: compare_s_raster,
+   build: "b6edc08cdc7fa9d934a94063d43fb1ae30af60ba",
+   source: checkout,
+   record: "compare_s_raster/step.nuon"
+  },
+  {
+   part: compare_f_critical,
+   build: "b6edc08cdc7fa9d934a94063d43fb1ae30af60ba",
+   source: checkout,
+   record: "compare_f_critical/step.nuon"
+  },
+  {
+   part: compare_f_raster,
+   build: "b6edc08cdc7fa9d934a94063d43fb1ae30af60ba",
+   source: checkout,
+   record: "compare_f_raster/step.nuon"
+  },
+  {
+   part: count_s_base,
+   build: null,
+   source: export,
+   record: "count_s_base/step.nuon",
+   export: {
+    name: "export_d297a6b_count",
+    commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    provenance: "images/count/provenance.nuon",
+    symbols: [
+     DEBUG,
+     COUNT
+    ],
+    "image_sha256": "34e51c9ea0fce77d4b0e825a4988a925756dd889f4f32c29ff848e18f7637ac2",
+    "kernel_sha256": "cfb6374b94711f91b324ef11c394ac69d3aaff3d6aabaf4dc442914fb6d49d59"
+   }
+  },
+  {
+   part: count_s_cand,
+   build: null,
+   source: export,
+   record: "count_s_cand/step.nuon",
+   export: {
+    name: "export_d297a6b_count_footprint",
+    commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    provenance: "images/count_footprint/provenance.nuon",
+    symbols: [
+     DEBUG,
+     COUNT,
+     FOOTPRINT
+    ],
+    "image_sha256": "2166ce77a93b7a00928701094a387a57a8dd475f8d99f14e9766171abf58f97a",
+    "kernel_sha256": "4d0985ae1f880d716a075903186a890b7a25ed47c67f7764386fc59617804279"
+   }
+  },
+  {
+   part: count_f_base,
+   build: null,
+   source: export,
+   record: "count_f_base/step.nuon",
+   export: {
+    name: "export_d297a6b_count",
+    commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    provenance: "images/count/provenance.nuon",
+    symbols: [
+     DEBUG,
+     COUNT
+    ],
+    "image_sha256": "34e51c9ea0fce77d4b0e825a4988a925756dd889f4f32c29ff848e18f7637ac2",
+    "kernel_sha256": "cfb6374b94711f91b324ef11c394ac69d3aaff3d6aabaf4dc442914fb6d49d59"
+   }
+  },
+  {
+   part: count_f_cand,
+   build: null,
+   source: export,
+   record: "count_f_cand/step.nuon",
+   export: {
+    name: "export_d297a6b_count_footprint",
+    commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    provenance: "images/count_footprint/provenance.nuon",
+    symbols: [
+     DEBUG,
+     COUNT,
+     FOOTPRINT
+    ],
+    "image_sha256": "2166ce77a93b7a00928701094a387a57a8dd475f8d99f14e9766171abf58f97a",
+    "kernel_sha256": "4d0985ae1f880d716a075903186a890b7a25ed47c67f7764386fc59617804279"
+   }
+  }
+ ],
+ kept: {
+  as: current,
+  why: "FootprintEstimate's performance comparison, FrameCeiling's step 5, its sixteen steps alone on the box: through jab-stress 9eff933's recorded runner on the long engine from 00:47:01 to 01:26:45 at jab b6edc08, both checkouts clean, kernel/ and sdk/src equal to d297a6b's, P2's landing commit; the decision's baseline export_d297a6b (image 264e7b7c) against export_d297a6b-footprint (image 4ae9d5e2), both on kexport_d297a6b (ELF c8285900), 1KA1, release, cadence 1, eps 3,700, the settled and the factory routes, base, candidate, candidate, base on each, three seeded runs a batch, compared at 50 cm on critical_us and raster_us; then one COUNT run a build and route, seed 1, on debug images of export_d297a6b's source built with COUNT and DEBUG, export_d297a6b_count (fierce 34e51c9e, its debug kernel cfb6374b) and, with FOOTPRINT, export_d297a6b_count_footprint (2166ce77, its kernel 4d0985ae), each a copy of export_d297a6b's program, src/ byte for byte, on that export's sdk/src, built at jab b6edc08 by the checkout's tool before the battery; their provenance written at landing by the workbench's freeze module's provenance-of over the images as they ran, kept in the run as images/count and images/count_footprint, each image's and kernel's SHA-256 its run's identity's. The host's CPU by process every ten seconds beside it, host_load.nuonl: no process outside the battery at or over 0.1 cores but this session's harness at 0.10 in one sample, and at most 0.33 cores unattributed beside QEMU in the 105 samples it ran in. Every run complete and valid at schema 8, K unbroken at eps 3,700, no catch-up. The rule's reading, fixed at 00:59 before any result was read: adopt only when on both routes and every leg the candidate's critical_us mean exceeds the base's by no more than the larger of the two builds' half spreads, the picture criteria holding. The candidate higher on every leg of both routes, by 534.5 to 1,130.7 us on the settled route and 442.5 to 776.2 us on the factory, every difference at least 2.8 times its larger half spread and all 102 matched pairs above, so it is retained; its COUNT lines 0.72 to 0.88 of today's divides, no mismatch, no saturation. Kept as the set's current run: FootprintEstimate cites it."
+ },
+ inventory: "5d8187a82380d9e07fcc36cee32cff6a1970650f47ef649c62544395c44d5cd5",
+ storage: "253cf034c32361c0da3bdeff5d309f25c7a7ecbe8b4b75ad8298bb58858a356b"
+}

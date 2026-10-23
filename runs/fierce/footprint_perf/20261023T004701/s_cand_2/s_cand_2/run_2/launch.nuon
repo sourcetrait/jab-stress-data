@@ -1,0 +1,136 @@
+{
+  "schedule_sha256": "dcc94d9e21d557037bac31bbd7fb1d1bde28217b09e3f4f0d9ddeb83919b21a1",
+  receipt: {
+    token: "3975438c4c1479f4",
+    outcome: {
+      token: "3975438c4c1479f4",
+      decision: go,
+      go_utc: "2026-10-23T00:54:13.028844Z"
+    },
+    header: null,
+    actions: [
+      [kind, index, due_ns,      length, accepted, state,    first_ns,    done_ns,     whole_ns, whole];
+      [send, 0,     200000000,   64,     64,       complete, 201484181,   201492582,   null,     null],
+      [send, 1,     200000000,   64,     64,       complete, 201492654,   201494192,   null,     null],
+      [send, 2,     200000000,   64,     64,       complete, 201494296,   201495382,   null,     null],
+      [send, 3,     1500000000,  64,     64,       complete, 1501497585,  1501503481,  null,     null],
+      [send, 4,     1800000000,  64,     64,       complete, 1800627639,  1800632491,  null,     null],
+      [send, 5,     6000000000,  64,     64,       complete, 6001377452,  6001383235,  null,     null],
+      [send, 6,     6300000000,  64,     64,       complete, 6300742755,  6300750021,  null,     null],
+      [send, 7,     10500000000, 64,     64,       complete, 10500968587, 10500976675, null,     null],
+      [send, 8,     10800000000, 64,     64,       complete, 10800565135, 10800571182, null,     null],
+      [send, 9,     15000000000, 64,     64,       complete, 15001480860, 15001488526, null,     null],
+      [send, 10,    15300000000, 64,     64,       complete, 15300873447, 15300879788, null,     null],
+      [send, 11,    19500000000, 64,     64,       complete, 19501010154, 19501017316, null,     null],
+      [send, 12,    19800000000, 64,     64,       complete, 19801505070, 19801514744, null,     null],
+      [send, 13,    24000000000, 64,     64,       complete, 24000685017, 24000691234, null,     null],
+      [send, 14,    24300000000, 64,     64,       complete, 24301589618, 24301596448, null,     null],
+      [send, 15,    28500000000, 64,     64,       complete, 28500712256, 28500717476, null,     null],
+      [send, 16,    28800000000, 64,     64,       complete, 28800991164, 28800997786, null,     null],
+      [send, 17,    33000000000, 64,     64,       complete, 33001630485, 33001636813, null,     null],
+      [quit, 0,     35000000000, 5,      5,        complete, 35001173557, 35001213584, null,     null]
+    ],
+    held: null,
+    readings: [
+      [kind, index, requested_ns, start_ns,    end_ns,      threads];
+      [at,   0,     1500000000,   1501422761,  1501497087,  [
+          [id,       name,        cpu];
+          ["192541", jab,         0.15],
+          ["192543", call_rcu,    0.0],
+          ["192544", "CPU 0/TCG", 0.77],
+          ["192545", "CPU 1/TCG", 0.4],
+          ["192546", "CPU 2/TCG", 0.4],
+          ["192547", worker,      0.02]
+        ]],
+      [at,   1,     5000000000,   5002007860,  5002065358,  [
+          [id,       name,        cpu];
+          ["192541", jab,         0.26],
+          ["192543", call_rcu,    0.0],
+          ["192544", "CPU 0/TCG", 1.16],
+          ["192545", "CPU 1/TCG", 2.52],
+          ["192546", "CPU 2/TCG", 2.53],
+          ["192547", worker,      0.02]
+        ]],
+      [at,   2,     6000000000,   6001314242,  6001377101,  [
+          [id,       name,        cpu];
+          ["192541", jab,         0.29],
+          ["192543", call_rcu,    0.0],
+          ["192544", "CPU 0/TCG", 1.27],
+          ["192545", "CPU 1/TCG", 3.12],
+          ["192546", "CPU 2/TCG", 3.13],
+          ["192547", worker,      0.02]
+        ]],
+      [at,   3,     10500000000,  10500915001, 10500968231, [
+          [id,       name,        cpu];
+          ["192541", jab,         0.46],
+          ["192543", call_rcu,    0.0],
+          ["192544", "CPU 0/TCG", 1.77],
+          ["192545", "CPU 1/TCG", 6.28],
+          ["192546", "CPU 2/TCG", 6.31],
+          ["192547", worker,      0.02]
+        ]],
+      [at,   4,     15000000000,  15001429551, 15001480309, [
+          [id,       name,        cpu];
+          ["192541", jab,         0.61],
+          ["192543", call_rcu,    0.0],
+          ["192544", "CPU 0/TCG", 2.22],
+          ["192545", "CPU 1/TCG", 8.87],
+          ["192546", "CPU 2/TCG", 8.89]
+        ]],
+      [at,   5,     19500000000,  19500954149, 19501009709, [
+          [id,       name,        cpu];
+          ["192541", jab,         0.76],
+          ["192543", call_rcu,    0.0],
+          ["192544", "CPU 0/TCG", 2.68],
+          ["192545", "CPU 1/TCG", 11.5],
+          ["192546", "CPU 2/TCG", 11.51]
+        ]],
+      [at,   6,     24000000000,  24000634805, 24000684650, [
+          [id,       name,        cpu];
+          ["192541", jab,         0.9],
+          ["192543", call_rcu,    0.0],
+          ["192544", "CPU 0/TCG", 3.52],
+          ["192545", "CPU 1/TCG", 14.99],
+          ["192546", "CPU 2/TCG", 15.01]
+        ]],
+      [at,   7,     28500000000,  28500666132, 28500711913, [
+          [id,       name,        cpu];
+          ["192541", jab,         1.05],
+          ["192543", call_rcu,    0.0],
+          ["192544", "CPU 0/TCG", 4.17],
+          ["192545", "CPU 1/TCG", 18.24],
+          ["192546", "CPU 2/TCG", 18.25]
+        ]],
+      [at,   8,     33000000000,  33001586476, 33001630136, [
+          [id,       name,        cpu];
+          ["192541", jab,         1.19],
+          ["192543", call_rcu,    0.0],
+          ["192544", "CPU 0/TCG", 4.5],
+          ["192545", "CPU 1/TCG", 20.65],
+          ["192546", "CPU 2/TCG", 20.65]
+        ]]
+    ],
+    relays: [
+
+    ],
+    helpers: [
+
+    ],
+    end_ns: 35012532566,
+    cpu_seconds: 49.34,
+    qemu_pid: 192541,
+    status: 0,
+    signal: null,
+    stdout: "/home/box/tmp/jab-stress/frameceiling/footprint/s_cand_2/s_cand_2/run_2/qemu.stdout",
+    stderr: "/home/box/tmp/jab-stress/frameceiling/footprint/s_cand_2/s_cand_2/run_2/qemu.stderr",
+    failure: null,
+    cancelled_ns: null,
+    startup_ns: 16524078,
+    clock: {
+      origin: go,
+      unit: ns,
+      go_utc: "2026-10-23T00:54:13.028844Z"
+    }
+  },
+  incomplete: null
+}

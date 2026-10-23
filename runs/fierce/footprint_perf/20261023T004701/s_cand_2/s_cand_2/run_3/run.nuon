@@ -1,0 +1,184 @@
+{
+  status: 0,
+  fault: null,
+  cpu_seconds: 48.86,
+  wall_seconds: 35.013139963,
+  quit_seconds: 35.001693536,
+  unfinished: [
+
+  ],
+  incomplete: null,
+  launch: "/home/box/tmp/jab-stress/frameceiling/footprint/s_cand_2/s_cand_2/run_3/launch.nuon",
+  threads: [
+
+  ],
+  threads_span: null,
+  thread_readings: [
+    [requested, at,           threads];
+    [1.5,       1.501423424,  [
+        [id,       name,        cpu];
+        ["193059", jab,         0.17],
+        ["193061", call_rcu,    0.0],
+        ["193062", "CPU 0/TCG", 0.79],
+        ["193063", "CPU 1/TCG", 0.37],
+        ["193064", "CPU 2/TCG", 0.37],
+        ["193065", worker,      0.02]
+      ]],
+    [5.0,       5.001456288,  [
+        [id,       name,        cpu];
+        ["193059", jab,         0.27],
+        ["193061", call_rcu,    0.0],
+        ["193062", "CPU 0/TCG", 1.18],
+        ["193063", "CPU 1/TCG", 2.44],
+        ["193064", "CPU 2/TCG", 2.46],
+        ["193065", worker,      0.02]
+      ]],
+    [6.0,       6.002064534,  [
+        [id,       name,        cpu];
+        ["193059", jab,         0.31],
+        ["193061", call_rcu,    0.0],
+        ["193062", "CPU 0/TCG", 1.29],
+        ["193063", "CPU 1/TCG", 3.04],
+        ["193064", "CPU 2/TCG", 3.05],
+        ["193065", worker,      0.02]
+      ]],
+    [10.5,      10.501935865, [
+        [id,       name,        cpu];
+        ["193059", jab,         0.48],
+        ["193061", call_rcu,    0.0],
+        ["193062", "CPU 0/TCG", 1.78],
+        ["193063", "CPU 1/TCG", 6.13],
+        ["193064", "CPU 2/TCG", 6.14],
+        ["193065", worker,      0.02]
+      ]],
+    [15.0,      15.0009599,   [
+        [id,       name,        cpu];
+        ["193059", jab,         0.63],
+        ["193061", call_rcu,    0.0],
+        ["193062", "CPU 0/TCG", 2.24],
+        ["193063", "CPU 1/TCG", 8.66],
+        ["193064", "CPU 2/TCG", 8.67]
+      ]],
+    [19.5,      19.501266415, [
+        [id,       name,        cpu];
+        ["193059", jab,         0.79],
+        ["193061", call_rcu,    0.0],
+        ["193062", "CPU 0/TCG", 2.73],
+        ["193063", "CPU 1/TCG", 11.24],
+        ["193064", "CPU 2/TCG", 11.25]
+      ]],
+    [24.0,      24.001171395, [
+        [id,       name,        cpu];
+        ["193059", jab,         0.95],
+        ["193061", call_rcu,    0.0],
+        ["193062", "CPU 0/TCG", 3.6],
+        ["193063", "CPU 1/TCG", 14.67],
+        ["193064", "CPU 2/TCG", 14.69]
+      ]],
+    [28.5,      28.501454116, [
+        [id,       name,        cpu];
+        ["193059", jab,         1.11],
+        ["193061", call_rcu,    0.0],
+        ["193062", "CPU 0/TCG", 4.28],
+        ["193063", "CPU 1/TCG", 17.92],
+        ["193064", "CPU 2/TCG", 17.94]
+      ]],
+    [33.0,      33.001250412, [
+        [id,       name,        cpu];
+        ["193059", jab,         1.26],
+        ["193061", call_rcu,    0.0],
+        ["193062", "CPU 0/TCG", 4.61],
+        ["193063", "CPU 1/TCG", 20.31],
+        ["193064", "CPU 2/TCG", 20.33]
+      ]]
+  ],
+  qemu_binary: "/home/box/proj/sourcetrait/jab/extern/qemu/bin/qemu-system-riscv64",
+  qemu: [
+    -machine,
+    "virt,aia=aplic-imsic,aclint=on",
+    -cpu,
+    "rva23s64,pmp=true",
+    -accel,
+    "tcg,thread=multi",
+    -smp,
+    "3",
+    -global,
+    "virtio-mmio.force-legacy=false",
+    -parallel,
+    none,
+    -name,
+    "jab fierce,process=jab,debug-threads=on",
+    -m,
+    "4G",
+    -device,
+    "virtio-gpu-device,xres=1920,yres=1080",
+    -device,
+    virtio-keyboard-device,
+    -device,
+    virtio-tablet-device,
+    -device,
+    virtio-rng-device,
+    -audiodev,
+    "wav,path=/home/box/tmp/jab-stress/frameceiling/footprint/s_cand_2/s_cand_2/run_3/sound.wav,id=snd0,out.frequency=48000",
+    -device,
+    "virtio-sound-device,audiodev=snd0,streams=1",
+    -device,
+    virtio-serial-device,
+    -chardev,
+    "pipe,id=jabapi,path=/home/box/tmp/jab-stress/frameceiling/footprint/s_cand_2/s_cand_2/run_3/api",
+    -device,
+    "virtserialport,chardev=jabapi,nr=2,name=jab.api",
+    -device,
+    "virtio-input-host-device,evdev=/home/box/tmp/jab-stress/frameceiling/footprint/s_cand_2/s_cand_2/run_3/pad",
+    -bios,
+    none,
+    -kernel,
+    "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kernel/kexport_d297a6b/kernel/release/jab.elf",
+    -device,
+    "loader,file=/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_d297a6b-footprint/kit/fierce/release/fierce.jab,addr=0x80a00000,force-raw=on",
+    -display,
+    none,
+    -monitor,
+    "pipe:/home/box/tmp/jab-stress/frameceiling/footprint/s_cand_2/s_cand_2/run_3/monitor",
+    -serial,
+    "file:/home/box/tmp/jab-stress/frameceiling/footprint/s_cand_2/s_cand_2/run_3/serial.log",
+    -pidfile,
+    "/home/box/tmp/jab-stress/frameceiling/footprint/s_cand_2/s_cand_2/run_3/qemu.pid",
+    -d,
+    guest_errors,
+    -D,
+    "/home/box/tmp/jab-stress/frameceiling/footprint/s_cand_2/s_cand_2/run_3/qemu.log",
+    -append,
+    "jab.spec=1ka1",
+    -drive,
+    "if=none,id=disk0,file=/home/box/tmp/jab-stress/frameceiling/footprint/s_cand_2/s_cand_2/render_0_still.romfs,format=raw,readonly=on",
+    -device,
+    "virtio-blk-pci,disable-legacy=on,vectors=0,drive=disk0,serial=fps",
+    -drive,
+    "if=none,id=mix,file=/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/mix.romfs,format=raw,readonly=on",
+    -device,
+    "virtio-blk-pci,disable-legacy=on,vectors=0,drive=mix,serial=mix"
+  ],
+  machine: {
+    harts: 3,
+    ram_gib: 4,
+    spec: {
+      name: "1ka1",
+      cores: 3,
+      ram_gib: 4,
+      display: {
+        width: 1920,
+        height: 1080
+      }
+    },
+    diagnostic: null,
+    machine: "virt,aia=aplic-imsic,aclint=on",
+    cpu: "rva23s64,pmp=true",
+    accel: "tcg,thread=multi",
+    overrides: [
+
+    ]
+  },
+  window: none,
+  audio: "wav,path=/home/box/tmp/jab-stress/frameceiling/footprint/s_cand_2/s_cand_2/run_3/sound.wav"
+}
