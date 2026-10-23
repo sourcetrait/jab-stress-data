@@ -1,0 +1,46 @@
+{
+  "schedule_sha256": "c062e6324d8f7a97c1be2171e81b41606ad7fb9c65a3f2690d28f294b970fe30",
+  receipt: {
+    token: "35a62cae72f2e1ce",
+    outcome: {
+      token: "35a62cae72f2e1ce",
+      decision: go,
+      go_utc: "2026-10-22T23:36:58.662649Z"
+    },
+    header: null,
+    actions: [
+      [kind,   index, due_ns,     length, accepted, state,    first_ns,   done_ns,    whole_ns,   whole];
+      [send,   0,     1900000000, 64,     64,       complete, 1901420976, 1901437117, null,       null],
+      [send,   1,     2000000000, 64,     64,       complete, 2001816859, 2001831640, null,       null],
+      [send,   2,     8000000000, 64,     64,       complete, 8001182546, 8001191098, null,       null],
+      [screen, 0,     9000000000, 118,    118,      complete, 9000857739, 9000871025, 9050931704, true],
+      [quit,   0,     9000000000, 5,      5,        complete, 9050931925, 9050939969, null,       null]
+    ],
+    held: null,
+    readings: [
+
+    ],
+    relays: [
+
+    ],
+    helpers: [
+
+    ],
+    end_ns: 9062496182,
+    cpu_seconds: 12.95,
+    qemu_pid: 174061,
+    status: 0,
+    signal: null,
+    stdout: "/home/box/tmp/jab-stress/frameceiling/submitwait/pose_still_base/captures/render_0_still_yard/qemu.stdout",
+    stderr: "/home/box/tmp/jab-stress/frameceiling/submitwait/pose_still_base/captures/render_0_still_yard/qemu.stderr",
+    failure: null,
+    cancelled_ns: null,
+    startup_ns: 27276452,
+    clock: {
+      origin: go,
+      unit: ns,
+      go_utc: "2026-10-22T23:36:58.662649Z"
+    }
+  },
+  incomplete: null
+}

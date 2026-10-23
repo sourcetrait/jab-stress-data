@@ -1,0 +1,103 @@
+{
+ schema: 2,
+ set: submitwait,
+ stamp: "20261023T002019",
+ task: SubmitWait,
+ scope: {
+  kind: targeted,
+  ran: 6,
+  of: 10,
+  names: [
+   "base_1",
+   "cand_1",
+   "cand_2",
+   "base_2",
+   compare_critical,
+   compare_flip
+  ]
+ },
+ builds: [
+  {
+   part: "base_1",
+   build: null,
+   source: export,
+   record: "base_1/step.nuon",
+   export: {
+    name: "export_d297a6b",
+    commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    provenance: "runs/fierce/export/20261022-baselines/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: "cand_1",
+   build: null,
+   source: export,
+   record: "cand_1/step.nuon",
+   export: {
+    name: "export_d297a6b",
+    commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    provenance: "runs/fierce/export/20261022-baselines/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "16cf3d8e11a9998d4e33416abd33a1950b45db4b3a6ce75bf53f793c0511b64f"
+   }
+  },
+  {
+   part: "cand_2",
+   build: null,
+   source: export,
+   record: "cand_2/step.nuon",
+   export: {
+    name: "export_d297a6b",
+    commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    provenance: "runs/fierce/export/20261022-baselines/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "16cf3d8e11a9998d4e33416abd33a1950b45db4b3a6ce75bf53f793c0511b64f"
+   }
+  },
+  {
+   part: "base_2",
+   build: null,
+   source: export,
+   record: "base_2/step.nuon",
+   export: {
+    name: "export_d297a6b",
+    commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    provenance: "runs/fierce/export/20261022-baselines/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: compare_critical,
+   build: "b6edc08cdc7fa9d934a94063d43fb1ae30af60ba",
+   source: checkout,
+   record: "compare_critical/step.nuon"
+  },
+  {
+   part: compare_flip,
+   build: "b6edc08cdc7fa9d934a94063d43fb1ae30af60ba",
+   source: checkout,
+   record: "compare_flip/step.nuon"
+  }
+ ],
+ kept: {
+  as: checkpoint,
+  why: "SubmitWait's comparison, FrameCeiling's step 5, its six timed steps alone, the deciding set: as 20261022T234734's at jab b6edc08 through jab-stress 9eff933's recorded runner, both checkouts clean, kernel/ and sdk/src equal to d297a6b's, export_d297a6b (image 264e7b7c) on kexport_d297a6b (ELF c8285900) against kexport_d297a6b-flip_batch (ELF 16cf3d8e), the factory route on 1KA1, release, cadence 1, eps 3,700, base, candidate, candidate, base, three seeded runs a batch, compared at 50 cm on critical_us and flip_us. The host's CPU by process every ten seconds beside it, host_load.nuonl: no foreign process at or over 0.1 cores in its 130 samples, and under 0.3 cores beside QEMU in every sample QEMU ran in. Every run complete and valid at schema 8, K unbroken at eps 3,700 on all twelve. The candidate's measured flip phase lower on every leg's mean, by 47 to 77 us, and in 53 of 54 matched pairs; the declared rule, that fall past the larger of the two builds' half spreads on every leg and no other phase past its own, not met: spawn's 47.4 us inside the base's 56.5, and the report phase past its larger half spread on four legs and the pacing on one (20261023T004319-phases), so the candidate is retained. Kept as a checkpoint: SubmitWait cites it."
+ },
+ inventory: "25f74f9ddbf7f360bd315fbcd137792e8d0c867f6b06b7c9fff554d7bffaa824",
+ storage: "e2d70163e554feef7716fc3e7d1a8843654410c06a72057ef918baea9616c9ba"
+}

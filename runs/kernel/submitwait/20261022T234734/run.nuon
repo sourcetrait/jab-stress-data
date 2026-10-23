@@ -1,0 +1,171 @@
+{
+ schema: 2,
+ set: submitwait,
+ stamp: "20261022T234734",
+ task: SubmitWait,
+ scope: {
+  kind: whole,
+  ran: 10,
+  of: 10,
+  names: [
+   "base_1",
+   "cand_1",
+   "cand_2",
+   "base_2",
+   compare_critical,
+   compare_flip,
+   pose_still_base,
+   pose_still_cand,
+   pose_one_base,
+   pose_one_cand
+  ]
+ },
+ builds: [
+  {
+   part: "base_1",
+   build: null,
+   source: export,
+   record: "base_1/step.nuon",
+   export: {
+    name: "export_d297a6b",
+    commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    provenance: "runs/fierce/export/20261022-baselines/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: "cand_1",
+   build: null,
+   source: export,
+   record: "cand_1/step.nuon",
+   export: {
+    name: "export_d297a6b",
+    commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    provenance: "runs/fierce/export/20261022-baselines/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "16cf3d8e11a9998d4e33416abd33a1950b45db4b3a6ce75bf53f793c0511b64f"
+   }
+  },
+  {
+   part: "cand_2",
+   build: null,
+   source: export,
+   record: "cand_2/step.nuon",
+   export: {
+    name: "export_d297a6b",
+    commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    provenance: "runs/fierce/export/20261022-baselines/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "16cf3d8e11a9998d4e33416abd33a1950b45db4b3a6ce75bf53f793c0511b64f"
+   }
+  },
+  {
+   part: "base_2",
+   build: null,
+   source: export,
+   record: "base_2/step.nuon",
+   export: {
+    name: "export_d297a6b",
+    commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    provenance: "runs/fierce/export/20261022-baselines/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: compare_critical,
+   build: "b6edc08cdc7fa9d934a94063d43fb1ae30af60ba",
+   source: checkout,
+   record: "compare_critical/step.nuon"
+  },
+  {
+   part: compare_flip,
+   build: "b6edc08cdc7fa9d934a94063d43fb1ae30af60ba",
+   source: checkout,
+   record: "compare_flip/step.nuon"
+  },
+  {
+   part: pose_still_base,
+   build: null,
+   source: export,
+   record: "pose_still_base/step.nuon",
+   export: {
+    name: "export_d297a6b",
+    commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    provenance: "runs/fierce/export/20261022-baselines/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: pose_still_cand,
+   build: null,
+   source: export,
+   record: "pose_still_cand/step.nuon",
+   export: {
+    name: "export_d297a6b",
+    commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    provenance: "runs/fierce/export/20261022-baselines/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "16cf3d8e11a9998d4e33416abd33a1950b45db4b3a6ce75bf53f793c0511b64f"
+   }
+  },
+  {
+   part: pose_one_base,
+   build: null,
+   source: export,
+   record: "pose_one_base/step.nuon",
+   export: {
+    name: "export_d297a6b",
+    commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    provenance: "runs/fierce/export/20261022-baselines/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: pose_one_cand,
+   build: null,
+   source: export,
+   record: "pose_one_cand/step.nuon",
+   export: {
+    name: "export_d297a6b",
+    commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    provenance: "runs/fierce/export/20261022-baselines/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "16cf3d8e11a9998d4e33416abd33a1950b45db4b3a6ce75bf53f793c0511b64f"
+   }
+  }
+ ],
+ kept: {
+  as: current,
+  why: "SubmitWait's comparison, FrameCeiling's step 5, its second whole run, as the first's at jab b6edc08 through jab-stress 9eff933's recorded runner, both checkouts clean, kernel/ and sdk/src equal to d297a6b's: export_d297a6b (image 264e7b7c) on kexport_d297a6b (ELF c8285900) against kexport_d297a6b-flip_batch (ELF 16cf3d8e), the factory route on 1KA1, release, cadence 1, eps 3,700, base, candidate, candidate, base, three seeded runs a batch, compared at 50 cm on critical_us and flip_us, then the fourteen poses on each kernel. The host's CPU by process every ten seconds beside it, host_load.nuonl, its busy cores the host's whole and its processes the box's: another harness's QEMU, a LowKick live-ISO VM, ran from 23:53:26 to 23:54:06 at 0.82 to 1.62 cores inside cand_1's first run and nothing else foreign at or over 0.1 cores, so its timing decides nothing and its six timed steps ran again at 20261023T002019. Every run complete and valid; the fourteen poses' screens byte-identical on both kernels. Kept as the set's current run."
+ },
+ inventory: "784c74194d7c0e8710282d22d5c453a03c08dfc5ebca8a40c7c7bb14c1da092f",
+ storage: "59796bf3b795bcbdcb9f79821fe1fbfb2a5700929877b3d739406e46894458c0"
+}

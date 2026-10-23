@@ -1,0 +1,34 @@
+{
+ schema: 2,
+ set: submitwait,
+ stamp: "20261023T004319-phases",
+ task: SubmitWait,
+ scope: {
+  kind: targeted,
+  ran: 6,
+  of: 6,
+  names: [
+   compare_game,
+   compare_draw,
+   compare_hud,
+   compare_mix,
+   compare_report,
+   compare_pacing
+  ]
+ },
+ builds: [
+  [part,           build,                                      source,   record];
+  [compare_game,   "b6edc08cdc7fa9d934a94063d43fb1ae30af60ba", checkout, "compare_game/step.nuon"],
+  [compare_draw,   "b6edc08cdc7fa9d934a94063d43fb1ae30af60ba", checkout, "compare_draw/step.nuon"],
+  [compare_hud,    "b6edc08cdc7fa9d934a94063d43fb1ae30af60ba", checkout, "compare_hud/step.nuon"],
+  [compare_mix,    "b6edc08cdc7fa9d934a94063d43fb1ae30af60ba", checkout, "compare_mix/step.nuon"],
+  [compare_report, "b6edc08cdc7fa9d934a94063d43fb1ae30af60ba", checkout, "compare_report/step.nuon"],
+  [compare_pacing, "b6edc08cdc7fa9d934a94063d43fb1ae30af60ba", checkout, "compare_pacing/step.nuon"]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "SubmitWait's deciding set's other exclusive phases, the rule's nothing-else-moves half: game_us, draw_us, hud_us, mix_us, report_us, and pacing_us compared at 50 cm over 20261023T002019's four batches, read by absolute path where that run's steps wrote them, through jab-stress 9eff933's recorded runner at jab b6edc08, both checkouts clean. The candidate's measured report phase higher on every leg's mean, by 10.5 to 41.3 us, and in 43 of 54 matched pairs, past the larger of the two builds' half spreads on spawn, up, down, and ramp; the pacing past its own on down alone, -0.35 us against 0.29; game, draw, hud, and mix within theirs on every leg. Kept as a checkpoint: SubmitWait cites it."
+ },
+ inventory: "f34ed423829d871c57f8bf8a5db954e27b452c8921c9467b0bc1decf0327e371",
+ storage: "59baefac30b9f0222606037a4360b3b7914fbf0a59545c1b315235bc12c7a335"
+}

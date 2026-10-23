@@ -1,0 +1,65 @@
+{
+  name: pose_still_base,
+  repo: stress,
+  bin: "nu/bin/nuance/fierce/pose.nu",
+  words: [
+    "render_0_still",
+    "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_d297a6b/kit/fierce/release/fierce.jab",
+    "/home/box/proj/sourcetrait/jab-stress-data/assets/fierce/poses/census_still.nuon",
+    /home/box/tmp/jab-stress/frameceiling/submitwait_alone/pose_still_base/captures,
+    "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kernel/kexport_d297a6b/kernel/release/jab.elf",
+    ""
+  ],
+  symbols: [
+
+  ],
+  started: "2026-10-23T00:09:09.204336938+00:00",
+  ended: "2026-10-23T00:11:35.646643955+00:00",
+  seconds: 146.442252798,
+  exit: 0,
+  ok: true,
+  checkouts: {
+    jab: {
+      commit: "b6edc08cdc7fa9d934a94063d43fb1ae30af60ba",
+      clean: true
+    },
+    stress: {
+      commit: "9eff933bdbe2d9be19ef74fa15dfab19a9388ef6",
+      clean: true
+    }
+  },
+  kernel_source: {
+    asked: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    last: "51a4956971391cfd45ef6cf6a2fa4aa3223a1b37",
+    equal: true
+  },
+  fixtures: [
+
+  ],
+  kernel: {
+    tree: release,
+    out: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/kernel",
+    elf: {
+      from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/kernel/jab.elf",
+      kept: "build/kernel/jab.elf",
+      "sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+    },
+    flags: "-I src/include -I ../sdk/src -march=rva23s64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+    defined: [
+
+    ],
+    held: true,
+    loaded: {
+      kept: "build/kernel/jab.bin",
+      "sha256": "efe12507e089683b9d5011a84b4511da9f1e0861e3c01ece4949e11ad474c606"
+    }
+  },
+  programs: [
+
+  ],
+  outs: [
+
+  ],
+  stdout: "run.stdout",
+  stderr: "run.stderr"
+}
