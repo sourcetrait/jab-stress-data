@@ -1,0 +1,33 @@
+{
+ schema: 2,
+ set: jointtiming,
+ stamp: "20261023T012822-1kb1",
+ task: JointTiming,
+ scope: {
+  kind: targeted,
+  ran: 1,
+  of: 1,
+  names: [
+   "base_1kb1"
+  ]
+ },
+ builds: [
+  [part,        build, source, record,                export];
+  ["base_1kb1", null,  export, "base_1kb1/step.nuon", {
+    name: "export_d297a6b",
+    commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    provenance: "runs/fierce/export/20261022-baselines/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "JointTiming's followup 5, the landed rule's release check on 1KB1, the target SubmitWait's and FootprintEstimate's protocols leave out: one batch of the decision's baseline, export_d297a6b (image 264e7b7c) on kexport_d297a6b (ELF c8285900), the factory route on 1KB1, release, cadence 1, eps 3,700, three seeded runs, through jab-stress 9eff933's recorded runner on the long engine from 01:28:22 to 01:33:40 at jab b6edc08, both checkouts clean, kernel/ and sdk/src equal to d297a6b's, P2's landing commit, alone on the box. The host's CPU by process every ten seconds beside it, host_load.nuonl: no process outside the battery at or over 0.1 cores but this session's harness at 0.10 and 0.11 in two samples, one beside QEMU, and at most 0.31 cores unattributed beside QEMU in the 14 samples it ran in. Every run complete and valid at schema 8, 3,309 frames each, K unbroken at eps 3,700, no catch-up, late wakes 4, 0, and 1; the critical path's median 10.4, 10.1, and 10.0 ms. With SubmitWait's and FootprintEstimate's baseline arms on 1KA1, the landed rule's check on both targets. Cited by the kernel subiter's plan/agenda/FourHarts/PresentationContract/JointTiming.md and the fps subiter's plan/agenda/FrameCeiling.md."
+ },
+ inventory: "ccd8f5dae9b8e85f74a57e08a890b444acc5ce8b9cbafc1d8d8f779c5b23d051",
+ storage: "0d55354a04bcbc12ab9b5112b26a0b80c9bd9d8513d1316c2f42d5e0255cd72e"
+}

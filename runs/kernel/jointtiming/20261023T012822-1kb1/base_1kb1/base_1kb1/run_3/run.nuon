@@ -1,0 +1,315 @@
+{
+  status: 0,
+  fault: null,
+  cpu_seconds: 84.55,
+  wall_seconds: 58.009180308,
+  quit_seconds: 58.000821665,
+  unfinished: [
+
+  ],
+  incomplete: null,
+  launch: "/home/box/tmp/jab-stress/frameceiling/p2check_1kb1/base_1kb1/base_1kb1/run_3/launch.nuon",
+  threads: [
+
+  ],
+  threads_span: null,
+  thread_readings: [
+    [requested, at,           threads];
+    [1.5,       1.500897751,  [
+        [id,       name,        cpu];
+        ["202876", jab,         0.17],
+        ["202878", call_rcu,    0.0],
+        ["202879", "CPU 0/TCG", 0.79],
+        ["202880", "CPU 1/TCG", 0.25],
+        ["202881", "CPU 2/TCG", 0.25],
+        ["202882", "CPU 3/TCG", 0.24],
+        ["202883", "CPU 4/TCG", 0.0],
+        ["202884", "CPU 5/TCG", 0.0],
+        ["202885", "CPU 6/TCG", 0.0],
+        ["202886", worker,      0.02]
+      ]],
+    [5.0,       5.000558031,  [
+        [id,       name,        cpu];
+        ["202876", jab,         0.3],
+        ["202878", call_rcu,    0.0],
+        ["202879", "CPU 0/TCG", 1.26],
+        ["202880", "CPU 1/TCG", 1.76],
+        ["202881", "CPU 2/TCG", 1.75],
+        ["202882", "CPU 3/TCG", 1.76],
+        ["202883", "CPU 4/TCG", 0.0],
+        ["202884", "CPU 5/TCG", 0.0],
+        ["202885", "CPU 6/TCG", 0.0],
+        ["202886", worker,      0.02]
+      ]],
+    [10.5,      10.500448774, [
+        [id,       name,        cpu];
+        ["202876", jab,         0.53],
+        ["202878", call_rcu,    0.0],
+        ["202879", "CPU 0/TCG", 1.98],
+        ["202880", "CPU 1/TCG", 4.1],
+        ["202881", "CPU 2/TCG", 4.08],
+        ["202882", "CPU 3/TCG", 4.1],
+        ["202883", "CPU 4/TCG", 0.0],
+        ["202884", "CPU 5/TCG", 0.0],
+        ["202885", "CPU 6/TCG", 0.0],
+        ["202886", worker,      0.02]
+      ]],
+    [20.0,      20.000829187, [
+        [id,       name,        cpu];
+        ["202876", jab,         0.89],
+        ["202878", call_rcu,    0.0],
+        ["202879", "CPU 0/TCG", 3.32],
+        ["202880", "CPU 1/TCG", 8.06],
+        ["202881", "CPU 2/TCG", 8.04],
+        ["202882", "CPU 3/TCG", 8.07],
+        ["202883", "CPU 4/TCG", 0.0],
+        ["202884", "CPU 5/TCG", 0.0],
+        ["202885", "CPU 6/TCG", 0.0]
+      ]],
+    [26.5,      26.501964806, [
+        [id,       name,        cpu];
+        ["202876", jab,         1.15],
+        ["202878", call_rcu,    0.0],
+        ["202879", "CPU 0/TCG", 4.18],
+        ["202880", "CPU 1/TCG", 10.97],
+        ["202881", "CPU 2/TCG", 10.91],
+        ["202882", "CPU 3/TCG", 10.94],
+        ["202883", "CPU 4/TCG", 0.0],
+        ["202884", "CPU 5/TCG", 0.0],
+        ["202885", "CPU 6/TCG", 0.0]
+      ]],
+    [32.0,      32.001025676, [
+        [id,       name,        cpu];
+        ["202876", jab,         1.37],
+        ["202878", call_rcu,    0.0],
+        ["202879", "CPU 0/TCG", 5.03],
+        ["202880", "CPU 1/TCG", 13.43],
+        ["202881", "CPU 2/TCG", 13.37],
+        ["202882", "CPU 3/TCG", 13.4],
+        ["202883", "CPU 4/TCG", 0.0],
+        ["202884", "CPU 5/TCG", 0.0],
+        ["202885", "CPU 6/TCG", 0.0]
+      ]],
+    [36.0,      36.001121535, [
+        [id,       name,        cpu];
+        ["202876", jab,         1.52],
+        ["202878", call_rcu,    0.0],
+        ["202879", "CPU 0/TCG", 5.54],
+        ["202880", "CPU 1/TCG", 15.08],
+        ["202881", "CPU 2/TCG", 15.04],
+        ["202882", "CPU 3/TCG", 15.06],
+        ["202883", "CPU 4/TCG", 0.0],
+        ["202884", "CPU 5/TCG", 0.0],
+        ["202885", "CPU 6/TCG", 0.0]
+      ]],
+    [41.5,      41.501194044, [
+        [id,       name,        cpu];
+        ["202876", jab,         1.73],
+        ["202878", call_rcu,    0.0],
+        ["202879", "CPU 0/TCG", 6.05],
+        ["202880", "CPU 1/TCG", 17.49],
+        ["202881", "CPU 2/TCG", 17.45],
+        ["202882", "CPU 3/TCG", 17.45],
+        ["202883", "CPU 4/TCG", 0.0],
+        ["202884", "CPU 5/TCG", 0.0],
+        ["202885", "CPU 6/TCG", 0.0]
+      ]],
+    [51.5,      51.501335238, [
+        [id,       name,        cpu];
+        ["202876", jab,         2.11],
+        ["202878", call_rcu,    0.0],
+        ["202879", "CPU 0/TCG", 7.49],
+        ["202880", "CPU 1/TCG", 21.79],
+        ["202881", "CPU 2/TCG", 21.76],
+        ["202882", "CPU 3/TCG", 21.75],
+        ["202883", "CPU 4/TCG", 0.0],
+        ["202884", "CPU 5/TCG", 0.0],
+        ["202885", "CPU 6/TCG", 0.0]
+      ]],
+    [52.0,      52.000974322, [
+        [id,       name,        cpu];
+        ["202876", jab,         2.12],
+        ["202878", call_rcu,    0.0],
+        ["202879", "CPU 0/TCG", 7.55],
+        ["202880", "CPU 1/TCG", 22.05],
+        ["202881", "CPU 2/TCG", 22.02],
+        ["202882", "CPU 3/TCG", 22.01],
+        ["202883", "CPU 4/TCG", 0.0],
+        ["202884", "CPU 5/TCG", 0.0],
+        ["202885", "CPU 6/TCG", 0.0]
+      ]],
+    [52.5,      52.501143859, [
+        [id,       name,        cpu];
+        ["202876", jab,         2.13],
+        ["202878", call_rcu,    0.0],
+        ["202879", "CPU 0/TCG", 7.65],
+        ["202880", "CPU 1/TCG", 22.3],
+        ["202881", "CPU 2/TCG", 22.26],
+        ["202882", "CPU 3/TCG", 22.25],
+        ["202883", "CPU 4/TCG", 0.0],
+        ["202884", "CPU 5/TCG", 0.0],
+        ["202885", "CPU 6/TCG", 0.0]
+      ]],
+    [53.0,      53.001159843, [
+        [id,       name,        cpu];
+        ["202876", jab,         2.16],
+        ["202878", call_rcu,    0.0],
+        ["202879", "CPU 0/TCG", 7.73],
+        ["202880", "CPU 1/TCG", 22.5],
+        ["202881", "CPU 2/TCG", 22.46],
+        ["202882", "CPU 3/TCG", 22.45],
+        ["202883", "CPU 4/TCG", 0.0],
+        ["202884", "CPU 5/TCG", 0.0],
+        ["202885", "CPU 6/TCG", 0.0]
+      ]],
+    [53.5,      53.500712222, [
+        [id,       name,        cpu];
+        ["202876", jab,         2.17],
+        ["202878", call_rcu,    0.0],
+        ["202879", "CPU 0/TCG", 7.79],
+        ["202880", "CPU 1/TCG", 22.7],
+        ["202881", "CPU 2/TCG", 22.66],
+        ["202882", "CPU 3/TCG", 22.65],
+        ["202883", "CPU 4/TCG", 0.0],
+        ["202884", "CPU 5/TCG", 0.0],
+        ["202885", "CPU 6/TCG", 0.0]
+      ]],
+    [54.0,      54.000691184, [
+        [id,       name,        cpu];
+        ["202876", jab,         2.19],
+        ["202878", call_rcu,    0.0],
+        ["202879", "CPU 0/TCG", 7.84],
+        ["202880", "CPU 1/TCG", 22.91],
+        ["202881", "CPU 2/TCG", 22.88],
+        ["202882", "CPU 3/TCG", 22.87],
+        ["202883", "CPU 4/TCG", 0.0],
+        ["202884", "CPU 5/TCG", 0.0],
+        ["202885", "CPU 6/TCG", 0.0]
+      ]],
+    [54.5,      54.501969919, [
+        [id,       name,        cpu];
+        ["202876", jab,         2.21],
+        ["202878", call_rcu,    0.0],
+        ["202879", "CPU 0/TCG", 7.95],
+        ["202880", "CPU 1/TCG", 23.16],
+        ["202881", "CPU 2/TCG", 23.13],
+        ["202882", "CPU 3/TCG", 23.11],
+        ["202883", "CPU 4/TCG", 0.0],
+        ["202884", "CPU 5/TCG", 0.0],
+        ["202885", "CPU 6/TCG", 0.0]
+      ]],
+    [55.0,      55.001257009, [
+        [id,       name,        cpu];
+        ["202876", jab,         2.23],
+        ["202878", call_rcu,    0.0],
+        ["202879", "CPU 0/TCG", 8.05],
+        ["202880", "CPU 1/TCG", 23.4],
+        ["202881", "CPU 2/TCG", 23.36],
+        ["202882", "CPU 3/TCG", 23.35],
+        ["202883", "CPU 4/TCG", 0.0],
+        ["202884", "CPU 5/TCG", 0.0],
+        ["202885", "CPU 6/TCG", 0.0]
+      ]],
+    [56.0,      56.00065535,  [
+        [id,       name,        cpu];
+        ["202876", jab,         2.27],
+        ["202878", call_rcu,    0.0],
+        ["202879", "CPU 0/TCG", 8.21],
+        ["202880", "CPU 1/TCG", 23.78],
+        ["202881", "CPU 2/TCG", 23.75],
+        ["202882", "CPU 3/TCG", 23.74],
+        ["202883", "CPU 4/TCG", 0.0],
+        ["202884", "CPU 5/TCG", 0.0],
+        ["202885", "CPU 6/TCG", 0.0]
+      ]]
+  ],
+  qemu_binary: "/home/box/proj/sourcetrait/jab/extern/qemu/bin/qemu-system-riscv64",
+  qemu: [
+    -machine,
+    "virt,aia=aplic-imsic,aclint=on",
+    -cpu,
+    "rva23s64,pmp=true",
+    -accel,
+    "tcg,thread=multi",
+    -smp,
+    "7",
+    -global,
+    "virtio-mmio.force-legacy=false",
+    -parallel,
+    none,
+    -name,
+    "jab fierce,process=jab,debug-threads=on",
+    -m,
+    "8G",
+    -device,
+    "virtio-gpu-device,xres=1920,yres=1080",
+    -device,
+    virtio-keyboard-device,
+    -device,
+    virtio-tablet-device,
+    -device,
+    virtio-rng-device,
+    -audiodev,
+    "wav,path=/home/box/tmp/jab-stress/frameceiling/p2check_1kb1/base_1kb1/base_1kb1/run_3/sound.wav,id=snd0,out.frequency=48000",
+    -device,
+    "virtio-sound-device,audiodev=snd0,streams=1",
+    -device,
+    virtio-serial-device,
+    -chardev,
+    "pipe,id=jabapi,path=/home/box/tmp/jab-stress/frameceiling/p2check_1kb1/base_1kb1/base_1kb1/run_3/api",
+    -device,
+    "virtserialport,chardev=jabapi,nr=2,name=jab.api",
+    -device,
+    "virtio-input-host-device,evdev=/home/box/tmp/jab-stress/frameceiling/p2check_1kb1/base_1kb1/base_1kb1/run_3/pad",
+    -bios,
+    none,
+    -kernel,
+    "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kernel/kexport_d297a6b/kernel/release/jab.elf",
+    -device,
+    "loader,file=/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_d297a6b/kit/fierce/release/fierce.jab,addr=0x80a00000,force-raw=on",
+    -display,
+    none,
+    -monitor,
+    "pipe:/home/box/tmp/jab-stress/frameceiling/p2check_1kb1/base_1kb1/base_1kb1/run_3/monitor",
+    -serial,
+    "file:/home/box/tmp/jab-stress/frameceiling/p2check_1kb1/base_1kb1/base_1kb1/run_3/serial.log",
+    -pidfile,
+    "/home/box/tmp/jab-stress/frameceiling/p2check_1kb1/base_1kb1/base_1kb1/run_3/qemu.pid",
+    -d,
+    guest_errors,
+    -D,
+    "/home/box/tmp/jab-stress/frameceiling/p2check_1kb1/base_1kb1/base_1kb1/run_3/qemu.log",
+    -append,
+    "jab.spec=1kb1",
+    -drive,
+    "if=none,id=disk0,file=/home/box/tmp/jab-stress/frameceiling/p2check_1kb1/base_1kb1/base_1kb1/render_0.romfs,format=raw,readonly=on",
+    -device,
+    "virtio-blk-pci,disable-legacy=on,vectors=0,drive=disk0,serial=fps",
+    -drive,
+    "if=none,id=mix,file=/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/mix.romfs,format=raw,readonly=on",
+    -device,
+    "virtio-blk-pci,disable-legacy=on,vectors=0,drive=mix,serial=mix"
+  ],
+  machine: {
+    harts: 7,
+    ram_gib: 8,
+    spec: {
+      name: "1kb1",
+      cores: 7,
+      ram_gib: 8,
+      display: {
+        width: 1920,
+        height: 1080
+      }
+    },
+    diagnostic: null,
+    machine: "virt,aia=aplic-imsic,aclint=on",
+    cpu: "rva23s64,pmp=true",
+    accel: "tcg,thread=multi",
+    overrides: [
+
+    ]
+  },
+  window: none,
+  audio: "wav,path=/home/box/tmp/jab-stress/frameceiling/p2check_1kb1/base_1kb1/base_1kb1/run_3/sound.wav"
+}
