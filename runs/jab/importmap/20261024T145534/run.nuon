@@ -1,0 +1,21 @@
+{
+ schema: 2,
+ set: importmap,
+ stamp: "20261024T145534",
+ task: JustToNu,
+ scope: {
+  kind: whole,
+  ran: 1,
+  of: 1
+ },
+ builds: [
+  [part, build,                                      source,   record];
+  [run,  "01ad5f850a7da15c3697f47f1bf4912a2f79a4c3", checkout, "report.nuon"]
+ ],
+ kept: {
+  as: current,
+  why: "The import-map checker after capture's thumbnail and the eighteen runners retired: jab 01ad5f85 and jab-stress 0f86dd2e, both clean, held to the contract (jab-stress-data ea89ad3, SHA-256 716eb294) by jab-stress's `nu/bin/nuance/importmap.nu check`, every group landed: 301 sources, 2773 declarations, 419 contract defs, 798 import edges, and 288 consumer calls, no refusal. The contract dropped the twenty retired runner modules' rows and owns the recorded runner's env-of, which the first check over these trees refused as unowned."
+ },
+ inventory: "493d63245460984ec647ae9078508fc7ede6520e396f465c1b5e26acafc38b33",
+ storage: "7da6214250a8e4a5d0c1b01543de550b07c93a10464dbe19f985b67e0220b7dc"
+}
