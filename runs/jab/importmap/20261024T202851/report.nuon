@@ -1,0 +1,49 @@
+{
+ contract: {
+  file: "/home/box/proj/sourcetrait/jab-stress-data/assets/jab/importmap/contract.nuon",
+  "sha256": "c9d497a76a0664b374cd8e649b8be19c02429b30962896bd089bf096002c79aa",
+  commits: {
+   jab: "e5851a3c70e622f418ef2722cf4286ab2cf20178",
+   stress: "9eff933bdbe2d9be19ef74fa15dfab19a9388ef6"
+  }
+ },
+ trees: {
+  jab: {
+   commit: "8453c755e3acaeee1dffa0c44f711408e6d1fe84",
+   dirty: false
+  },
+  jab-stress: {
+   commit: "9d19c3047b5ce19d61817ad38fdacd7ee5da39fb",
+   dirty: false
+  }
+ },
+ landed: [
+  KitFierce,
+  "SdkModules/1",
+  "SdkModules/2",
+  "SdkModules/3",
+  "SdkModules/4",
+  "SdkModules/5",
+  "SdkModules/6",
+  "SdkModules/7",
+  FierceModules,
+  FierceTools,
+  WorkspaceDrivers,
+  DataModels,
+  StressLayout,
+  RunnerHooks,
+  JustRetired,
+  FrameCeiling,
+  NuLayout
+ ],
+ checked: {
+  sources: 301,
+  declarations: 2777,
+  contract_defs: 419,
+  imports: 798,
+  consumer_calls: 288
+ },
+ refusals: [
+
+ ]
+}
