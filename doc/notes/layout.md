@@ -218,6 +218,8 @@ problem refuses the landing, and the refusal names it. The outputs held:
 - `report.nuon`, the import-map check's report, in `jab/importmap`.
 - `gauge.nuon`, the gauge's report of a batch, in any set: at a run's top,
   in a battery's step, and in a qualification's `bench/` step.
+- `host_load.nuonl`, a recorded step's readings of the host's CPU by
+  process, in any set, each line held to its model.
 
 Some outputs copy another file's record whole, such as a run's identity or
 its measurement. A model states such a copy as its writer writes it now,
