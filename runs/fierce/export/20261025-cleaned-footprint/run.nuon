@@ -1,0 +1,26 @@
+{
+ schema: 2,
+ set: export,
+ stamp: "20261025-cleaned-footprint",
+ task: FootprintEstimate,
+ scope: {
+  kind: targeted,
+  ran: 2,
+  of: 2,
+  names: [
+   fierce_release_footprint,
+   fexport_footprint
+  ]
+ },
+ builds: [
+  [part,                     build,                                      source,   record];
+  [fierce_release_footprint, "3222dfc314d0363556a494497c83536c95d0f315", checkout, "fierce_release_footprint/step.nuon"],
+  [fexport_footprint,        "3222dfc314d0363556a494497c83536c95d0f315", checkout, "fexport_footprint/step.nuon"]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "FootprintEstimate's candidate on the cleaned layout, for its comparison repeated after CadenceCleanup's layout comparison found a shift: fierce exported at e220193 with FOOTPRINT, through jab-stress 0592d29's recorded runner at jab 3222dfc, both checkouts clean, kernel/ and sdk/src equal to d297a6b's. export_e220193-footprint, release with FOOTPRINT, image 66342455b43770d1a3c91740d4ced0603dddc3bdfa2711be00fdcd3014fb87f8, gated on the tree's own --set footprint image built the step before. A first export of it, its step recorded without the FOOTPRINT symbol the release kernel beside it carried, was retired to the target's retire home and made again here. The kernel beside it is runs/kernel/export/20261022-baselines' kexport_d297a6b. The export's whole tree copied into its step, its provenance among it, the sources and builds archived. Cited by the fps subiter's plan/agenda/FrameCeiling/FootprintEstimate.md."
+ },
+ inventory: "d26f6ac6f23884cc038b0e1ac5d36c78335fda67ef6c2f9ec6d2a89213d0c324",
+ storage: "06d6b34d5d7da019364484142d189b1fd2d76ae90b5386a2130eaa555c8ef643"
+}

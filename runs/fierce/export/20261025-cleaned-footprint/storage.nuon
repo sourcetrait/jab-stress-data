@@ -1,0 +1,102 @@
+[
+ [object,                                                       kind,      length, "sha256",                                                           holds];
+ [fexport_footprint/build/kernel/flags,                         raw,       3683,   "67b6bb13cc8741ac7bf74d90cd9fe70b11ba7946e7d1ab97b951488f19263cd1", [
+   fexport_footprint/build/kernel/flags
+  ]],
+ ["fexport_footprint/host_load.nuonl",                          raw,       2290,   "2ec63a87ce61d6f952204981bda54ae55979b82bfc734ad6bedbe587bed13b3b", [
+   "fexport_footprint/host_load.nuonl"
+  ]],
+ ["fexport_footprint/out_0/kit/fierce/program.jab.toml",        raw,       509,    "df3748468dc5f4f3ae7db6859589d0ab62dad9d0f220caa944bdc7ee7a2af4a1", [
+   "fexport_footprint/out_0/kit/fierce/program.jab.toml"
+  ]],
+ ["fexport_footprint/out_0/kit/fierce/release/demand.nuon",     raw,       189,    "789082eb110f7bb83f1445b2800c3947252e2dbdc7aa30b9ca839b85a7019ab5", [
+   "fexport_footprint/out_0/kit/fierce/release/demand.nuon"
+  ]],
+ ["fexport_footprint/out_0/kit/fierce/release/flags",           raw,       4659,   "d164fb1b3d0ae45ebe9c661e5225891a62d0bf058a017986bbc9f96d5f63e7d3", [
+   "fexport_footprint/out_0/kit/fierce/release/flags"
+  ]],
+ ["fexport_footprint/out_0/kit/fierce/release/home",            raw,       107,    "23e01217cd2a90d931f691f3291f219f854941f51a0b2eb5e3f12fb8b114717f", [
+   "fexport_footprint/out_0/kit/fierce/release/home"
+  ]],
+ ["fexport_footprint/out_0/kit/fierce/release/provenance.nuon", raw,       2040,   "02aa1b2cd05912b345d123f776e6be86fb38aafb4e94b3141b0928e9c5290f2b", [
+   "fexport_footprint/out_0/kit/fierce/release/provenance.nuon"
+  ]],
+ ["fexport_footprint/out_0/kit/fierce/source.nuon",             raw,       457,    "4215b0647972270c510cfc583a5aa37a66e9440d83e991024b0f6aad358d1dbf", [
+   "fexport_footprint/out_0/kit/fierce/source.nuon"
+  ]],
+ ["fexport_footprint/run.stderr.nuonl",                         container, 233,    "58ef23bc318f454b1377fea8cad62d2b11b38f9ae0efa7cca14bc6020ec187a5", [
+   "fexport_footprint/run.stderr"
+  ]],
+ ["fexport_footprint/run.stdout.nuonl",                         container, 700,    "f2f0d3d7f09703328b3bab12e7388e0c972c8f74438889984f18a9cf92ae84ec", [
+   "fexport_footprint/run.stdout"
+  ]],
+ ["fexport_footprint/step.nuon",                                raw,       2301,   "380d8bab1d6b17f8d40cfd0dc424caa0b89bc7d9330ca5d03b2fcf2f6adee192", [
+   "fexport_footprint/step.nuon"
+  ]],
+ [fierce_release_footprint/build/kernel/flags,                  raw,       3683,   "67b6bb13cc8741ac7bf74d90cd9fe70b11ba7946e7d1ab97b951488f19263cd1", [
+   fierce_release_footprint/build/kernel/flags
+  ]],
+ [fierce_release_footprint/build/kit/fierce/flags,              raw,       2341,   "f30940becfeeec82c3171cc76c5e55c6f94d10596635825e49d4bb82e8ab2bcc", [
+   fierce_release_footprint/build/kit/fierce/flags
+  ]],
+ ["fierce_release_footprint/host_load.nuonl",                   raw,       2289,   "1fde95912dc6d0b73eab3ba56fc09d2e3de1011782137def583141d07cf86fbd", [
+   "fierce_release_footprint/host_load.nuonl"
+  ]],
+ ["fierce_release_footprint/run.stderr.nuonl",                  container, 233,    "ae72bc595143b4a0581da3df7c3a49170376341c426ee8f7923caf97d627af7f", [
+   "fierce_release_footprint/run.stderr"
+  ]],
+ ["fierce_release_footprint/run.stdout.nuonl",                  container, 1304,   "8ebe97d3821aefa554472990130503c1be6710de065396929e003f33cc54c91c", [
+   "fierce_release_footprint/run.stdout"
+  ]],
+ ["fierce_release_footprint/step.nuon",                         raw,       3233,   "9d8a56e704a6f294a981bd57cd3eed5fea0f0fc145070d65785f3aef41520ce7", [
+   "fierce_release_footprint/step.nuon"
+  ]],
+ ["archive.tar.xz",                                             archive,   202196, "8bc783e40cde170b88d3591eccc576088a655f9dcf704f5c03aab086474f67a3", [
+   "fexport_footprint/build/kernel/jab.bin",
+   "fexport_footprint/build/kernel/jab.elf",
+   "fexport_footprint/out_0/export.tar",
+   "fexport_footprint/out_0/kit/fierce/release/fierce.elf",
+   "fexport_footprint/out_0/kit/fierce/release/fierce.jab",
+   "fexport_footprint/out_0/kit/fierce/release/fierce.o",
+   "fexport_footprint/out_0/kit/fierce/release/jab_header.S",
+   "fexport_footprint/out_0/kit/fierce/release/jab_header.o",
+   "fexport_footprint/out_0/kit/fierce/release/jab_manifest.inc",
+   "fexport_footprint/out_0/kit/fierce/release/march/march.S",
+   "fexport_footprint/out_0/kit/fierce/release/march/march.o",
+   "fexport_footprint/out_0/kit/fierce/src/actor.S",
+   "fexport_footprint/out_0/kit/fierce/src/body.S",
+   "fexport_footprint/out_0/kit/fierce/src/camera.S",
+   "fexport_footprint/out_0/kit/fierce/src/census.S",
+   "fexport_footprint/out_0/kit/fierce/src/console.S",
+   "fexport_footprint/out_0/kit/fierce/src/hud.S",
+   "fexport_footprint/out_0/kit/fierce/src/light.S",
+   "fexport_footprint/out_0/kit/fierce/src/load.S",
+   "fexport_footprint/out_0/kit/fierce/src/main.S",
+   "fexport_footprint/out_0/kit/fierce/src/map.inc",
+   "fexport_footprint/out_0/kit/fierce/src/mip.S",
+   "fexport_footprint/out_0/kit/fierce/src/mixer.S",
+   "fexport_footprint/out_0/kit/fierce/src/player.S",
+   "fexport_footprint/out_0/kit/fierce/src/raster.S",
+   "fexport_footprint/out_0/kit/fierce/src/render.inc",
+   "fexport_footprint/out_0/kit/fierce/src/sector.S",
+   "fexport_footprint/out_0/kit/fierce/src/service.S",
+   "fexport_footprint/out_0/kit/fierce/src/snapshot.S",
+   "fexport_footprint/out_0/kit/fierce/src/sprite.S",
+   "fexport_footprint/out_0/kit/fierce/src/tile.S",
+   "fexport_footprint/out_0/kit/fierce/src/trace.S",
+   "fexport_footprint/out_0/kit/fierce/src/workers.S",
+   "fexport_footprint/out_0/kit/fierce/src/world.S",
+   "fexport_footprint/out_0/sdk/src/jab.inc",
+   "fexport_footprint/out_0/sdk/src/jab_f32.inc",
+   "fexport_footprint/out_0/sdk/src/jab_f64.inc",
+   "fexport_footprint/out_0/sdk/src/jab_jobs.inc",
+   "fexport_footprint/out_0/sdk/src/jab_keys.inc",
+   "fexport_footprint/out_0/sdk/src/jab_pad.inc",
+   "fexport_footprint/out_0/sdk/src/jab_rng.inc",
+   "fexport_footprint/out_0/sdk/src/program.ld",
+   "fierce_release_footprint/build/kernel/jab.bin",
+   "fierce_release_footprint/build/kernel/jab.elf",
+   "fierce_release_footprint/build/kit/fierce/fierce.elf",
+   "fierce_release_footprint/build/kit/fierce/fierce.jab"
+  ]]
+]

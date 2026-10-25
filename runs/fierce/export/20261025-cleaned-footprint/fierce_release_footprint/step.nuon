@@ -1,0 +1,103 @@
+{
+  name: fierce_release_footprint,
+  repo: jab,
+  bin: do,
+  words: [
+    build,
+    kit/fierce,
+    --set,
+    footprint
+  ],
+  env: [
+
+  ],
+  symbols: [
+    FOOTPRINT
+  ],
+  started: "2026-10-25T04:24:38.909915954+00:00",
+  ended: "2026-10-25T04:24:41.027594584+00:00",
+  seconds: 2.09530825,
+  exit: 0,
+  ok: true,
+  checkouts: {
+    jab: {
+      commit: "3222dfc314d0363556a494497c83536c95d0f315",
+      clean: true
+    },
+    stress: {
+      commit: "0592d2945ef1c29d1992ed951b0fa377e5bda137",
+      clean: true
+    }
+  },
+  kernel_source: {
+    asked: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    last: "51a4956971391cfd45ef6cf6a2fa4aa3223a1b37",
+    equal: true
+  },
+  fixtures: [
+
+  ],
+  kernel: {
+    tree: release,
+    out: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/kernel",
+    elf: {
+      from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/kernel/jab.elf",
+      kept: "build/kernel/jab.elf",
+      "sha256": "5eec373c8d4c0a9a73a8b6fb8d0691850351be749bef7560006262d52eda7e53"
+    },
+    flags: "-I src/include -I ../sdk/src --defsym FOOTPRINT=1 -march=rva23s64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+    defined: [
+      FOOTPRINT
+    ],
+    held: true,
+    loaded: {
+      kept: "build/kernel/jab.bin",
+      "sha256": "efe12507e089683b9d5011a84b4511da9f1e0861e3c01ece4949e11ad474c606"
+    }
+  },
+  programs: [
+    [tree,    out,                                                                    elf,                                                                                                                                                                                                                                          flags,                                                                                                                                                                                                      defined,                     held, program,    image];
+    [release, "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/kit/fierce", {
+        from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/kit/fierce/fierce.elf",
+        kept: "build/kit/fierce/fierce.elf",
+        "sha256": "5052e6bf6fc2f0a19a1c01b14bd7e41177a096e6522cb65c04b0dd44923447a2"
+      }, "-I ../../sdk/src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/kit/fierce --defsym FOOTPRINT=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-", [
+        FOOTPRINT
+      ], true, kit/fierce, {
+        from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/kit/fierce/fierce.jab",
+        kept: "build/kit/fierce/fierce.jab",
+        "sha256": "66342455b43770d1a3c91740d4ced0603dddc3bdfa2711be00fdcd3014fb87f8"
+      }]
+  ],
+  outs: [
+
+  ],
+  host_load: {
+    file: "host_load.nuonl",
+    root: {
+      pid: 613732,
+      start: 22116444
+    },
+    readings: 2,
+    covered: {
+      from: 221164.58,
+      to: 221166.7
+    },
+    final: true,
+    gaps: [
+
+    ],
+    unbounded: [
+
+    ],
+    named: [
+
+    ],
+    unattributed: [
+      [from,      to,       cores];
+      [221164.58, 221166.7, 1.061]
+    ]
+  },
+  stdout: "run.stdout",
+  stderr: "run.stderr"
+}
