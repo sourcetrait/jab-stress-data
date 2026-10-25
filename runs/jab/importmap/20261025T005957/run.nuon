@@ -1,0 +1,21 @@
+{
+ schema: 2,
+ set: importmap,
+ stamp: "20261025T005957",
+ task: Qualification,
+ scope: {
+  kind: whole,
+  ran: 1,
+  of: 1
+ },
+ builds: [
+  [part, build,                                      source,   record];
+  [run,  "856e52966f07fcc51c8771a991d5feb7e946b336", checkout, "report.nuon"]
+ ],
+ kept: {
+  as: current,
+  why: "The import-map checker after GuestCatchUps: jab 856e5296 and jab-stress 228f402b, both clean, held to the contract (jab-stress-data b137985, SHA-256 34907e51) by jab-stress's `nu/bin/nuance/importmap.nu check`, every group landed: 301 sources, 2778 declarations, 419 contract defs, 798 import edges, and 288 consumer calls, no refusal. The contract owns the gauge's catch-ups-of under FrameCeiling, re-exported through `gauge measure` and called by the qualification record; no import edge added."
+ },
+ inventory: "bec8edc29db7e103a6dd3eb36bdbf88ec5a3604a99827d4424ad8ffc131039fa",
+ storage: "b2dde6d2a3cfeb7c403a75fb9581002b30bd4741dd346f6971b3473dbed24366"
+}

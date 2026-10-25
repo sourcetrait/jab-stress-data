@@ -1,7 +1,7 @@
 {
  contract: {
   file: "/home/box/proj/sourcetrait/jab-stress-data/assets/jab/importmap/contract.nuon",
-  "sha256": "b82737b95340382f79d7393d2edec03a73f51c42c0d66e63ab0af00885b30f09",
+  "sha256": "34907e5195f3028a30117b1a7502403dc2423ad9aae67501e6539025c6cf13fe",
   commits: {
    jab: "e5851a3c70e622f418ef2722cf4286ab2cf20178",
    stress: "9eff933bdbe2d9be19ef74fa15dfab19a9388ef6"
@@ -9,11 +9,11 @@
  },
  trees: {
   jab: {
-   commit: "e5851a3c70e622f418ef2722cf4286ab2cf20178",
+   commit: "856e52966f07fcc51c8771a991d5feb7e946b336",
    dirty: false
   },
   jab-stress: {
-   commit: "9eff933bdbe2d9be19ef74fa15dfab19a9388ef6",
+   commit: "228f402b953775ec57405602fd29610afd3416aa",
    dirty: false
   }
  },
@@ -37,10 +37,10 @@
   NuLayout
  ],
  checked: {
-  sources: 339,
-  declarations: 2821,
+  sources: 301,
+  declarations: 2778,
   contract_defs: 419,
-  imports: 827,
+  imports: 798,
   consumer_calls: 288
  },
  refusals: [
