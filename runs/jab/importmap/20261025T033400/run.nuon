@@ -1,0 +1,21 @@
+{
+ schema: 2,
+ set: importmap,
+ stamp: "20261025T033400",
+ task: CadenceCleanup,
+ scope: {
+  kind: whole,
+  ran: 1,
+  of: 1
+ },
+ builds: [
+  [part, build,                                      source,   record];
+  [run,  "3222dfc314d0363556a494497c83536c95d0f315", checkout, "report.nuon"]
+ ],
+ kept: {
+  as: current,
+  why: "The import-map checker after CadenceCleanup: jab 3222dfc3 and jab-stress 0592d294, both clean, held to the contract (jab-stress-data 5f8425f, SHA-256 a5a982c2) by jab-stress's `nu/bin/nuance/importmap.nu check`, every group landed: 302 sources, 2806 declarations, 419 contract defs, 800 import edges, and 290 consumer calls, no refusal. The contract owns the gauge's LAUNCHABLE, the cadences a run may ask, under FrameCeiling."
+ },
+ inventory: "2819217810f1841a8d10ea5e3da191a6d37395d7a2b4a5c64d71a80e1cd54cc1",
+ storage: "22799868b8105ec79736dd283540dc173c5bdcbbbaa4a45131c07beaa629e9f1"
+}
