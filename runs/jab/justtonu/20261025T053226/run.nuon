@@ -1,0 +1,21 @@
+{
+ schema: 2,
+ set: justtonu,
+ stamp: "20261025T053226",
+ task: FrameCeiling,
+ scope: {
+  kind: whole,
+  ran: 26,
+  of: 26
+ },
+ builds: [
+  [part, build,                                      source,   record];
+  [run,  "fec6e86c270c99ee7bd5cdcebcf1cb9c1abe1c1b", checkout, "manifest.nuon"]
+ ],
+ kept: {
+  as: current,
+  why: "FrameCeiling's next iteration's item 7, FLIP_BATCH and FOOTPRINT removed: jab fec6e86's 26 builds in a fresh cache by jab-stress 13453b0's `nuance.nu freshbuild manifest`, held by `freshbuild compare` to the manifest at 3222dfc taken before the removals (runs/jab/justtonu/20261025T052753): all 315 rows the same, every image, ELF, disk, kernel ELF, and kernel's loaded bytes of every retained configuration, none remade, no refusal (compare.nuon). Cited by the fps subiter's plan/agenda/FrameCeiling.md."
+ },
+ inventory: "bca5762204e7a6a4209fce81532c3695b478fb120274826d2dbfa10341a8061c",
+ storage: "8cbadf9c07355661bdf74d2e7528b0db005829cdd663626c55515bd47c6158b6"
+}

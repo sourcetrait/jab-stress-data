@@ -1,0 +1,28 @@
+{
+ before: {
+  file: "/home/box/tmp/jab-stress/freshbuild/20261025-item7-before/manifest.nuon",
+  commit: "3222dfc314d0363556a494497c83536c95d0f315"
+ },
+ after: {
+  file: "/home/box/tmp/jab-stress/freshbuild/20261025-item7-after",
+  commit: "fec6e86c270c99ee7bd5cdcebcf1cb9c1abe1c1b"
+ },
+ moves: {
+  paths: [
+   [from,     to];
+   [game/fps, kit/fierce]
+  ],
+  names: [
+   [program,    from, to];
+   [kit/fierce, fps,  fierce]
+  ]
+ },
+ rows: 315,
+ same: 315,
+ remade: [
+
+ ],
+ refusals: [
+
+ ]
+}

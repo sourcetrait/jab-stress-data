@@ -1,0 +1,21 @@
+{
+ schema: 2,
+ set: justtonu,
+ stamp: "20261025T052753",
+ task: FrameCeiling,
+ scope: {
+  kind: targeted,
+  ran: 26,
+  of: 26
+ },
+ builds: [
+  [part, build,                                      source,   record];
+  [run,  "3222dfc314d0363556a494497c83536c95d0f315", checkout, "manifest.nuon"]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "FrameCeiling's next iteration's item 7, the fresh build before its removals: jab 3222dfc's 26 builds of the matrix less FOOTPRINT's and FLIP_BATCH's tuples (jab-stress 13453b0) in a fresh cache by `nuance.nu freshbuild manifest`, 315 rows, no build failing; the baseline the removal's fresh build is held to. Cited by runs/jab/justtonu/20261025T053226 and the fps subiter's plan/agenda/FrameCeiling.md."
+ },
+ inventory: "5d9bd7df80ad11ab5ad00a8e6196343a3384344ae26817d2fd6be123c3c29d0c",
+ storage: "fe9b732613ecd113a4b53c05d0ee3e6dc2dc9dc10d68a4d1e6fdf13a0975b10b"
+}
