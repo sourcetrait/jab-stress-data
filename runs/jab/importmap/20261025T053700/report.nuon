@@ -1,7 +1,7 @@
 {
  contract: {
   file: "/home/box/proj/sourcetrait/jab-stress-data/assets/jab/importmap/contract.nuon",
-  "sha256": "988b65f5f1f48962d0e8537bb0f3af426761ae35c1cbadc00f4aa0f08ae1ab22",
+  "sha256": "9c743ee77df1d23611cf08a733246d1096e8259c0a0401e9cd7379cc52d458b6",
   commits: {
    jab: "e5851a3c70e622f418ef2722cf4286ab2cf20178",
    stress: "9eff933bdbe2d9be19ef74fa15dfab19a9388ef6"
@@ -9,11 +9,11 @@
  },
  trees: {
   jab: {
-   commit: "5ca0ab84230b819f419da055064e1694a7165afe",
+   commit: "fec6e86c270c99ee7bd5cdcebcf1cb9c1abe1c1b",
    dirty: false
   },
   jab-stress: {
-   commit: "b32124d803074c8ca3900b61f02e4fbc522a97af",
+   commit: "13453b032954d660cee3029cf010e0e2dc5d6f0f",
    dirty: false
   }
  },

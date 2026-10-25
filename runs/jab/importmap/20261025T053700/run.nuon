@@ -1,0 +1,21 @@
+{
+ schema: 2,
+ set: importmap,
+ stamp: "20261025T053700",
+ task: FrameCeiling,
+ scope: {
+  kind: whole,
+  ran: 1,
+  of: 1
+ },
+ builds: [
+  [part, build,                                      source,   record];
+  [run,  "fec6e86c270c99ee7bd5cdcebcf1cb9c1abe1c1b", checkout, "report.nuon"]
+ ],
+ kept: {
+  as: current,
+  why: "The import-map checker after FrameCeiling's next iteration's item 7, FLIP_BATCH and FOOTPRINT removed: jab fec6e86c and jab-stress 13453b03, both clean, held to the contract (jab-stress-data 76b40bf, SHA-256 9c743ee7) by jab-stress's `nu/bin/nuance/importmap.nu check`, every group landed: 302 sources, 2805 declarations, 419 contract defs, 800 import edges, and 290 consumer calls, no refusal. The contract retires the handoff suite's COUNT_SATURATED under FrameCeiling."
+ },
+ inventory: "73c25efc0529953b60e5b3eab43ede1ca0b056adde9550235dbc5821de26d3ba",
+ storage: "db97a89bcfda1b924fdf78ab94e87a2d4ece5e829ccde039bd742ae9e3e4ccda"
+}
