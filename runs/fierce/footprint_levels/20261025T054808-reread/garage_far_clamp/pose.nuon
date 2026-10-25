@@ -1,0 +1,214 @@
+{
+  pose: {
+    name: garage_far_clamp,
+    map: "render_0",
+    x: 1.5,
+    y: 17.0,
+    z: -1.4,
+    yaw: 0,
+    pitch: -5,
+    roll: 0,
+    images: clamp,
+    witness: {
+      row: 511,
+      "x0": 735
+    }
+  },
+  disk: {
+    name: "render_0_still",
+    tree: "/home/box/tmp/ai/two/aCIHF7edB6B/fpreread/scratch/out/disk_render_0/tree/render_0_still",
+    disk: "/home/box/tmp/ai/two/aCIHF7edB6B/fpreread/scratch/out/disk_render_0/render_0_still.romfs",
+    "sha256": "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+    map: "/home/box/tmp/ai/two/aCIHF7edB6B/fpreread/scratch/out/disk_render_0/tree/render_0_still/map/render_0_still.jabfps.map"
+  },
+  export: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/footprint/export_c804ccb",
+  commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+  tool: {
+    path: /home/box/proj/sourcetrait/jab/kit/fierce/rust/target/release/footprint,
+    "sha256": "b2cbfedd7c5027965debc22908a0f825bca825345c71cd97f407e80e502be1fe",
+    commit: "fec6e86c270c99ee7bd5cdcebcf1cb9c1abe1c1b",
+    dirty: false
+  },
+  launch: {
+    api: true,
+    sound: false,
+    audio: none
+  },
+  rows: [
+    [label,                  status, screen,                                                                                                                  "screen_sha256",                                                    faults,     bake,                                                                    binding];
+    [owner_clamp,            124,    "/home/box/tmp/ai/two/aCIHF7edB6B/fpreread/scratch/restoration/tree/garage_far_clamp/owner_clamp/screen.ppm",            "f9fd72d47b12ae8cd1bd981b2f97a33f31b61315f8d3660950fd1c8a13f2779b", [
+
+      ], {
+        maps: 228,
+        lumels: 64726,
+        unmapped: 0
+      }, {
+        stamp: 422,
+        from: 371,
+        frame: 422,
+        state: {
+          x: 1.5,
+          y: 17.0,
+          z: -1.399999976158142,
+          yaw: 0.0,
+          pitch: -5.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [levels_clamp,           124,    "/home/box/tmp/ai/two/aCIHF7edB6B/fpreread/scratch/restoration/tree/garage_far_clamp/levels_clamp/screen.ppm",           "44b89ea5973a42ee7d77b57c4bfb9043346b7da07ea78af53edb0ff8931100a2", [
+
+      ], {
+        maps: 228,
+        lumels: 64726,
+        unmapped: 0
+      }, {
+        stamp: 323,
+        from: 284,
+        frame: 323,
+        state: {
+          x: 1.5,
+          y: 17.0,
+          z: -1.399999976158142,
+          yaw: 0.0,
+          pitch: -5.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [levels_candidate_clamp, 124,    "/home/box/tmp/ai/two/aCIHF7edB6B/fpreread/scratch/restoration/tree/garage_far_clamp/levels_candidate_clamp/screen.ppm", "d153fed0f20147dc6f69a97ef78ceddd617d6fc3e72031cc9b6efd5d6f37ec96", [
+
+      ], {
+        maps: 228,
+        lumels: 64726,
+        unmapped: 0
+      }, {
+        stamp: 382,
+        from: 336,
+        frame: 382,
+        state: {
+          x: 1.5,
+          y: 17.0,
+          z: -1.399999976158142,
+          yaw: 0.0,
+          pitch: -5.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }]
+  ],
+  reference: {
+    camera: {
+      x: 1.5,
+      y: 17.0,
+      z: -1.399999976158142,
+      yaw: 0.0,
+      pitch: -5.0,
+      roll: 0.0
+    },
+    iz_min: 12201612,
+    floor_depth: 5.499999836087231,
+    rows: 130694,
+    lumels: {
+      maps: 228,
+      lumels: 64726,
+      unmapped: 0
+    },
+    unread_materials: [
+
+    ],
+    owner: {
+      frame: 422,
+      spans: 0,
+      actors: 0
+    },
+    population: {
+      blocks: 130694,
+      classes: {
+        judged: 130694,
+        sky: 0,
+        unknown: 0,
+        unread: 0,
+        actor: 0,
+        degenerate: 0,
+        no_end: 0,
+        unpaired: 0
+      },
+      unresolved: 0,
+      sensitive: 2963,
+      clamped: 55710,
+      actors: 0
+    },
+    captures: [
+      [file,                                                                                                                    blocks, judged, agree,  sharper, coarser, secant_agree, secant_sharper, secant_coarser, levels,                                                                                                                                                    snapshot];
+      ["/home/box/tmp/ai/two/aCIHF7edB6B/fpreread/scratch/restoration/tree/garage_far_clamp/levels_clamp/screen.ppm",           130694, 130694, 130418, 276,     0,       130418,       276,            0,              [
+          81111,
+          37971,
+          11577,
+          35,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ], {
+          frame: 323,
+          spans: 2886,
+          actors: 0
+        }],
+      ["/home/box/tmp/ai/two/aCIHF7edB6B/fpreread/scratch/restoration/tree/garage_far_clamp/levels_candidate_clamp/screen.ppm", 130694, 130694, 130694, 0,       0,       130694,       0,              0,              [
+          80715,
+          38285,
+          11659,
+          35,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ], {
+          frame: 382,
+          spans: 2886,
+          actors: 0
+        }]
+    ]
+  },
+  pictures: null,
+  problems: [
+
+  ],
+  reread: {
+    from: "/home/box/tmp/ai/two/aCIHF7edB6B/fpreread/scratch/restoration/tree/garage_far_clamp/pose.nuon",
+    first_tool: {
+      path: /home/box/proj/sourcetrait/jab/kit/fierce/rust/target/release/footprint,
+      "sha256": "b2cbfedd7c5027965debc22908a0f825bca825345c71cd97f407e80e502be1fe",
+      commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+      dirty: false
+    },
+    differences: [
+
+    ],
+    no_span_table: [
+
+    ],
+    still: {
+      first: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+      again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+      remade: null,
+      content: null,
+      held: true
+    },
+    "rows_sha256": "b9ee67bf1e75f7977afdd5e4f7fdcd438294716322058293240fefc160f3a296",
+    "first_rows_sha256": "b9ee67bf1e75f7977afdd5e4f7fdcd438294716322058293240fefc160f3a296",
+    rows_same: true,
+    pictures_same: null
+  }
+}

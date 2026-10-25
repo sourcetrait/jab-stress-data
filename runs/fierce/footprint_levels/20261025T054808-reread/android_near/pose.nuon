@@ -1,0 +1,359 @@
+{
+  pose: {
+    name: android_near,
+    map: "render_0",
+    x: 28.0,
+    y: 4.5,
+    z: 1.6,
+    yaw: 90,
+    pitch: 0,
+    roll: 0,
+    keep: [
+      "bay_android_1"
+    ],
+    hold: true
+  },
+  disk: {
+    name: "render_0_bay_android_1",
+    tree: "/home/box/tmp/ai/two/aCIHF7edB6B/fpreread/scratch/out/disk_render_0_bay_android_1/tree/render_0_bay_android_1",
+    disk: "/home/box/tmp/ai/two/aCIHF7edB6B/fpreread/scratch/out/disk_render_0_bay_android_1/render_0_bay_android_1.romfs",
+    "sha256": "7a89ae1fdc39a70bd23007f3aaeea18f9fbfc995c23a5e21d002f9305c7164f9",
+    map: "/home/box/tmp/ai/two/aCIHF7edB6B/fpreread/scratch/out/disk_render_0_bay_android_1/tree/render_0_bay_android_1/map/render_0_bay_android_1.jabfps.map"
+  },
+  export: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/footprint/export_c804ccb",
+  commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+  tool: {
+    path: /home/box/proj/sourcetrait/jab/kit/fierce/rust/target/release/footprint,
+    "sha256": "b2cbfedd7c5027965debc22908a0f825bca825345c71cd97f407e80e502be1fe",
+    commit: "fec6e86c270c99ee7bd5cdcebcf1cb9c1abe1c1b",
+    dirty: false
+  },
+  launch: {
+    api: true,
+    sound: false,
+    audio: none
+  },
+  rows: [
+    [label,             status, screen,                                                                                                         "screen_sha256",                                                    faults,     bake,                                                                    binding];
+    [owner,             124,    "/home/box/tmp/ai/two/aCIHF7edB6B/fpreread/scratch/restoration/tree/android_near/owner/screen.ppm",             "d11e8d14d3238d74cfb482f5542619ac2c6c56bb6efc0eba481d6a02c1e4cac7", [
+
+      ], {
+        maps: 228,
+        lumels: 64726,
+        unmapped: 0
+      }, {
+        stamp: 358,
+        from: 315,
+        frame: 358,
+        state: {
+          x: 28.0,
+          y: 4.5,
+          z: 1.600000023841858,
+          yaw: 90.0,
+          pitch: 0.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [levels,            124,    "/home/box/tmp/ai/two/aCIHF7edB6B/fpreread/scratch/restoration/tree/android_near/levels/screen.ppm",            "8c801cd8e43304cc47bb65a7d18fdd7bcce4c15b9295215d93e5e358c4d71c62", [
+
+      ], {
+        maps: 228,
+        lumels: 64726,
+        unmapped: 0
+      }, {
+        stamp: 351,
+        from: 309,
+        frame: 351,
+        state: {
+          x: 28.0,
+          y: 4.5,
+          z: 1.600000023841858,
+          yaw: 90.0,
+          pitch: 0.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [levels_candidate,  124,    "/home/box/tmp/ai/two/aCIHF7edB6B/fpreread/scratch/restoration/tree/android_near/levels_candidate/screen.ppm",  "a2c6959eeeac99eaa5b6e7475f9d7fa65ba45092b3c10b2e7450ff9141ab1460", [
+
+      ], {
+        maps: 228,
+        lumels: 64726,
+        unmapped: 0
+      }, {
+        stamp: 333,
+        from: 294,
+        frame: 333,
+        state: {
+          x: 28.0,
+          y: 4.5,
+          z: 1.600000023841858,
+          yaw: 90.0,
+          pitch: 0.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [picture,           124,    "/home/box/tmp/ai/two/aCIHF7edB6B/fpreread/scratch/restoration/tree/android_near/picture/screen.ppm",           "8ab38c1d93b2883a038d5c14f174169ce4488990d7e3a56174aca87607d79efb", [
+
+      ], {
+        maps: 228,
+        lumels: 64726,
+        unmapped: 0
+      }, {
+        stamp: 374,
+        from: 329,
+        frame: 374,
+        state: {
+          x: 28.0,
+          y: 4.5,
+          z: 1.600000023841858,
+          yaw: 90.0,
+          pitch: 0.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [picture_candidate, 124,    "/home/box/tmp/ai/two/aCIHF7edB6B/fpreread/scratch/restoration/tree/android_near/picture_candidate/screen.ppm", "5bfc90a3ee79712d60b46ae6757f07227ea162d0f58aab5e60233983e6b1ee19", [
+
+      ], {
+        maps: 228,
+        lumels: 64726,
+        unmapped: 0
+      }, {
+        stamp: 355,
+        from: 314,
+        frame: 355,
+        state: {
+          x: 28.0,
+          y: 4.5,
+          z: 1.600000023841858,
+          yaw: 90.0,
+          pitch: 0.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }]
+  ],
+  reference: {
+    camera: {
+      x: 28.0,
+      y: 4.5,
+      z: 1.600000023841858,
+      yaw: 90.0,
+      pitch: 0.0,
+      roll: 0.0
+    },
+    iz_min: 4096,
+    floor_depth: 16384.0,
+    rows: 133022,
+    lumels: {
+      maps: 228,
+      lumels: 64726,
+      unmapped: 0
+    },
+    unread_materials: [
+
+    ],
+    owner: {
+      frame: 358,
+      spans: 0,
+      actors: 1
+    },
+    population: {
+      blocks: 133022,
+      classes: {
+        judged: 133022,
+        sky: 0,
+        unknown: 0,
+        unread: 0,
+        actor: 0,
+        degenerate: 0,
+        no_end: 0,
+        unpaired: 0
+      },
+      unresolved: 0,
+      sensitive: 8927,
+      clamped: 0,
+      actors: 3852
+    },
+    captures: [
+      [file,                                                                                                          blocks, judged, agree,  sharper, coarser, secant_agree, secant_sharper, secant_coarser, levels,                                                                                                                                                         snapshot];
+      ["/home/box/tmp/ai/two/aCIHF7edB6B/fpreread/scratch/restoration/tree/android_near/levels/screen.ppm",           133022, 133022, 132684, 338,     0,       133022,       0,              0,              [
+          62840,
+          46564,
+          15309,
+          6603,
+          1700,
+          6,
+          0,
+          0,
+          0,
+          0
+        ], {
+          frame: 351,
+          spans: 4606,
+          actors: 1
+        }],
+      ["/home/box/tmp/ai/two/aCIHF7edB6B/fpreread/scratch/restoration/tree/android_near/levels_candidate/screen.ppm", 133022, 133022, 132684, 338,     0,       133022,       0,              0,              [
+          62820,
+          46497,
+          15325,
+          6613,
+          1761,
+          6,
+          0,
+          0,
+          0,
+          0
+        ], {
+          frame: 333,
+          spans: 4606,
+          actors: 1
+        }]
+    ]
+  },
+  pictures: {
+    width: 1920,
+    height: 1080,
+    pixels: 1642,
+    regions: [
+      ["x0", "y0", "x1", "y1", pixels, largest];
+      [34,   19,   56,   20,   4,      5],
+      [93,   19,   115,  20,   5,      6],
+      [152,  19,   234,  20,   15,     11],
+      [271,  19,   272,  20,   1,      6],
+      [291,  19,   293,  20,   2,      2],
+      [330,  19,   352,  20,   6,      6],
+      [389,  19,   411,  20,   4,      6],
+      [527,  19,   529,  20,   2,      2],
+      [566,  19,   588,  20,   6,      7],
+      [625,  19,   686,  20,   13,     12],
+      [705,  19,   707,  20,   2,      2],
+      [744,  19,   766,  20,   4,      6],
+      [803,  19,   825,  20,   6,      6],
+      [862,  19,   864,  20,   2,      5],
+      [882,  19,   943,  20,   12,     10],
+      [980,  19,   1003, 20,   4,      4],
+      [1039, 19,   1061, 20,   5,      4],
+      [1099, 19,   1179, 20,   13,     7],
+      [1217, 19,   1239, 20,   4,      3],
+      [1276, 19,   1297, 20,   5,      3],
+      [1335, 19,   1337, 20,   2,      3],
+      [1372, 19,   1374, 20,   2,      5],
+      [0,    650,  411,  651,  242,    5],
+      [512,  650,  623,  651,  76,     5],
+      [641,  650,  870,  651,  149,    5],
+      [1035, 650,  1198, 651,  83,     4],
+      [0,    696,  28,   697,  16,     1],
+      [55,   696,  107,  697,  22,     1],
+      [129,  696,  223,  697,  67,     10],
+      [251,  696,  303,  697,  22,     1],
+      [324,  696,  411,  697,  62,     10],
+      [520,  696,  615,  697,  64,     10],
+      [642,  696,  810,  697,  88,     10],
+      [838,  696,  926,  697,  36,     1],
+      [1033, 696,  1085, 697,  22,     1],
+      [1107, 696,  1281, 697,  90,     10],
+      [26,   761,  30,   762,  4,      1],
+      [56,   761,  65,   762,  9,      1],
+      [99,   761,  151,  762,  26,     19],
+      [194,  761,  199,  762,  5,      1],
+      [225,  761,  246,  762,  8,      3],
+      [272,  761,  341,  762,  17,     5],
+      [376,  761,  428,  762,  26,     19],
+      [471,  761,  476,  762,  5,      1],
+      [502,  761,  523,  762,  8,      3],
+      [549,  761,  553,  762,  4,      4],
+      [579,  761,  584,  762,  5,      1],
+      [610,  761,  618,  762,  8,      1],
+      [653,  761,  705,  762,  26,     19],
+      [748,  761,  752,  762,  4,      1],
+      [778,  761,  800,  762,  9,      3],
+      [826,  761,  830,  762,  4,      4],
+      [856,  761,  861,  762,  5,      1],
+      [887,  761,  895,  762,  8,      1],
+      [956,  761,  964,  762,  8,      19],
+      [1025, 761,  1172, 762,  31,     4],
+      [1207, 761,  1259, 762,  26,     17],
+      [1302, 761,  1306, 762,  4,      1],
+      [1332, 761,  1354, 762,  9,      3],
+      [1380, 761,  1384, 762,  4,      3],
+      [1410, 761,  1414, 762,  4,      1],
+      [1440, 761,  1445, 762,  5,      1],
+      [5,    853,  8,    854,  3,      4],
+      [36,   853,  63,   854,  9,      6],
+      [81,   853,  112,  854,  13,     7],
+      [143,  853,  179,  854,  12,     18],
+      [210,  853,  213,  854,  3,      9],
+      [256,  853,  259,  854,  3,      4],
+      [311,  853,  314,  854,  3,      11],
+      [360,  853,  400,  854,  9,      11],
+      [427,  853,  479,  854,  16,     7],
+      [498,  853,  504,  854,  6,      4],
+      [535,  853,  541,  854,  6,      4],
+      [565,  853,  571,  854,  6,      18],
+      [602,  853,  605,  854,  3,      9],
+      [648,  853,  651,  854,  3,      4],
+      [703,  853,  706,  854,  3,      10],
+      [752,  853,  767,  854,  6,      11],
+      [789,  853,  792,  854,  3,      4],
+      [819,  853,  847,  854,  9,      6],
+      [865,  853,  896,  854,  12,     7],
+      [957,  853,  963,  854,  6,      16],
+      [1040, 853,  1043, 854,  3,      4],
+      [1095, 853,  1098, 854,  3,      9],
+      [1144, 853,  1184, 854,  9,      9],
+      [1211, 853,  1263, 854,  16,     6],
+      [1282, 853,  1288, 854,  6,      3],
+      [1318, 853,  1325, 854,  7,      3],
+      [1349, 853,  1355, 854,  6,      13],
+      [1386, 853,  1389, 854,  3,      6],
+      [1432, 853,  1435, 854,  3,      3],
+      [1487, 853,  1490, 854,  3,      7],
+      [1536, 853,  1551, 854,  6,      7],
+      [1572, 853,  1576, 854,  4,      3],
+      [1603, 853,  1631, 854,  9,      4]
+    ]
+  },
+  problems: [
+
+  ],
+  reread: {
+    from: "/home/box/tmp/ai/two/aCIHF7edB6B/fpreread/scratch/restoration/tree/android_near/pose.nuon",
+    first_tool: {
+      path: /home/box/proj/sourcetrait/jab/kit/fierce/rust/target/release/footprint,
+      "sha256": "b2cbfedd7c5027965debc22908a0f825bca825345c71cd97f407e80e502be1fe",
+      commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+      dirty: false
+    },
+    differences: [
+
+    ],
+    no_span_table: [
+
+    ],
+    still: {
+      first: "7a89ae1fdc39a70bd23007f3aaeea18f9fbfc995c23a5e21d002f9305c7164f9",
+      again: "7a89ae1fdc39a70bd23007f3aaeea18f9fbfc995c23a5e21d002f9305c7164f9",
+      remade: null,
+      content: null,
+      held: true
+    },
+    "rows_sha256": "ef0c3b8733ba5944b8d86543165b8cedb452bd1f3c97f2e6d5621c5e144cd974",
+    "first_rows_sha256": "ef0c3b8733ba5944b8d86543165b8cedb452bd1f3c97f2e6d5621c5e144cd974",
+    rows_same: true,
+    pictures_same: true
+  }
+}

@@ -1,0 +1,21 @@
+{
+ schema: 2,
+ set: footprint_levels,
+ stamp: "20261025T054808-reread",
+ task: FootprintEstimate,
+ scope: {
+  kind: targeted,
+  ran: 1,
+  of: 1
+ },
+ builds: [
+  [part,   build,                                      source,   record];
+  [reread, "fec6e86c270c99ee7bd5cdcebcf1cb9c1abe1c1b", checkout, "reread.nuon"]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "The current capture runs/fierce/footprint_levels/20261020T045854 read again through a restoration by footprint's reread at jab-stress 03bbb52 over jab fec6e86's footprint crate, against the pose set at assets/fierce/poses/footprint.nuon, after FrameCeiling's next iteration's item 7 removed FOOTPRINT and the workbench's candidate builds: the reading equal to the last reread's, 20261022T180520-reread, on every field but the crate's commit, its binary byte for byte the same, so the landed sets read by the candidate's labels as before. Cited by the fps subiter's plan/agenda/FrameCeiling.md."
+ },
+ inventory: "495ed0011f4d6894ccd2a058ac307271ddc93b7ffea14a696ddd85f61dc3d440",
+ storage: "3d574493e3e5f4af6e77491abf86f7b53609ca9409692dfc9f4dbb83c49a67d5"
+}

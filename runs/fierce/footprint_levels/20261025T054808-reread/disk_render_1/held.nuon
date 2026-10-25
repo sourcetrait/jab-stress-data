@@ -1,0 +1,21 @@
+{
+  problems: [
+
+  ],
+  differ: [
+
+  ],
+  remade_problems: [
+
+  ],
+  remade_differ: [
+
+  ],
+  disk: {
+    first: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+    again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+    remade: null,
+    content: null,
+    held: true
+  }
+}
