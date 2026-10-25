@@ -1,0 +1,99 @@
+{
+  name: compare_flip,
+  repo: jab,
+  bin: "kit/fierce/nu/bin/nuance.nu",
+  words: [
+    gauge,
+    compare,
+    "/home/box/tmp/ai/two/aCIHF7edB6B/layout2/recorded/base_1/base_1/gauge.nuon",
+    "/home/box/tmp/ai/two/aCIHF7edB6B/layout2/recorded/cand_1/cand_1/gauge.nuon",
+    "/home/box/tmp/ai/two/aCIHF7edB6B/layout2/recorded/cand_2/cand_2/gauge.nuon",
+    "/home/box/tmp/ai/two/aCIHF7edB6B/layout2/recorded/base_2/base_2/gauge.nuon",
+    --field,
+    flip_us,
+    --out,
+    "/home/box/tmp/ai/two/aCIHF7edB6B/layout2/recorded/compare_flip/compare.nuon"
+  ],
+  env: [
+
+  ],
+  symbols: [
+
+  ],
+  started: "2026-10-25T04:20:45.960782556+00:00",
+  ended: "2026-10-25T04:21:00.420560246+00:00",
+  seconds: 14.437362203,
+  exit: 0,
+  ok: true,
+  checkouts: {
+    jab: {
+      commit: "3222dfc314d0363556a494497c83536c95d0f315",
+      clean: true
+    },
+    stress: {
+      commit: "0592d2945ef1c29d1992ed951b0fa377e5bda137",
+      clean: true
+    }
+  },
+  kernel_source: {
+    asked: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    last: "51a4956971391cfd45ef6cf6a2fa4aa3223a1b37",
+    equal: true
+  },
+  fixtures: [
+
+  ],
+  kernel: {
+    tree: release,
+    out: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/kernel",
+    elf: {
+      from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/kernel/jab.elf",
+      kept: "build/kernel/jab.elf",
+      "sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+    },
+    flags: "-I src/include -I ../sdk/src -march=rva23s64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+    defined: [
+
+    ],
+    held: true,
+    loaded: {
+      kept: "build/kernel/jab.bin",
+      "sha256": "efe12507e089683b9d5011a84b4511da9f1e0861e3c01ece4949e11ad474c606"
+    }
+  },
+  programs: [
+
+  ],
+  outs: [
+
+  ],
+  host_load: {
+    file: "host_load.nuonl",
+    root: {
+      pid: 610057,
+      start: 21967124
+    },
+    readings: 3,
+    covered: {
+      from: 220931.63,
+      to: 220946.08
+    },
+    final: true,
+    gaps: [
+
+    ],
+    unbounded: [
+
+    ],
+    named: [
+
+    ],
+    unattributed: [
+      [from,      to,        cores];
+      [220931.63, 220941.65, 0.019],
+      [220941.65, 220946.08, 1.02]
+    ]
+  },
+  stdout: "run.stdout",
+  stderr: "run.stderr"
+}

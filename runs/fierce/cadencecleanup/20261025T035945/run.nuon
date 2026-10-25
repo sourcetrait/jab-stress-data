@@ -1,0 +1,110 @@
+{
+ schema: 2,
+ set: cadencecleanup,
+ stamp: "20261025T035945",
+ task: CadenceCleanup,
+ scope: {
+  kind: whole,
+  ran: 7,
+  of: 7,
+  names: [
+   "base_1",
+   "cand_1",
+   "cand_2",
+   "base_2",
+   compare_flip,
+   compare_critical,
+   compare_raster
+  ]
+ },
+ builds: [
+  {
+   part: "base_1",
+   build: null,
+   source: export,
+   record: "base_1/step.nuon",
+   export: {
+    name: "export_d297a6b",
+    commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    provenance: "runs/fierce/export/20261022-baselines/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: "cand_1",
+   build: null,
+   source: export,
+   record: "cand_1/step.nuon",
+   export: {
+    name: "export_e220193",
+    commit: "e22019384f2d792304bc3902c54988eb5f153869",
+    provenance: "runs/fierce/export/20261025-cleaned/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "20294ae82cc51e234232adc154573504004ebb05ef46f0e379d4d84226137f0f",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: "cand_2",
+   build: null,
+   source: export,
+   record: "cand_2/step.nuon",
+   export: {
+    name: "export_e220193",
+    commit: "e22019384f2d792304bc3902c54988eb5f153869",
+    provenance: "runs/fierce/export/20261025-cleaned/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "20294ae82cc51e234232adc154573504004ebb05ef46f0e379d4d84226137f0f",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: "base_2",
+   build: null,
+   source: export,
+   record: "base_2/step.nuon",
+   export: {
+    name: "export_d297a6b",
+    commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    provenance: "runs/fierce/export/20261022-baselines/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: compare_flip,
+   build: "3222dfc314d0363556a494497c83536c95d0f315",
+   source: checkout,
+   record: "compare_flip/step.nuon"
+  },
+  {
+   part: compare_critical,
+   build: "3222dfc314d0363556a494497c83536c95d0f315",
+   source: checkout,
+   record: "compare_critical/step.nuon"
+  },
+  {
+   part: compare_raster,
+   build: "3222dfc314d0363556a494497c83536c95d0f315",
+   source: checkout,
+   record: "compare_raster/step.nuon"
+  }
+ ],
+ kept: {
+  as: current,
+  why: "CadenceCleanup's layout comparison run again on TheUser's word, its first set, 20261025T024751, having run beside his model tests: the decision's export, export_d297a6b (image 264e7b7c), against the cleaned export_e220193 (image 20294ae8), both on kexport_d297a6b (ELF c8285900), jab 3222dfc through jab-stress 0592d29's recorded runner, both checkouts clean and kernel/ and sdk/src equal to d297a6b's, from 03:59:45 to 04:21:29; the factory route on 1KA1, release, cadence 1, eps 3,700, base, candidate, candidate, base, three seeded runs a batch, compared at 50 cm on flip_us, critical_us, and raster_us. Every run complete and valid at schema 8, 3,303 to 3,309 frames, K unbroken at eps 3,700, no catch-up, late wakes 0 to 5. No foreign process reached 0.1 cores beside it, the host's load the container cannot attribute 1.23 cores at most an interval. By the rule fixed at 02:05 before any run, flip_us shifts on yard, -35.3 us against a larger half spread of 31.1, and critical_us on down, +303.3 against 244.9, so SubmitWait's and FootprintEstimate's comparisons are repeated on the cleaned layout; the raster, deciding nothing, past its spread on start, down, and ramp, 38 of its 54 pairs above. Cited by the fps subiter's plan/agenda/FrameCeiling/FrameCadence/CadenceCleanup.md."
+ },
+ inventory: "68fb1c384a391bcadea01771026281ab8cc426fb0d377f39200307d2a5eb62fb",
+ storage: "7ace8c01f1c2d68e23c75b4bd4c037d7dbf651097621646c1928cfc95877a42d"
+}

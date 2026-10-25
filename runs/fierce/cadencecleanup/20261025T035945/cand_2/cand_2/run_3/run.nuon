@@ -1,0 +1,247 @@
+{
+  status: 0,
+  fault: null,
+  cpu_seconds: 73.26,
+  wall_seconds: 58.013299578,
+  quit_seconds: 58.001829816,
+  unfinished: [
+
+  ],
+  incomplete: null,
+  launch: "/home/box/tmp/ai/two/aCIHF7edB6B/layout2/recorded/cand_2/cand_2/run_3/launch.nuon",
+  threads: [
+
+  ],
+  threads_span: null,
+  thread_readings: [
+    [requested, at,           threads];
+    [1.5,       1.501208477,  [
+        [id,       name,        cpu];
+        ["611940", jab,         0.15],
+        ["611942", call_rcu,    0.0],
+        ["611943", "CPU 0/TCG", 0.77],
+        ["611944", "CPU 1/TCG", 0.36],
+        ["611945", "CPU 2/TCG", 0.36],
+        ["611946", worker,      0.02]
+      ]],
+    [5.0,       5.001835853,  [
+        [id,       name,        cpu];
+        ["611940", jab,         0.25],
+        ["611942", call_rcu,    0.0],
+        ["611943", "CPU 0/TCG", 1.14],
+        ["611944", "CPU 1/TCG", 2.24],
+        ["611945", "CPU 2/TCG", 2.24],
+        ["611946", worker,      0.02]
+      ]],
+    [10.5,      10.501926569, [
+        [id,       name,        cpu];
+        ["611940", jab,         0.4],
+        ["611942", call_rcu,    0.0],
+        ["611943", "CPU 0/TCG", 1.71],
+        ["611944", "CPU 1/TCG", 5.1],
+        ["611945", "CPU 2/TCG", 5.08],
+        ["611946", worker,      0.02]
+      ]],
+    [20.0,      20.001995438, [
+        [id,       name,        cpu];
+        ["611940", jab,         0.64],
+        ["611942", call_rcu,    0.0],
+        ["611943", "CPU 0/TCG", 2.77],
+        ["611944", "CPU 1/TCG", 10.3],
+        ["611945", "CPU 2/TCG", 10.28]
+      ]],
+    [26.5,      26.501386554, [
+        [id,       name,        cpu];
+        ["611940", jab,         0.83],
+        ["611942", call_rcu,    0.0],
+        ["611943", "CPU 0/TCG", 3.54],
+        ["611944", "CPU 1/TCG", 14.37],
+        ["611945", "CPU 2/TCG", 14.36]
+      ]],
+    [32.0,      32.001593701, [
+        [id,       name,        cpu];
+        ["611940", jab,         0.98],
+        ["611942", call_rcu,    0.0],
+        ["611943", "CPU 0/TCG", 4.26],
+        ["611944", "CPU 1/TCG", 17.63],
+        ["611945", "CPU 2/TCG", 17.62]
+      ]],
+    [36.0,      36.001101565, [
+        [id,       name,        cpu];
+        ["611940", jab,         1.09],
+        ["611942", call_rcu,    0.0],
+        ["611943", "CPU 0/TCG", 4.67],
+        ["611944", "CPU 1/TCG", 19.77],
+        ["611945", "CPU 2/TCG", 19.76]
+      ]],
+    [41.5,      41.502002518, [
+        [id,       name,        cpu];
+        ["611940", jab,         1.23],
+        ["611942", call_rcu,    0.0],
+        ["611943", "CPU 0/TCG", 5.12],
+        ["611944", "CPU 1/TCG", 23.03],
+        ["611945", "CPU 2/TCG", 23.01]
+      ]],
+    [51.5,      51.501935669, [
+        [id,       name,        cpu];
+        ["611940", jab,         1.48],
+        ["611942", call_rcu,    0.0],
+        ["611943", "CPU 0/TCG", 6.26],
+        ["611944", "CPU 1/TCG", 28.32],
+        ["611945", "CPU 2/TCG", 28.3]
+      ]],
+    [52.0,      52.001135668, [
+        [id,       name,        cpu];
+        ["611940", jab,         1.49],
+        ["611942", call_rcu,    0.0],
+        ["611943", "CPU 0/TCG", 6.32],
+        ["611944", "CPU 1/TCG", 28.69],
+        ["611945", "CPU 2/TCG", 28.67]
+      ]],
+    [52.5,      52.501152259, [
+        [id,       name,        cpu];
+        ["611940", jab,         1.5],
+        ["611942", call_rcu,    0.0],
+        ["611943", "CPU 0/TCG", 6.42],
+        ["611944", "CPU 1/TCG", 29.02],
+        ["611945", "CPU 2/TCG", 29.0]
+      ]],
+    [53.0,      53.001123324, [
+        [id,       name,        cpu];
+        ["611940", jab,         1.52],
+        ["611942", call_rcu,    0.0],
+        ["611943", "CPU 0/TCG", 6.49],
+        ["611944", "CPU 1/TCG", 29.29],
+        ["611945", "CPU 2/TCG", 29.27]
+      ]],
+    [53.5,      53.501298554, [
+        [id,       name,        cpu];
+        ["611940", jab,         1.54],
+        ["611942", call_rcu,    0.0],
+        ["611943", "CPU 0/TCG", 6.53],
+        ["611944", "CPU 1/TCG", 29.54],
+        ["611945", "CPU 2/TCG", 29.52]
+      ]],
+    [54.0,      54.001863344, [
+        [id,       name,        cpu];
+        ["611940", jab,         1.55],
+        ["611942", call_rcu,    0.0],
+        ["611943", "CPU 0/TCG", 6.58],
+        ["611944", "CPU 1/TCG", 29.84],
+        ["611945", "CPU 2/TCG", 29.82]
+      ]],
+    [54.5,      54.501381802, [
+        [id,       name,        cpu];
+        ["611940", jab,         1.56],
+        ["611942", call_rcu,    0.0],
+        ["611943", "CPU 0/TCG", 6.69],
+        ["611944", "CPU 1/TCG", 30.16],
+        ["611945", "CPU 2/TCG", 30.15]
+      ]],
+    [55.0,      55.001204621, [
+        [id,       name,        cpu];
+        ["611940", jab,         1.58],
+        ["611942", call_rcu,    0.0],
+        ["611943", "CPU 0/TCG", 6.78],
+        ["611944", "CPU 1/TCG", 30.51],
+        ["611945", "CPU 2/TCG", 30.49]
+      ]],
+    [56.0,      56.001541059, [
+        [id,       name,        cpu];
+        ["611940", jab,         1.6],
+        ["611942", call_rcu,    0.0],
+        ["611943", "CPU 0/TCG", 6.93],
+        ["611944", "CPU 1/TCG", 31.08],
+        ["611945", "CPU 2/TCG", 31.06]
+      ]]
+  ],
+  qemu_binary: "/home/box/proj/sourcetrait/jab/extern/qemu/bin/qemu-system-riscv64",
+  qemu: [
+    -machine,
+    "virt,aia=aplic-imsic,aclint=on",
+    -cpu,
+    "rva23s64,pmp=true",
+    -accel,
+    "tcg,thread=multi",
+    -smp,
+    "3",
+    -global,
+    "virtio-mmio.force-legacy=false",
+    -parallel,
+    none,
+    -name,
+    "jab fierce,process=jab,debug-threads=on",
+    -m,
+    "4G",
+    -device,
+    "virtio-gpu-device,xres=1920,yres=1080",
+    -device,
+    virtio-keyboard-device,
+    -device,
+    virtio-tablet-device,
+    -device,
+    virtio-rng-device,
+    -audiodev,
+    "wav,path=/home/box/tmp/ai/two/aCIHF7edB6B/layout2/recorded/cand_2/cand_2/run_3/sound.wav,id=snd0,out.frequency=48000",
+    -device,
+    "virtio-sound-device,audiodev=snd0,streams=1",
+    -device,
+    virtio-serial-device,
+    -chardev,
+    "pipe,id=jabapi,path=/home/box/tmp/ai/two/aCIHF7edB6B/layout2/recorded/cand_2/cand_2/run_3/api",
+    -device,
+    "virtserialport,chardev=jabapi,nr=2,name=jab.api",
+    -device,
+    "virtio-input-host-device,evdev=/home/box/tmp/ai/two/aCIHF7edB6B/layout2/recorded/cand_2/cand_2/run_3/pad",
+    -bios,
+    none,
+    -kernel,
+    "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kernel/kexport_d297a6b/kernel/release/jab.elf",
+    -device,
+    "loader,file=/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e220193/kit/fierce/release/fierce.jab,addr=0x80a00000,force-raw=on",
+    -display,
+    none,
+    -monitor,
+    "pipe:/home/box/tmp/ai/two/aCIHF7edB6B/layout2/recorded/cand_2/cand_2/run_3/monitor",
+    -serial,
+    "file:/home/box/tmp/ai/two/aCIHF7edB6B/layout2/recorded/cand_2/cand_2/run_3/serial.log",
+    -pidfile,
+    "/home/box/tmp/ai/two/aCIHF7edB6B/layout2/recorded/cand_2/cand_2/run_3/qemu.pid",
+    -d,
+    guest_errors,
+    -D,
+    "/home/box/tmp/ai/two/aCIHF7edB6B/layout2/recorded/cand_2/cand_2/run_3/qemu.log",
+    -append,
+    "jab.spec=1ka1",
+    -drive,
+    "if=none,id=disk0,file=/home/box/tmp/ai/two/aCIHF7edB6B/layout2/recorded/cand_2/cand_2/render_0.romfs,format=raw,readonly=on",
+    -device,
+    "virtio-blk-pci,disable-legacy=on,vectors=0,drive=disk0,serial=fps",
+    -drive,
+    "if=none,id=mix,file=/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/mix.romfs,format=raw,readonly=on",
+    -device,
+    "virtio-blk-pci,disable-legacy=on,vectors=0,drive=mix,serial=mix"
+  ],
+  machine: {
+    harts: 3,
+    ram_gib: 4,
+    spec: {
+      name: "1ka1",
+      cores: 3,
+      ram_gib: 4,
+      display: {
+        width: 1920,
+        height: 1080
+      }
+    },
+    diagnostic: null,
+    machine: "virt,aia=aplic-imsic,aclint=on",
+    cpu: "rva23s64,pmp=true",
+    accel: "tcg,thread=multi",
+    overrides: [
+
+    ]
+  },
+  window: none,
+  audio: "wav,path=/home/box/tmp/ai/two/aCIHF7edB6B/layout2/recorded/cand_2/cand_2/run_3/sound.wav"
+}
