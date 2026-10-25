@@ -1,0 +1,171 @@
+{
+  name: fierce_handoff_footprint,
+  repo: jab,
+  bin: do,
+  words: [
+    test,
+    kit/fierce,
+    --set,
+    "handoff,count,footprint"
+  ],
+  env: [
+
+  ],
+  symbols: [
+    COUNT,
+    DEBUG,
+    FOOTPRINT,
+    HANDOFF
+  ],
+  started: "2026-10-25T02:24:48.291271836+00:00",
+  ended: "2026-10-25T02:34:24.842939048+00:00",
+  seconds: 576.508746079,
+  exit: 0,
+  ok: true,
+  checkouts: {
+    jab: {
+      commit: "914de20df5a2c517f1410314e58d7cdac9d7f520",
+      clean: true
+    },
+    stress: {
+      commit: "b32124d803074c8ca3900b61f02e4fbc522a97af",
+      clean: true
+    }
+  },
+  kernel_source: {
+    asked: null,
+    last: "51a4956971391cfd45ef6cf6a2fa4aa3223a1b37",
+    equal: null
+  },
+  fixtures: [
+    [repo, path,                                           commit,                                     blob,                                       "sha256"];
+    [jab,  "kit/fierce/nu/mod/suite/mod.nu",               "27c9462bd744f99573e8d72545a14acc16fd8ab0", "67ff5c76b9b71c0f8455e139f22a338ea1184789", "676fa9c68e7c38ed59db0c52f386d6371fff272f2dbded4ca1849630ce31ec70"],
+    [jab,  "kit/fierce/nu/mod/suite/tiles/handoff/mod.nu", "927657e09235893e25944966b63e8993e5434862", "a5044f7659e8c550357a9ff043474a5aad01f0be", "4e1d411d91c386c051194685204b7ae471a177adf2ef9ec55b7a9add9845e11c"]
+  ],
+  kernel: {
+    tree: debug,
+    out: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel",
+    elf: {
+      from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel/jab.elf",
+      kept: "build/kernel/jab.elf",
+      "sha256": "a16527f1bacd0a7f6c0097af209709d9e0df87bbada49744f9e86f8c6ab47e87"
+    },
+    flags: "-I src/include -I ../sdk/src --defsym COUNT=1 --defsym DEBUG=1 --defsym FOOTPRINT=1 --defsym HANDOFF=1 -march=rva23s64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+    defined: [
+      COUNT,
+      DEBUG,
+      FOOTPRINT,
+      HANDOFF
+    ],
+    held: true,
+    loaded: {
+      kept: "build/kernel/jab.bin",
+      "sha256": "9cf8934541552bb9c6f75a2d2f1e9b368c70d25bba2536fefefa1188a0d3aaa9"
+    }
+  },
+  programs: [
+    [tree,  out,                                                                  elf,                                                                                                                                                                                                                                        flags,                                                                                                                                                                                                                                                         defined,                                                                    held, program,    image];
+    [debug, "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kit/fierce", {
+        from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kit/fierce/fierce.elf",
+        kept: "build/kit/fierce/fierce.elf",
+        "sha256": "33b2949c40339408ee6bdfc82376cdbd89cc8c5036455f65dc1bb14b57e40eac"
+      }, "-I ../../sdk/src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kit/fierce --defsym COUNT=1 --defsym DEBUG=1 --defsym FOOTPRINT=1 --defsym HANDOFF=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-", [
+        COUNT,
+        DEBUG,
+        FOOTPRINT,
+        HANDOFF
+      ], true, kit/fierce, {
+        from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kit/fierce/fierce.jab",
+        kept: "build/kit/fierce/fierce.jab",
+        "sha256": "4eb5029fc28d61700363517206b878f2a10d613e7748e7f78292dfb3a33157f9"
+      }]
+  ],
+  outs: [
+
+  ],
+  host_load: {
+    file: "host_load.nuonl",
+    root: {
+      pid: 551891,
+      start: 21220881
+    },
+    readings: 59,
+    covered: {
+      from: 213973.97,
+      to: 214550.49
+    },
+    final: true,
+    gaps: [
+
+    ],
+    unbounded: [
+
+    ],
+    named: [
+
+    ],
+    unattributed: [
+      [from,      to,        cores];
+      [213973.97, 213983.98, 0.949],
+      [213983.98, 213993.99, 0.623],
+      [213993.99, 214004.0,  0.624],
+      [214004.0,  214014.01, 0.801],
+      [214014.01, 214024.01, 0.744],
+      [214024.01, 214034.02, 0.622],
+      [214034.02, 214044.03, 0.783],
+      [214044.03, 214054.04, 0.725],
+      [214054.04, 214064.04, 0.603],
+      [214064.04, 214074.05, 0.669],
+      [214074.05, 214084.07, 0.578],
+      [214084.07, 214094.08, 0.601],
+      [214094.08, 214104.09, 0.427],
+      [214104.09, 214114.09, 0.65],
+      [214114.09, 214124.1,  0.426],
+      [214124.1,  214134.11, 0.347],
+      [214134.11, 214144.11, 0.258],
+      [214144.11, 214154.12, 0.204],
+      [214154.12, 214164.13, 0.711],
+      [214164.13, 214174.13, 0.801],
+      [214174.13, 214184.14, 0.704],
+      [214184.14, 214194.15, 0.719],
+      [214194.15, 214204.15, 0.821],
+      [214204.15, 214214.16, 0.727],
+      [214214.16, 214224.16, 0.73],
+      [214224.16, 214234.17, 0.855],
+      [214234.17, 214244.18, 0.718],
+      [214244.18, 214254.19, 0.789],
+      [214254.19, 214264.2,  0.703],
+      [214264.2,  214274.2,  0.653],
+      [214274.2,  214284.21, 0.561],
+      [214284.21, 214294.22, 0.555],
+      [214294.22, 214304.22, 0.534],
+      [214304.22, 214314.23, 0.575],
+      [214314.23, 214324.24, 0.445],
+      [214324.24, 214334.24, 0.381],
+      [214334.24, 214344.25, 0.251],
+      [214344.25, 214354.26, 0.724],
+      [214354.26, 214364.27, 0.887],
+      [214364.27, 214374.28, 0.777],
+      [214374.28, 214384.28, 0.726],
+      [214384.28, 214394.29, 0.887],
+      [214394.29, 214404.29, 0.802],
+      [214404.29, 214414.3,  0.708],
+      [214414.3,  214424.31, 0.901],
+      [214424.31, 214434.31, 0.74],
+      [214434.31, 214444.32, 0.644],
+      [214444.32, 214454.33, 0.635],
+      [214454.33, 214464.34, 0.488],
+      [214464.34, 214474.34, 0.427],
+      [214474.34, 214484.35, 0.387],
+      [214484.35, 214494.36, 0.851],
+      [214494.36, 214504.37, 2.67],
+      [214504.37, 214514.38, 9.426],
+      [214514.38, 214524.4,  5.984],
+      [214524.4,  214534.4,  0.096],
+      [214534.4,  214544.41, 0.031],
+      [214544.41, 214550.49, 0.794]
+    ]
+  },
+  stdout: "run.stdout",
+  stderr: "run.stderr"
+}

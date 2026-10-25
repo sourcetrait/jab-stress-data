@@ -1,0 +1,170 @@
+{
+  name: fierce_handoff,
+  repo: jab,
+  bin: do,
+  words: [
+    test,
+    kit/fierce,
+    --set,
+    "handoff,count"
+  ],
+  env: [
+
+  ],
+  symbols: [
+    COUNT,
+    DEBUG,
+    HANDOFF
+  ],
+  started: "2026-10-25T02:34:25.094411082+00:00",
+  ended: "2026-10-25T02:44:05.433917585+00:00",
+  seconds: 580.301006715,
+  exit: 0,
+  ok: true,
+  checkouts: {
+    jab: {
+      commit: "914de20df5a2c517f1410314e58d7cdac9d7f520",
+      clean: true
+    },
+    stress: {
+      commit: "b32124d803074c8ca3900b61f02e4fbc522a97af",
+      clean: true
+    }
+  },
+  kernel_source: {
+    asked: null,
+    last: "51a4956971391cfd45ef6cf6a2fa4aa3223a1b37",
+    equal: null
+  },
+  fixtures: [
+    [repo, path,                                           commit,                                     blob,                                       "sha256"];
+    [jab,  "kit/fierce/nu/mod/suite/mod.nu",               "27c9462bd744f99573e8d72545a14acc16fd8ab0", "67ff5c76b9b71c0f8455e139f22a338ea1184789", "676fa9c68e7c38ed59db0c52f386d6371fff272f2dbded4ca1849630ce31ec70"],
+    [jab,  "kit/fierce/nu/mod/suite/tiles/handoff/mod.nu", "927657e09235893e25944966b63e8993e5434862", "a5044f7659e8c550357a9ff043474a5aad01f0be", "4e1d411d91c386c051194685204b7ae471a177adf2ef9ec55b7a9add9845e11c"]
+  ],
+  kernel: {
+    tree: debug,
+    out: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel",
+    elf: {
+      from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel/jab.elf",
+      kept: "build/kernel/jab.elf",
+      "sha256": "da17a0371359e892aa595c5f2fe8785847377a6432ea7c42a6c6780366640112"
+    },
+    flags: "-I src/include -I ../sdk/src --defsym COUNT=1 --defsym DEBUG=1 --defsym HANDOFF=1 -march=rva23s64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+    defined: [
+      COUNT,
+      DEBUG,
+      HANDOFF
+    ],
+    held: true,
+    loaded: {
+      kept: "build/kernel/jab.bin",
+      "sha256": "9cf8934541552bb9c6f75a2d2f1e9b368c70d25bba2536fefefa1188a0d3aaa9"
+    }
+  },
+  programs: [
+    [tree,  out,                                                                  elf,                                                                                                                                                                                                                                        flags,                                                                                                                                                                                                                                    defined,                                                 held, program,    image];
+    [debug, "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kit/fierce", {
+        from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kit/fierce/fierce.elf",
+        kept: "build/kit/fierce/fierce.elf",
+        "sha256": "4a4a8167e38f106f8799dbf353fea081db4d96cb727005451ef6cb0750cc9ab7"
+      }, "-I ../../sdk/src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kit/fierce --defsym COUNT=1 --defsym DEBUG=1 --defsym HANDOFF=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-", [
+        COUNT,
+        DEBUG,
+        HANDOFF
+      ], true, kit/fierce, {
+        from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kit/fierce/fierce.jab",
+        kept: "build/kit/fierce/fierce.jab",
+        "sha256": "2a67400c0dea8672899e2a0c657a1435940d37ca59b6548686848d2fce1087c9"
+      }]
+  ],
+  outs: [
+
+  ],
+  host_load: {
+    file: "host_load.nuonl",
+    root: {
+      pid: 551891,
+      start: 21220881
+    },
+    readings: 59,
+    covered: {
+      from: 214550.77,
+      to: 215131.09
+    },
+    final: true,
+    gaps: [
+
+    ],
+    unbounded: [
+
+    ],
+    named: [
+      [class,   pid,    start,    name,            from,      to,        cores];
+      [foreign, 593228, 21495102, vibe-app-server, 214951.02, 214951.05, 0.667],
+      [foreign, 593427, 21497047, vibe-app-server, 214970.47, 214971.06, 0.983]
+    ],
+    unattributed: [
+      [from,      to,        cores];
+      [214550.77, 214560.79, 0.918],
+      [214560.79, 214570.79, 0.574],
+      [214570.79, 214580.8,  0.566],
+      [214580.8,  214590.81, 0.656],
+      [214590.81, 214600.81, 0.59],
+      [214600.81, 214610.82, 0.549],
+      [214610.82, 214620.83, 0.651],
+      [214620.83, 214630.83, 0.579],
+      [214630.83, 214640.84, 0.539],
+      [214640.84, 214650.85, 0.569],
+      [214650.85, 214660.86, 0.478],
+      [214660.86, 214670.87, 0.462],
+      [214670.87, 214680.87, 0.388],
+      [214680.87, 214690.88, 0.33],
+      [214690.88, 214700.89, 0.29],
+      [214700.89, 214710.89, 0.243],
+      [214710.89, 214720.9,  0.204],
+      [214720.9,  214730.91, 0.167],
+      [214730.91, 214740.91, 0.202],
+      [214740.91, 214750.92, 0.755],
+      [214750.92, 214760.93, 0.698],
+      [214760.93, 214770.93, 0.641],
+      [214770.93, 214780.94, 0.746],
+      [214780.94, 214790.95, 0.685],
+      [214790.95, 214800.95, 0.657],
+      [214800.95, 214810.96, 0.745],
+      [214810.96, 214820.96, 0.675],
+      [214820.96, 214830.97, 0.754],
+      [214830.97, 214840.98, 0.672],
+      [214840.98, 214850.98, 0.644],
+      [214850.98, 214860.99, 0.579],
+      [214860.99, 214871.0,  0.52],
+      [214871.0,  214881.0,  0.548],
+      [214881.0,  214891.01, 0.537],
+      [214891.01, 214901.02, 0.441],
+      [214901.02, 214911.02, 0.526],
+      [214911.02, 214921.03, 0.534],
+      [214921.03, 214931.04, 0.194],
+      [214931.04, 214941.04, 0.722],
+      [214941.04, 214951.05, 0.66],
+      [214951.05, 214961.05, 0.726],
+      [214961.05, 214971.06, 0.733],
+      [214971.06, 214981.07, 0.653],
+      [214981.07, 214991.07, 0.637],
+      [214991.07, 215001.08, 0.834],
+      [215001.08, 215011.09, 0.671],
+      [215011.09, 215021.09, 0.642],
+      [215021.09, 215031.1,  0.721],
+      [215031.1,  215041.11, 0.514],
+      [215041.11, 215051.11, 0.407],
+      [215051.11, 215061.12, 0.383],
+      [215061.12, 215071.13, 0.849],
+      [215071.13, 215081.16, 1.961],
+      [215081.16, 215091.17, 7.683],
+      [215091.17, 215101.19, 5.173],
+      [215101.19, 215111.2,  0.504],
+      [215111.2,  215121.21, 0.083],
+      [215121.21, 215131.09, 0.933]
+    ]
+  },
+  stdout: "run.stdout",
+  stderr: "run.stderr"
+}

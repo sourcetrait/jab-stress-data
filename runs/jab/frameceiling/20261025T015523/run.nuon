@@ -1,0 +1,32 @@
+{
+ schema: 2,
+ set: frameceiling,
+ stamp: "20261025T015523",
+ task: FrameCeiling,
+ scope: {
+  kind: targeted,
+  ran: 5,
+  of: 5,
+  names: [
+   suite,
+   fierce_service,
+   fierce_footprint,
+   fierce_handoff_footprint,
+   fierce_handoff
+  ]
+ },
+ builds: [
+  [part,                     build,                                      source,   record];
+  [suite,                    "914de20df5a2c517f1410314e58d7cdac9d7f520", checkout, "suite/step.nuon"],
+  [fierce_service,           "914de20df5a2c517f1410314e58d7cdac9d7f520", checkout, "fierce_service/step.nuon"],
+  [fierce_footprint,         "914de20df5a2c517f1410314e58d7cdac9d7f520", checkout, "fierce_footprint/step.nuon"],
+  [fierce_handoff_footprint, "914de20df5a2c517f1410314e58d7cdac9d7f520", checkout, "fierce_handoff_footprint/step.nuon"],
+  [fierce_handoff,           "914de20df5a2c517f1410314e58d7cdac9d7f520", checkout, "fierce_handoff/step.nuon"]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "CadenceCleanup's step 4 suite at jab 914de20, cadence 1 alone after the program commit e220193, through jab-stress b32124d's recorded runner on the long engine from 01:55:23 to 02:44:05, both checkouts clean at every step and each artifact's symbols held to its step's. The root suite through ./do test: 47 of 48 programs passed, kit/fierce's default suite whole among them, its schedule and walk at cadence 1; test/spectable failed as ruled, 1KA1's RAM as SPEC.md has it, 3 GiB against asset/spec.nuon's 4, SpecRamCarry's. fierce's sets each alone, service, footprint, handoff,count,footprint, and handoff,count: all four exit 0. Beside it another harness's vibe-app-server reached 0.12 to 0.98 cores in short intervals, the suites passing. Logs and records kept, builds archived. Cited by the fps subiter's plan/agenda/FrameCeiling/FrameCadence/CadenceCleanup.md."
+ },
+ inventory: "23db6e29b95e46298e65d34f0945816d84ab6b8afd87679173080a5a05cc24bc",
+ storage: "023b3f177344422318502875e962cfc191efbc575ca48f2aeb2837208ad8fe9d"
+}
