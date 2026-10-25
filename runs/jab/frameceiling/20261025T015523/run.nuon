@@ -27,6 +27,6 @@
   as: checkpoint,
   why: "CadenceCleanup's step 4 suite at jab 914de20, cadence 1 alone after the program commit e220193, through jab-stress b32124d's recorded runner on the long engine from 01:55:23 to 02:44:05, both checkouts clean at every step and each artifact's symbols held to its step's. The root suite through ./do test: 47 of 48 programs passed, kit/fierce's default suite whole among them, its schedule and walk at cadence 1; test/spectable failed as ruled, 1KA1's RAM as SPEC.md has it, 3 GiB against asset/spec.nuon's 4, SpecRamCarry's. fierce's sets each alone, service, footprint, handoff,count,footprint, and handoff,count: all four exit 0. Beside it another harness's vibe-app-server reached 0.12 to 0.98 cores in short intervals, the suites passing. Logs and records kept, builds archived. Cited by the fps subiter's plan/agenda/FrameCeiling/FrameCadence/CadenceCleanup.md."
  },
- inventory: "23db6e29b95e46298e65d34f0945816d84ab6b8afd87679173080a5a05cc24bc",
- storage: "023b3f177344422318502875e962cfc191efbc575ca48f2aeb2837208ad8fe9d"
+ inventory: "dd0f17485b46700e2777dd87d72e29bbcd0656daa262514af12d035e3525c32e",
+ storage: "ded05c03a5cd31d604913cef0b77de9f7fefb270a4d1f45733746d3bb495b568"
 }
