@@ -1,0 +1,142 @@
+{
+  name: "f_base_2",
+  repo: jab,
+  bin: "kit/fierce/nu/bin/nuance.nu",
+  words: [
+    gauge,
+    run,
+    --tree,
+    release,
+    --image,
+    "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e220193/kit/fierce/release/fierce.jab",
+    --kernel,
+    "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kernel/kexport_d297a6b/kernel/release/jab.elf",
+    --runs,
+    "3",
+    --seeds,
+    "[1 2 3]",
+    --spec,
+    "1ka1",
+    --cadence,
+    "1",
+    --eps,
+    "3700",
+    --cpu,
+    --out,
+    "/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/f_base_2/f_base_2",
+    --label,
+    "f_base_2"
+  ],
+  env: [
+
+  ],
+  symbols: [
+
+  ],
+  started: "2026-10-25T05:18:51.963042556+00:00",
+  ended: "2026-10-25T05:24:06.519997933+00:00",
+  seconds: 314.541011318,
+  exit: 0,
+  ok: true,
+  checkouts: {
+    jab: {
+      commit: "3222dfc314d0363556a494497c83536c95d0f315",
+      clean: true
+    },
+    stress: {
+      commit: "0592d2945ef1c29d1992ed951b0fa377e5bda137",
+      clean: true
+    }
+  },
+  kernel_source: {
+    asked: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    last: "51a4956971391cfd45ef6cf6a2fa4aa3223a1b37",
+    equal: true
+  },
+  fixtures: [
+
+  ],
+  kernel: {
+    tree: release,
+    out: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/kernel",
+    elf: {
+      from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/kernel/jab.elf",
+      kept: "build/kernel/jab.elf",
+      "sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+    },
+    flags: "-I src/include -I ../sdk/src -march=rva23s64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+    defined: [
+
+    ],
+    held: true,
+    loaded: {
+      kept: "build/kernel/jab.bin",
+      "sha256": "efe12507e089683b9d5011a84b4511da9f1e0861e3c01ece4949e11ad474c606"
+    }
+  },
+  programs: [
+
+  ],
+  outs: [
+
+  ],
+  host_load: {
+    file: "host_load.nuonl",
+    root: {
+      pid: 618177,
+      start: 22273673
+    },
+    readings: 33,
+    covered: {
+      from: 224417.64,
+      to: 224732.19
+    },
+    final: true,
+    gaps: [
+
+    ],
+    unbounded: [
+
+    ],
+    named: [
+
+    ],
+    unattributed: [
+      [from,      to,        cores];
+      [224417.64, 224427.65, 0.035],
+      [224427.65, 224437.66, 0.018],
+      [224437.66, 224447.66, 0.019],
+      [224447.66, 224457.67, 0.021],
+      [224457.67, 224467.67, 0.016],
+      [224467.67, 224477.68, 0.017],
+      [224477.68, 224487.69, 0.029],
+      [224487.69, 224497.69, 0.016],
+      [224497.69, 224507.7,  0.02],
+      [224507.7,  224517.71, 0.023],
+      [224517.71, 224527.71, 0.035],
+      [224527.71, 224537.72, 0.018],
+      [224537.72, 224547.72, 0.022],
+      [224547.72, 224557.73, 0.018],
+      [224557.73, 224567.74, 0.02],
+      [224567.74, 224577.74, 0.019],
+      [224577.74, 224587.75, 0.619],
+      [224587.75, 224597.76, 0.015],
+      [224597.76, 224607.76, 0.053],
+      [224607.76, 224617.77, 0.024],
+      [224617.77, 224627.77, 0.028],
+      [224627.77, 224637.78, 0.03],
+      [224637.78, 224647.79, 0.018],
+      [224647.79, 224657.79, 0.019],
+      [224657.79, 224667.8,  0.019],
+      [224667.8,  224677.81, 0.015],
+      [224677.81, 224687.81, 1.189],
+      [224687.81, 224697.82, 0.026],
+      [224697.82, 224707.83, 0.019],
+      [224707.83, 224717.83, 0.022],
+      [224717.83, 224727.84, 0.02],
+      [224727.84, 224732.19, 1.021]
+    ]
+  },
+  stdout: "run.stdout",
+  stderr: "run.stderr"
+}

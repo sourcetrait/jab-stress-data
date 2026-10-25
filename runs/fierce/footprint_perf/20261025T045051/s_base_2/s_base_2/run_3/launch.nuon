@@ -1,0 +1,136 @@
+{
+  "schedule_sha256": "d3293124be1e18a3cac983c6e0eabc8812f251d9b5722120cf56db61ac973fb6",
+  receipt: {
+    token: "0ad9b2aa48635a86",
+    outcome: {
+      token: "0ad9b2aa48635a86",
+      decision: go,
+      go_utc: "2026-10-25T05:02:06.733747Z"
+    },
+    header: null,
+    actions: [
+      [kind, index, due_ns,      length, accepted, state,    first_ns,    done_ns,     whole_ns, whole];
+      [send, 0,     200000000,   64,     64,       complete, 201166652,   201173441,   null,     null],
+      [send, 1,     200000000,   64,     64,       complete, 201173659,   201175059,   null,     null],
+      [send, 2,     200000000,   64,     64,       complete, 201175096,   201176110,   null,     null],
+      [send, 3,     1500000000,  64,     64,       complete, 1500425993,  1500433696,  null,     null],
+      [send, 4,     1800000000,  64,     64,       complete, 1800785590,  1800793005,  null,     null],
+      [send, 5,     6000000000,  64,     64,       complete, 6000867796,  6000875145,  null,     null],
+      [send, 6,     6300000000,  64,     64,       complete, 6300365024,  6300373308,  null,     null],
+      [send, 7,     10500000000, 64,     64,       complete, 10501324606, 10501332702, null,     null],
+      [send, 8,     10800000000, 64,     64,       complete, 10801416436, 10801422894, null,     null],
+      [send, 9,     15000000000, 64,     64,       complete, 15001265779, 15001274059, null,     null],
+      [send, 10,    15300000000, 64,     64,       complete, 15300532324, 15300538701, null,     null],
+      [send, 11,    19500000000, 64,     64,       complete, 19500503159, 19500509521, null,     null],
+      [send, 12,    19800000000, 64,     64,       complete, 19800655133, 19800660518, null,     null],
+      [send, 13,    24000000000, 64,     64,       complete, 24000475272, 24000484195, null,     null],
+      [send, 14,    24300000000, 64,     64,       complete, 24300561775, 24300567976, null,     null],
+      [send, 15,    28500000000, 64,     64,       complete, 28500898335, 28500912392, null,     null],
+      [send, 16,    28800000000, 64,     64,       complete, 28801256687, 28801265938, null,     null],
+      [send, 17,    33000000000, 64,     64,       complete, 33000437956, 33000445412, null,     null],
+      [quit, 0,     35000000000, 5,      5,        complete, 35000850662, 35000860157, null,     null]
+    ],
+    held: null,
+    readings: [
+      [kind, index, requested_ns, start_ns,    end_ns,      threads];
+      [at,   0,     1500000000,   1500340330,  1500425659,  [
+          [id,       name,        cpu];
+          ["620115", jab,         0.16],
+          ["620117", call_rcu,    0.0],
+          ["620118", "CPU 0/TCG", 0.77],
+          ["620119", "CPU 1/TCG", 0.35],
+          ["620120", "CPU 2/TCG", 0.35],
+          ["620121", worker,      0.02]
+        ]],
+      [at,   1,     5000000000,   5000807102,  5000858912,  [
+          [id,       name,        cpu];
+          ["620115", jab,         0.24],
+          ["620117", call_rcu,    0.0],
+          ["620118", "CPU 0/TCG", 1.17],
+          ["620119", "CPU 1/TCG", 2.27],
+          ["620120", "CPU 2/TCG", 2.27],
+          ["620121", worker,      0.02]
+        ]],
+      [at,   2,     6000000000,   6000812529,  6000867413,  [
+          [id,       name,        cpu];
+          ["620115", jab,         0.26],
+          ["620117", call_rcu,    0.0],
+          ["620118", "CPU 0/TCG", 1.28],
+          ["620119", "CPU 1/TCG", 2.82],
+          ["620120", "CPU 2/TCG", 2.82],
+          ["620121", worker,      0.02]
+        ]],
+      [at,   3,     10500000000,  10501272232, 10501324240, [
+          [id,       name,        cpu];
+          ["620115", jab,         0.4],
+          ["620117", call_rcu,    0.0],
+          ["620118", "CPU 0/TCG", 1.76],
+          ["620119", "CPU 1/TCG", 5.71],
+          ["620120", "CPU 2/TCG", 5.71],
+          ["620121", worker,      0.02]
+        ]],
+      [at,   4,     15000000000,  15001211344, 15001265438, [
+          [id,       name,        cpu];
+          ["620115", jab,         0.5],
+          ["620117", call_rcu,    0.0],
+          ["620118", "CPU 0/TCG", 2.21],
+          ["620119", "CPU 1/TCG", 8.05],
+          ["620120", "CPU 2/TCG", 8.03]
+        ]],
+      [at,   5,     19500000000,  19500451519, 19500502663, [
+          [id,       name,        cpu];
+          ["620115", jab,         0.62],
+          ["620117", call_rcu,    0.0],
+          ["620118", "CPU 0/TCG", 2.67],
+          ["620119", "CPU 1/TCG", 10.37],
+          ["620120", "CPU 2/TCG", 10.36]
+        ]],
+      [at,   6,     24000000000,  24000428468, 24000474969, [
+          [id,       name,        cpu];
+          ["620115", jab,         0.75],
+          ["620117", call_rcu,    0.0],
+          ["620118", "CPU 0/TCG", 3.52],
+          ["620119", "CPU 1/TCG", 13.55],
+          ["620120", "CPU 2/TCG", 13.52]
+        ]],
+      [at,   7,     28500000000,  28500810326, 28500897669, [
+          [id,       name,        cpu];
+          ["620115", jab,         0.87],
+          ["620117", call_rcu,    0.0],
+          ["620118", "CPU 0/TCG", 4.17],
+          ["620119", "CPU 1/TCG", 16.48],
+          ["620120", "CPU 2/TCG", 16.46]
+        ]],
+      [at,   8,     33000000000,  33000391462, 33000437695, [
+          [id,       name,        cpu];
+          ["620115", jab,         0.99],
+          ["620117", call_rcu,    0.0],
+          ["620118", "CPU 0/TCG", 4.51],
+          ["620119", "CPU 1/TCG", 18.79],
+          ["620120", "CPU 2/TCG", 18.76]
+        ]]
+    ],
+    relays: [
+
+    ],
+    helpers: [
+
+    ],
+    end_ns: 35012507023,
+    cpu_seconds: 45.23,
+    qemu_pid: 620115,
+    status: 0,
+    signal: null,
+    stdout: "/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_base_2/s_base_2/run_3/qemu.stdout",
+    stderr: "/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_base_2/s_base_2/run_3/qemu.stderr",
+    failure: null,
+    cancelled_ns: null,
+    startup_ns: 27901849,
+    clock: {
+      origin: go,
+      unit: ns,
+      go_utc: "2026-10-25T05:02:06.733747Z"
+    }
+  },
+  incomplete: null
+}

@@ -1,0 +1,1320 @@
+{
+  method: {
+    field: critical_us,
+    bin_cm: 50,
+    path: "the eye's travel over the floor, x and y, summed from the leg's first frame",
+    walked: "a leg whose path reaches one bin is taken per bin; a shorter one, standing, over its frames",
+    bin_value: "a bin's value is the median of its frames' values by nearest rank",
+    leg_value: "a walked leg's value is the mean of its bin values over the bins every run in the comparison reached; a standing leg's is its frames' median by nearest rank",
+    stationary_tail: "no frame is cut: frames standing at a walked leg's end fall in its last bin and count as that one bin",
+    grouping: "a build is an image's SHA-256 on its kernel's, none for an identity recording no kernel, at the cadence its runs played by the workers at the grain they played on the machine their identities record: the cadence the one asked from schema 2, and 0 below it, where a request other than 0 leaves the run unpaired; the workers and grain its frames were drawn by from schema 4; below it the serial backend, 0 at grain 0, for a run with a W 0 answered before its first frame and no W after it, and unknown for any other, which leaves the run unpaired and under --diagnostic a build of its own, never one with a known configuration, workers asked above 0 leaving it unpaired too; under its selection, automatic when its identity asks no workers and forced when it asks a count, so an automatic run and a forced one are two builds whatever they played; observed by the sdl shim or not, its identity naming the shim, so a probed run and a plain one are two builds too; a capture's label less a trailing _<n> names it, one name a build and one build a name, and its runs are its batches, whose identities hold one build's flags and ELF; each run keeps its selection and the cadence, workers, and grain asked beside those played, all read from its own identity (run-request), never the report's summary unless that is its identity",
+    identities: "each run's identity is its own file, its directory found beside its report before the path the report recorded, when the file binds to the run: by the SHA-256 the run records, else equal to the identity the run embeds on every field but build.flags and build.elf_sha256, else, weaker, equal to the report's one identity on the image, kernel, assets, route, machine, overrides, mode less its seed, cap, toolchain, and QEMU, with the run's own seed, a field it lacks named unrecorded; a directory whose file does not bind is passed over and named; the bound file with an audited correction beside it applied to build.flags and build.elf_sha256 alone; else the identity its report embedded; else the report's one identity; each run names its source, its binding, the directories passed over, and its corrections, and a bound file that does not parse or whose correction fails its checks stops the comparison",
+    machine: "a run's machine is the one its identity records, a named spec's, its name, cores, RAM, and display, or a custom machine's, its harts and RAM, with -machine, the CPU, and the accelerator, a legacy record from before named specs its harts and whether it is diagnostic, or none for a capture older than the record; a run on a custom machine, on one its legacy record marks diagnostic, or with QEMU words of its launch's own stands diagnostic, runs on more than one machine, a named spec's and a legacy record's among them, are refused unless --diagnostic admits them, and each table row names its build's machine",
+    table: "a build's value for a leg is the mean of its runs' values and the half spread is half their range, both null when a batch is missing the leg or no bin was reached by every run; a row a build and leg",
+    standing: "a run stands as its measurement and its own rows record it, classified before any leg is measured: unclassified, its measurement recording no clocked; empty, no rows; unusable, a value of the field that is not a number or a leg holding no number in it; those three refused even under --diagnostic; incomplete, invalid, or unchecked (complete but measured before validity was recorded); unpaired, a build older than the clock records, read from its states alone, whose console answers a seed it never takes, or a run not seeded before its first frame or seeded again after it, or below schema 2 one whose identity asks a cadence other than 0, which such a capture cannot play, or from schema 2 one whose cadence was not asked before its first frame or was asked again after it, whose identity asks no cadence from 0 to 2, or with a frame at another cadence, or below schema 4 one whose identity asks workers above 0 or whose workers are unknown, no W 0 answered before its first frame or a W after it, or from schema 4 one asking workers not asked before its first frame or asked again after it or with a frame drawn by other workers or at another grain, or asking none with workers asked after its first frame or frames at more than one count of workers or grain; diagnostic, a run on a custom machine, on one its legacy record marks diagnostic, any count of harts but the specification's three, or whose identity carries QEMU words of its launch's own, each named; those five refused unless --diagnostic admits it; or valid; each table row names its batches' standings",
+    route: "a run's route is the route.nuon beside its bound identity file, else in the first of its run directories holding one, else the file its identity names, held to the SHA-256 its identity recorded; a recorded route missing, of another digest, or not naming every leg its rows hold leaves the run unrouted, refused even under --diagnostic; runs on more than one route, the runs whose identities record none counting as one, are refused unless --diagnostic admits them, then kept apart, the route a part of what a build is, and each table row names its route",
+    coverage: "a run's expected legs are its route's, in its order, or for a run whose identity records no route every leg any compared run recording none holds; a run missing one is refused unless --diagnostic admits it, and then each leg it misses is an explicit missing result in its run and its build's row is missing in place of a value, never a mean over fewer batches; the bins every run reached are its route's runs', and a leg no run reached is missing in its common entry and every batch",
+    parts: "planes_us, walls_us, and sprites_us hold their rendering at schema 1 and are preparation alone at schemas 3 to 5; parts_unattributed_us holds no rendering at those and the raster in f59f7a7's schema 2 images; a schema 2 run's parts are known by a listed image's SHA-256 alone, whatever its identity's commit says, else unknown; planes_us, walls_us, tiles_us, tiles_built, tile_bytes, and tile_peak hold the tiles' construction inside the plane and wall phases below schema 5 and the pool's boundary apart at 5; a comparison on these fields is refused, --diagnostic or not, when its runs' classes differ or any is unknown, and every other field compares across schemas",
+    admitted: false,
+    machines: [
+      [harts, ram_gib, spec,                                                                                                                                                             diagnostic, machine,                          cpu,                 accel,              overrides];
+      [3,     4,       {
+          name: "1ka1",
+          cores: 3,
+          ram_gib: 4,
+          display: {
+            width: 1920,
+            height: 1080
+          }
+        }, null,       "virt,aia=aplic-imsic,aclint=on", "rva23s64,pmp=true", "tcg,thread=multi", [
+
+        ]]
+    ],
+    routes: [
+      ["sha256",                                                           file,                                                                                     legs];
+      ["4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a", "/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_base_1/s_base_1/run_1/route.nuon", [
+          start,
+          spawn,
+          yard,
+          window,
+          bay,
+          up,
+          down,
+          garage
+        ]]
+    ]
+  },
+  common: [
+    [route,                                                              leg,    kind,   runs, missing, bins];
+    ["4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a", start,  frames, 12,   0,       [
+
+      ]],
+    ["4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a", spawn,  frames, 12,   0,       [
+
+      ]],
+    ["4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a", yard,   frames, 12,   0,       [
+
+      ]],
+    ["4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a", window, frames, 12,   0,       [
+
+      ]],
+    ["4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a", bay,    frames, 12,   0,       [
+
+      ]],
+    ["4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a", up,     frames, 12,   0,       [
+
+      ]],
+    ["4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a", down,   frames, 12,   0,       [
+
+      ]],
+    ["4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a", garage, frames, 12,   0,       [
+
+      ]]
+  ],
+  runs: [
+    [file,                                                                               label,      build,  image,                                                              kernel,                                                             machine,                                                                                                                                                                                                                                                                                                                                                                                                           requested_cadence, effective_cadence, run, selection, requested_workers, requested_grain, effective_workers, effective_grain, flags,                                                                                                                                                                                                                                                                                                                                                                   "elf_sha256",                                                       identity_from, identity_file,                                                                               corrections, "identity_sha256",                                                  binding,                                                                passed,     schema, parts,                                                                                                                                                                 route,                                                                                                                                                                                                  standing, reasons,    probed, expected,                                                                                                                    missing,    legs];
+    ["/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_base_1/s_base_1/gauge.nuon", "s_base_1", s_base, "20294ae82cc51e234232adc154573504004ebb05ef46f0e379d4d84226137f0f", "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae", {
+        harts: 3,
+        ram_gib: 4,
+        spec: {
+          name: "1ka1",
+          cores: 3,
+          ram_gib: 4,
+          display: {
+            width: 1920,
+            height: 1080
+          }
+        },
+        diagnostic: null,
+        machine: "virt,aia=aplic-imsic,aclint=on",
+        cpu: "rva23s64,pmp=true",
+        accel: "tcg,thread=multi",
+        overrides: [
+
+        ]
+      }, 1,                 1,                 1,   automatic, null,              null,            2,                 32,              "-I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e220193/sdk/src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e220193/kit/fierce/release --defsym RELEASE=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",                                          "85a578bb7c6427bf82bc039127ff2c54d45aad13b37bfff5fc7060a8b4175c46", file,          "/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_base_1/s_base_1/run_1/identity.nuon", null,        "1a84854ff97f438f9b0d133a5066b54d9debf88408ac14701f1e036b58dcafd0", {
+        strength: "sha256",
+        unrecorded: [
+
+        ]
+      }, [
+
+      ], 8,      {
+        phases: "preparation alone",
+        remainder: "holding no rendering",
+        tiles: "built at the pool's boundary",
+        evidence: "schema 8"
+      }, {
+        file: "/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_base_1/s_base_1/run_1/route.nuon",
+        "sha256": "4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a"
+      }, valid,    [
+
+      ], false,  [
+        start,
+        spawn,
+        yard,
+        window,
+        bay,
+        up,
+        down,
+        garage
+      ], [
+
+      ], [
+        [leg,    kind,   frames, path_m, median, bins,           value];
+        [start,  frames, 40,     0.0,    11374,  [
+
+          ], 11374],
+        [spawn,  frames, 269,    0.0,    11272,  [
+
+          ], 11272],
+        [yard,   frames, 270,    0.0,    12868,  [
+
+          ], 12868],
+        [window, frames, 270,    0.0,    10802,  [
+
+          ], 10802],
+        [bay,    frames, 269,    0.0,    10832,  [
+
+          ], 10832],
+        [up,     frames, 269,    0.0,    15160,  [
+
+          ], 15160],
+        [down,   frames, 270,    0.0,    13687,  [
+
+          ], 13687],
+        [garage, frames, 271,    0.0,    9692,   [
+
+          ], 9692]
+      ]],
+    ["/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_base_1/s_base_1/gauge.nuon", "s_base_1", s_base, "20294ae82cc51e234232adc154573504004ebb05ef46f0e379d4d84226137f0f", "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae", {
+        harts: 3,
+        ram_gib: 4,
+        spec: {
+          name: "1ka1",
+          cores: 3,
+          ram_gib: 4,
+          display: {
+            width: 1920,
+            height: 1080
+          }
+        },
+        diagnostic: null,
+        machine: "virt,aia=aplic-imsic,aclint=on",
+        cpu: "rva23s64,pmp=true",
+        accel: "tcg,thread=multi",
+        overrides: [
+
+        ]
+      }, 1,                 1,                 2,   automatic, null,              null,            2,                 32,              "-I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e220193/sdk/src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e220193/kit/fierce/release --defsym RELEASE=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",                                          "85a578bb7c6427bf82bc039127ff2c54d45aad13b37bfff5fc7060a8b4175c46", file,          "/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_base_1/s_base_1/run_2/identity.nuon", null,        "346616e821484d17311dcc270a1d87a9f2e5d12c591d62fd64fa9b9784cc468b", {
+        strength: "sha256",
+        unrecorded: [
+
+        ]
+      }, [
+
+      ], 8,      {
+        phases: "preparation alone",
+        remainder: "holding no rendering",
+        tiles: "built at the pool's boundary",
+        evidence: "schema 8"
+      }, {
+        file: "/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_base_1/s_base_1/run_2/route.nuon",
+        "sha256": "4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a"
+      }, valid,    [
+
+      ], false,  [
+        start,
+        spawn,
+        yard,
+        window,
+        bay,
+        up,
+        down,
+        garage
+      ], [
+
+      ], [
+        [leg,    kind,   frames, path_m, median, bins,           value];
+        [start,  frames, 40,     0.0,    11538,  [
+
+          ], 11538],
+        [spawn,  frames, 270,    0.0,    11349,  [
+
+          ], 11349],
+        [yard,   frames, 270,    0.0,    12845,  [
+
+          ], 12845],
+        [window, frames, 270,    0.0,    10683,  [
+
+          ], 10683],
+        [bay,    frames, 269,    0.0,    10727,  [
+
+          ], 10727],
+        [up,     frames, 269,    0.0,    15234,  [
+
+          ], 15234],
+        [down,   frames, 270,    0.0,    13683,  [
+
+          ], 13683],
+        [garage, frames, 271,    0.0,    10121,  [
+
+          ], 10121]
+      ]],
+    ["/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_base_1/s_base_1/gauge.nuon", "s_base_1", s_base, "20294ae82cc51e234232adc154573504004ebb05ef46f0e379d4d84226137f0f", "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae", {
+        harts: 3,
+        ram_gib: 4,
+        spec: {
+          name: "1ka1",
+          cores: 3,
+          ram_gib: 4,
+          display: {
+            width: 1920,
+            height: 1080
+          }
+        },
+        diagnostic: null,
+        machine: "virt,aia=aplic-imsic,aclint=on",
+        cpu: "rva23s64,pmp=true",
+        accel: "tcg,thread=multi",
+        overrides: [
+
+        ]
+      }, 1,                 1,                 3,   automatic, null,              null,            2,                 32,              "-I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e220193/sdk/src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e220193/kit/fierce/release --defsym RELEASE=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",                                          "85a578bb7c6427bf82bc039127ff2c54d45aad13b37bfff5fc7060a8b4175c46", file,          "/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_base_1/s_base_1/run_3/identity.nuon", null,        "30e39010eeb4536a042ea7ffb1f634f13e5cd747972bde793da6a154ace26fc5", {
+        strength: "sha256",
+        unrecorded: [
+
+        ]
+      }, [
+
+      ], 8,      {
+        phases: "preparation alone",
+        remainder: "holding no rendering",
+        tiles: "built at the pool's boundary",
+        evidence: "schema 8"
+      }, {
+        file: "/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_base_1/s_base_1/run_3/route.nuon",
+        "sha256": "4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a"
+      }, valid,    [
+
+      ], false,  [
+        start,
+        spawn,
+        yard,
+        window,
+        bay,
+        up,
+        down,
+        garage
+      ], [
+
+      ], [
+        [leg,    kind,   frames, path_m, median, bins,           value];
+        [start,  frames, 40,     0.0,    11354,  [
+
+          ], 11354],
+        [spawn,  frames, 270,    0.0,    11335,  [
+
+          ], 11335],
+        [yard,   frames, 269,    0.0,    12854,  [
+
+          ], 12854],
+        [window, frames, 270,    0.0,    10891,  [
+
+          ], 10891],
+        [bay,    frames, 270,    0.0,    10976,  [
+
+          ], 10976],
+        [up,     frames, 267,    0.0,    15318,  [
+
+          ], 15318],
+        [down,   frames, 270,    0.0,    13706,  [
+
+          ], 13706],
+        [garage, frames, 271,    0.0,    9790,   [
+
+          ], 9790]
+      ]],
+    ["/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_cand_1/s_cand_1/gauge.nuon", "s_cand_1", s_cand, "66342455b43770d1a3c91740d4ced0603dddc3bdfa2711be00fdcd3014fb87f8", "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae", {
+        harts: 3,
+        ram_gib: 4,
+        spec: {
+          name: "1ka1",
+          cores: 3,
+          ram_gib: 4,
+          display: {
+            width: 1920,
+            height: 1080
+          }
+        },
+        diagnostic: null,
+        machine: "virt,aia=aplic-imsic,aclint=on",
+        cpu: "rva23s64,pmp=true",
+        accel: "tcg,thread=multi",
+        overrides: [
+
+        ]
+      }, 1,                 1,                 1,   automatic, null,              null,            2,                 32,              "-I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e220193-footprint/sdk/src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e220193-footprint/kit/fierce/release --defsym FOOTPRINT=1 --defsym RELEASE=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-", "db784f1d09dba276daedcb4dd11ffbfd36215f39adb5e811318e8ab1189ce6a4", file,          "/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_cand_1/s_cand_1/run_1/identity.nuon", null,        "751ed42c867ead176799ed21c8c0f0676aaac73ceb299d42c6bee03f17db31bb", {
+        strength: "sha256",
+        unrecorded: [
+
+        ]
+      }, [
+
+      ], 8,      {
+        phases: "preparation alone",
+        remainder: "holding no rendering",
+        tiles: "built at the pool's boundary",
+        evidence: "schema 8"
+      }, {
+        file: "/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_cand_1/s_cand_1/run_1/route.nuon",
+        "sha256": "4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a"
+      }, valid,    [
+
+      ], false,  [
+        start,
+        spawn,
+        yard,
+        window,
+        bay,
+        up,
+        down,
+        garage
+      ], [
+
+      ], [
+        [leg,    kind,   frames, path_m, median, bins,           value];
+        [start,  frames, 40,     0.0,    12143,  [
+
+          ], 12143],
+        [spawn,  frames, 269,    0.0,    12102,  [
+
+          ], 12102],
+        [yard,   frames, 270,    0.0,    13387,  [
+
+          ], 13387],
+        [window, frames, 270,    0.0,    11382,  [
+
+          ], 11382],
+        [bay,    frames, 269,    0.0,    11392,  [
+
+          ], 11392],
+        [up,     frames, 269,    0.0,    16171,  [
+
+          ], 16171],
+        [down,   frames, 269,    0.0,    14508,  [
+
+          ], 14508],
+        [garage, frames, 271,    0.0,    10442,  [
+
+          ], 10442]
+      ]],
+    ["/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_cand_1/s_cand_1/gauge.nuon", "s_cand_1", s_cand, "66342455b43770d1a3c91740d4ced0603dddc3bdfa2711be00fdcd3014fb87f8", "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae", {
+        harts: 3,
+        ram_gib: 4,
+        spec: {
+          name: "1ka1",
+          cores: 3,
+          ram_gib: 4,
+          display: {
+            width: 1920,
+            height: 1080
+          }
+        },
+        diagnostic: null,
+        machine: "virt,aia=aplic-imsic,aclint=on",
+        cpu: "rva23s64,pmp=true",
+        accel: "tcg,thread=multi",
+        overrides: [
+
+        ]
+      }, 1,                 1,                 2,   automatic, null,              null,            2,                 32,              "-I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e220193-footprint/sdk/src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e220193-footprint/kit/fierce/release --defsym FOOTPRINT=1 --defsym RELEASE=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-", "db784f1d09dba276daedcb4dd11ffbfd36215f39adb5e811318e8ab1189ce6a4", file,          "/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_cand_1/s_cand_1/run_2/identity.nuon", null,        "6a30fd98a43267406899e55c7ad45feec1f8e76cd2df8e5871be753937298f3f", {
+        strength: "sha256",
+        unrecorded: [
+
+        ]
+      }, [
+
+      ], 8,      {
+        phases: "preparation alone",
+        remainder: "holding no rendering",
+        tiles: "built at the pool's boundary",
+        evidence: "schema 8"
+      }, {
+        file: "/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_cand_1/s_cand_1/run_2/route.nuon",
+        "sha256": "4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a"
+      }, valid,    [
+
+      ], false,  [
+        start,
+        spawn,
+        yard,
+        window,
+        bay,
+        up,
+        down,
+        garage
+      ], [
+
+      ], [
+        [leg,    kind,   frames, path_m, median, bins,           value];
+        [start,  frames, 40,     0.0,    12058,  [
+
+          ], 12058],
+        [spawn,  frames, 266,    0.0,    11969,  [
+
+          ], 11969],
+        [yard,   frames, 270,    0.0,    13514,  [
+
+          ], 13514],
+        [window, frames, 270,    0.0,    11273,  [
+
+          ], 11273],
+        [bay,    frames, 269,    0.0,    11317,  [
+
+          ], 11317],
+        [up,     frames, 269,    0.0,    16075,  [
+
+          ], 16075],
+        [down,   frames, 270,    0.0,    14543,  [
+
+          ], 14543],
+        [garage, frames, 271,    0.0,    10394,  [
+
+          ], 10394]
+      ]],
+    ["/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_cand_1/s_cand_1/gauge.nuon", "s_cand_1", s_cand, "66342455b43770d1a3c91740d4ced0603dddc3bdfa2711be00fdcd3014fb87f8", "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae", {
+        harts: 3,
+        ram_gib: 4,
+        spec: {
+          name: "1ka1",
+          cores: 3,
+          ram_gib: 4,
+          display: {
+            width: 1920,
+            height: 1080
+          }
+        },
+        diagnostic: null,
+        machine: "virt,aia=aplic-imsic,aclint=on",
+        cpu: "rva23s64,pmp=true",
+        accel: "tcg,thread=multi",
+        overrides: [
+
+        ]
+      }, 1,                 1,                 3,   automatic, null,              null,            2,                 32,              "-I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e220193-footprint/sdk/src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e220193-footprint/kit/fierce/release --defsym FOOTPRINT=1 --defsym RELEASE=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-", "db784f1d09dba276daedcb4dd11ffbfd36215f39adb5e811318e8ab1189ce6a4", file,          "/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_cand_1/s_cand_1/run_3/identity.nuon", null,        "72aa2dba6455f3d2bcba1d591f7555d78c6e1be34155dd9f428525da35eaffa7", {
+        strength: "sha256",
+        unrecorded: [
+
+        ]
+      }, [
+
+      ], 8,      {
+        phases: "preparation alone",
+        remainder: "holding no rendering",
+        tiles: "built at the pool's boundary",
+        evidence: "schema 8"
+      }, {
+        file: "/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_cand_1/s_cand_1/run_3/route.nuon",
+        "sha256": "4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a"
+      }, valid,    [
+
+      ], false,  [
+        start,
+        spawn,
+        yard,
+        window,
+        bay,
+        up,
+        down,
+        garage
+      ], [
+
+      ], [
+        [leg,    kind,   frames, path_m, median, bins,           value];
+        [start,  frames, 40,     0.0,    12078,  [
+
+          ], 12078],
+        [spawn,  frames, 270,    0.0,    11982,  [
+
+          ], 11982],
+        [yard,   frames, 269,    0.0,    13405,  [
+
+          ], 13405],
+        [window, frames, 270,    0.0,    11343,  [
+
+          ], 11343],
+        [bay,    frames, 270,    0.0,    11307,  [
+
+          ], 11307],
+        [up,     frames, 268,    0.0,    16222,  [
+
+          ], 16222],
+        [down,   frames, 270,    0.0,    14543,  [
+
+          ], 14543],
+        [garage, frames, 271,    0.0,    10054,  [
+
+          ], 10054]
+      ]],
+    ["/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_cand_2/s_cand_2/gauge.nuon", "s_cand_2", s_cand, "66342455b43770d1a3c91740d4ced0603dddc3bdfa2711be00fdcd3014fb87f8", "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae", {
+        harts: 3,
+        ram_gib: 4,
+        spec: {
+          name: "1ka1",
+          cores: 3,
+          ram_gib: 4,
+          display: {
+            width: 1920,
+            height: 1080
+          }
+        },
+        diagnostic: null,
+        machine: "virt,aia=aplic-imsic,aclint=on",
+        cpu: "rva23s64,pmp=true",
+        accel: "tcg,thread=multi",
+        overrides: [
+
+        ]
+      }, 1,                 1,                 1,   automatic, null,              null,            2,                 32,              "-I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e220193-footprint/sdk/src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e220193-footprint/kit/fierce/release --defsym FOOTPRINT=1 --defsym RELEASE=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-", "db784f1d09dba276daedcb4dd11ffbfd36215f39adb5e811318e8ab1189ce6a4", file,          "/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_cand_2/s_cand_2/run_1/identity.nuon", null,        "bae89f0a37bb0fbee79269acbcbd3b98c078b82676a783296eadb2745307d813", {
+        strength: "sha256",
+        unrecorded: [
+
+        ]
+      }, [
+
+      ], 8,      {
+        phases: "preparation alone",
+        remainder: "holding no rendering",
+        tiles: "built at the pool's boundary",
+        evidence: "schema 8"
+      }, {
+        file: "/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_cand_2/s_cand_2/run_1/route.nuon",
+        "sha256": "4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a"
+      }, valid,    [
+
+      ], false,  [
+        start,
+        spawn,
+        yard,
+        window,
+        bay,
+        up,
+        down,
+        garage
+      ], [
+
+      ], [
+        [leg,    kind,   frames, path_m, median, bins,           value];
+        [start,  frames, 40,     0.0,    12144,  [
+
+          ], 12144],
+        [spawn,  frames, 266,    0.0,    12128,  [
+
+          ], 12128],
+        [yard,   frames, 270,    0.0,    13567,  [
+
+          ], 13567],
+        [window, frames, 270,    0.0,    11394,  [
+
+          ], 11394],
+        [bay,    frames, 269,    0.0,    11330,  [
+
+          ], 11330],
+        [up,     frames, 268,    0.0,    16257,  [
+
+          ], 16257],
+        [down,   frames, 270,    0.0,    14541,  [
+
+          ], 14541],
+        [garage, frames, 271,    0.0,    10168,  [
+
+          ], 10168]
+      ]],
+    ["/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_cand_2/s_cand_2/gauge.nuon", "s_cand_2", s_cand, "66342455b43770d1a3c91740d4ced0603dddc3bdfa2711be00fdcd3014fb87f8", "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae", {
+        harts: 3,
+        ram_gib: 4,
+        spec: {
+          name: "1ka1",
+          cores: 3,
+          ram_gib: 4,
+          display: {
+            width: 1920,
+            height: 1080
+          }
+        },
+        diagnostic: null,
+        machine: "virt,aia=aplic-imsic,aclint=on",
+        cpu: "rva23s64,pmp=true",
+        accel: "tcg,thread=multi",
+        overrides: [
+
+        ]
+      }, 1,                 1,                 2,   automatic, null,              null,            2,                 32,              "-I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e220193-footprint/sdk/src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e220193-footprint/kit/fierce/release --defsym FOOTPRINT=1 --defsym RELEASE=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-", "db784f1d09dba276daedcb4dd11ffbfd36215f39adb5e811318e8ab1189ce6a4", file,          "/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_cand_2/s_cand_2/run_2/identity.nuon", null,        "120bebda70931cfbad2a3d0b2c4532282d1d9859ecde487c49f14be5dcba1353", {
+        strength: "sha256",
+        unrecorded: [
+
+        ]
+      }, [
+
+      ], 8,      {
+        phases: "preparation alone",
+        remainder: "holding no rendering",
+        tiles: "built at the pool's boundary",
+        evidence: "schema 8"
+      }, {
+        file: "/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_cand_2/s_cand_2/run_2/route.nuon",
+        "sha256": "4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a"
+      }, valid,    [
+
+      ], false,  [
+        start,
+        spawn,
+        yard,
+        window,
+        bay,
+        up,
+        down,
+        garage
+      ], [
+
+      ], [
+        [leg,    kind,   frames, path_m, median, bins,           value];
+        [start,  frames, 39,     0.0,    12204,  [
+
+          ], 12204],
+        [spawn,  frames, 270,    0.0,    12007,  [
+
+          ], 12007],
+        [yard,   frames, 269,    0.0,    13341,  [
+
+          ], 13341],
+        [window, frames, 270,    0.0,    11288,  [
+
+          ], 11288],
+        [bay,    frames, 270,    0.0,    11450,  [
+
+          ], 11450],
+        [up,     frames, 268,    0.0,    16151,  [
+
+          ], 16151],
+        [down,   frames, 270,    0.0,    14532,  [
+
+          ], 14532],
+        [garage, frames, 271,    0.0,    10192,  [
+
+          ], 10192]
+      ]],
+    ["/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_cand_2/s_cand_2/gauge.nuon", "s_cand_2", s_cand, "66342455b43770d1a3c91740d4ced0603dddc3bdfa2711be00fdcd3014fb87f8", "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae", {
+        harts: 3,
+        ram_gib: 4,
+        spec: {
+          name: "1ka1",
+          cores: 3,
+          ram_gib: 4,
+          display: {
+            width: 1920,
+            height: 1080
+          }
+        },
+        diagnostic: null,
+        machine: "virt,aia=aplic-imsic,aclint=on",
+        cpu: "rva23s64,pmp=true",
+        accel: "tcg,thread=multi",
+        overrides: [
+
+        ]
+      }, 1,                 1,                 3,   automatic, null,              null,            2,                 32,              "-I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e220193-footprint/sdk/src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e220193-footprint/kit/fierce/release --defsym FOOTPRINT=1 --defsym RELEASE=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-", "db784f1d09dba276daedcb4dd11ffbfd36215f39adb5e811318e8ab1189ce6a4", file,          "/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_cand_2/s_cand_2/run_3/identity.nuon", null,        "53f3a4d623f4c990c48d7b29959ec8c99e5ac98ccdcd2bd2e473f107e7ff6483", {
+        strength: "sha256",
+        unrecorded: [
+
+        ]
+      }, [
+
+      ], 8,      {
+        phases: "preparation alone",
+        remainder: "holding no rendering",
+        tiles: "built at the pool's boundary",
+        evidence: "schema 8"
+      }, {
+        file: "/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_cand_2/s_cand_2/run_3/route.nuon",
+        "sha256": "4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a"
+      }, valid,    [
+
+      ], false,  [
+        start,
+        spawn,
+        yard,
+        window,
+        bay,
+        up,
+        down,
+        garage
+      ], [
+
+      ], [
+        [leg,    kind,   frames, path_m, median, bins,           value];
+        [start,  frames, 40,     0.0,    12041,  [
+
+          ], 12041],
+        [spawn,  frames, 270,    0.0,    12015,  [
+
+          ], 12015],
+        [yard,   frames, 270,    0.0,    13439,  [
+
+          ], 13439],
+        [window, frames, 269,    0.0,    11271,  [
+
+          ], 11271],
+        [bay,    frames, 270,    0.0,    11424,  [
+
+          ], 11424],
+        [up,     frames, 260,    0.0,    16215,  [
+
+          ], 16215],
+        [down,   frames, 267,    0.0,    14529,  [
+
+          ], 14529],
+        [garage, frames, 272,    0.0,    10333,  [
+
+          ], 10333]
+      ]],
+    ["/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_base_2/s_base_2/gauge.nuon", "s_base_2", s_base, "20294ae82cc51e234232adc154573504004ebb05ef46f0e379d4d84226137f0f", "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae", {
+        harts: 3,
+        ram_gib: 4,
+        spec: {
+          name: "1ka1",
+          cores: 3,
+          ram_gib: 4,
+          display: {
+            width: 1920,
+            height: 1080
+          }
+        },
+        diagnostic: null,
+        machine: "virt,aia=aplic-imsic,aclint=on",
+        cpu: "rva23s64,pmp=true",
+        accel: "tcg,thread=multi",
+        overrides: [
+
+        ]
+      }, 1,                 1,                 1,   automatic, null,              null,            2,                 32,              "-I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e220193/sdk/src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e220193/kit/fierce/release --defsym RELEASE=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",                                          "85a578bb7c6427bf82bc039127ff2c54d45aad13b37bfff5fc7060a8b4175c46", file,          "/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_base_2/s_base_2/run_1/identity.nuon", null,        "c87955f3d623c1f7ea887059f756fcf5c2ade5777b434cb73a17b7ca3db6c6af", {
+        strength: "sha256",
+        unrecorded: [
+
+        ]
+      }, [
+
+      ], 8,      {
+        phases: "preparation alone",
+        remainder: "holding no rendering",
+        tiles: "built at the pool's boundary",
+        evidence: "schema 8"
+      }, {
+        file: "/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_base_2/s_base_2/run_1/route.nuon",
+        "sha256": "4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a"
+      }, valid,    [
+
+      ], false,  [
+        start,
+        spawn,
+        yard,
+        window,
+        bay,
+        up,
+        down,
+        garage
+      ], [
+
+      ], [
+        [leg,    kind,   frames, path_m, median, bins,           value];
+        [start,  frames, 41,     0.0,    11477,  [
+
+          ], 11477],
+        [spawn,  frames, 269,    0.0,    11340,  [
+
+          ], 11340],
+        [yard,   frames, 270,    0.0,    12774,  [
+
+          ], 12774],
+        [window, frames, 270,    0.0,    10779,  [
+
+          ], 10779],
+        [bay,    frames, 269,    0.0,    10739,  [
+
+          ], 10739],
+        [up,     frames, 269,    0.0,    15254,  [
+
+          ], 15254],
+        [down,   frames, 270,    0.0,    13765,  [
+
+          ], 13765],
+        [garage, frames, 270,    0.0,    10320,  [
+
+          ], 10320]
+      ]],
+    ["/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_base_2/s_base_2/gauge.nuon", "s_base_2", s_base, "20294ae82cc51e234232adc154573504004ebb05ef46f0e379d4d84226137f0f", "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae", {
+        harts: 3,
+        ram_gib: 4,
+        spec: {
+          name: "1ka1",
+          cores: 3,
+          ram_gib: 4,
+          display: {
+            width: 1920,
+            height: 1080
+          }
+        },
+        diagnostic: null,
+        machine: "virt,aia=aplic-imsic,aclint=on",
+        cpu: "rva23s64,pmp=true",
+        accel: "tcg,thread=multi",
+        overrides: [
+
+        ]
+      }, 1,                 1,                 2,   automatic, null,              null,            2,                 32,              "-I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e220193/sdk/src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e220193/kit/fierce/release --defsym RELEASE=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",                                          "85a578bb7c6427bf82bc039127ff2c54d45aad13b37bfff5fc7060a8b4175c46", file,          "/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_base_2/s_base_2/run_2/identity.nuon", null,        "57b2fa1ba5ec19946e20a007e6e63bdf7779be855ce31b90f94fa0460933176f", {
+        strength: "sha256",
+        unrecorded: [
+
+        ]
+      }, [
+
+      ], 8,      {
+        phases: "preparation alone",
+        remainder: "holding no rendering",
+        tiles: "built at the pool's boundary",
+        evidence: "schema 8"
+      }, {
+        file: "/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_base_2/s_base_2/run_2/route.nuon",
+        "sha256": "4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a"
+      }, valid,    [
+
+      ], false,  [
+        start,
+        spawn,
+        yard,
+        window,
+        bay,
+        up,
+        down,
+        garage
+      ], [
+
+      ], [
+        [leg,    kind,   frames, path_m, median, bins,           value];
+        [start,  frames, 40,     0.0,    11399,  [
+
+          ], 11399],
+        [spawn,  frames, 270,    0.0,    11360,  [
+
+          ], 11360],
+        [yard,   frames, 270,    0.0,    12821,  [
+
+          ], 12821],
+        [window, frames, 270,    0.0,    10932,  [
+
+          ], 10932],
+        [bay,    frames, 269,    0.0,    10926,  [
+
+          ], 10926],
+        [up,     frames, 269,    0.0,    15333,  [
+
+          ], 15333],
+        [down,   frames, 270,    0.0,    13733,  [
+
+          ], 13733],
+        [garage, frames, 271,    0.0,    9724,   [
+
+          ], 9724]
+      ]],
+    ["/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_base_2/s_base_2/gauge.nuon", "s_base_2", s_base, "20294ae82cc51e234232adc154573504004ebb05ef46f0e379d4d84226137f0f", "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae", {
+        harts: 3,
+        ram_gib: 4,
+        spec: {
+          name: "1ka1",
+          cores: 3,
+          ram_gib: 4,
+          display: {
+            width: 1920,
+            height: 1080
+          }
+        },
+        diagnostic: null,
+        machine: "virt,aia=aplic-imsic,aclint=on",
+        cpu: "rva23s64,pmp=true",
+        accel: "tcg,thread=multi",
+        overrides: [
+
+        ]
+      }, 1,                 1,                 3,   automatic, null,              null,            2,                 32,              "-I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e220193/sdk/src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e220193/kit/fierce/release --defsym RELEASE=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",                                          "85a578bb7c6427bf82bc039127ff2c54d45aad13b37bfff5fc7060a8b4175c46", file,          "/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_base_2/s_base_2/run_3/identity.nuon", null,        "0048d2206500a7dfb15acc88a5bfabe8b4a7b7a874cb340afd532de8984a0898", {
+        strength: "sha256",
+        unrecorded: [
+
+        ]
+      }, [
+
+      ], 8,      {
+        phases: "preparation alone",
+        remainder: "holding no rendering",
+        tiles: "built at the pool's boundary",
+        evidence: "schema 8"
+      }, {
+        file: "/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_base_2/s_base_2/run_3/route.nuon",
+        "sha256": "4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a"
+      }, valid,    [
+
+      ], false,  [
+        start,
+        spawn,
+        yard,
+        window,
+        bay,
+        up,
+        down,
+        garage
+      ], [
+
+      ], [
+        [leg,    kind,   frames, path_m, median, bins,           value];
+        [start,  frames, 39,     0.0,    11565,  [
+
+          ], 11565],
+        [spawn,  frames, 270,    0.0,    11374,  [
+
+          ], 11374],
+        [yard,   frames, 269,    0.0,    12864,  [
+
+          ], 12864],
+        [window, frames, 270,    0.0,    10600,  [
+
+          ], 10600],
+        [bay,    frames, 269,    0.0,    10587,  [
+
+          ], 10587],
+        [up,     frames, 269,    0.0,    15253,  [
+
+          ], 15253],
+        [down,   frames, 270,    0.0,    13655,  [
+
+          ], 13655],
+        [garage, frames, 271,    0.0,    10017,  [
+
+          ], 10017]
+      ]]
+  ],
+  table: [
+    [build,  leg,    route,                                                              selection, machine,                                                                                                                                                                                                                                                                                                                                                                                                           probed, value_us,           half_spread_us, batches, missing, standings];
+    [s_base, start,  "4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a", automatic, {
+        harts: 3,
+        ram_gib: 4,
+        spec: {
+          name: "1ka1",
+          cores: 3,
+          ram_gib: 4,
+          display: {
+            width: 1920,
+            height: 1080
+          }
+        },
+        diagnostic: null,
+        machine: "virt,aia=aplic-imsic,aclint=on",
+        cpu: "rva23s64,pmp=true",
+        accel: "tcg,thread=multi",
+        overrides: [
+
+        ]
+      }, false,  11451.166666666666, 105.5,          6,       0,       [
+        valid
+      ]],
+    [s_base, spawn,  "4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a", automatic, {
+        harts: 3,
+        ram_gib: 4,
+        spec: {
+          name: "1ka1",
+          cores: 3,
+          ram_gib: 4,
+          display: {
+            width: 1920,
+            height: 1080
+          }
+        },
+        diagnostic: null,
+        machine: "virt,aia=aplic-imsic,aclint=on",
+        cpu: "rva23s64,pmp=true",
+        accel: "tcg,thread=multi",
+        overrides: [
+
+        ]
+      }, false,  11338.333333333334, 51.0,           6,       0,       [
+        valid
+      ]],
+    [s_base, yard,   "4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a", automatic, {
+        harts: 3,
+        ram_gib: 4,
+        spec: {
+          name: "1ka1",
+          cores: 3,
+          ram_gib: 4,
+          display: {
+            width: 1920,
+            height: 1080
+          }
+        },
+        diagnostic: null,
+        machine: "virt,aia=aplic-imsic,aclint=on",
+        cpu: "rva23s64,pmp=true",
+        accel: "tcg,thread=multi",
+        overrides: [
+
+        ]
+      }, false,  12837.666666666666, 47.0,           6,       0,       [
+        valid
+      ]],
+    [s_base, window, "4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a", automatic, {
+        harts: 3,
+        ram_gib: 4,
+        spec: {
+          name: "1ka1",
+          cores: 3,
+          ram_gib: 4,
+          display: {
+            width: 1920,
+            height: 1080
+          }
+        },
+        diagnostic: null,
+        machine: "virt,aia=aplic-imsic,aclint=on",
+        cpu: "rva23s64,pmp=true",
+        accel: "tcg,thread=multi",
+        overrides: [
+
+        ]
+      }, false,  10781.166666666666, 166.0,          6,       0,       [
+        valid
+      ]],
+    [s_base, bay,    "4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a", automatic, {
+        harts: 3,
+        ram_gib: 4,
+        spec: {
+          name: "1ka1",
+          cores: 3,
+          ram_gib: 4,
+          display: {
+            width: 1920,
+            height: 1080
+          }
+        },
+        diagnostic: null,
+        machine: "virt,aia=aplic-imsic,aclint=on",
+        cpu: "rva23s64,pmp=true",
+        accel: "tcg,thread=multi",
+        overrides: [
+
+        ]
+      }, false,  10797.833333333334, 194.5,          6,       0,       [
+        valid
+      ]],
+    [s_base, up,     "4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a", automatic, {
+        harts: 3,
+        ram_gib: 4,
+        spec: {
+          name: "1ka1",
+          cores: 3,
+          ram_gib: 4,
+          display: {
+            width: 1920,
+            height: 1080
+          }
+        },
+        diagnostic: null,
+        machine: "virt,aia=aplic-imsic,aclint=on",
+        cpu: "rva23s64,pmp=true",
+        accel: "tcg,thread=multi",
+        overrides: [
+
+        ]
+      }, false,  15258.666666666666, 86.5,           6,       0,       [
+        valid
+      ]],
+    [s_base, down,   "4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a", automatic, {
+        harts: 3,
+        ram_gib: 4,
+        spec: {
+          name: "1ka1",
+          cores: 3,
+          ram_gib: 4,
+          display: {
+            width: 1920,
+            height: 1080
+          }
+        },
+        diagnostic: null,
+        machine: "virt,aia=aplic-imsic,aclint=on",
+        cpu: "rva23s64,pmp=true",
+        accel: "tcg,thread=multi",
+        overrides: [
+
+        ]
+      }, false,  13704.833333333334, 55.0,           6,       0,       [
+        valid
+      ]],
+    [s_base, garage, "4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a", automatic, {
+        harts: 3,
+        ram_gib: 4,
+        spec: {
+          name: "1ka1",
+          cores: 3,
+          ram_gib: 4,
+          display: {
+            width: 1920,
+            height: 1080
+          }
+        },
+        diagnostic: null,
+        machine: "virt,aia=aplic-imsic,aclint=on",
+        cpu: "rva23s64,pmp=true",
+        accel: "tcg,thread=multi",
+        overrides: [
+
+        ]
+      }, false,  9944.0,             314.0,          6,       0,       [
+        valid
+      ]],
+    [s_cand, start,  "4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a", automatic, {
+        harts: 3,
+        ram_gib: 4,
+        spec: {
+          name: "1ka1",
+          cores: 3,
+          ram_gib: 4,
+          display: {
+            width: 1920,
+            height: 1080
+          }
+        },
+        diagnostic: null,
+        machine: "virt,aia=aplic-imsic,aclint=on",
+        cpu: "rva23s64,pmp=true",
+        accel: "tcg,thread=multi",
+        overrides: [
+
+        ]
+      }, false,  12111.333333333334, 81.5,           6,       0,       [
+        valid
+      ]],
+    [s_cand, spawn,  "4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a", automatic, {
+        harts: 3,
+        ram_gib: 4,
+        spec: {
+          name: "1ka1",
+          cores: 3,
+          ram_gib: 4,
+          display: {
+            width: 1920,
+            height: 1080
+          }
+        },
+        diagnostic: null,
+        machine: "virt,aia=aplic-imsic,aclint=on",
+        cpu: "rva23s64,pmp=true",
+        accel: "tcg,thread=multi",
+        overrides: [
+
+        ]
+      }, false,  12033.833333333334, 79.5,           6,       0,       [
+        valid
+      ]],
+    [s_cand, yard,   "4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a", automatic, {
+        harts: 3,
+        ram_gib: 4,
+        spec: {
+          name: "1ka1",
+          cores: 3,
+          ram_gib: 4,
+          display: {
+            width: 1920,
+            height: 1080
+          }
+        },
+        diagnostic: null,
+        machine: "virt,aia=aplic-imsic,aclint=on",
+        cpu: "rva23s64,pmp=true",
+        accel: "tcg,thread=multi",
+        overrides: [
+
+        ]
+      }, false,  13442.166666666666, 113.0,          6,       0,       [
+        valid
+      ]],
+    [s_cand, window, "4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a", automatic, {
+        harts: 3,
+        ram_gib: 4,
+        spec: {
+          name: "1ka1",
+          cores: 3,
+          ram_gib: 4,
+          display: {
+            width: 1920,
+            height: 1080
+          }
+        },
+        diagnostic: null,
+        machine: "virt,aia=aplic-imsic,aclint=on",
+        cpu: "rva23s64,pmp=true",
+        accel: "tcg,thread=multi",
+        overrides: [
+
+        ]
+      }, false,  11325.166666666666, 61.5,           6,       0,       [
+        valid
+      ]],
+    [s_cand, bay,    "4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a", automatic, {
+        harts: 3,
+        ram_gib: 4,
+        spec: {
+          name: "1ka1",
+          cores: 3,
+          ram_gib: 4,
+          display: {
+            width: 1920,
+            height: 1080
+          }
+        },
+        diagnostic: null,
+        machine: "virt,aia=aplic-imsic,aclint=on",
+        cpu: "rva23s64,pmp=true",
+        accel: "tcg,thread=multi",
+        overrides: [
+
+        ]
+      }, false,  11370.0,            71.5,           6,       0,       [
+        valid
+      ]],
+    [s_cand, up,     "4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a", automatic, {
+        harts: 3,
+        ram_gib: 4,
+        spec: {
+          name: "1ka1",
+          cores: 3,
+          ram_gib: 4,
+          display: {
+            width: 1920,
+            height: 1080
+          }
+        },
+        diagnostic: null,
+        machine: "virt,aia=aplic-imsic,aclint=on",
+        cpu: "rva23s64,pmp=true",
+        accel: "tcg,thread=multi",
+        overrides: [
+
+        ]
+      }, false,  16181.833333333334, 91.0,           6,       0,       [
+        valid
+      ]],
+    [s_cand, down,   "4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a", automatic, {
+        harts: 3,
+        ram_gib: 4,
+        spec: {
+          name: "1ka1",
+          cores: 3,
+          ram_gib: 4,
+          display: {
+            width: 1920,
+            height: 1080
+          }
+        },
+        diagnostic: null,
+        machine: "virt,aia=aplic-imsic,aclint=on",
+        cpu: "rva23s64,pmp=true",
+        accel: "tcg,thread=multi",
+        overrides: [
+
+        ]
+      }, false,  14532.666666666666, 17.5,           6,       0,       [
+        valid
+      ]],
+    [s_cand, garage, "4e5d93a44bf133dd30971bbdc89b42ae9f05082775aa624c25cdc68a7f2df51a", automatic, {
+        harts: 3,
+        ram_gib: 4,
+        spec: {
+          name: "1ka1",
+          cores: 3,
+          ram_gib: 4,
+          display: {
+            width: 1920,
+            height: 1080
+          }
+        },
+        diagnostic: null,
+        machine: "virt,aia=aplic-imsic,aclint=on",
+        cpu: "rva23s64,pmp=true",
+        accel: "tcg,thread=multi",
+        overrides: [
+
+        ]
+      }, false,  10263.833333333334, 194.0,          6,       0,       [
+        valid
+      ]]
+  ]
+}

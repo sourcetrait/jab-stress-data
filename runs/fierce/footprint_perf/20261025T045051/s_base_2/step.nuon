@@ -1,0 +1,131 @@
+{
+  name: "s_base_2",
+  repo: jab,
+  bin: "kit/fierce/nu/bin/nuance.nu",
+  words: [
+    gauge,
+    run,
+    --tree,
+    release,
+    --image,
+    "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/export_e220193/kit/fierce/release/fierce.jab",
+    --kernel,
+    "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kernel/kexport_d297a6b/kernel/release/jab.elf",
+    --route,
+    "/home/box/proj/sourcetrait/jab/kit/fierce/nu/nuon/route/route_settled.nuon",
+    --runs,
+    "3",
+    --seeds,
+    "[1 2 3]",
+    --spec,
+    "1ka1",
+    --cadence,
+    "1",
+    --eps,
+    "3700",
+    --cpu,
+    --out,
+    "/home/box/tmp/ai/two/aCIHF7edB6B/footprint/recorded/s_base_2/s_base_2",
+    --label,
+    "s_base_2"
+  ],
+  env: [
+
+  ],
+  symbols: [
+
+  ],
+  started: "2026-10-25T05:00:03.449073985+00:00",
+  ended: "2026-10-25T05:03:07.455355453+00:00",
+  seconds: 183.987723396,
+  exit: 0,
+  ok: true,
+  checkouts: {
+    jab: {
+      commit: "3222dfc314d0363556a494497c83536c95d0f315",
+      clean: true
+    },
+    stress: {
+      commit: "0592d2945ef1c29d1992ed951b0fa377e5bda137",
+      clean: true
+    }
+  },
+  kernel_source: {
+    asked: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    last: "51a4956971391cfd45ef6cf6a2fa4aa3223a1b37",
+    equal: true
+  },
+  fixtures: [
+
+  ],
+  kernel: {
+    tree: release,
+    out: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/kernel",
+    elf: {
+      from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/kernel/jab.elf",
+      kept: "build/kernel/jab.elf",
+      "sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+    },
+    flags: "-I src/include -I ../sdk/src -march=rva23s64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+    defined: [
+
+    ],
+    held: true,
+    loaded: {
+      kept: "build/kernel/jab.bin",
+      "sha256": "efe12507e089683b9d5011a84b4511da9f1e0861e3c01ece4949e11ad474c606"
+    }
+  },
+  programs: [
+
+  ],
+  outs: [
+
+  ],
+  host_load: {
+    file: "host_load.nuonl",
+    root: {
+      pid: 618177,
+      start: 22273673
+    },
+    readings: 20,
+    covered: {
+      from: 223289.12,
+      to: 223473.12
+    },
+    final: true,
+    gaps: [
+
+    ],
+    unbounded: [
+
+    ],
+    named: [
+
+    ],
+    unattributed: [
+      [from,      to,        cores];
+      [223289.12, 223299.14, 0.042],
+      [223299.14, 223309.15, 0.016],
+      [223309.15, 223319.15, 0.032],
+      [223319.15, 223329.16, 0.779],
+      [223329.16, 223339.17, 0.025],
+      [223339.17, 223349.17, 0.02],
+      [223349.17, 223359.18, 0.043],
+      [223359.18, 223369.18, 0.026],
+      [223369.18, 223379.19, 0.03],
+      [223379.19, 223389.2,  0.855],
+      [223389.2,  223399.2,  0.023],
+      [223399.2,  223409.21, 0.021],
+      [223409.21, 223419.21, 0.043],
+      [223419.21, 223429.22, 0.013],
+      [223429.22, 223439.23, 0.02],
+      [223439.23, 223449.24, 0.999],
+      [223449.24, 223459.24, 0.015],
+      [223459.24, 223469.25, 0.02],
+      [223469.25, 223473.12, 1.052]
+    ]
+  },
+  stdout: "run.stdout",
+  stderr: "run.stderr"
+}

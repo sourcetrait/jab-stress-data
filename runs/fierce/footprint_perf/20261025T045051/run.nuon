@@ -1,0 +1,185 @@
+{
+ schema: 2,
+ set: footprint_perf,
+ stamp: "20261025T045051",
+ task: FootprintEstimate,
+ scope: {
+  kind: targeted,
+  ran: 12,
+  of: 12,
+  names: [
+   "s_base_1",
+   "s_cand_1",
+   "s_cand_2",
+   "s_base_2",
+   "f_base_1",
+   "f_cand_1",
+   "f_cand_2",
+   "f_base_2",
+   compare_s_critical,
+   compare_s_raster,
+   compare_f_critical,
+   compare_f_raster
+  ]
+ },
+ builds: [
+  {
+   part: "s_base_1",
+   build: null,
+   source: export,
+   record: "s_base_1/step.nuon",
+   export: {
+    name: "export_e220193",
+    commit: "e22019384f2d792304bc3902c54988eb5f153869",
+    provenance: "runs/fierce/export/20261025-cleaned/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "20294ae82cc51e234232adc154573504004ebb05ef46f0e379d4d84226137f0f",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: "s_cand_1",
+   build: null,
+   source: export,
+   record: "s_cand_1/step.nuon",
+   export: {
+    name: "export_e220193-footprint",
+    commit: "e22019384f2d792304bc3902c54988eb5f153869",
+    provenance: "runs/fierce/export/20261025-cleaned-footprint/fexport_footprint/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+     FOOTPRINT
+    ],
+    "image_sha256": "66342455b43770d1a3c91740d4ced0603dddc3bdfa2711be00fdcd3014fb87f8",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: "s_cand_2",
+   build: null,
+   source: export,
+   record: "s_cand_2/step.nuon",
+   export: {
+    name: "export_e220193-footprint",
+    commit: "e22019384f2d792304bc3902c54988eb5f153869",
+    provenance: "runs/fierce/export/20261025-cleaned-footprint/fexport_footprint/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+     FOOTPRINT
+    ],
+    "image_sha256": "66342455b43770d1a3c91740d4ced0603dddc3bdfa2711be00fdcd3014fb87f8",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: "s_base_2",
+   build: null,
+   source: export,
+   record: "s_base_2/step.nuon",
+   export: {
+    name: "export_e220193",
+    commit: "e22019384f2d792304bc3902c54988eb5f153869",
+    provenance: "runs/fierce/export/20261025-cleaned/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "20294ae82cc51e234232adc154573504004ebb05ef46f0e379d4d84226137f0f",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: "f_base_1",
+   build: null,
+   source: export,
+   record: "f_base_1/step.nuon",
+   export: {
+    name: "export_e220193",
+    commit: "e22019384f2d792304bc3902c54988eb5f153869",
+    provenance: "runs/fierce/export/20261025-cleaned/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "20294ae82cc51e234232adc154573504004ebb05ef46f0e379d4d84226137f0f",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: "f_cand_1",
+   build: null,
+   source: export,
+   record: "f_cand_1/step.nuon",
+   export: {
+    name: "export_e220193-footprint",
+    commit: "e22019384f2d792304bc3902c54988eb5f153869",
+    provenance: "runs/fierce/export/20261025-cleaned-footprint/fexport_footprint/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+     FOOTPRINT
+    ],
+    "image_sha256": "66342455b43770d1a3c91740d4ced0603dddc3bdfa2711be00fdcd3014fb87f8",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: "f_cand_2",
+   build: null,
+   source: export,
+   record: "f_cand_2/step.nuon",
+   export: {
+    name: "export_e220193-footprint",
+    commit: "e22019384f2d792304bc3902c54988eb5f153869",
+    provenance: "runs/fierce/export/20261025-cleaned-footprint/fexport_footprint/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+     FOOTPRINT
+    ],
+    "image_sha256": "66342455b43770d1a3c91740d4ced0603dddc3bdfa2711be00fdcd3014fb87f8",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: "f_base_2",
+   build: null,
+   source: export,
+   record: "f_base_2/step.nuon",
+   export: {
+    name: "export_e220193",
+    commit: "e22019384f2d792304bc3902c54988eb5f153869",
+    provenance: "runs/fierce/export/20261025-cleaned/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "20294ae82cc51e234232adc154573504004ebb05ef46f0e379d4d84226137f0f",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: compare_s_critical,
+   build: "3222dfc314d0363556a494497c83536c95d0f315",
+   source: checkout,
+   record: "compare_s_critical/step.nuon"
+  },
+  {
+   part: compare_s_raster,
+   build: "3222dfc314d0363556a494497c83536c95d0f315",
+   source: checkout,
+   record: "compare_s_raster/step.nuon"
+  },
+  {
+   part: compare_f_critical,
+   build: "3222dfc314d0363556a494497c83536c95d0f315",
+   source: checkout,
+   record: "compare_f_critical/step.nuon"
+  },
+  {
+   part: compare_f_raster,
+   build: "3222dfc314d0363556a494497c83536c95d0f315",
+   source: checkout,
+   record: "compare_f_raster/step.nuon"
+  }
+ ],
+ kept: {
+  as: checkpoint,
+  why: "FootprintEstimate's comparison repeated on CadenceCleanup's cleaned layout, its layout comparison having found a shift on the critical path (runs/fierce/cadencecleanup/20261025T035945): the cleaned export_e220193 (image 20294ae8) against export_e220193-footprint (image 66342455), both on kexport_d297a6b (ELF c8285900), jab 3222dfc through jab-stress 0592d29's recorded runner, both checkouts clean and kernel/ and sdk/src equal to d297a6b's, from 04:50:51 to 05:24:52; 1KA1, release, cadence 1, eps 3,700, the settled and the factory routes, base, candidate, candidate, base on each, three seeded runs a batch, compared at 50 cm on critical_us and raster_us. Every run valid at schema 8, 1,918 to 1,929 frames on the settled route and 3,301 to 3,308 on the factory, K unbroken at eps 3,700, no catch-up, late wakes 0 to 5; no foreign process at 0.1 cores beside it. By FootprintEstimate's rule the candidate's critical path exceeds the base's by more than the larger half spread on every leg of both routes, 319.8 to 923.2 us on the settled and 338.9 to 801.3 on the factory, the pairs above in 100 of 102: retained. The COUNT lines and the pictures, no layout's to move, were not repeated. Cited by the fps subiter's plan/agenda/FrameCeiling/FootprintEstimate.md."
+ },
+ inventory: "de888b2ca48f0855639fb78a41fd39f6da9c7d394280d6c0f256e5dfe25d0bc2",
+ storage: "cc3c0ffe7d6cf83286768bddc565764339f9ccf8311170455445595607c2c1d3"
+}
