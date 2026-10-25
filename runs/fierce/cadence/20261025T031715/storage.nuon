@@ -1,0 +1,294 @@
+[
+ [object,                                                           kind,      length,  "sha256",                                                           holds];
+ [bench/build/kernel/flags,                                         raw,       3662,    "47dce9d2899fbf6c0a063ba49e799fc48ba67882fe913c1c656216094a9cab38", [
+   bench/build/kernel/flags
+  ]],
+ [bench/build/kit/fierce/flags,                                     raw,       2320,    "a602d66cfd08e5502536e725aa5083e9d673cd7d33ec4c04531791d6d0714cdf", [
+   bench/build/kit/fierce/flags
+  ]],
+ ["bench/host_load.nuonl",                                          raw,       120458,  "b7c252ca5a085f4e74377f645b1b82ff38d9d85944e811a6ca9727d2c54bf9dc", [
+   "bench/host_load.nuonl"
+  ]],
+ ["bench/out_0/20261025-031746/bench.nuon",                         raw,       1873,    "7ed38889df994f96a5ec3f63102f627ec405613a356d97486a054726c7802aa4", [
+   "bench/out_0/20261025-031746/bench.nuon"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_1/pad.nuon",                raw,       1660,    "71be4c0dc4e693988b3efa1e7a54e25b743ddda19dc6903ba1a1ed1d7e8488b1", [
+   "bench/out_0/20261025-031746/cadence1_1/pad.nuon"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_1/run_1/identity.nuon",     raw,       5318,    "659e0f0e314b1ff3aaa17daa0656a8669735a90eb43a2db45055025ac0e0d173", [
+   "bench/out_0/20261025-031746/cadence1_1/run_1/identity.nuon"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_1/run_1/qemu.log.nuonl",    container, 229,     "145d1ec4ba373acea5115df4899156e90e4aabdcf150053f31cb2c0021379ed2", [
+   "bench/out_0/20261025-031746/cadence1_1/run_1/qemu.log"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_1/run_1/qemu.stderr.nuonl", container, 234,     "16b9a6aee9bb4fb0e5378557d4e86b66125e7645b910b7e198eb8c6490af137f", [
+   "bench/out_0/20261025-031746/cadence1_1/run_1/qemu.stderr"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_1/run_1/qemu.stdout.nuonl", container, 234,     "5fb67b558127c202600eff76d4cbd541fcfe8fa8e606154b5f73255cc890d645", [
+   "bench/out_0/20261025-031746/cadence1_1/run_1/qemu.stdout"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_1/run_1/route.nuon",        raw,       5884,    "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", [
+   "bench/out_0/20261025-031746/cadence1_1/run_1/route.nuon"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_1/run_1/run.nuon",          raw,       3219,    "3970d362765c4fa672bd641c3f122e81af338b8a50ce3fe26be518a79310db73", [
+   "bench/out_0/20261025-031746/cadence1_1/run_1/run.nuon"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_1/run_1/serial.log.nuonl",  container, 230,     "2d80bbcc724d20f48577f497cc55bb4c7b11e7b132301e4f96ca92bc12120992", [
+   "bench/out_0/20261025-031746/cadence1_1/run_1/serial.log"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_1/run_2/identity.nuon",     raw,       5319,    "d4dcb2a62455afc2927074558ac4b481c2b3d68006067d1f51065da27e7efa76", [
+   "bench/out_0/20261025-031746/cadence1_1/run_2/identity.nuon"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_1/run_2/qemu.log.nuonl",    container, 229,     "a09c20fe3e1ca61359d6004bf989ca78ab682da0fa2742396e76add0262bf87b", [
+   "bench/out_0/20261025-031746/cadence1_1/run_2/qemu.log"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_1/run_2/qemu.stderr.nuonl", container, 234,     "5cbe49b3348d935ef4d9b8cf7b08fec2f3defb3ceb0268542684614f4fc8f195", [
+   "bench/out_0/20261025-031746/cadence1_1/run_2/qemu.stderr"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_1/run_2/qemu.stdout.nuonl", container, 234,     "8dd8f6ca84fd13c51295c9eb915371bb04269007dabcb6803080d21fce87bed6", [
+   "bench/out_0/20261025-031746/cadence1_1/run_2/qemu.stdout"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_1/run_2/route.nuon",        raw,       5884,    "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", [
+   "bench/out_0/20261025-031746/cadence1_1/run_2/route.nuon"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_1/run_2/run.nuon",          raw,       3219,    "774f4f5e02688c2af7526a7d96c5feaa29b2befde91e72704a4e268acc201c89", [
+   "bench/out_0/20261025-031746/cadence1_1/run_2/run.nuon"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_1/run_2/serial.log.nuonl",  container, 230,     "da2e46b8aab677a4ff0ebc2c00ab4fed29b2766d65c1144e5da9ccd3794bf178", [
+   "bench/out_0/20261025-031746/cadence1_1/run_2/serial.log"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_1/run_3/identity.nuon",     raw,       5319,    "0660289534bf8967bd105e1c42b1b0031b30ad86f1a8e3cb485522f6ce17eb70", [
+   "bench/out_0/20261025-031746/cadence1_1/run_3/identity.nuon"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_1/run_3/qemu.log.nuonl",    container, 229,     "129e678d5db2c9f801df0bff604aca1699ae9542d781b3c42f192cd30fc7df5b", [
+   "bench/out_0/20261025-031746/cadence1_1/run_3/qemu.log"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_1/run_3/qemu.stderr.nuonl", container, 234,     "6ec51a9dd4064fcf843971ab393368d863d3e5a0c20fe71012c78d9bb9a2775c", [
+   "bench/out_0/20261025-031746/cadence1_1/run_3/qemu.stderr"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_1/run_3/qemu.stdout.nuonl", container, 234,     "604b48856ee3b65142f11cbba922e9eec5785dd13f545fcb3f457832cc813e59", [
+   "bench/out_0/20261025-031746/cadence1_1/run_3/qemu.stdout"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_1/run_3/route.nuon",        raw,       5884,    "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", [
+   "bench/out_0/20261025-031746/cadence1_1/run_3/route.nuon"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_1/run_3/run.nuon",          raw,       3217,    "3046cbdf08ff01ec3d1cd355bdcaf9ac4de757a82895257dda7e6ea28f8581d8", [
+   "bench/out_0/20261025-031746/cadence1_1/run_3/run.nuon"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_1/run_3/serial.log.nuonl",  container, 230,     "c1f7a6341ce89bcbd3c002c47d60d049ee9dfb071b3e0f73ccf9211cb739a912", [
+   "bench/out_0/20261025-031746/cadence1_1/run_3/serial.log"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_2/pad.nuon",                raw,       1660,    "71be4c0dc4e693988b3efa1e7a54e25b743ddda19dc6903ba1a1ed1d7e8488b1", [
+   "bench/out_0/20261025-031746/cadence1_2/pad.nuon"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_2/run_1/identity.nuon",     raw,       5319,    "492603b4a2c1b2053a6eb97e7ca376dc30b19ca102fc0fbdfd265df142aed63b", [
+   "bench/out_0/20261025-031746/cadence1_2/run_1/identity.nuon"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_2/run_1/qemu.log.nuonl",    container, 229,     "a5b169d6540b3540b67b60655dcd308c3c236436f7ec41232bc6c9248f95cb49", [
+   "bench/out_0/20261025-031746/cadence1_2/run_1/qemu.log"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_2/run_1/qemu.stderr.nuonl", container, 234,     "c6403d4137cf4415307c0e5372e1816c4e03bc38b2c8084fd37ab352e9188c3e", [
+   "bench/out_0/20261025-031746/cadence1_2/run_1/qemu.stderr"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_2/run_1/qemu.stdout.nuonl", container, 234,     "9a864a2db86e28231b3e7d804a9b7a100bb93e9cd0746f3b2b487d4c336a0b48", [
+   "bench/out_0/20261025-031746/cadence1_2/run_1/qemu.stdout"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_2/run_1/route.nuon",        raw,       5884,    "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", [
+   "bench/out_0/20261025-031746/cadence1_2/run_1/route.nuon"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_2/run_1/run.nuon",          raw,       3218,    "8e75962057b5812b2c3537f3562479ebd830c94b66dd41e3630b4a60b611f483", [
+   "bench/out_0/20261025-031746/cadence1_2/run_1/run.nuon"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_2/run_1/serial.log.nuonl",  container, 230,     "5e5c65c9faeb6aa4be0537f8a7156a78221c527a7d72e5e87a5374f44a6e3363", [
+   "bench/out_0/20261025-031746/cadence1_2/run_1/serial.log"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_2/run_2/identity.nuon",     raw,       5319,    "d73f5edef0a3ba634aedc27f4042e49c7a955ebbb661b09dae761daf243af449", [
+   "bench/out_0/20261025-031746/cadence1_2/run_2/identity.nuon"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_2/run_2/qemu.log.nuonl",    container, 229,     "b589db8bcb8310fb9e2e000e14c094cb706a46fea5596fd441309da64cd93706", [
+   "bench/out_0/20261025-031746/cadence1_2/run_2/qemu.log"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_2/run_2/qemu.stderr.nuonl", container, 234,     "107c956f64e0eb6f656f32d6c49e9fb1c95b812a8c797063dd0dca75ced0f927", [
+   "bench/out_0/20261025-031746/cadence1_2/run_2/qemu.stderr"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_2/run_2/qemu.stdout.nuonl", container, 234,     "225f94897a42becf2d3f0887ea86d8dc2bc5bc7f9d0c760c3f2248c4827a77cf", [
+   "bench/out_0/20261025-031746/cadence1_2/run_2/qemu.stdout"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_2/run_2/route.nuon",        raw,       5884,    "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", [
+   "bench/out_0/20261025-031746/cadence1_2/run_2/route.nuon"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_2/run_2/run.nuon",          raw,       3219,    "57c0a3fcb910f641c99758b7480484a1d227a1cdd49247c1ef16af586348dd02", [
+   "bench/out_0/20261025-031746/cadence1_2/run_2/run.nuon"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_2/run_2/serial.log.nuonl",  container, 230,     "efde56f123b7bac0fa428b0d456be3826616e4c947745bd9f6ad303f497580c9", [
+   "bench/out_0/20261025-031746/cadence1_2/run_2/serial.log"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_2/run_3/identity.nuon",     raw,       5319,    "0ee0dbed829b26e3988f071d12266dac9006769137d87eef5eb7e76109644cca", [
+   "bench/out_0/20261025-031746/cadence1_2/run_3/identity.nuon"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_2/run_3/qemu.log.nuonl",    container, 229,     "bcdb66bcb70be56a67eda1ab176204d28b83caca2614b44c3dd35f905febac95", [
+   "bench/out_0/20261025-031746/cadence1_2/run_3/qemu.log"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_2/run_3/qemu.stderr.nuonl", container, 234,     "e5ef738f8f1295a7590ea195d4c77175bca7e8900bca72f71184213fd0f0505a", [
+   "bench/out_0/20261025-031746/cadence1_2/run_3/qemu.stderr"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_2/run_3/qemu.stdout.nuonl", container, 234,     "cbc68a1317f6f2020c279d3388dfda8a6df06709d19b60a40e603132524cc8ea", [
+   "bench/out_0/20261025-031746/cadence1_2/run_3/qemu.stdout"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_2/run_3/route.nuon",        raw,       5884,    "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", [
+   "bench/out_0/20261025-031746/cadence1_2/run_3/route.nuon"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_2/run_3/run.nuon",          raw,       3219,    "92ce03d5c2fc7dbb68d9c29c72b76841d5da7c67b0c788de20e2031d58fc101d", [
+   "bench/out_0/20261025-031746/cadence1_2/run_3/run.nuon"
+  ]],
+ ["bench/out_0/20261025-031746/cadence1_2/run_3/serial.log.nuonl",  container, 230,     "5e1010ede3062f8e4ae556225e945f40f90d88124695022a88c5b1eaed9c9a46", [
+   "bench/out_0/20261025-031746/cadence1_2/run_3/serial.log"
+  ]],
+ ["bench/out_0/20261025-031746/play1/run_1/identity.nuon",          raw,       3701,    "2ba25921757403bf54a1a610adf3e041b1f3bcb44d4602f7fba39c9503f7144d", [
+   "bench/out_0/20261025-031746/play1/run_1/identity.nuon"
+  ]],
+ ["bench/out_0/20261025-031746/play1/run_1/qemu.log.nuonl",         container, 229,     "cb5624375de6e16151bc322efa4bb4513bff3943ef6740cbd7bc1d3077a9aafe", [
+   "bench/out_0/20261025-031746/play1/run_1/qemu.log"
+  ]],
+ ["bench/out_0/20261025-031746/play1/run_1/qemu.stderr.nuonl",      container, 234,     "01faa13a86df50963718e2a6a533c2a7147f28c4fac490488b184f6fa8ed8ccd", [
+   "bench/out_0/20261025-031746/play1/run_1/qemu.stderr"
+  ]],
+ ["bench/out_0/20261025-031746/play1/run_1/qemu.stdout.nuonl",      container, 234,     "0e34b9c43e445a7cb463f84939f8d4c05ff012dca4162dfed62e2c5c1c1f025e", [
+   "bench/out_0/20261025-031746/play1/run_1/qemu.stdout"
+  ]],
+ ["bench/out_0/20261025-031746/play1/run_1/run.nuon",               raw,       3021,    "253450bd7ab651efff33fcf1f15b62b74dd6e4e15798b20f6a8caf705b79cd95", [
+   "bench/out_0/20261025-031746/play1/run_1/run.nuon"
+  ]],
+ ["bench/out_0/20261025-031746/play1/run_1/serial.log.nuonl",       container, 230,     "ec026293a73f248074d33259ebf7585c1486b406f827be621864c64390300f7e", [
+   "bench/out_0/20261025-031746/play1/run_1/serial.log"
+  ]],
+ ["bench/out_0/20261025-031746/report.nuon",                        raw,       38805,   "16cb4a67c909df0efc251fe04c85165b8ae70292f3142e2d33c6c02988eac785", [
+   "bench/out_0/20261025-031746/report.nuon"
+  ]],
+ ["bench/out_0/20261025-031746/report.txt.nuonl",                   container, 5494,    "f4d321990f8f2748e6bf1390ed722298ed19b97f615133935d20e5a1ed336979", [
+   "bench/out_0/20261025-031746/report.txt"
+  ]],
+ ["bench/out_0/state.nuon",                                         raw,       240,     "2a3906c7bd0108115ff05e00f4c068591fc47171a3404e2b56f80736d1dce72a", [
+   "bench/out_0/state.nuon"
+  ]],
+ ["bench/run.stderr.nuonl",                                         container, 234,     "239e37f153bac4a56fa82264220622c238a424f025ac0e0745b936ba864b67cb", [
+   "bench/run.stderr"
+  ]],
+ ["bench/run.stdout.nuonl",                                         container, 66597,   "49b0d7a66186798af23f50041186259d7b9fcdc0ffd31a03a106191483276059", [
+   "bench/run.stdout"
+  ]],
+ ["bench/step.nuon",                                                raw,       6498,    "9db44bf9d262781105121d97bb7e4e25d148f47df32b033d80571fae8f4041a8", [
+   "bench/step.nuon"
+  ]],
+ [cadence_fixtures/build/kernel/flags,                              raw,       3662,    "47dce9d2899fbf6c0a063ba49e799fc48ba67882fe913c1c656216094a9cab38", [
+   cadence_fixtures/build/kernel/flags
+  ]],
+ ["cadence_fixtures/host_load.nuonl",                               raw,       5950,    "247fe1dbc66f4f7681006d0f22e4d3c62c0fe43284947e76098ff2fd5407a48d", [
+   "cadence_fixtures/host_load.nuonl"
+  ]],
+ ["cadence_fixtures/out/cadence/motion_1/debug.log.nuonl",          container, 55517,   "ebc5671bd299de46400b887cd92d694b603477255c600559ef191bea275d5df8", [
+   "cadence_fixtures/out/cadence/motion_1/debug.log"
+  ]],
+ ["cadence_fixtures/out/cadence/motion_1/qemu.log.nuonl",           container, 229,     "3ec64203b9d22aeb7bf2694efe48baccf705a6aa4a2a53ff39dee54f54916833", [
+   "cadence_fixtures/out/cadence/motion_1/qemu.log"
+  ]],
+ ["cadence_fixtures/out/cadence/motion_1/qemu.stderr.nuonl",        container, 234,     "54367a25a17d7fd03af68bb26b6c6ff4c7a6a29f71fd15a56520cec3845ba1aa", [
+   "cadence_fixtures/out/cadence/motion_1/qemu.stderr"
+  ]],
+ ["cadence_fixtures/out/cadence/motion_1/qemu.stdout.nuonl",        container, 234,     "bb1c7def8470fe64c4ad4e366c931df94648a5888a50854e2efa4582ae110922", [
+   "cadence_fixtures/out/cadence/motion_1/qemu.stdout"
+  ]],
+ ["cadence_fixtures/out/cadence/motion_1/serial.log.nuonl",         container, 25521,   "32b92f5ab0ba1987abc007221714aa7cd4d3d07254a634ec396e3563df25cd77", [
+   "cadence_fixtures/out/cadence/motion_1/serial.log"
+  ]],
+ ["cadence_fixtures/out/cadence/schedule_1/debug.log.nuonl",        container, 114205,  "bcf4de44da76d361ae902d02046a2a654e3431d190b82935612ba213f1f80ca2", [
+   "cadence_fixtures/out/cadence/schedule_1/debug.log"
+  ]],
+ ["cadence_fixtures/out/cadence/schedule_1/qemu.log.nuonl",         container, 229,     "9b80c49702e31d5351926a588274aab422ffdfac9849344b597c263a0d0ea8e5", [
+   "cadence_fixtures/out/cadence/schedule_1/qemu.log"
+  ]],
+ ["cadence_fixtures/out/cadence/schedule_1/qemu.stderr.nuonl",      container, 234,     "dc2ce010893a6cf9503d35b8cc8de61ac4edcfcb1c790245440c61b3622544c1", [
+   "cadence_fixtures/out/cadence/schedule_1/qemu.stderr"
+  ]],
+ ["cadence_fixtures/out/cadence/schedule_1/qemu.stdout.nuonl",      container, 234,     "e0f35f5a50ee5eaa287d9489286e14cb66fddf427b838590bbd8f564cc93e620", [
+   "cadence_fixtures/out/cadence/schedule_1/qemu.stdout"
+  ]],
+ ["cadence_fixtures/out/cadence/schedule_1/serial.log.nuonl",       container, 22075,   "e83d4ba81def56d65d8f42e796e5cc2548ea787006e53173cab39e3387db5b83", [
+   "cadence_fixtures/out/cadence/schedule_1/serial.log"
+  ]],
+ ["cadence_fixtures/out/cadence/stick.nuon",                        raw,       77,      "36042796996ffa79383155714dbbdc53409e0c7509ae40e7ca0b7930557867f5", [
+   "cadence_fixtures/out/cadence/stick.nuon"
+  ]],
+ ["cadence_fixtures/out/cadence/still/render_0_still.nuon",         raw,       21800,   "867226568d5659e5c356fca78d82f319cdb58a21d398342a6cbe6ea3da8e30ab", [
+   "cadence_fixtures/out/cadence/still/render_0_still.nuon"
+  ]],
+ ["cadence_fixtures/out/cadence/still/render_0_still/map.nuon",     raw,       271,     "af825bab3789d42234576067572e700672963203f7a50a54357a338d265a38de", [
+   "cadence_fixtures/out/cadence/still/render_0_still/map.nuon"
+  ]],
+ ["cadence_fixtures/out/cadence/still/render_0_still/tile.nuon",    raw,       1649,    "6567ce7680d156ad7f178b6af12a5f5667e421f62aef0ecaced26ad0749fbc0e", [
+   "cadence_fixtures/out/cadence/still/render_0_still/tile.nuon"
+  ]],
+ ["cadence_fixtures/out/cadence/triggers.nuon",                     raw,       565,     "bfde83f91d220c8d902f1cca2109a535faa1fac1bf213a86d42c3eba290a7463", [
+   "cadence_fixtures/out/cadence/triggers.nuon"
+  ]],
+ ["cadence_fixtures/run.stderr.nuonl",                              container, 234,     "8c1a7b65194cb6b7d969eebfd44a772288878ee1d486bb7494f3a89a3283272e", [
+   "cadence_fixtures/run.stderr"
+  ]],
+ ["cadence_fixtures/run.stdout.nuonl",                              container, 871,     "9632ba6b2042b57345fa1625dc6874a00668eb23ec3d47050f78eb34fc23394d", [
+   "cadence_fixtures/run.stdout"
+  ]],
+ ["cadence_fixtures/step.nuon",                                     raw,       2405,    "bf844b300bde5ae7b20fbf62c0055945671427a4221b1f763916be915cba1ea1", [
+   "cadence_fixtures/step.nuon"
+  ]],
+ [fierce_debug/build/kernel/flags,                                  raw,       3679,    "13cb22af6a30ed4181a57be5fe482da3b67b32a9c4b3c5a501715858bc1b01a9", [
+   fierce_debug/build/kernel/flags
+  ]],
+ [fierce_debug/build/kit/fierce/flags,                              raw,       2331,    "c8f03b76442fde24ca5ad72124b753053e8f17ecd8f80f9ebb8521a448f62a6d", [
+   fierce_debug/build/kit/fierce/flags
+  ]],
+ ["fierce_debug/host_load.nuonl",                                   raw,       2822,    "5e9cddd6f1dc771d6ed6eb3fbc3b0329d2e232050dd8242ee34c3b0c53c638a5", [
+   "fierce_debug/host_load.nuonl"
+  ]],
+ ["fierce_debug/run.stderr.nuonl",                                  container, 234,     "be8fa41045076e0e8dc7fcbc0c11e6d8844b38f3de9187ad968cfb08495eca20", [
+   "fierce_debug/run.stderr"
+  ]],
+ ["fierce_debug/run.stdout.nuonl",                                  container, 1305,    "e0f5364cea1dcc80b9ad2ef726d1f1625265274f250e37359883412df81f43f6", [
+   "fierce_debug/run.stdout"
+  ]],
+ ["fierce_debug/step.nuon",                                         raw,       3131,    "1fe460e33cce265ddafb1bf046d7158fb5dac90c4c7e98255946ad6a34cdd3f5", [
+   "fierce_debug/step.nuon"
+  ]],
+ ["archive.tar.xz",                                                 archive,   4514088, "3ca3d0901bd19eac707654d9f024d28d4f00ec4ff73f6403a952c00c5b41ddb0", [
+   "bench/build/kernel/jab.bin",
+   "bench/build/kernel/jab.elf",
+   "bench/build/kit/fierce/fierce.elf",
+   "bench/build/kit/fierce/fierce.jab",
+   "bench/out_0/20261025-031746/cadence1_1/gauge.nuon",
+   "bench/out_0/20261025-031746/cadence1_1/run_1/api.out",
+   "bench/out_0/20261025-031746/cadence1_1/run_1/launch.nuon",
+   "bench/out_0/20261025-031746/cadence1_1/run_2/api.out",
+   "bench/out_0/20261025-031746/cadence1_1/run_2/launch.nuon",
+   "bench/out_0/20261025-031746/cadence1_1/run_3/api.out",
+   "bench/out_0/20261025-031746/cadence1_1/run_3/launch.nuon",
+   "bench/out_0/20261025-031746/cadence1_2/gauge.nuon",
+   "bench/out_0/20261025-031746/cadence1_2/run_1/api.out",
+   "bench/out_0/20261025-031746/cadence1_2/run_1/launch.nuon",
+   "bench/out_0/20261025-031746/cadence1_2/run_2/api.out",
+   "bench/out_0/20261025-031746/cadence1_2/run_2/launch.nuon",
+   "bench/out_0/20261025-031746/cadence1_2/run_3/api.out",
+   "bench/out_0/20261025-031746/cadence1_2/run_3/launch.nuon",
+   "bench/out_0/20261025-031746/play1/gauge.nuon",
+   "bench/out_0/20261025-031746/play1/run_1/api.out",
+   "bench/out_0/20261025-031746/play1/run_1/launch.nuon",
+   "cadence_fixtures/build/kernel/jab.bin",
+   "cadence_fixtures/build/kernel/jab.elf",
+   "cadence_fixtures/out/cadence/motion_1/api.out",
+   "cadence_fixtures/out/cadence/motion_1/launch.nuon",
+   "cadence_fixtures/out/cadence/schedule_1/api.out",
+   "cadence_fixtures/out/cadence/schedule_1/launch.nuon",
+   "fierce_debug/build/kernel/jab.bin",
+   "fierce_debug/build/kernel/jab.elf",
+   "fierce_debug/build/kit/fierce/fierce.elf",
+   "fierce_debug/build/kit/fierce/fierce.jab"
+  ]]
+]

@@ -1,0 +1,55 @@
+{
+  bench: kit/fierce/cadence,
+  summary: "the program's cadence: your play, then the route twice, in your window with live audio",
+  tree: release,
+  stamp: "20261025-031746",
+  started: "2026-10-25T03:17:46",
+  file: "/home/box/proj/sourcetrait/jab/kit/fierce/bench/cadence.nuon",
+  "file_sha256": "5468dbabf43db4befe1eaafe8381eb65715b23c1b3e5ed7f66fd4557b39e15be",
+  build: tree,
+  package: null,
+  build_root: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/cadence/20261025-031746/build",
+  builds: [
+
+  ],
+  steps: [
+    [label,        attend,                                                                                              gate,  run,                                                                                                                                                                            state, exit, seconds];
+    ["play1",      "your turn: play Render Zero with your pad for 60 seconds, each frame shown as soon as it is ready", false, [
+        "nu/bin/nuance.nu",
+        gauge,
+        play,
+        --tree,
+        release,
+        --seconds,
+        "60",
+        --cadence,
+        "1"
+      ],            done,  0,    110.6],
+    ["cadence1_1", null,                                                                                                false, [
+        "nu/bin/nuance.nu",
+        gauge,
+        run,
+        --tree,
+        release,
+        --runs,
+        "3",
+        --host,
+        --cadence,
+        "1"
+      ], done,  0,    312.5],
+    ["cadence1_2", null,                                                                                                false, [
+        "nu/bin/nuance.nu",
+        gauge,
+        run,
+        --tree,
+        release,
+        --runs,
+        "3",
+        --host,
+        --cadence,
+        "1"
+      ], done,  0,    312.1]
+  ],
+  report: 0,
+  state: done
+}

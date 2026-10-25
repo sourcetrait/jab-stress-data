@@ -1,0 +1,28 @@
+{
+ schema: 2,
+ set: cadence,
+ stamp: "20261025T031715",
+ task: CadenceCleanup,
+ scope: {
+  kind: whole,
+  ran: 3,
+  of: 3,
+  names: [
+   fierce_debug,
+   cadence_fixtures,
+   bench
+  ]
+ },
+ builds: [
+  [part,             build,                                      source,   record];
+  [fierce_debug,     "3222dfc314d0363556a494497c83536c95d0f315", checkout, "fierce_debug/step.nuon"],
+  [cadence_fixtures, "3222dfc314d0363556a494497c83536c95d0f315", checkout, "cadence_fixtures/step.nuon"],
+  [bench,            "3222dfc314d0363556a494497c83536c95d0f315", checkout, "bench/step.nuon"]
+ ],
+ kept: {
+  as: current,
+  why: "CadenceCleanup's step 6 and 7 proofs at jab 3222dfc through jab-stress 0592d29's recorded runner, both checkouts clean, alone on the box from 03:17:15 to 03:30:36: the cadence fixtures alone on the debug build as the fps ops' CadenceFixtures runs them, two launches in 28 s, cadence: ok; then ./do bench kit/fierce/cadence whole, the bench at the program's cadence, under JAB_DISPLAY sdl,gl=on and SDL_VIDEODRIVER offscreen: play1, idling at the spawn with no pad here, and the route's two batches of three seeded runs, every run valid and pooled, its report and tar written, exit 0, the shipped recipe run here before it is called done. No foreign process reached 0.1 cores beside it. Cited by the fps subiter's plan/agenda/FrameCeiling/FrameCadence/CadenceCleanup.md."
+ },
+ inventory: "7b5b6fbdf43b1f8bd7f9e251e3dfd9d23299fe5f4b7a0f7c5a36edd45f05354f",
+ storage: "48553013427814900a536448dc03c67fadde124e5bb8755a52e1159200814dae"
+}

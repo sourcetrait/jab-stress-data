@@ -1,0 +1,103 @@
+{
+  name: fierce_debug,
+  repo: jab,
+  bin: do,
+  words: [
+    build,
+    kit/fierce,
+    --set,
+    debug
+  ],
+  env: [
+
+  ],
+  symbols: [
+    DEBUG
+  ],
+  started: "2026-10-25T03:17:15.661686260+00:00",
+  ended: "2026-10-25T03:17:18.021046807+00:00",
+  seconds: 2.324529337,
+  exit: 0,
+  ok: true,
+  checkouts: {
+    jab: {
+      commit: "3222dfc314d0363556a494497c83536c95d0f315",
+      clean: true
+    },
+    stress: {
+      commit: "0592d2945ef1c29d1992ed951b0fa377e5bda137",
+      clean: true
+    }
+  },
+  kernel_source: {
+    asked: null,
+    last: "51a4956971391cfd45ef6cf6a2fa4aa3223a1b37",
+    equal: null
+  },
+  fixtures: [
+
+  ],
+  kernel: {
+    tree: debug,
+    out: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel",
+    elf: {
+      from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kernel/jab.elf",
+      kept: "build/kernel/jab.elf",
+      "sha256": "dbf39b5c9ddb8464774c6d0f648bd5f29931752da19503a8455f1c2f34c591ef"
+    },
+    flags: "-I src/include -I ../sdk/src --defsym DEBUG=1 -march=rva23s64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+    defined: [
+      DEBUG
+    ],
+    held: true,
+    loaded: {
+      kept: "build/kernel/jab.bin",
+      "sha256": "9cf8934541552bb9c6f75a2d2f1e9b368c70d25bba2536fefefa1188a0d3aaa9"
+    }
+  },
+  programs: [
+    [tree,  out,                                                                  elf,                                                                                                                                                                                                                                        flags,                                                                                                                                                                                                defined,                 held, program,    image];
+    [debug, "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kit/fierce", {
+        from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kit/fierce/fierce.elf",
+        kept: "build/kit/fierce/fierce.elf",
+        "sha256": "e0ecf0a19caa9bd90be24bd375e398421718c6bbb5cd9b395e85c9d7fee10072"
+      }, "-I ../../sdk/src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kit/fierce --defsym DEBUG=1 -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-", [
+        DEBUG
+      ], true, kit/fierce, {
+        from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/debug/kit/fierce/fierce.jab",
+        kept: "build/kit/fierce/fierce.jab",
+        "sha256": "a3eaa23d3170f0b4593b09ae8cc2443a17aae119897e411ed403a80511df1c85"
+      }]
+  ],
+  outs: [
+
+  ],
+  host_load: {
+    file: "host_load.nuonl",
+    root: {
+      pid: 602745,
+      start: 21712120
+    },
+    readings: 2,
+    covered: {
+      from: 217121.34,
+      to: 217123.68
+    },
+    final: true,
+    gaps: [
+
+    ],
+    unbounded: [
+
+    ],
+    named: [
+
+    ],
+    unattributed: [
+      [from,      to,        cores];
+      [217121.34, 217123.68, 1.034]
+    ]
+  },
+  stdout: "run.stdout",
+  stderr: "run.stderr"
+}

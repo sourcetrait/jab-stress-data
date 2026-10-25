@@ -1,0 +1,1 @@
+{sectors: 30, walls: 178, vertices: 104, portals: 76, materials: 23, entities: 40, lights: 20, sprites: 10, ambients: 5, spawn: {at: [29.0, 2.5, 0.0], yaw: 150.0, pitch: 0.0}, name: "render_0_still", bytes: 19028, sounds: 16, sprite_files: 80, unresolved: 0, missing: []}

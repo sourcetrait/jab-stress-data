@@ -1,0 +1,1243 @@
+{
+ bench: kit/fierce/cadence,
+ stamp: "20261025-031746",
+ dir: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/cadence/20261025-031746",
+ steps: [
+  [label,        state, file];
+  ["play1",      done,  "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/cadence/20261025-031746/play1/gauge.nuon"],
+  ["cadence1_1", done,  "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/cadence/20261025-031746/cadence1_1/gauge.nuon"],
+  ["cadence1_2", done,  "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/cadence/20261025-031746/cadence1_2/gauge.nuon"]
+ ],
+ runs: [
+  [label,        run, seed, kind,  selection, cadence, workers, grain, period_us,          machine,                                                                                                                                                                                                                                                                                                                           qemu,                           standing, reasons];
+  ["play1",      1,   1,    play,  automatic, 1,       null,    null,  16666.666666666668, {
+    harts: 3,
+    ram_gib: 4,
+    spec: {
+     name: "1ka1",
+     cores: 3,
+     ram_gib: 4,
+     display: {
+      width: 1920,
+      height: 1080
+     }
+    },
+    diagnostic: null,
+    machine: "virt,aia=aplic-imsic,aclint=on",
+    cpu: "rva23s64,pmp=true",
+    accel: "tcg,thread=multi",
+    overrides: [
+
+    ]
+   }, "QEMU emulator version 11.1.2", valid,    [
+
+   ]],
+  ["cadence1_1", 1,   1,    route, automatic, 1,       null,    null,  16666.666666666668, {
+    harts: 3,
+    ram_gib: 4,
+    spec: {
+     name: "1ka1",
+     cores: 3,
+     ram_gib: 4,
+     display: {
+      width: 1920,
+      height: 1080
+     }
+    },
+    diagnostic: null,
+    machine: "virt,aia=aplic-imsic,aclint=on",
+    cpu: "rva23s64,pmp=true",
+    accel: "tcg,thread=multi",
+    overrides: [
+
+    ]
+   }, "QEMU emulator version 11.1.2", valid,    [
+
+   ]],
+  ["cadence1_1", 2,   2,    route, automatic, 1,       null,    null,  16666.666666666668, {
+    harts: 3,
+    ram_gib: 4,
+    spec: {
+     name: "1ka1",
+     cores: 3,
+     ram_gib: 4,
+     display: {
+      width: 1920,
+      height: 1080
+     }
+    },
+    diagnostic: null,
+    machine: "virt,aia=aplic-imsic,aclint=on",
+    cpu: "rva23s64,pmp=true",
+    accel: "tcg,thread=multi",
+    overrides: [
+
+    ]
+   }, "QEMU emulator version 11.1.2", valid,    [
+
+   ]],
+  ["cadence1_1", 3,   3,    route, automatic, 1,       null,    null,  16666.666666666668, {
+    harts: 3,
+    ram_gib: 4,
+    spec: {
+     name: "1ka1",
+     cores: 3,
+     ram_gib: 4,
+     display: {
+      width: 1920,
+      height: 1080
+     }
+    },
+    diagnostic: null,
+    machine: "virt,aia=aplic-imsic,aclint=on",
+    cpu: "rva23s64,pmp=true",
+    accel: "tcg,thread=multi",
+    overrides: [
+
+    ]
+   }, "QEMU emulator version 11.1.2", valid,    [
+
+   ]],
+  ["cadence1_2", 1,   1,    route, automatic, 1,       null,    null,  16666.666666666668, {
+    harts: 3,
+    ram_gib: 4,
+    spec: {
+     name: "1ka1",
+     cores: 3,
+     ram_gib: 4,
+     display: {
+      width: 1920,
+      height: 1080
+     }
+    },
+    diagnostic: null,
+    machine: "virt,aia=aplic-imsic,aclint=on",
+    cpu: "rva23s64,pmp=true",
+    accel: "tcg,thread=multi",
+    overrides: [
+
+    ]
+   }, "QEMU emulator version 11.1.2", valid,    [
+
+   ]],
+  ["cadence1_2", 2,   2,    route, automatic, 1,       null,    null,  16666.666666666668, {
+    harts: 3,
+    ram_gib: 4,
+    spec: {
+     name: "1ka1",
+     cores: 3,
+     ram_gib: 4,
+     display: {
+      width: 1920,
+      height: 1080
+     }
+    },
+    diagnostic: null,
+    machine: "virt,aia=aplic-imsic,aclint=on",
+    cpu: "rva23s64,pmp=true",
+    accel: "tcg,thread=multi",
+    overrides: [
+
+    ]
+   }, "QEMU emulator version 11.1.2", valid,    [
+
+   ]],
+  ["cadence1_2", 3,   3,    route, automatic, 1,       null,    null,  16666.666666666668, {
+    harts: 3,
+    ram_gib: 4,
+    spec: {
+     name: "1ka1",
+     cores: 3,
+     ram_gib: 4,
+     display: {
+      width: 1920,
+      height: 1080
+     }
+    },
+    diagnostic: null,
+    machine: "virt,aia=aplic-imsic,aclint=on",
+    cpu: "rva23s64,pmp=true",
+    accel: "tcg,thread=multi",
+    overrides: [
+
+    ]
+   }, "QEMU emulator version 11.1.2", valid,    [
+
+   ]]
+ ],
+ groups: [
+  [kind,  cadences];
+  [play,  [
+    [cadence, period_us,          steps,                  runs, valid, standings,                                                                                     cpu_over_wall,                     cpu_left,  outcomes,                                                                                                                                                                                                                                                                                                                                                                              frames,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          apart];
+    [1,       16666.666666666668, [
+      "play1"
+     ], 1,    1,     [
+      [label,   run, standing, reasons];
+      ["play1", 1,   valid,    [
+
+       ]]
+     ], [
+      1.3123433769874948
+     ], [
+
+     ], [
+      [label,   run, outcomes];
+      ["play1", 1,   {
+        rounds: [
+
+        ],
+        androids: [
+         [event,    count];
+         [waypoint, 8],
+         [roused,   3],
+         [fired,    103]
+        ],
+        struck: 2,
+        pickups: 0,
+        sectors: [
+         [leg,  sectors];
+         [play, [
+           0
+          ]]
+        ]
+       }]
+     ], {
+      frames: 3545,
+      presented: 3545,
+      acceptance: {
+       count: 3545,
+       min: 16361.1,
+       median: 16666.3,
+       "p95": 16731.7,
+       "p99": 16818.4,
+       max: 22066.5
+      },
+      completion: {
+       count: 3544,
+       min: 14987,
+       median: 16660,
+       "p95": 16980,
+       "p99": 17279,
+       max: 22099
+      },
+      call_interval: {
+       count: 3544,
+       min: 16361,
+       median: 16666,
+       "p95": 16731,
+       "p99": 16818,
+       max: 22067
+      },
+      grid: [
+       [periods, intervals];
+       [1,       3539]
+      ],
+      off_grid: 5,
+      unknown_calls: 0,
+      submission_age: {
+       count: 3545,
+       min: 14841,
+       median: 16592,
+       "p95": 16926,
+       "p99": 17228,
+       max: 22066
+      },
+      critical: {
+       count: 3545,
+       min: 12070,
+       median: 12543,
+       "p95": 13333,
+       "p99": 14566,
+       max: 22169
+      },
+      draw: {
+       count: 3545,
+       min: 10675,
+       median: 10915,
+       "p95": 11359,
+       "p99": 12673,
+       max: 20444
+      },
+      wait: {
+       count: 3545,
+       min: 0,
+       median: 4128,
+       "p95": 4450,
+       "p99": 4540,
+       max: 4623
+      },
+      pacing: {
+       count: 3545,
+       min: 1,
+       median: 2,
+       "p95": 2,
+       "p99": 4,
+       max: 104
+      },
+      await: {
+       count: 3545,
+       min: 0,
+       median: 0,
+       "p95": 0,
+       "p99": 0,
+       max: 26
+      },
+      wakes: 0,
+      attempts: 3545,
+      refusals: 0,
+      flips_early: 0,
+      flips_failed: 0,
+      over: 25,
+      fast: 3537,
+      fast_waited: 3535,
+      catch_up: 0
+     }, [
+
+     ]]
+   ]],
+  [route, [
+    [cadence, period_us,          steps,                                           runs, valid, standings,                                                                                                                                                                                                                                                                                                                                                         cpu_over_wall,                                                                                                                                                   cpu_left,  outcomes,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           frames,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  apart];
+    [1,       16666.666666666668, [
+      "cadence1_1",
+      "cadence1_2"
+     ], 6,    6,     [
+      [label,        run, standing, reasons];
+      ["cadence1_1", 1,   valid,    [
+
+       ]],
+      ["cadence1_1", 2,   valid,    [
+
+       ]],
+      ["cadence1_1", 3,   valid,    [
+
+       ]],
+      ["cadence1_2", 1,   valid,    [
+
+       ]],
+      ["cadence1_2", 2,   valid,    [
+
+       ]],
+      ["cadence1_2", 3,   valid,    [
+
+       ]]
+     ], [
+      1.3246986854286438,
+      1.323545043175078,
+      1.3216156127877063,
+      1.323520571350318,
+      1.315073898515687,
+      1.319552364543947
+     ], [
+
+     ], [
+      [label,        run, outcomes];
+      ["cadence1_1", 1,   {
+        rounds: [
+         [met,     count];
+         [android, 4]
+        ],
+        androids: [
+         [event,     count];
+         [roused,    4],
+         [fired,     29],
+         [struck,    3],
+         [destroyed, 1],
+         [fallen,    1],
+         [waypoint,  8]
+        ],
+        struck: 0,
+        pickups: 1,
+        sectors: [
+         [leg,      sectors];
+         [start,    [
+           0
+          ]],
+         [fight,    [
+           0
+          ]],
+         [spawn,    [
+           0
+          ]],
+         [yard,     [
+           25
+          ]],
+         [up,       [
+           2,
+           5,
+           6,
+           7,
+           8,
+           9,
+           10,
+           11
+          ]],
+         [down,     [
+           2,
+           19,
+           20,
+           21,
+           22,
+           23,
+           24,
+           17
+          ]],
+         [ramp,     [
+           27,
+           28
+          ]],
+         [revisit,  [
+           0
+          ]],
+         [pressure, [
+           25,
+           11,
+           0,
+           17,
+           28,
+           2
+          ]]
+        ]
+       }],
+      ["cadence1_1", 2,   {
+        rounds: [
+         [met,     count];
+         [android, 4]
+        ],
+        androids: [
+         [event,     count];
+         [roused,    4],
+         [fired,     24],
+         [struck,    3],
+         [destroyed, 1],
+         [fallen,    1],
+         [waypoint,  8]
+        ],
+        struck: 1,
+        pickups: 1,
+        sectors: [
+         [leg,      sectors];
+         [start,    [
+           0
+          ]],
+         [fight,    [
+           0
+          ]],
+         [spawn,    [
+           0
+          ]],
+         [yard,     [
+           25
+          ]],
+         [up,       [
+           2,
+           5,
+           6,
+           7,
+           8,
+           9,
+           10,
+           11
+          ]],
+         [down,     [
+           2,
+           19,
+           20,
+           21,
+           22,
+           23,
+           24,
+           17
+          ]],
+         [ramp,     [
+           27,
+           28
+          ]],
+         [revisit,  [
+           0
+          ]],
+         [pressure, [
+           25,
+           11,
+           0,
+           17,
+           28,
+           2
+          ]]
+        ]
+       }],
+      ["cadence1_1", 3,   {
+        rounds: [
+         [met,     count];
+         [android, 4]
+        ],
+        androids: [
+         [event,     count];
+         [roused,    4],
+         [fired,     30],
+         [struck,    3],
+         [destroyed, 1],
+         [fallen,    1],
+         [waypoint,  8]
+        ],
+        struck: 0,
+        pickups: 1,
+        sectors: [
+         [leg,      sectors];
+         [start,    [
+           0
+          ]],
+         [fight,    [
+           0
+          ]],
+         [spawn,    [
+           0
+          ]],
+         [yard,     [
+           25
+          ]],
+         [up,       [
+           2,
+           5,
+           6,
+           7,
+           8,
+           9,
+           10,
+           11
+          ]],
+         [down,     [
+           2,
+           19,
+           20,
+           21,
+           22,
+           23,
+           24,
+           17
+          ]],
+         [ramp,     [
+           27,
+           28
+          ]],
+         [revisit,  [
+           0
+          ]],
+         [pressure, [
+           25,
+           11,
+           0,
+           17,
+           28,
+           2
+          ]]
+        ]
+       }],
+      ["cadence1_2", 1,   {
+        rounds: [
+         [met,     count];
+         [android, 4]
+        ],
+        androids: [
+         [event,     count];
+         [roused,    4],
+         [fired,     29],
+         [struck,    3],
+         [destroyed, 1],
+         [fallen,    1],
+         [waypoint,  8]
+        ],
+        struck: 0,
+        pickups: 1,
+        sectors: [
+         [leg,      sectors];
+         [start,    [
+           0
+          ]],
+         [fight,    [
+           0
+          ]],
+         [spawn,    [
+           0
+          ]],
+         [yard,     [
+           25
+          ]],
+         [up,       [
+           2,
+           5,
+           6,
+           7,
+           8,
+           9,
+           10,
+           11
+          ]],
+         [down,     [
+           2,
+           19,
+           20,
+           21,
+           22,
+           23,
+           24,
+           17
+          ]],
+         [ramp,     [
+           27,
+           28
+          ]],
+         [revisit,  [
+           0
+          ]],
+         [pressure, [
+           25,
+           11,
+           0,
+           17,
+           28,
+           2
+          ]]
+        ]
+       }],
+      ["cadence1_2", 2,   {
+        rounds: [
+         [met,     count];
+         [android, 4]
+        ],
+        androids: [
+         [event,     count];
+         [roused,    4],
+         [fired,     24],
+         [struck,    3],
+         [destroyed, 1],
+         [fallen,    1],
+         [waypoint,  8]
+        ],
+        struck: 1,
+        pickups: 1,
+        sectors: [
+         [leg,      sectors];
+         [start,    [
+           0
+          ]],
+         [fight,    [
+           0
+          ]],
+         [spawn,    [
+           0
+          ]],
+         [yard,     [
+           25
+          ]],
+         [up,       [
+           2,
+           5,
+           6,
+           7,
+           8,
+           9,
+           10,
+           11
+          ]],
+         [down,     [
+           2,
+           19,
+           20,
+           21,
+           22,
+           23,
+           24,
+           17
+          ]],
+         [ramp,     [
+           27,
+           28
+          ]],
+         [revisit,  [
+           0
+          ]],
+         [pressure, [
+           25,
+           11,
+           0,
+           17,
+           28,
+           2
+          ]]
+        ]
+       }],
+      ["cadence1_2", 3,   {
+        rounds: [
+         [met,     count];
+         [android, 4]
+        ],
+        androids: [
+         [event,     count];
+         [roused,    4],
+         [fired,     30],
+         [struck,    3],
+         [destroyed, 1],
+         [fallen,    1],
+         [waypoint,  8]
+        ],
+        struck: 0,
+        pickups: 1,
+        sectors: [
+         [leg,      sectors];
+         [start,    [
+           0
+          ]],
+         [fight,    [
+           0
+          ]],
+         [spawn,    [
+           0
+          ]],
+         [yard,     [
+           25
+          ]],
+         [up,       [
+           2,
+           5,
+           6,
+           7,
+           8,
+           9,
+           10,
+           11
+          ]],
+         [down,     [
+           2,
+           19,
+           20,
+           21,
+           22,
+           23,
+           24,
+           17
+          ]],
+         [ramp,     [
+           27,
+           28
+          ]],
+         [revisit,  [
+           0
+          ]],
+         [pressure, [
+           25,
+           11,
+           0,
+           17,
+           28,
+           2
+          ]]
+        ]
+       }]
+     ], {
+      frames: 19775,
+      presented: 19775,
+      acceptance: {
+       count: 19775,
+       min: 16324.1,
+       median: 16666.7,
+       "p95": 16757.5,
+       "p99": 18284.9,
+       max: 68191.4
+      },
+      completion: {
+       count: 19769,
+       min: 14894,
+       median: 16665,
+       "p95": 17014,
+       "p99": 18299,
+       max: 60116
+      },
+      call_interval: {
+       count: 19769,
+       min: 16324,
+       median: 16667,
+       "p95": 16756,
+       "p99": 18222,
+       max: 68212
+      },
+      grid: [
+       [periods, intervals];
+       [1,       19511],
+       [2,       1]
+      ],
+      off_grid: 257,
+      unknown_calls: 0,
+      submission_age: {
+       count: 19775,
+       min: 14723,
+       median: 16590,
+       "p95": 16952,
+       "p99": 18261,
+       max: 59189
+      },
+      critical: {
+       count: 19775,
+       min: 8504,
+       median: 12519,
+       "p95": 15729,
+       "p99": 18267,
+       max: 59840
+      },
+      draw: {
+       count: 19775,
+       min: 6883,
+       median: 10903,
+       "p95": 14002,
+       "p99": 16475,
+       max: 55059
+      },
+      wait: {
+       count: 19775,
+       min: 0,
+       median: 4152,
+       "p95": 6085,
+       "p99": 7229,
+       max: 8222
+      },
+      pacing: {
+       count: 19775,
+       min: 1,
+       median: 2,
+       "p95": 3,
+       "p99": 9,
+       max: 354
+      },
+      await: {
+       count: 19775,
+       min: 0,
+       median: 0,
+       "p95": 0,
+       "p99": 0,
+       max: 25
+      },
+      wakes: 315,
+      attempts: 19775,
+      refusals: 0,
+      flips_early: 0,
+      flips_failed: 0,
+      over: 1671,
+      fast: 19329,
+      fast_waited: 19286,
+      catch_up: 0
+     }, [
+
+     ]]
+   ]]
+ ],
+ compared: [
+  [field,       diagnostic, table];
+  [critical_us, false,      [
+    [build,      leg,      route,                                                              selection, machine,                                                                                                                                                                                                                                                                                                                                                               probed, value_us,           half_spread_us,     batches, missing, standings];
+    ["cadence1", start,    "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 3,
+      ram_gib: 4,
+      spec: {
+       name: "1ka1",
+       cores: 3,
+       ram_gib: 4,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  12606.166666666666, 122.0,              6,       0,       [
+      valid
+     ]],
+    ["cadence1", fight,    "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 3,
+      ram_gib: 4,
+      spec: {
+       name: "1ka1",
+       cores: 3,
+       ram_gib: 4,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  11428.14880952381,  191.0178571428578,  6,       0,       [
+      valid
+     ]],
+    ["cadence1", spawn,    "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 3,
+      ram_gib: 4,
+      spec: {
+       name: "1ka1",
+       cores: 3,
+       ram_gib: 4,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  12636.111111111111, 165.79166666666697, 6,       0,       [
+      valid
+     ]],
+    ["cadence1", yard,     "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 3,
+      ram_gib: 4,
+      spec: {
+       name: "1ka1",
+       cores: 3,
+       ram_gib: 4,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  13703.491228070176, 156.9736842105258,  6,       0,       [
+      valid
+     ]],
+    ["cadence1", up,       "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 3,
+      ram_gib: 4,
+      spec: {
+       name: "1ka1",
+       cores: 3,
+       ram_gib: 4,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  13973.868055555555, 165.70833333333303, 6,       0,       [
+      valid
+     ]],
+    ["cadence1", down,     "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 3,
+      ram_gib: 4,
+      spec: {
+       name: "1ka1",
+       cores: 3,
+       ram_gib: 4,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  11462.631944444445, 251.75,             6,       0,       [
+      valid
+     ]],
+    ["cadence1", ramp,     "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 3,
+      ram_gib: 4,
+      spec: {
+       name: "1ka1",
+       cores: 3,
+       ram_gib: 4,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  12480.35,           72.41666666666606,  6,       0,       [
+      valid
+     ]],
+    ["cadence1", revisit,  "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 3,
+      ram_gib: 4,
+      spec: {
+       name: "1ka1",
+       cores: 3,
+       ram_gib: 4,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  12706.291666666666, 125.41666666666606, 6,       0,       [
+      valid
+     ]],
+    ["cadence1", pressure, "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 3,
+      ram_gib: 4,
+      spec: {
+       name: "1ka1",
+       cores: 3,
+       ram_gib: 4,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  14421.854166666666, 257.25,             6,       0,       [
+      valid
+     ]]
+   ]],
+  [draw_us,     false,      [
+    [build,      leg,      route,                                                              selection, machine,                                                                                                                                                                                                                                                                                                                                                               probed, value_us,           half_spread_us,     batches, missing, standings];
+    ["cadence1", start,    "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 3,
+      ram_gib: 4,
+      spec: {
+       name: "1ka1",
+       cores: 3,
+       ram_gib: 4,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  10950.833333333334, 22.5,               6,       0,       [
+      valid
+     ]],
+    ["cadence1", fight,    "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 3,
+      ram_gib: 4,
+      spec: {
+       name: "1ka1",
+       cores: 3,
+       ram_gib: 4,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  9759.94642857143,   188.85714285714312, 6,       0,       [
+      valid
+     ]],
+    ["cadence1", spawn,    "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 3,
+      ram_gib: 4,
+      spec: {
+       name: "1ka1",
+       cores: 3,
+       ram_gib: 4,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  11025.791666666666, 72.0,               6,       0,       [
+      valid
+     ]],
+    ["cadence1", yard,     "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 3,
+      ram_gib: 4,
+      spec: {
+       name: "1ka1",
+       cores: 3,
+       ram_gib: 4,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  11985.245614035086, 103.21052631579005, 6,       0,       [
+      valid
+     ]],
+    ["cadence1", up,       "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 3,
+      ram_gib: 4,
+      spec: {
+       name: "1ka1",
+       cores: 3,
+       ram_gib: 4,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  12294.958333333334, 209.08333333333303, 6,       0,       [
+      valid
+     ]],
+    ["cadence1", down,     "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 3,
+      ram_gib: 4,
+      spec: {
+       name: "1ka1",
+       cores: 3,
+       ram_gib: 4,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  9805.513888888889,  213.125,            6,       0,       [
+      valid
+     ]],
+    ["cadence1", ramp,     "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 3,
+      ram_gib: 4,
+      spec: {
+       name: "1ka1",
+       cores: 3,
+       ram_gib: 4,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  10818.5,            44.71666666666715,  6,       0,       [
+      valid
+     ]],
+    ["cadence1", revisit,  "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 3,
+      ram_gib: 4,
+      spec: {
+       name: "1ka1",
+       cores: 3,
+       ram_gib: 4,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  11028.27777777778,  43.91666666666606,  6,       0,       [
+      valid
+     ]],
+    ["cadence1", pressure, "e8f16b414139927bebc5f8e444d36a7049e294dcc9ee1b47621a79771acf1bc8", automatic, {
+      harts: 3,
+      ram_gib: 4,
+      spec: {
+       name: "1ka1",
+       cores: 3,
+       ram_gib: 4,
+       display: {
+        width: 1920,
+        height: 1080
+       }
+      },
+      diagnostic: null,
+      machine: "virt,aia=aplic-imsic,aclint=on",
+      cpu: "rva23s64,pmp=true",
+      accel: "tcg,thread=multi",
+      overrides: [
+
+      ]
+     }, false,  12642.0625,         170.5,              6,       0,       [
+      valid
+     ]]
+   ]]
+ ],
+ services: [
+
+ ],
+ audio: [
+
+ ]
+}
