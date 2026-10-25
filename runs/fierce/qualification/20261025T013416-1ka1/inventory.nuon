@@ -1,0 +1,9 @@
+[
+ [path,                        role,   length, "sha256",                                                           disposition, reason];
+ ["candidate.nuon",            record, 2642,   "3c52bdf1e1a6e06f77b737ad637eaefd918fe1e765300bd8fc3d64442d532763", kept,        ""],
+ ["candidate/host_load.nuonl", record, 2474,   "8065f6260996a1cd8312720cb8062277b0bbc8047e72518a0c8a654c2a41227b", kept,        ""],
+ ["candidate/run.stderr",      log,    0,      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", kept,        ""],
+ ["candidate/run.stdout",      log,    1268,   "a2432c70cd22c3ed00dfbb4d0ec415dfda1f449ed49f2a5722af40369195ce51", kept,        ""],
+ ["candidate/step.nuon",       record, 3136,   "a445e80da469009a04f65cf1fdef3e667b12aa4b39c5fea5095524a598037125", kept,        ""],
+ ["qualification.nuon",        record, 227998, "364ffc95fa5bd8055487a7cbe2c8467cbb8dc60c04d29008dfd5b723d08bfcbc", kept,        ""]
+]

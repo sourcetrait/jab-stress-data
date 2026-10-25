@@ -1,0 +1,21 @@
+[
+ [object,                       kind,      length, "sha256",                                                           holds];
+ ["candidate.nuon",             raw,       2642,   "3c52bdf1e1a6e06f77b737ad637eaefd918fe1e765300bd8fc3d64442d532763", [
+   "candidate.nuon"
+  ]],
+ ["candidate/host_load.nuonl",  raw,       2474,   "8065f6260996a1cd8312720cb8062277b0bbc8047e72518a0c8a654c2a41227b", [
+   "candidate/host_load.nuonl"
+  ]],
+ ["candidate/run.stderr.nuonl", container, 240,    "f1df9e6c202371483736d47c77b3e0758c5ab4842aec0ee5725aef9de327ba72", [
+   "candidate/run.stderr"
+  ]],
+ ["candidate/run.stdout.nuonl", container, 2800,   "9424bf4bbbd86debe719f9f3b332e1aff2bdbfccfdf92331ad7d03802ac96529", [
+   "candidate/run.stdout"
+  ]],
+ ["candidate/step.nuon",        raw,       3136,   "a445e80da469009a04f65cf1fdef3e667b12aa4b39c5fea5095524a598037125", [
+   "candidate/step.nuon"
+  ]],
+ ["qualification.nuon",         raw,       227998, "364ffc95fa5bd8055487a7cbe2c8467cbb8dc60c04d29008dfd5b723d08bfcbc", [
+   "qualification.nuon"
+  ]]
+]

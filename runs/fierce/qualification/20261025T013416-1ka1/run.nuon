@@ -1,0 +1,24 @@
+{
+ schema: 2,
+ set: qualification,
+ stamp: "20261025T013416-1ka1",
+ task: Qualification,
+ scope: {
+  kind: targeted,
+  ran: 1,
+  of: 1,
+  names: [
+   "the declared role and alias on 1KA1"
+  ]
+ },
+ builds: [
+  [part,             build,                                      source,   record];
+  ["reader_30f54a1", "5ca0ab84230b819f419da055064e1694a7165afe", checkout, "qualification.nuon"]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "The qualification record of the bench run fierce/qual_1ka1 20261025T012834, FrameCeiling's next iteration's items 3 and 9 read, by jab-stress 30f54a1 over jab 5ca0ab8, both clean, over the untagged candidate at jab 5ca0ab8: its two runs' hosts the box's declared role, container, and alias, fedora-pod, their hostnames null; the bench held to one system, one role, and one configuration; the feature unavailable and the audio met and TheUser's Linux host pending, a container's bench supporting the preparation. No check, the bench's other steps not run. The record, the candidate, and the candidate's recorded step, its host_load.nuonl 2 readings over its 7.3 s (HostLoad). Cited by the fps subiter's plan/agenda/FrameCeiling/Qualification/RederivedChecks.md."
+ },
+ inventory: "de7c75639c61456621678455be58cd36539a1715d3145f6b53e4f21ced761768",
+ storage: "dd41963a6cb967f7ad3f6e44ae00b93e81c0d4ea584aff7cbd334f78d48ea72c"
+}

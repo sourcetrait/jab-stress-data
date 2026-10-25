@@ -1,0 +1,26 @@
+{
+ schema: 2,
+ set: "qual_1ka1",
+ stamp: "20261025T012834",
+ task: Qualification,
+ scope: {
+  kind: targeted,
+  ran: 2,
+  of: 13,
+  names: [
+   unavailable,
+   audio
+  ]
+ },
+ builds: [
+  [part,        build,                                      source,   record];
+  [unavailable, "5ca0ab84230b819f419da055064e1694a7165afe", checkout, "step.nuon"],
+  [audio,       "5ca0ab84230b819f419da055064e1694a7165afe", checkout, "step.nuon"]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "FrameCeiling's next iteration's items 3, 4, and 9 shown on the box: ./do bench kit/fierce/qual_1ka1 --only unavailable,audio at jab 5ca0ab8 through jab-stress 3719b7e's recorded runner, both checkouts clean, JAB_DISPLAY sdl,gl=on and SDL_VIDEODRIVER offscreen, alone on the box. Each run's identity records the box's declared role, container, and its system's alias, fedora-pod, its hostname null (DeclaredConditions, HostnamesOut). The step's host_load.nuonl holds 18 readings over its 164 s, the summary in step.nuon naming every foreign or unknown process that reached 0.1 cores, vibe-app-server at 0.197 cores over one interval (HostLoad). The record over it at jab-stress 30f54a1 holds the bench to one system, role, and configuration, its feature unavailable and audio met and TheUser's Linux host pending, the audio met once its --host sound was read as recorded off a desktop (jab-stress 34de23e). Cited by the fps subiter's plan/agenda/FrameCeiling/Qualification/RederivedChecks.md and the jab iter's plan/agenda/JustToNu/RunnerHooks.md."
+ },
+ inventory: "23f17623dd8e0563870f9c574c6240d32b0a83de99441b064a432cff074ae7fc",
+ storage: "8a14e7482582d618a82aecd4b93ce5e41df7561c2ddad56f56acbeb52d485857"
+}

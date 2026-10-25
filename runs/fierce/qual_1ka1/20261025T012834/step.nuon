@@ -1,0 +1,123 @@
+{
+  name: bench,
+  repo: jab,
+  bin: do,
+  words: [
+    bench,
+    "kit/fierce/qual_1ka1",
+    --only,
+    "unavailable,audio"
+  ],
+  env: [
+    [name,            value];
+    [JAB_DISPLAY,     "sdl,gl=on"],
+    [SDL_VIDEODRIVER, offscreen]
+  ],
+  symbols: [
+
+  ],
+  started: "2026-10-25T01:28:34.121921086+00:00",
+  ended: "2026-10-25T01:31:17.988929993+00:00",
+  seconds: 163.841775004,
+  exit: 0,
+  ok: true,
+  checkouts: {
+    jab: {
+      commit: "5ca0ab84230b819f419da055064e1694a7165afe",
+      clean: true
+    },
+    stress: {
+      commit: "3719b7e7fa248bc3f0460b8029b5a96ef50a4d8e",
+      clean: true
+    }
+  },
+  kernel_source: {
+    asked: null,
+    last: "51a4956971391cfd45ef6cf6a2fa4aa3223a1b37",
+    equal: null
+  },
+  fixtures: [
+
+  ],
+  kernel: {
+    tree: release,
+    out: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/kernel",
+    elf: {
+      from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/kernel/jab.elf",
+      kept: "build/kernel/jab.elf",
+      "sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+    },
+    flags: "-I src/include -I ../sdk/src -march=rva23s64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-",
+    defined: [
+
+    ],
+    held: true,
+    loaded: {
+      kept: "build/kernel/jab.bin",
+      "sha256": "efe12507e089683b9d5011a84b4511da9f1e0861e3c01ece4949e11ad474c606"
+    }
+  },
+  programs: [
+    [tree,    out,                                                                    elf,                                                                                                                                                                                                                                          flags,                                                                                                                                                                                 defined,    held, program,    image];
+    [release, "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/kit/fierce", {
+        from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/kit/fierce/fierce.elf",
+        kept: "build/kit/fierce/fierce.elf",
+        "sha256": "65774439c3f462111ff49f6b89cb4bffc7be13926252ada0eaa2f81d41e6006d"
+      }, "-I ../../sdk/src -I /home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/kit/fierce -march=rva23u64 /home/box/proj/sourcetrait/jab/extern/riscv/bin/riscv64-unknown-linux-gnu-", [
+
+      ], true, kit/fierce, {
+        from: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/release/kit/fierce/fierce.jab",
+        kept: "build/kit/fierce/fierce.jab",
+        "sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483"
+      }]
+  ],
+  outs: [
+    [dir,                                                                            as,      files, bytes];
+    ["/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/bench/kit/fierce/qual_1ka1", "out_0", 43,    29510349]
+  ],
+  host_load: {
+    file: "host_load.nuonl",
+    root: {
+      pid: 542841,
+      start: 21059232
+    },
+    readings: 18,
+    covered: {
+      from: 210599.8,
+      to: 210763.65
+    },
+    final: true,
+    gaps: [
+
+    ],
+    unbounded: [
+
+    ],
+    named: [
+      [class,   pid,    start,    name,            from,      to,        cores];
+      [foreign, 544314, 21071385, vibe-app-server, 210713.85, 210719.88, 0.197]
+    ],
+    unattributed: [
+      [from,      to,        cores];
+      [210599.8,  210609.81, 0.652],
+      [210609.81, 210619.81, 0.171],
+      [210619.81, 210629.82, 0.162],
+      [210629.82, 210639.83, 0.166],
+      [210639.83, 210649.83, 0.134],
+      [210649.83, 210659.84, 0.397],
+      [210659.84, 210669.85, 1.429],
+      [210669.85, 210679.85, 0.199],
+      [210679.85, 210689.86, 0.141],
+      [210689.86, 210699.87, 0.169],
+      [210699.87, 210709.87, 0.106],
+      [210709.87, 210719.88, 0.334],
+      [210719.88, 210729.88, 0.177],
+      [210729.88, 210739.89, 0.956],
+      [210739.89, 210749.9,  0.157],
+      [210749.9,  210759.9,  1.185],
+      [210759.9,  210763.65, 1.456]
+    ]
+  },
+  stdout: "run.stdout",
+  stderr: "run.stderr"
+}
