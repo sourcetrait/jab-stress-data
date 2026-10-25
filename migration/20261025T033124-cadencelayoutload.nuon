@@ -1,0 +1,38 @@
+{
+ migration: CadenceLayoutLoad,
+ stamp: "20261025T033124",
+ complete: true,
+ run: "runs/fierce/cadencecleanup/20261025T024751",
+ revision: "kept.why",
+ sources: [
+  [repository,      commit,                                     paths];
+  [jab-stress-data, "42c69a9e6bf361b77acdee1aae58ead1dc4a01c3", [
+    "runs/fierce/cadencecleanup/20261025T024751/run.nuon"
+   ]]
+ ],
+ phases: [
+  [phase,   done];
+  [Revised, true],
+  [Held,    true]
+ ],
+ checks: [
+  [phase,   check,                                                                  ok];
+  [Revised, "every field of run.nuon but kept.why equal to the committed record's", true],
+  [Held,    "the revised run held to its record by runner record stored",           true]
+ ],
+ source_files: [
+  [repository,      path,                                                  "sha256",                                                           bytes, fate];
+  [jab-stress-data, "runs/fierce/cadencecleanup/20261025T024751/run.nuon", "a015ac643cbd5eb968c6794c47a00817817c2ef8554c6a60be040c3a7460b817", 4104,  {
+    kind: revised,
+    as: "run.nuon",
+    to: "run.nuon"
+   }]
+ ],
+ destination_files: [
+  [repository,      path,                                                  "sha256",                                                           bytes, origin];
+  [jab-stress-data, "runs/fierce/cadencecleanup/20261025T024751/run.nuon", "30cb5fca1bf60cc439443ddf3fdbfa41395437dfb1b7cb747a3ecffbf92979b0", 4195,  {
+    kind: record,
+    phase: Revised
+   }]
+ ]
+}
