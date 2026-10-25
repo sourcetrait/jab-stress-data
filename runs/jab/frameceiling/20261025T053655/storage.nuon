@@ -1,0 +1,49 @@
+[
+ [object,                                kind,      length, "sha256",                                                           holds];
+ [fierce_handoff/build/kernel/flags,     raw,       3715,   "7625ddc2c3af325610bd457afebf28216d3a60e94af070f2862f91767a80b3b7", [
+   fierce_handoff/build/kernel/flags
+  ]],
+ [fierce_handoff/build/kit/fierce/flags, raw,       2367,   "5a79459532c48583a45243021c751ba3ccf166592d9aca856e9166d03327e338", [
+   fierce_handoff/build/kit/fierce/flags
+  ]],
+ ["fierce_handoff/host_load.nuonl",      raw,       78060,  "33b6d98e85e6ac3687b58735906286ae7740249b8009317507915a6d7a3afda8", [
+   "fierce_handoff/host_load.nuonl"
+  ]],
+ ["fierce_handoff/run.stderr.nuonl",     container, 239,    "1e59613638fae1025e9523d0cf0a6a91c58fe818abff6d7f2207d6686e339b8f", [
+   "fierce_handoff/run.stderr"
+  ]],
+ ["fierce_handoff/run.stdout.nuonl",     container, 23434,  "725c72de17b9a4a75775092f996a8820421c430fbfdb47d912318980627b4ea4", [
+   "fierce_handoff/run.stdout"
+  ]],
+ ["fierce_handoff/step.nuon",            raw,       6057,   "064ac4384bab9965004c3d711e0f2493eebc6804868a141a960de4254848b9d8", [
+   "fierce_handoff/step.nuon"
+  ]],
+ [framecap/build/kernel/flags,           raw,       3679,   "13cb22af6a30ed4181a57be5fe482da3b67b32a9c4b3c5a501715858bc1b01a9", [
+   framecap/build/kernel/flags
+  ]],
+ [framecap/build/test/framecap/flags,    raw,       915,    "14d508d92fe31b5077925bcf6d6d911197ec56f66024cc6225f6d17d8d031f65", [
+   framecap/build/test/framecap/flags
+  ]],
+ ["framecap/host_load.nuonl",            raw,       3514,   "cb7383c2b6c5befe324d4e4a2b849caaabfc438de5b40c464dac40f0559a6577", [
+   "framecap/host_load.nuonl"
+  ]],
+ ["framecap/run.stderr.nuonl",           container, 239,    "efffd240ada9307ed8c81068ef121ab18365877c195ff85cf0ee46f71a25ec2c", [
+   "framecap/run.stderr"
+  ]],
+ ["framecap/run.stdout.nuonl",           container, 1692,   "965f241b1906ae072a5a591ab7b4e50192eb1d44208616c2da76493514d48973", [
+   "framecap/run.stdout"
+  ]],
+ ["framecap/step.nuon",                  raw,       3383,   "98de4e5be54a76a980b2969d2711863595f9f973491f2d06bb06cba6e18c6907", [
+   "framecap/step.nuon"
+  ]],
+ ["archive.tar.xz",                      archive,   103632, "f4d00204c234c1c4dde8a5a941adde1e1cb964f06f6396cfc8433f6b4e4dd6de", [
+   "fierce_handoff/build/kernel/jab.bin",
+   "fierce_handoff/build/kernel/jab.elf",
+   "fierce_handoff/build/kit/fierce/fierce.elf",
+   "fierce_handoff/build/kit/fierce/fierce.jab",
+   "framecap/build/kernel/jab.bin",
+   "framecap/build/kernel/jab.elf",
+   "framecap/build/test/framecap/framecap.elf",
+   "framecap/build/test/framecap/framecap.jab"
+  ]]
+]

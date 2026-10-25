@@ -1,0 +1,23 @@
+[
+ [path,                                         role,   length, "sha256",                                                           disposition, reason];
+ [fierce_handoff/build/kernel/flags,            record, 3715,   "7625ddc2c3af325610bd457afebf28216d3a60e94af070f2862f91767a80b3b7", kept,        ""],
+ ["fierce_handoff/build/kernel/jab.bin",        build,  65604,  "9cf8934541552bb9c6f75a2d2f1e9b368c70d25bba2536fefefa1188a0d3aaa9", archived,    "a build, kept compactly so a later run is compared by its bytes"],
+ ["fierce_handoff/build/kernel/jab.elf",        build,  542560, "da17a0371359e892aa595c5f2fe8785847377a6432ea7c42a6c6780366640112", archived,    "a build, kept compactly so a later run is compared by its bytes"],
+ ["fierce_handoff/build/kit/fierce/fierce.elf", build,  166400, "4a4a8167e38f106f8799dbf353fea081db4d96cb727005451ef6cb0750cc9ab7", archived,    "a build, kept compactly so a later run is compared by its bytes"],
+ ["fierce_handoff/build/kit/fierce/fierce.jab", build,  83934,  "2a67400c0dea8672899e2a0c657a1435940d37ca59b6548686848d2fce1087c9", archived,    "a build, kept compactly so a later run is compared by its bytes"],
+ [fierce_handoff/build/kit/fierce/flags,        record, 2367,   "5a79459532c48583a45243021c751ba3ccf166592d9aca856e9166d03327e338", kept,        ""],
+ ["fierce_handoff/host_load.nuonl",             record, 78060,  "33b6d98e85e6ac3687b58735906286ae7740249b8009317507915a6d7a3afda8", kept,        ""],
+ ["fierce_handoff/run.stderr",                  log,    0,      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", kept,        ""],
+ ["fierce_handoff/run.stdout",                  log,    11585,  "fd0d083197468b2e58c97c891016d6b2353a1119068db83c04726e2b22a156d9", kept,        ""],
+ ["fierce_handoff/step.nuon",                   record, 6057,   "064ac4384bab9965004c3d711e0f2493eebc6804868a141a960de4254848b9d8", kept,        ""],
+ [framecap/build/kernel/flags,                  record, 3679,   "13cb22af6a30ed4181a57be5fe482da3b67b32a9c4b3c5a501715858bc1b01a9", kept,        ""],
+ ["framecap/build/kernel/jab.bin",              build,  65604,  "9cf8934541552bb9c6f75a2d2f1e9b368c70d25bba2536fefefa1188a0d3aaa9", archived,    "a build, kept compactly so a later run is compared by its bytes"],
+ ["framecap/build/kernel/jab.elf",              build,  540872, "dbf39b5c9ddb8464774c6d0f648bd5f29931752da19503a8455f1c2f34c591ef", archived,    "a build, kept compactly so a later run is compared by its bytes"],
+ [framecap/build/test/framecap/flags,           record, 915,    "14d508d92fe31b5077925bcf6d6d911197ec56f66024cc6225f6d17d8d031f65", kept,        ""],
+ ["framecap/build/test/framecap/framecap.elf",  build,  31240,  "994fa85eb0fee12b8313f8229c2a4cad5de944adf1aa705fc1258a5ad4a01b01", archived,    "a build, kept compactly so a later run is compared by its bytes"],
+ ["framecap/build/test/framecap/framecap.jab",  build,  6625,   "d74839c4d105f2890ea3d19e21defcb3b18ecaec0bfc6104083aed936af6d2e1", archived,    "a build, kept compactly so a later run is compared by its bytes"],
+ ["framecap/host_load.nuonl",                   record, 3514,   "cb7383c2b6c5befe324d4e4a2b849caaabfc438de5b40c464dac40f0559a6577", kept,        ""],
+ ["framecap/run.stderr",                        log,    0,      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", kept,        ""],
+ ["framecap/run.stdout",                        log,    715,    "9a31408dea3571848845051aa47088be35855bd06641fb2b6d67820431e36987", kept,        ""],
+ ["framecap/step.nuon",                         record, 3383,   "98de4e5be54a76a980b2969d2711863595f9f973491f2d06bb06cba6e18c6907", kept,        ""]
+]

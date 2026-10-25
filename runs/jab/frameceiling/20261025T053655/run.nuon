@@ -1,0 +1,26 @@
+{
+ schema: 2,
+ set: frameceiling,
+ stamp: "20261025T053655",
+ task: FrameCeiling,
+ scope: {
+  kind: targeted,
+  ran: 2,
+  of: 2,
+  names: [
+   framecap,
+   fierce_handoff
+  ]
+ },
+ builds: [
+  [part,           build,                                      source,   record];
+  [framecap,       "fec6e86c270c99ee7bd5cdcebcf1cb9c1abe1c1b", checkout, "framecap/step.nuon"],
+  [fierce_handoff, "fec6e86c270c99ee7bd5cdcebcf1cb9c1abe1c1b", checkout, "fierce_handoff/step.nuon"]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "FrameCeiling's next iteration's item 7, the tests its removals touched, at jab fec6e86 through jab-stress 13453b0's recorded runner, both checkouts clean, alone on the box from 05:36:55 to 05:46:51: test/framecap without FLIP_BATCH's batched arm, exit 0, and fierce's handoff,count set, its count lines parsed without FOOTPRINT's saturations, exit 0. Every other build byte for byte the one before by the fresh builds around the removal (runs/jab/justtonu/20261025T053226). Cited by the fps subiter's plan/agenda/FrameCeiling.md."
+ },
+ inventory: "c92cf26d2fbe18d9293dc20f708b9b3b0f5777806ab74927712cb9059e2f5b8b",
+ storage: "4c95b0365ef8c0eec54471c9560b64e0b5d00889cab0207444c5ddabc442ff71"
+}
