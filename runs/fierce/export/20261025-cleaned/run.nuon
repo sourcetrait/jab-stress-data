@@ -1,0 +1,28 @@
+{
+ schema: 2,
+ set: export,
+ stamp: "20261025-cleaned",
+ task: CadenceCleanup,
+ scope: {
+  kind: targeted,
+  ran: 3,
+  of: 3,
+  names: [
+   fierce_release,
+   fexport,
+   launcher
+  ]
+ },
+ builds: [
+  [part,           build,                                      source,   record];
+  [fierce_release, "914de20df5a2c517f1410314e58d7cdac9d7f520", checkout, "fierce_release/step.nuon"],
+  [fexport,        "914de20df5a2c517f1410314e58d7cdac9d7f520", checkout, "fexport/step.nuon"],
+  [launcher,       "914de20df5a2c517f1410314e58d7cdac9d7f520", checkout, "launcher/step.nuon"]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "CadenceCleanup's cleaned image for its layout comparison: fierce exported at e220193, the program commit leaving cadence 1 alone, through jab-stress b32124d's recorded runner at jab 914de20, both checkouts clean, kernel/ and sdk/src equal to d297a6b's. export_e220193, release, image 20294ae82cc51e234232adc154573504004ebb05ef46f0e379d4d84226137f0f, gated on the tree's own release image built the step before, its ELF 85a578bb. A first export of the same commit, made outside the recorded runner and measured by the comparison, was retired to the target's retire home and made again here, its image and ELF byte-equal to it. The launcher its measurements ran under at jab 914de20, launcher.nuon; the kernel beside it is runs/kernel/export/20261022-baselines' kexport_d297a6b. The export's whole tree copied into its step, its provenance among it, the sources and builds archived. Cited by the fps subiter's plan/agenda/FrameCeiling/FrameCadence/CadenceCleanup.md."
+ },
+ inventory: "d93a925c7710d53b4fd83d06709d8817d47305cdfc6c9397d9cb661bfefc09cb",
+ storage: "8989923753c90cd22b9708c746e0cf2d84097412b91d97f5362441946a718fd8"
+}

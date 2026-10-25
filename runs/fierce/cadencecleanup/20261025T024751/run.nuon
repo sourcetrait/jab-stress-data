@@ -1,0 +1,110 @@
+{
+ schema: 2,
+ set: cadencecleanup,
+ stamp: "20261025T024751",
+ task: CadenceCleanup,
+ scope: {
+  kind: whole,
+  ran: 7,
+  of: 7,
+  names: [
+   "base_1",
+   "cand_1",
+   "cand_2",
+   "base_2",
+   compare_flip,
+   compare_critical,
+   compare_raster
+  ]
+ },
+ builds: [
+  {
+   part: "base_1",
+   build: null,
+   source: export,
+   record: "base_1/step.nuon",
+   export: {
+    name: "export_d297a6b",
+    commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    provenance: "runs/fierce/export/20261022-baselines/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: "cand_1",
+   build: null,
+   source: export,
+   record: "cand_1/step.nuon",
+   export: {
+    name: "export_e220193",
+    commit: "e22019384f2d792304bc3902c54988eb5f153869",
+    provenance: "runs/fierce/export/20261025-cleaned/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "20294ae82cc51e234232adc154573504004ebb05ef46f0e379d4d84226137f0f",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: "cand_2",
+   build: null,
+   source: export,
+   record: "cand_2/step.nuon",
+   export: {
+    name: "export_e220193",
+    commit: "e22019384f2d792304bc3902c54988eb5f153869",
+    provenance: "runs/fierce/export/20261025-cleaned/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "20294ae82cc51e234232adc154573504004ebb05ef46f0e379d4d84226137f0f",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: "base_2",
+   build: null,
+   source: export,
+   record: "base_2/step.nuon",
+   export: {
+    name: "export_d297a6b",
+    commit: "d297a6bf76bfeb453185a91e7b1cc2f03efb4fe4",
+    provenance: "runs/fierce/export/20261022-baselines/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "264e7b7c549bf99db7ea7370aae1b66abddc913bfe43b4c62cf0bab9f4658483",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: compare_flip,
+   build: "914de20df5a2c517f1410314e58d7cdac9d7f520",
+   source: checkout,
+   record: "compare_flip/step.nuon"
+  },
+  {
+   part: compare_critical,
+   build: "914de20df5a2c517f1410314e58d7cdac9d7f520",
+   source: checkout,
+   record: "compare_critical/step.nuon"
+  },
+  {
+   part: compare_raster,
+   build: "914de20df5a2c517f1410314e58d7cdac9d7f520",
+   source: checkout,
+   record: "compare_raster/step.nuon"
+  }
+ ],
+ kept: {
+  as: current,
+  why: "CadenceCleanup's layout comparison, its steps 2 and 5: the decision's export, export_d297a6b (image 264e7b7c), against the cleaned export_e220193 (image 20294ae8), both on kexport_d297a6b (ELF c8285900), jab 914de20 through jab-stress b32124d's recorded runner, both checkouts clean and kernel/ and sdk/src equal to d297a6b's, from 02:47:51 to 03:09:36; the factory route on 1KA1, release, cadence 1, eps 3,700, base, candidate, candidate, base, three seeded runs a batch, compared at 50 cm on flip_us, critical_us, and raster_us. Every run complete and valid at schema 8, 3,297 to 3,307 frames, K unbroken at eps 3,700, no catch-up, late wakes 0 to 2. By the rule fixed at 02:05 before any run, no leg of any field moves past the larger of the two builds' half spreads and the matched pairs split both ways, so SubmitWait's and FootprintEstimate's comparisons stand on the decision's export. Beside it another harness's vibe-app-server reached 0.18 to 1.0 cores for a few seconds at a time, about 8 CPU seconds across both arms, and the host's load the container cannot attribute 1.35 cores at most an interval. Cited by the fps subiter's plan/agenda/FrameCeiling/FrameCadence/CadenceCleanup.md."
+ },
+ inventory: "9f5d5ef398fc28e3805540a9bf696bd242015f94c073db962032aedaee63c6a6",
+ storage: "05a888bf1fcde0bb32e8aee4e4bf1f2d888d2500bc91ee8e20e2578c51990ba7"
+}
