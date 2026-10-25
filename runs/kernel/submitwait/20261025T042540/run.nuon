@@ -1,0 +1,145 @@
+{
+ schema: 2,
+ set: submitwait,
+ stamp: "20261025T042540",
+ task: SubmitWait,
+ scope: {
+  kind: targeted,
+  ran: 12,
+  of: 12,
+  names: [
+   "base_1",
+   "cand_1",
+   "cand_2",
+   "base_2",
+   compare_flip,
+   compare_critical,
+   compare_draw,
+   compare_report,
+   compare_hud,
+   compare_mix,
+   compare_game,
+   compare_pacing
+  ]
+ },
+ builds: [
+  {
+   part: "base_1",
+   build: null,
+   source: export,
+   record: "base_1/step.nuon",
+   export: {
+    name: "export_e220193",
+    commit: "e22019384f2d792304bc3902c54988eb5f153869",
+    provenance: "runs/fierce/export/20261025-cleaned/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "20294ae82cc51e234232adc154573504004ebb05ef46f0e379d4d84226137f0f",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: "cand_1",
+   build: null,
+   source: export,
+   record: "cand_1/step.nuon",
+   export: {
+    name: "export_e220193",
+    commit: "e22019384f2d792304bc3902c54988eb5f153869",
+    provenance: "runs/fierce/export/20261025-cleaned/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "20294ae82cc51e234232adc154573504004ebb05ef46f0e379d4d84226137f0f",
+    "kernel_sha256": "16cf3d8e11a9998d4e33416abd33a1950b45db4b3a6ce75bf53f793c0511b64f"
+   }
+  },
+  {
+   part: "cand_2",
+   build: null,
+   source: export,
+   record: "cand_2/step.nuon",
+   export: {
+    name: "export_e220193",
+    commit: "e22019384f2d792304bc3902c54988eb5f153869",
+    provenance: "runs/fierce/export/20261025-cleaned/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "20294ae82cc51e234232adc154573504004ebb05ef46f0e379d4d84226137f0f",
+    "kernel_sha256": "16cf3d8e11a9998d4e33416abd33a1950b45db4b3a6ce75bf53f793c0511b64f"
+   }
+  },
+  {
+   part: "base_2",
+   build: null,
+   source: export,
+   record: "base_2/step.nuon",
+   export: {
+    name: "export_e220193",
+    commit: "e22019384f2d792304bc3902c54988eb5f153869",
+    provenance: "runs/fierce/export/20261025-cleaned/fexport/out_0/kit/fierce/release/provenance.nuon",
+    symbols: [
+
+    ],
+    "image_sha256": "20294ae82cc51e234232adc154573504004ebb05ef46f0e379d4d84226137f0f",
+    "kernel_sha256": "c8285900ae0d6dd040aa7fe848aff5dcbad507eafebd95ba9387f096f1a2a3ae"
+   }
+  },
+  {
+   part: compare_flip,
+   build: "3222dfc314d0363556a494497c83536c95d0f315",
+   source: checkout,
+   record: "compare_flip/step.nuon"
+  },
+  {
+   part: compare_critical,
+   build: "3222dfc314d0363556a494497c83536c95d0f315",
+   source: checkout,
+   record: "compare_critical/step.nuon"
+  },
+  {
+   part: compare_draw,
+   build: "3222dfc314d0363556a494497c83536c95d0f315",
+   source: checkout,
+   record: "compare_draw/step.nuon"
+  },
+  {
+   part: compare_report,
+   build: "3222dfc314d0363556a494497c83536c95d0f315",
+   source: checkout,
+   record: "compare_report/step.nuon"
+  },
+  {
+   part: compare_hud,
+   build: "3222dfc314d0363556a494497c83536c95d0f315",
+   source: checkout,
+   record: "compare_hud/step.nuon"
+  },
+  {
+   part: compare_mix,
+   build: "3222dfc314d0363556a494497c83536c95d0f315",
+   source: checkout,
+   record: "compare_mix/step.nuon"
+  },
+  {
+   part: compare_game,
+   build: "3222dfc314d0363556a494497c83536c95d0f315",
+   source: checkout,
+   record: "compare_game/step.nuon"
+  },
+  {
+   part: compare_pacing,
+   build: "3222dfc314d0363556a494497c83536c95d0f315",
+   source: checkout,
+   record: "compare_pacing/step.nuon"
+  }
+ ],
+ kept: {
+  as: checkpoint,
+  why: "SubmitWait's comparison repeated on CadenceCleanup's cleaned layout, its layout comparison having found a shift on the flip (runs/fierce/cadencecleanup/20261025T035945): the cleaned export_e220193 (image 20294ae8) on kexport_d297a6b (ELF c8285900, loaded efe12507) against the same image on kexport_d297a6b-flip_batch (ELF 16cf3d8e, loaded 8721ca2a), jab 3222dfc through jab-stress 0592d29's recorded runner, both checkouts clean and kernel/ and sdk/src equal to d297a6b's, from 04:25:40 to 04:48:35; the factory route on 1KA1, release, cadence 1, eps 3,700, base, candidate, candidate, base, three seeded runs a batch, compared at 50 cm on the flip, the critical path, and the other exclusive phases. Every run valid at schema 8, 3,300 to 3,309 frames, K unbroken, no catch-up, late wakes 0 to 4; no foreign process at 0.1 cores beside it. By SubmitWait's rule the candidate's flip falls past the larger half spread on every leg, 49 to 93 us, and the report phase rises past its own on spawn, yard, down, and revisit, 23 to 29 us, pacing and the HUD past theirs on a few legs by under a microsecond: retained. Every step's ok is false by the release tree's kernel the step records, built with FOOTPRINT for the candidate's export the run before and used by no batch, whose kernels are the exports their identities name. The pictures, identical on both kernels at d297a6b, are no layout's to move and were not repeated. Cited by the kernel subiter's plan/agenda/FourHarts/PresentationContract/SubmitWait.md."
+ },
+ inventory: "25b06753a741522b840307946c73f959007028b4bdeb35be8cf7738cac78c73b",
+ storage: "bcb56dae064a5ba4078b01dc48520c5f3376034670f14327069e1029c8cefdf7"
+}
