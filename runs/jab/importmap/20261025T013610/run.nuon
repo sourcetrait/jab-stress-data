@@ -1,0 +1,21 @@
+{
+ schema: 2,
+ set: importmap,
+ stamp: "20261025T013610",
+ task: Qualification,
+ scope: {
+  kind: whole,
+  ran: 1,
+  of: 1
+ },
+ builds: [
+  [part, build,                                      source,   record];
+  [run,  "5ca0ab84230b819f419da055064e1694a7165afe", checkout, "report.nuon"]
+ ],
+ kept: {
+  as: current,
+  why: "The import-map checker after FrameCeiling's next iteration's first batch, GuestCatchUps, LedgerAdmissibility, DeclaredConditions, HostLoad, and HostnamesOut: jab 5ca0ab84 and jab-stress b32124d8, both clean, held to the contract (jab-stress-data 204d589, SHA-256 988b65f5) by jab-stress's `nu/bin/nuance/importmap.nu check`, every group landed: 302 sources, 2805 declarations, 419 contract defs, 800 import edges, and 290 consumer calls, no refusal. The contract owns the gauge's catch-ups-of, the SDK host module's role and alias, the qualification's new helpers, and runner/hostload, under FrameCeiling."
+ },
+ inventory: "e0f77535108d986ab5e4277ea90bf574a8d1f1c725d4bb594f18bd3af601722c",
+ storage: "2589b9fbfb7504e75ddb38242dd4134d74d9fe30156cc0ef9804605ea57d0469"
+}
