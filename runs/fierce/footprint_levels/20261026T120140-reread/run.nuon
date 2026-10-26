@@ -1,0 +1,21 @@
+{
+ schema: 2,
+ set: footprint_levels,
+ stamp: "20261026T120140-reread",
+ task: FootprintEstimate,
+ scope: {
+  kind: targeted,
+  ran: 1,
+  of: 1
+ },
+ builds: [
+  [part,   build,                                      source,   record];
+  [reread, "728b2e5fa6fcfd2cf039ddf74305a2791c36a091", checkout, "reread.nuon"]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "The current capture runs/fierce/footprint_levels/20261020T045854 read again through a restoration by footprint's reread at jab-stress 1ac748a over jab 728b2e5, against the pose set at assets/fierce/poses/footprint.nuon, after FrameCeiling's fixes removed kit/fierce/test/footprint with render.inc's row_derivative and the footprint crate's derivative: every pose's bindings, problems, reference, pictures, block table, and still copy equal to the last reread's, 20261026T114430-reread, and to 20261025T054808-reread's, its reading and again.nuon equal to both, 19 block tables the first's byte for byte, the paths and the tool apart. The footprint crate's binary, its source changed by the removal, is SHA-256 152b1785 at jab 728b2e5, where 20261026T114430-reread ran 9bb1f471 at f383edb. Cited by FrameCeiling's DerivativeFixture plan."
+ },
+ inventory: "0d4399022bb94d319891545cf543c0e8d4cd679c57ac975f8f9f94ef35fe795a",
+ storage: "037b839bc0369b8731c721187657241ba46cabcd1de16e81ec06eca59f80f3d1"
+}

@@ -1,0 +1,274 @@
+{
+  pose: {
+    name: garage_far,
+    map: "render_0",
+    x: 1.5,
+    y: 17.0,
+    z: -1.4,
+    yaw: 0,
+    pitch: -5,
+    roll: 0
+  },
+  disk: {
+    name: "render_0_still",
+    tree: "/home/box/tmp/ai/two/7jTQEKPDaoJ/reread/earlier_df/out/disk_render_0/tree/render_0_still",
+    disk: "/home/box/tmp/ai/two/7jTQEKPDaoJ/reread/earlier_df/out/disk_render_0/render_0_still.romfs",
+    "sha256": "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+    map: "/home/box/tmp/ai/two/7jTQEKPDaoJ/reread/earlier_df/out/disk_render_0/tree/render_0_still/map/render_0_still.jabfps.map"
+  },
+  export: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/game/fps/export_5631b65",
+  commit: "5631b65372e691904a4f16086174998bb5e6d494",
+  tool: {
+    path: "/home/box/.sys/.xdg/cache/cargo/target/release/footprint",
+    "sha256": "152b1785b43b68701c48df3e5fb0eafc36b1d2faf0c2a018074fdb91952b7908",
+    commit: "728b2e5fa6fcfd2cf039ddf74305a2791c36a091",
+    dirty: false
+  },
+  launch: null,
+  rows: [
+    [label,             status, screen,                                                                                                        "screen_sha256",                                                    faults,     binding];
+    [owner,             124,    "/home/box/tmp/ai/two/7jTQEKPDaoJ/reread/earlier_df/restoration/tree/garage_far/owner/screen.ppm",             "4ee5cd0c5791250900f0103e744964c6c343dfc1f01e2fe7bf3c2b93dcb2b2ac", [
+
+      ], {
+        stamp: 413,
+        from: 369,
+        frame: 413,
+        state: {
+          x: 1.5,
+          y: 17.0,
+          z: -1.399999976158142,
+          yaw: 0.0,
+          pitch: -5.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [levels,            124,    "/home/box/tmp/ai/two/7jTQEKPDaoJ/reread/earlier_df/restoration/tree/garage_far/levels/screen.ppm",            "8b29edde7cb02f3b520515ce6328aecf492d2a6f7ef14185e779ec711f20a851", [
+
+      ], {
+        stamp: 401,
+        from: 358,
+        frame: 401,
+        state: {
+          x: 1.5,
+          y: 17.0,
+          z: -1.399999976158142,
+          yaw: 0.0,
+          pitch: -5.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [levels_candidate,  124,    "/home/box/tmp/ai/two/7jTQEKPDaoJ/reread/earlier_df/restoration/tree/garage_far/levels_candidate/screen.ppm",  "0b58833d27f01a0ad180136232fd437dde2c58e92a600d9f9f43a14b1464195d", [
+
+      ], {
+        stamp: 377,
+        from: 337,
+        frame: 377,
+        state: {
+          x: 1.5,
+          y: 17.0,
+          z: -1.399999976158142,
+          yaw: 0.0,
+          pitch: -5.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [picture,           124,    "/home/box/tmp/ai/two/7jTQEKPDaoJ/reread/earlier_df/restoration/tree/garage_far/picture/screen.ppm",           "55c2419ccaef5b6d50522b0554393ca26094a9c663bd039dd5a9887e8c0fe720", [
+
+      ], {
+        stamp: 434,
+        from: 387,
+        frame: 434,
+        state: {
+          x: 1.5,
+          y: 17.0,
+          z: -1.399999976158142,
+          yaw: 0.0,
+          pitch: -5.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [picture_candidate, 124,    "/home/box/tmp/ai/two/7jTQEKPDaoJ/reread/earlier_df/restoration/tree/garage_far/picture_candidate/screen.ppm", "b33630734ea1a31d020a1ec1fbaa856f156c940f8c1b1cff03ed37b7a47a384f", [
+
+      ], {
+        stamp: 409,
+        from: 365,
+        frame: 409,
+        state: {
+          x: 1.5,
+          y: 17.0,
+          z: -1.399999976158142,
+          yaw: 0.0,
+          pitch: -5.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }]
+  ],
+  reference: {
+    camera: {
+      x: 1.5,
+      y: 17.0,
+      z: -1.399999976158142,
+      yaw: 0.0,
+      pitch: -5.0,
+      roll: 0.0
+    },
+    iz_min: 4096,
+    floor_depth: 16384.0,
+    rows: 130694,
+    lumels: {
+      maps: 228,
+      lumels: 64726,
+      unmapped: 0
+    },
+    unread_materials: [
+
+    ],
+    owner: null,
+    population: {
+      blocks: 130694,
+      classes: {
+        judged: 130694,
+        sky: 0,
+        unknown: 0,
+        unread: 0,
+        actor: 0,
+        degenerate: 0,
+        no_end: 0,
+        unpaired: 0
+      },
+      unresolved: 0,
+      sensitive: 9569,
+      clamped: 0,
+      actors: 0
+    },
+    captures: [
+      [file,                                                                                                         blocks, judged, agree,  sharper, coarser, secant_agree, secant_sharper, secant_coarser, levels,                                                                                                                                                              snapshot];
+      ["/home/box/tmp/ai/two/7jTQEKPDaoJ/reread/earlier_df/restoration/tree/garage_far/levels/screen.ppm",           130694, 130694, 130329, 3,       362,     130262,       0,              432,            [
+          80677,
+          24902,
+          13734,
+          6722,
+          3010,
+          1285,
+          364,
+          0,
+          0,
+          0
+        ], null],
+      ["/home/box/tmp/ai/two/7jTQEKPDaoJ/reread/earlier_df/restoration/tree/garage_far/levels_candidate/screen.ppm", 130694, 130694, 130691, 3,       0,       130694,       0,              0,              [
+          81080,
+          24515,
+          13747,
+          6645,
+          3105,
+          1238,
+          364,
+          0,
+          0,
+          0
+        ], null]
+    ]
+  },
+  pictures: {
+    width: 1920,
+    height: 1080,
+    pixels: 6549,
+    regions: [
+      ["x0", "y0", "x1", "y1", pixels, largest];
+      [154,  331,  960,  332,  806,    2],
+      [1035, 331,  1766, 332,  731,    2],
+      [651,  393,  960,  394,  309,    1],
+      [1035, 393,  1196, 394,  161,    1],
+      [1271, 393,  1365, 394,  77,     1],
+      [288,  420,  336,  516,  1270,   24],
+      [1584, 418,  1650, 517,  1780,   31],
+      [755,  497,  960,  498,  75,     13],
+      [1120, 497,  1168, 498,  24,     13],
+      [561,  555,  624,  556,  38,     1],
+      [643,  555,  960,  556,  189,    4],
+      [1033, 555,  1360, 556,  198,    5],
+      [393,  596,  704,  597,  191,    3],
+      [725,  596,  923,  597,  125,    4],
+      [944,  596,  960,  597,  16,     3],
+      [1033, 596,  1360, 597,  204,    4],
+      [1381, 596,  1529, 597,  96,     4],
+      [10,   737,  13,   738,  3,      3],
+      [71,   737,  95,   738,  14,     17],
+      [143,  737,  205,  738,  16,     6],
+      [225,  737,  229,  738,  4,      8],
+      [263,  737,  287,  738,  5,      9],
+      [349,  737,  379,  738,  9,      3],
+      [414,  737,  426,  738,  9,      3],
+      [448,  737,  451,  738,  3,      3],
+      [510,  737,  533,  738,  13,     17],
+      [581,  737,  585,  738,  4,      1],
+      [609,  737,  667,  738,  15,     8],
+      [701,  737,  703,  738,  2,      1],
+      [722,  737,  725,  738,  3,      9],
+      [787,  737,  818,  738,  11,     3],
+      [852,  737,  864,  738,  9,      3],
+      [886,  737,  889,  738,  3,      3],
+      [948,  737,  972,  738,  14,     17],
+      [1020, 737,  1023, 738,  3,      1],
+      [1047, 737,  1105, 738,  14,     8],
+      [1139, 737,  1163, 738,  5,      9],
+      [1225, 737,  1232, 738,  7,      1],
+      [1252, 737,  1256, 738,  4,      3],
+      [1290, 737,  1328, 738,  13,     3],
+      [1386, 737,  1410, 738,  13,     17],
+      [1458, 737,  1519, 738,  14,     6],
+      [1540, 737,  1543, 738,  3,      8],
+      [1577, 737,  1601, 738,  5,      9],
+      [1663, 737,  1694, 738,  11,     3],
+      [1728, 737,  1740, 738,  9,      3],
+      [1762, 737,  1766, 738,  4,      3],
+      [1824, 737,  1848, 738,  14,     17],
+      [1896, 737,  1899, 738,  3,      1]
+    ]
+  },
+  problems: [
+
+  ],
+  reread: {
+    from: "/home/box/tmp/ai/two/7jTQEKPDaoJ/reread/earlier_df/restoration/tree/garage_far/pose.nuon",
+    first_tool: {
+      path: /home/box/proj/sourcetrait/jab/game/fps/rust/target/release/footprint,
+      "sha256": "17032cdffab40d0929e9f8d9bbd14bf9fec66190ce31092f72679ae0325c9f9d",
+      commit: "42cf49f3d4bf33a8575583759956d825bc8edf93",
+      dirty: false
+    },
+    differences: [
+
+    ],
+    no_span_table: [
+      levels,
+      levels_candidate
+    ],
+    still: {
+      first: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+      again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+      remade: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+      content: /home/box/proj/sourcetrait/jab/game/fps/content,
+      held: true
+    },
+    "rows_sha256": "521d324267f3a13c817ac4db36e93c9673b4a2bcb30693f3e80b1e8416aa27cf",
+    "first_rows_sha256": "cac805977746a5818e4b1914c0faf161dcddc1536d862d5412bbf01a46a9b1dd",
+    rows_same: false,
+    pictures_same: true
+  }
+}

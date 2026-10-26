@@ -1,0 +1,284 @@
+{
+  run: "/home/box/proj/sourcetrait/jab-stress-data/runs/fps/footprint_levels/20261017T153736",
+  tool: {
+    path: "/home/box/.sys/.xdg/cache/cargo/target/release/footprint",
+    "sha256": "152b1785b43b68701c48df3e5fb0eafc36b1d2faf0c2a018074fdb91952b7908",
+    commit: "728b2e5fa6fcfd2cf039ddf74305a2791c36a091",
+    dirty: false
+  },
+  poses: [
+    [pose,         problems,   differences, no_span_table,                                      still,                                                                                                                                                                                                                                                                                                                                                    rows_same, pictures_same];
+    [bay,          [
+
+      ], [
+
+      ],  [
+        levels,
+        levels_candidate
+      ], {
+        first: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    [down,         [
+
+      ], [
+
+      ],  [
+        levels,
+        levels_candidate
+      ], {
+        first: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    [garage,       [
+
+      ], [
+
+      ],  [
+        levels,
+        levels_candidate
+      ], {
+        first: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    [garage_far,   [
+
+      ], [
+
+      ],  [
+        levels,
+        levels_candidate
+      ], {
+        first: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    ["r1_door",    [
+
+      ], [
+
+      ],  [
+        levels,
+        levels_candidate
+      ], {
+        first: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+        again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        remade: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    ["r1_grate",   [
+
+      ], [
+
+      ],  [
+        levels,
+        levels_candidate
+      ], {
+        first: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+        again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        remade: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    ["r1_landing", [
+
+      ], [
+
+      ],  [
+        levels,
+        levels_candidate
+      ], {
+        first: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+        again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        remade: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    ["r1_light",   [
+
+      ], [
+
+      ],  [
+        levels,
+        levels_candidate
+      ], {
+        first: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+        again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        remade: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    ["r1_ramp",    [
+
+      ], [
+
+      ],  [
+        levels,
+        levels_candidate
+      ], {
+        first: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+        again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        remade: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    ["r1_spawn",   [
+
+      ], [
+
+      ],  [
+        levels,
+        levels_candidate
+      ], {
+        first: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+        again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        remade: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    ["r1_window",  [
+
+      ], [
+
+      ],  [
+        levels,
+        levels_candidate
+      ], {
+        first: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+        again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+        remade: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    [spawn,        [
+
+      ], [
+
+      ],  [
+        levels,
+        levels_candidate
+      ], {
+        first: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    [spawn_rolled, [
+
+      ], [
+
+      ],  [
+        levels,
+        levels_candidate
+      ], {
+        first: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    [up,           [
+
+      ], [
+
+      ],  [
+        levels,
+        levels_candidate
+      ], {
+        first: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    [wall_edge,    [
+
+      ], [
+
+      ],  [
+        levels,
+        levels_candidate
+      ], {
+        first: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    [window,       [
+
+      ], [
+
+      ],  [
+        levels,
+        levels_candidate
+      ], {
+        first: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true],
+    [yard,         [
+
+      ], [
+
+      ],  [
+        levels,
+        levels_candidate
+      ], {
+        first: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        again: "8bc9c50ed5bbf4bebe5f080b227e92906c814042f57d77a54c39fe7d3382c603",
+        remade: "68fad4e649c65b8c2610391f1f022dffd14b5826be43f5fca2e06693e1efce6b",
+        content: /home/box/proj/sourcetrait/jab/game/fps/content,
+        held: true
+      }, false,     true]
+  ],
+  reading_changed: [
+
+  ],
+  compared: [
+    judged,
+    sensitive,
+    clamped,
+    declared,
+    secant,
+    today_levels,
+    candidate_levels
+  ],
+  first_lacks: [
+    resolved,
+    iz_min,
+    floor_depth,
+    departure
+  ],
+  first: {
+    whole: null,
+    declared_holds: false,
+    secant_holds: true,
+    departures_hold: null,
+    revised_holds: null,
+    own_sharper: 0
+  },
+  again: {
+    whole: true,
+    declared_holds: false,
+    secant_holds: true,
+    departures_hold: true,
+    revised_holds: true,
+    own_sharper: 0
+  }
+}

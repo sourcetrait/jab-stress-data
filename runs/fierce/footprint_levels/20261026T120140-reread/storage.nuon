@@ -1,0 +1,96 @@
+[
+ [object,                                  kind,      length, "sha256",                                                           holds];
+ ["again.nuon",                            raw,       7344,   "f5341f69ead705b2034ce8e956350bd772c9cb8250fd853f397df36d7423a3ae", [
+   "again.nuon"
+  ]],
+ ["android_near/pose.nuon",                raw,       11503,  "23e5508e67e472edd4f16834afa17b39735d3246c178a462853585c3d2c3a6dc", [
+   "android_near/pose.nuon"
+  ]],
+ ["bay/pose.nuon",                         raw,       9559,   "4b64038c88a0a86c0c34f919d0141cb39cdc3c4943403e7ce0d0af44f89b7038", [
+   "bay/pose.nuon"
+  ]],
+ ["disk_render_0/disk.nuon",               raw,       438,    "b603a98f98f45de983b9b9e0c251f1a80f9de9297bee8d61b49cdd3093a307b7", [
+   "disk_render_0/disk.nuon"
+  ]],
+ ["disk_render_0/held.nuon",               raw,       317,    "a0eab3622b144c47dbb7e3da77da0e8d3a8fdc455efcdb1041fe8fad621928e5", [
+   "disk_render_0/held.nuon"
+  ]],
+ ["disk_render_0_bay_android_1/disk.nuon", raw,       520,    "5f6f88865316094e919cae408762a0d718ae3c82b942157b9061c8345f80f570", [
+   "disk_render_0_bay_android_1/disk.nuon"
+  ]],
+ ["disk_render_0_bay_android_1/held.nuon", raw,       317,    "3bf66dcbcfcf6f00c7ee3346c9b47cb419697806be13773ea87646d036ef0b29", [
+   "disk_render_0_bay_android_1/held.nuon"
+  ]],
+ ["disk_render_1/disk.nuon",               raw,       438,    "705b3289ec6202c34915d2a25b3f6635e22f982fe752b5901f62a5168f103331", [
+   "disk_render_1/disk.nuon"
+  ]],
+ ["disk_render_1/held.nuon",               raw,       317,    "1d337d6cb9448aa05ab4de23752958e92d32199d20de79306c674f7f3a1a6336", [
+   "disk_render_1/held.nuon"
+  ]],
+ ["down/pose.nuon",                        raw,       7549,   "4696d641b46174afe6262a01d1b35dba672ae491d928c6b927fb07cef3edf3bc", [
+   "down/pose.nuon"
+  ]],
+ ["garage/pose.nuon",                      raw,       8747,   "5ad5c1c7f16e434b8408c8d4a2bd130660d843a438052122295ad7f60be74cec", [
+   "garage/pose.nuon"
+  ]],
+ ["garage_far/pose.nuon",                  raw,       9371,   "0300b354fbf9ec8758a7ad711b975f1633df1efdf2a71c191b70c3a16395589e", [
+   "garage_far/pose.nuon"
+  ]],
+ ["garage_far_clamp/pose.nuon",            raw,       6187,   "c2e48760dbf6f06003fa1ffaf65b0671e76fb5c6fa82c6923d7fb189f2fe09e6", [
+   "garage_far_clamp/pose.nuon"
+  ]],
+ ["poses.nuon",                            raw,       2641,   "1c3a0503ef66fa56a2d36596801256b10996097c5e9365f56395ba02f0336a9c", [
+   "poses.nuon"
+  ]],
+ ["r1_door/pose.nuon",                     raw,       7769,   "f9341be435dfc58d40fb1c50e43e352c67fc6d2e5e0efd2ed8b9e275b2a63cc6", [
+   "r1_door/pose.nuon"
+  ]],
+ ["r1_grate/pose.nuon",                    raw,       7518,   "4e588a9880ecd54cacfd4fb58eccae06bee8c9f02d6e8a7f44732b494734b4b8", [
+   "r1_grate/pose.nuon"
+  ]],
+ ["r1_landing/pose.nuon",                  raw,       7482,   "4bf78e390932fa34c0ebff10009219235c9bf784bcacb71b4bbf6fe446c98b03", [
+   "r1_landing/pose.nuon"
+  ]],
+ ["r1_light/pose.nuon",                    raw,       7128,   "2e78575856c33b5bbd0b093bb5db7d4954d8df3b546ba7fface4975c8f9fb7cd", [
+   "r1_light/pose.nuon"
+  ]],
+ ["r1_ramp/pose.nuon",                     raw,       7543,   "4a0671348effc63f3009bc9dc09ebf4853b1e3458aba1725abbf53f26f43a9e2", [
+   "r1_ramp/pose.nuon"
+  ]],
+ ["r1_spawn/pose.nuon",                    raw,       7442,   "ef7ae0cdaa70b32ad0ba839ac186feaef9fb7c9d816fb392abe5d57b1d52a56a", [
+   "r1_spawn/pose.nuon"
+  ]],
+ ["r1_window/pose.nuon",                   raw,       7153,   "d60abbbe1ea2bf1846e5b194d4e4ff95d29e6ebb0107c14a83bf1c53e3a167a7", [
+   "r1_window/pose.nuon"
+  ]],
+ ["reading.nuon",                          raw,       32186,  "8dffaf344812a884632a440f9badf367db62be47ffab20ba21edb3cfa1d52671", [
+   "reading.nuon"
+  ]],
+ ["reread.nuon",                           raw,       905,    "c9aa9a995230304d4200f05b080415215bc3d431632738ce411a423b92ed20c8", [
+   "reread.nuon"
+  ]],
+ ["reread.stderr.nuonl",                   container, 243,    "8a59a41d09c5511e2fa79083048c8092ef22f5e3f2078042c4ac1c5a29b3fa17", [
+   "reread.stderr"
+  ]],
+ ["reread.stdout.nuonl",                   container, 32164,  "617b0afbfa98443bd642a1ed6326341f33ac5568ec74e6d099e7ba1c8b4d3dc4", [
+   "reread.stdout"
+  ]],
+ ["spawn/pose.nuon",                       raw,       8723,   "44a086e51b3d7787c6d21430bf115440dd8fce367273717374ca1787710ef917", [
+   "spawn/pose.nuon"
+  ]],
+ ["spawn_rolled/pose.nuon",                raw,       7857,   "b33b4fadb212f99c7d7da5352021745e478d9f0defe5fa8854e21977c0246c6f", [
+   "spawn_rolled/pose.nuon"
+  ]],
+ ["up/pose.nuon",                          raw,       7412,   "a49e8c3d3ea0f62e380aa64e4b5ccdd261cf9cd2c62d4431e79dfd055498aed4", [
+   "up/pose.nuon"
+  ]],
+ ["wall_edge/pose.nuon",                   raw,       8505,   "f84a9d71ec68fdedf5d368b7ebd18e5db8b39f1f8f0f2bc4db4221b07bb24152", [
+   "wall_edge/pose.nuon"
+  ]],
+ ["window/pose.nuon",                      raw,       8724,   "a892453da48a267822116c8a3766da32af62c3258c233b01ad4acaf2cffc0258", [
+   "window/pose.nuon"
+  ]],
+ ["yard/pose.nuon",                        raw,       10167,  "fdf465e03c2a0e278416dbd1fa189e4a2a61c8dcef320531681f00109fb23ad9", [
+   "yard/pose.nuon"
+  ]]
+]

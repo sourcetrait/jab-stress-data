@@ -1,0 +1,40 @@
+{
+ schema: 2,
+ set: footprint_levels,
+ stamp: "20261026T120143-reread",
+ task: FootprintEstimate,
+ scope: {
+  kind: targeted,
+  ran: 17,
+  of: 17,
+  names: [
+   bay,
+   down,
+   garage,
+   garage_far,
+   "r1_door",
+   "r1_grate",
+   "r1_landing",
+   "r1_light",
+   "r1_ramp",
+   "r1_spawn",
+   "r1_window",
+   spawn,
+   spawn_rolled,
+   up,
+   wall_edge,
+   window,
+   yard
+  ]
+ },
+ builds: [
+  [part,   build,                                      source,   record];
+  [reread, "728b2e5fa6fcfd2cf039ddf74305a2791c36a091", checkout, "reread.nuon"]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "The first comparison runs/fps/footprint_levels/20261017T153736 read again through a restoration by footprint's reread at jab-stress 1ac748a over jab 728b2e5, after FrameCeiling's fixes removed kit/fierce/test/footprint with render.inc's row_derivative and the footprint crate's derivative, against the set the run captured: assets/fierce/poses/footprint.nuon's rows of the run's 17 pose names, held as its poses.nuon, since a reading requires its pose set whole. Its five image records carry no IZ_MIN, so each floor was read from the image's archived ELF, 4096. Every pose's bindings, problems, reference, pictures, block table, and still copy equal to 20261026T114433-reread's and 20261020T031732-reread's, the block tables not the capture's as both recorded; the reading equal to 20261020T031732-reread's, its set-level verdicts whole and the same, each of the 17 views on every field that reread held, today's reader adding iz_min and floor_depth; against 20261026T114433-reread, read with today's 19 poses, the set-level verdicts alone differ. The footprint crate's binary 152b1785, built at jab 728b2e5. Cited by FrameCeiling's DerivativeFixture plan."
+ },
+ inventory: "6a57c7b7e3a3cd43a60ac0923f074c12d739749a7ff20d8d6cda08ae34c22de3",
+ storage: "0182b5d9459692e663f03e26e6684f33b3ef743691e64d1c615cf12d87437949"
+}

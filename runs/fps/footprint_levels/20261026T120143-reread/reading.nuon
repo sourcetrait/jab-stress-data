@@ -1,0 +1,1382 @@
+{
+  views: [
+    [pose,         map,        judged, sensitive, clamped, iz_min, floor_depth, population,                                                                                                                                                                                                                                                                                                                              resolved, unresolved, declared,                                                                                                     secant,                                                                                                  departure,                                                                 blocks,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       today_levels,                                                                                                                                    candidate_levels,                                                                                                                               pictures];
+    [bay,          "render_0", 131869, 10534,     0,       4096,   16384.0,     {
+        blocks: 131869,
+        classes: {
+          judged: 131869,
+          sky: 0,
+          unknown: 0,
+          unread: 0,
+          actor: 0,
+          degenerate: 0,
+          no_end: 0,
+          unpaired: 0
+        },
+        unresolved: 0,
+        sensitive: 10534,
+        clamped: 0,
+        actors: 0
+      },   true,     [
+
+      ], {
+        today: 0,
+        candidate: 0,
+        candidate_sharper: 0,
+        holds: true
+      },          {
+        today: 0,
+        candidate: 0,
+        candidate_sharper: 0,
+        holds: true
+      },     {
+        new_off: 0,
+        own_sharper: 0,
+        holds: true
+      }, {
+        levels_differ: 355,
+        shared_sharper: 0,
+        own_sharper: 0,
+        new_off: 0,
+        today_own_sharper: 0,
+        along_today: {
+          blocks: 0,
+          along_decides: 0,
+          ratio: null
+        },
+        along_candidate: {
+          blocks: 0,
+          along_decides: 0,
+          ratio: null
+        }
+      },                                                                                                                                                              [
+        74470,
+        37370,
+        12122,
+        4270,
+        3102,
+        535,
+        0,
+        0,
+        0,
+        0
+      ],      [
+        74350,
+        37374,
+        12238,
+        4338,
+        3083,
+        486,
+        0,
+        0,
+        0,
+        0
+      ],     {
+        pixels: 2750,
+        regions: 55,
+        largest: 18
+      }],
+    [down,         "render_0", 133834, 1877,      0,       4096,   16384.0,     {
+        blocks: 133834,
+        classes: {
+          judged: 133834,
+          sky: 0,
+          unknown: 0,
+          unread: 0,
+          actor: 0,
+          degenerate: 0,
+          no_end: 0,
+          unpaired: 0
+        },
+        unresolved: 0,
+        sensitive: 1877,
+        clamped: 0,
+        actors: 0
+      },    true,     [
+
+      ], {
+        today: 655,
+        candidate: 655,
+        candidate_sharper: 239,
+        holds: false
+      },   {
+        today: 0,
+        candidate: 0,
+        candidate_sharper: 0,
+        holds: true
+      },     {
+        new_off: 0,
+        own_sharper: 0,
+        holds: true
+      }, {
+        levels_differ: 34,
+        shared_sharper: 239,
+        own_sharper: 0,
+        new_off: 0,
+        today_own_sharper: 0,
+        along_today: {
+          blocks: 655,
+          along_decides: 655,
+          ratio: [
+            0.9113573407202216,
+            1.150234741784039
+          ]
+        },
+        along_candidate: {
+          blocks: 655,
+          along_decides: 655,
+          ratio: [
+            0.9113573407202216,
+            1.150234741784039
+          ]
+        }
+      },       [
+        120495,
+        9609,
+        3182,
+        493,
+        55,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],            [
+        120495,
+        9617,
+        3174,
+        493,
+        55,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],           {
+        pixels: 139,
+        regions: 7,
+        largest: 44
+      }],
+    [garage,       "render_0", 131426, 11854,     0,       4096,   16384.0,     {
+        blocks: 131426,
+        classes: {
+          judged: 131426,
+          sky: 0,
+          unknown: 0,
+          unread: 0,
+          actor: 0,
+          degenerate: 0,
+          no_end: 0,
+          unpaired: 0
+        },
+        unresolved: 0,
+        sensitive: 11854,
+        clamped: 0,
+        actors: 0
+      },   true,     [
+
+      ], {
+        today: 10,
+        candidate: 10,
+        candidate_sharper: 10,
+        holds: false
+      },      {
+        today: 0,
+        candidate: 0,
+        candidate_sharper: 0,
+        holds: true
+      },     {
+        new_off: 0,
+        own_sharper: 0,
+        holds: true
+      }, {
+        levels_differ: 99,
+        shared_sharper: 10,
+        own_sharper: 0,
+        new_off: 0,
+        today_own_sharper: 0,
+        along_today: {
+          blocks: 10,
+          along_decides: 10,
+          ratio: [
+            0.9334719334719332,
+            0.9524517087667193
+          ]
+        },
+        along_candidate: {
+          blocks: 10,
+          along_decides: 10,
+          ratio: [
+            0.9334719334719332,
+            0.9524517087667193
+          ]
+        }
+      },          [
+        85446,
+        27487,
+        10648,
+        5352,
+        2448,
+        45,
+        0,
+        0,
+        0,
+        0
+      ],       [
+        85446,
+        27586,
+        10549,
+        5352,
+        2448,
+        45,
+        0,
+        0,
+        0,
+        0
+      ],      {
+        pixels: 396,
+        regions: 36,
+        largest: 2
+      }],
+    [garage_far,   "render_0", 130694, 9569,      0,       4096,   16384.0,     {
+        blocks: 130694,
+        classes: {
+          judged: 130694,
+          sky: 0,
+          unknown: 0,
+          unread: 0,
+          actor: 0,
+          degenerate: 0,
+          no_end: 0,
+          unpaired: 0
+        },
+        unresolved: 0,
+        sensitive: 9569,
+        clamped: 0,
+        actors: 0
+      },    true,     [
+
+      ], {
+        today: 365,
+        candidate: 3,
+        candidate_sharper: 3,
+        holds: false
+      },       {
+        today: 432,
+        candidate: 0,
+        candidate_sharper: 0,
+        holds: true
+      },   {
+        new_off: 0,
+        own_sharper: 0,
+        holds: true
+      }, {
+        levels_differ: 919,
+        shared_sharper: 3,
+        own_sharper: 0,
+        new_off: 0,
+        today_own_sharper: 0,
+        along_today: {
+          blocks: 24,
+          along_decides: 24,
+          ratio: [
+            0.9311827956989245,
+            1.0250195465207297
+          ]
+        },
+        along_candidate: {
+          blocks: 3,
+          along_decides: 3,
+          ratio: [
+            0.9311827956989245,
+            0.9506933744221857
+          ]
+        }
+      },            [
+        80677,
+        24902,
+        13734,
+        6722,
+        3010,
+        1285,
+        364,
+        0,
+        0,
+        0
+      ],   [
+        81080,
+        24515,
+        13747,
+        6645,
+        3105,
+        1238,
+        364,
+        0,
+        0,
+        0
+      ],  {
+        pixels: 6549,
+        regions: 49,
+        largest: 31
+      }],
+    ["r1_door",    "render_1", 130324, 923,       0,       4096,   16384.0,     {
+        blocks: 130324,
+        classes: {
+          judged: 130324,
+          sky: 0,
+          unknown: 0,
+          unread: 0,
+          actor: 0,
+          degenerate: 0,
+          no_end: 0,
+          unpaired: 0
+        },
+        unresolved: 0,
+        sensitive: 923,
+        clamped: 0,
+        actors: 0
+      },     true,     [
+
+      ], {
+        today: 1014,
+        candidate: 1014,
+        candidate_sharper: 509,
+        holds: false
+      }, {
+        today: 0,
+        candidate: 0,
+        candidate_sharper: 0,
+        holds: true
+      },     {
+        new_off: 0,
+        own_sharper: 0,
+        holds: true
+      }, {
+        levels_differ: 62,
+        shared_sharper: 509,
+        own_sharper: 0,
+        new_off: 0,
+        today_own_sharper: 0,
+        along_today: {
+          blocks: 1014,
+          along_decides: 1014,
+          ratio: [
+            0.9376218323586766,
+            1.06680584551149
+          ]
+        },
+        along_candidate: {
+          blocks: 1014,
+          along_decides: 1014,
+          ratio: [
+            0.9376218323586766,
+            1.06680584551149
+          ]
+        }
+      },     [
+        123997,
+        4653,
+        1674,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],               [
+        123966,
+        4653,
+        1705,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],              {
+        pixels: 154,
+        regions: 14,
+        largest: 12
+      }],
+    ["r1_grate",   "render_1", 136355, 1237,      0,       4096,   16384.0,     {
+        blocks: 136355,
+        classes: {
+          judged: 136355,
+          sky: 0,
+          unknown: 0,
+          unread: 0,
+          actor: 0,
+          degenerate: 0,
+          no_end: 0,
+          unpaired: 0
+        },
+        unresolved: 0,
+        sensitive: 1237,
+        clamped: 0,
+        actors: 0
+      },    true,     [
+
+      ], {
+        today: 7,
+        candidate: 7,
+        candidate_sharper: 7,
+        holds: false
+      },         {
+        today: 0,
+        candidate: 0,
+        candidate_sharper: 0,
+        holds: true
+      },     {
+        new_off: 0,
+        own_sharper: 0,
+        holds: true
+      }, {
+        levels_differ: 46,
+        shared_sharper: 7,
+        own_sharper: 0,
+        new_off: 0,
+        today_own_sharper: 0,
+        along_today: {
+          blocks: 7,
+          along_decides: 7,
+          ratio: [
+            0.9128065395095363,
+            0.9146666666666659
+          ]
+        },
+        along_candidate: {
+          blocks: 7,
+          along_decides: 7,
+          ratio: [
+            0.9128065395095363,
+            0.9146666666666659
+          ]
+        }
+      },               [
+        131671,
+        4354,
+        330,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],                [
+        131673,
+        4352,
+        330,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],               {
+        pixels: 42,
+        regions: 8,
+        largest: 12
+      }],
+    ["r1_landing", "render_1", 132072, 1794,      0,       4096,   16384.0,     {
+        blocks: 132072,
+        classes: {
+          judged: 132072,
+          sky: 0,
+          unknown: 0,
+          unread: 0,
+          actor: 0,
+          degenerate: 0,
+          no_end: 0,
+          unpaired: 0
+        },
+        unresolved: 0,
+        sensitive: 1794,
+        clamped: 0,
+        actors: 0
+      },    true,     [
+
+      ], {
+        today: 311,
+        candidate: 311,
+        candidate_sharper: 172,
+        holds: false
+      },   {
+        today: 0,
+        candidate: 0,
+        candidate_sharper: 0,
+        holds: true
+      },     {
+        new_off: 0,
+        own_sharper: 0,
+        holds: true
+      }, {
+        levels_differ: 24,
+        shared_sharper: 172,
+        own_sharper: 0,
+        new_off: 0,
+        today_own_sharper: 0,
+        along_today: {
+          blocks: 311,
+          along_decides: 311,
+          ratio: [
+            0.8764478764478757,
+            1.0703296703296754
+          ]
+        },
+        along_candidate: {
+          blocks: 311,
+          along_decides: 311,
+          ratio: [
+            0.8764478764478757,
+            1.0703296703296754
+          ]
+        }
+      },     [
+        123656,
+        6029,
+        1843,
+        544,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],             [
+        123680,
+        6005,
+        1843,
+        544,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],            {
+        pixels: 35,
+        regions: 6,
+        largest: 5
+      }],
+    ["r1_light",   "render_1", 129584, 0,         0,       4096,   16384.0,     {
+        blocks: 129584,
+        classes: {
+          judged: 129584,
+          sky: 0,
+          unknown: 0,
+          unread: 0,
+          actor: 0,
+          degenerate: 0,
+          no_end: 0,
+          unpaired: 0
+        },
+        unresolved: 0,
+        sensitive: 0,
+        clamped: 0,
+        actors: 0
+      },       true,     [
+
+      ], {
+        today: 0,
+        candidate: 0,
+        candidate_sharper: 0,
+        holds: true
+      },          {
+        today: 0,
+        candidate: 0,
+        candidate_sharper: 0,
+        holds: true
+      },     {
+        new_off: 0,
+        own_sharper: 0,
+        holds: true
+      }, {
+        levels_differ: 0,
+        shared_sharper: 0,
+        own_sharper: 0,
+        new_off: 0,
+        today_own_sharper: 0,
+        along_today: {
+          blocks: 0,
+          along_decides: 0,
+          ratio: null
+        },
+        along_candidate: {
+          blocks: 0,
+          along_decides: 0,
+          ratio: null
+        }
+      },                                                                                                                                                                [
+        129584,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],                     [
+        129584,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],                    {
+        pixels: 0,
+        regions: 0,
+        largest: 0
+      }],
+    ["r1_ramp",    "render_1", 131526, 1475,      0,       4096,   16384.0,     {
+        blocks: 131526,
+        classes: {
+          judged: 131526,
+          sky: 0,
+          unknown: 0,
+          unread: 0,
+          actor: 0,
+          degenerate: 0,
+          no_end: 0,
+          unpaired: 0
+        },
+        unresolved: 0,
+        sensitive: 1475,
+        clamped: 0,
+        actors: 0
+      },    true,     [
+
+      ], {
+        today: 127,
+        candidate: 127,
+        candidate_sharper: 127,
+        holds: false
+      },   {
+        today: 0,
+        candidate: 0,
+        candidate_sharper: 0,
+        holds: true
+      },     {
+        new_off: 0,
+        own_sharper: 0,
+        holds: true
+      }, {
+        levels_differ: 54,
+        shared_sharper: 127,
+        own_sharper: 0,
+        new_off: 0,
+        today_own_sharper: 0,
+        along_today: {
+          blocks: 127,
+          along_decides: 127,
+          ratio: [
+            0.9160104986876638,
+            0.9419237749546335
+          ]
+        },
+        along_candidate: {
+          blocks: 127,
+          along_decides: 127,
+          ratio: [
+            0.9160104986876638,
+            0.9419237749546335
+          ]
+        }
+      },     [
+        123293,
+        4861,
+        3160,
+        212,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],             [
+        123293,
+        4861,
+        3106,
+        266,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],            {
+        pixels: 375,
+        regions: 6,
+        largest: 6
+      }],
+    ["r1_spawn",   "render_1", 130965, 1569,      0,       4096,   16384.0,     {
+        blocks: 130965,
+        classes: {
+          judged: 130965,
+          sky: 0,
+          unknown: 0,
+          unread: 0,
+          actor: 0,
+          degenerate: 0,
+          no_end: 0,
+          unpaired: 0
+        },
+        unresolved: 0,
+        sensitive: 1569,
+        clamped: 0,
+        actors: 0
+      },    true,     [
+
+      ], {
+        today: 20,
+        candidate: 3,
+        candidate_sharper: 3,
+        holds: false
+      },        {
+        today: 17,
+        candidate: 0,
+        candidate_sharper: 0,
+        holds: true
+      },    {
+        new_off: 0,
+        own_sharper: 0,
+        holds: true
+      }, {
+        levels_differ: 47,
+        shared_sharper: 3,
+        own_sharper: 0,
+        new_off: 0,
+        today_own_sharper: 17,
+        along_today: {
+          blocks: 3,
+          along_decides: 3,
+          ratio: [
+            0.9128065395095363,
+            0.9146666666666659
+          ]
+        },
+        along_candidate: {
+          blocks: 3,
+          along_decides: 3,
+          ratio: [
+            0.9128065395095363,
+            0.9146666666666659
+          ]
+        }
+      },              [
+        122379,
+        3760,
+        3934,
+        805,
+        0,
+        17,
+        70,
+        0,
+        0,
+        0
+      ],           [
+        122379,
+        3730,
+        3964,
+        805,
+        0,
+        0,
+        87,
+        0,
+        0,
+        0
+      ],           {
+        pixels: 356,
+        regions: 6,
+        largest: 22
+      }],
+    ["r1_window",  "render_1", 133131, 2665,      0,       4096,   16384.0,     {
+        blocks: 133131,
+        classes: {
+          judged: 133131,
+          sky: 0,
+          unknown: 0,
+          unread: 0,
+          actor: 0,
+          degenerate: 0,
+          no_end: 0,
+          unpaired: 0
+        },
+        unresolved: 0,
+        sensitive: 2665,
+        clamped: 0,
+        actors: 0
+      },    true,     [
+
+      ], {
+        today: 776,
+        candidate: 776,
+        candidate_sharper: 470,
+        holds: false
+      },   {
+        today: 0,
+        candidate: 0,
+        candidate_sharper: 0,
+        holds: true
+      },     {
+        new_off: 0,
+        own_sharper: 0,
+        holds: true
+      }, {
+        levels_differ: 0,
+        shared_sharper: 470,
+        own_sharper: 0,
+        new_off: 0,
+        today_own_sharper: 0,
+        along_today: {
+          blocks: 776,
+          along_decides: 776,
+          ratio: [
+            0.874509803921568,
+            1.1035598705501661
+          ]
+        },
+        along_candidate: {
+          blocks: 776,
+          along_decides: 776,
+          ratio: [
+            0.874509803921568,
+            1.1035598705501661
+          ]
+        }
+      },        [
+        118980,
+        9634,
+        4173,
+        344,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],             [
+        118980,
+        9634,
+        4173,
+        344,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],            {
+        pixels: 0,
+        regions: 0,
+        largest: 0
+      }],
+    [spawn,        "render_0", 134225, 14022,     0,       4096,   16384.0,     {
+        blocks: 134225,
+        classes: {
+          judged: 134225,
+          sky: 0,
+          unknown: 0,
+          unread: 0,
+          actor: 0,
+          degenerate: 0,
+          no_end: 0,
+          unpaired: 0
+        },
+        unresolved: 0,
+        sensitive: 14022,
+        clamped: 0,
+        actors: 0
+      },   true,     [
+
+      ], {
+        today: 20260,
+        candidate: 728,
+        candidate_sharper: 0,
+        holds: true
+      },    {
+        today: 19532,
+        candidate: 0,
+        candidate_sharper: 0,
+        holds: true
+      }, {
+        new_off: 0,
+        own_sharper: 0,
+        holds: true
+      }, {
+        levels_differ: 23413,
+        shared_sharper: 0,
+        own_sharper: 0,
+        new_off: 0,
+        today_own_sharper: 0,
+        along_today: {
+          blocks: 728,
+          along_decides: 728,
+          ratio: [
+            1.0501354118838557,
+            1.0577109510531684
+          ]
+        },
+        along_candidate: {
+          blocks: 728,
+          along_decides: 728,
+          ratio: [
+            1.0501354118838557,
+            1.0577109510531684
+          ]
+        }
+      },    [
+        23568,
+        58531,
+        32450,
+        13508,
+        4466,
+        1270,
+        432,
+        0,
+        0,
+        0
+      ],  [
+        32119,
+        59171,
+        27205,
+        10993,
+        3268,
+        1042,
+        427,
+        0,
+        0,
+        0
+      ], {
+        pixels: 102829,
+        regions: 35,
+        largest: 31
+      }],
+    [spawn_rolled, "render_0", 134864, 16367,     0,       4096,   16384.0,     {
+        blocks: 134864,
+        classes: {
+          judged: 134864,
+          sky: 0,
+          unknown: 0,
+          unread: 0,
+          actor: 0,
+          degenerate: 0,
+          no_end: 0,
+          unpaired: 0
+        },
+        unresolved: 0,
+        sensitive: 16367,
+        clamped: 0,
+        actors: 0
+      },   true,     [
+
+      ], {
+        today: 71139,
+        candidate: 133,
+        candidate_sharper: 0,
+        holds: true
+      },    {
+        today: 70804,
+        candidate: 0,
+        candidate_sharper: 0,
+        holds: true
+      }, {
+        new_off: 0,
+        own_sharper: 0,
+        holds: true
+      }, {
+        levels_differ: 72745,
+        shared_sharper: 0,
+        own_sharper: 0,
+        new_off: 0,
+        today_own_sharper: 0,
+        along_today: {
+          blocks: 335,
+          along_decides: 335,
+          ratio: [
+            1.0366619826603092,
+            1.0775538336230852
+          ]
+        },
+        along_candidate: {
+          blocks: 133,
+          along_decides: 133,
+          ratio: [
+            1.0534057295085735,
+            1.0775538336230852
+          ]
+        }
+      },    [
+        20737,
+        34164,
+        33256,
+        29071,
+        15451,
+        1836,
+        349,
+        0,
+        0,
+        0
+      ], [
+        58836,
+        41585,
+        21289,
+        8594,
+        3032,
+        1221,
+        307,
+        0,
+        0,
+        0
+      ],  {
+        pixels: 508975,
+        regions: 11,
+        largest: 49
+      }],
+    [up,           "render_0", 136322, 2415,      0,       4096,   16384.0,     {
+        blocks: 136322,
+        classes: {
+          judged: 136322,
+          sky: 0,
+          unknown: 0,
+          unread: 0,
+          actor: 0,
+          degenerate: 0,
+          no_end: 0,
+          unpaired: 0
+        },
+        unresolved: 0,
+        sensitive: 2415,
+        clamped: 0,
+        actors: 0
+      },    true,     [
+
+      ], {
+        today: 1163,
+        candidate: 1163,
+        candidate_sharper: 459,
+        holds: false
+      }, {
+        today: 0,
+        candidate: 0,
+        candidate_sharper: 0,
+        holds: true
+      },     {
+        new_off: 0,
+        own_sharper: 0,
+        holds: true
+      }, {
+        levels_differ: 26,
+        shared_sharper: 459,
+        own_sharper: 0,
+        new_off: 0,
+        today_own_sharper: 0,
+        along_today: {
+          blocks: 1163,
+          along_decides: 1163,
+          ratio: [
+            0.8106508875739645,
+            1.3855421686746991
+          ]
+        },
+        along_candidate: {
+          blocks: 1163,
+          along_decides: 1163,
+          ratio: [
+            0.8106508875739645,
+            1.3855421686746991
+          ]
+        }
+      }, [
+        118203,
+        10738,
+        5236,
+        1520,
+        497,
+        128,
+        0,
+        0,
+        0,
+        0
+      ],       [
+        118203,
+        10738,
+        5236,
+        1520,
+        471,
+        154,
+        0,
+        0,
+        0,
+        0
+      ],      {
+        pixels: 136,
+        regions: 4,
+        largest: 1
+      }],
+    [wall_edge,    "render_0", 132886, 10528,     0,       4096,   16384.0,     {
+        blocks: 132886,
+        classes: {
+          judged: 132886,
+          sky: 0,
+          unknown: 0,
+          unread: 0,
+          actor: 0,
+          degenerate: 0,
+          no_end: 0,
+          unpaired: 0
+        },
+        unresolved: 0,
+        sensitive: 10528,
+        clamped: 0,
+        actors: 0
+      },   true,     [
+
+      ], {
+        today: 3063,
+        candidate: 1344,
+        candidate_sharper: 0,
+        holds: true
+      },    {
+        today: 1719,
+        candidate: 0,
+        candidate_sharper: 0,
+        holds: true
+      },  {
+        new_off: 0,
+        own_sharper: 0,
+        holds: true
+      }, {
+        levels_differ: 3625,
+        shared_sharper: 0,
+        own_sharper: 0,
+        new_off: 0,
+        today_own_sharper: 0,
+        along_today: {
+          blocks: 1344,
+          along_decides: 1344,
+          ratio: [
+            1.0750449119635146,
+            1.5337592503003956
+          ]
+        },
+        along_candidate: {
+          blocks: 1344,
+          along_decides: 1344,
+          ratio: [
+            1.0750449119635146,
+            1.5337592503003956
+          ]
+        }
+      }, [
+        67432,
+        35755,
+        15741,
+        8533,
+        3142,
+        1518,
+        765,
+        0,
+        0,
+        0
+      ],   [
+        69815,
+        33987,
+        15538,
+        8240,
+        3070,
+        1472,
+        764,
+        0,
+        0,
+        0
+      ],  {
+        pixels: 16169,
+        regions: 29,
+        largest: 28
+      }],
+    [window,       "render_0", 132362, 8562,      0,       4096,   16384.0,     {
+        blocks: 132362,
+        classes: {
+          judged: 132362,
+          sky: 0,
+          unknown: 0,
+          unread: 0,
+          actor: 0,
+          degenerate: 0,
+          no_end: 0,
+          unpaired: 0
+        },
+        unresolved: 0,
+        sensitive: 8562,
+        clamped: 0,
+        actors: 0
+      },    true,     [
+
+      ], {
+        today: 16,
+        candidate: 16,
+        candidate_sharper: 0,
+        holds: true
+      },        {
+        today: 0,
+        candidate: 0,
+        candidate_sharper: 0,
+        holds: true
+      },     {
+        new_off: 0,
+        own_sharper: 0,
+        holds: true
+      }, {
+        levels_differ: 334,
+        shared_sharper: 0,
+        own_sharper: 0,
+        new_off: 0,
+        today_own_sharper: 0,
+        along_today: {
+          blocks: 16,
+          along_decides: 16,
+          ratio: [
+            1.0492610837438463,
+            1.0527182866556895
+          ]
+        },
+        along_candidate: {
+          blocks: 16,
+          along_decides: 16,
+          ratio: [
+            1.0492610837438463,
+            1.0527182866556895
+          ]
+        }
+      },          [
+        60091,
+        38648,
+        20028,
+        10070,
+        2654,
+        871,
+        0,
+        0,
+        0,
+        0
+      ],     [
+        60091,
+        38558,
+        20139,
+        10049,
+        2723,
+        802,
+        0,
+        0,
+        0,
+        0
+      ],    {
+        pixels: 3438,
+        regions: 33,
+        largest: 19
+      }],
+    [yard,         "render_0", 79228,  7046,      0,       4096,   16384.0,     {
+        blocks: 148807,
+        classes: {
+          judged: 79228,
+          sky: 69579,
+          unknown: 0,
+          unread: 0,
+          actor: 0,
+          degenerate: 0,
+          no_end: 0,
+          unpaired: 0
+        },
+        unresolved: 0,
+        sensitive: 7046,
+        clamped: 0,
+        actors: 0
+      }, true,     [
+
+      ], {
+        today: 196,
+        candidate: 88,
+        candidate_sharper: 59,
+        holds: false
+      },     {
+        today: 63,
+        candidate: 0,
+        candidate_sharper: 0,
+        holds: true
+      },    {
+        new_off: 0,
+        own_sharper: 0,
+        holds: true
+      }, {
+        levels_differ: 450,
+        shared_sharper: 59,
+        own_sharper: 0,
+        new_off: 0,
+        today_own_sharper: 0,
+        along_today: {
+          blocks: 133,
+          along_decides: 133,
+          ratio: [
+            0.9378640776698997,
+            1.102893890675241
+          ]
+        },
+        along_candidate: {
+          blocks: 88,
+          along_decides: 88,
+          ratio: [
+            0.9378640776698997,
+            1.102893890675241
+          ]
+        }
+      },         [
+        35107,
+        23219,
+        11417,
+        4804,
+        2557,
+        1588,
+        536,
+        0,
+        0,
+        0
+      ],   [
+        35098,
+        23228,
+        11412,
+        4733,
+        2562,
+        1594,
+        601,
+        0,
+        0,
+        0
+      ],  {
+        pixels: 1493,
+        regions: 69,
+        largest: 17
+      }]
+  ],
+  refused: [
+
+  ],
+  missing: [
+
+  ],
+  whole: true,
+  declared_holds: false,
+  secant_holds: true,
+  departures_hold: true,
+  revised_holds: true,
+  own_sharper: 0
+}
