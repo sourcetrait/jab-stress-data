@@ -1,0 +1,28 @@
+{
+ before: {
+  file: "/home/box/tmp/ai/two/7jTQEKPDaoJ/land/derivative_after/retained.nuon",
+  commit: "f383edb0022ab287c60e23898d728aa561277ff3"
+ },
+ after: {
+  file: "/home/box/tmp/ai/two/7jTQEKPDaoJ/freshbuild/derivative_after_728b2e5",
+  commit: "728b2e5fa6fcfd2cf039ddf74305a2791c36a091"
+ },
+ moves: {
+  paths: [
+   [from,     to];
+   [game/fps, kit/fierce]
+  ],
+  names: [
+   [program,    from, to];
+   [kit/fierce, fps,  fierce]
+  ]
+ },
+ rows: 321,
+ same: 321,
+ remade: [
+
+ ],
+ refusals: [
+
+ ]
+}

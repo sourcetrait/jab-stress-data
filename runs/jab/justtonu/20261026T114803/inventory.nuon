@@ -1,0 +1,7 @@
+[
+ [path,            role,   length, "sha256",                                                           disposition, reason];
+ ["compare.nuon",  record, 502,    "82767bf94a52a5754fe4288dd7311c859fd73bcedc5b9bab5419803a3444f5af", kept,        ""],
+ ["manifest.nuon", record, 78916,  "76038e1343c44d665789001c82a1ce70082b4a22d551315dcd64134cc2e3575d", kept,        ""],
+ ["retained.nuon", record, 78916,  "ae2a9c6c61f86cd742f97a0c0dcad2e308923c74180da2b2d26c2d4af183042a", derived,     "the comparison's earlier side: runs/jab/justtonu/20261026T114345's manifest.nuon less exactly the four keys retired.nuon names"],
+ ["retired.nuon",  record, 597,    "edf06853116c2c156249791e0cf692616b4aa8ffd82e1a4dd70333f65b96753a", kept,        ""]
+]

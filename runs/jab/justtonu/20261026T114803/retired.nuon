@@ -1,0 +1,11 @@
+{
+ program: kit/fierce/test/footprint,
+ from: "runs/jab/justtonu/20261026T114345/manifest.nuon",
+ keys: [
+  "kit/fierce/test/footprint release [none] program_jab",
+  "kit/fierce/test/footprint release [none] program_elf",
+  "kit/fierce/test/footprint debug [DEBUG] program_jab",
+  "kit/fierce/test/footprint debug [DEBUG] program_elf"
+ ],
+ why: "kit/fierce/test/footprint retired whole by DerivativeFixture (jab 728b2e5): its program image and ELF under the release tree with no symbols and under DEBUG, its only rows, no disk; every other row of the manifest is held to the later one unchanged"
+}

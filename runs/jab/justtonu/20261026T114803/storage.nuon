@@ -1,0 +1,12 @@
+[
+ [object,          kind, length, "sha256",                                                           holds];
+ ["compare.nuon",  raw,  502,    "82767bf94a52a5754fe4288dd7311c859fd73bcedc5b9bab5419803a3444f5af", [
+   "compare.nuon"
+  ]],
+ ["manifest.nuon", raw,  78916,  "76038e1343c44d665789001c82a1ce70082b4a22d551315dcd64134cc2e3575d", [
+   "manifest.nuon"
+  ]],
+ ["retired.nuon",  raw,  597,    "edf06853116c2c156249791e0cf692616b4aa8ffd82e1a4dd70333f65b96753a", [
+   "retired.nuon"
+  ]]
+]

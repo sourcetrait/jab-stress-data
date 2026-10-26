@@ -1,0 +1,21 @@
+{
+ schema: 2,
+ set: justtonu,
+ stamp: "20261026T114803",
+ task: FrameCeiling,
+ scope: {
+  kind: whole,
+  ran: 28,
+  of: 28
+ },
+ builds: [
+  [part, build,                                      source,   record];
+  [run,  "728b2e5fa6fcfd2cf039ddf74305a2791c36a091", checkout, "manifest.nuon"]
+ ],
+ kept: {
+  as: current,
+  why: "FrameCeiling's fixes, DerivativeFixture: kit/fierce/test/footprint retired whole with render.inc's row_derivative and the footprint crate's oracle of it (jab 728b2e5): its 28 builds of the matrix FreshCapture left, in a fresh cache by jab-stress 2da5624's `nuance.nu freshbuild manifest`, 321 rows, held by `freshbuild compare` to the manifest at f383edb (runs/jab/justtonu/20261026T114345) less exactly the program's four rows, which retired.nuon names, its program image and ELF under the release tree and under DEBUG, its only rows: all 321 the same, 120 images, 120 ELFs, 31 disks, 25 kernel ELFs, and 25 kernels' loaded bytes, none remade, no refusal (compare.nuon), the comparison's rules unchanged. Cited by FrameCeiling's DerivativeFixture plan."
+ },
+ inventory: "d564b2c3e2140b0f76bff8abeefda6645b7948e40ed7d75915e5b7026704ae2c",
+ storage: "32ecd0a3c4c767531b7dff26b2434d628eff555d63c4650fee34ac6e99a23ef1"
+}
