@@ -1,0 +1,21 @@
+{
+ schema: 2,
+ set: justtonu,
+ stamp: "20261026T114228",
+ task: FrameCeiling,
+ scope: {
+  kind: whole,
+  ran: 28,
+  of: 28
+ },
+ builds: [
+  [part, build,                                      source,   record];
+  [run,  "fec6e86c270c99ee7bd5cdcebcf1cb9c1abe1c1b", checkout, "manifest.nuon"]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "FrameCeiling's fixes, FreshCapture: the fresh build before IZ_TEST's retirement, on the matrix less the footprint builder's two IZ_TEST tuples, which retired with it (jab-stress 2da5624): jab fec6e86's 28 builds in a fresh cache by `nuance.nu freshbuild manifest`, 325 rows, no build failing; the baseline the retirement's fresh build is held to. Cited by runs/jab/justtonu/20261026T114345 and FrameCeiling's FreshCapture plan."
+ },
+ inventory: "1b04b365d153ca3fca53b24747eff8412e4c070da519dc56ec46078063b77447",
+ storage: "6969b6f84011c44217c1bbd08e6bf61398b9f93e51dafd68f54bf03388da3c38"
+}

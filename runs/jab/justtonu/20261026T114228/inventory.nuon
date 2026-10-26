@@ -1,0 +1,4 @@
+[
+ [path,            role,   length, "sha256",                                                           disposition, reason];
+ ["manifest.nuon", record, 80836,  "78f72de6d7c1cb3f1e635e44feb286c582bc90f23cdd8c54dbc45c0f01ecf9bc", kept,        ""]
+]

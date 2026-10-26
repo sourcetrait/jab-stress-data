@@ -1,0 +1,21 @@
+{
+ schema: 2,
+ set: justtonu,
+ stamp: "20261026T114345",
+ task: FrameCeiling,
+ scope: {
+  kind: whole,
+  ran: 28,
+  of: 28
+ },
+ builds: [
+  [part, build,                                      source,   record];
+  [run,  "f383edb0022ab287c60e23898d728aa561277ff3", checkout, "manifest.nuon"]
+ ],
+ kept: {
+  as: current,
+  why: "FrameCeiling's fixes, FreshCapture: IZ_TEST retired with the footprint builder, render.inc's IZ_MIN 4096 alone (jab f383edb): its 28 builds of the same matrix in a fresh cache by jab-stress 2da5624's `nuance.nu freshbuild manifest`, held by `freshbuild compare` to the manifest at fec6e86 (runs/jab/justtonu/20261026T114228): all 325 rows the same, 122 images, 122 ELFs, 31 disks, 25 kernel ELFs, and 25 kernels' loaded bytes, none remade, no refusal (compare.nuon), so every retained configuration is byte for byte as it was. Cited by FrameCeiling's FreshCapture plan."
+ },
+ inventory: "598072d5692aa86d9b7e529cfb5cf225291a6317be0ca1b942d0bb8d4ef5ce96",
+ storage: "3eff82b0755220f9b8d4944199f2188bd8d70cb67cedfe4aba088e3c90b474e9"
+}
