@@ -1,0 +1,84 @@
+[
+ [object,                    kind,      length, "sha256",                                                           holds];
+ ["again.nuon",              raw,       9185,   "32d2385d90f5a908a68921d981a9f655d33805bbfdf02932f310403fabb81634", [
+   "again.nuon"
+  ]],
+ ["bay/pose.nuon",           raw,       9002,   "718f7fc2930a1f4c290479575070d69ea812380a760c25df918657915fb923b1", [
+   "bay/pose.nuon"
+  ]],
+ ["disk_render_0/disk.nuon", raw,       438,    "8fc5672d9ade2565122f3266f6de1b001a24142789afd5c9f2334155c4cb4e76", [
+   "disk_render_0/disk.nuon"
+  ]],
+ ["disk_render_0/held.nuon", raw,       513,    "048a8a18e761111292b01e923b3d7a6b5c622b24d1378996b2bd7d5d50dc70d9", [
+   "disk_render_0/held.nuon"
+  ]],
+ ["disk_render_1/disk.nuon", raw,       438,    "985e13f194eeaaaa34a9bf41284bdc52e84816a59e0f8ae979043d97f45dcc67", [
+   "disk_render_1/disk.nuon"
+  ]],
+ ["disk_render_1/held.nuon", raw,       513,    "9f762a9336562177b9ac5a0dafdd7988d7f578b66098e92cc9fd37be3ebbed52", [
+   "disk_render_1/held.nuon"
+  ]],
+ ["down/pose.nuon",          raw,       6990,   "c6dd3098a72aa54c42dbea0ba1e50a01e8c125842060f28c9a92150fa6d1087a", [
+   "down/pose.nuon"
+  ]],
+ ["garage/pose.nuon",        raw,       8190,   "b55a9f561bf45a668e42ea264f5680420c26941822d947a0d1798f30c1cec3e6", [
+   "garage/pose.nuon"
+  ]],
+ ["garage_far/pose.nuon",    raw,       8814,   "25477ce7d20db594d2e8b1fecdef9aa9f8e34cef32fe5e9e1d1edbb246c51286", [
+   "garage_far/pose.nuon"
+  ]],
+ ["poses.nuon",              raw,       2641,   "1c3a0503ef66fa56a2d36596801256b10996097c5e9365f56395ba02f0336a9c", [
+   "poses.nuon"
+  ]],
+ ["r1_door/pose.nuon",       raw,       7218,   "6b9de6b20b4410f8a97e0cae1ef2a709dcc67da985c211a12908ba9db16a4196", [
+   "r1_door/pose.nuon"
+  ]],
+ ["r1_grate/pose.nuon",      raw,       6967,   "ab0a59fe2a82b6062606567c2eccb8676ed56af3df0a9b68e6971bb996274d22", [
+   "r1_grate/pose.nuon"
+  ]],
+ ["r1_landing/pose.nuon",    raw,       6931,   "a1c5730e65222176034f1f8f77a811508f045f86d06588bbb175d20822e30d75", [
+   "r1_landing/pose.nuon"
+  ]],
+ ["r1_light/pose.nuon",      raw,       6577,   "96e5dcbcdeeb2713324150331b045aafbc6e834c5b414b7c03fba316b1886bb3", [
+   "r1_light/pose.nuon"
+  ]],
+ ["r1_ramp/pose.nuon",       raw,       6992,   "15a69680e9ca03783fdb2fc7f1e9df9af9240a1ec64b74a60ee69fccc579cd7f", [
+   "r1_ramp/pose.nuon"
+  ]],
+ ["r1_spawn/pose.nuon",      raw,       6891,   "b582bb8a39f455d580cc9bb398d1656383459f45d902dc8f36fc1a8e75414860", [
+   "r1_spawn/pose.nuon"
+  ]],
+ ["r1_window/pose.nuon",     raw,       6602,   "6cb609c62424e94561478b96895868a461b5d7db8a6b843f43f5efabbd72add9", [
+   "r1_window/pose.nuon"
+  ]],
+ ["reading.nuon",            raw,       28846,  "450b7a502a574588db25e66b5055f890b157c7390a3db07efe9939d88320fac6", [
+   "reading.nuon"
+  ]],
+ ["reread.nuon",             raw,       902,    "0b78f998935c37755669e339e8eef03fdd975b8149b599c38e50145b4c34ea86", [
+   "reread.nuon"
+  ]],
+ ["reread.stderr.nuonl",     container, 243,    "80863f759d57bc2ce038763515aab556063ee65a4c722f1651be7ca61c80eb87", [
+   "reread.stderr"
+  ]],
+ ["reread.stdout.nuonl",     container, 29190,  "17d5acc6009ce56bdefa26bb14b111c8e0b47a16ee0ecdfa854ab65162f0d691", [
+   "reread.stdout"
+  ]],
+ ["spawn/pose.nuon",         raw,       8166,   "300307d51121a212704581cba17aeb5fbd37427a8f1fdbdd5f6d8c769d689e25", [
+   "spawn/pose.nuon"
+  ]],
+ ["spawn_rolled/pose.nuon",  raw,       7300,   "10928260c881c09826eff65f276e6088c0db1cfe6e9f66ce4d8c703aa6585b7e", [
+   "spawn_rolled/pose.nuon"
+  ]],
+ ["up/pose.nuon",            raw,       6853,   "9887c3b06ea8bceefc0ebeb57896abb8520401c5557e44f4511fb84dc6ee2628", [
+   "up/pose.nuon"
+  ]],
+ ["wall_edge/pose.nuon",     raw,       7948,   "5e9331e07a334f124528df8bad8bcdfaaae678f7f0d05c9246ea545c31c9b1bd", [
+   "wall_edge/pose.nuon"
+  ]],
+ ["window/pose.nuon",        raw,       8167,   "a3bc66311f6b4a0ff33eebe3b8586a182f946b015a6ae31fd2b189947539b30d", [
+   "window/pose.nuon"
+  ]],
+ ["yard/pose.nuon",          raw,       9610,   "ae9017061c34f169e99a88100f2df14370da6dfd3fdf0a470c3c9bbb0c24f869", [
+   "yard/pose.nuon"
+  ]]
+]

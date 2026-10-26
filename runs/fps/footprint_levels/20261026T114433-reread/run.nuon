@@ -1,0 +1,40 @@
+{
+ schema: 2,
+ set: footprint_levels,
+ stamp: "20261026T114433-reread",
+ task: FootprintEstimate,
+ scope: {
+  kind: targeted,
+  ran: 17,
+  of: 17,
+  names: [
+   bay,
+   down,
+   garage,
+   garage_far,
+   "r1_door",
+   "r1_grate",
+   "r1_landing",
+   "r1_light",
+   "r1_ramp",
+   "r1_spawn",
+   "r1_window",
+   spawn,
+   spawn_rolled,
+   up,
+   wall_edge,
+   window,
+   yard
+  ]
+ },
+ builds: [
+  [part,   build,                                      source,   record];
+  [reread, "f383edb0022ab287c60e23898d728aa561277ff3", checkout, "reread.nuon"]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "The first comparison runs/fps/footprint_levels/20261017T153736 read again through a restoration by footprint's reread at jab-stress 2da5624 over jab f383edb, against today's pose set at assets/fierce/poses/footprint.nuon, after FrameCeiling's fixes retired the fresh capture, its image builder, and IZ_TEST. Its five image records carry no IZ_MIN, so each floor was read from the image's archived ELF, 4096. Every pose's bindings, problems, reference, pictures, block table, and still copy equal to the last reread's, 20261020T031732-reread, the block tables not the capture's as that reread recorded; each of the 17 views equal on every field that reread held, today's reader adding iz_min and floor_depth; the set-level verdicts read incomplete, since today's set names android_near and garage_far_clamp, which this run never captured. The footprint crate's binary 9bb1f471, built anew as runs/fierce/footprint_levels/20261026T114430-reread records. Cited by FrameCeiling's FreshCapture plan."
+ },
+ inventory: "8155b796814b03c8495cb6fdd2f05fc4e4004055078ffd2e8d84c5d32af0f0eb",
+ storage: "761823cc758e1da74f1534b5aa1efffcf088caf42007243d00497837424294f3"
+}

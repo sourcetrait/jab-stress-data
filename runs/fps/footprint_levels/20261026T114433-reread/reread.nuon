@@ -1,0 +1,27 @@
+{
+ run: "/home/box/proj/sourcetrait/jab-stress-data/runs/fps/footprint_levels/20261017T153736",
+ reader: "fps footprint",
+ bin: "/home/box/proj/sourcetrait/jab-stress/nu/bin/nuance/fierce/footprint.nu",
+ words: [
+  reread,
+  "{tree}",
+  "{out}",
+  "/home/box/proj/sourcetrait/jab-stress-data/assets/fierce/poses/footprint.nuon"
+ ],
+ restoration: "e113974082ee6f9d45561856c718d692d2a9b862182aa2c445253800b0b98df0",
+ exit: 0,
+ identity: {
+  repos: [
+   [repo,                                  commit,                                     dirty];
+   [/home/box/proj/sourcetrait/jab-stress, "2da56242b96ee4c639efcfd164c8e63fcf2741d9", false],
+   [/home/box/proj/sourcetrait/jab,        "f383edb0022ab287c60e23898d728aa561277ff3", false]
+  ],
+  runtime: [
+   [role, version,   "sha256"];
+   [nu,   "0.116.1", "9afb8f05657a67fae75c5aef97c539c7e2a261f50163e80bdb08a348ccba3767"]
+  ],
+  executables: [
+
+  ]
+ }
+}

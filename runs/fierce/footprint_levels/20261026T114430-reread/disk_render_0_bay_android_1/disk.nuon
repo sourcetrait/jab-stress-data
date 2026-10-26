@@ -1,0 +1,7 @@
+{
+  name: "render_0_bay_android_1",
+  tree: "/home/box/tmp/ai/two/7jTQEKPDaoJ/reread/current_fc/out/disk_render_0_bay_android_1/tree/render_0_bay_android_1",
+  disk: "/home/box/tmp/ai/two/7jTQEKPDaoJ/reread/current_fc/out/disk_render_0_bay_android_1/render_0_bay_android_1.romfs",
+  "sha256": "7a89ae1fdc39a70bd23007f3aaeea18f9fbfc995c23a5e21d002f9305c7164f9",
+  map: "/home/box/tmp/ai/two/7jTQEKPDaoJ/reread/current_fc/out/disk_render_0_bay_android_1/tree/render_0_bay_android_1/map/render_0_bay_android_1.jabfps.map"
+}

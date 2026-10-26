@@ -1,0 +1,22 @@
+{
+  problems: [
+
+  ],
+  differ: [
+    "disk_render_1/render_1_still.romfs",
+    "disk_render_1/tree/render_1_still/tile.nuon"
+  ],
+  remade_problems: [
+
+  ],
+  remade_differ: [
+
+  ],
+  disk: {
+    first: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+    again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+    remade: "a25db6dee89d34ed4529d635f340b368f0cb427ed0580fe06d82e009e12afd0e",
+    content: /home/box/proj/sourcetrait/jab/game/fps/content,
+    held: true
+  }
+}

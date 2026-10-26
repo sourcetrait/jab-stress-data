@@ -1,0 +1,21 @@
+{
+ schema: 2,
+ set: footprint_levels,
+ stamp: "20261026T114430-reread",
+ task: FootprintEstimate,
+ scope: {
+  kind: targeted,
+  ran: 1,
+  of: 1
+ },
+ builds: [
+  [part,   build,                                      source,   record];
+  [reread, "f383edb0022ab287c60e23898d728aa561277ff3", checkout, "reread.nuon"]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "The current capture runs/fierce/footprint_levels/20261020T045854 read again through a restoration by footprint's reread at jab-stress 2da5624 over jab f383edb, against the pose set at assets/fierce/poses/footprint.nuon, after FrameCeiling's fixes retired the fresh capture, its image builder, and IZ_TEST: every pose's bindings, problems, reference, pictures, block table, and still copy equal to the last reread's, 20261025T054808-reread, its reading and again.nuon equal, 19 block tables the first's byte for byte, the paths and the tool apart. The footprint crate's binary was built anew at the reread's start, the shared cargo target holding no earlier build: SHA-256 9bb1f471, where the earlier rereads ran b2cbfedd; the crate's source is unchanged since jab 46f969b, and the same source built today into a fresh target is 9bb1f471 too. Cited by FrameCeiling's FreshCapture plan."
+ },
+ inventory: "0e7c2cb52c98632eb705ca30408066e458f851c7da5bcba38c37f979477b19d4",
+ storage: "1cb6ad6201c26993e98e51491245003c4c482f86f62c9a1cad426284c3669f39"
+}

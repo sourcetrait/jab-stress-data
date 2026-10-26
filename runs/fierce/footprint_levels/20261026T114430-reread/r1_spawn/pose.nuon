@@ -1,0 +1,266 @@
+{
+  pose: {
+    name: "r1_spawn",
+    map: "render_1",
+    x: 4.0,
+    y: 4.0,
+    z: 1.6,
+    yaw: 0,
+    pitch: 0,
+    roll: 0
+  },
+  disk: {
+    name: "render_1_still",
+    tree: "/home/box/tmp/ai/two/7jTQEKPDaoJ/reread/current_fc/out/disk_render_1/tree/render_1_still",
+    disk: "/home/box/tmp/ai/two/7jTQEKPDaoJ/reread/current_fc/out/disk_render_1/render_1_still.romfs",
+    "sha256": "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+    map: "/home/box/tmp/ai/two/7jTQEKPDaoJ/reread/current_fc/out/disk_render_1/tree/render_1_still/map/render_1_still.jabfps.map"
+  },
+  export: "/home/box/.sys/.xdg/cache/jab/target/jab-66f9749f/candidates/kit/fierce/footprint/export_c804ccb",
+  commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+  tool: {
+    path: "/home/box/.sys/.xdg/cache/cargo/target/release/footprint",
+    "sha256": "9bb1f471bc04d08ade35bb6e665f63d31d7c9983b776b4f1990d95cf2dc2382a",
+    commit: "f383edb0022ab287c60e23898d728aa561277ff3",
+    dirty: false
+  },
+  launch: {
+    api: true,
+    sound: false,
+    audio: none
+  },
+  rows: [
+    [label,             status, screen,                                                                                                      "screen_sha256",                                                    faults,     bake,                                                                   binding];
+    [owner,             124,    "/home/box/tmp/ai/two/7jTQEKPDaoJ/reread/current_fc/restoration/tree/r1_spawn/owner/screen.ppm",             "46f03f21ff2d108549292b0c87aa0dc682e760a2ac0243c992d5e7658942121c", [
+
+      ], {
+        maps: 79,
+        lumels: 13194,
+        unmapped: 0
+      }, {
+        stamp: 410,
+        from: 362,
+        frame: 410,
+        state: {
+          x: 4.0,
+          y: 4.0,
+          z: 1.600000023841858,
+          yaw: 0.0,
+          pitch: 0.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [levels,            124,    "/home/box/tmp/ai/two/7jTQEKPDaoJ/reread/current_fc/restoration/tree/r1_spawn/levels/screen.ppm",            "ccfacc908fb15127c9c09c2ebb6bc5bf16b8b8279bd665fac1e242da83ed8782", [
+
+      ], {
+        maps: 79,
+        lumels: 13194,
+        unmapped: 0
+      }, {
+        stamp: 398,
+        from: 352,
+        frame: 398,
+        state: {
+          x: 4.0,
+          y: 4.0,
+          z: 1.600000023841858,
+          yaw: 0.0,
+          pitch: 0.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [levels_candidate,  124,    "/home/box/tmp/ai/two/7jTQEKPDaoJ/reread/current_fc/restoration/tree/r1_spawn/levels_candidate/screen.ppm",  "9a4e729857324bdd792bdbf8c2ed24802ff77c1e22596b4543fca136f900162f", [
+
+      ], {
+        maps: 79,
+        lumels: 13194,
+        unmapped: 0
+      }, {
+        stamp: 378,
+        from: 334,
+        frame: 378,
+        state: {
+          x: 4.0,
+          y: 4.0,
+          z: 1.600000023841858,
+          yaw: 0.0,
+          pitch: 0.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [picture,           124,    "/home/box/tmp/ai/two/7jTQEKPDaoJ/reread/current_fc/restoration/tree/r1_spawn/picture/screen.ppm",           "ab7206d35962b2a11edac95ecbfc207a2d1536ca4a2a048fceec4a1913ce9cb8", [
+
+      ], {
+        maps: 79,
+        lumels: 13194,
+        unmapped: 0
+      }, {
+        stamp: 438,
+        from: 388,
+        frame: 438,
+        state: {
+          x: 4.0,
+          y: 4.0,
+          z: 1.600000023841858,
+          yaw: 0.0,
+          pitch: 0.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }],
+    [picture_candidate, 124,    "/home/box/tmp/ai/two/7jTQEKPDaoJ/reread/current_fc/restoration/tree/r1_spawn/picture_candidate/screen.ppm", "4987e0d0884926bee066b373ff7b2f60587124927af3a64c618672081bc1eee3", [
+
+      ], {
+        maps: 79,
+        lumels: 13194,
+        unmapped: 0
+      }, {
+        stamp: 410,
+        from: 363,
+        frame: 410,
+        state: {
+          x: 4.0,
+          y: 4.0,
+          z: 1.600000023841858,
+          yaw: 0.0,
+          pitch: 0.0,
+          roll: 0.0
+        },
+        problems: [
+
+        ]
+      }]
+  ],
+  reference: {
+    camera: {
+      x: 4.0,
+      y: 4.0,
+      z: 1.600000023841858,
+      yaw: 0.0,
+      pitch: 0.0,
+      roll: 0.0
+    },
+    iz_min: 4096,
+    floor_depth: 16384.0,
+    rows: 130965,
+    lumels: {
+      maps: 79,
+      lumels: 13194,
+      unmapped: 0
+    },
+    unread_materials: [
+
+    ],
+    owner: {
+      frame: 410,
+      spans: 0,
+      actors: 0
+    },
+    population: {
+      blocks: 130965,
+      classes: {
+        judged: 130965,
+        sky: 0,
+        unknown: 0,
+        unread: 0,
+        actor: 0,
+        degenerate: 0,
+        no_end: 0,
+        unpaired: 0
+      },
+      unresolved: 0,
+      sensitive: 1569,
+      clamped: 0,
+      actors: 0
+    },
+    captures: [
+      [file,                                                                                                       blocks, judged, agree,  sharper, coarser, secant_agree, secant_sharper, secant_coarser, levels,                                                                                                                                                      snapshot];
+      ["/home/box/tmp/ai/two/7jTQEKPDaoJ/reread/current_fc/restoration/tree/r1_spawn/levels/screen.ppm",           130965, 130965, 130945, 20,      0,       130948,       17,             0,              [
+          122379,
+          3760,
+          3934,
+          805,
+          0,
+          17,
+          70,
+          0,
+          0,
+          0
+        ], {
+          frame: 398,
+          spans: 6387,
+          actors: 0
+        }],
+      ["/home/box/tmp/ai/two/7jTQEKPDaoJ/reread/current_fc/restoration/tree/r1_spawn/levels_candidate/screen.ppm", 130965, 130965, 130962, 3,       0,       130965,       0,              0,              [
+          122379,
+          3730,
+          3964,
+          805,
+          0,
+          0,
+          87,
+          0,
+          0,
+          0
+        ],  {
+          frame: 378,
+          spans: 6387,
+          actors: 0
+        }]
+    ]
+  },
+  pictures: {
+    width: 1920,
+    height: 1080,
+    pixels: 356,
+    regions: [
+      ["x0", "y0", "x1", "y1", pixels, largest];
+      [825,  553,  926,  554,  101,    2],
+      [960,  553,  1095, 554,  135,    4],
+      [728,  799,  838,  800,  31,     5],
+      [886,  799,  1008, 800,  46,     22],
+      [1034, 799,  1074, 800,  16,     4],
+      [1122, 799,  1196, 800,  27,     21]
+    ]
+  },
+  problems: [
+
+  ],
+  reread: {
+    from: "/home/box/tmp/ai/two/7jTQEKPDaoJ/reread/current_fc/restoration/tree/r1_spawn/pose.nuon",
+    first_tool: {
+      path: /home/box/proj/sourcetrait/jab/kit/fierce/rust/target/release/footprint,
+      "sha256": "b2cbfedd7c5027965debc22908a0f825bca825345c71cd97f407e80e502be1fe",
+      commit: "c804ccbc15a97e36016b9001b2e211b04431f3ed",
+      dirty: false
+    },
+    differences: [
+
+    ],
+    no_span_table: [
+
+    ],
+    still: {
+      first: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+      again: "d45cfc33a5b2527eba879c47a384b1ef300c94fa9ea8745b22056b0dcc61f14f",
+      remade: null,
+      content: null,
+      held: true
+    },
+    "rows_sha256": "45ac38e516236aa9c89162b5446149ecad0a83d45fa3a2d6b3ebad16b343bf39",
+    "first_rows_sha256": "45ac38e516236aa9c89162b5446149ecad0a83d45fa3a2d6b3ebad16b343bf39",
+    rows_same: true,
+    pictures_same: true
+  }
+}
