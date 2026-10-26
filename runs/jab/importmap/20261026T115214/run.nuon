@@ -1,0 +1,21 @@
+{
+ schema: 2,
+ set: importmap,
+ stamp: "20261026T115214",
+ task: FrameCeiling,
+ scope: {
+  kind: whole,
+  ran: 1,
+  of: 1
+ },
+ builds: [
+  [part, build,                                      source,   record];
+  [run,  "728b2e5fa6fcfd2cf039ddf74305a2791c36a091", checkout, "report.nuon"]
+ ],
+ kept: {
+  as: current,
+  why: "The import-map checker after FrameCeiling's fixes, FreshCapture and DerivativeFixture: jab 728b2e5f and jab-stress 1ac748a7, both clean, held to the contract (jab-stress-data 7288ef9, SHA-256 1b764000) by jab-stress's `nu/bin/nuance/importmap.nu check`, every group landed: 301 sources, 2783 declarations, 419 contract defs, 790 import edges, and 285 consumer calls, no refusal. The contract retires the fresh capture's and its builder's declarations (jab-stress-data d617710) and test/footprint's test (7288ef9) under FrameCeiling; the runners' long engine is its equip path's (jab-stress f044afc)."
+ },
+ inventory: "d763f3d3921b33d2fbf741ca408082b1bd93511854c990a25f877547198d0c28",
+ storage: "b6e1d3a8f767ca14049343592ddd5eebd299c112b7ff55e3eec88a3eafa389db"
+}
