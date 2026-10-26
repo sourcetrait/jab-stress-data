@@ -1,0 +1,28 @@
+{
+ before: {
+  file: "/home/box/tmp/ai/two/7jTQEKPDaoJ/freshbuild/before_3222dfc/manifest.nuon",
+  commit: "3222dfc314d0363556a494497c83536c95d0f315"
+ },
+ after: {
+  file: "/home/box/tmp/ai/two/7jTQEKPDaoJ/freshbuild/after_fec6e86",
+  commit: "fec6e86c270c99ee7bd5cdcebcf1cb9c1abe1c1b"
+ },
+ moves: {
+  paths: [
+   [from,     to];
+   [game/fps, kit/fierce]
+  ],
+  names: [
+   [program,    from, to];
+   [kit/fierce, fps,  fierce]
+  ]
+ },
+ rows: 335,
+ same: 335,
+ remade: [
+
+ ],
+ refusals: [
+
+ ]
+}

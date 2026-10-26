@@ -1,0 +1,5 @@
+[
+ [path,            role,   length, "sha256",                                                           disposition, reason];
+ ["compare.nuon",  record, 495,    "1178a3f060046b5982bd846e41700e3a48c44944f6f9723ea9ea158a80f66475", kept,        ""],
+ ["manifest.nuon", record, 83432,  "c3272e4268aabf6dbe2f62e102e6200caf92479692fcfe0897da2acc201c5cb2", kept,        ""]
+]

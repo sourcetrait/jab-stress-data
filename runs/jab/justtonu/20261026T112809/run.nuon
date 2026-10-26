@@ -1,0 +1,21 @@
+{
+ schema: 2,
+ set: justtonu,
+ stamp: "20261026T112809",
+ task: FrameCeiling,
+ scope: {
+  kind: whole,
+  ran: 30,
+  of: 30
+ },
+ builds: [
+  [part, build,                                      source,   record];
+  [run,  "3222dfc314d0363556a494497c83536c95d0f315", checkout, "manifest.nuon"]
+ ],
+ kept: {
+  as: checkpoint,
+  why: "FrameCeiling's fixes, MatrixCoverage: the fresh build before FLIP_BATCH's and FOOTPRINT's removal on the matrix extended by SERVICE, SERVICE under DEBUG, and the footprint builder's two IZ_TEST tuples (jab-stress 2599ac1): jab 3222dfc's 30 builds in a fresh cache, from a detached worktree of the checkout with its toolchain link made, by `nuance.nu freshbuild manifest`, 335 rows, no build failing; the baseline the extended comparison is held to. Cited by runs/jab/justtonu/20261026T112900 and FrameCeiling's MatrixCoverage plan."
+ },
+ inventory: "9e4550f8c8797a199a44731b9f96bb436b4eec00f28ee7cf6aa197dc7e4d3933",
+ storage: "364ea2d0f3ec56c8545fdd52b26a98fbaa4aac3595b67a1e4e320e11a9e0d86b"
+}

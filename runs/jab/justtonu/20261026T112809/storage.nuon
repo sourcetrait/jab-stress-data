@@ -1,0 +1,6 @@
+[
+ [object,          kind, length, "sha256",                                                           holds];
+ ["manifest.nuon", raw,  83432,  "59b935a738d2566682dfa03dc9e10397be5a530027c31735aeaf323266d65306", [
+   "manifest.nuon"
+  ]]
+]

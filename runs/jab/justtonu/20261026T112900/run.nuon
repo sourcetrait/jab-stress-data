@@ -1,0 +1,21 @@
+{
+ schema: 2,
+ set: justtonu,
+ stamp: "20261026T112900",
+ task: FrameCeiling,
+ scope: {
+  kind: whole,
+  ran: 30,
+  of: 30
+ },
+ builds: [
+  [part, build,                                      source,   record];
+  [run,  "fec6e86c270c99ee7bd5cdcebcf1cb9c1abe1c1b", checkout, "manifest.nuon"]
+ ],
+ kept: {
+  as: current,
+  why: "FrameCeiling's fixes, MatrixCoverage: jab fec6e86's 30 builds of the extended matrix in a fresh cache by jab-stress 2599ac1's `nuance.nu freshbuild manifest`, held by `freshbuild compare` to the manifest at 3222dfc taken the same way (runs/jab/justtonu/20261026T112809): all 335 rows the same, 124 images, 124 ELFs, 33 disks, 27 kernel ELFs, and 27 kernels' loaded bytes, none remade, no refusal (compare.nuon). FLIP_BATCH's and FOOTPRINT's removal left every configuration the qualification benches, the suite's service set, and the footprint builder build byte for byte as it was, beside the 315-row pair of runs/jab/justtonu/20261025T053226. Cited by FrameCeiling's MatrixCoverage plan."
+ },
+ inventory: "7a37153a41045f2dc7c614dd38fe0ca2d99d9e30842aae84c55aa4004c4b7ef2",
+ storage: "a7b85906b0a1b0e3482af3acf60cc45577e29b065e040d7bd4c9e3261528253f"
+}
